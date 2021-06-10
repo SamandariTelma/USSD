@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter liste vide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f68a1ea7-ca1d-49bf-9cac-af73eda6c919</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>2d25ed2b-7eeb-401f-b4c0-a91f3f7440e9</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

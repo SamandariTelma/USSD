@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Limite d ajout numero friends</name>
+   <tag></tag>
+   <comment>Essayer d' ajouter un 4ème numéro dans ma liste FAF</comment>
+   <testCaseGuid>db162d33-0bce-4fce-95b2-0b88929f6edc</testCaseGuid>
+</TestCaseEntity>

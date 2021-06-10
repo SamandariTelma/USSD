@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SOS crédit après Remboursement du crédit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2759711a-aed7-4161-9f01-0175cac13696</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>f3aa698c-5ff4-42a7-acde-f0705c1e4c2c</id>
+      <masked>false</masked>
+      <name>menuMontant</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description></description>
+      <id>c7c4943e-12c2-4235-be1e-d30e0a8fe9fb</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

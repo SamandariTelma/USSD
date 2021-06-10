@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Rembourser un ami qui n a pas de dette</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c9fda0b-dffd-4ff7-81f3-cb98eada4a0a</testCaseGuid>
+</TestCaseEntity>

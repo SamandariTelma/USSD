@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Suppression d un numéro inéxistant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6de482b-8b79-4fb8-82e1-a8ec36c93ee7</testCaseGuid>
+</TestCaseEntity>

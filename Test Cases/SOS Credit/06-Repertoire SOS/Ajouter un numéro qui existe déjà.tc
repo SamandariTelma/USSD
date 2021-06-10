@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ajouter un numéro qui existe déjà</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8efd14e9-18e9-4717-b6a7-343c331b31d1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SOS crédit avec succès</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2dde780-fee2-4d51-b63e-66cc9b198f66</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>1b4bba0c-1f8c-4683-be13-ab1b8794268b</id>
+      <masked>false</masked>
+      <name>menuMontant</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.montantARembourser</defaultValue>
+      <description></description>
+      <id>da91a246-0aaf-4a0d-823f-3ab7aca1c48a</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

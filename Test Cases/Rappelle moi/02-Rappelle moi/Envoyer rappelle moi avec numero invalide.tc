@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Envoyer rappelle moi avec numero invalide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fcf07981-fc78-4989-b3f5-d40c160663cc</testCaseGuid>
+</TestCaseEntity>

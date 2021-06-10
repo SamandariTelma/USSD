@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter les numéros</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0610f5db-9ba4-433b-8ace-f5cbf9e5e3f8</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnAAjouter1</defaultValue>
+      <description></description>
+      <id>fb05a632-167d-46ab-a082-646e60691fcb</id>
+      <masked>false</masked>
+      <name>numeroAjoute1</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnAAjouter2</defaultValue>
+      <description></description>
+      <id>b0ceea4b-5f42-4920-95f0-ecececd08cf9</id>
+      <masked>false</masked>
+      <name>numeroAjoute2</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnAAjouter3</defaultValue>
+      <description></description>
+      <id>6da77c2d-a0b5-455b-8d3a-f63c9d62a25f</id>
+      <masked>false</masked>
+      <name>numeroAjoute3</name>
+   </variable>
+</TestCaseEntity>

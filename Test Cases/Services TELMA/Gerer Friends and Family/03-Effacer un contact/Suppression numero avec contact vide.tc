@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Suppression numero avec contact vide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>acf9f549-74c7-43d3-965f-81e2c142f1c8</testCaseGuid>
+</TestCaseEntity>

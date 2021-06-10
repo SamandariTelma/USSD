@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SOS crédit à un ami avec succès</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dea05cce-6e24-43f8-ba24-1eee38a00f20</testCaseGuid>
+   <variable>
+      <defaultValue>'300'</defaultValue>
+      <description></description>
+      <id>08e08c71-eb22-4ca7-87bf-56ff6e537959</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

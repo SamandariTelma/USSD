@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Rembourser une dette inférieur à un crédit de 100 Ar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec7b52b1-99b1-46b0-b265-f59d3af04dba</testCaseGuid>
+</TestCaseEntity>

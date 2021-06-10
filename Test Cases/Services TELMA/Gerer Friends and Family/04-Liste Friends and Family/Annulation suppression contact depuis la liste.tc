@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Annulation suppression contact depuis la liste</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c05945cb-ddf9-41f0-853f-3e502e446e5f</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnAAjouter2</defaultValue>
+      <description></description>
+      <id>cb767643-d0fe-4a84-a89c-d412cb9b4094</id>
+      <masked>false</masked>
+      <name>numeroASupprime</name>
+   </variable>
+</TestCaseEntity>

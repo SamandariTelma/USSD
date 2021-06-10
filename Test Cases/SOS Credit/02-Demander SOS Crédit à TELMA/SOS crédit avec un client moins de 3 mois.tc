@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SOS crédit avec un client moins de 3 mois</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>602ff02b-6476-4541-9a63-17a62c8885ab</testCaseGuid>
+</TestCaseEntity>

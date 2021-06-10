@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SOS crédit avec un montant non inférieur et supérieur à la limite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>058d0fe3-d6c5-43a7-b3b8-98a3d768166d</testCaseGuid>
+</TestCaseEntity>

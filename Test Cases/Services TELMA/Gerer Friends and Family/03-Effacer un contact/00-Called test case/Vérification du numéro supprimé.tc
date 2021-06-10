@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Vérification du numéro supprimé</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>83af08b0-8336-4b03-b2cb-71591014f707</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnAAjouter1</defaultValue>
+      <description></description>
+      <id>4e8531c6-aca5-40b3-be21-c7db21e3c4e7</id>
+      <masked>false</masked>
+      <name>numeroASupprimer</name>
+   </variable>
+</TestCaseEntity>

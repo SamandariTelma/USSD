@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Rappelle moi avec succès</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>56940e8a-910d-42c0-8a60-9b0263a8bfc7</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>1931b46c-3536-4ecf-b8a5-029cc4ea7dec</id>
+      <masked>false</masked>
+      <name>msisdnInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>5230b2d2-5736-40ac-a337-43141b08fdb3</id>
+      <masked>false</masked>
+      <name>msisdnRecepteur</name>
+   </variable>
+</TestCaseEntity>
