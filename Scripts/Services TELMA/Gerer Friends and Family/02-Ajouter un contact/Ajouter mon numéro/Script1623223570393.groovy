@@ -15,14 +15,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+String numeroInitiateur="${numeroInitiateur}"
+
+String monNumero="${monNumero}"
+
 'En tant que client TELMA, je vais dans le menu Gerer Friends and family'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', GlobalVariable.msisdnInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis 1 (Ajouter un contact)'
 CustomKeywords.'ussd.Send.response'('1')
 
 'J\'ajoute mon numéro en tant que numero Friends and family'
-String actualMenu=CustomKeywords.'ussd.Send.response'(GlobalVariable.monNumero)
+String actualMenu=CustomKeywords.'ussd.Send.response'(monNumero)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Impossible de vous ajouter vous meme dans votre propre liste Friends & Familly', 

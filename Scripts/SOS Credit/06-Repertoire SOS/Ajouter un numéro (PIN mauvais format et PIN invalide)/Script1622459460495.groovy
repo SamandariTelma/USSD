@@ -15,9 +15,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+String numeroInitiateur="${numeroInitiateur}"
+
 String numeroAAjouter=GlobalVariable.numeroAAjouter
+
 'En tant que client TELMA, je vais dans le menu repertoire SOS en composant le #111# > 3 > 4 >3'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4*3#', GlobalVariable.msisdnInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4*3#', numeroInitiateur)
 
 'Je saisis 1 et je valide'
 CustomKeywords.'ussd.Send.response'('1')

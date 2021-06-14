@@ -5,4 +5,25 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8efd14e9-18e9-4717-b6a7-343c331b31d1</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>9589ed6b-7ad6-4d8d-9593-cacfc616ffb9</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnRecepteur</defaultValue>
+      <description></description>
+      <id>f9612325-5983-4ea0-8d91-2c68671b4997</id>
+      <masked>false</masked>
+      <name>pinMsisdnInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>00c30bc3-1789-4853-97ca-f0d354b2943e</id>
+      <masked>false</masked>
+      <name>numeroDejaRepertorie</name>
+   </variable>
 </TestCaseEntity>

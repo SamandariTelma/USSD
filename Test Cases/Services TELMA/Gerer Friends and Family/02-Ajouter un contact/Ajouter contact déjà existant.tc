@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e339b245-52dd-4af9-bee8-23d5c746be28</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>9fa84e6d-0f6f-46f1-93c0-c41425aeaf6c</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnAAjouter1</defaultValue>
+      <description></description>
+      <id>9af3eee1-c32b-490b-9913-411e07ee2fde</id>
+      <masked>false</masked>
+      <name>numeroExistant</name>
+   </variable>
 </TestCaseEntity>

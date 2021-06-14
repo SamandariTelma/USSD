@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>058d0fe3-d6c5-43a7-b3b8-98a3d768166d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>bdded510-30ec-43e9-8611-68d33e7a1c53</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>6f08429a-67a2-4d76-9ba3-6ff8844e2241</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
 </TestCaseEntity>

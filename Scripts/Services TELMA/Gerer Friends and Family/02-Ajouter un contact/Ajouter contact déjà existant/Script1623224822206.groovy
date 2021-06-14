@@ -15,9 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroExistant=GlobalVariable.msisdnAAjouter1
+
+String numeroInitiateur="${numeroInitiateur}"
+
+String numeroExistant="${numeroExistant}"
+
 'En tant que client TELMA, je vais dans le menu Gerer Friends and family'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', GlobalVariable.msisdnInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis 1 (Ajouter un contact)'
 CustomKeywords.'ussd.Send.response'('1')

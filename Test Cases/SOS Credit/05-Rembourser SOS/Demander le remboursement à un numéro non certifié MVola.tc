@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>bddac75e-99f0-432e-98d7-83d1b1b34a3e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>b603c768-6741-446a-a6ac-0982c1704e00</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnNonMVola</defaultValue>
+      <description></description>
+      <id>0f608672-08d4-42c6-b36e-8a9823c75724</id>
+      <masked>false</masked>
+      <name>numeroNonMVola</name>
+   </variable>
 </TestCaseEntity>

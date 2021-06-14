@@ -16,6 +16,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/01-Menu Friends and Family/Consulter le menu Friends and Family</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>364b0687-b3f1-4491-a78d-8cdabfa132e9</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c61fb725-cd15-4ba5-a337-7f379aa2bcbc</guid>
@@ -34,18 +40,48 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/03-Effacer un contact/Suppression numero avec contact vide</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eef599c6-e17c-412d-9bf0-01ad63e85073</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d72c1042-8cc8-4f0e-84bd-671256a09a34</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>e05afcc8-a4c9-4d58-8399-e4ab52fe2f21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/02-Ajouter un contact/Ajouter mon numéro</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cd7685e0-ed1f-427b-967a-874bd63f5f84</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bb09025b-e252-4814-afad-491e419ca8e1</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>54eff460-6398-4f50-bcb4-8ade00dd3a82</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/02-Ajouter un contact/Ajouter un numéro invalide</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>212b2d6c-429a-4f16-89b1-c006e96298bc</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>cac8e3b2-abd4-4f0e-b54e-e06ae44f3c62</guid>
@@ -58,18 +94,42 @@
          <value></value>
          <variableId>13a5a2a9-7362-4577-8c4d-acbc0a4479f0</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>714265ff-618f-455b-9beb-7f2b5695cde6</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>954559fa-73aa-4a9a-829a-09f1e23d38fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/02-Ajouter un contact/Ajouter contact déjà existant</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9fa84e6d-0f6f-46f1-93c0-c41425aeaf6c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9af3eee1-c32b-490b-9913-411e07ee2fde</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>07bda105-6819-44ab-9240-3fb606f7598a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/02-Ajouter un contact/Limite d ajout numero friends</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>04227267-3470-49ec-aac4-905fcc8fbf9f</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c7441ce0-c53b-4aea-a47b-f2396bc01274</guid>
@@ -94,24 +154,66 @@
          <value></value>
          <variableId>6da77c2d-a0b5-455b-8d3a-f63c9d62a25f</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1610bc95-01f5-4846-ad86-e93339b73efa</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>13b091a6-bbde-4027-9b63-e8d2da164fc4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/03-Effacer un contact/Suppression d un numéro inéxistant</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6d3f4240-7585-4baa-bbc7-7293ccc59bc2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>358625b2-2d71-4c10-8304-efbbdc7ed784</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>0dff32b9-c9f5-499f-a125-f3d056414361</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/03-Effacer un contact/Suppression avec succès</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>321d3c22-27c6-456c-89bf-867786d4782a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>55640902-bf44-4d5c-9181-a668b93cee78</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>cb62be9b-c493-4370-91b0-8c322686bafa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/03-Effacer un contact/Limite de suppriession contact</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2135f2c3-34f2-4aa2-bc4a-005af67c7870</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5283910c-c1d3-4d3b-83f5-31c0ad71d840</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c7740a95-1eda-4e5b-b0fb-16a12bd3e596</guid>
@@ -123,6 +225,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>e59f7224-f762-4638-890e-8c902107aa67</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3ada1589-bc87-4190-b2c3-dbb19a35ba27</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -136,11 +244,23 @@
          <value></value>
          <variableId>cb767643-d0fe-4a84-a89c-d412cb9b4094</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5500a542-6d8f-4ee4-a95d-20f30a0be527</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>95d27279-2c7e-4b0e-9409-35eb57598784</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/03-Effacer un contact/Suppression numero invalide</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>213ae973-1d91-48b3-91c5-12adffcb6c01</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

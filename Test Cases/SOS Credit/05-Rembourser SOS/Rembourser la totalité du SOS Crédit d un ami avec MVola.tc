@@ -5,4 +5,32 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>91f51d51-2511-4e96-8318-acb167620703</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>b1aad45c-23cc-439b-a6e3-7f83271b3268</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>5f67337d-f999-4e6c-a5c0-57a890f2e01a</id>
+      <masked>false</masked>
+      <name>numeroARembourser</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.montantARembourser</defaultValue>
+      <description></description>
+      <id>d5bf82bd-7094-4ac3-ac7d-290272cdc408</id>
+      <masked>false</masked>
+      <name>montantARembourser</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>d461e890-31d4-463b-a25a-44d895bc5afc</id>
+      <masked>false</masked>
+      <name>pinMsisdnInitiateur</name>
+   </variable>
 </TestCaseEntity>

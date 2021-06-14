@@ -15,10 +15,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+String numeroInitiateur = "$numeroInitiateur"
+
 String numeroAAjouter = "$numeroAAjouter"
 
 'En tant que client TELMA, je vais dans le menu Gerer Friends and family en composant *130*4*3#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', GlobalVariable.msisdnInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 
 'Je saisis 1 (Ajouter un contact)'
 String actualMenu = CustomKeywords.'ussd.Send.response'('1')
@@ -39,6 +41,8 @@ WS.verifyMatch(actualMenu, menu, true)
 
 println(numeroAAjouter)
 
+'Vérifier que le numéro est ajouté dans le repertoire'
+
 WebUI.callTestCase(findTestCase('Services TELMA/Gerer Friends and Family/02-Ajouter un contact/00-Called test case/Vérification du numéro ajouté'), 
-    [('numeroAjoute') : numeroAAjouter], FailureHandling.CONTINUE_ON_FAILURE)
+    [('numeroInitiateur') : numeroInitiateur, ('numeroAjoute') : GlobalVariable.msisdnAAjouter1], FailureHandling.CONTINUE_ON_FAILURE)
 

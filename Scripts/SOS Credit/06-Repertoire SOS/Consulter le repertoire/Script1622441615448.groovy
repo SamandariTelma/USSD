@@ -15,8 +15,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+String numeroInitiateur="${numeroInitiateur}"
+
+String numeroAjoute="${numeroAjoute}"
+
 'En tant que client TELMA, je vais dans le menu repertoire SOS en composant le #111# > 3 > 4 >3'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4*3#', GlobalVariable.msisdnInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4*3#', numeroInitiateur)
 
 'Je saisis 3 et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')
@@ -28,6 +32,4 @@ String menu=CustomKeywords.'ussd.Expected.menu'('^Les numéros autorisés à rem
 WS.verifyMatch(actualMenu, menu, true)
 
 'Vérifier que les numéros que je viens d\'ajouter exite dans la liste'
-String numeroAjoute=GlobalVariable.numeroAAjouter
-
 WS.verifyMatch(actualMenu, '^.*'+numeroAjoute+'.*$', true)

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Rappelle moi MG</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'*130#'</initValue>
+      <name>ShortCodeTELMA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'*130*2'</initValue>
+      <name>shortCode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0343500003'</initValue>
+      <name>msisdnInitiateur</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0343500078'</initValue>
+      <name>msisdnRecepteur</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mg'</initValue>
+      <name>langue</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>SOS Credit</name>
+   <name>SOS Credit FR</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
@@ -21,17 +21,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'0000'</initValue>
+      <name>pinMsisdnRecepteur</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'200'</initValue>
       <name>sessionId</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0343500078'</initValue>
+      <initValue>'0343500003'</initValue>
       <name>msisdnInitiateur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0343500003'</initValue>
+      <initValue>'0343500078'</initValue>
       <name>msisdnRecepteur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -53,11 +58,6 @@
       <description></description>
       <initValue>'*130*3'</initValue>
       <name>shortCode</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'0346849627'</initValue>
-      <name>numeroAAjouter</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

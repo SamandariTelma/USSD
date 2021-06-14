@@ -15,9 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroAEfface=GlobalVariable.msisdnAAjouter2
+String numeroInitiateur="${numeroInitiateur}"
+
+String numeroAEfface="${numeroAEfface}"
 'Etand donné que j\'ai déjà supprimé auparavant un numéro FAF, je vais dans le menu Effacer un contact en composant *130*4*3*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#', GlobalVariable.msisdnInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#', numeroInitiateur)
 
 'je supprime un numéro dans ma liste de contact Friends & Family'
 String actualMenu=CustomKeywords.'ussd.Send.response'(numeroAEfface)

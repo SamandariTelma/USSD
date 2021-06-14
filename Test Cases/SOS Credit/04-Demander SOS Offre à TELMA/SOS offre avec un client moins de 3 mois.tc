@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1903d3ac-1667-4bda-b0e7-975f3f2102db</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnNonEligible</defaultValue>
+      <description></description>
+      <id>05684e56-c427-4530-9044-f7aad6061bd1</id>
+      <masked>false</masked>
+      <name>numeroNonEligible</name>
+   </variable>
 </TestCaseEntity>

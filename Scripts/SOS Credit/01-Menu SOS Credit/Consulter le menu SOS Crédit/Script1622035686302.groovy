@@ -15,8 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+String numeroInitiateur="${numeroInitiateur}"
 'En tant que client TELMA, je vais dans mon USSD en composant le short code *130#'
-String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA,GlobalVariable.msisdnInitiateur)
+String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA,numeroInitiateur)
 
 'Vérifier l\'affichage du menu SOS Credit parmi les menus affichés'
 

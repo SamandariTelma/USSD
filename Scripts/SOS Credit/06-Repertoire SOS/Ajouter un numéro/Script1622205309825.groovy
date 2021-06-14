@@ -15,10 +15,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroAAjouter=GlobalVariable.numeroAAjouter
+String numeroInitiateur="${numeroInitiateur}"
+
+String pinMsisdnInitiateur="${pinMsisdnInitiateur}"
+
+String numeroAAjouter="${numeroAAjouter}"
 
 'En tant que client TELMA, je vais dans le menu pour SOS Crédit en composant le #111# > 3, puis je sasis 4 et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4', GlobalVariable.msisdnInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4', numeroInitiateur)
 
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
@@ -57,7 +61,7 @@ menu=CustomKeywords.'ussd.Expected.menu'('^Pour ajouter le numéro '+numeroAAjou
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je sais mon code secret MVola et je valide'
-actualMenu=CustomKeywords.'ussd.Send.response'(GlobalVariable.pinMsisdnInitiateur)
+actualMenu=CustomKeywords.'ussd.Send.response'(pinMsisdnInitiateur)
 
 menu=CustomKeywords.'ussd.Expected.menu'('^Le numéro '+numeroAAjouter+' \\(.{1,50}\\) a été ajouté à la liste des personnes autorisées à rembourser votre SOS\\.$',
 	'^Ny laharana  '+numeroAAjouter+' \\(.{1,50}\\) dia tafiditra ao anatin ny listr ireo olona afaka mamerina ny SOS nataonao$')

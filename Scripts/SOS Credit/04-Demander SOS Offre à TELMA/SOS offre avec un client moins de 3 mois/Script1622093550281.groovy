@@ -15,8 +15,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+String numeroNonEligible="${numeroNonEligible}"
+
 'En tant que client TELMA, je vais dans le menu pour SOS Crédit en composant #111 > 3, puis je Je saisis 2 et je valide'
-String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*3#', GlobalVariable.msisdnNonEligible)
+String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*3#', numeroNonEligible)
 
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'('^Cher abonne, pour beneficier de ce service, merci d\'utiliser davantage les services TELMA\\.$', 

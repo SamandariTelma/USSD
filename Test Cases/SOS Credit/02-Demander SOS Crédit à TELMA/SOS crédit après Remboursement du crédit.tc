@@ -19,4 +19,11 @@
       <masked>false</masked>
       <name>montant</name>
    </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>28f660ad-0092-4499-a5ef-db0cda0b5003</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
 </TestCaseEntity>

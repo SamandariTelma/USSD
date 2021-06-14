@@ -15,10 +15,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroASupprimer="${numeroAjoute}"
+String numeroInitiateur="${numeroInitiateur}"
+
+String numeroASupprimer="${numeroASupprimer}"
 
 'En tant que client TELMA, je vais dans le menu Gerer Friends and family en composant *130*4*3#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', GlobalVariable.msisdnInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis 3 (Liste Friends & Family) et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')

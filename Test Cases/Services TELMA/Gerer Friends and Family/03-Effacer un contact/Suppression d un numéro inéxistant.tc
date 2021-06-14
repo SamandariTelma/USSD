@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d6de482b-8b79-4fb8-82e1-a8ec36c93ee7</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>6d3f4240-7585-4baa-bbc7-7293ccc59bc2</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'0340030816'</defaultValue>
+      <description></description>
+      <id>358625b2-2d71-4c10-8304-efbbdc7ed784</id>
+      <masked>false</masked>
+      <name>numeroNonFAF</name>
+   </variable>
 </TestCaseEntity>

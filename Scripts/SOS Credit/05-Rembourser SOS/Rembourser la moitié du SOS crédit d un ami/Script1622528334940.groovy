@@ -15,9 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroARembourser=GlobalVariable.msisdnRecepteur
+String numeroInitiateur="${numeroInitiateur}"
 
-String montantARembourser=GlobalVariable.montantARembourser
+String numeroARembourser="${numeroARembourser}"
+
+String montantARembourser="${montantARembourser}"
 
 String moitieARembourser=((montantARembourser.toInteger())/2).toString()
 
@@ -25,7 +27,7 @@ GlobalVariable.montantARembourser=moitieARembourser
 
 'En tant que client TELMA, je vais dans le menu pour SOS Crédit en composant le #111# > 3, puis je sasis 4 et je valide'
 
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4#', GlobalVariable.msisdnInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4#', numeroInitiateur)
 
 'Je saisis 2 et je valide'
 

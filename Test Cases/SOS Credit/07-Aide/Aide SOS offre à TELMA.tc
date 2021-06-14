@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>90f9fdbd-3341-42b9-9467-33d7ed4a2691</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>64816a15-2941-4695-aeab-5431c2237354</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
 </TestCaseEntity>

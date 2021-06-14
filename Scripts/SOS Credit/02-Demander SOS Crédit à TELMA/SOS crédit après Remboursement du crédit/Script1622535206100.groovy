@@ -18,9 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 String menuMontant="${menuMontant}"
 String montant="${montant}"
 GlobalVariable.montantARembourser=montant
+String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que client TELMA je me rends sur le menu SOS Credit à TELMA en composant le short code #111# > 3 > 2'
-String actualMenu= CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#', GlobalVariable.msisdnRecepteur)
+String actualMenu= CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#', numeroInitiateur)
 
 String menu=CustomKeywords.'ussd.Expected.menu'('^Selectionner le montant du credit:\n1 200\n2 500\n3 1000\n4 2000\n5 5000\n6 10000$')
 

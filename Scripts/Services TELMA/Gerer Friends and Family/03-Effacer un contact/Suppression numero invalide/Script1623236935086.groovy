@@ -15,8 +15,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+String numeroInitiateur="${numeroInitiateur}"
+
 'En tant que client TELMA, je vais dans le menu Effacer un contact en composant *130*4*3*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#', GlobalVariable.msisdnInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#', numeroInitiateur)
 
 'Je saisis un numéro au mauvais format'
 String actualMenu=CustomKeywords.'ussd.Send.response'('034')

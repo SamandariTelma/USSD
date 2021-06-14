@@ -15,10 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+String numeroInitiateur="${numeroInitiateur}"
 'En tant que client TELMA, me rends dans le menu SOS Crédit à un ami en composant le short code #111# >3>1'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '*1#', GlobalVariable.msisdnInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '*1#', numeroInitiateur)
 
-String actualMenu=CustomKeywords.'ussd.Send.response'(GlobalVariable.msisdnInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.response'(numeroInitiateur)
 
 String menu=CustomKeywords.'ussd.Expected.menu'('^Vous ne pouvez pas envoyer une demande a vous-meme\\.$', '^Tsy afaka mandefa fangatahana any amin\'ny tenanao ianao\\.$')
 

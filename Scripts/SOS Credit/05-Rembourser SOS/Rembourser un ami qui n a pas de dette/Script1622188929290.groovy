@@ -15,10 +15,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroSansDette=GlobalVariable.msisdnRecepteur
+String numeroInitiateur="${numeroInitiateur}"
+
+String numeroSansDette="${numeroSansDette}"
 
 'En tant que client TELMA, je vais dans le menu pour SOS Crédit en composant le #111# > 3, puis je sasis 4 et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4#', GlobalVariable.msisdnInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4#', numeroInitiateur)
 
 'Je sasis 2 et je valide'
 CustomKeywords.'ussd.Send.response'('2')

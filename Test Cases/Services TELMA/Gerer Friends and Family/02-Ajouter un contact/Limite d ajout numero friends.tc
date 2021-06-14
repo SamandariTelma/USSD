@@ -3,6 +3,13 @@
    <description></description>
    <name>Limite d ajout numero friends</name>
    <tag></tag>
-   <comment>Essayer d' ajouter un 4ème numéro dans ma liste FAF</comment>
+   <comment></comment>
    <testCaseGuid>db162d33-0bce-4fce-95b2-0b88929f6edc</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>04227267-3470-49ec-aac4-905fcc8fbf9f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
 </TestCaseEntity>

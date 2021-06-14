@@ -6,6 +6,13 @@
    <comment></comment>
    <testCaseGuid>a465012c-7d2a-400b-8808-1bcc3ed01c29</testCaseGuid>
    <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>714265ff-618f-455b-9beb-7f2b5695cde6</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
       <defaultValue>GlobalVariable.msisdnAAjouter1</defaultValue>
       <description></description>
       <id>13a5a2a9-7362-4577-8c4d-acbc0a4479f0</id>

@@ -15,10 +15,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroAEfface = GlobalVariable.msisdnAAjouter1
+String numeroInitiateur = "$numeroInitiateur"
+
+String numeroAEfface = "$numeroAEfface"
 
 'En tant que client TELMA, je vais dans le menu Gerer Friends and family en composant *130*4*3#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', GlobalVariable.msisdnInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 
 'Je saisis 2 (Effacer un contact) puis valide'
 String actualMenu = CustomKeywords.'ussd.Send.response'('2')
@@ -37,6 +39,8 @@ menu = CustomKeywords.'ussd.Expected.menu'(('Le numero ' + numeroAEfface) + ' a 
 
 WS.verifyMatch(actualMenu, menu, true)
 
+'Vérifier que le msisdn ne figure plus parmis la liste contact FAF'
+
 WebUI.callTestCase(findTestCase('Services TELMA/Gerer Friends and Family/03-Effacer un contact/00-Called test case/Vérification du numéro supprimé'), 
-    [('numeroASupprimer') : numeroAEfface], FailureHandling.CONTINUE_ON_FAILURE)
+    [('numeroInitiateur') : numeroInitiateur, ('numeroASupprimer') : numeroAEfface], FailureHandling.CONTINUE_ON_FAILURE)
 

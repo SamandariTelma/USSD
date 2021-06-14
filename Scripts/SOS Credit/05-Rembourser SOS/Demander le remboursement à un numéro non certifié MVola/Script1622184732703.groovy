@@ -15,14 +15,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+String numeroInitiateur="${numeroInitiateur}"
+
+String numeroNonMVola="${numeroNonMVola}"
+
 'En tant que client TELMA, je vais dans le menu pour SOS Crédit en composant le #111# > 3, puis je sasis 4 et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4#', GlobalVariable.msisdnInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4#', numeroInitiateur)
 
 'Je sasis 1 et je valide'
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Je saisis le numéro d\'un ami non souscrit MVola et je valide'
-actualMenu=CustomKeywords.'ussd.Send.response'(GlobalVariable.msisdnNonMVola)
+actualMenu=CustomKeywords.'ussd.Send.response'(numeroNonMVola)
 
 String menu=CustomKeywords.'ussd.Expected.menu'('^Le numéro saisi doit disposer d\'un compte MVola certifié pour payer votre dette\\.$', '^Ny nomerao ampidirina dia tsy maintsy manana kaonty Mvola certifié ahafahany mamerina ny trosanao\\.$')
 

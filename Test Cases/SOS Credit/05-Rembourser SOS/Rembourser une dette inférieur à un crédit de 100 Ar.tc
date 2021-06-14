@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ec7b52b1-99b1-46b0-b265-f59d3af04dba</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>2133c71d-52ea-424e-a4ca-876f9470bc2f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>c1464d51-7c2b-46d9-b9c7-266f9c2c1dc6</id>
+      <masked>false</masked>
+      <name>numeroARembourser</name>
+   </variable>
 </TestCaseEntity>

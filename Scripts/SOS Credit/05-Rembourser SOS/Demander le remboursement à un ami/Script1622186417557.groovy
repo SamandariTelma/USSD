@@ -15,9 +15,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String msisdnRecepteur=GlobalVariable.msisdnRecepteur
+String numeroInitiateur="${numeroInitiateur}"
+String numeroRecepteur="${numeroRecepteur}"
 'En tant que client TELMA, je vais dans le menu pour SOS Crédit en composant le #111# > 3, puis je sasis 4 et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4#', GlobalVariable.msisdnInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4#', numeroInitiateur)
 
 String menu=CustomKeywords.'ussd.Expected.menu'('^SOS Crédit\n1 Demander le remboursement à un ami\n2 Rembourser le SOS Crédit d\'un ami avec MVola\n3 Répertoire SOS$',
 	'^SOS Crédit\n1 Mangataka namana hamerina ny SOS credit\n2 Hamerina SOS credit nataon ny namana @ alalan ny Mvola\n3 Répertoire SOS$')
@@ -34,10 +35,10 @@ menu=CustomKeywords.'ussd.Expected.menu'('^Entrer le numéro de la personne auto
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis le numéro d\'un ami et je valide'
-actualMenu=CustomKeywords.'ussd.Send.response'(msisdnRecepteur)
+actualMenu=CustomKeywords.'ussd.Send.response'(numeroRecepteur)
 
-menu=CustomKeywords.'ussd.Expected.menu'('^Un SMS sera envoyé au '+msisdnRecepteur+' \\(.{1,50}\\) pour lui demander de rembourser votre SOS en cours\\. Tapez 1 pour confirmer\\.$', 
-	'^Nisy SMS fangatahana famerenana ny SOS nataonao lasa tany @ laharana '+msisdnRecepteur+' \\(.{1,50}\\)\\. Tsindrio ny 1 raha hanamarina:$')
+menu=CustomKeywords.'ussd.Expected.menu'('^Un SMS sera envoyé au '+numeroRecepteur+' \\(.{1,50}\\) pour lui demander de rembourser votre SOS en cours\\. Tapez 1 pour confirmer\\.$', 
+	'^Nisy SMS fangatahana famerenana ny SOS nataonao lasa tany @ laharana '+numeroRecepteur+' \\(.{1,50}\\)\\. Tsindrio ny 1 raha hanamarina:$')
 
 'Vérifier la conformité du prompt'
 WS.verifyMatch(actualMenu, menu, true)

@@ -15,38 +15,48 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant'):'300'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant') : '300'
+        , ('numeroInitiateur') : GlobalVariable.msisdnInitiateur, ('numeroRecepteur') : GlobalVariable.msisdnRecepteur], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant'):'400'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant') : '400'
+        , ('numeroInitiateur') : GlobalVariable.msisdnInitiateur, ('numeroRecepteur') : GlobalVariable.msisdnRecepteur], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant'):'500'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant') : '500'
+        , ('numeroInitiateur') : GlobalVariable.msisdnInitiateur, ('numeroRecepteur') : GlobalVariable.msisdnRecepteur], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant'):'600'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant') : '600'
+        , ('numeroInitiateur') : GlobalVariable.msisdnInitiateur, ('numeroRecepteur') : GlobalVariable.msisdnRecepteur], 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+String numeroInitiateur="${numeroInitiateur}"
+
+String numeroRecepteur="${numeroRecepteur}"
 
 'J\'effectue un SOS crédit pour la 6 ème fois'
+String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '*1#', numeroInitiateur)
 
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', GlobalVariable.msisdnInitiateur)
-
-String menu=CustomKeywords.'ussd.Expected.menu'('^Entrer numero de tel\\. Destinataire :$', '^nomerao tel\\. andefasana :$')
+String menu = CustomKeywords.'ussd.Expected.menu'('^Entrer numero de tel\\. Destinataire :$', '^nomerao tel\\. andefasana :$')
 
 'Vérifier la conformité du message'
 WS.verifyMatch(actualMenu, menu, true)
 
 'J\'entre le numéro de l\'ami auquel je demande un SOS crédit et je valide'
+actualMenu = CustomKeywords.'ussd.Send.response'(numeroRecepteur)
 
-actualMenu=CustomKeywords.'ussd.Send.response'(GlobalVariable.msisdnRecepteur)
-
-menu=CustomKeywords.'ussd.Expected.menu'('^Montant demande:$')
+menu = CustomKeywords.'ussd.Expected.menu'('^Montant demande:$')
 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisi un montant valide ex: 300 Ar'
-
-actualMenu=CustomKeywords.'ussd.Send.response'('300')
+actualMenu = CustomKeywords.'ussd.Send.response'('300')
 
 'Vérifier la conformité du message'
-
-menu=CustomKeywords.'ussd.Expected.menu'('^Desole, vous avez utilise toutes vos demandes pour aujourd\'hui\\. Vous pourrez envoyer 5 demandes demain\\.$', '^Tapitra ny fahafahanao mampiasa io servisy io androany\\.Rahampitso  indray  mandefa hafatra 5\\.$')
+menu = CustomKeywords.'ussd.Expected.menu'('^Desole, vous avez utilise toutes vos demandes pour aujourd\'hui\\. Vous pourrez envoyer 5 demandes demain\\.$', 
+    '^Tapitra ny fahafahanao mampiasa io servisy io androany\\.Rahampitso  indray  mandefa hafatra 5\\.$')
 
 'Vérifier la conformité du message'
 WS.verifyMatch(actualMenu, menu, true)
+
