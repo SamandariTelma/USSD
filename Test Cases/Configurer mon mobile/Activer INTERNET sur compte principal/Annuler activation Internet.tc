@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Annuler activation Internet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f06f159-c743-4255-913c-1ebda693944c</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e8fd8abf-3845-4b18-bd8b-15b7dfb1f890</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

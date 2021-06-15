@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Activer internet déjà activé</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fcb27422-31cd-4340-b726-d0bafb762ff3</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>3b4784c1-4924-4d0c-af44-a038d30f1ea7</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

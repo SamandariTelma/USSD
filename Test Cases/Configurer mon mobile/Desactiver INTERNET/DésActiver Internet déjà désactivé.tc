@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DésActiver Internet déjà désactivé</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>794b3362-f9a3-42c6-8cce-2b929a2f9228</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>f3bc77c4-392c-48a0-990a-91319826248b</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

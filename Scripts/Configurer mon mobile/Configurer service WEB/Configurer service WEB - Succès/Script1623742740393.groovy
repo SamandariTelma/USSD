@@ -15,7 +15,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant') : '300'
-        , ('numeroInitiateur') : GlobalVariable.msisdnInitiateur, ('numeroRecepteur') : GlobalVariable.msisdnRecepteur], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+String numeroInitiateur="${numeroInitiateur}"
 
+'Je shortcode *130*9*2#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#', numeroInitiateur)
+
+'Vérifier la conformité du prompt'
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre requete est en cours de traitement')
+
+WS.verifyMatch(actualMenu, menu, true)

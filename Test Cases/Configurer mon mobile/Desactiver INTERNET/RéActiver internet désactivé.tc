@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RéActiver internet désactivé</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c824f416-e48b-4b61-999d-d94206623d67</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>ce8557cb-8de8-4dd0-b0c2-0225702568b4</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

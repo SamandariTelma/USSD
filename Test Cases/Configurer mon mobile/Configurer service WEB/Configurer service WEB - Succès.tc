@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Configurer service WEB - Succès</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8fbfda74-280a-42d6-96e6-c4c8411ef9b8</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>d6a4c317-8bff-405f-a727-e78d6383c07f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
