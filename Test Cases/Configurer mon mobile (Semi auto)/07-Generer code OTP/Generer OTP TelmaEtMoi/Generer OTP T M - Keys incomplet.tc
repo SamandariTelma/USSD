@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Generer OTP T M - Keys incomplet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a57bc422-7b92-45b1-ac86-11142d84dd1a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e0094267-4cbf-4420-ac17-355624d70951</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e10cf9df-457a-402a-b0e5-9e70d95e94ff</id>
+      <masked>false</masked>
+      <name>pinNumeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

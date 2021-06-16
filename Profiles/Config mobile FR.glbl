@@ -21,6 +21,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'0000'</initValue>
+      <name>pinMsisdnInitiateur</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'mg'</initValue>
       <name>langue</name>
    </GlobalVariableEntity>

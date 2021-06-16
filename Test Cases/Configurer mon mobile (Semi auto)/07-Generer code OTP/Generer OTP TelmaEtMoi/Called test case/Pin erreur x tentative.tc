@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pin erreur x tentative</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>96c950a2-9a9e-4ca3-938e-05b32113c0c7</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>2015e277-8d10-4c44-89f8-052947e9d993</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>879e29ad-be0e-424c-b9fe-888c23c57f46</id>
+      <masked>false</masked>
+      <name>nbrTentative</name>
+   </variable>
+</TestCaseEntity>

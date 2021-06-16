@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Generer OTP T M Application T M déjà installée</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afe42a0d-3418-4d14-aa4f-1850acbe4bb5</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>66070128-76fd-4ec9-8b94-bdc3ef3033ce</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>12b8852b-dbc8-4fab-8b1d-dcd652af6604</id>
+      <masked>false</masked>
+      <name>pinMsisdnInitiateur</name>
+   </variable>
+</TestCaseEntity>
