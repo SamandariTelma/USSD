@@ -16,17 +16,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
-String nbrTentative="${nbrTentative}"
-String tentativeRestant=(3-nbrTentative.toInteger()).toString()
 
+String nbrTentative="${nbrTentative}"
+
+String tentativeRestant=(3-nbrTentative.toInteger()).toString()
+println tentativeRestant
 'Je shortcode *130*9#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis 5 ( Generer le code OTP)'
 CustomKeywords.'ussd.Send.response'('5')
 
-'Je saisis 1 (OTP T&M)'
-CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 2 (OTP MVola)'
+CustomKeywords.'ussd.Send.response'('2')
 
 'Je saisis un PIN au mauvais format '
 String actualMenu=CustomKeywords.'ussd.Send.response'('145')

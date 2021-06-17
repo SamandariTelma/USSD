@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Generer OTP Mvola - Quota journalier Atteint</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9ec3a26-caae-4c32-966c-94656431b21a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>9ea20f6d-62cd-4c8f-a8a7-58b0992def97</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>ba7ba75c-e567-4849-a48b-af2147720b37</id>
+      <masked>false</masked>
+      <name>pinNumeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

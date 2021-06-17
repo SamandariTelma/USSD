@@ -15,9 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroInitiateur="${numeroInitiateur}"
-String nbrTentative="${nbrTentative}"
-String tentativeRestant=(3-nbrTentative.toInteger()).toString()
+String numeroInitiateur = "${numeroInitiateur}"
+
+WebUI.callTestCase(findTestCase('Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP Mvola/Called test case/Pin erreur x tentative'), 
+    [('numeroInitiateur') : numeroInitiateur, ('nbrTentative') : '1'], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP Mvola/Called test case/Pin erreur x tentative'), 
+    [('numeroInitiateur') : numeroInitiateur, ('nbrTentative') : '2'], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Je shortcode *130*9#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
@@ -25,21 +29,13 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 'Je saisis 5 ( Generer le code OTP)'
 CustomKeywords.'ussd.Send.response'('5')
 
-'Je saisis 1 (OTP T&M)'
-CustomKeywords.'ussd.Send.response'('1')
-
-'Je saisis un PIN au mauvais format '
-String actualMenu=CustomKeywords.'ussd.Send.response'('145')
-
-'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres\\.')
-
-WS.verifyMatch(actualMenu, menu, true)
+'Je saisis 2 (MVola)'
+CustomKeywords.'ussd.Send.response'('2')
 
 'Je saisis un PIN erroné mais avec 4 chiffres'
-actualMenu=CustomKeywords.'ussd.Send.response'('9999')
+String actualMenu=CustomKeywords.'ussd.Send.response'('9999')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Le code secret saisi est incorrect\\. Il vous reste '+tentativeRestant+' tentative\\(s\\)\\. Ref : \\d{1,10}')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre compte est bloque car vous avez atteint le maximum d essais de code secret\\. Tapez le #111\\*1#')
 
 WS.verifyMatch(actualMenu, menu, true)

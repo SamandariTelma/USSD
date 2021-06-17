@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Generer OTP Mvola - Succès</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a5b6393-18ac-42dd-80a6-1a64ead84315</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>c61b839b-3fcc-4d37-9eaa-1cf6a36f084e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>987457d6-1db1-4fe8-81bb-2172c48fc20e</id>
+      <masked>false</masked>
+      <name>pinNumeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

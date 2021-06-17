@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Generer OTP Mvola- Application Mvola déjà installée</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b1ff4c6-6377-4599-b306-941724eeec59</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>54cb92f5-c967-4e60-8483-1122427cc7c1</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>7c9390ee-9d33-480f-9d52-2c0222049f90</id>
+      <masked>false</masked>
+      <name>pinNumeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

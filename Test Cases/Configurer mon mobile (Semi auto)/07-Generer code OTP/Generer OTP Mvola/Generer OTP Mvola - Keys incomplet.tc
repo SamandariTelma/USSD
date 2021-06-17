@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Generer OTP Mvola - Keys incomplet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe90fc22-808b-4b41-9f7c-b9fa87fa148e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>b1528b4a-b4a8-4868-af8e-1373c4bab570</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>be16948c-7361-4c6d-8079-8432601d442b</id>
+      <masked>false</masked>
+      <name>pinNumeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

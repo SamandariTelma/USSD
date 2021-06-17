@@ -18,10 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur = "${numeroInitiateur}"
 
 WebUI.callTestCase(findTestCase('Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP TelmaEtMoi/Called test case/Pin erreur x tentative'), 
-    [('numeroInitiateur') : numeroInitiateur, ('nbrTentative') : '2'], FailureHandling.CONTINUE_ON_FAILURE)
+    [('numeroInitiateur') : numeroInitiateur, ('nbrTentative') : '1'], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP TelmaEtMoi/Called test case/Pin erreur x tentative'), 
-    [('numeroInitiateur') : numeroInitiateur, ('nbrTentative') : '1'], FailureHandling.CONTINUE_ON_FAILURE)
+    [('numeroInitiateur') : numeroInitiateur, ('nbrTentative') : '2'], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Je shortcode *130*9#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)

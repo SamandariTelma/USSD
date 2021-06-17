@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PIN Bloqué</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd51c5c9-3b2a-4c5d-b71b-58cd183ed4fc</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>47af3e44-03de-40e1-81e5-1266a07be921</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -15,31 +15,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroInitiateur="${numeroInitiateur}"
-String nbrTentative="${nbrTentative}"
-String tentativeRestant=(3-nbrTentative.toInteger()).toString()
+String numeroInitiateur = "${numeroInitiateur}"
+
+String pinNumeroInitiateur = "${pinNumeroInitiateur}"
+
+WebUI.callTestCase(findTestCase('Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP Mvola/Generer OTP Mvola - Succès'), 
+    [('numeroInitiateur') : numeroInitiateur, ('pinNumeroInitiateur') : pinNumeroInitiateur], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 'Je shortcode *130*9#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 
 'Je saisis 5 ( Generer le code OTP)'
 CustomKeywords.'ussd.Send.response'('5')
 
-'Je saisis 1 (OTP T&M)'
-CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 2 (MVola)'
+CustomKeywords.'ussd.Send.response'('2')
 
-'Je saisis un PIN au mauvais format '
-String actualMenu=CustomKeywords.'ussd.Send.response'('145')
+'Je saisis le bon PIN'
+String actualMenu = CustomKeywords.'ussd.Send.response'(pinNumeroInitiateur)
 
-'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres\\.')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis un PIN erroné mais avec 4 chiffres'
-actualMenu=CustomKeywords.'ussd.Send.response'('9999')
-
-'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Le code secret saisi est incorrect\\. Il vous reste '+tentativeRestant+' tentative\\(s\\)\\. Ref : \\d{1,10}')
+'Vérifier la conformité du message'
+String menu = CustomKeywords.'ussd.Expected.menu'('Desole, vous avez utilise toutes vos demandes de code unique pour aujourd hui\\. Vous avez droit a 3 demandes demain\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
+
