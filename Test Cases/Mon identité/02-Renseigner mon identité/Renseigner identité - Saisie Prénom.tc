@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Renseigner identité - Saisie Prénom</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6caf1517-0f4c-48de-b655-76cbf2f1c154</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>83d07e9e-c283-42e0-a601-26a1cd03b795</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.nomMsisdn</defaultValue>
+      <description></description>
+      <id>c1c9b9ac-c53a-4ec7-b08a-7b0b4a001946</id>
+      <masked>false</masked>
+      <name>nomInitiateur</name>
+   </variable>
+</TestCaseEntity>

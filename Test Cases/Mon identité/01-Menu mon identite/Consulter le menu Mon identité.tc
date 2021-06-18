@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter le menu Mon identité</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>130207cc-54b4-4868-bc65-732213a343a0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>5356a7b7-f235-496a-9e5d-c48e66fdb312</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

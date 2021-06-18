@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter identité - client non inscrit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16794681-6794-4206-8e09-f6c34acd0f05</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e8755e3d-9522-4a0c-98c1-83d7bca89119</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter identité - client inscrit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5c9d5e4-7dfe-4a49-8f70-0158b3c4cc72</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInscrit</defaultValue>
+      <description></description>
+      <id>45c9ae52-c7f9-4b08-b5a3-0967e7ddea8b</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.cinNumeroDejaInscrit</defaultValue>
+      <description></description>
+      <id>38353693-4d88-4b37-ae89-cc7b524ca1c8</id>
+      <masked>false</masked>
+      <name>cinDejaInscrit</name>
+   </variable>
+</TestCaseEntity>

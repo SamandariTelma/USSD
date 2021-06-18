@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Renseigner identité - client non inscrit avec prénom</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de2394d3-db07-4799-8e83-bc5087df3f4a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>9471e970-6a1f-499b-a5c3-45a552402997</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.nomMsisdn</defaultValue>
+      <description></description>
+      <id>652fbe20-1a16-48cb-b9ec-7a99843823bd</id>
+      <masked>false</masked>
+      <name>nomInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'PrénomTest'</defaultValue>
+      <description></description>
+      <id>a5cb0c81-fd03-44d9-9ba5-e6010ba7bc92</id>
+      <masked>false</masked>
+      <name>prenom</name>
+   </variable>
+   <variable>
+      <defaultValue>'123456789012'</defaultValue>
+      <description></description>
+      <id>ddea4f37-76f8-4e29-87ed-5a7325a5e4f4</id>
+      <masked>false</masked>
+      <name>cin</name>
+   </variable>
+</TestCaseEntity>

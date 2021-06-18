@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Renseigner identité - Saisie Nom</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a0ddd66-4797-4560-8efe-7084f8f7fc13</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>ce49490d-909d-4c05-85d7-96f8f982ab36</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
