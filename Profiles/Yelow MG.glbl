@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>Mon identite MG</name>
+   <name>Yelow MG</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
@@ -11,33 +11,23 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'*130*'</initValue>
+      <initValue>'*130*4*6'</initValue>
       <name>shortCode</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Numero pour l'inscription sans prénom</description>
+      <description></description>
       <initValue>'261343500003'</initValue>
       <name>msisdnInitiateur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Numero pour l'inscription avec prénom</description>
+      <description></description>
       <initValue>'261343500078'</initValue>
-      <name>msisdnInitiateur2</name>
+      <name>numeroNonEligible</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Test'</initValue>
-      <name>nomMsisdn</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'261343500003'</initValue>
-      <name>msisdnInscrit</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'123456789012'</initValue>
-      <name>cinNumeroDejaInscrit</name>
+      <initValue>0</initValue>
+      <name>soldeCredit</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

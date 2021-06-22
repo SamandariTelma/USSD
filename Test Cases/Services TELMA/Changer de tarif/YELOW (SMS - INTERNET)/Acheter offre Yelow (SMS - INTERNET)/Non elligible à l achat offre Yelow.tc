@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Non elligible à l achat offre Yelow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd6bdc9b-b942-4022-9006-7724cb843714</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.numeroNonEligible</defaultValue>
+      <description></description>
+      <id>ad59dd24-03ab-43ce-bc2c-e9b71ff2e107</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>80531d74-fb56-488d-aa85-c152e7678e1d</id>
+      <masked>false</masked>
+      <name>menuYelowAAcherter</name>
+   </variable>
+</TestCaseEntity>

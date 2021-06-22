@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter le menu Changer de tarif</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>389f0bb3-3285-4921-8778-8d655763f6b6</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>7d931057-5adf-4c91-bd82-5857ed324623</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

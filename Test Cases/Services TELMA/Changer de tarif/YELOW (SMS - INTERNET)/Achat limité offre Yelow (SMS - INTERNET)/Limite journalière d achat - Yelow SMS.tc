@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Limite journalière d achat - Yelow SMS</name>
+   <tag></tag>
+   <comment>Achat Yelow 100 10eme tentative</comment>
+   <testCaseGuid>2d8e4330-e5f1-483c-b3e6-2dadb78d77a7</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e6eadc95-53da-413c-b538-23a0dda02ec9</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

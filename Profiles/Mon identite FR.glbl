@@ -15,9 +15,14 @@
       <name>shortCode</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Numero pour l'inscription sans prénom</description>
       <initValue>'261343500003'</initValue>
       <name>msisdnInitiateur</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Numero pour l'inscription avec prénom</description>
+      <initValue>'261343500078'</initValue>
+      <name>msisdnInitiateur2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -36,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'mg'</initValue>
+      <initValue>'fr'</initValue>
       <name>langue</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

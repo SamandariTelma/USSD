@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>de2394d3-db07-4799-8e83-bc5087df3f4a</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnInitiateur2</defaultValue>
       <description></description>
       <id>9471e970-6a1f-499b-a5c3-45a552402997</id>
       <masked>false</masked>
@@ -27,7 +27,7 @@
       <name>prenom</name>
    </variable>
    <variable>
-      <defaultValue>'123456789012'</defaultValue>
+      <defaultValue>'123456789013'</defaultValue>
       <description></description>
       <id>ddea4f37-76f8-4e29-87ed-5a7325a5e4f4</id>
       <masked>false</masked>

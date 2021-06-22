@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Achat offre YELOW100 pour soi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f805d1b-70ab-4697-a240-36a0b2b67406</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>80114e65-62df-41b8-b32b-619041f39c74</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'100'</defaultValue>
+      <description></description>
+      <id>c9c63b0d-8c42-4e95-a08a-9e2304fbe06c</id>
+      <masked>false</masked>
+      <name>montantYelow100</name>
+   </variable>
+</TestCaseEntity>

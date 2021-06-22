@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Achat offre YELOW 1000 pour soi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>007631e6-20bf-459e-9243-7e86263b07e6</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>9aedc1a3-4f5e-4b40-9aca-54914786331e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description></description>
+      <id>ff8f3acd-9710-423f-b390-44aa16dc4b5f</id>
+      <masked>false</masked>
+      <name>montantYelow1000</name>
+   </variable>
+</TestCaseEntity>

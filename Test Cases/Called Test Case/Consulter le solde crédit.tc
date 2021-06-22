@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter le solde crédit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4402d5f9-d6bb-4be3-b6ac-11914231f6f5</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e56d5f51-1789-4ad0-abcc-460241bc3fd1</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

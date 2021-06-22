@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter le menu YELOW (SMS - INTERNET)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb9feb1f-f8af-4e66-96c8-54f6d3853c0b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>71d57d62-bc94-440a-972f-88da417bd059</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

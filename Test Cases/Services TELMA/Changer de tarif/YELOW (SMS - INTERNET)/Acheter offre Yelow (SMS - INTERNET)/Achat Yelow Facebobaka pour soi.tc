@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Achat Yelow Facebobaka pour soi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>739e849e-caaf-4834-b416-2632a7f2442e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>a490d745-3218-4f5f-b6b0-a636e3b3dda2</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>b49c9d01-17d0-4d3b-92ca-43727f6df345</id>
+      <masked>false</masked>
+      <name>montantYelowFacebobaka</name>
+   </variable>
+</TestCaseEntity>

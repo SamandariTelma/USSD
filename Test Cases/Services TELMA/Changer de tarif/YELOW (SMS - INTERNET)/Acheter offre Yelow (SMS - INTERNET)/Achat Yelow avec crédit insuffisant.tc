@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Achat Yelow avec crédit insuffisant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1afe710-4272-4652-82f9-9fb539d8865b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>d79176ea-7947-4187-92a2-69b2b08bf9f9</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>c4c24283-c1c5-4c6e-ba2e-e238d7154808</id>
+      <masked>false</masked>
+      <name>menuYelowAAcherter</name>
+   </variable>
+</TestCaseEntity>
