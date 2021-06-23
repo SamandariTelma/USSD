@@ -3,7 +3,7 @@
    <description></description>
    <name>Limite journalière d achat - Yelow 200</name>
    <tag></tag>
-   <comment>Achat Yelow SMS 2eme tentative</comment>
+   <comment>Achat Yelow SMS 10eme tentative</comment>
    <testCaseGuid>68b4ab8f-6a0f-4071-a378-28502b6351ab</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>

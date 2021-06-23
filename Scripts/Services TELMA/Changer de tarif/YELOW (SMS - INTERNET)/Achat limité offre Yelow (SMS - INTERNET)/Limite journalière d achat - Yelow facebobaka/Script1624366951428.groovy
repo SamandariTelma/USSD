@@ -17,11 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur = "$numeroInitiateur"
 
-String nextDate
-
-'Achat Yelow Facebobaka 1 ere tentative'
-WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/YELOW (SMS - INTERNET)/Acheter offre Yelow (SMS - INTERNET)/Achat Yelow Facebobaka pour soi'), 
-    [('numeroInitiateur') : numeroInitiateur, ('montantYelowFacebobaka') : '500'], FailureHandling.CONTINUE_ON_FAILURE)
+String nextDate=CustomKeywords.'ussd.Util.nextDate'(3)
 
 'Achat Yelow Facebobaka 2 eme tentative'
 WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/YELOW (SMS - INTERNET)/Acheter offre Yelow (SMS - INTERNET)/Achat Yelow Facebobaka pour soi'), 
@@ -39,8 +35,8 @@ CustomKeywords.'ussd.Send.response'('3')
 String actualMenu = CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Desole, vous avez utilise toutes vos demandes\\. Vous pourrez envoyer 2 demandes à partir du ' + 
-    nextDate+' ', ('Tapitra ny fahafahanao mampiditra io tolotra io\\. Amin ny ' + nextDate) + ' indray ianao afaka mividy 2\\.')
+String menu = CustomKeywords.'ussd.Expected.menu'(('Desole, vous avez utilise toutes vos demandes\\. Vous pourrez envoyer 2 demandes à partir du ' + 
+    nextDate) + ' ', ('Tapitra ny fahafahanao mampiditra io tolotra io\\. Amin ny ' + nextDate) + ' indray ianao afaka mividy 2\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

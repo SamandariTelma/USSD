@@ -26,4 +26,11 @@ public class Util {
 		int i=Math.random() * (5000 - 1)
 		return i
 	}
+	@Keyword
+	String nextDate(int dateIteration)
+	{
+		def today = new java.util.Date()
+		def wantedDate = today + dateIteration
+		return wantedDate.format("dd-MM-yyy")
+	}
 }

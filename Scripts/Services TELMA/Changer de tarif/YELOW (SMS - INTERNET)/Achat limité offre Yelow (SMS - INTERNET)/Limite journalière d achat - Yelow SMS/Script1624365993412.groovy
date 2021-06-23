@@ -17,10 +17,6 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur = "$numeroInitiateur"
 
-'J\'achete un yelow sms'
-WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/YELOW (SMS - INTERNET)/Acheter offre Yelow (SMS - INTERNET)/Achat offre YELOW SMS pour soi'), 
-    [('numeroInitiateur') : numeroInitiateur, ('montantYelowSMS') : '200'], FailureHandling.CONTINUE_ON_FAILURE)
-
 'Achat Yelow SMS 2eme tentative'
 
 'Je shortcode #111*4*6#'

@@ -17,10 +17,6 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur = "$numeroInitiateur"
 
-'Achat Yelow 100 1ere tentative'
-WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/YELOW (SMS - INTERNET)/Acheter offre Yelow (SMS - INTERNET)/Achat offre YELOW100 pour soi'), 
-    [('numeroInitiateur') : numeroInitiateur, ('montantYelow100') : '100'], FailureHandling.CONTINUE_ON_FAILURE)
-
 'Achat Yelow 100 2eme tentative'
 WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/YELOW (SMS - INTERNET)/Acheter offre Yelow (SMS - INTERNET)/Achat offre YELOW100 pour soi'), 
     [('numeroInitiateur') : numeroInitiateur, ('montantYelow100') : '100'], FailureHandling.CONTINUE_ON_FAILURE)
@@ -54,6 +50,11 @@ WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/YELOW (SMS - IN
     [('numeroInitiateur') : numeroInitiateur, ('montantYelow100') : '100'], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Achat Yelow 100 10eme tentative'
+WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/YELOW (SMS - INTERNET)/Acheter offre Yelow (SMS - INTERNET)/Achat offre YELOW100 pour soi'), 
+    [('numeroInitiateur') : numeroInitiateur, ('montantYelow100') : '100'], FailureHandling.CONTINUE_ON_FAILURE)
+
+'Achat Yelow 100 11eme tentative'
+
 'Je shortcode #111*4*6#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Limite journalière d achat - Yelow SMS</name>
+   <name>Consulter offre Yelow SMS</name>
    <tag></tag>
-   <comment>Achat Yelow SMS 2eme tentative</comment>
-   <testCaseGuid>2d8e4330-e5f1-483c-b3e6-2dadb78d77a7</testCaseGuid>
+   <comment></comment>
+   <testCaseGuid>f3c61991-60eb-4227-b424-1df5f73973f7</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>e6eadc95-53da-413c-b538-23a0dda02ec9</id>
+      <id>7896fb2a-03af-43d5-a11d-647e4d9b9bf1</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
