@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Achat FIRSTpour soi - FIRST CLASSIQUE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41c9138d-a71c-40e6-a3d0-e3e1229c94fe</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>dcf5f3ed-5d6d-41ee-8442-1ee9ac619750</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'9000'</defaultValue>
+      <description></description>
+      <id>80eafcea-bb38-4750-bb84-358b1a0bffb0</id>
+      <masked>false</masked>
+      <name>montantFirstClassique</name>
+   </variable>
+</TestCaseEntity>

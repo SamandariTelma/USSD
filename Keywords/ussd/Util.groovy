@@ -27,10 +27,15 @@ public class Util {
 		return i
 	}
 	@Keyword
-	String nextDate(int dateIteration)
-	{
+	String nextDate(int dateIteration) {
 		def today = new java.util.Date()
 		def wantedDate = today + dateIteration
-		return wantedDate.format("dd-MM-yyy")
+		return wantedDate.format("dd/MM/yyy")
+	}
+	@Keyword
+	String nextDate(int dateIteration,String format) {
+		def today = new java.util.Date()
+		def wantedDate = today + dateIteration
+		return wantedDate.format(format)
 	}
 }

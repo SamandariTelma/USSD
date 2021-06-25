@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Menu FIRST (VOIX - SMS - INTERNET)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>83496cb1-d7f1-4525-97d2-4c2840292ac1</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>ddaaed0c-b88b-40eb-bf14-f9b8d9e8a84e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
