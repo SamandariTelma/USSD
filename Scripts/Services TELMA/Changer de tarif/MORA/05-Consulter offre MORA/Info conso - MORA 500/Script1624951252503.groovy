@@ -15,15 +15,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroInitiateur="${numeroInitiateur}"
+String []menuPage=['Mes offres\n1 MORA 500 (500 Ar)\n2 MORA ONE (1 000 Ar)\n3 MORA+ 2000 (2 000 Ar)\n4 MORA+ 5000 (5 000 Ar)\n5 MORA NIGHT (500 Ar)\n0 Pejy manaraka',
+'6 MORA TEAM (1 000 Ar)\n00 Pejy manaraka',
+'7 MORA INTERNATIONAL (5 000 Ar)\n00 Pejy aloha']
 
-'Je shortcode *130*4*6# et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+boolean menuTrouve=false
+int i=0
 
-'Je saisis 2 (FIRST) et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
-'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n1 FIRST PREMIUM \\(10 000 Ar\\)\n2 FIRST PREMIUM \\+ \\(15 000 Ar\\)\n3 FIRST PRESTIGE \\(30 000 Ar\\)\n4 FIRST ROYAL \\(50 000 Ar\\)\n5 FIRST CLASSIQUE \\(9 000 Ar\\)')
-
-WS.verifyMatch(actualMenu, menu, true)
+while(menuTrouve==false)
+{
+	println 'itération '+i
+	if(menuPage[i].contains('MORA'))
+	{
+		println 'menu trouvé dans la page'+i
+		menuTrouve=true
+	}
+	else if(menuTrouve==false && (menuPage[i].contains('Page suivante')||menuPage[i].contains('Pejy manaraka')))
+	{
+		//Passer au menu suivante
+		i++
+		menuTrouve=false
+	}
+}

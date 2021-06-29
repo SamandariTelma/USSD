@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-Non eligible - MORA NIGHT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4b641f47-96bc-4869-9beb-e0c3ccec649d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>301c8825-d306-4c63-bce9-00714c67ae7f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

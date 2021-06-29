@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Non eligible - MORA 2000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>33ce02e6-7e52-4fd1-9f38-d915fd88ebe2</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>7943894b-8f2b-4700-9d3a-ea7e76f8d76d</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

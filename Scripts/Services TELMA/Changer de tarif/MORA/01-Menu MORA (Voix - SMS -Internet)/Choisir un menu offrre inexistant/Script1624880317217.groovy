@@ -17,13 +17,25 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-'Je shortcode *130*4*6# et je valide'
+'Je shortcode #111*4*6#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
-'Je saisis 2 (FIRST) et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('2')
+'Je saisis 1 (MORA) et je valide'
+CustomKeywords.'ussd.Send.response'('1')
 
-'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n1 FIRST PREMIUM \\(10 000 Ar\\)\n2 FIRST PREMIUM \\+ \\(15 000 Ar\\)\n3 FIRST PRESTIGE \\(30 000 Ar\\)\n4 FIRST ROYAL \\(50 000 Ar\\)\n5 FIRST CLASSIQUE \\(9 000 Ar\\)')
+'Je saisis un numero autre qu\'affichés sur le menu et je valide '
+String actualMenu=CustomKeywords.'ussd.Send.response'('12')
+
+'Vérifier que je reste sur le menu MORA'
+String menu=CustomKeywords.'ussd.Expected.menu'('MORA \\(VOIX \\- SMS \\- INTERNET\\)\n1 MORA 500 \\(500 Ar\\)\n2 MORA ONE \\(1 000 Ar\\)\n3 MORA\\+ 2000 \\(2 000 Ar\\)\n4 MORA\\+ 5000 \\(5 000 Ar\\)\n5 MORA NIGHT \\(500 Ar\\)\n0 Page suivante',
+	'MORA \\(VOIX \\- SMS \\- INTERNET\\)\n1 MORA 500 \\(500 Ar\\)\n2 MORA ONE \\(1 000 Ar\\)\n3 MORA\\+ 2000 \\(2 000 Ar\\)\n4 MORA\\+ 5000 \\(5 000 Ar\\)\n5 MORA NIGHT \\(500 Ar\\)\n0 Pejy manaraka')
+
+WS.verifyMatch(actualMenu, menu, true)
+
+'Je saisis # (Page suivante) et je valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('0')
+
+'Je saisis un numero autre qu\'affichés sur le menu et je valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('10')
 
 WS.verifyMatch(actualMenu, menu, true)

@@ -31,6 +31,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'261346848239'</initValue>
+      <name>msisdnCreditInsuffisant</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>0</initValue>
       <name>soldeCredit</name>
    </GlobalVariableEntity>

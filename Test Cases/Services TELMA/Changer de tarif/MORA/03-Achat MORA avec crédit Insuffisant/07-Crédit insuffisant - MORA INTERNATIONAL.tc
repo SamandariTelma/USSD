@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>07-Crédit insuffisant - MORA INTERNATIONAL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afca347d-4b78-454e-b09a-c372dd7c2d8d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>bf47aa83-a9ce-41db-b72d-42f96d7c2abd</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

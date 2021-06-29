@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-Crédit insuffisant - MORA NIGHT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a44d10d0-838b-45c5-b8a2-e1ab1aed03aa</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>ed886279-8f58-4eb6-b6c6-246bb6f29985</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

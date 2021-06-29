@@ -17,13 +17,34 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-'Je shortcode *130*4*6# et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+String montantMora = "${montantMora1000}"
 
-'Je saisis 2 (FIRST) et je valide'
+'Consulter mon solde avant d\' effectuer un achat MORA'
+WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
+	FailureHandling.CONTINUE_ON_FAILURE)
+
+int soldeAvant = GlobalVariable.soldeCredit
+
+'Je shortcode *130*4*6*# et je valide'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
+
+'Je saisis 1(MORA)'
+CustomKeywords.'ussd.Send.response'('1')
+
+'Je saisis  2 (MORA ONE) et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n1 FIRST PREMIUM \\(10 000 Ar\\)\n2 FIRST PREMIUM \\+ \\(15 000 Ar\\)\n3 FIRST PRESTIGE \\(30 000 Ar\\)\n4 FIRST ROYAL \\(50 000 Ar\\)\n5 FIRST CLASSIQUE \\(9 000 Ar\\)')
+String menu=CustomKeywords.'ussd.Expected.menu'('L achat de votre MORA ONE est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois un bonus Kadoa de 20%\\. Tapez vite le #111\\*1#\\.',
+	'Tafiditra ny tolotra MORA ONE novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao ary mahazoa hatrany Bonus kadoa 20%\\. Tsindrio ny #111\\*1#\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
+
+'Je vérifie que mon solde est déduit du montant de MORA acheté'
+WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
+	FailureHandling.CONTINUE_ON_FAILURE)
+
+int soldeApresMora = GlobalVariable.soldeCredit
+
+int soldeExcepted=soldeAvant - Integer.valueOf(montantMora)
+WS.verifyEqual(soldeApresMora, soldeExcepted)

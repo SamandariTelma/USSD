@@ -15,15 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroInitiateur="${numeroInitiateur}"
+String numeroInitiateur = "$numeroInitiateur"
 
-'Je shortcode *130*4*6# et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/FIRST/02-Acheter Offre FIRST (Voix - SMS - Internet)/Achat FIRSTpour soi - FIRST PREMIUM 10000'), 
+    [('numeroInitiateur') : numeroInitiateur, ('montantFirstPrenium') : '10000'], FailureHandling.CONTINUE_ON_FAILURE)
 
-'Je saisis 2 (FIRST) et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('2')
-
-'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n1 FIRST PREMIUM \\(10 000 Ar\\)\n2 FIRST PREMIUM \\+ \\(15 000 Ar\\)\n3 FIRST PRESTIGE \\(30 000 Ar\\)\n4 FIRST ROYAL \\(50 000 Ar\\)\n5 FIRST CLASSIQUE \\(9 000 Ar\\)')
-
-WS.verifyMatch(actualMenu, menu, true)
+'Je saisis #359*91*2#'

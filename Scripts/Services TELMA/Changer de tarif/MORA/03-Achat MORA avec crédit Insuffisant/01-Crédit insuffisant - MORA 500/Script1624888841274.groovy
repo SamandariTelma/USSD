@@ -17,13 +17,17 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-'Je shortcode *130*4*6# et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+'Je shortcode *130*4*6*# et je valide'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
 
-'Je saisis 2 (FIRST) et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('2')
+'Je saisis 1(MORA)'
+CustomKeywords.'ussd.Send.response'('1')
+
+'Je saisis  1 (MORA 500) et je valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n1 FIRST PREMIUM \\(10 000 Ar\\)\n2 FIRST PREMIUM \\+ \\(15 000 Ar\\)\n3 FIRST PRESTIGE \\(30 000 Ar\\)\n4 FIRST ROYAL \\(50 000 Ar\\)\n5 FIRST CLASSIQUE \\(9 000 Ar\\)')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre credit est insuffisant pour le changement d\'offre que vous demandez\\.',
+	'Tsy ampy ny fahana anananao raha hiova io tolotra nangatahanao io ianao\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
