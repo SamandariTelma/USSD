@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Achat FIRSTpour soi - FIRST ROYAL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bfbfa4aa-9a7d-47d9-941d-6d7b13c509a6</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>b3d219c3-5ec7-4d4c-a060-f142ed9fd16c</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'50000'</defaultValue>
+      <description></description>
+      <id>1603c55f-59ce-404e-8bac-b065e44ed9f8</id>
+      <masked>false</masked>
+      <name>montantFirstRoyal</name>
+   </variable>
+</TestCaseEntity>

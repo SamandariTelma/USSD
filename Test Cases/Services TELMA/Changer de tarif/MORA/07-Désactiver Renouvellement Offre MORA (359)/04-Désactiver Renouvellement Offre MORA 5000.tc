@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Désactiver Renouvellement Offre MORA 5000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6ac7c29d-c551-4a16-9952-fb7dc6a4d437</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>4edb1d4a-b0fa-4fdb-a3e7-7e1d6bc2edbf</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Non eligible - FIRST PRESTIGE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>580442c0-6b42-401a-8abc-d5d80a4358c4</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>c0e6981e-c068-4126-9864-12ec6d839e1e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

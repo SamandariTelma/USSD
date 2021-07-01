@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Credit insuffisant - FIRST ROYAL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5cea6d2-6514-4ae2-bfb0-ac2b2a69ae71</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>dc0670ab-eb1f-44ca-8555-b3bd5c83b362</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

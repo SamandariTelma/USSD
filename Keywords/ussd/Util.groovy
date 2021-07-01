@@ -38,4 +38,38 @@ public class Util {
 		def wantedDate = today + dateIteration
 		return wantedDate.format(format)
 	}
+	@Keyword
+	String rechercheMenu(String menu, String actualMenu) {
+		boolean menuFound=false
+		boolean menuNotFound=false
+		int i=0
+
+		String rangMenu
+
+		String actualMenuOffre=actualMenu
+
+		while(menuFound==false && menuNotFound==false) {
+			println 'itération '+i
+			if(actualMenuOffre.contains(menu)) {
+				println 'menu trouvé dans la page'+i
+				menuFound=true
+				//Recuperer le rang du menu consulté
+				rangMenu=actualMenuOffre.substring(actualMenuOffre.lastIndexOf(menu)-2,actualMenuOffre.lastIndexOf(menu)-1)
+				println("rang menu:"+rangMenu)
+			}
+			else if(menuFound==false && (actualMenuOffre.contains('Page suivante')||actualMenuOffre.contains('Pejy manaraka'))) {
+				//Passer au menu suivante
+				i++
+				menuFound=false
+				actualMenuOffre='\n2 MORA 500'
+				//actualMenuOffre=CustomKeywords.'ussd.Send.response'('0')
+			}
+			else if(menuFound==false && !(actualMenuOffre.contains('Page suivante')||actualMenuOffre.contains('Pejy manaraka'))) {
+				menuNotFound=true
+				println 'menu non trouvé'
+			}
+		}
+		WS.verifyEqual(menuFound, true)
+		return rangMenu
+	}
 }

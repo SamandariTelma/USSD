@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Nombre atteint journalier - MORA NIGHT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37773a38-eb7f-4e51-b5f8-8d618cee1847</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>ec322cf2-9060-422a-b6fb-8478084f71e9</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

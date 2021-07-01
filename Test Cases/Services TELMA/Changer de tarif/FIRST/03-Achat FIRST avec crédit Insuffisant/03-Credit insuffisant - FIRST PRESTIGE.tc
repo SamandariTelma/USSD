@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Credit insuffisant - FIRST PRESTIGE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0da5532-665c-4b75-9ee5-083dab49113b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>892f0995-d1b3-41eb-a9f0-40b35c2da5bc</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

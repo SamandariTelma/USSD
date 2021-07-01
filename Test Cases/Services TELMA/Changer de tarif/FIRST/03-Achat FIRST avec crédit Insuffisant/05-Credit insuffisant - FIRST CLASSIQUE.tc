@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-Credit insuffisant - FIRST CLASSIQUE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc69891c-e207-47fc-a972-69a2df157ec9</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>656d8c2b-e7f3-447e-adf1-b5b01fb04936</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
