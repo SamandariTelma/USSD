@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Désactiver Renouvellement Offre FIRST PREMIUM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7d44b27-febe-4871-926f-90eb752e1444</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>cf28db5d-e627-4b78-bf9c-f5f1fffa9638</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

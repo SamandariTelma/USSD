@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Désactiver Renouvellement Offre FIRST ROYAL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>437cdda5-6088-4440-947c-3c8e822c89f1</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>9b5bfd80-0d82-4438-997a-d4197e2e8b5c</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

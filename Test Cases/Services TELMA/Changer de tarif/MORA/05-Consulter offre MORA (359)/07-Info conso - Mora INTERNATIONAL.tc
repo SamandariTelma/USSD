@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>07-Info conso - Mora INTERNATIONAL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca91aebd-9ad0-4762-9c13-9374ff2e5790</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>2cec94e3-0235-4ee4-a512-5e77a479181d</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

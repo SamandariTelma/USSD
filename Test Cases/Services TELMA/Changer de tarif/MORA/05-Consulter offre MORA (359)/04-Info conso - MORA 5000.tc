@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Info conso - MORA 5000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a4c84f9-ad9f-4fe2-8b24-52d85c2f698a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>4d453d16-f173-4d26-a919-4c86086754e1</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

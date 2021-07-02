@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Info conso - MORA ONE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0f430152-86ae-4bc2-9b9a-0ce6fb1f07b3</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>a71dec97-88de-41e3-9b4a-1083952bca42</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

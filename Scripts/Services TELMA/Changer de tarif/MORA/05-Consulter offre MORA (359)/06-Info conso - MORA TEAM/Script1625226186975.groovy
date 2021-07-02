@@ -18,22 +18,23 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-/*
-'Après achat Offre Yelow 100 avec succès , je consulte mon solde en saisissant #359#'
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(2,'dd/MM/yyy')
+
+'Après achat Offre MORA TEAM avec succès , je consulte mon solde en saisissant #359#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
 
 'Je saisis 1 (Mes offres) et valide'
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier si l\'offre apparait dans la liste offre'
-String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('MORA 500', actualMenu)
+String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('MORA TEAM', actualMenu)
 
-'Je saisis le rang du menu MORA 500 et valide'
+'Je saisis le rang du menu MORA TEAM et valide'
 actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('MORA 500\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente',
-	'MORA 500\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha')
+String menu=CustomKeywords.'ussd.Expected.menu'('MORA TEAM\n1 Info conso\n00 Page precedente',
+	'MORA TEAM\n1 Info conso\n00 Pejy aloha')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -41,17 +42,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA 500 restants : \\d{1,6} Ar appels \\+ \\d{1,4} SMS Telma et/ou \\d{1,5} Mo valables a toute heure ET BONUS \\d{1,4}\\.\\d SMS Telma et/ou \\d{1,5}\\.\\d Mo valable la nuit',
-	'Bonus MORA 500 : \\d{1,6} Ar antso \\+ \\d{1,4} SMS Telma sy/na \\d{1,5} Mo manankery @ ora rehetra ARY BONUS \\d{1,4}\\.\\d SMS Telma sy/na \\d{1,5}\\.\\d Mo manakery @alina\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA TEAM : \\d{1,5} sec d appels et/ou \\d{1,5} SMS vers Num FAF et/ou \\d{1,5}\\.\\d Mo valable jusqu a minuit\\.  Tapez 344\\*1\\*Num pour rajouter Num FAF\\. Telma N1 a M/car',
+	'Bonus MORA TEAM : antso \\d{1,5} sec sy/na \\d{1,5} SMS mankany Num FAF sy/na \\d{1,5}\\.\\d h@ sasak alina\\. Antsoy ny #344\\*1\\*Num# raha anampy Num FAF\\. Telma N1 eto M/kara\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
-*/
-
-String actualMenu='Mes offres\n1 MORA ONE\n0 Pejy manaraka'
-
-
-String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('MORA 500', actualMenu)
-
-println 'RANG MENU:'+rangMenu
-
-WS.verifyMatch('test', 'test', true)

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06-Info conso - MORA TEAM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2368891-1b07-4d19-885f-aa640cde5b1d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>3d629d7c-d8b4-4b27-987c-249e3e3f4978</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

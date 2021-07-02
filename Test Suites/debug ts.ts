@@ -12,63 +12,39 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>c0402360-cce9-4266-81e7-4aabe4ae2563</testSuiteGuid>
    <testCaseLink>
-      <guid>f2a852ff-848b-4204-83a9-fc543726fb64</guid>
+      <guid>27a7ffcc-c9c2-4c1c-8dda-3ef6d220fbd4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/02-Acheter offre MORA/05-Achat MORA pour soi - MORA NIGHT</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/03-Achat MORA avec crédit Insuffisant/05-Crédit insuffisant - MORA NIGHT</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>87a7da40-aed6-431c-9c8a-8d1240eb6a93</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c6908c7d-7c23-4fa9-ba54-d3696bf338e2</variableId>
+         <variableId>ed886279-8f58-4eb6-b6c6-246bb6f29985</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d0cabf05-d418-4db7-971e-3dc631c23438</guid>
+      <guid>1cc677bf-2941-4dfd-a356-7524648c8881</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/06-Limite d achat MORA/01-Nombre atteint journalier - MORA NIGHT</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/03-Achat MORA avec crédit Insuffisant/06-Crédit insuffisant - MORA TEAM</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ec322cf2-9060-422a-b6fb-8478084f71e9</variableId>
+         <variableId>1e817b1a-c8b4-48d5-96dd-cd6c35646a76</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0ee75f2d-ce42-43cb-b460-c23d0b2098e1</guid>
+      <guid>886c8311-a34f-4e5b-8b19-e549a3835d84</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/02-Acheter offre MORA/06-Achat MORA pour soi - MORA TEAM</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/03-Achat MORA avec crédit Insuffisant/07-Crédit insuffisant - MORA INTERNATIONAL</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ad270b9c-5d72-40c1-8299-b62c59835853</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bea405ea-ff3c-46c0-aff2-0e0b6a6612d1</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c0e4848c-0dfd-403a-9750-ba4a3dd4d1ae</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/06-Limite d achat MORA/02-Nombre atteint journalier - MORA TEAM</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>dc6b7eca-d668-4754-ab26-4d25d4bac025</variableId>
+         <variableId>bf47aa83-a9ce-41db-b72d-42f96d7c2abd</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

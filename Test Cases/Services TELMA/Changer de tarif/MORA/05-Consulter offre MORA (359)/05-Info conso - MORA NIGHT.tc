@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-Info conso - MORA NIGHT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c99b134b-84eb-4ef8-9c60-593b19d190e9</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>066ed3e1-4e2e-4779-b7d1-73a5b1a73ef1</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
