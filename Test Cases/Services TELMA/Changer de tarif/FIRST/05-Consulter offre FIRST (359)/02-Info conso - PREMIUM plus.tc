@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Info conso - PREMIUM plus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7b76eeed-ea84-4f2f-8adb-10ae07bc0b14</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>528d9517-6139-4f39-bba6-e083fa6e60f6</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

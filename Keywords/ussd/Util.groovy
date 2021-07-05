@@ -61,7 +61,7 @@ public class Util {
 				//Passer au menu suivante
 				i++
 				menuFound=false
-				actualMenuOffre='\n2 MORA 500'
+				actualMenuOffre='\n2 MORA 500\n3 MORA 500+'
 				//actualMenuOffre=CustomKeywords.'ussd.Send.response'('0')
 			}
 			else if(menuFound==false && !(actualMenuOffre.contains('Page suivante')||actualMenuOffre.contains('Pejy manaraka'))) {
