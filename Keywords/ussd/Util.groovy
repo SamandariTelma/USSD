@@ -18,6 +18,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
 import internal.GlobalVariable
 
 public class Util {
@@ -37,6 +42,23 @@ public class Util {
 		def today = new java.util.Date()
 		def wantedDate = today + dateIteration
 		return wantedDate.format(format)
+	}
+	@Keyword
+	String getLastDayOfMonth() {
+		
+		Date today = new Date();
+
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(today);
+
+		calendar.add(Calendar.MONTH, 1);
+		calendar.set(Calendar.DAY_OF_MONTH, 1);
+		calendar.add(Calendar.DATE, -1);
+
+		Date lastDayOfMonth = calendar.getTime();
+
+		DateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		return sdf.format(lastDayOfMonth)
 	}
 	@Keyword
 	String rechercheMenu(String menu, String actualMenu) {

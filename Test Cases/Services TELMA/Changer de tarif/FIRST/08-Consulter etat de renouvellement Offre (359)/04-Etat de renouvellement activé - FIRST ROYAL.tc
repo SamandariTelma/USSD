@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Etat de renouvellement activé - FIRST ROYAL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92494f8f-4136-4e28-b443-33a5b7756d49</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>945a89a2-74b5-4ef8-849b-aa4df0e396bb</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

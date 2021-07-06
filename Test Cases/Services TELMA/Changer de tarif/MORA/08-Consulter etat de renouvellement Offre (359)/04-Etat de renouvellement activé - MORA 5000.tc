@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Etat de renouvellement activé - MORA 5000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4900db6-4554-4aab-bc9c-5c60dfea0c15</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>97852932-ab51-4439-b554-e8fc95a344a1</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06-Etat de renouvellement désactivé- FIRST PREMIUM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2dab3458-4c5a-4dcf-aa78-f456af43e5af</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>d304d133-480c-49ba-937f-195d9e2a460f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

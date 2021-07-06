@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>10-Etat de renouvellement déactivé - FIRST CLASSIQUE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5feb2dc2-027e-4b4a-90a4-b5d9e3b2f13d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>c4694861-ad19-4c11-bec7-752b2c1b5ccb</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

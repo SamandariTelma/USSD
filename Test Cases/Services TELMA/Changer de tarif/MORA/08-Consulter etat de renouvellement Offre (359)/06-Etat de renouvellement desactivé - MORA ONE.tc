@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06-Etat de renouvellement desactivé - MORA ONE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5316bbf5-c1ab-46f6-93f8-2d993ca60ace</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>ee4cf698-2d28-4fd3-b287-38dfe157e2b1</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

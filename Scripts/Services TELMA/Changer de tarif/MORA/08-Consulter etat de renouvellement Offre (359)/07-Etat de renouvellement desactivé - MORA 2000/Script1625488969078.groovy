@@ -20,7 +20,8 @@ String numeroInitiateur="${numeroInitiateur}"
 
 String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(0,'dd/MM/yyy')
 
-'Après achat Offre MORA+ 2000 avec succès , je consulte mon solde en saisissant #359#'
+
+'Après achat Offre MORA 2000 avec succès , je consulte mon solde en saisissant #359#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
 
 'Je saisis 1 (Mes offres) et valide'
@@ -32,17 +33,11 @@ String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('MORA+ 2000', actualMen
 'Je saisis le rang du menu MORA+ 2000 et valide'
 actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 
-'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('MORA+ 2000\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente',
-	'MORA+ 2000\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 1 (Info conso) à nouveau et valide'
-actualMenu=CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 2 (Renouvellement automatique)et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA \\+ 2000 restants : \\d{1,6} Ar appels national \\+ \\d{1,4} SMS Telma \\+ \\d{1,5}\\.\\d Mo jusqu\'au '+dateExpiration,
-	'Bonus MORA \\+ 2000 : \\d{1,6} Ar antso MANKANY @tambazotra rehetra \\+ \\d{1,4} SMS Telma \\+ \\d{1,5}\\.\\d Mo ampiasaina h@ '+dateExpiration)
+String menu=CustomKeywords.'ussd.Expected.menu'('1 le renouvellement de votre offre MORA+ 2000 a ete desactive\\. Pour le reactiver tapez 1',
+	'1 Tsy mandeha ny fanavaozana ny fidirana @ ny tolotra MORA+ 2000\\. Raha te hamerina izany ianao, tsindrio ny 1')
 
 WS.verifyMatch(actualMenu, menu, true)

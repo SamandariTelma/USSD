@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Etat de renouvellement activé - FIRST PREMIUM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f00f36e-0ace-426e-adca-b8c4024080fe</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>2682f904-b749-4e1b-bf21-d84bc999241f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

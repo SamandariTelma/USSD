@@ -20,29 +20,24 @@ String numeroInitiateur="${numeroInitiateur}"
 
 String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(0,'dd/MM/yyy')
 
-'Après achat Offre MORA+ 2000 avec succès , je consulte mon solde en saisissant #359#'
+
+'Après achat Offre MORA ONE avec succès , je consulte mon solde en saisissant #359#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
 
 'Je saisis 1 (Mes offres) et valide'
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier si l\'offre apparait dans la liste offre'
-String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('MORA+ 2000', actualMenu)
+String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('MORA ONE', actualMenu)
 
-'Je saisis le rang du menu MORA+ 2000 et valide'
+'Je saisis le rang du menu MORA ONE et valide'
 actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 
-'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('MORA+ 2000\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente',
-	'MORA+ 2000\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 1 (Info conso) à nouveau et valide'
-actualMenu=CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 2 (Renouvellement automatique)et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA \\+ 2000 restants : \\d{1,6} Ar appels national \\+ \\d{1,4} SMS Telma \\+ \\d{1,5}\\.\\d Mo jusqu\'au '+dateExpiration,
-	'Bonus MORA \\+ 2000 : \\d{1,6} Ar antso MANKANY @tambazotra rehetra \\+ \\d{1,4} SMS Telma \\+ \\d{1,5}\\.\\d Mo ampiasaina h@ '+dateExpiration)
+String menu=CustomKeywords.'ussd.Expected.menu'('1 Votre offre MORA ONE sera automatiquement renouvelee le '+dateExpiration+' a minuit\\. Pour desactiver le renouvellement tapez 1',
+	'1 Ny tolotra MORA ONE dia hohavaozina ny '+dateExpiration+' @ misasak\'alina\\. Raha hanafoana io fanavaozana io, tsindrio 1')
 
 WS.verifyMatch(actualMenu, menu, true)

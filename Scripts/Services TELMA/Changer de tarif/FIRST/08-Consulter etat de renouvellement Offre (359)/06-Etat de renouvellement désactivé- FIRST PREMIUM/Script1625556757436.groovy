@@ -15,8 +15,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String menuARechercher='MORA ONe'
-String menu='^.*'+menuARechercher+'.*$'
-String actualMenu='test MORA ONE test'
+
+String numeroInitiateur="${numeroInitiateur}"
+
+String dateExpiration=CustomKeywords.'ussd.Util.getLastDayOfMonth'()
+
+
+'Après achat Offre FIRST PREMIUM avec succès , je consulte mon solde en saisissant #359#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
+
+'Je saisis 1 (Mes offres) et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('1')
+
+'Vérifier si l\'offre apparait dans la liste offre'
+String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('FIRST PREMIUM\n', actualMenu)
+
+'Je saisis le rang du menu FIRST PREMIUM et valide'
+CustomKeywords.'ussd.Send.response'(rangMenu)
+
+'Je saisis 2 (Renouvellement automatique)et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('2')
+
+'Vérifier la conformité du message'
+String menu=CustomKeywords.'ussd.Expected.menu'('1 le renouvellement de votre offre FIRST PREMIUM a ete desactive. Pour le reactiver tapez 1',
+	'1 Tsy mandeha ny fanavaozana ny fidirana @ ny tolotra FIRST PREMIUM. Raha te hamerina izany ianao, tsindrio ny 1')
 
 WS.verifyMatch(actualMenu, menu, true)
