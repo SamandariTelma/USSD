@@ -12,39 +12,129 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>c0402360-cce9-4266-81e7-4aabe4ae2563</testSuiteGuid>
    <testCaseLink>
-      <guid>27a7ffcc-c9c2-4c1c-8dda-3ef6d220fbd4</guid>
+      <guid>512ab5ef-7708-417f-8b9d-f406faa19c81</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/03-Achat MORA avec crédit Insuffisant/05-Crédit insuffisant - MORA NIGHT</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/02-Acheter offre MORA/01-Achat MORA pour soi - MORA 500</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ed886279-8f58-4eb6-b6c6-246bb6f29985</variableId>
+         <variableId>20783233-a543-4a0b-bbca-6794872d19fd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4517c976-5b79-4a4d-9225-4e09f58e43a9</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>1cc677bf-2941-4dfd-a356-7524648c8881</guid>
+      <guid>12f8c6d3-9d75-49d4-896e-7d019ba64c2e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/03-Achat MORA avec crédit Insuffisant/06-Crédit insuffisant - MORA TEAM</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/02-Acheter offre MORA/02-Achat MORA pour soi - MORA ONE</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>1e817b1a-c8b4-48d5-96dd-cd6c35646a76</variableId>
+         <variableId>c4c2a532-4dcf-4f49-a69d-46d86b8d5865</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0381f1f7-617b-48c5-87cf-d6e98acbaedc</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>886c8311-a34f-4e5b-8b19-e549a3835d84</guid>
+      <guid>67cb1d3c-8f3d-40a8-a2be-5dd45d1fbc1f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/03-Achat MORA avec crédit Insuffisant/07-Crédit insuffisant - MORA INTERNATIONAL</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/02-Acheter offre MORA/03-Achat MORA pour soi - MORA 2000</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>bf47aa83-a9ce-41db-b72d-42f96d7c2abd</variableId>
+         <variableId>abeb6f9d-99b0-44a9-bc51-751eda9dd6d3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2fbe4689-29a7-4107-a860-82c1bb4c0402</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5a7fd2f6-aded-43ae-b072-ef38a5d828e5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/02-Acheter offre MORA/04-Achat MORA pour soi - MORA 5000</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3853abd8-e9e7-4a5d-bfe2-a886ab4f6528</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9d695b3a-7184-473c-8755-1b431f8b9131</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cbe649f9-8359-4473-bd72-f7848883c3e6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/02-Acheter offre MORA/05-Achat MORA pour soi - MORA NIGHT</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>87a7da40-aed6-431c-9c8a-8d1240eb6a93</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c6908c7d-7c23-4fa9-ba54-d3696bf338e2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6c551630-ba1d-400e-9730-0e4d0f77990c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/02-Acheter offre MORA/06-Achat MORA pour soi - MORA TEAM</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ad270b9c-5d72-40c1-8299-b62c59835853</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bea405ea-ff3c-46c0-aff2-0e0b6a6612d1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0b4564c9-4155-4806-953a-cd75fec664ca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/MORA/02-Acheter offre MORA/07-Achat MORA pour soi - MORA INTERNATIONAL</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>28e6f430-fc34-4ed1-92bf-cd9c85747b57</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f8e40f03-2ff0-4580-946b-e4e00611a513</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
