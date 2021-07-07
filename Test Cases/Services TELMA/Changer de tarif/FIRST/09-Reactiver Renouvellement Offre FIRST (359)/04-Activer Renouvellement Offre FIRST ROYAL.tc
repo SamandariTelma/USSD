@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Activer Renouvellement Offre FIRST ROYAL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d723a0e2-2074-4e38-9bef-ea8a9f71c28f</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>82db2246-aece-4dd8-8e7e-7f487e52d301</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

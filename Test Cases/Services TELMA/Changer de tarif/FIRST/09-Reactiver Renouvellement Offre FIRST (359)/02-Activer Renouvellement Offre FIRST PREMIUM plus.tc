@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Activer Renouvellement Offre FIRST PREMIUM plus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03d7420a-ce7a-4ad2-8c88-35130cc48285</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e56498f1-193b-451b-a888-4194d909b24e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

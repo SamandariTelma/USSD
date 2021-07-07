@@ -15,29 +15,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-
 String numeroInitiateur="${numeroInitiateur}"
 
-String dateExpiration=CustomKeywords.'ussd.Util.getLastDayOfMonth'()
-
-
-'Après achat Offre FIRST PREMIUM+ avec succès , je consulte mon solde en saisissant #359#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
-
-'Je saisis 1 (Mes offres) et valide'
-actualMenu=CustomKeywords.'ussd.Send.response'('1')
-
-'Vérifier si l\'offre apparait dans la liste offre'
-String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('FIRST PREMIUM +', actualMenu)
-
-'Je saisis le rang du menu FIRST PREMIUM + et valide'
-CustomKeywords.'ussd.Send.response'(rangMenu)
-
-'Je saisis 2 (Renouvellement automatique)et valide'
-actualMenu=CustomKeywords.'ussd.Send.response'('2')
+'J\'active mon offre MORA 500 en saississant le shortcode #359*20*2#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'*20*2#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('1 Votre offre FIRST PREMIUM \\+ sera automatiquement renouvelee le '+dateExpiration+' a minuit\\. Pour desactiver le renouvellement tapez 1',
-	'1 Ny tolotra FIRST PREMIUM \\+ dia hohavaozina ny '+dateExpiration+' @ misasak\'alina\\. Raha hanafoana io fanavaozana io, tsindrio 1')
+String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez desactive avec succes le renouvellement automatique de l offre MORA 500, Pour le reactiver, tapez #359\\*20\\*1#')
 
 WS.verifyMatch(actualMenu, menu, true)

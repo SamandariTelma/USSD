@@ -21,23 +21,25 @@ String numeroInitiateur="${numeroInitiateur}"
 String dateExpiration=CustomKeywords.'ussd.Util.getLastDayOfMonth'()
 
 
-'Après achat Offre FIRST PREMIUM+ avec succès , je consulte mon solde en saisissant #359#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
+'Après desactivation Offre FIRST PRESTIGE, je short code #359#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
 
 'Je saisis 1 (Mes offres) et valide'
-actualMenu=CustomKeywords.'ussd.Send.response'('1')
+String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier si l\'offre apparait dans la liste offre'
-String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('FIRST PREMIUM +', actualMenu)
+String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('FIRST PRESTIGE', actualMenu)
 
-'Je saisis le rang du menu FIRST PREMIUM + et valide'
+'Je saisis le rang du menu FIRST PRESTIGE et valide'
 CustomKeywords.'ussd.Send.response'(rangMenu)
 
 'Je saisis 2 (Renouvellement automatique)et valide'
-actualMenu=CustomKeywords.'ussd.Send.response'('2')
+CustomKeywords.'ussd.Send.response'('2')
+
+'Je saisis 1 pour activer le renouvellement automatique et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('1 Votre offre FIRST PREMIUM \\+ sera automatiquement renouvelee le '+dateExpiration+' a minuit\\. Pour desactiver le renouvellement tapez 1',
-	'1 Ny tolotra FIRST PREMIUM \\+ dia hohavaozina ny '+dateExpiration+' @ misasak\'alina\\. Raha hanafoana io fanavaozana io, tsindrio 1')
+String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez reactive avec succes le renouvellement automatique de FIRST PRESTIGE\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
