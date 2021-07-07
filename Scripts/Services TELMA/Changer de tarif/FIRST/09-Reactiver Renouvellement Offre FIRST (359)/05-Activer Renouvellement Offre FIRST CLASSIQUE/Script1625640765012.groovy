@@ -43,3 +43,4 @@ actualMenu=CustomKeywords.'ussd.Send.response'('1')
 String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez reactive avec succes le renouvellement automatique de FIRST CLASSIQUE\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
+ 
