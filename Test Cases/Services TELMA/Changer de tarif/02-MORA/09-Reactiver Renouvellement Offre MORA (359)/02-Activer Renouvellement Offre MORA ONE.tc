@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Activer Renouvellement Offre MORA ONE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bba23635-0997-4019-bd99-36f0bac98e91</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>b5031553-6622-4175-a770-645ca536019b</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

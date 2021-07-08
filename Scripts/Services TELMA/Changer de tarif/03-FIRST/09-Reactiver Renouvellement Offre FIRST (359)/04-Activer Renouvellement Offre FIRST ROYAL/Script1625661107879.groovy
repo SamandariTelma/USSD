@@ -15,16 +15,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+
 String numeroInitiateur="${numeroInitiateur}"
 
-String cinDejaInscrit="${cinDejaInscrit}"
+String dateExpiration=CustomKeywords.'ussd.Util.getLastDayOfMonth'()
 
-String troisDernierChiffreCIN=cinDejaInscrit.substring(cinDejaInscrit.length()-3)
 
-'En tant que client TELMA, je vais dans le menu pour Mon identité en composant #111 > 8 > 2, et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#', numeroInitiateur)
+'Après desactivation Offre FIRST ROYAL, je short code #359#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
+
+'Je saisis 1 (Mes offres) et valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'('1')
+
+'Vérifier si l\'offre apparait dans la liste offre'
+String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('FIRST ROYAL', actualMenu)
+
+'Je saisis le rang du menu FIRST ROYAL et valide'
+CustomKeywords.'ussd.Send.response'(rangMenu)
+
+'Je saisis 2 (Renouvellement automatique)et valide'
+CustomKeywords.'ussd.Send.response'('2')
+
+'Je saisis 1 pour activer le renouvellement automatique et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre compte est Identifie et Certifie MVola\\. Type et numéro de pièce enregistrés : CIN \\*\\*\\*'+troisDernierChiffreCIN+'\\. MVola vous remercie de votre confiance\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez reactive avec succes le renouvellement automatique de FIRST ROYAL\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

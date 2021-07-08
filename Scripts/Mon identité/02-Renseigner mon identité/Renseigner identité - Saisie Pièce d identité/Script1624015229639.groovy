@@ -40,25 +40,25 @@ String menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero de 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis un cin au format incorrect 2ème tentative'
-String actualMenu=CustomKeywords.'ussd.Send.response'('1234567890123456789012345678901')
+actualMenu=CustomKeywords.'ussd.Send.response'('1234567890123456789012345678901')
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero de la piece d identite \\(1 a 30 caracteres\\)',
+menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero de la piece d identite \\(1 a 30 caracteres\\)',
 	'Hamarino ny laharan ny karapanondronao  \\(Tarehimarika 1 hatramin ny 30\\)')
 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis un cin au format incorrect 3ème tentative'
-String actualMenu=CustomKeywords.'ussd.Send.response'('1234567890123456789012345678901')
+actualMenu=CustomKeywords.'ussd.Send.response'('1234567890123456789012345678901')
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero de la piece d identite \\(1 a 30 caracteres\\)',
+menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero de la piece d identite \\(1 a 30 caracteres\\)',
 	'Hamarino ny laharan ny karapanondronao  \\(Tarehimarika 1 hatramin ny 30\\)')
 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis un cin au format incorrect 4ème tentative'
-String actualMenu=CustomKeywords.'ussd.Send.response'('1234567890123456789012345678901')
+actualMenu=CustomKeywords.'ussd.Send.response'('1234567890123456789012345678901')
 
 'Vérifier la conformité du prompt'
 menu=CustomKeywords.'ussd.Expected.menu'('Le nombre d\'essai maximum est atteint\\.','Mihaotra ny fanandramana azo ekena\\.')

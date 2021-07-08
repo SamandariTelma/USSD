@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'*130*'</initValue>
+      <initValue>'*130*8'</initValue>
       <name>shortCode</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

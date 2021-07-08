@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>debug ts</name>
+   <name>Mora FR</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>c0402360-cce9-4266-81e7-4aabe4ae2563</testSuiteGuid>
+   <testSuiteGuid>350c0959-4166-4484-a182-57dc4b462f7f</testSuiteGuid>
    <testCaseLink>
       <guid>6db6e479-b8dc-4dcb-ad56-90888cc402c2</guid>
       <isReuseDriver>false</isReuseDriver>

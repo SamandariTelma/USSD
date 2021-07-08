@@ -15,16 +15,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroInitiateur="${numeroInitiateur}"
+String numeroInitiateur = "$numeroInitiateur"
 
-String cinDejaInscrit="${cinDejaInscrit}"
+'Achat MORA NIGHT 2 ème tentative'
+WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/02-MORA/02-Acheter offre MORA/05-Achat MORA pour soi - MORA NIGHT'), 
+    [('numeroInitiateur') : numeroInitiateur, ('montantMoraNIGHT') : '500'], FailureHandling.CONTINUE_ON_FAILURE)
 
-String troisDernierChiffreCIN=cinDejaInscrit.substring(cinDejaInscrit.length()-3)
+'J\'effectue un achat MORA NIGHT 3e tentative'
+'Je shortcode *130*4*6*# et je valide'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
 
-'En tant que client TELMA, je vais dans le menu pour Mon identité en composant #111 > 8 > 2, et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#', numeroInitiateur)
+'Je saisis 1(MORA)'
+CustomKeywords.'ussd.Send.response'('1')
 
-'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre compte est Identifie et Certifie MVola\\. Type et numéro de pièce enregistrés : CIN \\*\\*\\*'+troisDernierChiffreCIN+'\\. MVola vous remercie de votre confiance\\.')
+'Je saisis  5 (MORA NIGHT) et je valide'
+String actualMenu = CustomKeywords.'ussd.Send.response'('5')
+
+'Vérifier la conformité du menu'
+String menu = CustomKeywords.'ussd.Expected.menu'('Desole, vous avez utilise toutes vos demandes pour aujourd\'hui\\. Vous pourrez envoyer 2 demande\\(s\\) demain\\.', 
+    'Tapitra ny fahafahanao mampiasa io tolotra io androany\\. Rahampitso indray ianao afaka mividy  2\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
+
