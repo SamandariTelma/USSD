@@ -29,7 +29,10 @@ WS.verifyMatch(actualMenu, menu, true)
 
 'J\'entre le numéro de l\'ami auquel je demande un SOS crédit et je valide'
 
-actualMenu=CustomKeywords.'ussd.Send.response'(numeroRecepteur)
+String numeroAmi=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+println numeroAmi
+
+actualMenu=CustomKeywords.'ussd.Send.response'(numeroAmi)
 
 menu=CustomKeywords.'ussd.Expected.menu'('^Montant demande:$')
 
@@ -43,9 +46,7 @@ actualMenu=CustomKeywords.'ussd.Send.response'("${montant}")
 
 String msisdnRecepteur=GlobalVariable.msisdnRecepteur
 
-msisdnRecepteur=msisdnRecepteur.substring(1)
-
-menu=CustomKeywords.'ussd.Expected.menu'('^Votre demande de recharge de (\\d+(,\\d{1,3})?)  Ar a ete envoyee a 261'+msisdnRecepteur+'\\.$',
-	'^Voarain\'i 261'+msisdnRecepteur+'  ny fangatahana fahana (\\d+(,\\d{1,3})?) Ar nalefanao\\.$')
+menu=CustomKeywords.'ussd.Expected.menu'('^Votre demande de recharge de (\\d+(,\\d{1,3})?)  Ar a ete envoyee a '+msisdnRecepteur+'\\.$',
+	'^Voarain\'i '+msisdnRecepteur+'  ny fangatahana fahana (\\d+(,\\d{1,3})?) Ar nalefanao\\.$')
 
 WS.verifyMatch(actualMenu, menu, true)

@@ -45,7 +45,7 @@ public class Util {
 	}
 	@Keyword
 	String getLastDayOfMonth() {
-		
+
 		Date today = new Date();
 
 		Calendar calendar = Calendar.getInstance();
@@ -93,5 +93,20 @@ public class Util {
 		}
 		WS.verifyEqual(menuFound, true)
 		return rangMenu
+	}
+	//261 to 0
+	@Keyword
+	String to034(String msisdn034)
+	{
+		msisdn034='0'+msisdn034.substring(3)
+		return msisdn034
+	}
+	
+	//0 to 261
+	@Keyword
+	String to261(String msisdn261)
+	{
+		msisdn261='261'+msisdn261.substring(1)
+		return msisdn261
 	}
 }

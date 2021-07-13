@@ -19,6 +19,8 @@ String numeroInitiateur="${numeroInitiateur}"
 'En tant que client TELMA, me rends dans le menu SOS Crédit à un ami en composant le short code #111# >3>1'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '*1#', numeroInitiateur)
 
+numeroInitiateur=CustomKeywords.'ussd.Util.to034'(numeroInitiateur)
+
 String actualMenu=CustomKeywords.'ussd.Send.response'(numeroInitiateur)
 
 String menu=CustomKeywords.'ussd.Expected.menu'('^Vous ne pouvez pas envoyer une demande a vous-meme\\.$', '^Tsy afaka mandefa fangatahana any amin\'ny tenanao ianao\\.$')

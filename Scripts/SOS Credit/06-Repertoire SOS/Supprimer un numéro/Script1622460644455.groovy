@@ -30,6 +30,8 @@ String menu=CustomKeywords.'ussd.Expected.menu'('^Selectionner le contact SOS à
 WS.verifyMatch(actualMenu, menu, true)
 
 //Extraction du rang du msisdn à supprimer
+numeroASupprimer=CustomKeywords.'ussd.Util.to034'(numeroASupprimer)
+
 String menuNumASupprimer=actualMenu.substring(actualMenu.lastIndexOf(numeroASupprimer)-2,actualMenu.lastIndexOf(numeroASupprimer)-1)
 
 println "Numero à supprimer: "+menuNumASupprimer

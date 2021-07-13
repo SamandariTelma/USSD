@@ -37,14 +37,16 @@ String numeroRecepteur="${numeroRecepteur}"
 
 'J\'effectue un SOS crédit pour la 6 ème fois'
 String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '*1#', numeroInitiateur)
-
+/*
 String menu = CustomKeywords.'ussd.Expected.menu'('^Entrer numero de tel\\. Destinataire :$', '^nomerao tel\\. andefasana :$')
 
 'Vérifier la conformité du message'
 WS.verifyMatch(actualMenu, menu, true)
 
+String numeroAmi=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+
 'J\'entre le numéro de l\'ami auquel je demande un SOS crédit et je valide'
-actualMenu = CustomKeywords.'ussd.Send.response'(numeroRecepteur)
+actualMenu = CustomKeywords.'ussd.Send.response'(numeroAmi)
 
 menu = CustomKeywords.'ussd.Expected.menu'('^Montant demande:$')
 
@@ -52,9 +54,9 @@ WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisi un montant valide ex: 300 Ar'
 actualMenu = CustomKeywords.'ussd.Send.response'('300')
-
+*/
 'Vérifier la conformité du message'
-menu = CustomKeywords.'ussd.Expected.menu'('^Desole, vous avez utilise toutes vos demandes pour aujourd\'hui\\. Vous pourrez envoyer 5 demandes demain\\.$', 
+String menu = CustomKeywords.'ussd.Expected.menu'('^Desole, vous avez utilise toutes vos demandes pour aujourd\'hui\\. Vous pourrez envoyer 5 demandes demain\\.$', 
     '^Tapitra ny fahafahanao mampiasa io servisy io androany\\.Rahampitso  indray  mandefa hafatra 5\\.$')
 
 'Vérifier la conformité du message'

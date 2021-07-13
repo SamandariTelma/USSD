@@ -19,6 +19,9 @@ String msisdnInitiateur="${msisdnInitiateur}"
 
 String msisdnRecepteur="${msisdnRecepteur}"
 
+msisdnRecepteur=CustomKeywords.'ussd.Util.to034'(msisdnRecepteur)
+println msisdnRecepteur
+
 'En tant que client TELMA, je vais dans mon USSD Rappelle moi en composant le short code *130*2#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', msisdnInitiateur)
 

@@ -51,6 +51,8 @@ menu=CustomKeywords.'ussd.Expected.menu'('^.*Entrer le numéro de la personne au
 'Vérifier la conformité du prompt'
 WS.verifyMatch(actualMenu, menu, true)
 
+numeroAAjouter=CustomKeywords.'ussd.Util.to034'(numeroAAjouter)
+
 'Je rentre le numéro que je veux ajouter et je valide'
 actualMenu=CustomKeywords.'ussd.Send.response'(numeroAAjouter)
 

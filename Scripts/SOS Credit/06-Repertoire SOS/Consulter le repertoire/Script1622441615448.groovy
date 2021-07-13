@@ -31,5 +31,6 @@ String menu=CustomKeywords.'ussd.Expected.menu'('^Les numéros autorisés à rem
 'Vérifier la conformité du repertoire'
 WS.verifyMatch(actualMenu, menu, true)
 
+numeroAjoute=CustomKeywords.'ussd.Util.to034'(numeroAjoute)
 'Vérifier que les numéros que je viens d\'ajouter exite dans la liste'
 WS.verifyMatch(actualMenu, '^.*'+numeroAjoute+'.*$', true)

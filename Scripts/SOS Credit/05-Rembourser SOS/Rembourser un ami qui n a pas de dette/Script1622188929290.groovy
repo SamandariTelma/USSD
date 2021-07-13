@@ -26,6 +26,8 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4#', numeroInitiateur
 CustomKeywords.'ussd.Send.response'('2')
 
 'Je saisis le numéro auquel je rembourse du SOS crédit via MVola et je valide'
+numeroSansDette=CustomKeywords.'ussd.Util.to034'(numeroSansDette)
+
 String actualMenu=CustomKeywords.'ussd.Send.response'(numeroSansDette)
 
 String menu=CustomKeywords.'ussd.Expected.menu'('^Le numéro '+numeroSansDette+' n\'a pas de dette a rembourser\\.$', '^Ny laharana '+numeroSansDette+' dia tsy manana trosa tokony averina\\.$')

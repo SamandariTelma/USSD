@@ -18,7 +18,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Service</groupName>
-            <profileName>SOS Credit MG</profileName>
+            <profileName>default</profileName>
             <runConfigurationId>Web Service</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>

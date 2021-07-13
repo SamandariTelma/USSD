@@ -21,27 +21,32 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'0000'</initValue>
+      <name>pinMsisdnRecepteur</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'200'</initValue>
       <name>sessionId</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0343500078'</initValue>
+      <initValue>'261343500003'</initValue>
       <name>msisdnInitiateur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0343500003'</initValue>
+      <initValue>'261343500078'</initValue>
       <name>msisdnRecepteur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0340119019'</initValue>
+      <initValue>'261340119019'</initValue>
       <name>msisdnNonEligible</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0340119019'</initValue>
+      <initValue>'261340119019'</initValue>
       <name>msisdnNonMVola</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,11 +61,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0346849627'</initValue>
-      <name>numeroAAjouter</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'1000'</initValue>
       <name>montantARembourser</name>
    </GlobalVariableEntity>
@@ -68,5 +68,10 @@
       <description></description>
       <initValue>'*130#'</initValue>
       <name>ShortCodeTELMA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0346849627'</initValue>
+      <name>numeroAAjouter</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

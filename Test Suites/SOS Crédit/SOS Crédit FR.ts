@@ -276,24 +276,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>efc31d2a-a918-4603-b0cf-c1aa493325d5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SOS Credit/05-Rembourser SOS/Demander le remboursement à un ami</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>23d0ef53-7f07-4d1a-a230-26a829eeb262</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f9127665-7a94-4d85-bd24-4b3493fdf1cf</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f28d1d51-b68c-4e87-828c-2760af8aecbc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -309,6 +291,24 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>0f608672-08d4-42c6-b36e-8a9823c75724</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>efc31d2a-a918-4603-b0cf-c1aa493325d5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SOS Credit/05-Rembourser SOS/Demander le remboursement à un ami</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>23d0ef53-7f07-4d1a-a230-26a829eeb262</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f9127665-7a94-4d85-bd24-4b3493fdf1cf</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

@@ -26,8 +26,9 @@ String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4#'
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Je saisis le numéro d\'un ami non souscrit MVola et je valide'
-actualMenu=CustomKeywords.'ussd.Send.response'(numeroNonMVola)
 
+actualMenu=CustomKeywords.'ussd.Send.response'(numeroNonMVola)
+numeroNonMVola=CustomKeywords.'ussd.Util.to034'(numeroNonMVola)
 String menu=CustomKeywords.'ussd.Expected.menu'('^Le numéro saisi doit disposer d\'un compte MVola certifié pour payer votre dette\\.$', '^Ny nomerao ampidirina dia tsy maintsy manana kaonty Mvola certifié ahafahany mamerina ny trosanao\\.$')
 
 'Vérifier la conformité du message'

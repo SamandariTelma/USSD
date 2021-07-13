@@ -24,14 +24,16 @@ String numeroDejaRepertorie="${numeroDejaRepertorie}"
 'En tant que client TELMA, je vais dans le menu repertoire SOS en composant le #111# > 3 > 4 >3'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4*3#', numeroInitiateur)
 
-'Je saisis 3 et je valide'
+'Je saisis 1 et je valide'
 CustomKeywords.'ussd.Send.response'('1')
 
+numeroDejaRepertorie=CustomKeywords.'ussd.Util.to034'(numeroDejaRepertorie)
 'Je rentre le numéro qui existe déjà dans le repertoire et je valide'
 CustomKeywords.'ussd.Send.response'(numeroDejaRepertorie)
 
 'Je saisis mon code secret MVola et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'(pinMsisdnInitiateur)
+
 
 String menu=CustomKeywords.'ussd.Expected.menu'('^Le numero '+numeroDejaRepertorie+' \\(.{1,50}\\) a deja ete enregistre dans votre repertoire SOS\\.$', 
 	'^Ny laharana  '+numeroDejaRepertorie+' \\(.{1,50}\\) dia efa ao anatin ny listr ireo olona afaka mamerina ny SOS nataona\\.$')

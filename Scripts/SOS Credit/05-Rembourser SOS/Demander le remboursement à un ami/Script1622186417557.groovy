@@ -35,6 +35,8 @@ menu=CustomKeywords.'ussd.Expected.menu'('^Entrer le numéro de la personne auto
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis le numéro d\'un ami et je valide'
+numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+
 actualMenu=CustomKeywords.'ussd.Send.response'(numeroRecepteur)
 
 menu=CustomKeywords.'ussd.Expected.menu'('^Un SMS sera envoyé au '+numeroRecepteur+' \\(.{1,50}\\) pour lui demander de rembourser votre SOS en cours\\. Tapez 1 pour confirmer\\.$', 
