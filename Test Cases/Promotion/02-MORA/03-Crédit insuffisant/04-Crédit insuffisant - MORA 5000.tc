@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Crédit insuffisant - MORA 5000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a8f5c01-fd37-4cfa-a314-4b3427d7cd0c</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>9a878ffe-efa6-4148-8040-24fe066e1357</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
