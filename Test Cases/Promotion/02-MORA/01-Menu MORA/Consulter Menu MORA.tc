@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter Menu MORA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2c72eca-e7ed-4360-a17b-9dd9f535fd75</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>b07c8e22-109a-4605-9ee8-d165b47d608b</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

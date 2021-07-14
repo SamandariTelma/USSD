@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Achat MORA pour soi - MORA 500</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2592f69f-f534-4558-ad40-6f0a75ed5f04</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>4c630671-2e74-4c1a-9501-4e368312cd8d</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>ca11591e-7c52-47f3-8041-bd4bea5c41ea</id>
+      <masked>false</masked>
+      <name>montantMora500</name>
+   </variable>
+</TestCaseEntity>

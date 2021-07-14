@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>dbda095f-a885-41c5-8ae2-224ee7bd7782</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/02-Acheter offre MORA/07-Achat MORA pour soi - MORA INTERNATIONAL</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -104,7 +104,7 @@
    <testCaseLink>
       <guid>15bfe08d-eec5-479a-b4ea-4ebf03655331</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/02-Acheter offre MORA/04-Achat MORA pour soi - MORA 5000</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -122,7 +122,7 @@
    <testCaseLink>
       <guid>99e39ac5-6e39-4732-b86b-29f97e249263</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/02-Acheter offre MORA/03-Achat MORA pour soi - MORA 2000</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -140,7 +140,7 @@
    <testCaseLink>
       <guid>5e2c48bc-ee50-42a3-a6de-53704262e822</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/02-Acheter offre MORA/02-Achat MORA pour soi - MORA ONE</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -158,7 +158,7 @@
    <testCaseLink>
       <guid>76cf192f-e38e-4c82-b906-e2b19cfe0ca9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/02-Acheter offre MORA/01-Achat MORA pour soi - MORA 500</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

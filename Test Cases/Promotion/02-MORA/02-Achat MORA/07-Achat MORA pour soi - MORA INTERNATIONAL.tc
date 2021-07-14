@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>07-Achat MORA pour soi - MORA INTERNATIONAL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8ed25232-9eca-42bc-af22-8b7b45c25687</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>6d9d51b3-f58a-4a71-b465-45d8aa3fb703</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'5000'</defaultValue>
+      <description></description>
+      <id>12b74644-2996-4a80-8855-0b20199834c9</id>
+      <masked>false</masked>
+      <name>montantMoraINTERNATIONAL</name>
+   </variable>
+</TestCaseEntity>

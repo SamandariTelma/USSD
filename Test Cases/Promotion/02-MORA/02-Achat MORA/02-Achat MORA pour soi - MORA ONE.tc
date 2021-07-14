@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Achat MORA pour soi - MORA ONE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed5fe045-ccef-4692-bb56-462c4c526aaf</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>47511769-a651-4ca8-98b7-9bbbb2bf8469</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description></description>
+      <id>4d757249-f6f1-4f7c-b5f1-a27109c45af3</id>
+      <masked>false</masked>
+      <name>montantMora1000</name>
+   </variable>
+</TestCaseEntity>

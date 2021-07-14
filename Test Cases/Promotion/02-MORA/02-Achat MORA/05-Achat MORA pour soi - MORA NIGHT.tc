@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-Achat MORA pour soi - MORA NIGHT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7722af4-da36-4afb-9dd5-18df71fcce14</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>7d43f353-95c0-4b44-a2ba-389c26c115c7</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>5a32a386-0c55-40ca-a1ec-b8d84fdf593b</id>
+      <masked>false</masked>
+      <name>montantMoraNIGHT</name>
+   </variable>
+</TestCaseEntity>

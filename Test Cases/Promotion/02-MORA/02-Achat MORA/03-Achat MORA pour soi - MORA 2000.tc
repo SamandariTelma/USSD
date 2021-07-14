@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Achat MORA pour soi - MORA 2000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5471c17e-4bca-4361-a24b-1458264ef03a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>118dd681-69f4-4871-877f-fb3c8df6577e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'2000'</defaultValue>
+      <description></description>
+      <id>4782f16b-f5fd-454a-97db-cbe549adf274</id>
+      <masked>false</masked>
+      <name>montantMora2000</name>
+   </variable>
+</TestCaseEntity>

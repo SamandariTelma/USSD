@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String montantMora = "${montantMora2000}"
+String montantMora = "${montantMoraINTERNATIONAL}"
 
 'Consulter mon solde avant d\' effectuer un achat MORA'
 WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
@@ -25,18 +25,21 @@ WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), 
 
 int soldeAvant = GlobalVariable.soldeCredit
 
-'Je shortcode *130*4*6*# et je valide'
+'Je shortcode *130*5# et je valide'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
-'Je saisis 1(MORA)'
-CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 2(MORA)'
+CustomKeywords.'ussd.Send.response'('2')
 
-'Je saisis  3 (MORA+ 2000) et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('3')
+'Je saisis  7 (MORA INTERNATIONAL) et je valide'
+CustomKeywords.'ussd.Send.response'('7')
+
+'Je confirme l\'achat en saisissant 1 (OUI)'
+String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('L achat de votre MORA\\+ 2000 est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois un bonus Kadoa de 20%\\.Tapez vite le #111\\*1#\\.',
-	'Tafiditra ny tolotra MORA\\+ 2000 novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao ary mahazoa hatrany Bonus kadoa 20%\\.Tsindrio ny #111\\*1#\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('L achat de votre MORA INTERNATIONAL est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois un bonus KADOA de 20%\\. Tapez vite le #111\\*1#\\.',
+	'Tafiditra ny tolotra MORA INTERNATIONAL novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao  ary mahazoa hatrany Bonus kadoa 20%\\. Tsindrio ny #111\\*1#\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

@@ -25,14 +25,17 @@ WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), 
 
 int soldeAvant = GlobalVariable.soldeCredit
 
-'Je shortcode *130*4*6*# et je valide'
+'Je shortcode *130*5# et je valide'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
-'Je saisis 1(MORA)'
-CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 2(MORA)'
+CustomKeywords.'ussd.Send.response'('2')
 
 'Je saisis  3 (MORA+ 2000) et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('3')
+CustomKeywords.'ussd.Send.response'('3')
+
+'Je confirme l\'achat en saisissant 1 (OUI)'
+String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
 String menu=CustomKeywords.'ussd.Expected.menu'('L achat de votre MORA\\+ 2000 est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois un bonus Kadoa de 20%\\.Tapez vite le #111\\*1#\\.',
