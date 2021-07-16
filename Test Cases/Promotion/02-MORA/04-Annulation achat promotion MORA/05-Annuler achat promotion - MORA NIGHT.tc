@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-Annuler achat promotion - MORA NIGHT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22072d0c-d438-4390-b484-7264d39fd3b3</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>6b8ba079-6a44-4ff2-a3f0-9a53292bcd51</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

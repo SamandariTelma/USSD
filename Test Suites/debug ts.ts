@@ -12,87 +12,87 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>c0402360-cce9-4266-81e7-4aabe4ae2563</testSuiteGuid>
    <testCaseLink>
-      <guid>a6ffdd12-6ad3-44c1-928c-03d1464e7edc</guid>
+      <guid>f2994c59-5bcc-4dd6-8c19-0afc0fa8d4f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/02-MORA/03-Crédit insuffisant/01-Crédit insuffisant - MORA 500</testCaseId>
+      <testCaseId>Test Cases/Promotion/02-MORA/04-Annulation achat promotion MORA/01-Annuler achat promotion - MORA 500</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>51ae79b5-b8af-4165-bc55-23f6b1ec1173</variableId>
+         <variableId>3688b709-ff8a-450e-ab08-5c6ad18928fb</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3f10daa0-c07c-4d96-95db-e3b3d7fdf964</guid>
+      <guid>37d0f1e6-550d-4649-9ab8-712df81dcd80</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/02-MORA/03-Crédit insuffisant/02-Crédit insuffisant - MORA ONE</testCaseId>
+      <testCaseId>Test Cases/Promotion/02-MORA/04-Annulation achat promotion MORA/02-Annuler achat promotion - MORA ONE</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>9255ff2a-8907-4adf-83da-ddfe45c6408f</variableId>
+         <variableId>1e8d51e2-4fff-4d00-a97c-e4e763b03c07</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>aadc66e2-bd5e-4422-b1f1-2bb7ae65ff04</guid>
+      <guid>a7f259c5-c074-4020-8811-1315044ca207</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/02-MORA/03-Crédit insuffisant/03-Crédit insuffisant - MORA 2000</testCaseId>
+      <testCaseId>Test Cases/Promotion/02-MORA/04-Annulation achat promotion MORA/03-Annuler achat promotion - MORA 2000</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>84018ad6-6e8f-47bc-b7ea-9237737d8cad</variableId>
+         <variableId>0afb1cc3-01a4-4b8b-9c46-47c6e10373d6</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>03ca7541-d8c9-48f6-ba20-e135b5d15c4c</guid>
+      <guid>3c709d05-5f37-477f-91df-5cfcba1ac539</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/02-MORA/03-Crédit insuffisant/04-Crédit insuffisant - MORA 5000</testCaseId>
+      <testCaseId>Test Cases/Promotion/02-MORA/04-Annulation achat promotion MORA/04-Annuler achat promotion - MORA 5000</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>9a878ffe-efa6-4148-8040-24fe066e1357</variableId>
+         <variableId>a052115c-fe84-4a6c-9cd7-863140f06323</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c55ea1c8-96cb-45ed-a76a-b686f034f20e</guid>
+      <guid>a22f09a4-29cd-4fdd-b1f6-451d10d5562f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/02-MORA/03-Crédit insuffisant/05-Crédit insuffisant - MORA NIGHT</testCaseId>
+      <testCaseId>Test Cases/Promotion/02-MORA/04-Annulation achat promotion MORA/05-Annuler achat promotion - MORA NIGHT</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>61475a39-a08f-4a1b-b04b-76791753422c</variableId>
+         <variableId>6b8ba079-6a44-4ff2-a3f0-9a53292bcd51</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>85c4f5af-ccaf-44a7-bb14-f63971d07ed5</guid>
+      <guid>561bc352-e459-4778-987e-dbc313aa291b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/02-MORA/03-Crédit insuffisant/06-Crédit insuffisant - MORA TEAM</testCaseId>
+      <testCaseId>Test Cases/Promotion/02-MORA/04-Annulation achat promotion MORA/06-Annuler achat promotion - MORA TEAM</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>03aebdac-0567-42a3-be22-b9072950eb65</variableId>
+         <variableId>22ea28e2-ab4b-4a0f-adb4-8119b82838e9</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>1df648b9-9151-4e7b-8e78-191a86161a91</guid>
+      <guid>45d7f89b-86ef-4863-855e-5346aff558b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/02-MORA/03-Crédit insuffisant/07-Crédit insuffisant - MORA INTERNATIONAL</testCaseId>
+      <testCaseId>Test Cases/Promotion/02-MORA/04-Annulation achat promotion MORA/07-Annuler achat promotion - MORA INTERNATIONAL</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>68547bdf-1d95-45ed-b2bf-76822eeb0ff7</variableId>
+         <variableId>3bdea39a-1a5d-4b77-808e-e1ff8d961184</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

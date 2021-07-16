@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06-Non eligible - MORA TEAM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92f690aa-45ad-4d0f-bdb6-85f7f6d48413</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnNonEligible</defaultValue>
+      <description></description>
+      <id>907b6225-6dd0-414a-acc3-a2c2d628663f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

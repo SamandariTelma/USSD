@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Annuler achat promotion - MORA 5000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0cd4358-e99a-4f97-a21b-770ccf0d7ec0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>a052115c-fe84-4a6c-9cd7-863140f06323</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

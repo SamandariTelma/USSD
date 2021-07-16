@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Achat FIRSTpour soi - FIRST PREMIUM 15000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b60e6b35-4c1c-4ca1-84f6-6ac45793e036</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>f17870ca-b73b-4bec-93d0-c2dc88e34a3a</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'15000'</defaultValue>
+      <description></description>
+      <id>70f64aa6-7743-48ac-9a90-515348d47a29</id>
+      <masked>false</masked>
+      <name>montantFirstPrenium</name>
+   </variable>
+</TestCaseEntity>

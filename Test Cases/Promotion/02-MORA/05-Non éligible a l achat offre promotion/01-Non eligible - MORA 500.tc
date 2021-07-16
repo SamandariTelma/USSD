@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Non eligible - MORA 500</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5b223c4-ed7d-4954-9163-96a41995129d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.numeroNonEligible</defaultValue>
+      <description></description>
+      <id>771bca2b-214a-4ff6-bdee-1ea6c7eb4160</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

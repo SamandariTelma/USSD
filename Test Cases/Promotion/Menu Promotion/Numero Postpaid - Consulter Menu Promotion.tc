@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Numero Postpaid - Consulter Menu Promotion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87ede8c2-dd13-489d-adc2-205d91842af5</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.numeroNonEligible</defaultValue>
+      <description></description>
+      <id>75383939-df7f-4178-8590-13fbb27e8c80</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

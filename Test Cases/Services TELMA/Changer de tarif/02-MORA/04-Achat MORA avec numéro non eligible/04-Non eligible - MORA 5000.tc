@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>4be7cf8c-707c-42e9-b30b-bada105f3ec0</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <defaultValue>GlobalVariable.numeroNonEligible</defaultValue>
       <description></description>
       <id>3337d1d7-a037-4edf-ad37-76a40ba84b2c</id>
       <masked>false</masked>

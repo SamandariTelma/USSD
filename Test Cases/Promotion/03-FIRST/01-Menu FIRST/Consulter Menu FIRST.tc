@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter Menu FIRST</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e4905ad7-0646-4351-a3c8-239797964e25</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>9a77747c-b08a-47a1-b768-90dcf525e42b</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

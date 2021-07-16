@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Achat FIRSTpour soi - FIRST PRESTIGE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64e81630-4502-457e-a3dc-1dc550a370cd</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>33dc242e-e44e-4867-b9ec-baaf5a7a5969</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'30000'</defaultValue>
+      <description></description>
+      <id>0a556f0f-7db2-4c7a-8a28-5ff1c319a118</id>
+      <masked>false</masked>
+      <name>montantFirstPrestige</name>
+   </variable>
+</TestCaseEntity>
