@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Non eligible - FIRST PREMIUM 15000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9030aeb-acf5-4353-a8ca-d6c157d71a0a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.numeroNonEligible</defaultValue>
+      <description></description>
+      <id>26d3c8d3-7d2e-4e9d-9985-8bcf91578fa4</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
