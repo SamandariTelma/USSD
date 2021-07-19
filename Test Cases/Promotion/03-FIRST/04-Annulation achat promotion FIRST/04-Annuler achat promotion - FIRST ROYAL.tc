@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Annuler achat promotion - FIRST ROYAL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e16b9aed-90ad-4314-bb35-5f0bc79c4e3c</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>3a689e23-a18c-4d6a-b018-a61918be599b</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

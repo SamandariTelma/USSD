@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Annuler achat promotion - FIRST PREMIUM 10000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e570abf8-b661-45d2-9bc7-3d3652588de1</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>c692ff9a-1fd8-476b-a7f4-24ef2ec923e7</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

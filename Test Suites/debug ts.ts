@@ -12,87 +12,63 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>c0402360-cce9-4266-81e7-4aabe4ae2563</testSuiteGuid>
    <testCaseLink>
-      <guid>f2994c59-5bcc-4dd6-8c19-0afc0fa8d4f4</guid>
+      <guid>5da2974b-5438-426c-bd09-b8c6985a6895</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/02-MORA/04-Annulation achat promotion MORA/01-Annuler achat promotion - MORA 500</testCaseId>
+      <testCaseId>Test Cases/Promotion/03-FIRST/04-Annulation achat promotion FIRST/01-Annuler achat promotion - FIRST PREMIUM 10000</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3688b709-ff8a-450e-ab08-5c6ad18928fb</variableId>
+         <variableId>c692ff9a-1fd8-476b-a7f4-24ef2ec923e7</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>37d0f1e6-550d-4649-9ab8-712df81dcd80</guid>
+      <guid>af5ce601-0819-4c15-854c-5625d6983006</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/02-MORA/04-Annulation achat promotion MORA/02-Annuler achat promotion - MORA ONE</testCaseId>
+      <testCaseId>Test Cases/Promotion/03-FIRST/04-Annulation achat promotion FIRST/02-Annuler achat promotion - FIRST PREMIUM 15000</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>1e8d51e2-4fff-4d00-a97c-e4e763b03c07</variableId>
+         <variableId>432acd23-bd6c-4d8f-b0c1-ab2b91f88604</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a7f259c5-c074-4020-8811-1315044ca207</guid>
+      <guid>c00232a4-af2c-4859-a83f-43f663aedb93</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/02-MORA/04-Annulation achat promotion MORA/03-Annuler achat promotion - MORA 2000</testCaseId>
+      <testCaseId>Test Cases/Promotion/03-FIRST/04-Annulation achat promotion FIRST/03-Annuler achat promotion - FIRST PRESTIGE</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0afb1cc3-01a4-4b8b-9c46-47c6e10373d6</variableId>
+         <variableId>e0ab55c8-cc26-45a4-8dc2-a53628abea6c</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3c709d05-5f37-477f-91df-5cfcba1ac539</guid>
+      <guid>4f1892e2-1a11-45bb-9be2-ae5ffcc817c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/02-MORA/04-Annulation achat promotion MORA/04-Annuler achat promotion - MORA 5000</testCaseId>
+      <testCaseId>Test Cases/Promotion/03-FIRST/04-Annulation achat promotion FIRST/04-Annuler achat promotion - FIRST ROYAL</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>a052115c-fe84-4a6c-9cd7-863140f06323</variableId>
+         <variableId>3a689e23-a18c-4d6a-b018-a61918be599b</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a22f09a4-29cd-4fdd-b1f6-451d10d5562f</guid>
+      <guid>5bcb785f-16b5-4bbb-9933-71fddd8bd1be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/02-MORA/04-Annulation achat promotion MORA/05-Annuler achat promotion - MORA NIGHT</testCaseId>
+      <testCaseId>Test Cases/Promotion/03-FIRST/04-Annulation achat promotion FIRST/05-Annuler achat promotion - FIRST CLASSIQUE</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>6b8ba079-6a44-4ff2-a3f0-9a53292bcd51</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>561bc352-e459-4778-987e-dbc313aa291b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/02-MORA/04-Annulation achat promotion MORA/06-Annuler achat promotion - MORA TEAM</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>22ea28e2-ab4b-4a0f-adb4-8119b82838e9</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>45d7f89b-86ef-4863-855e-5346aff558b8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/02-MORA/04-Annulation achat promotion MORA/07-Annuler achat promotion - MORA INTERNATIONAL</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3bdea39a-1a5d-4b77-808e-e1ff8d961184</variableId>
+         <variableId>098a9798-25c4-4ef9-8bd4-40ba9a18af1e</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

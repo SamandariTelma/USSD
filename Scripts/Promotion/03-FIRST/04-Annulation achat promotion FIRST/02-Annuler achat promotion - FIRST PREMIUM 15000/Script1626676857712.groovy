@@ -23,15 +23,18 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 'Je saisis 3(FIRST)'
 CustomKeywords.'ussd.Send.response'('3')
 
-'Je saisis  5 (First Royal) et je valide'
-CustomKeywords.'ussd.Send.response'('5')
+'Je saisis  2 (First Premium +) et je valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
-'Je confirme l\'achat en saisissant 1 (OUI)'
-String actualMenu=CustomKeywords.'ussd.Send.response'('1')
-
-'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre credit est insuffisant pour le changement d\'offre que vous demandez\\.',
-	'Tsy ampy ny fahana anananao raha hiova io tolotra nangatahanao io ianao\\.')
+'Vérifier la conformité du prompt'
+String menu=CustomKeywords.'ussd.Expected.menu'('^.*\\. Vous voulez en profiter\\? 1\\-OUI ; 0\\-NON.*$','^.*\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA.*$')
 
 WS.verifyMatch(actualMenu, menu, true)
+'J\'annulle l\'achat en saisissant 0 (NON)'
+actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
+'Vérifier la conformité du menu'
+menu=CustomKeywords.'ussd.Expected.menu'('Merci d\'avoir utliser le service Telma\\.',
+	'Misaotra anao nampiasa ny tolotra Telma\\.')
+
+WS.verifyMatch(actualMenu, menu, true)

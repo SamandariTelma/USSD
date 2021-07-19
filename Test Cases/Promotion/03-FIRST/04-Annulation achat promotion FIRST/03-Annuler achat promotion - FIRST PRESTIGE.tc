@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Annuler achat promotion - FIRST PRESTIGE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9ab6b2c-e867-4f88-a959-eced0a941377</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e0ab55c8-cc26-45a4-8dc2-a53628abea6c</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
