@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Promotion - Achat YELOW 100</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d302a1e2-8970-4d7b-9b95-46f2f1657b90</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>d4a4acaf-122b-44ea-b63e-4f4d7553fe96</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'100'</defaultValue>
+      <description></description>
+      <id>2b54b77e-2da8-4bdc-90bd-6e9db2d81ea6</id>
+      <masked>false</masked>
+      <name>montantYelow</name>
+   </variable>
+</TestCaseEntity>

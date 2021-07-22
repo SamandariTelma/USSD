@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06-Promotion - Achat YELOW FACEBOBAKA plus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aab4834e-f350-4f1c-81af-a9ba403a34ff</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>62e6e388-5035-4ec5-8164-11b06dadc904</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'2000'</defaultValue>
+      <description></description>
+      <id>0e117a73-1c20-41c5-8510-e79656389fd9</id>
+      <masked>false</masked>
+      <name>montantYelow</name>
+   </variable>
+</TestCaseEntity>

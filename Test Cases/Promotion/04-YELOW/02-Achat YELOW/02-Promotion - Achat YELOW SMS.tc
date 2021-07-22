@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Promotion - Achat YELOW SMS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>641032a2-103f-4cb2-b844-674fd7f2484e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>cfe33b16-756d-401e-8dc7-887e71aff55b</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'200'</defaultValue>
+      <description></description>
+      <id>f2e473c1-cbbb-4a31-b68a-296710b93eff</id>
+      <masked>false</masked>
+      <name>montantYelow</name>
+   </variable>
+</TestCaseEntity>
