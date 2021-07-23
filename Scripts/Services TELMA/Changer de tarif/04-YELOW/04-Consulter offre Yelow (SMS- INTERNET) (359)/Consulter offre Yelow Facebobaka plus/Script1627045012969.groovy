@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(3,'dd/MM/yyy HH:mm')
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(14,'dd/MM/yyy HH:mm')
 
 String regexDate='(((0[1-9]|[12][0-9]|30)[-\\/]?(0[13-9]|1[012])|31[-\\/]?(0[13578]|1[02])|(0[1-9]|1[0-9]|2[0-8])[-\\/]?02)[-\\/]?[0-9]{4}|29[-\\/]?02[-\\/]?([0-9]{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0[0-9]|1[0-6])00))'
 String regexSolde='\\d+( \\d{3})*(\\.\\d+)?'
@@ -39,7 +39,7 @@ menu=CustomKeywords.'ussd.Expected.menu'('^.*YELOW FACEBOBAKA.*$')
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis le rang du menu YELOW FACEBOBAKA et valide'
-menuYelowFB=actualMenu.substring(actualMenu.lastIndexOf('YELOW FACEBOBAKA\n')-2,actualMenu.lastIndexOf('YELOW FACEBOBAKA\n')-1)
+menuYelowFB=actualMenu.substring(actualMenu.lastIndexOf('YELOW FACEBOBAKA +')-2,actualMenu.lastIndexOf('YELOW FACEBOBAKA +')-1)
 println("tets: "+menuYelowFB)
 actualMenu=CustomKeywords.'ussd.Send.response'(menuYelowFB)
 
@@ -53,8 +53,8 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Votre bonus YELOW FACEBOBAKA restant, \\d{1,4}\\.\\d Mo utilisable toute la journee valable jusqu au '+dateExpiration+' inclus\\.',
-	'Ny bonus YELOW FACEBOBAKA \\- nao: \\d{1,4}\\.\\d Mo ny tontolo andro ampiasaina hatramin ny '+dateExpiration)
+menu=CustomKeywords.'ussd.Expected.menu'('Bonus YELOW FACEBOOBAKA \\+: \\d{1,5}\\.\\d Mo utilisable toute la journee valable jusqu au '+dateExpiration,
+	'Bonus YELOW FACEBOOBAKA \\+: \\d{1,5}\\.\\d Mo azo ampiasaina ny tontolo andro ampiasaina hatramin ny '+dateExpiration)
 
 WS.verifyMatch(actualMenu, menu, true)
 

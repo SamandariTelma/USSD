@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Credit insuffisant - YELOW SMS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2feb8db7-1488-4bcb-b90a-1b3a0ab62dbd</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>26346712-5ec5-4cbb-8c3e-f7fbc5a8db1d</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

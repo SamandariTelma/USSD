@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Annuler achat promotion - YELOW 1000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d67031d6-d18d-49fe-a1ec-11983047187e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>36bf0539-6790-45e9-8d00-bfdad008e27d</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

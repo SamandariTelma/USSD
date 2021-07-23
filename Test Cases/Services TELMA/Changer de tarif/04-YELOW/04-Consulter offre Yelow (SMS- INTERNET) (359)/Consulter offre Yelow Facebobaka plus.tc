@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter offre Yelow Facebobaka plus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71fae0e5-9f24-4b25-80e4-e34531122807</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>a1e3c498-62b1-4cf2-863a-1355bec7f698</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-Credit insuffisant - YELOW 200</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>06353f9b-97eb-4b99-83d3-b8538a480553</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>76ece060-4d89-4a27-a0e8-abe90f1a9392</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

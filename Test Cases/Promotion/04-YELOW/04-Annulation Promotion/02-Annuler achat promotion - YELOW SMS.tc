@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Annuler achat promotion - YELOW SMS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ef91056-0b47-4cc9-aa68-461691b5af1e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>66c52434-dc78-4c3f-9513-de82dc8891ed</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

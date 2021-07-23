@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06-Credit insuffisant - YELOW FACEBOBAKA plus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7c2e799-563b-4ed7-833c-dbb16e03b9b4</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>8c2f48a0-b415-4df0-8146-573c09ce3d3a</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
