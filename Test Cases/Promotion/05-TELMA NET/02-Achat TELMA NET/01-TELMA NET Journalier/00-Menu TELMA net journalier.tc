@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Choisir un menu offrre inexistant</name>
+   <name>00-Menu TELMA net journalier</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7329f442-e2bb-4c88-b8a4-eb574cb8968a</testCaseGuid>
+   <testCaseGuid>b3894f27-7782-44bb-a4e6-1f6030f68813</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>ab7d4690-8059-4d4c-8a3c-4765dd89569d</id>
+      <id>a0779af4-1e55-49d5-a19d-af1c0ce35781</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

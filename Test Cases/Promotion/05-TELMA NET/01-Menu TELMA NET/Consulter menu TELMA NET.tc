@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter menu TELMA NET</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>550769e6-3894-4ec9-ac00-989776a3b43c</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e92150e4-9049-45f2-b9cf-641315a2c32f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

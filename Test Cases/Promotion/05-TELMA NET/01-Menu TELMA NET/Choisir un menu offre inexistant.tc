@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Choisir un menu offre inexistant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8ec4b6c2-a760-49f2-ba75-403fe1a38c8e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>b4fd445f-ff9b-4f33-93d4-8c47c3b3453e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
