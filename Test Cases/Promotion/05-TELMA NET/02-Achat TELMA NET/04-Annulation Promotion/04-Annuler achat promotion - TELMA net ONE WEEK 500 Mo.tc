@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Annuler achat promotion - TELMA net ONE WEEK 500 Mo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19f44a4c-dc65-4b74-b1c1-948c3f01cbdd</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>6ee33158-a4f9-4b62-822e-43dbc7910b1b</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Achat Telma net erreur de confirmation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ff7bf80-c5f3-4e50-970e-28df9c26d790</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>a5e2863b-4e42-4da4-a136-2b3675537981</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

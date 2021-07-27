@@ -15,27 +15,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroInitiateur = "$numeroInitiateur"
+String numeroInitiateur="${numeroInitiateur}"
 
-'Je shortcode *130*5# et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
+'Je me rends sur le menu TELMA net en shortCodant *130*5*5#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*5#', numeroInitiateur)
 
-'Je saisis 4(YELOW)'
-CustomKeywords.'ussd.Send.response'('4')
+'Je saisis 3 (TELMA NET Mensuel)'
+CustomKeywords.'ussd.Send.response'('3')
 
-'Je saisis  1 (Yelow 100) et je valide'
+'Je saisis 2 (NET ONE MONTH 3 Go)'
+CustomKeywords.'ussd.Send.response'('2')
+
+'Je saisis 1 (OUI) et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
-'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('^.*\\. Vous voulez en profiter\\? 1\\-OUI ; 0\\-NON.*$','^.*\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA.*$')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je confirme l\'achat en saisissant 0 (NON)'
-actualMenu = CustomKeywords.'ussd.Send.response'('0')
-
-'Vérifier la conformité du menu'
-menu=CustomKeywords.'ussd.Expected.menu'('Merci d\'avoir utliser le service Telma\\.',
-	'Misaotra anao nampiasa ny tolotra Telma\\.')
+'Je vérifie la conformité du message'
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre credit est insuffisant pour le changement d\'offre que vous demandez\\.',
+	'Tsy ampy ny fahana anananao raha hiova io tolotra nangatahanao io ianao\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
