@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>03-Promotion - Achat TELMA net ONE WEEK 1,5Go</name>
+   <name>03-Promotion - Achat NET 9 MOIS</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>490456ba-63f5-454c-9007-0be9a004077c</testCaseGuid>
+   <testCaseGuid>1c21b1c2-2ca3-43a7-953b-c362255ce619</testCaseGuid>
    <variable>
-      <defaultValue>'10000'</defaultValue>
+      <defaultValue>'90000'</defaultValue>
       <description></description>
-      <id>b5a631a5-dba2-4111-b5b3-5f645d3aed82</id>
+      <id>6687e7d2-0eff-441f-8f8b-0cd0e45b9036</id>
       <masked>false</masked>
       <name>montantTelmaNet</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>bb4b9ad0-07c4-4765-bb76-59a0bf4263ba</id>
+      <id>f2c00619-1773-4731-a133-263399cf255e</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

@@ -27,18 +27,18 @@ int soldeAvant = GlobalVariable.soldeCredit
 'Je vais dans le menu TELMA NET en shortcodant #130*5*5#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*5#', numeroInitiateur)
 
-'Je saisi 2 (TELMA NET Hebdomadaire)'
-String actualMenu=CustomKeywords.'ussd.Send.response'('2')
+'Je saisi 4 (TELMA NET Payer mensualités en avance)'
+String actualMenu=CustomKeywords.'ussd.Send.response'('4')
 
-'Je saisis 3(NET ONE WEEK 1,5 Go)'
+'Je saisis 3(NET 9 MOIS)'
 CustomKeywords.'ussd.Send.response'('3')
 
 'Je saisis 1 (OUI) et je valide'
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Je vérifie la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('L achat de votre NET ONE WEEK 1,5 Go est reussi\\. Vous avez 1,5 Go de DATA utilisable à toute heure\\. Achetez via Mvola et gagnez 20% de bonus\\. \\(#111\\*1#\\)\\.',
-	'Tafiditra ny tolotra NET ONE WEEK 1,5 Go novidianao\\. Manana 1,5 Go azo ampiasaina @ ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre NET 9 MOIS est activee\\. Vous avez 250 Mo/mois pendant 9 mois\\. Bonus restant #359#\\. Achetez via MVola et gagnez un bonus Kadoa de 20%\\. \\(#111\\*1#\\)',
+	'Tafiditra ny tolotra NET 9 MOIS\\.Manana 250Mo isam bolana ianao mandritry ny 9 volana\\. Bonus #359#\\.Vidio @Mvola ny tolotra ary mahazoa bonus KADOA 20%\\. \\(#111\\*1#\\)')
 
 WS.verifyMatch(actualMenu, menu, true)
 'Je vérifie que mon solde est déduit du montant de TELMA NET acheté'
