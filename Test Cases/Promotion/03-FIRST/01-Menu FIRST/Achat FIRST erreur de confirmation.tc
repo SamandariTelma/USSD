@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Achat FIRST erreur de confirmation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb132127-9678-4d3b-9a82-5d5baaf3cdef</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>05372bee-99bc-43c5-a794-bb2afb9ec163</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

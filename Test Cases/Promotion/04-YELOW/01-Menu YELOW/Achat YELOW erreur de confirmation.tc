@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Achat YELOW erreur de confirmation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dcd87fc7-739a-46f9-8909-c4d3e0d7c8c7</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e32daf53-3413-4b95-a6cb-6dbbe0e4a6c7</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
