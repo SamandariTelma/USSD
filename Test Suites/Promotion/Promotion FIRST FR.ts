@@ -60,6 +60,18 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>e77f76bb-2216-4f05-b47b-3e075fc63b96</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Promotion/03-FIRST/01-Menu FIRST/Achat FIRST erreur de confirmation</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>05372bee-99bc-43c5-a794-bb2afb9ec163</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>26e4c185-ca0b-49d5-989b-19f9998c8cc3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -60,6 +60,18 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>0c6d9992-2f4f-47cc-b697-5dc5e8fc3e64</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Promotion/02-MORA/01-Menu MORA/Achat MORA erreur de confirmation</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>96ce6e2c-12d0-4720-bbeb-6f11a865b3c4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>39b495b7-eed7-4295-b0a1-ce7ef28e193a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
