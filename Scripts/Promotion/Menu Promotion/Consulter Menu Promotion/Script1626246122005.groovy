@@ -33,3 +33,4 @@ menu=CustomKeywords.'ussd.Expected.menu'('PROMOTIONS\n1 MVola\n2 MORA \\(VOIX \\
 	'TOLOTRA\n1 MVola\n2 MORA \\(VOIX \\- SMS \\- INTERNET\\)\n3 FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n4 YELOW \\(SMS \\- INTERNET\\)\n5 TELMA Net \\(INTERNET\\)')
 
 WS.verifyMatch(actualMenu, menu, true)
+//com 
