@@ -36,3 +36,11 @@ actualMenu=CustomKeywords.'ussd.Send.response'('0')
 menu=CustomKeywords.'ussd.Expected.menu'('5 NET ONE MONTH 100Go \\(195 000 Ar\\)\n00 Page precedente', '5 NET ONE MONTH 100Go \\(195 000 Ar\\)\n00 Pejy aloha')
 
 WS.verifyMatch(actualMenu, menu, true)
+
+'Je saisis 00 pourretourner sur le menu précedent'
+actualMenu=CustomKeywords.'ussd.Send.response'('00')
+
+menu=CustomKeywords.'ussd.Expected.menu'('NET MENSUEL\n1 NET ONE MONTH 1,5Go \\(15 000 Ar\\)\n2 NET ONE MONTH 3Go \\(25 000 Ar\\)\n3 NET ONE MONTH 10Go \\(75 000 Ar\\)\n4 NET ONE MONTH 20Go \\(125 000 Ar\\)\n0 Page suivante',
+	'NET MENSUEL\n1 NET ONE MONTH 1,5Go \\(15 000 Ar\\)\n2 NET ONE MONTH 3Go \\(25 000 Ar\\)\n3 NET ONE MONTH 10Go \\(75 000 Ar\\)\n4 NET ONE MONTH 20Go \\(125 000 Ar\\)\n0 Pejy manaraka')
+
+WS.verifyMatch(actualMenu, menu, true)

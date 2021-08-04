@@ -32,9 +32,8 @@ String menu=CustomKeywords.'ussd.Expected.menu'('TELMA Net \\(INTERNET\\)\n1 NET
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisi un numéro qui n\'existe pas dans le menu'
-CustomKeywords.'ussd.Send.response'('9')
+actualMenu=CustomKeywords.'ussd.Send.response'('9')
 
 'Vérifier la conformité du menu'
-menu=CustomKeywords.'ussd.Expected.menu'('TELMA Net \\(INTERNET\\)\n1 NET JOURNALIER\n2 NET HEBDOMADAIRE\n3 NET MENSUEL\n4 NET PAYER MENSUALITES EN AVANCE')
 
 WS.verifyMatch(actualMenu, menu, true)
