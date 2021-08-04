@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Info conso - ONE DAY</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3d38ed8-5025-40df-b0a0-58b720d554f9</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e6b50878-8538-45c0-8d71-92b44abd7670</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>11-Info conso - NET 3 MOIS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>120f83ed-4a7b-409e-819b-319637ba98d8</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>a9a6d1dd-68af-4ff5-9519-c51627d1ee35</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-Promotion - Achat TELMA net ONE MONTH 100Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ff9799f-d04c-4085-b517-cb9ab1f09f9b</testCaseGuid>
+   <variable>
+      <defaultValue>'195000'</defaultValue>
+      <description></description>
+      <id>bc48af33-dc9c-4ee0-90c2-5a44ed3703b2</id>
+      <masked>false</masked>
+      <name>montantTelmaNet</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>61f27092-ac7e-42e0-9ce5-3f7d7d3bbb28</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Menu TELMA net hebdomadaire</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb329629-90c4-4f46-9dc6-138bff2beeac</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>bfa47b04-6ae7-441a-86b2-2eec14642f78</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

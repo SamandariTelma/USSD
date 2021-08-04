@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Info conso - ONE NIGHT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>792ace6c-87ac-4f29-9b61-7489e3573559</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>32a1d498-c1f6-45db-97ac-4da33631f31a</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

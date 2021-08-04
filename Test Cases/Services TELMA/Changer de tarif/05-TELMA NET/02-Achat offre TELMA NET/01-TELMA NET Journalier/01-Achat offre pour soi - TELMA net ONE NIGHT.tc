@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Achat offre pour soi - TELMA net ONE NIGHT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37b96cb8-894b-4ac9-a8b4-68e959df5532</testCaseGuid>
+   <variable>
+      <defaultValue>'100'</defaultValue>
+      <description></description>
+      <id>342b57dc-f208-41bc-b00f-0999b49cc250</id>
+      <masked>false</masked>
+      <name>montantTelmaNet</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>02869407-7221-41ce-a873-027e7a7a521c</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

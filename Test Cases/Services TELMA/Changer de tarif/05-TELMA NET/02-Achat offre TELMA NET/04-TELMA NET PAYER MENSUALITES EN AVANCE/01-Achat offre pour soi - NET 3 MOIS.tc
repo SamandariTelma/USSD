@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Achat offre pour soi - NET 3 MOIS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c963be4-3910-4100-859e-b3165064ac83</testCaseGuid>
+   <variable>
+      <defaultValue>'30000'</defaultValue>
+      <description></description>
+      <id>bb9ce55a-d5c7-432d-bddb-762a5e3a5afb</id>
+      <masked>false</masked>
+      <name>montantTelmaNet</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>0a6e03c3-42cd-45c1-b449-bb495beda826</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

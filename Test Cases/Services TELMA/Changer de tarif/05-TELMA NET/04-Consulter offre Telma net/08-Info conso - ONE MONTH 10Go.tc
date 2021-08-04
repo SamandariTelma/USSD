@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>08-Info conso - ONE MONTH 10Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f069f7d-3589-4c62-8304-6e55488503a0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>ce17dcf9-a795-45ef-887a-d22b79c4835f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
