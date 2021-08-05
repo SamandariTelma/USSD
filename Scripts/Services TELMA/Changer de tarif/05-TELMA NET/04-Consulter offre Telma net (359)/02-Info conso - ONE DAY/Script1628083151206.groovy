@@ -15,27 +15,33 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+
 String numeroInitiateur="${numeroInitiateur}"
 
-'Je me rends sur le menu TELMA net en shortCodant *130*5*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*5#', numeroInitiateur)
 
-'Je saisis 1 (TELMA NET Journalier)'
-CustomKeywords.'ussd.Send.response'('1')
+'Après achat Offre TELMA NET ONE DAY avec succès , je consulte mon solde en saisissant #359#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
 
-'Je saisis 2 (NET ONE DAY)'
-String actualMenu=CustomKeywords.'ussd.Send.response'('2')
+'Je saisis 1 (Mes offres) et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
-'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('^.*\\. Vous voulez en profiter\\? 1\\-OUI ; 0\\-NON.*$','^.*\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA.*$')
+'Vérifier si l\'offre apparait dans la liste offre'
+String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE DAY', actualMenu)
+
+'Je saisis le rang du menu NET ONE DAY et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
+
+'Vérifier la conformité du message'
+String menu=CustomKeywords.'ussd.Expected.menu'('NET ONE DAY\n1 Info conso\n00 Page precedente',
+	'NET ONE DAY\n1 Info conso\n00 Pejy aloha')
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Je saisis 0 (NON) et je valide'
-actualMenu=CustomKeywords.'ussd.Send.response'('0')
+'Je saisis 1 (Info conso) à nouveau et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
-'Vérifier la conformité du menu'
-menu=CustomKeywords.'ussd.Expected.menu'('Merci d\'avoir utliser le service Telma\\.',
-	'Misaotra anao nampiasa ny tolotra Telma\\.')
+'Vérifier la conformité du message'
+menu=CustomKeywords.'ussd.Expected.menu'('NET ONE DAY, il vous reste \\d{1,5}\\.\\d Mo utilisable  a toute heure',
+	'NET ONE DAY, \\d{1,5}\\.\\d Mo sisa ny bonus\\-nao azo ampiasaina @ ora rehetra')
 
 WS.verifyMatch(actualMenu, menu, true)

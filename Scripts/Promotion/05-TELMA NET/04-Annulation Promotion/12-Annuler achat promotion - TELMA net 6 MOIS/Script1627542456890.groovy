@@ -24,7 +24,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*5#', numeroInitiateur
 CustomKeywords.'ussd.Send.response'('4')
 
 'Je saisis 2 (NET 6 MOIS)'
-String actualMenu=CustomKeywords.'ussd.Send.response'('6')
+String actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du prompt'
 String menu=CustomKeywords.'ussd.Expected.menu'('^.*\\. Vous voulez en profiter\\? 1\\-OUI ; 0\\-NON.*$','^.*\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA.*$')
@@ -35,7 +35,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('0')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('Merci d\'avoir utliser le service Telma\\.',
+menu=CustomKeywords.'ussd.Expected.menu'('Merci d\'avoir utliser le service Telma\\.',
 	'Misaotra anao nampiasa ny tolotra Telma\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

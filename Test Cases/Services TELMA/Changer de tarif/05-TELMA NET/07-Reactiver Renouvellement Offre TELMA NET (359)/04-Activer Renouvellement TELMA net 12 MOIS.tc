@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Activer Renouvellement TELMA net 12 MOIS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ec4e1cb-7398-47d2-a437-401d95b9981f</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>a8d28a12-fa6f-4485-84a6-13d4ccdb44e0</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

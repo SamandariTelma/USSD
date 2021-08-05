@@ -15,27 +15,33 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+
 String numeroInitiateur="${numeroInitiateur}"
 
-'Je me rends sur le menu TELMA net en shortCodant *130*5*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*5#', numeroInitiateur)
+String dateExpiration=CustomKeywords.'ussd.Util.getLastDayOfMonth'()
 
-'Je saisis 1 (TELMA NET Journalier)'
-CustomKeywords.'ussd.Send.response'('1')
 
-'Je saisis 2 (NET ONE DAY)'
-String actualMenu=CustomKeywords.'ussd.Send.response'('2')
+'Après desactivation Offre TELMA NET 9 MOIS, je short code #359#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
 
-'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('^.*\\. Vous voulez en profiter\\? 1\\-OUI ; 0\\-NON.*$','^.*\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA.*$')
+'Je saisis 1 (Mes offres) et valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'('1')
+
+'Vérifier si l\'offre apparait dans la liste offre'
+String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET 9 MOIS', actualMenu)
+
+'Je saisis le rang du menu NET 9 MOIS et valide'
+CustomKeywords.'ussd.Send.response'(rangMenu)
+
+'Je saisis 2 (Etat du renouvellement automatique)et valide'
+CustomKeywords.'ussd.Send.response'('2')
+
+'Je saisis 1 pour activer le renouvellement automatique et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('1')
+
+'Vérifier la conformité du message'
+String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez reactive avec succes le renouvellement automatique de NET 9 MOIS\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Je saisis 0 (NON) et je valide'
-actualMenu=CustomKeywords.'ussd.Send.response'('0')
-
-'Vérifier la conformité du menu'
-menu=CustomKeywords.'ussd.Expected.menu'('Merci d\'avoir utliser le service Telma\\.',
-	'Misaotra anao nampiasa ny tolotra Telma\\.')
-
-WS.verifyMatch(actualMenu, menu, true)
+//#359*86*2# desactivé NET 9 MOIS

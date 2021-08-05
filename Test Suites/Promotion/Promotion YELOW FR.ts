@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>d1ac7386-266d-4ed3-80dd-85b43383be2f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/Menu Promotion/Numero Postpaid - Consulter Menu Promotion</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>e78ada61-cb35-43de-8091-b5c33d8cf282</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/Menu Promotion/Consulter Menu Promotion</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>1b3fd1b2-794e-48da-bf79-402e559df295</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/01-Menu YELOW/Consulter Menu YELOW</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>ca02777d-9ce8-4169-b8d6-7f026a5d0f66</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/01-Menu YELOW/Choisir un menu offre inexistant</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>8450eaac-3e62-4463-bd67-5cd2321e13c0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/01-Menu YELOW/Achat YELOW erreur de confirmation</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -74,7 +74,7 @@
    <testCaseLink>
       <guid>7ac1a3e6-1941-4a87-8e55-820d41974a1d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/02-Achat YELOW/06-Promotion - Achat YELOW FACEBOBAKA plus</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -92,7 +92,7 @@
    <testCaseLink>
       <guid>e5abcada-4443-4dba-884f-e39ebbadeb2a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/02-Achat YELOW/05-Promotion - Achat YELOW 200</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -110,7 +110,7 @@
    <testCaseLink>
       <guid>80698c4e-05f6-477d-b957-339d315cf87a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/02-Achat YELOW/04-Promotion - Achat YELOW 1000</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -128,7 +128,7 @@
    <testCaseLink>
       <guid>20a935b3-b131-4f29-974b-50bece400577</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/02-Achat YELOW/03-Promotion - Achat YELOW FACEBOBAKA</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -146,7 +146,7 @@
    <testCaseLink>
       <guid>18182432-26b3-492f-8e04-32b2f39bf0b7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/02-Achat YELOW/02-Promotion - Achat YELOW SMS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -164,7 +164,7 @@
    <testCaseLink>
       <guid>5ee2882e-b66b-4cd2-9eff-69ad5587fee7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/02-Achat YELOW/01-Promotion - Achat YELOW 100</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -326,7 +326,7 @@
    <testCaseLink>
       <guid>76df4580-204e-4201-a131-5adc8e7f4bcd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Called Test Case/Changer de langue</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

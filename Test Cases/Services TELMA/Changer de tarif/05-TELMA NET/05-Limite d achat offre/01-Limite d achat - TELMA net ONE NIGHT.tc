@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Limite d achat - TELMA net ONE NIGHT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb751aaf-f562-4d27-b3ce-426a4501c6df</testCaseGuid>
+   <variable>
+      <defaultValue>'100'</defaultValue>
+      <description></description>
+      <id>a4da73c4-cf78-46d5-86b3-4e60a0755907</id>
+      <masked>false</masked>
+      <name>montantTelmaNet</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>f964b360-fbee-440d-997e-c2291c7912a4</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

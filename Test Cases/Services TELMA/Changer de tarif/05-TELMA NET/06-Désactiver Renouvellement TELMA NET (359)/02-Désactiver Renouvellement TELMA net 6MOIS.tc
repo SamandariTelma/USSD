@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Désactiver Renouvellement TELMA net 6MOIS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>159bdfb6-8287-4229-858f-939218f3aba0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>7639b439-adef-4955-b5e7-428f5aaf1460</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
