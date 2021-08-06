@@ -23,19 +23,10 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 'Je saisis 4 (TELMA Net (INTERNET)) et valide'
 CustomKeywords.'ussd.Send.response'('4')
 
-'Je saisis 5 NET PAYER MENSUALITES EN AVANCE'
-String actualMenu=CustomKeywords.'ussd.Send.response'('5')
+'Je saisis 4 NET PAYER MENSUALITES EN AVANCE'
+String actualMenu=CustomKeywords.'ussd.Send.response'('4')
 
 'Je vérifie la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('NET MENSUEL\n1 NET ONE MONTH 1,5Go \\(15 000 Ar\\)\n2 NET ONE MONTH 3Go \\(25 000 Ar\\)\n3 NET ONE MONTH 10Go \\(75 000 Ar\\)\n4 NET ONE MONTH 20Go \\(125 000 Ar\\)\n0 Page suivante',
-	'NET MENSUEL\n1 NET ONE MONTH 1,5Go \\(15 000 Ar\\)\n2 NET ONE MONTH 3Go \\(25 000 Ar\\)\n3 NET ONE MONTH 10Go \\(75 000 Ar\\)\n4 NET ONE MONTH 20Go \\(125 000 Ar\\)\n0 Pejy manaraka')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 0 (Page suivante)'
-actualMenu=CustomKeywords.'ussd.Send.response'('0')
-
-'Je vérifie la conformité du menu dans la page suivante'
-menu=CustomKeywords.'ussd.Expected.menu'('NET PAYER MENSUALITES EN AVANCE\n1 NET 3 MOIS \\(30 000 Ar\\)\n2 NET 6 MOIS \\(60 000 Ar\\)\n3 NET 9 MOIS \\(90 000 Ar\\)\n4 NET 12 MOIS \\(110 000 Ar\\)')
+String menu=CustomKeywords.'ussd.Expected.menu'('NET PAYER MENSUALITES EN AVANCE\n1 NET 3 MOIS \\(30 000 Ar\\)\n2 NET 6 MOIS \\(60 000 Ar\\)\n3 NET 9 MOIS \\(90 000 Ar\\)\n4 NET 12 MOIS \\(110 000 Ar\\)')
 
 WS.verifyMatch(actualMenu, menu, true)

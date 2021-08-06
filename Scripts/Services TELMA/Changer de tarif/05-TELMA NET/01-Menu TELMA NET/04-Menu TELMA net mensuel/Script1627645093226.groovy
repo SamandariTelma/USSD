@@ -23,8 +23,8 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 'Je saisis 4 (TELMA Net (INTERNET)) et valide'
 CustomKeywords.'ussd.Send.response'('4')
 
-'Je saisis 4 NET MENSUEL'
-String actualMenu=CustomKeywords.'ussd.Send.response'('4')
+'Je saisis 3 NET MENSUEL'
+String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Je vérifie la conformité du menu'
 String menu=CustomKeywords.'ussd.Expected.menu'('NET MENSUEL\n1 NET ONE MONTH 1,5Go \\(15 000 Ar\\)\n2 NET ONE MONTH 3Go \\(25 000 Ar\\)\n3 NET ONE MONTH 10Go \\(75 000 Ar\\)\n4 NET ONE MONTH 20Go \\(125 000 Ar\\)\n0 Page suivante',
