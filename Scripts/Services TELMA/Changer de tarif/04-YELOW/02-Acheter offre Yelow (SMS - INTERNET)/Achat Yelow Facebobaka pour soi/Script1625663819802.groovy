@@ -35,7 +35,7 @@ CustomKeywords.'ussd.Send.response'('3')
 String actualMenu = CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('L\'achat de votre YELOW facebobaka est reussi\\. Vous avez 1 Go de bonus pour acceder a FACEBOOK et INSTAGRAM pendant 4 jours\\. Bonus restants: #359#\\.', 
+String menu = CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW FACEBOBAKA est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois un bonus kadoa de 20%\\. Tapez vite le #111\\*1#\\.', 
     'Tafiditra ny tolotra YELOW FACEBOBAKA novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao  ary mahazoa hatrany Bonus kadoa 20%\\. Tsindrio ny #111\\*1#\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

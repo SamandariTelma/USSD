@@ -17,17 +17,17 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-'Je me rends sur le menu TELMA net en shortCodant *130*5*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*5#', numeroInitiateur)
+'Je vais dans le menu Changer de tarif en shortcodant #130*4*6#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+
+'Je saisis 4 (TELMA Net (INTERNET)) et valide'
+CustomKeywords.'ussd.Send.response'('4')
 
 'Je saisis 4 (NET PAYER MENSUALITES EN AVANCE)'
 CustomKeywords.'ussd.Send.response'('4')
 
 'Je saisis 2 (NET 6 MOIS)'
-CustomKeywords.'ussd.Send.response'('2')
-
-'Je saisis 1 (OUI) et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('1')
+String actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Je vérifie la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Votre credit est insuffisant pour le changement d\'offre que vous demandez\\.',

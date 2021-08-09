@@ -24,6 +24,9 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 'Je saisis 4 (TELMA Net (INTERNET)) et valide'
 CustomKeywords.'ussd.Send.response'('4')
 
+'Je saisis 3 (TELMA NET Mensuel)'
+CustomKeywords.'ussd.Send.response'('3')
+
 'Je saisis 5 (NET ONE MONTH 100 Go)'
 String actualMenu=CustomKeywords.'ussd.Send.response'('5')
 

@@ -12,75 +12,57 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>c0402360-cce9-4266-81e7-4aabe4ae2563</testSuiteGuid>
    <testCaseLink>
-      <guid>ee4c8eb1-feb4-4637-959a-b79832d6edf7</guid>
+      <guid>f533dbd6-edb8-4507-9db2-59ba848f0afc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/05-Crédit insuffisant/01-Credit insuffisant - YELOW 100</testCaseId>
+      <testCaseId>Test Cases/Promotion/04-YELOW/02-Achat YELOW/02-Promotion - Achat YELOW SMS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d021a376-dc60-495e-867f-9578553353b6</variableId>
+         <variableId>cfe33b16-756d-401e-8dc7-887e71aff55b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f2e473c1-cbbb-4a31-b68a-296710b93eff</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c0bae3c2-2d86-470d-a555-41df5a0669ee</guid>
+      <guid>3e343bfa-5a04-4056-bf86-7553498d7bd7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/05-Crédit insuffisant/02-Credit insuffisant - YELOW SMS</testCaseId>
+      <testCaseId>Test Cases/Promotion/04-YELOW/02-Achat YELOW/02-Promotion - Achat YELOW SMS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>a597cea5-e998-432d-8490-372c5cf819a8</variableId>
+         <variableId>cfe33b16-756d-401e-8dc7-887e71aff55b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f2e473c1-cbbb-4a31-b68a-296710b93eff</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>42341b21-5e28-475a-9954-a44e69d63953</guid>
+      <guid>ecbcd741-094d-4325-ba11-e3b1eeee2a65</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/05-Crédit insuffisant/03-Credit insuffisant - YELOW FACEBOBAKA</testCaseId>
+      <testCaseId>Test Cases/Promotion/04-YELOW/02-Achat YELOW/02-Promotion - Achat YELOW SMS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c11dea83-c365-4ffa-9911-1295c27e10b0</variableId>
+         <variableId>cfe33b16-756d-401e-8dc7-887e71aff55b</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fbafa0b5-dc2b-445f-9f81-5cc8167cc633</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/05-Crédit insuffisant/04-Credit insuffisant - YELOW 1000</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>93495631-8334-4490-8a2a-d53920ef3830</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>77c3b76a-e6c4-4c43-a8d4-c8cb11e44275</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/05-Crédit insuffisant/05-Credit insuffisant - YELOW 200</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0c666f63-98c7-4695-a425-09878ba2a7e0</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7f70643c-881e-45b8-87bc-c13d2f7ab741</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/05-Crédit insuffisant/06-Credit insuffisant - YELOW FACEBOBAKA plus</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e10750a0-b02a-4f4e-ba2e-453340357e74</variableId>
+         <variableId>f2e473c1-cbbb-4a31-b68a-296710b93eff</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

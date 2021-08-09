@@ -20,17 +20,22 @@ String numeroInitiateur = "$numeroInitiateur"
 String montantTelmaNet = "$montantTelmaNet"
 
 'Acheter TELMA net ONE NIGHT pour la 2ème fois'
-WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/01-TELMA NET Journalier/02-Achat offre pour soi- TELMA net ONE DAY'), 
+WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/01-TELMA NET Journalier/01-Achat offre pour soi - TELMA net ONE NIGHT'), 
     [('montantTelmaNet') : montantTelmaNet, ('numeroInitiateur') : numeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Acheter TELMA net ONE NIGHT pour la 3ème fois'
-WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/01-TELMA NET Journalier/02-Achat offre pour soi- TELMA net ONE DAY'), 
+WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/01-TELMA NET Journalier/01-Achat offre pour soi - TELMA net ONE NIGHT'), 
     [('montantTelmaNet') : montantTelmaNet, ('numeroInitiateur') : numeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Acheter TELMA net ONE NIGHT pour la 4ème fois'
-WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/01-TELMA NET Journalier/02-Achat offre pour soi- TELMA net ONE DAY'), 
+WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/01-TELMA NET Journalier/01-Achat offre pour soi - TELMA net ONE NIGHT'), 
     [('montantTelmaNet') : montantTelmaNet, ('numeroInitiateur') : numeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
 
+'Acheter TELMA net ONE NIGHT pour la 5ème fois'
+WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/01-TELMA NET Journalier/01-Achat offre pour soi - TELMA net ONE NIGHT'),
+	[('montantTelmaNet') : montantTelmaNet, ('numeroInitiateur') : numeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
+
+'Achat ONE NIGHT 6ème Tentative'
 'Je vais dans le menu Changer de tarif en shortcodant #130*4*6# (Achat TELMA ONE NIGHT 5ème tentative)'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 
@@ -44,8 +49,8 @@ CustomKeywords.'ussd.Send.response'('1')
 String actualMenu = CustomKeywords.'ussd.Send.response'('1')
 
 'Je vérifie la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Désolé, vous avez utilise toutes vos demandes pour aujourd\'hui\\. Vous pourrez envoyer 5 demande\\(s\\) demain\\.', 
-    'Tapitra ny fahafahanao mampiasa io tolotra io androany\\. Rahampitso indray ianao afaka mividy 5\\.')
+String menu = CustomKeywords.'ussd.Expected.menu'('Desole, vous avez utilise toutes vos demandes pour aujourd\'hui\\. Vous pourrez envoyer 5 demande\\(s\\) demain\\.', 
+    'Tapitra ny fahafahanao mampiasa io tolotra io androany\\. Rahampitso indray ianao afaka mividy  5\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
