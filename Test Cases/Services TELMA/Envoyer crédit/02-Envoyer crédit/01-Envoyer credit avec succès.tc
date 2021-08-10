@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Envoyer credit avec succès</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9630f002-a652-4213-aa9f-e3e83a85bc2d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>975c3894-bd15-4659-aed7-be3829e6cd2c</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>03ed4103-dfcc-4f5c-89e1-6486d0903595</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>319ae716-b960-42db-84df-8283e1e53b77</id>
+      <masked>false</masked>
+      <name>montantAEnvoyer</name>
+   </variable>
+</TestCaseEntity>

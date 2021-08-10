@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Saisie Numero destinataire</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0e0a66af-63af-4b17-a283-6321d092f08b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>f23da474-d01a-4dc5-9725-cfd41b646505</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>97110dc7-117c-4dc3-8d06-9223001e869d</id>
+      <masked>false</masked>
+      <name>montantAEnvoyer</name>
+   </variable>
+</TestCaseEntity>

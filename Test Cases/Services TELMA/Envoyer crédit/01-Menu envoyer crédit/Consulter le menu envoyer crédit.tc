@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter le menu envoyer crédit</name>
+   <tag></tag>
+   <comment>Je me rends sur le menu Service TELMA en shortcodant '*130*4#</comment>
+   <testCaseGuid>fbb32a3e-6d1a-4b16-b6e8-2a0b8dfa86ff</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>6ea42391-d44f-4101-bb21-6f65d2ca24e8</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
