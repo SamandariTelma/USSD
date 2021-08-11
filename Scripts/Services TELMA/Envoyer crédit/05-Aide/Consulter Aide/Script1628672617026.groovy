@@ -17,26 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-'Je shortcode #130*4*4#'
+'Je me rends sur le menu Service TELMA en shortcodant \'*130*4#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
-'Je saisis 1 (Envoyer du credit) et valide'
-CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 4 (Aide)'
+String actualMenu=CustomKeywords.'ussd.Send.response'('4')
 
-'Je saisis un montant < 500 ar et je valide = 499'
-String actualMenu=CustomKeywords.'ussd.Send.response'('499')
-
-'Vérifier la conformité du prompt'
-String menu= CustomKeywords.'ussd.Expected.menu'('Montant incorrect\\. Veuillez entrer un montant entre 500 Ar et 200 000 Ar', 
-	'Diso ny sandam\\-bola\\. Ampidiro ny sanda eo anelanelan\'ny  500 Ar sy 200 000 Ar')
+'Je vérifier la conformité du menu Aide'
+String menu=CustomKeywords.'ussd.Expected.menu'('Pour transferer du credit composez #311\\*montant\\*numero TELMA MOBILE\\*code secret#',
+	'Raha handefa fahana dia tsindrio ny #311\\*Sandan\'ny fahana\\*laharana TELMA\\*Kaody miafina#')
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Je saisis un montant > 200 000 Ar et je valide = 200 001'
-actualMenu=CustomKeywords.'ussd.Send.response'('200 001')
-
-'Vérifier la conformité du prompt'
-menu= CustomKeywords.'ussd.Expected.menu'('Montant incorreect\\. Veuillez entrer un montant entre 500 Ar et 200 000 Ar',
-	'Diso ny sandam\\-bola\\. Ampidiro ny sanda eo anelanelan\'ny  500 Ar sy 200 000 Ar')
-
-WS.verifyMatch(actualMenu, menu, true)

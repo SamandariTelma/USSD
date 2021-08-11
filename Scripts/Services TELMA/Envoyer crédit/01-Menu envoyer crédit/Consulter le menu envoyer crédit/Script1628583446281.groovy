@@ -25,7 +25,7 @@ String menu=CustomKeywords.'ussd.Expected.menu'('^.*\n4 Envoyer Credit/Offre/Meg
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Je saisis 4n (Envoyer Credit/Offre/Mega)'
+'Je saisis 4 (Envoyer Credit/Offre/Mega)'
 actualMenu=CustomKeywords.'ussd.Send.response'('4')
 
 'Vérifier la conformité du menu'

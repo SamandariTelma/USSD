@@ -24,6 +24,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 import internal.GlobalVariable
+import java.text.NumberFormat
 
 public class Util {
 	@Keyword
@@ -108,5 +109,13 @@ public class Util {
 	{
 		msisdn261='261'+msisdn261.substring(1)
 		return msisdn261
+	}
+	//Separateur de millier
+	@Keyword
+	String separateThousand(int number)
+	{
+		NumberFormat formatter = NumberFormat.getInstance(new Locale("en_US"))
+		String nombre=formatter.format(number)
+		return nombre.replace(",", " ")
 	}
 }

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Consulter le menu envoyer crédit</name>
+   <name>Consulter Aide</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fbb32a3e-6d1a-4b16-b6e8-2a0b8dfa86ff</testCaseGuid>
+   <testCaseGuid>b545d5cf-8caf-40a9-8b3e-04dae3f4a529</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>6ea42391-d44f-4101-bb21-6f65d2ca24e8</id>
+      <id>eeaebd56-770f-4df5-a320-6c55c9703c99</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

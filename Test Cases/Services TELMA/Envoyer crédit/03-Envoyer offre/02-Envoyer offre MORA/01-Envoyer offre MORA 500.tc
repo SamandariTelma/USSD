@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>01-Envoyer credit avec succès</name>
+   <name>01-Envoyer offre MORA 500</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9630f002-a652-4213-aa9f-e3e83a85bc2d</testCaseGuid>
+   <testCaseGuid>4c563a85-e465-4d03-af3c-a27652f1d3bf</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>975c3894-bd15-4659-aed7-be3829e6cd2c</id>
+      <id>a3659cf7-006e-43a4-8c32-4319906a6e50</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
       <description></description>
-      <id>7716edde-81e4-4fd8-82fd-2d60d01e068d</id>
+      <id>1f191f74-729d-4e92-b833-ada9e2e3f930</id>
       <masked>false</masked>
       <name>pinNumeroInitiateur</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
       <description></description>
-      <id>03ed4103-dfcc-4f5c-89e1-6486d0903595</id>
+      <id>e8b7f420-507f-4b6d-b56a-2b41c8e7290a</id>
       <masked>false</masked>
       <name>numeroRecepteur</name>
    </variable>
    <variable>
       <defaultValue>'500'</defaultValue>
       <description></description>
-      <id>319ae716-b960-42db-84df-8283e1e53b77</id>
+      <id>e6f1fd70-5d74-40e3-8ea6-12894948a6e6</id>
       <masked>false</masked>
-      <name>montantAEnvoyer</name>
+      <name>montantOffre</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.fraisEnvoiCredit</defaultValue>
       <description></description>
-      <id>513dae71-94f8-4fc7-9449-c8800899e3fa</id>
+      <id>b94b7579-03ee-48aa-98ce-793d00988081</id>
       <masked>false</masked>
       <name>frais</name>
    </variable>

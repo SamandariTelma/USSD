@@ -26,6 +26,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'0000'</initValue>
+      <name>pinMsisdnInitiateur</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'261346848952'</initValue>
       <name>msisdnRecepteur</name>
    </GlobalVariableEntity>
@@ -43,6 +48,11 @@
       <description></description>
       <initValue>0</initValue>
       <name>soldeCredit</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'150'</initValue>
+      <name>fraisEnvoiCredit</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

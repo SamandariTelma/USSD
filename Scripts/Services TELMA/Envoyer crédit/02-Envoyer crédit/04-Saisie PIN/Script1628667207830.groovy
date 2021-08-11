@@ -16,6 +16,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
+String montantAEnvoyer="${montantAEnvoyer}"
+String numeroRecepteur="${numeroRecepteur}"
 
 'Je shortcode #130*4*4#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
@@ -23,20 +25,37 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 'Je saisis 1 (Envoyer du credit) et valide'
 CustomKeywords.'ussd.Send.response'('1')
 
-'Je saisis un montant < 500 ar et je valide = 499'
-String actualMenu=CustomKeywords.'ussd.Send.response'('499')
+'Je saisis un montant correct et je valide'
+CustomKeywords.'ussd.Send.response'(montantAEnvoyer)
+
+numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+'Je saisis le numéro du benéficiaire'
+CustomKeywords.'ussd.Send.response'(numeroRecepteur)
+
+'Je saisis un PIN au format incorrect (alphanumerique) et je valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'('000o')
 
 'Vérifier la conformité du prompt'
-String menu= CustomKeywords.'ussd.Expected.menu'('Montant incorrect\\. Veuillez entrer un montant entre 500 Ar et 200 000 Ar', 
-	'Diso ny sandam\\-bola\\. Ampidiro ny sanda eo anelanelan\'ny  500 Ar sy 200 000 Ar')
+String menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres\\.', 
+	'Hamarino ny kaody miafina \\(tarehimarika 4\\)\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Je saisis un montant > 200 000 Ar et je valide = 200 001'
-actualMenu=CustomKeywords.'ussd.Send.response'('200 001')
+'Je saisis un PIN au format incorrect (moins de 4 chiffres) et je valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('000')
 
 'Vérifier la conformité du prompt'
-menu= CustomKeywords.'ussd.Expected.menu'('Montant incorreect\\. Veuillez entrer un montant entre 500 Ar et 200 000 Ar',
-	'Diso ny sandam\\-bola\\. Ampidiro ny sanda eo anelanelan\'ny  500 Ar sy 200 000 Ar')
+menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres\\.',
+	'Hamarino ny kaody miafina \\(tarehimarika 4\\)\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
+
+'Je saisis un mauvais pin (au bon format)'
+actualMenu=CustomKeywords.'ussd.Send.response'('8624')
+
+'Vérifier la conformité du prompt'
+menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres\\.',
+	'Hamarino ny kaody miafina \\(tarehimarika 4\\)\\.')
+
+WS.verifyMatch(actualMenu, menu, true)
+

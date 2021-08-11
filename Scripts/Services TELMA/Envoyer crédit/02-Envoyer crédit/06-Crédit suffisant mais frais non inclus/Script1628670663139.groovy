@@ -14,7 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import java.text.NumberFormat
 
 String numeroInitiateur = "$numeroInitiateur"
 
@@ -45,60 +44,41 @@ println 'Crédit recepteur: '+soldeRecepteurAvantRecep
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 
 'Je saisis 1 (Envoyer du credit) et valide'
-String actualMenu = CustomKeywords.'ussd.Send.response'('1')
-
-'Vérifier la conformité du prompt'
-String menu = CustomKeywords.'ussd.Expected.menu'('Montant a transferer :', 'Sandan\'ny Fahana hafindra:')
-
-WS.verifyMatch(actualMenu, menu, true)
+CustomKeywords.'ussd.Send.response'('1')
 
 'Je saisis un montant correct et je valide'
-actualMenu = CustomKeywords.'ussd.Send.response'(montantAEnvoyer)
+CustomKeywords.'ussd.Send.response'(soldeEnvoyeurAvantEnvoi.toString())
 
-'Vérifier la conformité du prompt'
-menu = CustomKeywords.'ussd.Expected.menu'('Entrer numero de tel\\. Destinataire :', 'nomerao tel\\. andefasana :')
-
-WS.verifyMatch(actualMenu, menu, true)
-
+'Je saisis correctement un MSISDN du destinataire et je valide'
 numeroRecepteur = CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 println(numeroRecepteur)
 
-'Je saisis correctement un MSISDN du destinataire et je valide'
-actualMenu = CustomKeywords.'ussd.Send.response'(numeroRecepteur)
-
-'Vérifier la conformité du prompt'
-menu = CustomKeywords.'ussd.Expected.menu'('Entrer votre code secret MVola:', 'Kaody miafina MVola: ')
-
-WS.verifyMatch(actualMenu, menu, true)
-
 'Je saisis mon PIN et je valide'
-actualMenu = CustomKeywords.'ussd.Send.response'(pinNumeroInitiateur)
-
-int soldeExcepted=soldeEnvoyeurAvantEnvoi - Integer.valueOf(montantAEnvoyer) - Integer.valueOf(frais)
+String actualMenu = CustomKeywords.'ussd.Send.response'(pinNumeroInitiateur)
 
 'Vérifier la conformité du message'
-menu = CustomKeywords.'ussd.Expected.menu'('Transfert effectue de '+montantAEnvoyer+'  Ar pour le '+numeroRecepteur+'. Frais de transfert '+frais+'  Ar.Nouveau solde : '+soldeExcepted+' Ar.', 
-	'Voarain\'ny '+numeroRecepteur+'  ny fahana : '+montantAEnvoyer+'  Ar.Saran\'ny fandefasana '+frais+'  Ar.Fahana sisa tavela '+soldeExcepted+' Ar.')
+String menu = CustomKeywords.'ussd.Expected.menu'('Credit insuffisant: rechargez votre Compte puis essayez a nouveau ou diminuez le montant a transferer\\.', 
+	'Tsy ampy ny fahana anananao\\. Fahano ny kaontinao na ahenao ny fahana hafindra\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Je vérifie que mon solde est déduit du crédit envoyé'
+'Je vérifie que mon solde n\'est déduit du crédit envoyé'
 WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeEnvoyerApresEnvoi=GlobalVariable.soldeCredit 
 
-WS.verifyEqual(soldeEnvoyerApresEnvoi, soldeExcepted)
+WS.verifyEqual(soldeEnvoyerApresEnvoi, soldeEnvoyeurAvantEnvoi)
 
 
-'Je vérifie que le solde du recepteur a beneficier du crédit envoyé '
+'Je vérifie que le solde du recepteur n\'a pas bougé'
 
 WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeRecepApresEnvoi=GlobalVariable.soldeCredit
-soldeExcepted=soldeRecepApresEnvoi + Integer.valueOf(montantAEnvoyer)
 
-WS.verifyEqual(soldeRecepApresEnvoi, soldeExcepted)
+WS.verifyEqual(soldeRecepApresEnvoi, soldeRecepteurAvantRecep)
+
 
