@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Choisir un menu Mega inexistant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09d21a83-79b7-4bf6-9317-6245bde8cb98</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>6027dba8-cf47-4447-8a9f-692e43b619a5</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>72970062-4578-4a82-9f9d-626585ae8895</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+</TestCaseEntity>

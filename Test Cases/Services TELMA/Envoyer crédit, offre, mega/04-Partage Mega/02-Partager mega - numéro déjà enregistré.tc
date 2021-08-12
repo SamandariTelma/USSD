@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Partager mega - numéro déjà enregistré</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>585efbec-a0a1-455f-9138-62a349bdf594</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>1394ae88-8b4a-4564-b29a-84c047461250</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>ca86309b-9833-4123-aac6-df7a7fd5414a</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>0846da4d-79cc-438a-8c00-041683e7a62b</id>
+      <masked>false</masked>
+      <name>pinEnvoyeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.dateExp</defaultValue>
+      <description></description>
+      <id>da87ac13-69a7-4c48-b033-e43227a10ac7</id>
+      <masked>false</masked>
+      <name>dateExpiration</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test1'</defaultValue>
+      <description></description>
+      <id>dbbee797-8ffd-4656-bc3d-ed51732033b4</id>
+      <masked>false</masked>
+      <name>nomRecepteur</name>
+   </variable>
+</TestCaseEntity>

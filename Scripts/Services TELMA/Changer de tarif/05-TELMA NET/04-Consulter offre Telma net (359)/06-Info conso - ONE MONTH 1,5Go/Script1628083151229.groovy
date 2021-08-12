@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(30,'dd/MM/yyy')
+GlobalVariable.dateExp=dateExpiration
 
 'Après achat Offre TELMA NET ONE MONTH 1,5Go avec succès , je consulte mon solde en saisissant #359#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)

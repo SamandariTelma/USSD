@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Partager mega avec succès</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c052a357-679e-47a4-b9ac-96fc8fb58472</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>3a4353d9-db68-4199-8e4e-6175c03f58fe</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>be1aa40f-61c5-4e26-b71a-5ef27469db43</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>c070044b-de4c-460e-a255-8af2c5fc26ad</id>
+      <masked>false</masked>
+      <name>pinEnvoyeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.dateExp</defaultValue>
+      <description></description>
+      <id>de382949-b290-4545-ba54-b74d49ef72c4</id>
+      <masked>false</masked>
+      <name>dateExpiration</name>
+   </variable>
+</TestCaseEntity>

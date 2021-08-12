@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Choisir un menu offre inexistant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a52893f7-b27e-4da9-85af-76c9fede436d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>b0a9e2d2-7e5f-481b-9649-eb7dde339187</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>4bbdbd1f-6ac0-46c3-8d51-1b621a51d06f</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+</TestCaseEntity>

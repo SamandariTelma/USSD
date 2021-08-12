@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-Saisie PIN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd7cb0df-4ad8-4cb0-83d5-a37b036552fc</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>745735ee-20a1-44e6-ae03-c2761b7b8f31</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>bd60fecc-8ba4-4c27-9849-23765c9c18b7</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>87fefce1-816e-4570-b4a2-cfa34623adca</id>
+      <masked>false</masked>
+      <name>pinEnvoyeur</name>
+   </variable>
+</TestCaseEntity>

@@ -59,4 +59,9 @@
       <initValue>'mg'</initValue>
       <name>langue</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>dateExp</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
