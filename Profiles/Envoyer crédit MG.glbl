@@ -41,6 +41,21 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'261346849627'</initValue>
+      <name>msisdnNonMVola</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0000'</initValue>
+      <name>pinMsisdnNonMVola</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0000'</initValue>
+      <name>pinMsisdnCrediInsuffisant</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'261346848239'</initValue>
       <name>msisdnCreditInsuffisant</name>
    </GlobalVariableEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06-Envoyer offre MORA a un numero postpaid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36e0794b-8cea-4261-b97b-d1922b259b04</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>22435465-ba0d-4e2d-8c13-46e373733514</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnNonMVola</defaultValue>
+      <description></description>
+      <id>abab8bba-094b-42e9-b117-fcf9bbe45e98</id>
+      <masked>false</masked>
+      <name>pinNumeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.numeroNonEligible</defaultValue>
+      <description></description>
+      <id>4792acb0-e43d-4f3b-a042-f40393b4e6fe</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>07-Partage mega - non certifié MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aaaf1812-9848-4fbf-8649-8c8e08633ccc</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnNonMVola</defaultValue>
+      <description></description>
+      <id>96a83475-cd18-455b-9642-1007ae3e2b3a</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>45ea2e43-ed5b-4382-a76e-4df1a90e1425</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+</TestCaseEntity>

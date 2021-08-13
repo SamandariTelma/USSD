@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06-Partage mega - pas d offre</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2322cbb-2c83-4a22-9b33-28cee2233e5f</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>2d4c6d7e-3bcc-4a2d-832d-b2125732f085</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>bfcd93a7-75df-4021-a2df-65b4f411f7ca</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+</TestCaseEntity>
