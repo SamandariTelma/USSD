@@ -22,9 +22,6 @@ String numeroRecepteur = "$numeroRecepteur"
 
 String pinNumeroInitiateur = "$pinNumeroInitiateur"
 
-String frais = "$frais"
-
-String montantOffre = "$montantOffre"
 
 'Je consulte mon crédit restant avant d\'envoyer du crédit'
 WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
@@ -49,30 +46,22 @@ CustomKeywords.'ussd.Send.response'(numeroRecepteur)
 CustomKeywords.'ussd.Send.response'('1')
 
 'Je saisis 1 (MORA 500)'
-String actualMenu = CustomKeywords.'ussd.Send.response'('1')
-
-'Vérifier la conformité du prompt'
-String menu = CustomKeywords.'ussd.Expected.menu'(('Pour accepter d\'acheter l\'offre MORA 500 a 500 Ar pour le numero ' + 
-    numeroRecepteur) + ', Entrer le code secret:', ('Raha handefa ny tolotra MORA 500 ho an ny ' + numeroRecepteur) + ', Ampidiro ny kaody miafina MVola:')
-
-WS.verifyMatch(actualMenu, menu, true)
+CustomKeywords.'ussd.Send.response'('1')
 
 'Je saisis mon code secret'
-NumberFormat formatter = NumberFormat.getInstance(new Locale('FR'))
 
-actualMenu = CustomKeywords.'ussd.Send.response'(pinNumeroInitiateur)
+String actualMenu = CustomKeywords.'ussd.Send.response'(pinNumeroInitiateur)
 
 'Vérifier la conformité du message'
-int soldeRestant = soldeEnvoyeurAvantEnvoi - Integer.valueOf(montantOffre)
-
-String solde = CustomKeywords.'ussd.Util.separateThousand'(soldeRestant)
-
-menu = CustomKeywords.'ussd.Expected.menu'(((((('L\'envoi de l\'offre MORA 500 au tarif de ' + montantOffre) + ' Ar vers le numero ') + 
-    numeroRecepteur) + ' est reussi\\. Votre nouveau solde est ') + solde) + ' Ar. Telma toujours plus pour vous.')
+String menu = CustomKeywords.'ussd.Expected.menu'('Desole, l\'offre actuelle du numero recepteur ne permet pas de recevoir l\'offre prepayee que vous voulez envoyee\\.',
+	'Tsy mifanaraka amin\'ny tolotra alefanao ny tolotra ampiasain\'io nomerao io\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Vérifier si le numéro beneficiaire a reçu l\'offre MORA'
-WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/02-MORA/05-Consulter offre MORA (359)/01-Info conso - MORA 500'), 
-    [('numeroInitiateur') : numeroRecepteur], FailureHandling.CONTINUE_ON_FAILURE)
+'Vérifier que le crédit de l\'envoyeur n\'a pas bougé'
+WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
+	FailureHandling.CONTINUE_ON_FAILURE)
 
+int soldeEnvoyeurApresEnvoi = GlobalVariable.soldeCredit
+
+WS.verifyMatch(soldeEnvoyeurAvantEnvoi, soldeEnvoyeurApresEnvoi, false)

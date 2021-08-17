@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur="${numeroInitiateur}"
 String numeroRecepteur="${numeroRecepteur}"
 
-'En tant que client Telma qui ne dispose aucune offre, Je shortcode #130*4*4#'
+'En tant que client Telma qui dispose aucune offre, Je shortcode #130*4*4#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis 3 (Partager du Mega) et je valide '

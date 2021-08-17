@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>02-Saisie Numero destinataire</name>
+   <name>03-Saisie PIN</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>32c6645b-dd04-47ee-ab24-0054e2df9dfa</testCaseGuid>
+   <testCaseGuid>db689ff3-d77e-4f22-9ca9-1cf1fc84faa5</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>448ed6f8-eaaa-4470-8fd0-6588a4d0bd4c</id>
+      <id>b0f36a45-34f6-4336-b87f-1aa389be338b</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>'500'</defaultValue>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
       <description></description>
-      <id>6ce844db-767e-42ae-adf0-4a334a10561a</id>
+      <id>8504bf69-6b83-47ac-9c82-e23a0bbbf512</id>
       <masked>false</masked>
-      <name>montantAEnvoyer</name>
+      <name>numeroRecepteur</name>
    </variable>
 </TestCaseEntity>

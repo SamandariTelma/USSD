@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>05-Crédit insuffisant</name>
+   <name>02-Envoyer offre FIRST PREMIUM</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>61e3b075-4203-4b92-9194-f5b7d3e25315</testCaseGuid>
+   <testCaseGuid>356aea20-721c-4c53-918f-d8a6ab40f7f6</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>c1fb40b1-1127-4d52-9e83-2ce9aba583e7</id>
+      <id>ae5d15e7-b46d-4015-897e-73f5067a289a</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
       <description></description>
-      <id>3982a2b5-9069-490f-a85b-b1a1ef3d6f0a</id>
+      <id>65e80fd7-803d-44c4-a908-a2fc59ab97e9</id>
       <masked>false</masked>
       <name>pinNumeroInitiateur</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
       <description></description>
-      <id>1763726d-3a92-4e8f-a841-1382934f5634</id>
+      <id>91d141e0-e869-46a0-9875-7b16da12cfaf</id>
       <masked>false</masked>
       <name>numeroRecepteur</name>
    </variable>
    <variable>
-      <defaultValue>'500'</defaultValue>
+      <defaultValue>'10000'</defaultValue>
       <description></description>
-      <id>05173d2c-ef2d-435e-9921-a04c55c18451</id>
+      <id>deb0daa3-dfcc-43bd-827a-cdec9f859694</id>
       <masked>false</masked>
       <name>montantOffre</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.fraisEnvoiCredit</defaultValue>
       <description></description>
-      <id>7411e987-95cc-4da6-a737-39c89a878b8e</id>
+      <id>e831e538-532a-4d91-87a6-ae3c7c9e65f7</id>
       <masked>false</masked>
       <name>frais</name>
    </variable>

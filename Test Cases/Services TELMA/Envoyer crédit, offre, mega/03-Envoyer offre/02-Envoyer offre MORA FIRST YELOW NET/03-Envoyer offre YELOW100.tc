@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Envoyer offre YELOW100</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>30309bd4-a93d-46bc-830d-2bc0a81391ae</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>974b9104-263d-47bb-aa7f-ec69201395cb</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>63e494f1-424f-401d-8b5f-6958f3c79428</id>
+      <masked>false</masked>
+      <name>pinNumeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>d3c17b7d-8cfb-40ed-8dbb-d2f03463c793</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'100'</defaultValue>
+      <description></description>
+      <id>916b1d9e-40d2-4e1d-bd8c-fb72ce433141</id>
+      <masked>false</masked>
+      <name>montantOffre</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.fraisEnvoiCredit</defaultValue>
+      <description></description>
+      <id>c769bf8a-25df-4ac7-9b91-c8e7bd3c4f13</id>
+      <masked>false</masked>
+      <name>frais</name>
+   </variable>
+</TestCaseEntity>

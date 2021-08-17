@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>03-Choisir un menu offre inexistant</name>
+   <name>01-Saisie Numero destinataire</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a52893f7-b27e-4da9-85af-76c9fede436d</testCaseGuid>
+   <testCaseGuid>32c6645b-dd04-47ee-ab24-0054e2df9dfa</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>b0a9e2d2-7e5f-481b-9649-eb7dde339187</id>
+      <id>448ed6f8-eaaa-4470-8fd0-6588a4d0bd4c</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <defaultValue>'500'</defaultValue>
       <description></description>
-      <id>4bbdbd1f-6ac0-46c3-8d51-1b621a51d06f</id>
+      <id>6ce844db-767e-42ae-adf0-4a334a10561a</id>
       <masked>false</masked>
-      <name>numeroRecepteur</name>
+      <name>montantAEnvoyer</name>
    </variable>
 </TestCaseEntity>

@@ -48,8 +48,8 @@ CustomKeywords.'ussd.Send.response'(numeroRecepteur)
 'Je saisis 1 (MORA)'
 CustomKeywords.'ussd.Send.response'('1')
 
-'Je saisis 1 (MORA 500)'
-CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 2 (MORA ONE)'
+CustomKeywords.'ussd.Send.response'('2')
 
 'Je saisis mon code secret'
 String actualMenu = CustomKeywords.'ussd.Send.response'(pinNumeroInitiateur)

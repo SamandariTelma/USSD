@@ -22,6 +22,9 @@ String numeroRecepteur = "$numeroRecepteur"
 
 String pinNumeroInitiateur = "$pinNumeroInitiateur"
 
+String frais = "$frais"
+
+String montantOffre = "$montantOffre"
 
 'Je consulte mon crédit restant avant d\'envoyer du crédit'
 WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
@@ -42,30 +45,35 @@ numeroRecepteur = CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 CustomKeywords.'ussd.Send.response'(numeroRecepteur)
 
-'Je saisis 1 (MORA)'
-CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 2 (FIRST)'
+CustomKeywords.'ussd.Send.response'('2')
 
-'Je saisis 1 (MORA 500)'
-CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 1 (FIRST PREMIUM)'
+String actualMenu = CustomKeywords.'ussd.Send.response'('1')
+
+'Vérifier la conformité du prompt'
+String menu = CustomKeywords.'ussd.Expected.menu'(('Pour accepter d\'acheter l\'offre FIRST PREMIUM a 10000 Ar pour le numero ' + 
+    numeroRecepteur) + ', Entrer le code secret:', ('Raha handefa ny tolotra FIRST PREMIUM ho an ny ' + numeroRecepteur) + 
+    ', Ampidiro ny kaody miafina MVola:')
+
+WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis mon code secret'
+NumberFormat formatter = NumberFormat.getInstance(new Locale('FR'))
 
-String actualMenu = CustomKeywords.'ussd.Send.response'(pinNumeroInitiateur)
+actualMenu = CustomKeywords.'ussd.Send.response'(pinNumeroInitiateur)
 
 'Vérifier la conformité du message'
 int soldeRestant = soldeEnvoyeurAvantEnvoi - Integer.valueOf(montantOffre)
 
 String solde = CustomKeywords.'ussd.Util.separateThousand'(soldeRestant)
 
-String menu = CustomKeywords.'ussd.Expected.menu'('Desole, l\'offre actuelle du numero recepteur ne permet pas de recevoir l\'offre prepayee que vous voulez envoyee\\.',
-	'Tsy mifanaraka amin\'ny tolotra alefanao ny tolotra ampiasain\'io nomerao io\\.')
+menu = CustomKeywords.'ussd.Expected.menu'(((((('L\'envoi de l\'offre FIRST PREMIUM au tarif de ' + montantOffre) + ' Ar vers le numero ') + 
+    numeroRecepteur) + ' est reussi\\. Votre nouveau solde est ') + solde) + ' Ar. Telma toujours plus pour vous.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Vérifier que le crédit de l\'envoyeur n\'a pas bougé'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
-	FailureHandling.CONTINUE_ON_FAILURE)
+'Vérifier si le numéro beneficiaire a reçu l\'offre FIRST'
+WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/03-FIRST/05-Consulter offre FIRST (359)/01-Info conso - PREMIUM'), 
+    [('numeroInitiateur') : numeroRecepteur], FailureHandling.CONTINUE_ON_FAILURE)
 
-int soldeEnvoyeurApresEnvoi = GlobalVariable.soldeCredit
-
-WS.verifyMatch(soldeEnvoyeurAvantEnvoi, soldeEnvoyeurApresEnvoi, false)

@@ -33,7 +33,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur
 String actualMenu = CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du prompt'
-String menu = CustomKeywords.'ussd.Expected.menu'('Entrer numero du beneficiaire :', 'Ampidiro ny nomerao andefasana :')
+String menu = CustomKeywords.'ussd.Expected.menu'('Entrer numero du beneficiaire :', 'Laharana andefasana tolotra :')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -45,3 +45,5 @@ actualMenu= CustomKeywords.'ussd.Send.response'(numeroInitiateur)
 'Vérifier la conformité du prompt'
 menu= CustomKeywords.'ussd.Expected.menu'('Votre offre tarifaire actuelle est (TOKANA|(\\w*))\n1 MORA \\(VOIX \\- SMS \\- INTERNET\\)\n2 FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n3 YELOW \\(SMS \\- INTERNET\\)\n4 TELMA Net \\(INTERNET\\)',
 	'Ny tolotra misy anao dia (TOKANA|(\\w*))\n1 MORA \\(VOIX \\- SMS \\- INTERNET\\)\n2 FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n3 YELOW \\(SMS \\- INTERNET\\)\n4 TELMA Net \\(INTERNET\\)')
+
+WS.verifyMatch(actualMenu, menu, true)

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Envoyer offre TELMA NET ONE DAY</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61e8ea34-b929-4ee8-bd68-68ffbd8d6355</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>5d0644e0-dab2-447e-bdea-ad06e03483d0</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>b0d06317-92cf-4e35-a8e5-4fe89f3ac369</id>
+      <masked>false</masked>
+      <name>pinNumeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>9eeee053-f20c-43ae-a46a-fabc9d93ddd0</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description></description>
+      <id>7851b558-ba64-4d23-b192-ce3d12d05902</id>
+      <masked>false</masked>
+      <name>montantOffre</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.fraisEnvoiCredit</defaultValue>
+      <description></description>
+      <id>44e67d6b-8e0a-428c-a902-5126a05c6eba</id>
+      <masked>false</masked>
+      <name>frais</name>
+   </variable>
+</TestCaseEntity>

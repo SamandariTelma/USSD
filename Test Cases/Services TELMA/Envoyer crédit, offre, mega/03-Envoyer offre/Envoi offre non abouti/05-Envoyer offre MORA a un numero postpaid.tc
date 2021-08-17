@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>07-Envoyer offre a quelqun qui a atteint son limite offre</name>
+   <name>05-Envoyer offre MORA a un numero postpaid</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>dee11032-a633-4bde-bd3b-7563650fcd0b</testCaseGuid>
+   <testCaseGuid>36e0794b-8cea-4261-b97b-d1922b259b04</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>45872633-4e27-4443-9641-5e5a510c0e95</id>
+      <id>22435465-ba0d-4e2d-8c13-46e373733514</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.pinMsisdnCrediInsuffisant</defaultValue>
+      <defaultValue>GlobalVariable.pinMsisdnNonMVola</defaultValue>
       <description></description>
-      <id>e8c74b3f-00f1-45f1-8ce1-afa7c961afb4</id>
+      <id>abab8bba-094b-42e9-b117-fcf9bbe45e98</id>
       <masked>false</masked>
       <name>pinNumeroInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <defaultValue>GlobalVariable.numeroNonEligible</defaultValue>
       <description></description>
-      <id>b32ad438-c7e7-41a7-ad19-56042a7eb64e</id>
+      <id>4792acb0-e43d-4f3b-a042-f40393b4e6fe</id>
       <masked>false</masked>
       <name>numeroRecepteur</name>
    </variable>

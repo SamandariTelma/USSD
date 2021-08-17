@@ -45,15 +45,15 @@ numeroRecepteur = CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 CustomKeywords.'ussd.Send.response'(numeroRecepteur)
 
-'Je saisis 1 (MORA)'
-CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 3 (YELOW)'
+CustomKeywords.'ussd.Send.response'('3')
 
-'Je saisis 1 (MORA 500)'
+'Je saisis 1 (YELOW 100)'
 String actualMenu = CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du prompt'
-String menu = CustomKeywords.'ussd.Expected.menu'(('Pour accepter d\'acheter l\'offre MORA 500 a 500 Ar pour le numero ' + 
-    numeroRecepteur) + ', Entrer le code secret:', ('Raha handefa ny tolotra MORA 500 ho an ny ' + numeroRecepteur) + ', Ampidiro ny kaody miafina MVola:')
+String menu = CustomKeywords.'ussd.Expected.menu'(('Pour accepter d\'acheter l\'offre YELOW100 a 100 Ar pour le numero ' + 
+    numeroRecepteur) + ', Entrer le code secret:', ('Raha handefa ny tolotra YELOW100 ho an ny ' + numeroRecepteur) + ', Ampidiro ny kaody miafina MVola:')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -67,12 +67,12 @@ int soldeRestant = soldeEnvoyeurAvantEnvoi - Integer.valueOf(montantOffre)
 
 String solde = CustomKeywords.'ussd.Util.separateThousand'(soldeRestant)
 
-menu = CustomKeywords.'ussd.Expected.menu'(((((('L\'envoi de l\'offre MORA 500 au tarif de ' + montantOffre) + ' Ar vers le numero ') + 
+menu = CustomKeywords.'ussd.Expected.menu'(((((('L\'envoi de l\'offre YELOW100 au tarif de ' + montantOffre) + ' Ar vers le numero ') + 
     numeroRecepteur) + ' est reussi\\. Votre nouveau solde est ') + solde) + ' Ar. Telma toujours plus pour vous.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Vérifier si le numéro beneficiaire a reçu l\'offre MORA'
-WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/02-MORA/05-Consulter offre MORA (359)/01-Info conso - MORA 500'), 
+WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/02-Info conso - ONE DAY'), 
     [('numeroInitiateur') : numeroRecepteur], FailureHandling.CONTINUE_ON_FAILURE)
 

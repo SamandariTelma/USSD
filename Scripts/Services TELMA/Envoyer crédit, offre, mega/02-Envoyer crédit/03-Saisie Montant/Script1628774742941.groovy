@@ -36,7 +36,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('200 001')
 
 'Vérifier la conformité du prompt'
-menu= CustomKeywords.'ussd.Expected.menu'('Montant incorreect\\. Veuillez entrer un montant entre 500 Ar et 200 000 Ar',
+menu= CustomKeywords.'ussd.Expected.menu'('Montant incorrect\\. Veuillez entrer un montant entre 500 Ar et 200 000 Ar',
 	'Diso ny sandam\\-bola\\. Ampidiro ny sanda eo anelanelan\'ny  500 Ar sy 200 000 Ar')
 
 WS.verifyMatch(actualMenu, menu, true)
