@@ -25,7 +25,7 @@ String cinMsisdnARecuperer="${cinMsisdnARecuperer}"
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis le MSISDN à récupérer'
-CustomKeywords.'ussd.Send.response'(numeroARecuperer)
+CustomKeywords.'ussd.Send.response'(numeroARecuperer)//
 
 'Je saisis un numéro de pièce d\'identité valide'
 CustomKeywords.'ussd.Send.response'(cinMsisdnARecuperer)
