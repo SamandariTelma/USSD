@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Saisie Pièce d identité</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df52e661-1bcf-499e-b74c-a97ef52e8b2b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>174bddf6-5991-4b6c-a208-05f0944a5bd2</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnARecuperer</defaultValue>
+      <description></description>
+      <id>8901dfa8-b3a3-429b-9e00-b11e005029d1</id>
+      <masked>false</masked>
+      <name>numeroARecuperer</name>
+   </variable>
+</TestCaseEntity>

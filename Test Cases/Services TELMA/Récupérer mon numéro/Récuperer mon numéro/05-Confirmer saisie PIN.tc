@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-Confirmer saisie PIN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd5cf52b-2f1f-40a3-ae92-fd88523c094a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>4b448e55-4bfc-47f9-8e0f-ae3359006a1a</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnARecuperer</defaultValue>
+      <description></description>
+      <id>c6ade373-fd7e-4186-a83b-2a7cc92f3183</id>
+      <masked>false</masked>
+      <name>numeroARecuperer</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.cinMsisdnARecuperer</defaultValue>
+      <description></description>
+      <id>40564960-7db3-4ce8-a3fb-ea884ed865b4</id>
+      <masked>false</masked>
+      <name>cinNumARecuperer</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinNumARecuperer</defaultValue>
+      <description></description>
+      <id>99451fc3-6b8a-4926-9068-925f2c8c9436</id>
+      <masked>false</masked>
+      <name>pinNumARecuperer</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter le menu Récupérer mon numéro</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32b51891-ac48-4201-a14a-838b333ee294</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description>MSISDN actif en moins de 1 jour, certifié Mvola </description>
+      <id>064dde95-7b0c-4cbd-a5e0-ddad3ed28d28</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

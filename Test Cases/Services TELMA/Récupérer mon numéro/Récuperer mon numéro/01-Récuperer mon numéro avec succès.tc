@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Récuperer mon numéro avec succès</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32f7c223-0ad5-4095-ba9d-575f1b159b18</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>8480c747-e572-487b-952f-749069f05fbe</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnARecuperer</defaultValue>
+      <description></description>
+      <id>5bc3c9ff-b873-4feb-a3f0-a789da49db82</id>
+      <masked>false</masked>
+      <name>numeroARecuperer</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.cinMsisdnARecuperer</defaultValue>
+      <description></description>
+      <id>0bef8dde-02b3-44a6-91b1-e85d410d5347</id>
+      <masked>false</masked>
+      <name>cinMsisdnARecuperer</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinNumARecuperer</defaultValue>
+      <description></description>
+      <id>80964c28-9de5-4f5c-a7e4-573db1d0a9fd</id>
+      <masked>false</masked>
+      <name>pinNumARecuperer</name>
+   </variable>
+</TestCaseEntity>

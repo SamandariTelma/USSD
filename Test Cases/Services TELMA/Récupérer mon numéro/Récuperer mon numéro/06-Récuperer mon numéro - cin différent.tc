@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06-Récuperer mon numéro - cin différent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>577c3ea9-ce79-4e23-98c9-43e9707187d3</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>87ce73a3-22d5-4408-b447-c6a364158205</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnARecuperer</defaultValue>
+      <description></description>
+      <id>d670c6c4-1d92-4b06-a7dd-a2b54612ab1d</id>
+      <masked>false</masked>
+      <name>numeroARecuperer</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinNumARecuperer</defaultValue>
+      <description></description>
+      <id>a74b7bc7-b003-429b-b7d2-c996a5aaf1e3</id>
+      <masked>false</masked>
+      <name>pinNumARecuperer</name>
+   </variable>
+</TestCaseEntity>

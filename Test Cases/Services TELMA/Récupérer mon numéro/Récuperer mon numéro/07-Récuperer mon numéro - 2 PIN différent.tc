@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>07-Récuperer mon numéro - 2 PIN différent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25bac83a-7755-4506-9537-8d35c1cce2ec</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>6a22a81c-2493-450b-b85f-ffcedb4ac81d</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnARecuperer</defaultValue>
+      <description></description>
+      <id>bafd7c47-5aa4-42de-a71f-e739fcf26309</id>
+      <masked>false</masked>
+      <name>numeroARecuperer</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.cinMsisdnARecuperer</defaultValue>
+      <description></description>
+      <id>fce2ca28-c61a-4a4b-ab31-ac327282e8e7</id>
+      <masked>false</masked>
+      <name>cinMsisdnARecuperer</name>
+   </variable>
+</TestCaseEntity>
