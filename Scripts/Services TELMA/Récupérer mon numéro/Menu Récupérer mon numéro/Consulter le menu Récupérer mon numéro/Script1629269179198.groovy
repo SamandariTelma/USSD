@@ -26,5 +26,5 @@ String actualMenu=CustomKeywords.'ussd.Send.response'('4')
 'Vérifier la présence du menu Récupérer mon numéro'
 String menu= CustomKeywords.'ussd.Expected.menu'('^.*9 Recuperer mon numero.*$', '^.*9 Hamerina ny Laharako*.$')
 
-WS.verifyMatch(actualMenu, menu, true)
+WS.verifyMatch(actualMenu, menu, true)//
 
