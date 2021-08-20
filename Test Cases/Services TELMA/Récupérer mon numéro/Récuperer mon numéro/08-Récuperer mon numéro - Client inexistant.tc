@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>08-Récuperer mon numéro - Client inexistant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c9d5403-075a-414a-9e78-9a5202554b46</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>455cd152-4dbc-417a-b360-a75af2e000fa</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInexistant</defaultValue>
+      <description>Numéro rattaché à auccun SIM</description>
+      <id>42d31d84-6c97-4c2d-b359-de5d6d76688b</id>
+      <masked>false</masked>
+      <name>numeroInexistant</name>
+   </variable>
+</TestCaseEntity>

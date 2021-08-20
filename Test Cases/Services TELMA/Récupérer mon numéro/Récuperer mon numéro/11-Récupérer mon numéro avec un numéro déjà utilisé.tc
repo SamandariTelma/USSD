@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>11-Récupérer mon numéro avec un numéro déjà utilisé</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57e04b53-7506-4ceb-a687-00bee1b26d99</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.numeroEnService</defaultValue>
+      <description></description>
+      <id>c26e1c74-7a1b-4138-88c5-e6145985796c</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

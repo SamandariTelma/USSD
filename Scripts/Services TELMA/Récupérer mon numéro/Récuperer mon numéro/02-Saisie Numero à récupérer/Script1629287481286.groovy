@@ -23,7 +23,7 @@ String numeroInitiateur = "${numeroInitiateur}"
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Vérifier la conformité du prompt'
-String menu= CustomKeywords.'ussd.Expected.menu'('Entrer le numero à recuperer:')
+String menu= CustomKeywords.'ussd.Expected.menu'('Entrer le Numero à recuperer :')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -31,7 +31,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('03435007a')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Veuillez vérifier le numero Tel\\. À recuperer SVP \\(034 & 7chiffres\\):')
+menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero Tel\\. à recuperer SVP\\(034xxxxxxx ou 038xxxxxxx\\):')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -39,7 +39,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('0325631456')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Veuillez vérifier le numero Tel\\. À recuperer SVP \\(034 & 7chiffres\\):')
+menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero Tel\\. à recuperer SVP\\(034xxxxxxx ou 038xxxxxxx\\):')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -47,7 +47,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('03435000788')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Nombre d\'essai maximum atteint\\. Veuillez réessayer plus tard','Mihaotra ny fanandramana azo ekena')
+menu=CustomKeywords.'ussd.Expected.menu'('Le nombre d\'essai maximum a été atteint\\.','Mihaotra ny fanandramana azo ekena\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

@@ -24,18 +24,19 @@ String numeroARecuperer = "${numeroARecuperer}"
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis le numéro à recupérer'
+numeroARecuperer=CustomKeywords.'ussd.Util.to034'(numeroARecuperer)
 String actualMenu=CustomKeywords.'ussd.Send.response'(numeroARecuperer)
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Entrer votre numéro de pièce d\'identité choisi pour Mvola:')
+String menu=CustomKeywords.'ussd.Expected.menu'('Entrer votre numéro de pièce d\'identité choisi pour MVola:')
 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis un numero de pièce d\'identité contenant contenant un alphabet'
-actualMenu=CustomKeywords.'ussd.Send.response'('123456s85412')
+actualMenu=CustomKeywords.'ussd.Send.response'('s8')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero de la piece d identite SVP ', 'Hamarino ny laharan ny karatra azafady')
+menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero de la piece d identite SVP', 'Hamarino ny laharan ny karatra azafady')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -43,15 +44,15 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('12')
 
 'Vérifier que je reste sur le prompt précédent'
-menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero de la piece d identite SVP ', 'Hamarino ny laharan ny karatra azafady')
+menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero de la piece d identite SVP', 'Hamarino ny laharan ny karatra azafady')
 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis un numéro cin avec caractère spéciaux '
-actualMenu=CustomKeywords.'ussd.Send.response'('12345678903@')
+actualMenu=CustomKeywords.'ussd.Send.response'('3@')
 
 'Vérifier que je reste sur le prompt précédent'
-menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero de la piece d identite SVP ', 'Hamarino ny laharan ny karatra azafady')
+menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero de la piece d identite SVP', 'Hamarino ny laharan ny karatra azafady')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -59,4 +60,6 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Nombre d\'essai maximum atteint\\.','Mihaotra ny fanandramana azo ekena')
+menu=CustomKeywords.'ussd.Expected.menu'('Le nombre d\'essai maximum a été atteint\\.','Mihaotra ny fanandramana azo ekena\\.')
+
+WS.verifyMatch(actualMenu, menu, true)

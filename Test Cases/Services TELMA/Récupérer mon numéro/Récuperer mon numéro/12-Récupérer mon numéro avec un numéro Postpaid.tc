@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>12-Récupérer mon numéro avec un numéro Postpaid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e867b39-436b-4381-8e48-631ef7ae0440</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnPostpaid</defaultValue>
+      <description></description>
+      <id>36b52027-d504-4bc1-a505-c59cf725c4f7</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

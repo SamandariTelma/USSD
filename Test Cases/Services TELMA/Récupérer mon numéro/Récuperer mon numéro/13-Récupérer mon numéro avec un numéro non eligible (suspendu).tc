@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>13-Récupérer mon numéro avec un numéro non eligible (suspendu)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03a2c372-abae-4ce7-9483-05e9e886c9c0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.numeroSuspendu</defaultValue>
+      <description></description>
+      <id>5801df93-9f50-4578-aed4-90e1c9d9c0bf</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

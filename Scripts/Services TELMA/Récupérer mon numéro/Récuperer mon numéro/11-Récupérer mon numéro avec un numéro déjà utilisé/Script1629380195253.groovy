@@ -18,27 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
-String numeroARecuperer="${numeroARecuperer}"
-String pinNumARecuperer="${pinNumARecuperer}"
 
 'En tant que client TELMA, je vais dans le menu pour Récupérer mon numéro en composant #130*4*9#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
-
-'Je saisis le MSISDN à récupérer'
-numeroARecuperer=CustomKeywords.'ussd.Util.to034'(numeroARecuperer)
-CustomKeywords.'ussd.Send.response'(numeroARecuperer)
-
-'Je saisis un numéro de pièce d\'identité incorrect (différent de ce qui est attribué au compte Mvola du numéro à récuperer)'
-CustomKeywords.'ussd.Send.response'('936798258753')
-
-'Je saisis un Pin valide'
-actualMenu=CustomKeywords.'ussd.Send.response'(pinNumARecuperer)
-
-'Je saisis à nouveau le même PIN pour confirmation et valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'(pinNumARecuperer)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n a pas abouti. Le numero de la piece d identite est incorect, veuillez verifier et reessayer SVP')
+String menu=CustomKeywords.'ussd.Expected.menu'('Desole, une recuperation de numero ne peut pas etre initiee par un numero deja utilise, veuillez acheter une nouvelle SIM pour pouvoir recuperer votre numero\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

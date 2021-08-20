@@ -26,16 +26,17 @@ String pinNumARecuperer = "${pinNumARecuperer}"
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis le numéro à recupérer'
+numeroARecuperer=CustomKeywords.'ussd.Util.to034'(numeroARecuperer)
 CustomKeywords.'ussd.Send.response'(numeroARecuperer)
 
 'Je saisis un numero de pièce d\'identité contenant contenant un alphabet'
 CustomKeywords.'ussd.Send.response'(cinNumARecuperer)
 
 'Je saisis un PIN valide'
-actualMenu=CustomKeywords.'ussd.Send.response'(pinNumARecuperer)
+String actualMenu=CustomKeywords.'ussd.Send.response'(pinNumARecuperer)
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Pour confirmer la recuperation du numero '+numeroARecuperer+' a partir de cette SIM, entrer le code secret Mvola '+numeroARecuperer+':')
+String menu=CustomKeywords.'ussd.Expected.menu'('Pour confirmer la recuperation du numero '+numeroARecuperer+' a partir de cette SIM, entrer le code secret du compte MVola  '+numeroARecuperer+' :')
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis un pin au mauvais format (alhanumerique)'
@@ -47,25 +48,25 @@ menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffr
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis à nouveau un pin au mauvais format (moins de 4 chiffres)'
-String actualMenu=CustomKeywords.'ussd.Send.response'('000')
+actualMenu=CustomKeywords.'ussd.Send.response'('000')
 
 'Vérifier que je reste sur le même prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres\\.', 'Hamarino ny kaody miafina \\(tarehimarika 4\\)\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres\\.', 'Hamarino ny kaody miafina \\(tarehimarika 4\\)\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis à nouveau un pin au mauvais format (plus de 4 chiffres)'
-String actualMenu=CustomKeywords.'ussd.Send.response'('00000')
+actualMenu=CustomKeywords.'ussd.Send.response'('00000')
 
 'Vérifier que je reste sur le même prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres\\.', 'Hamarino ny kaody miafina \\(tarehimarika 4\\)\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres\\.', 'Hamarino ny kaody miafina \\(tarehimarika 4\\)\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis à nouveau un pin au mauvais format (dernier tentative)'
-String actualMenu=CustomKeywords.'ussd.Send.response'('00000')
+actualMenu=CustomKeywords.'ussd.Send.response'('00000')
 
 'Vérifier que je reste sur le même prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Le nombre d\'essai maximum a été atteint\\.', 'Mihaotra ny fanandramana azo ekena')
+menu=CustomKeywords.'ussd.Expected.menu'('Le nombre d\'essai maximum a été atteint\\.', 'Mihaotra ny fanandramana azo ekena')
 
 WS.verifyMatch(actualMenu, menu, true)

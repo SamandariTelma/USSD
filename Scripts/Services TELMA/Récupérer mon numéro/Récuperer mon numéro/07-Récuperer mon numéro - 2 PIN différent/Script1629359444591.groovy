@@ -25,6 +25,7 @@ String cinMsisdnARecuperer="${cinMsisdnARecuperer}"
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis le MSISDN à récupérer'
+numeroARecuperer=CustomKeywords.'ussd.Util.to034'(numeroARecuperer)
 CustomKeywords.'ussd.Send.response'(numeroARecuperer)//
 
 'Je saisis un numéro de pièce d\'identité valide'
@@ -33,7 +34,7 @@ CustomKeywords.'ussd.Send.response'(cinMsisdnARecuperer)
 'Je saisis un Pin valide'
 actualMenu=CustomKeywords.'ussd.Send.response'('0000')
 
-'Je saisis à nouveau le même PIN pour confirmation et valide'
+'Je saisis un PIN différend du précedent'
 String actualMenu=CustomKeywords.'ussd.Send.response'('1234')
 
 'Vérifier la conformité du prompt'
