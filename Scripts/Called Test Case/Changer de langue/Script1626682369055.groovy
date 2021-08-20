@@ -23,3 +23,4 @@ String actualMenu=CustomKeywords.'ussd.Send.code'('*130*4*8*1', numeroInitiateur
 String menu=CustomKeywords.'ussd.Expected.menu'('Tanteraka ny fanovana fiteny izay nataonao\\.','Le changement de langue a ete pris en compte\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
+//
