@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Recup Num MG</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'*130#'</initValue>
+      <name>ShortCodeTELMA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'*130*090'</initValue>
+      <name>shortCode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>MSISDN actif en moins de 1 jour, certifié Mvola </description>
+      <initValue>'261346849627'</initValue>
+      <name>msisdnInitiateur</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>MSISDN bloqué</description>
+      <initValue>'261346849627'</initValue>
+      <name>msisdnARecuperer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0000'</initValue>
+      <name>pinNumARecuperer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456789012'</initValue>
+      <name>cinMsisdnARecuperer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Numéro rattaché à auccun SIM</description>
+      <initValue>'261340111111'</initValue>
+      <name>msisdnInexistant</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'261340030816'</initValue>
+      <name>msisdnNonMVola</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'261348000079'</initValue>
+      <name>msisdnPostpaid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'261346849627'</initValue>
+      <name>numeroEnService</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0340030816'</initValue>
+      <name>numeroSuspendu</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mg'</initValue>
+      <name>langue</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
