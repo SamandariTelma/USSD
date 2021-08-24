@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Saisir un code de recharge inexistant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77422e5f-f5e9-4342-be97-5b1f6afc5cd1</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>f0c20c8b-6039-4a22-8ce3-70b8d4ae3303</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

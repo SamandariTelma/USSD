@@ -19,13 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur = "${numeroInitiateur}"
 
-'En tant que client TELMA, je vais dans le menu pour Récupérer mon numéro en composant #130*4#'
+'En tant que client TELMA, je vais dans le menu ussd telma en composant *130#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA, numeroInitiateur)
+
+'Je saisis 4 (Service TELMA)'
 String actualMenu=CustomKeywords.'ussd.Send.response'('4')
 
-'Vérifier la présence du menu Récupérer mon numéro'
-String menu= CustomKeywords.'ussd.Expected.menu'('^.*9 Recuperer mon numero.*$', '^.*9 Hamerina ny Laharako*.$')
+'Vérifier la présence du menu Recharge'
+String menu= CustomKeywords.'ussd.Expected.menu'('^.*2 Recharge.*$','^.*2 Hamahana.*$')
 
 WS.verifyMatch(actualMenu, menu, true)
 
-         
+'Je saisis 2 (Recharge) et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('2')
+
+'Vérifier la conformité du menu'
+menu= CustomKeywords.'ussd.Expected.menu'('recharge\n1 Recharger mon numero\n2 Recharger un autre numero\n3 Recharger avec MVola\n4 Envoyer code recharge',
+	'Hamahana\n1 Hamahana ny kaontiko\n2 Hamahana kaonty hafa\n3 Recharger avec MVola\n4 Hamahana code recharge')
+
+WS.verifyMatch(actualMenu, menu, true)

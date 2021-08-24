@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-Recharger - client suspendu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2fc8206b-cb26-415c-ab8e-b74612749d9a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnSuspendu</defaultValue>
+      <description></description>
+      <id>592c92eb-56c7-4c90-92d6-1569d2b301c8</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.codeRecharge1</defaultValue>
+      <description></description>
+      <id>555df15e-a3c7-4045-bc71-217ef7c53097</id>
+      <masked>false</masked>
+      <name>codeRecharge</name>
+   </variable>
+</TestCaseEntity>

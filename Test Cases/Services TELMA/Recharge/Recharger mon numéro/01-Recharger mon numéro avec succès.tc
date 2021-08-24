@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Recharger mon numéro avec succès</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>28b4652f-ac6d-44a5-9bb4-27e06bfdd1a5</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>4468211d-9356-4c29-a2c7-7d0c5911756c</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.codeRecharge1</defaultValue>
+      <description></description>
+      <id>cbdd5e15-c6b1-4583-ab2a-e0383a71b06c</id>
+      <masked>false</masked>
+      <name>codeRecharge</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.montantCode1</defaultValue>
+      <description></description>
+      <id>282a491f-7d46-4fcc-81a9-49c1ebaa186c</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

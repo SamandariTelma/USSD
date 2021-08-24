@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Saisie code de recharge inexistant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18cc3084-ba52-4d5d-afb4-dc5e925263a0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>aece5628-5d4e-494a-bc2d-866feabf114f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>fdf40e35-05ac-439e-8e8f-8de03f3dd312</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+</TestCaseEntity>

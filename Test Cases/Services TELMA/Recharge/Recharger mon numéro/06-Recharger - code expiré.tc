@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06-Recharger - code expiré</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0abab21-f429-44ce-8dbc-ec00a35ca683</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>1f53c2a1-c74a-46d0-a819-b4dc3bb937d1</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.codeRechargeExpire</defaultValue>
+      <description></description>
+      <id>d40851d3-fbd4-480d-a33e-4ae3aeb734c5</id>
+      <masked>false</masked>
+      <name>codeRecharge</name>
+   </variable>
+</TestCaseEntity>

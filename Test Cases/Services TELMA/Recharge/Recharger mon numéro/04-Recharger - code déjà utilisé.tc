@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Recharger - code déjà utilisé</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>083bfd5f-15af-4338-8ed2-c063ae0ef09e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>2a6bdae2-4081-4bc6-bf26-5077ddcb023c</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.codeRecharge1</defaultValue>
+      <description></description>
+      <id>3b4caff0-b9bd-4c78-98dc-804f961e72ec</id>
+      <masked>false</masked>
+      <name>codeRecharge</name>
+   </variable>
+</TestCaseEntity>

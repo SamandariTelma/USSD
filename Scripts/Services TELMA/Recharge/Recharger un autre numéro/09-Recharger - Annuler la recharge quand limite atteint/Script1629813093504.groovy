@@ -17,15 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String numeroInitiateur = "${numeroInitiateur}"
+String numeroInitiateur="${numeroInitiateur}"
+String numeroRecepteur="${numeroRecepteur}"
 
-'En tant que client TELMA, je vais dans le menu pour Récupérer mon numéro en composant #130*4#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA, numeroInitiateur)
-String actualMenu=CustomKeywords.'ussd.Send.response'('4')
+'En tant que client TELMA, je vais dans le menu pour Recharge en composant #130*4# > 2'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
-'Vérifier la présence du menu Récupérer mon numéro'
-String menu= CustomKeywords.'ussd.Expected.menu'('^.*9 Recuperer mon numero.*$', '^.*9 Hamerina ny Laharako*.$')
+'Je saisis 2 (Recharger un autre numéro)'
+CustomKeywords.'ussd.Send.response'('2')
+
+'Je saisis correctement un numéro MSISDN valide et je valide'
+numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+String actualMenu=CustomKeywords.'ussd.Send.response'(numeroRecepteur)
+
+'Vérifier la conformtité du prompt'
+String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez depasse le nombre de transactions gratuites de la journee\\. Votre demande sera maintenant facturee\\.  Continuer\\?\n0 Non\n1 Oui',
+	'Nihoatra ny isa tsy andoavambola ny fijerena ny abin ny volanao\\. Misy sarany ity fangatahana ity manomboka izao\\. Tohizana\\?\n0 Tsia\n1 Eny')
 
 WS.verifyMatch(actualMenu, menu, true)
 
-         
+'Je saisis 0 pour annuler'
+actualMenu=CustomKeywords.'ussd.Send.response'('0')
+
+'Vérifier la conformité du prompt'
+WS.verifyMatch(actualMenu, 'null', false)
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>07-Recharger - client postpaid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49ed59c1-e111-4924-804e-9c1c7dd24580</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnPostpaid</defaultValue>
+      <description></description>
+      <id>8475df17-b6d5-4d1c-afd1-69fbc45c5b4e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

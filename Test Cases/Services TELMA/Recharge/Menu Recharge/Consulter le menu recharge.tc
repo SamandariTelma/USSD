@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter le menu recharge</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4a034d8-0bbd-4108-a48d-bba7ca75f412</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>76473688-ab7b-4f52-9074-d1c8d78cd749</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

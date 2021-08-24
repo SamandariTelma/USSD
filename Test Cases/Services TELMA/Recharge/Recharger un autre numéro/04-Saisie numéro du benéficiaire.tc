@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Saisie numéro du benéficiaire</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1194d9c-90f9-4a9e-a5c6-21c56b302422</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>66b39653-070c-4604-a189-b22b5accb321</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

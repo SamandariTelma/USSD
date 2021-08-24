@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter le menu recharge par MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdb5e4a2-2ba6-4f8d-8f36-5a8cf59b8053</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>a449843c-f86d-4bde-94dd-fc88c371c2af</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

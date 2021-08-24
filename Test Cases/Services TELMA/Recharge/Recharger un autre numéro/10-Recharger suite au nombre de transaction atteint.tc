@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>10-Recharger suite au nombre de transaction atteint</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd353c33-5eea-4761-8831-6a10e146649d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>adcd18d4-2c2d-479c-9a85-af53364fd26e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>0a0a08d1-4858-4dcb-964a-5e88eb2f0db6</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.codeRecharge3</defaultValue>
+      <description></description>
+      <id>633e3dfa-1476-40c1-a778-4ddf869140c7</id>
+      <masked>false</masked>
+      <name>codeRecharge</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.montantCode3</defaultValue>
+      <description></description>
+      <id>243b8ffd-ad03-40b0-a1fc-f2bc5bd892ff</id>
+      <masked>false</masked>
+      <name>montantRecharge</name>
+   </variable>
+</TestCaseEntity>

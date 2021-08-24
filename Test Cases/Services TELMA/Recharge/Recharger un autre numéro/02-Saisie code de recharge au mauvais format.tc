@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Saisie code de recharge au mauvais format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>311127e8-42ac-48ab-8293-42ffdcbdb7fb</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>58347a6b-87d2-430c-8543-9196d035a164</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>ed590ba2-bcfc-4754-8701-ad758bb60c41</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+</TestCaseEntity>

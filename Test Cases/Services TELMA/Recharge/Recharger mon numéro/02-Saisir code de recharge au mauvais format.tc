@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Saisir code de recharge au mauvais format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b993e7d3-43cc-40c4-a080-bfc171c78f5d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>981ab335-34a1-4454-9b57-0dbc85977c54</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

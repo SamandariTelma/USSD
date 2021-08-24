@@ -17,15 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String numeroInitiateur = "${numeroInitiateur}"
+String numeroInitiateur= "${numeroInitiateur}"
 
-'En tant que client TELMA, je vais dans le menu pour Récupérer mon numéro en composant #130*4#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA, numeroInitiateur)
-String actualMenu=CustomKeywords.'ussd.Send.response'('4')
+'En tant que client TELMA, je vais dans le menu pour Recharger mon numéro en composant #130*4*2#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
-'Vérifier la présence du menu Récupérer mon numéro'
-String menu= CustomKeywords.'ussd.Expected.menu'('^.*9 Recuperer mon numero.*$', '^.*9 Hamerina ny Laharako*.$')
+'Je saisis 1 (Recharger mon compte)'
+CustomKeywords.'ussd.Send.response'('1')
+
+'Je saisis un code de recharge qui n\'existe pas (14 chiffres'
+String actualMenu=CustomKeywords.'ussd.Send.response'('12345678901234')
+
+'Vérifer la conformité du message'
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre code de recharge est invalide','Tsy manankery ny kaodin\'ny fahana nampidirinao')
 
 WS.verifyMatch(actualMenu, menu, true)
-
-         
