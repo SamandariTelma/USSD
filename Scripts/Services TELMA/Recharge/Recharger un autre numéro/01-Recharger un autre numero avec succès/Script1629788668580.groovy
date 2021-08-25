@@ -36,8 +36,8 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 CustomKeywords.'ussd.Send.response'('2')
 
 'Je saisis correctement un numéro MSISDN valide et je valide'
-numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
-CustomKeywords.'ussd.Send.response'(numeroRecepteur)
+String numeroBeneficiarie=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+CustomKeywords.'ussd.Send.response'(numeroBeneficiarie)
 
 'Je saisis correctement le code de recharge et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'(codeRecharge)

@@ -35,8 +35,8 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 CustomKeywords.'ussd.Send.response'('2')
 
 'Je saisis le numéro du benéficiaire (numéro suspendu)'
-numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
-CustomKeywords.'ussd.Send.response'(numeroRecepteur)
+String numeroBeneficiaire=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+CustomKeywords.'ussd.Send.response'(numeroBeneficiaire)
 
 'Je saisis un numero de code recharge valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'(codeRecharge)

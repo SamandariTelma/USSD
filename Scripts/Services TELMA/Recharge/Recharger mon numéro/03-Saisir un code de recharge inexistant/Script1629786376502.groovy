@@ -25,7 +25,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 'Je saisis 1 (Recharger mon compte)'
 CustomKeywords.'ussd.Send.response'('1')
 
-'Je saisis un code de recharge qui n\'existe pas (14 chiffres'
+'Je saisis un code de recharge qui n\'existe pas (14 chiffres)'
 String actualMenu=CustomKeywords.'ussd.Send.response'('12345678901234')
 
 'Vérifer la conformité du message'

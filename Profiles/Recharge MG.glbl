@@ -36,6 +36,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'261348000079'</initValue>
+      <name>msisdnPostpaid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'61943148259498'</initValue>
       <name>codeRecharge1</name>
    </GlobalVariableEntity>
@@ -53,6 +58,16 @@
       <description></description>
       <initValue>'1000'</initValue>
       <name>montantCode2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'61943148259498'</initValue>
+      <name>codeRecharge3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1000'</initValue>
+      <name>montantCode3</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

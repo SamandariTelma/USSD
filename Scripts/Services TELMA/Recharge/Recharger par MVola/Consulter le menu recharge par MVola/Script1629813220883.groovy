@@ -23,7 +23,7 @@ String numeroInitiateur="${numeroInitiateur}"
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis 3 (Recharger avec MVola)'
-String actualMenu=CustomKeywords.'ussd.Send.response'('2')
+String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier que je suis redirigé vers le menu d\'achat crédit/offre de MVola'
 String menu=CustomKeywords.'ussd.Expected.menu'('ACHETER CREDIT OU OFFRE TELMA\n1 Credit pour mon numero\n2 Credit pour autre numero\n3 Offre pour mon numero\n4 Offre pour autre numero')

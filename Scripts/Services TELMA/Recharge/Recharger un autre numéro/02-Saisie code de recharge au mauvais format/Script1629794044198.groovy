@@ -31,14 +31,16 @@ println 'Solde avant recharge: '+soldeAvantRecharge
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis 2 (Recharger un autre numéro)'
-String actualMenu=CustomKeywords.'ussd.Send.response'('2')
+CustomKeywords.'ussd.Send.response'('2')
+
+'Je saisis correctement un numéro MSISDN valide et je valide'
+String numeroBeneficiaire=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+String actualMenu=CustomKeywords.'ussd.Send.response'(numeroBeneficiaire)
 
 'Vérifier la conformité du prompt'
 String menu=CustomKeywords.'ussd.Expected.menu'('Entrer code recharge :', 'Kaodin\'ny fahana :')
 
-'Je saisis correctement un numéro MSISDN valide et je valide'
-numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
-CustomKeywords.'ussd.Send.response'(numeroRecepteur)
+WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis un code de recharge au mauvais format (Alphanumérique)'
 actualMenu=CustomKeywords.'ussd.Send.response'('abcd123')
