@@ -17,10 +17,28 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-'Je desactive mon offre MORA+ 5000 en saississant le shortcode #359*35*2#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'*35*2#', numeroInitiateur)
+String dateExpiration=CustomKeywords.'ussd.Util.getLastDayOfMonth'()
+
+
+'Après desactivation Offre FIRST ROYAL, je short code #359#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
+
+'Je saisis 1 (Mes offres) et valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'('1')
+
+'Vérifier si l\'offre apparait dans la liste offre'
+String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('MORA+ 5000', actualMenu)
+
+'Je saisis le rang du menu MORA+ 5000 et valide'
+CustomKeywords.'ussd.Send.response'(rangMenu)
+
+'Je saisis 2 (Renouvellement automatique)et valide'
+CustomKeywords.'ussd.Send.response'('2')
+
+'Je saisis 1 pour desactiver le renouvellement automatique et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez desactive avec succes le renouvellement automatique de l offre MORA+ 5000, Pour le reactiver, tapez #359\\*35\\*1#')
+String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez desactive avec succes le renouvellement automatique de l offre MORA\\+ 5000\\. Pour le reactiver, tapez #359\\*35\\*1#')
 
 WS.verifyMatch(actualMenu, menu, true)

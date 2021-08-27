@@ -1,13 +1,12 @@
 {
-  "keywordFileContentHash": "80F552B77E12D905228B7006FCA09B9D",
+  "keywordFileContentHash": "AB51EC2C706F131C17C2AB30079B69E3",
   "keywordClasses": [
     {
       "name": "ussd.Util",
       "keywordMethods": [
         {
           "name": "randomizeNumber",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "nextDate",
@@ -25,8 +24,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "nextDate",
@@ -57,13 +55,11 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "getLastDayOfMonth",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "rechercheMenu",
@@ -94,8 +90,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "to034",
@@ -113,8 +108,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "to261",
@@ -132,8 +126,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "separateThousand",
@@ -151,11 +144,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

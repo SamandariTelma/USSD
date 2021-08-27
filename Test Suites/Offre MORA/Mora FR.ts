@@ -594,7 +594,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>057dcdd1-dc31-421d-b74b-8e10ceb33b19</guid>
+      <guid>5c0eae5b-40a5-4466-8c15-8f83a989bbb8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/09-Reactiver Renouvellement Offre MORA (359)/01-Activer Renouvellement Offre MORA 500</testCaseId>
@@ -602,11 +602,11 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f3bc366d-f091-49e1-ba62-8ffbb9fe603d</variableId>
+         <variableId>2b33cf8b-4bf6-480b-a3b9-b76a8962ad6e</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>fdeb1d2b-1c04-4cc4-990a-2d547dab0d16</guid>
+      <guid>57c9c981-d34e-4bf9-8d61-1685a14fc55e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/09-Reactiver Renouvellement Offre MORA (359)/02-Activer Renouvellement Offre MORA ONE</testCaseId>
@@ -614,11 +614,11 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b5031553-6622-4175-a770-645ca536019b</variableId>
+         <variableId>09fbd4dc-f46a-44cd-b8cb-f824ebea8587</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3660b63c-f104-4e45-a851-1c9409f871e0</guid>
+      <guid>c3dc2ddc-feb7-454a-8eb4-e1b95e4176c3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/09-Reactiver Renouvellement Offre MORA (359)/03-Activer Renouvellement Offre MORA 2000</testCaseId>
@@ -626,11 +626,11 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>bbf48376-8451-4c10-9104-a2d3eedc7db9</variableId>
+         <variableId>1765c1da-fda0-42b8-a7c5-ffb1107b28af</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5d135f38-5ffa-4417-b20d-dc9d2d21a773</guid>
+      <guid>105c7d7b-091b-48f8-a28a-95b8d5c52844</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/09-Reactiver Renouvellement Offre MORA (359)/04-Activer Renouvellement Offre MORA 5000</testCaseId>
@@ -638,7 +638,7 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8cf57540-dd99-4aab-b929-2e4abcb166bb</variableId>
+         <variableId>d50e2606-8158-4372-9b97-9c5ad1ffa09c</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

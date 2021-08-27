@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(2,'dd/MM/yyy')
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy')
 
 'Après achat Offre MORA INTERNATIONAL avec succès , je consulte mon solde en saisissant #359#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
@@ -27,7 +27,7 @@ String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier si l\'offre apparait dans la liste offre'
-String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('MORA NIGHT', actualMenu)
+String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('MORA INTERNATIONAL', actualMenu)
 
 'Je saisis le rang du menu MORA INTERNATIONAL et valide'
 actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
@@ -42,7 +42,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA INTERNATIONAL restants: \\d{1,5} sec d appels vers l international utilisable jusqu au '+dateExpiration,
-	'Bonus MORA INTERNATIONAL tavela: \\d{1,5} sec antso mankany ivelany azo ampiasaina hatramin ny '+dateExpiration)
+menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA INTERNATIONAL restants: 900 sec d appels vers l international utilisable jusqu au '+dateExpiration,
+	'Bonus MORA INTERNATIONAL tavela: 900 sec antso mankany ivelany azo ampiasaina hatramin ny '+dateExpiration)
 
 WS.verifyMatch(actualMenu, menu, true)

@@ -32,8 +32,8 @@ String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('MORA 500', actualMenu)
 actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('MORA 500\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente',
-	'MORA 500\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha')
+String menu=CustomKeywords.'ussd.Expected.menu'('MORA 500\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente\n\\*\\* Menu principal',
+	'MORA 500\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha\n\\*\\* main')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -41,8 +41,8 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA 500 restants : \\d{1,6} Ar appels \\+ \\d{1,4} SMS Telma et/ou \\d{1,5} Mo valables a toute heure ET BONUS \\d{1,4}\\.\\d SMS Telma et/ou \\d{1,5}\\.\\d Mo valable la nuit',
-	'Bonus MORA 500 : \\d{1,6} Ar antso \\+ \\d{1,4} SMS Telma sy/na \\d{1,5} Mo manankery @ ora rehetra ARY BONUS \\d{1,4}\\.\\d SMS Telma sy/na \\d{1,5}\\.\\d Mo manakery @alina\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA 500 restants : 500 Ar appels \\+ 10 SMS Telma et/ou 10 Mo valables a toute heure ET BONUS 10\\.0 SMS Telma et/ou 10\\.0 Mo valable la nuit',
+	'Bonus MORA 500 : 500 Ar antso \\+ 10 SMS Telma sy/na 10 Mo manankery @ ora rehetra ARY BONUS 10\\.0 SMS Telma sy/na 10\\.0 Mo manankery @alina\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

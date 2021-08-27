@@ -32,8 +32,8 @@ String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('MORA ONE', actualMenu)
 actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('MORA ONE\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente',
-	'MORA ONE\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha')
+String menu=CustomKeywords.'ussd.Expected.menu'('MORA ONE\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente\n\\*\\* Menu principal',
+	'MORA ONE\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha\n\\*\\* main')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -41,7 +41,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA ONE restants : \\d{1,6} Ar appels national \\+ \\d{1,4} SMS Telma \\+ \\d{1,5}\\.\\d Mo utilisables jusqu\'a minuit',
-	'Bonus MORA ONE : \\d{1,6} Ar antso MANKANY @tambazotra rehetra \\+ \\d{1,4} SMS Telma \\+ \\d{1,5}\\.\\d Mo manankery hatramin ny sasakalina\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA ONE restants : 1000 Ar appel national \\+ 20 SMS Telma \\+ 20\\.0 Mo utilisables jusqu a minuit\\. ',
+	'Bonus MORA ONE : 1000 Ar antso mankany @tambazotra rehetra \\+ 20 SMS Telma \\+ 20\\.0 Mo manankery hatramin ny sasakalina\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

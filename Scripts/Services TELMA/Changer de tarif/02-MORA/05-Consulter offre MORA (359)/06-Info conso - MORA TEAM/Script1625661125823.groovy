@@ -42,7 +42,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA TEAM : \\d{1,5} sec d appels et/ou \\d{1,5} SMS vers Num FAF et/ou \\d{1,5}\\.\\d Mo valable jusqu a minuit\\.  Tapez 344\\*1\\*Num pour rajouter Num FAF\\. Telma N1 a M/car',
-	'Bonus MORA TEAM : antso \\d{1,5} sec sy/na \\d{1,5} SMS mankany Num FAF sy/na \\d{1,5}\\.\\d h@ sasak alina\\. Antsoy ny #344\\*1\\*Num# raha anampy Num FAF\\. Telma N1 eto M/kara\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA TEAM: 3600 sec d appels et/ou 60 SMS vers Num FAF et/ou \60.0 Mo valable jusqu a minuit\\. Tapez #344\\*1\\*Num pour rajouter Num FAF\\. Telma N1 a M/car',
+	'Bonus MORA TEAM: antso 3600 sec sy/na 60 SMS mankany @ Num FAF sy/na 60\\.0 Mo h@ sasak alina\\. Antsoy ny #344\\*1\\*Num# raha hanampy Num FAF\\. Telma N1 eto M/kara')
 
 WS.verifyMatch(actualMenu, menu, true)

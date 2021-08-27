@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(2,'dd/MM/yyy')
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(6,'dd/MM/yyy')
 
 'Après achat Offre MORA+ 5000 avec succès , je consulte mon solde en saisissant #359#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
@@ -33,8 +33,8 @@ String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('MORA+ 5000', actualMen
 actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('MORA+ 5000\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente',
-	'MORA+ 5000\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha')
+String menu=CustomKeywords.'ussd.Expected.menu'('MORA\\+ 5000\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente\n\\*\\* Menu principal',
+	'MORA\\+ 5000\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha\n\\*\\* main')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -42,7 +42,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA\\+ 5000 restants : \\d{1,6} Ar appels \\+ \\d{1,4} SMS Telma \\+ \\d{1,5}\\.\\d Mo jusqu\'au '+dateExpiration,
-	'Bonus MORA+ 5000 : \\d{1,6} Ar antso eto antoerana \\+ \\d{1,4} SMS Telma \\+ \\d{1,5}\\.\\d Mo ny tontolo andro sy {RestantMega} Mo ny alina azo ampiasaina h@ '+dateExpiration)
+menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA\\+ 5000 : 5000 Ar \\+ 100 SMS Telma \\+ 100\\.0 Mo la journee et 50\\.0 Mo la nuit valable jusqu au '+dateExpiration,
+	'Bonus MORA\\+ 5000 : 5000 Ar antso eto an toerana \\+ 100 SMS Telma + 100\\.0 Mo ny tontolo andro sy 50\\.0 Mo ny alina azo ampiasaina h@ '+dateExpiration)
 
 WS.verifyMatch(actualMenu, menu, true)

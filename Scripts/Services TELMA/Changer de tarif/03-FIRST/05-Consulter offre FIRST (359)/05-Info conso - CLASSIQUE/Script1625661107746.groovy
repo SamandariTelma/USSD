@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 
 String numeroInitiateur="${numeroInitiateur}"
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(2,'dd/MM/yyy')
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
 
 'Après achat Offre FIRST CLASSIQUE avec succès , je consulte mon solde en saisissant #359#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
@@ -32,8 +32,8 @@ String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('FIRST CLASSIQUE', actu
 actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('FIRST CLASSIQUE\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente',
-	'FIRST CLASSIQUE\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha')
+String menu=CustomKeywords.'ussd.Expected.menu'('FIRST CLASSIQUE\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente\n\\*\\* Menu principal',
+	'FIRST CLASSIQUE\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha\n\\*\\* main')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -41,7 +41,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus FIRST CLASSIQUE: \\d{1,4} SMS Telma \\+ \\d{1,5}\\.\\d Mo la journee et Mo la nuit \\+ \\d{1,4} sec vers 3 FAF, valable jusqu au '+dateExpiration+' inclus.',
-	'Bonus FIRST CLASSIQUE: \\d{1,4} SMS Telma + \\d{1,5}\\.\\d Mo ny tontolo andro sy Mo ny alina \\+ BONUS \\d{1,4} sec makany @ FAF 3, manankery h@ '+dateExpiration)
+menu=CustomKeywords.'ussd.Expected.menu'('Bonus FIRST CLASSIQUE: 200 SMS Telma \\+ 200\\.0 Mo la journee et 100\\.0 Mo la nuit \\+ Bonus 7200 sec vers 3 FAF, valable jusqu au '+dateExpiration+' inclus.',
+	'Bonus FIRST CLASSIQUE: 200 SMS Telma \\+ 200\\.0 Mo ny tontola andro sy 100\\.0 Mo ny alina \\+ BONUS 7200 sec makany @ FAF 3, manankery h@ '+dateExpiration)
 
 WS.verifyMatch(actualMenu, menu, true)

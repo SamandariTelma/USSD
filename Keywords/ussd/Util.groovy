@@ -77,7 +77,16 @@ public class Util {
 				println 'menu trouvé dans la page'+i
 				menuFound=true
 				//Recuperer le rang du menu consulté
-				rangMenu=actualMenuOffre.substring(actualMenuOffre.lastIndexOf(menu)-2,actualMenuOffre.lastIndexOf(menu)-1)
+				try{
+					rangMenu=actualMenuOffre.substring(actualMenuOffre.lastIndexOf(menu)-4,actualMenuOffre.lastIndexOf(menu)-3)
+				}catch(Exception e)
+				{
+					print 'err '+Exception
+				}
+			   if (rangMenu!='\n')
+			      rangMenu=actualMenuOffre.substring(actualMenuOffre.lastIndexOf(menu)-2,actualMenuOffre.lastIndexOf(menu)-1)
+			   else
+			      rangMenu=actualMenuOffre.substring(actualMenuOffre.lastIndexOf(menu)-3,actualMenuOffre.lastIndexOf(menu)-1)
 				println("rang menu:"+rangMenu)
 			}
 			else if(menuFound==false && (actualMenuOffre.contains('Page suivante')||actualMenuOffre.contains('Pejy manaraka'))) {

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(2,'dd/MM/yyy')
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy')
 
 'Après achat Offre MORA NIGHT avec succès , je consulte mon solde en saisissant #359#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
@@ -34,7 +34,7 @@ actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('MORA NIGHT\n1 Info conso\n00 Page precedente',
-	'MORAN NIGHT\n1 Info conso\n00 Pejy aloha')
+	'MORA NIGHT\n1 Info conso\n00 Pejy aloha')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -42,7 +42,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA NIGHT : \\d{1,5} sec d appels et/ou \\d{1,4} SMS vers Telma utilisable de 21h\\-5h59 jusqu au '+dateExpiration,
-	'Bonus MORA NIGHT:  antso \\d{1,5} sec sy/na \\d{1,4} SMS mankany @numerao Telma azo ampiasaina @21h\\-5h59, ary manankery h@ '+dateExpiration)
+menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA NIGHT: 3600 sec d appels et/ou 60 SMS vers Telma utilisable de 21h\\-5h59 jusqu au '+dateExpiration,
+	'Bonus MORA NIGHT: antso 3600 sec sy/na 60 SMS mankany @numerao Telma azo ampiasaina @21h\\-5h59, ary manankery h@ '+dateExpiration)
 
 WS.verifyMatch(actualMenu, menu, true)

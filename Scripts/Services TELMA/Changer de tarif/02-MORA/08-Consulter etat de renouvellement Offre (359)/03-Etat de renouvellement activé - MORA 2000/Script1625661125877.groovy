@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(0,'dd/MM/yyy')
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy')
 
 
 'Après achat Offre MORA 2000 avec succès , je consulte mon solde en saisissant #359#'
@@ -37,7 +37,7 @@ actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('1 Votre offre MORA+ 2000 sera automatiquement renouvelee le '+dateExpiration+' a minuit\\. Pour desactiver le renouvellement tapez 1',
-	'1 Ny tolotra MORA+ 2000 dia hohavaozina ny '+dateExpiration+' @ misasak\'alina\\. Raha hanafoana io fanavaozana io, tsindrio 1')
+String menu=CustomKeywords.'ussd.Expected.menu'('1 Votre offre MORA\\+ 2000 sera automatiquement renouvelee le '+dateExpiration+' a minuit\\. Pour desactiver le renouvellement tapez 1',
+	'1 Ny tolotra MORA\\+ 2000 dia hohavaozina ny '+dateExpiration+' @ misasak\'alina\\. Raha hanafoana io fanavaozana io, tsindrio 1')
 
 WS.verifyMatch(actualMenu, menu, true)

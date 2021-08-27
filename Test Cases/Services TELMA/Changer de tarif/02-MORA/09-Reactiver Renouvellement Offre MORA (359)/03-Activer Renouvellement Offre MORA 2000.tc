@@ -4,11 +4,11 @@
    <name>03-Activer Renouvellement Offre MORA 2000</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e4bc87ed-edb5-4ec2-ad49-9054b0f5c761</testCaseGuid>
+   <testCaseGuid>b3751ae7-a7ce-4ebc-bcde-c92b0b8bdcdb</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>bbf48376-8451-4c10-9104-a2d3eedc7db9</id>
+      <id>1765c1da-fda0-42b8-a7c5-ffb1107b28af</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

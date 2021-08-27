@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 
 String numeroInitiateur="${numeroInitiateur}"
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(2,'dd/MM/yyy')
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
 
 'Après achat Offre FIRST PREMIUM avec succès , je consulte mon solde en saisissant #359#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
@@ -32,8 +32,8 @@ String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('FIRST PREMIUM\n', actu
 actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('FIRST PREMIUM \\+\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente',
-	'PREMIUM \\+\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha')
+String menu=CustomKeywords.'ussd.Expected.menu'('FIRST PREMIUM\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente\n\\*\\* Menu principal',
+	'FIRST PREMIUM\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha\n\\*\\* main')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -41,7 +41,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus FIRST PREMIUM: \\d{1,6} Ar appel national \\+ \\d{1,4} SMS Telma \\+ \\d{1,5}\\.\\d Mo la journee \\+ \\d{1,5}\\.\\d Mo la nuit jusqu au '+dateExpiration+' inclus',
-	'Bonus FIRST PREMIUM: \\d{1,6} Ar antso eto M/kara \\+ \\d{1,4} SMS Telma \\+ \\d{1,5}\\.\\d Mo ny tontolo andro \\+ \\d{1,5}\\.\\d Mo ny alina, h@ '+dateExpiration)
+menu=CustomKeywords.'ussd.Expected.menu'('Bonus FIRST PREMIUM: 20000 Ar appel national \\+ 200 SMS Telma \\+ 200\\.0  Mo la journee \\+ 100\\.0 Mo la nuit jusqu au '+dateExpiration+' inclus',
+	'Bonus FIRST PREMIUM: 20000 Ar antso eto M/kara \\+ 200 SMS Telma 200\\.0 Mo ny tontolo andro \\+ 100\\.0 Mo ny alina, h@ '+dateExpiration)
 
 WS.verifyMatch(actualMenu, menu, true)

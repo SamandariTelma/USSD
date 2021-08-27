@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 
 String numeroInitiateur="${numeroInitiateur}"
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(2,'dd/MM/yyy')
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
 
 'Après achat Offre FIRST PRESTIGE avec succès , je consulte mon solde en saisissant #359#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
@@ -32,8 +32,8 @@ String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('FIRST PRESTIGE', actua
 actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('FIRST PRESTIGE\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente',
-	'FIRST PRESTIGE\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha')
+String menu=CustomKeywords.'ussd.Expected.menu'('FIRST PRESTIGE\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente\n\\*\\* Menu principal',
+	'FIRST PRESTIGE\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha\n\\*\\* main')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -41,7 +41,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus FIRST PRESTIGE: \\d{1,6} Ar appel national \\+ \\d{1,4} SMS Telma \\+ \\d{1,5}\\.\\d Mo la journee \\+ \\d{1,5}\\.\\d Mo la nuit \\+ Bonus \\d{1,4} sec vers international jusqu au '+dateExpiration,
-	'Bonus FIRST PRESTIGE: \\d{1,6} Ar antso eto M/kara \\+ \\d{1,4} SMS Telma \\+ \\d{1,5}\\.\\d Mo ny tontolo andro \\+ \\d{1,5}\\.\\d Mo ny alina \\+ Bonus \\d{1,4} sec makany ivelany,h@ '+dateExpiration)
+menu=CustomKeywords.'ussd.Expected.menu'('Bonus FIRST PRESTIGE: 60000 Ar appel national \\+ 1000 SMS Telma \\+ 1000\\.0 Mo la journee \\+ 1000\\.0 Mo la nuit \\+ Bonus 1200 sec vers international jusqu au '+dateExpiration,
+	'Bonus FIRST PRESTIGE: 60000 Ar antso eto M/kara \\+ 1000 SMS Telma \\+ 1000\\.0 Mo ny tontolo andro  \\+ 1000\\.0 Mo  ny alina \\+Bonus 1200 sec  makany ivelany, h@ '+dateExpiration)
 
 WS.verifyMatch(actualMenu, menu, true)

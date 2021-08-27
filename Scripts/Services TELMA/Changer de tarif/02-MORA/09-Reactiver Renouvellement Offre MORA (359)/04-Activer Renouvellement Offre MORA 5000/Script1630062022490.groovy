@@ -21,7 +21,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String dateExpiration=CustomKeywords.'ussd.Util.getLastDayOfMonth'()
 
 
-'Après desactivation Offre MORA ONE, je short code #359#'
+'Après desactivation Offre FIRST ROYAL, je short code #359#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
 
 'Je saisis 1 (Mes offres) et valide'
@@ -40,6 +40,6 @@ CustomKeywords.'ussd.Send.response'('2')
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez reactive avec succes le renouvellement automatique de MORA+ 5000\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez reactive avec succes le renouvellement automatique de MORA\\+ 5000\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
