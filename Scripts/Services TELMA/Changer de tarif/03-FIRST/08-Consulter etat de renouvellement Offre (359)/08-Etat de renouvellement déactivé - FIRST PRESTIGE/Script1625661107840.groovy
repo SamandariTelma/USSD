@@ -28,16 +28,16 @@ String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier si l\'offre apparait dans la liste offre'
-String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('FIRST PREMIUM +', actualMenu)
+String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('FIRST PRESTIGE', actualMenu)
 
-'Je saisis le rang du menu FIRST PREMIUM + et valide'
+'Je saisis le rang du menu FIRST PRESTIGE et valide'
 CustomKeywords.'ussd.Send.response'(rangMenu)
 
 'Je saisis 2 (Renouvellement automatique)et valide'
 actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('1 le renouvellement de votre offre FIRST PRESTIGE a ete desactive. Pour le reactiver tapez 1',
-	'1 Tsy mandeha ny fanavaozana ny fidirana @ ny tolotra FIRST PRESTIGE. Raha te hamerina izany ianao, tsindrio ny 1')
+String menu=CustomKeywords.'ussd.Expected.menu'('1 Le renouvellement de votre offre FIRST PRESTIGE a ete desactive\\. Pour le reactiver tapez 1',
+	'1 Tsy mandeha ny fanavaozana ny fidirana @ ny tolotra FIRST PRESTIGE\\. Raha te hamerina izany ianao, tsindrio ny 1')
 
 WS.verifyMatch(actualMenu, menu, true)

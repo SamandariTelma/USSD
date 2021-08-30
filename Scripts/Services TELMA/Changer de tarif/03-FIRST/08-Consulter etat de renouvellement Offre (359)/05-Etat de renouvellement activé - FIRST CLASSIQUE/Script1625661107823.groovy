@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String dateExpiration=CustomKeywords.'ussd.Util.getLastDayOfMonth'()
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
 
 
 'Après achat Offre FIRST CLASSIQUE avec succès , je consulte mon solde en saisissant #359#'

@@ -37,7 +37,7 @@ CustomKeywords.'ussd.Send.response'(rangMenu)
 actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('1 le renouvellement de votre offre FIRST PREMIUM + a ete desactive. Pour le reactiver tapez 1',
-	'1 Tsy mandeha ny fanavaozana ny fidirana @ ny tolotra FIRST PREMIUM +. Raha te hamerina izany ianao, tsindrio ny 1')
+String menu=CustomKeywords.'ussd.Expected.menu'('1 Le renouvellement de votre offre FIRST PREMIUM \\+ a ete desactive\\. Pour le reactiver tapez 1',
+	'1 Tsy mandeha ny fanavaozana ny fidirana @ ny tolotra FIRST PREMIUM \\+\\. Raha te hamerina izany ianao, tsindrio ny 1')
 
 WS.verifyMatch(actualMenu, menu, true)
