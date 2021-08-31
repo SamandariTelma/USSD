@@ -164,7 +164,7 @@
    <testCaseLink>
       <guid>b47ba43a-2a9a-476d-a6af-bc95f892aa2d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/03-Achat limité offre Yelow (SMS - INTERNET)/Limite journalière d achat - Yelow100</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -176,7 +176,7 @@
    <testCaseLink>
       <guid>dda5d73f-bfb7-4f7c-af6c-42885a352119</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/03-Achat limité offre Yelow (SMS - INTERNET)/Limite journalière d achat - Yelow SMS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -188,7 +188,7 @@
    <testCaseLink>
       <guid>ef1db1be-fc5f-4ba3-bf5c-9861ea5d2cb5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/03-Achat limité offre Yelow (SMS - INTERNET)/Limite journalière d achat - Yelow facebobaka</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -200,7 +200,7 @@
    <testCaseLink>
       <guid>43170d55-0f8c-4f25-ab60-92c9dae1bcc9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/03-Achat limité offre Yelow (SMS - INTERNET)/Limite journalière d achat - Yelow 200</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
