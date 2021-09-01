@@ -82,19 +82,21 @@ public class Util {
 				}catch(Exception e)
 				{
 					print 'err '+Exception
+					rangMenu='null'
 				}
-			   if (rangMenu!='\n')
-			      rangMenu=actualMenuOffre.substring(actualMenuOffre.lastIndexOf(menu)-2,actualMenuOffre.lastIndexOf(menu)-1)
-			   else
-			      rangMenu=actualMenuOffre.substring(actualMenuOffre.lastIndexOf(menu)-3,actualMenuOffre.lastIndexOf(menu)-1)
+				if (rangMenu!='\n' && rangMenu!='null')
+					rangMenu=actualMenuOffre.substring(actualMenuOffre.lastIndexOf(menu)-2,actualMenuOffre.lastIndexOf(menu)-1)
+				else
+					rangMenu=actualMenuOffre.substring(actualMenuOffre.lastIndexOf(menu)-3,actualMenuOffre.lastIndexOf(menu)-1)
 				println("rang menu:"+rangMenu)
 			}
 			else if(menuFound==false && (actualMenuOffre.contains('Page suivante')||actualMenuOffre.contains('Pejy manaraka'))) {
 				//Passer au menu suivante
 				i++
 				menuFound=false
-				actualMenuOffre='\n2 MORA 500\n3 MORA 500+'
-				//actualMenuOffre=CustomKeywords.'ussd.Send.response'('0')
+				def send= new Send()
+				actualMenuOffre=send.response('0')
+				//actualMenuOffre='\n2 MORA 500\n3 MORA 500+'
 			}
 			else if(menuFound==false && !(actualMenuOffre.contains('Page suivante')||actualMenuOffre.contains('Pejy manaraka'))) {
 				menuNotFound=true

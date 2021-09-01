@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>04933220-ad4f-431f-bb3e-33deabcecb3c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/01-Menu Changer de Tarif (commun)/Consulter le menu Changer de tarif</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>bed81070-1332-4b50-9f47-09f11e0dea6f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/01-Menu Changer de Tarif (commun)/Numero postpaid - Consulter le menu Changer de tarif</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -110,7 +110,7 @@
    <testCaseLink>
       <guid>cb646708-5ae5-492f-b72f-92e8079c47fd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/01-TELMA NET Journalier/01-Achat offre pour soi - TELMA net ONE NIGHT</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -128,7 +128,7 @@
    <testCaseLink>
       <guid>e1cac72c-c059-49fc-9a66-c78dbef96548</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/01-TELMA NET Journalier/02-Achat offre pour soi- TELMA net ONE DAY</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -146,7 +146,7 @@
    <testCaseLink>
       <guid>c0257a4a-93e0-4ab4-9ab2-10a1f7788381</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/02-TELMA NET Hebdomadaire/01-Achat offre pour soi - TELMA net ONE WEEK 250 Mo</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -164,7 +164,7 @@
    <testCaseLink>
       <guid>6a352aa9-e08a-4d0a-90fe-6a6142fdddbc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/02-TELMA NET Hebdomadaire/02-Achat offre pour soi - TELMA net ONE WEEK 500 Mo</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -182,7 +182,7 @@
    <testCaseLink>
       <guid>198ed77b-274d-4e94-9b49-f0813a48dc06</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/02-TELMA NET Hebdomadaire/03-Achat offre pour soi - TELMA net ONE WEEK 1,5Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -200,7 +200,7 @@
    <testCaseLink>
       <guid>505e302c-4a2f-41f1-ade2-d11ee0ec94c5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/03-TELMA NET Mensuel/01-Achat offre pour soi - TELMA net ONE MONTH 1,5 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -218,7 +218,7 @@
    <testCaseLink>
       <guid>a7ab3579-2cd2-44fb-85b7-8e895fe6e83d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/03-TELMA NET Mensuel/02-Achat offre pour soi - Achat TELMA net ONE MONTH 3Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -236,7 +236,7 @@
    <testCaseLink>
       <guid>96b42f10-597f-4d21-8895-10a526bc4ffa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/03-TELMA NET Mensuel/03-Achat offre pour soi - TELMA net ONE MONTH 10Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -254,7 +254,7 @@
    <testCaseLink>
       <guid>917364f1-d97f-46a3-a0ef-23c8561924ac</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/03-TELMA NET Mensuel/04-Achat offre pour soi - TELMA net ONE MONTH 20Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -272,7 +272,7 @@
    <testCaseLink>
       <guid>416956f1-6387-4ec1-93a0-ca4dd6b7691b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/03-TELMA NET Mensuel/05-Achat offre pour soi- Achat TELMA net ONE MONTH 100Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -290,7 +290,7 @@
    <testCaseLink>
       <guid>4f61cd1c-085f-4ec4-8ce8-2caf847841aa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/04-TELMA NET PAYER MENSUALITES EN AVANCE/01-Achat offre pour soi - NET 3 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -308,7 +308,7 @@
    <testCaseLink>
       <guid>9ccc8a2b-c322-45b1-9b6b-3b9cd03446df</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/04-TELMA NET PAYER MENSUALITES EN AVANCE/02-Achat offre pour soi - NET 6 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -326,7 +326,7 @@
    <testCaseLink>
       <guid>755e242f-ba4b-4d31-b9de-822e85bd1dce</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/04-TELMA NET PAYER MENSUALITES EN AVANCE/03-Achat offre pour soi - NET 9 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -344,7 +344,7 @@
    <testCaseLink>
       <guid>8572e683-1771-4553-9562-61e59860e182</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/04-TELMA NET PAYER MENSUALITES EN AVANCE/04-Achat offre pour soi - NET 12 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -362,7 +362,7 @@
    <testCaseLink>
       <guid>55930f1d-3ddb-4d51-a18c-9182fd3223c1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/03-Crédit insuffisant/01-Crédit insuffisant - TELMA net ONE NIGHT</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -374,7 +374,7 @@
    <testCaseLink>
       <guid>bc8be55f-6d3f-4989-bd6d-846db860b20c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/03-Crédit insuffisant/02-Crédit insuffisant - TELMA net ONE DAY</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -386,7 +386,7 @@
    <testCaseLink>
       <guid>f7ebcadb-6e1d-4f9b-aa53-abb13c3e4f2c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/03-Crédit insuffisant/03-Crédit insuffisant - TELMA net ONE WEEK 250 Mo</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -398,7 +398,7 @@
    <testCaseLink>
       <guid>3728adcd-fcf2-4747-88fd-ba9a565d7e5e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/03-Crédit insuffisant/04-Crédit insuffisant - TELMA net ONE WEEK 500 Mo</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -410,7 +410,7 @@
    <testCaseLink>
       <guid>29ff6a2b-0fdf-4ae8-82ba-262499daa6d6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/03-Crédit insuffisant/05-Crédit insuffisant - TELMA net ONE WEEK 1,5 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -422,7 +422,7 @@
    <testCaseLink>
       <guid>742b5165-b8a6-49dd-9611-c66ef184bde9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/03-Crédit insuffisant/06-Crédit insuffisant - TELMA net ONE MONTH 1,5 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -434,7 +434,7 @@
    <testCaseLink>
       <guid>07033774-03f2-44b5-ad28-d051bd2c7b60</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/03-Crédit insuffisant/07-Crédit insuffisant - TELMA net ONE MONTH 3 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -446,7 +446,7 @@
    <testCaseLink>
       <guid>6226ef84-40f2-481e-8efd-66493d5dec93</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/03-Crédit insuffisant/08-Crédit insuffisant - TELMA net ONE MONTH 10 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -458,7 +458,7 @@
    <testCaseLink>
       <guid>8c97c56a-d7f9-4562-98c3-1c0d6add0fb2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/03-Crédit insuffisant/09-Crédit insuffisant - TELMA net ONE MONTH 20 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -470,7 +470,7 @@
    <testCaseLink>
       <guid>8088d8be-e91b-4d3a-93e5-a1b8af6d7b6f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/03-Crédit insuffisant/10-Crédit insuffisant - TELMA net ONE MONTH 100 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -482,7 +482,7 @@
    <testCaseLink>
       <guid>cc21f749-9881-4bf1-857b-c9f439b30e95</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/03-Crédit insuffisant/11-Crédit insuffisant - TELMA net 3 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -494,7 +494,7 @@
    <testCaseLink>
       <guid>20f3bf7d-14f0-4e95-b97e-31ff2508d7da</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/03-Crédit insuffisant/12-Crédit insuffisant - TELMA net 6 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -506,7 +506,7 @@
    <testCaseLink>
       <guid>3aae1935-c448-41ba-bd27-8697b22e149c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/03-Crédit insuffisant/13-Crédit insuffisant - TELMA net 9 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -518,7 +518,7 @@
    <testCaseLink>
       <guid>6c5b9ee1-ad62-495d-87e0-e8c097a879b9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/03-Crédit insuffisant/14-Crédit insuffisant - TELMA net 12 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -530,7 +530,7 @@
    <testCaseLink>
       <guid>5c126962-3f19-42af-bf1a-028dc2956044</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/05-Limite d achat offre/01-Limite d achat - TELMA net ONE NIGHT</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -548,7 +548,7 @@
    <testCaseLink>
       <guid>ed3d1e66-1f5f-4662-9071-8a51cc06b1fb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/01-Info conso - ONE NIGHT</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -560,7 +560,7 @@
    <testCaseLink>
       <guid>2174d0a6-3378-457d-bea7-b5143e460466</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/02-Info conso - ONE DAY</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -572,7 +572,7 @@
    <testCaseLink>
       <guid>07f7012e-0b20-460f-9998-eb357f786510</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/03-Info conso - ONE WEEK 250 Mo</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -584,7 +584,7 @@
    <testCaseLink>
       <guid>d33e95de-137d-4e81-96b4-64494c9c68ce</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/04-Info conso - ONE WEEK 500 Mo</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -596,7 +596,7 @@
    <testCaseLink>
       <guid>cc55ab41-dd90-43bd-8460-a6b49ff65e3f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/05-Info conso - ONE WEEK 1,5Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -608,7 +608,7 @@
    <testCaseLink>
       <guid>0ce342b9-c6c0-4c9c-98c3-74cf0a1bd068</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/06-Info conso - ONE MONTH 1,5Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -620,7 +620,7 @@
    <testCaseLink>
       <guid>d7c90dd2-c103-4563-a423-516be4da868c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/07-Info conso - ONE MONTH 3Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -632,7 +632,7 @@
    <testCaseLink>
       <guid>d14d10d4-20e6-496c-9bcd-44ce4ecf01c7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/08-Info conso - ONE MONTH 10Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -644,7 +644,7 @@
    <testCaseLink>
       <guid>94197cb5-6af6-486e-af9c-a446f8126158</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/09-Info conso - ONE MONTH 20Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -656,7 +656,7 @@
    <testCaseLink>
       <guid>f715ab10-b380-4236-a646-a8b71f22876b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/10-Info conso - ONE MONTH 100Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -668,7 +668,7 @@
    <testCaseLink>
       <guid>665ae8bd-67cd-4ca5-9396-8748ba31ab54</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/11-Info conso - NET 3 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -680,7 +680,7 @@
    <testCaseLink>
       <guid>6d4d142b-3a92-414e-a8c5-35d70cb2a334</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/12-Info conso - NET 6 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -692,7 +692,7 @@
    <testCaseLink>
       <guid>824a9700-73be-42b1-82bd-c28078f630bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/13-Info conso - NET 9 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -704,7 +704,7 @@
    <testCaseLink>
       <guid>5612b825-9840-4fc4-9902-974e90154c3d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/14-Info conso - NET 12 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -716,7 +716,7 @@
    <testCaseLink>
       <guid>e4a1b52e-5d98-4283-92ff-1c2697b43dc7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/06-Désactiver Renouvellement TELMA NET (359)/01-Désactiver Renouvellement TELMA net 3MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -728,7 +728,7 @@
    <testCaseLink>
       <guid>5bbfbfe4-4175-410a-aec3-cb016189cb1a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/06-Désactiver Renouvellement TELMA NET (359)/02-Désactiver Renouvellement TELMA net 6MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -740,7 +740,7 @@
    <testCaseLink>
       <guid>ef79d030-3617-4c02-85f7-752f7d50aa95</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/06-Désactiver Renouvellement TELMA NET (359)/03-Désactiver Renouvellement TELMA net 9MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -752,7 +752,7 @@
    <testCaseLink>
       <guid>8dae2949-fca6-471b-ab5f-058017d22861</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/06-Désactiver Renouvellement TELMA NET (359)/04-Désactiver Renouvellement TELMA net 12MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -764,7 +764,7 @@
    <testCaseLink>
       <guid>8c7569bb-0dfe-4bc6-a9e2-be3aec9e84f5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/07-Reactiver Renouvellement Offre TELMA NET (359)/01-Activer Renouvellement TELMA net 3MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -776,7 +776,7 @@
    <testCaseLink>
       <guid>7c79d7cc-76a8-4eb6-b151-941298a4fc53</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/07-Reactiver Renouvellement Offre TELMA NET (359)/02-Activer Renouvellement TELMA net 6MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -788,7 +788,7 @@
    <testCaseLink>
       <guid>cbaed6e6-e911-474d-b6f2-ec7e0e2fc530</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/07-Reactiver Renouvellement Offre TELMA NET (359)/03-Activer Renouvellement TELMA net 9 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -800,7 +800,7 @@
    <testCaseLink>
       <guid>4d1b1dfa-b1d6-4bbe-a7b3-b8a00c7d1fad</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/07-Reactiver Renouvellement Offre TELMA NET (359)/04-Activer Renouvellement TELMA net 12 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -812,7 +812,7 @@
    <testCaseLink>
       <guid>303f642f-cae2-478a-8939-ebc027a65df3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Called Test Case/Changer de langue</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

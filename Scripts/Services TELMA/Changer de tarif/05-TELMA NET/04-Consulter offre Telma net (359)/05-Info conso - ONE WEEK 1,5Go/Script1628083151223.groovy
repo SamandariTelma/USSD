@@ -32,8 +32,8 @@ String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE WEEK 1,5Go', a
 actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('NET ONE WEEK 1\\,5Go\n1 Info conso\n00 Page precedente',
-	'NET ONE WEEK 1\\,5Go\n1 Info conso\n00 Pejy aloha')
+String menu=CustomKeywords.'ussd.Expected.menu'('NET ONE WEEK 1,5Go\n1 Info conso\n00 Page precedente',
+	'NET ONE WEEK 1,5Go\n1 Info conso\n00 Pejy aloha')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -41,7 +41,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('NET ONE WEEK 1\\,5 Go, il vous reste \\d{1,5}\\.\\d Mo utilisable à toute heure jusqu au '+dateExpiration+' inclus\\.',
-	'NET ONE WEEK 1\\,5 Go \\d{1,5}\\.\\d Mo sisa ny bonus\\-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('NET ONE WEEK 1,5 Go, il vous reste 1536\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
+	'NET ONE WEEK 1,5 Go, 1536\\.0  Mo sisa ny bonus\\-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
