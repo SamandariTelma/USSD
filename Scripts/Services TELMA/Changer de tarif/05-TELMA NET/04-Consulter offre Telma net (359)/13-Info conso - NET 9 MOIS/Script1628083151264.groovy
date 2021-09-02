@@ -32,8 +32,8 @@ String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET 9 MOIS', actualMen
 actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('NET 9 MOIS\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente',
-	'NET 9 MOIS\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha')
+String menu=CustomKeywords.'ussd.Expected.menu'('NET 9 MOIS\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente\n\\*\\* Menu principal',
+	'NET 9 MOIS\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha\n\\*\\* main')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -41,7 +41,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('NET 9 MOIS, vous beneficiez de 250 Mo par mois pendant 9 mois, il vous reste \\d{1,7}\\.\\d Mo utilisable jusqu au '+dateExpiration+' inclus\\.',
-	'NET 9 MOIS mahazo 250 Mo isambolana ianao mandritra ny 9 volana\\. \\d{1,7}\\.\\d Mo  sisa ny bonus\\-nao azo ampiasaina hatramin ny '+dateExpiration+'\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('NET 9 MOIS, vous beneficiez de 250 Mo par mois pendant 9 mois, il vous reste 250\\.0 Mo utilisable jusqu au '+dateExpiration+' inclus\\.',
+	'NET 9 MOIS mahazo 250 Mo isambolana ianao mandritra ny 9 volana\\. 250\\.0 Mo sisa ny bonus-nao azo ampiasaina hatramin ny '+dateExpiration+'\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

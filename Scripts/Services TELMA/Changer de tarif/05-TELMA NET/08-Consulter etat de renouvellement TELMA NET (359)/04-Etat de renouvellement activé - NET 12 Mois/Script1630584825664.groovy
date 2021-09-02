@@ -17,31 +17,27 @@ import internal.GlobalVariable as GlobalVariable
 
 
 String numeroInitiateur="${numeroInitiateur}"
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
 
-'Après achat Offre TELMA NET ONE MONTH 3Go avec succès , je consulte mon solde en saisissant #359#'
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(359,'dd/MM/yyy')
+
+
+'Après achat Offre NET 12 MOIS avec succès , je consulte mon solde en saisissant #359#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
 
 'Je saisis 1 (Mes offres) et valide'
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier si l\'offre apparait dans la liste offre'
-String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE MONTH 3Go', actualMenu)
+String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET 12 MOIS', actualMenu)
 
-'Je saisis le rang du menu NET ONE MONTH 3Go et valide'
-actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
+'Je saisis le rang du menu NET 12 MOIS et valide'
+CustomKeywords.'ussd.Send.response'(rangMenu)
 
-'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 3Go\n1 Info conso\n00 Page precedente',
-	'NET ONE MONTH 3Go\n1 Info conso\n00 Pejy aloha')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 1 (Info conso) à nouveau et valide'
-actualMenu=CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 2 (Renouvellement automatique)et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 3 Go, il vous reste 3072\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
-	'NET ONE MONTH 3 Go, 3072\\.0 Mo sisa ny bonus-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('1 Votre offre NET 12 MOIS sera automatiquement renouvelee le '+dateExpiration+' a minuit\\. Pour desactiver le renouvellement tapez 1',
+	'1 Ny tolotra NET 12 MOIS dia hohavaozina ny '+dateExpiration+' @ misasak\'alina\\. Raha hanafoana io fanavaozana io, tsindrio 1')
 
 WS.verifyMatch(actualMenu, menu, true)

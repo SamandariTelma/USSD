@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>08-Etat de renouvellement desactivé - NET 12 Mois</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>516fcaef-5e97-4b81-bae1-8e0057a5e3f7</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>ee66eefd-f30a-4b10-b4aa-8c4c3d57e26e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

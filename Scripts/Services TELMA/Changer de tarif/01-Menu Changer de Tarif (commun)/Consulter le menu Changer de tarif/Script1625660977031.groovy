@@ -24,7 +24,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA, numeroInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('4')
 
 'Vérifier l\'apparition du menu Changer de tarif'
-String menu=CustomKeywords.'ussd.Expected.menu'('^.*Changer de tarif.*$','^.*Hanova tolotra.*$')
+String menu=CustomKeywords.'ussd.Expected.menu'('^.*Acheter une offre.*$','^.*Hividy tolotra.*$')
 
 WS.verifyMatch(actualMenu, menu, true)
 

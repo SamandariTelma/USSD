@@ -6,7 +6,8 @@
       "keywordMethods": [
         {
           "name": "randomizeNumber",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "nextDate",
@@ -24,7 +25,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "nextDate",
@@ -55,11 +57,13 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "getLastDayOfMonth",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "rechercheMenu",
@@ -90,7 +94,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "to034",
@@ -108,7 +113,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "to261",
@@ -126,7 +132,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "separateThousand",
@@ -144,10 +151,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

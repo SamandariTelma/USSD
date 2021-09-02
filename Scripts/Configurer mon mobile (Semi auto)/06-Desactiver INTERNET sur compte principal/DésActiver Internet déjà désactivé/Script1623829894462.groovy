@@ -27,7 +27,7 @@ CustomKeywords.'ussd.Send.response'('2')
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('L usage de la DATA sur votre compte principal est deja desactive\\. Pour l activer tapez le \\*130\\*9#',
-	'Tsy mandeha ny fampiasanao internet @ compte pricnipal\\-nao\\. Raha hamerina izany ianao, tsindrio ny \\*130\\*9#')
+String menu=CustomKeywords.'ussd.Expected.menu'('L usage de la DATA sur votre compte principal est deja desactive\\. Pour l activer tapez le #322\\*1#',
+	'Tsy mandeha ny fampiasanao internet @ compte pricnipal\\-nao\\. Raha hamerina izany ianao, tsindrio ny #322\\*1#')
 
 WS.verifyMatch(actualMenu, menu, true)

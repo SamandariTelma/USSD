@@ -19,10 +19,15 @@ String numeroInitiateur = "$numeroInitiateur"
 
 String pinNumeroInitiateur = "$pinNumeroInitiateur"
 
+'2 ème tentative ok'
 WebUI.callTestCase(findTestCase('Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP TelmaEtMoi/Generer OTP T M - Succès'), 
-    [('numeroInitiateur') : numeroInitiateur, ('pinNumeroInitiateur') : pinNumeroInitiateur], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+    [('numeroInitiateur') : numeroInitiateur, ('pinNumeroInitiateur') : pinNumeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
 
+'3  ème tentative ok'
+WebUI.callTestCase(findTestCase('Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP TelmaEtMoi/Generer OTP T M - Succès'), 
+    [('numeroInitiateur') : numeroInitiateur, ('pinNumeroInitiateur') : pinNumeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
+
+'4 ème tentative'
 'Je shortcode *130*9#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Etat de renouvellement activé - NET 6 Mois</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>533b8eec-a4dd-4f74-891d-abfd78decbfe</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>501c5ca6-c833-4a0c-96fc-01ce9e5a2dcb</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

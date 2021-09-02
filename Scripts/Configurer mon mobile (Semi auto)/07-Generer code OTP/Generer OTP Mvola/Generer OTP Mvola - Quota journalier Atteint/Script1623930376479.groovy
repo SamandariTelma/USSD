@@ -15,14 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroInitiateur = "${numeroInitiateur}"
+String numeroInitiateur = "$numeroInitiateur"
 
-String pinNumeroInitiateur = "${pinNumeroInitiateur}"
+String pinNumeroInitiateur = "$pinNumeroInitiateur"
 
+'2ème tentative ok'
 WebUI.callTestCase(findTestCase('Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP Mvola/Generer OTP Mvola - Succès'), 
-    [('numeroInitiateur') : numeroInitiateur, ('pinNumeroInitiateur') : pinNumeroInitiateur], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+    [('numeroInitiateur') : numeroInitiateur, ('pinNumeroInitiateur') : pinNumeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
 
+'3ème tentative ok'
+WebUI.callTestCase(findTestCase('Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP Mvola/Generer OTP Mvola - Succès'), 
+    [('numeroInitiateur') : numeroInitiateur, ('pinNumeroInitiateur') : pinNumeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
+
+'4ème tentative'
 'Je shortcode *130*9#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 

@@ -15,12 +15,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+
 String numeroInitiateur="${numeroInitiateur}"
 
-'Je desactive mon offre TELMA net 3MOIS en saississant le shortcode #359*81*2#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'*81*2#', numeroInitiateur)
+'je short code #359#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
+
+'Je saisis 1 (Mes offres) et valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'('1')
+
+'Vérifier si l\'offre apparait dans la liste offre'
+String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET 3 MOIS', actualMenu)
+
+'Je saisis le rang du menu NET 3 MOIS et valide'
+CustomKeywords.'ussd.Send.response'(rangMenu)
+
+'Je saisis 2 (Etat du renouvellement automatique)et valide'
+CustomKeywords.'ussd.Send.response'('2')
+
+'Je saisis 1 pour desactiver le renouvellement automatique et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez desactive avec succes le renouvellement automatique de l offre FIRST PREMIUM, Pour le reactiver, tapez #359\\*91\\*1#')
+String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez desactive avec succes le renouvellement automatique de l offre NET 3 MOIS\\. Pour le reactiver, tapez #359\\*81\\*1#')
 
 WS.verifyMatch(actualMenu, menu, true)

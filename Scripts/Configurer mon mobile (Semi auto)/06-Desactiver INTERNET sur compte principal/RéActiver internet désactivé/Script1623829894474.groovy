@@ -27,7 +27,7 @@ CustomKeywords.'ussd.Send.response'('1')
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez reactive l usage internet sur votre compte principal\\. Pour connaitre votre solde tapez le #357#\\. TELMA N1 de  l internet a M/car',
+menu=CustomKeywords.'ussd.Expected.menu'('Vous avez reactive l usage internet sur votre compte principal\\. Pour connaitre votre solde tapez le #357#\\. TELMA N1 de  l internet a M/car',
 	'Niverina ny fampiasanao ny internet @ compte principal\\-nao\\. Raha te ahafantatra ny ambiny credit ianao, tsindrio ny #357#\\. TELMA N1 ny internet eto M/kara\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

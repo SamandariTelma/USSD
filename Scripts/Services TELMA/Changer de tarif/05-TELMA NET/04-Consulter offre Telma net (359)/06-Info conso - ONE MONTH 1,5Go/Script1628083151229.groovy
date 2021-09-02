@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 
 String numeroInitiateur="${numeroInitiateur}"
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(30,'dd/MM/yyy')
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
 GlobalVariable.dateExp=dateExpiration
 
 'Après achat Offre TELMA NET ONE MONTH 1,5Go avec succès , je consulte mon solde en saisissant #359#'
@@ -42,7 +42,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 1\\,5 Go, il vous reste \\d{1,5}\\.\\d Mo utilisable à toute heure jusqu au '+dateExpiration+' inclus\\.',
-	'NET ONE MONTH 1\\,5 Go \\d{1,5}\\.\\d Mo sisa ny bonus\\-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 1,5 Go, il vous reste 1536\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
+	'NET ONE MONTH 1,5 Go, 1536.0  Mo sisa ny bonus-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

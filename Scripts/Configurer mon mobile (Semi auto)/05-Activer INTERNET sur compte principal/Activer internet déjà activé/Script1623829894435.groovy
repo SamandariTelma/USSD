@@ -38,6 +38,6 @@ actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
 menu=CustomKeywords.'ussd.Expected.menu'('L usage de la DATA sur votre compte principal est deja active',
-	'Efa mandeha ny fampiasanao internet @ compte\\-principal\\-nao')
+	'Efa mandeha ny fampiasanao internet @ compte principal\\-nao\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

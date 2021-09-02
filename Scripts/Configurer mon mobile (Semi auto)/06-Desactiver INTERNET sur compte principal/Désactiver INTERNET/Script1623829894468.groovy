@@ -32,7 +32,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('L usage internet sur votre compte principal a été désactivé\\. Achetez une offre pour profiter de l\'internet ou tapez \\*130\\*9\\*4# pour l activer a tout moment\\.',
-	'Tontosa ny fanafoanana ny fampiasana internet @ compte principal\\-nao\\. Mividiana tolotra raha hampiasa ny internet na tsindrio ny \\*130\\*9\\*4# hamerenana izany')
+menu=CustomKeywords.'ussd.Expected.menu'('L usage internet sur votre compte principal a été désactivé\\. Achetez une offre pour profiter de l\'internet ou tapez #322\\*1# pour l activer a tout moment\\.',
+	'Tontosa ny fanafoanana ny fampiasana internet @ compte principal\\-nao\\. Mividiana tolotra raha hampiasa ny internet na tsindrio ny #322\\*1# hamerenana izany')
 
 WS.verifyMatch(actualMenu, menu, true)
