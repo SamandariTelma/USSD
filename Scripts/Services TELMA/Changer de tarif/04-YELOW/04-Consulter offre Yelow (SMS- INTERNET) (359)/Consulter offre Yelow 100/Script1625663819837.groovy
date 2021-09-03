@@ -17,40 +17,22 @@ import internal.GlobalVariable as GlobalVariable
 
 
 String numeroInitiateur="${numeroInitiateur}"
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(6,'dd/MM/yyy')
 
-String regexDate='(((0[1-9]|[12][0-9]|30)[-\\/]?(0[13-9]|1[012])|31[-\\/]?(0[13578]|1[02])|(0[1-9]|1[0-9]|2[0-8])[-\\/]?02)[-\\/]?[0-9]{4}|29[-\\/]?02[-\\/]?([0-9]{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0[0-9]|1[0-6])00))'
-String regexSolde='\\d+( \\d{3})*(\\.\\d+)?'
-String menuYelow100
-
-
-'Après achat Offre Yelow 100 avec succès , je consulte mon solde en saisissant #359#'
+'Après achat Offre YELOW 100 avec succès , je consulte mon solde en saisissant #359#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
-
-'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre crédit est de '+regexSolde+' Ar valable jusqu au '+regexDate+'\\.\n1 Mes offres.*$',
-	'Ny credit\\-nao dia '+regexSolde+' Ar azonao ampiasaina h@ '+regexDate+'\n1 Mes offres.*$')
-
-WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis 1 (Mes offres) et valide'
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
-'Vérifier la conformité du menu'
-menu=CustomKeywords.'ussd.Expected.menu'('^.*Mes offres:\n1.*$')
+'Vérifier si l\'offre apparait dans la liste offre'
+String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('YELOW100', actualMenu)
 
-WS.verifyMatch(actualMenu, menu, true)
-
-menu=CustomKeywords.'ussd.Expected.menu'('^.*YELOW100.*$')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis le rang du menu YELOW100 et valide'
-menuYelow100=actualMenu.substring(actualMenu.lastIndexOf('YELOW100')-2,actualMenu.lastIndexOf('YELOW100')-1)
-println("tets: "+menuYelow100)
-actualMenu=CustomKeywords.'ussd.Send.response'(menuYelow100)
+'Je saisis le rang du menu YELOW 100 et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('YELOW100\n1 Info conso\n00 Page precedente',
+String menu=CustomKeywords.'ussd.Expected.menu'('YELOW100\n1 Info conso\n00 Page precedente',
 	'YELOW100\n1 Info conso\n00 Pejy aloha')
 
 WS.verifyMatch(actualMenu, menu, true)
@@ -59,8 +41,8 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('YELOW 100, il vous reste \\d{1,3}\\.\\d SMS et/ou \\d{1,3}\\.\\d Mo utilisable a toute heure\\.',
-	'YELOW 100, \\d{1,3}\\.\\d  SMS sy/na \\d{1,3}\\.\\d  Mo sisa ny bonus\\-nao azo ampiasaina @ ora rehetra\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('YELOW 100, il vous reste 20\\.0 SMS et/ou 20\\.0 Mo utilisable a toute heure\\.',
+	'YELOW 100, 20\\.0 SMS sy/na 20\\.0 Mo sisa ny bonus-nao azo ampiasaina @ ora rehetra\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
