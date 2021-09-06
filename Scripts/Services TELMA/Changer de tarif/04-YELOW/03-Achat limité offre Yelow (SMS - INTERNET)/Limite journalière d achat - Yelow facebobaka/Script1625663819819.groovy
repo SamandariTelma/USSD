@@ -24,7 +24,6 @@ WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/04-YELOW/02-Ach
     [('numeroInitiateur') : numeroInitiateur, ('montantYelowFacebobaka') : '500'], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Achat Yelow SMS 3eme tentative'
-
 'Je shortcode #111*4*6#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 

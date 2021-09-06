@@ -260,7 +260,7 @@
    <testCaseLink>
       <guid>a14be64d-eedf-457a-a286-dfa4af5547a2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/05-Consulter offre FIRST (359)/05-Info conso - CLASSIQUE</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -272,7 +272,7 @@
    <testCaseLink>
       <guid>8b16dfe7-70e8-4e37-8238-1f2c47c0c709</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/05-Consulter offre FIRST (359)/04-Info conso - ROYAL</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -284,7 +284,7 @@
    <testCaseLink>
       <guid>4b1e07ad-f256-4eaf-8317-6510d7a3446e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/05-Consulter offre FIRST (359)/03-Info conso - PRESTIGE</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -296,7 +296,7 @@
    <testCaseLink>
       <guid>703ebb81-899d-4894-87c3-162f4534f60c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/05-Consulter offre FIRST (359)/02-Info conso - PREMIUM plus</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -308,7 +308,7 @@
    <testCaseLink>
       <guid>6f393ee8-a72d-418a-9a33-a7b768d10670</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/05-Consulter offre FIRST (359)/01-Info conso - PREMIUM</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -344,7 +344,7 @@
    <testCaseLink>
       <guid>74d31d05-a12e-4a90-8f33-543a64651422</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/08-Consulter etat de renouvellement Offre (359)/03-Etat de renouvellement activé - FIRST PRESTIGE</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -356,7 +356,7 @@
    <testCaseLink>
       <guid>6d79992c-cdc6-4ac6-b4d6-bf8ef4dc62d7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/08-Consulter etat de renouvellement Offre (359)/04-Etat de renouvellement activé - FIRST ROYAL</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -368,7 +368,7 @@
    <testCaseLink>
       <guid>0bbca1ab-303e-47c8-be06-d31cb80e1586</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/08-Consulter etat de renouvellement Offre (359)/05-Etat de renouvellement activé - FIRST CLASSIQUE</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

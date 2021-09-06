@@ -31,17 +31,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'261346849627'</initValue>
+      <initValue>'261346848017'</initValue>
       <name>msisdnInitiateur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'261343500078'</initValue>
+      <initValue>'261346848017'</initValue>
       <name>msisdnRecepteur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'261340119019'</initValue>
+      <initValue>'261346849627'</initValue>
       <name>msisdnNonEligible</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
