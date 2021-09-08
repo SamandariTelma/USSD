@@ -182,7 +182,7 @@
    <testCaseLink>
       <guid>f764df4e-917d-4e9f-a869-ca9ef1439b90</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/03-Crédit insuffisant/06-Credit insuffisant - YELOW FACEBOBAKA plus</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -194,7 +194,7 @@
    <testCaseLink>
       <guid>30616f70-c984-497d-8bff-73e8cd78cc37</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/03-Crédit insuffisant/05-Credit insuffisant - YELOW 200</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -206,7 +206,7 @@
    <testCaseLink>
       <guid>0efe9ffc-4c44-4f91-8a40-e932d52d5c48</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/03-Crédit insuffisant/04-Credit insuffisant - YELOW 1000</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -218,7 +218,7 @@
    <testCaseLink>
       <guid>5e56bc8b-1dab-43be-a0c6-214dc3c585f8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/03-Crédit insuffisant/03-Credit insuffisant - YELOW FACEBOBAKA</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -230,7 +230,7 @@
    <testCaseLink>
       <guid>559422ff-3544-45bb-a471-e9bd088954e4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/03-Crédit insuffisant/02-Credit insuffisant - YELOW SMS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -242,7 +242,7 @@
    <testCaseLink>
       <guid>e5154de5-b417-405b-bf45-510bb0474b56</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/03-Crédit insuffisant/01-Credit insuffisant - YELOW 100</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -254,7 +254,7 @@
    <testCaseLink>
       <guid>ca976993-7517-4b0b-ac01-7623af2f96af</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/04-Annulation Promotion/06-Annuler achat promotion - YELOW FACEBOBAKA plus</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -266,7 +266,7 @@
    <testCaseLink>
       <guid>24c5992f-6287-4e95-9a75-f0eed5543285</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/04-Annulation Promotion/05-Annuler achat promotion - YELOW 200</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -278,7 +278,7 @@
    <testCaseLink>
       <guid>db3db0e1-d634-434a-8c34-564deb487f93</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/04-Annulation Promotion/04-Annuler achat promotion - YELOW 1000</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -290,7 +290,7 @@
    <testCaseLink>
       <guid>dbccdc6a-d2ea-4340-baad-c491344d9bce</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/04-Annulation Promotion/03-Annuler achat promotion - YELOW FACEBOBAKA</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -302,7 +302,7 @@
    <testCaseLink>
       <guid>0c5dac6b-5809-4530-ad8f-904e55187c7a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/04-Annulation Promotion/02-Annuler achat promotion - YELOW SMS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -314,7 +314,7 @@
    <testCaseLink>
       <guid>c5d60f71-55d1-4e5c-b1e1-36717821ffc3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/04-Annulation Promotion/01-Annuler achat promotion - YELOW 100</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

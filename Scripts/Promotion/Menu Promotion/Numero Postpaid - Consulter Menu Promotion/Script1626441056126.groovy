@@ -24,6 +24,6 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA, numeroInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('5')
 
 'Je vérifie la conformité du menu promotion'
-String menu=CustomKeywords.'ussd.Expected.menu'('Mpanjifa postpaye Telma Mobile ka tsy afaka mampiasa io servisy io.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Vous n\'avez pas accès à ce service\\.\\.')//Mpanjifa postpaye Telma Mobile ka tsy afaka mampiasa io servisy io.
 
 WS.verifyMatch(actualMenu, menu, true)
