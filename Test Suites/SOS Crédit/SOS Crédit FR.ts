@@ -84,30 +84,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8060a3a1-72ba-4b82-9b83-fe9d922f8c71</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SOS Credit/02-Demander SOS Crédit à TELMA/SOS crédit après Remboursement du crédit</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f3aa698c-5ff4-42a7-acde-f0705c1e4c2c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c7c4943e-12c2-4235-be1e-d30e0a8fe9fb</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>28f660ad-0092-4499-a5ef-db0cda0b5003</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>fee5e616-da38-4442-8f3a-7aa20a6e7841</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -399,6 +375,30 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>c1464d51-7c2b-46d9-b9c7-266f9c2c1dc6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8060a3a1-72ba-4b82-9b83-fe9d922f8c71</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SOS Credit/02-Demander SOS Crédit à TELMA/SOS crédit après Remboursement du crédit</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f3aa698c-5ff4-42a7-acde-f0705c1e4c2c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c7c4943e-12c2-4235-be1e-d30e0a8fe9fb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>28f660ad-0092-4499-a5ef-db0cda0b5003</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

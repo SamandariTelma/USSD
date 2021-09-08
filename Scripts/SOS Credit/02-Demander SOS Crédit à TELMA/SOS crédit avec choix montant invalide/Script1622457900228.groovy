@@ -22,19 +22,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#', numeroInitiateur
 'Choisi un montant en dehors de 1 à 6'
 String actualMenu=CustomKeywords.'ussd.Send.response'('10')
 
-String menu=CustomKeywords.'ussd.Expected.menu'('^Repondez par 1 svp ou Annulez$')
-
-'Vérifier la conformité du prompt'
-WS.verifyMatch(actualMenu, menu, true)
-
-'Saisir encore un chiffre en dehors de "1-6" 3fois succéssive'
-CustomKeywords.'ussd.Send.response'('10')
-
-CustomKeywords.'ussd.Send.response'('10')
-
-actualMenu=CustomKeywords.'ussd.Send.response'('10')
-
-menu=CustomKeywords.'ussd.Expected.menu'('^Le nombre d\'essai maximum est atteint\\.$', '^Mihaotra ny fanandramana azo ekena\\.$')
+String menu=CustomKeywords.'ussd.Expected.menu'('Selectionner le montant du credit:\n1 200\n2 500\n3 1000\n4 2000\n5 5000\n6 10000')
 
 'Vérifier la conformité du prompt'
 WS.verifyMatch(actualMenu, menu, true)

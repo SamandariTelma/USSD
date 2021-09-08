@@ -9,37 +9,20 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String pinMsisdnInitiateur="${pinMsisdnInitiateur}"
+'En tant que client TELMA je me rends sur le menu SOS Offre à TELMA en composant le short code #111# > 3 > 3'
+String actualMenu= CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*3#', numeroInitiateur)
 
-'Je shortcode *130*9#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
-
-'Je saisis 5 ( Generer le code OTP)'
-CustomKeywords.'ussd.Send.response'('5')
-
-'Je saisis 1 (OTP T&M)'
-CustomKeywords.'ussd.Send.response'('1')
-
-'Je saisis correctement mon Pin et je valide '
-String actualMenu=CustomKeywords.'ussd.Send.response'(pinMsisdnInitiateur)
-
-'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Application deja installee sur un autre appareil\\. Une seule application active autorisee par SIM\\. Tapez 1 pour continuer sinon ignorer:')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 1 (Continuer)'
-actualMenu=CustomKeywords.'ussd.Expected.menu'('1')
-
-'Vérifier la congormité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Vous allez recevoir un OTP par SMS\\.')
+'Vérifier la conformité du menu'
+String menu= CustomKeywords.'ussd.Expected.menu'("Sos Offre\n1 MORA \\(VOIX \\- SMS \\- INTERNET\\)\n2 FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n3 YELOW \\(SMS \\- INTERNET\\)\n4 TELMA Net \\(INTERNET\\)")
 
 WS.verifyMatch(actualMenu, menu, true)

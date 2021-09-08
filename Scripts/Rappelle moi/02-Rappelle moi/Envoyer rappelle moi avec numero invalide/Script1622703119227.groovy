@@ -21,7 +21,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', GlobalVariable.m
 
 'Je saisis un numéro non telma et je valide'
 
-String actualMenu=CustomKeywords.'ussd.Send.response'('03257854004548484')//0325785400
+String actualMenu=CustomKeywords.'ussd.Send.response'('0325785400')//0325785400
 
 String menu=CustomKeywords.'ussd.Expected.menu'('Verifiez le numero de telephone SVP\\.', 'Hamarino ny nomerao azafady\\.')
 
