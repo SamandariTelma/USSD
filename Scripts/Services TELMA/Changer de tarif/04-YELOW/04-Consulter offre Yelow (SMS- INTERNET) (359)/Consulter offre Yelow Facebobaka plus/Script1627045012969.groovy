@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(14,'dd/MM/yyy')
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(14,'dd/MM/yyy HH:mm')
 
 'Après achat Offre FACEBOOBAKA + avec succès , je consulte mon solde en saisissant #359#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)

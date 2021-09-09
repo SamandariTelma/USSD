@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy')
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy HH:mm')
 
 'Après achat Offre Yelow 200 avec succès , je consulte mon solde en saisissant #359#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
@@ -47,3 +47,4 @@ menu=CustomKeywords.'ussd.Expected.menu'('Bonus YELOW 200 restants: 50 SMS Telma
 
 WS.verifyMatch(actualMenu, menu, true)
 
+println dateExpiration

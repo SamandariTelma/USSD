@@ -30,7 +30,7 @@ String actualMenu = CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'('Desole, vous avez utilise toutes vos demandes pour aujourd\'hui\\. Vous pourrez envoyer 1 demande\\(s\\) demain\\.', 
-    'Tapitra ny fahafahanao mampiasa io tolotra io androany\\. Rahampitso indray ianao afaka mividy 1\\.')
+    'Tapitra ny fahafahanao mampiasa io tolotra io androany\\. Rahampitso indray ianao afaka mividy  1\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
