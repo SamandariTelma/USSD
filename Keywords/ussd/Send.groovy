@@ -31,7 +31,7 @@ public class Send {
 
 		GlobalVariable.msisdn = msisdn
 
-		GlobalVariable.sessionId =Util.randomizeNumber()
+		GlobalVariable.sessionId = Util.randomizeNumber()
 
 		def response=WS.sendRequest(findTestObject('AdaptIT first menu request'))
 

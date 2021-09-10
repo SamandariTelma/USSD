@@ -19,6 +19,10 @@ String numeroInitiateur = "${numeroInitiateur}"
 
 String montantYelowFacebobaka = "${montantYelowFacebobaka}"
 
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(14,'dd/MM/yyy')
+
+String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(14,'HH:mm')
+
 'Consulter mon solde avant d\' effectuer un Yelow facebobaka +'
 WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
     FailureHandling.CONTINUE_ON_FAILURE)
@@ -39,6 +43,8 @@ String menu = CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW FACEBO
     'Tafiditra ny tolotra YELOW FACEBOOBAKA \\+ novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao  ary mahazoa hatrany Bonus kadoa 20%\\. Tsindrio ny #111\\*1#\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
+
+CustomKeywords.'outStream.XML.setDateBundle'("yelow faceboobaka", dateExpiration, heureExpiration)
 
 'Je vérifie que mon solde est déduit du montant de Yelow facebobaka +'
 WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 

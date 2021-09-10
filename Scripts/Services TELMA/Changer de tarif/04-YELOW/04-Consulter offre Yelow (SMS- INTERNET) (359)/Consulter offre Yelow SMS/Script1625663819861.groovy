@@ -18,7 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy HH:mm')
+String dateExpiration=CustomKeywords.'outStream.XML.getDateBundle'("yelow sms")
+String heureExpiration=CustomKeywords.'outStream.XML.getTimeBundle'("yelow sms")
 
 'Après achat Offre Yelow Sms avec succès , je consulte mon solde en saisissant #359#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
@@ -42,8 +43,8 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus YELOW SMS restants: 100 SMS Telma et 25 SMS autres opérateurs jusqu au '+dateExpiration+'\\.',
-	'Bonus YELOW SMS : 100 SMS Telma  \\+ 25 SMS mankany @ tambazotra hafa azo ampiasaina hatramin ny '+dateExpiration+'\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Bonus YELOW SMS restants: 100 SMS Telma et 25 SMS autres opérateurs jusqu au '+dateExpiration+' '+heureExpiration+'\\.',
+	'Bonus YELOW SMS : 100 SMS Telma  \\+ 25 SMS mankany @ tambazotra hafa azo ampiasaina hatramin ny '+dateExpiration+' '+heureExpiration+'\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

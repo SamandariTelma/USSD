@@ -18,7 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(3,'dd/MM/yyy HH:mm')
+String dateExpiration=CustomKeywords.'outStream.XML.getDateBundle'("yelow facebobaka")//String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(3,'dd/MM/yyy HH:mm')
+String heureExpiration=CustomKeywords.'outStream.XML.getTimeBundle'("yelow facebobaka")
 
 'Après achat Offre Yelow 100 avec succès , je consulte mon solde en saisissant #359#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
@@ -42,8 +43,8 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Vos bonus YELOW FACEBOBAKA restant : 1024\\.0 Mo utilisable toute la journee valable jusqu au '+dateExpiration+' inclus',
-	'Ny bonus YELOW FACEBOBAKA- nao: 1024\\.0 Mo ny tontolo andro ampiasaina  hatramin ny '+dateExpiration+'\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Vos bonus YELOW FACEBOBAKA restant : 1024\\.0 Mo utilisable toute la journee valable jusqu au '+dateExpiration+' '+heureExpiration+' inclus',
+	'Ny bonus YELOW FACEBOBAKA- nao: 1024\\.0 Mo ny tontolo andro ampiasaina  hatramin ny '+dateExpiration+' '+heureExpiration+'\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

@@ -19,6 +19,10 @@ String numeroInitiateur = "${numeroInitiateur}"
 
 String montantYelowSMS = "${montantYelowSMS}"
 
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy')
+
+String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'HH:mm')
+
 'Consulter mon solde avant d\' effectuer un Yelow sms'
 WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
     FailureHandling.CONTINUE_ON_FAILURE)
@@ -39,6 +43,8 @@ String menu = CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW SMS es
     'Tafiditra ny tolotra YELOW SMS novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao  ary mahazoa hatrany Bonus kadoa 20%\\. Tsindrio ny #111\\*1#\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
+
+CustomKeywords.'outStream.XML.setDateBundle'("yelow sms", dateExpiration, heureExpiration)
 
 'Je vérifie que mon solde est déduit du montant de Yelow sms'
 WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 

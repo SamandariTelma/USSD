@@ -1,14 +1,14 @@
 {
-  "keywordFileContentHash": "420B8C99692CF85D9C506BC8ACBC5184",
+  "keywordFileContentHash": "AB774FEA2FB0625529BD10F213829E24",
   "keywordClasses": [
     {
-      "name": "ussd.Send",
+      "name": "outStream.XML",
       "keywordMethods": [
         {
-          "name": "code",
+          "name": "setDateBundle",
           "parameters": [
             {
-              "name": "code",
+              "name": "bundle",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -21,7 +21,20 @@
               }
             },
             {
-              "name": "msisdn",
+              "name": "date",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "time",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -33,14 +46,13 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
-          "name": "response",
+          "name": "getDateBundle",
           "parameters": [
             {
-              "name": "response",
+              "name": "bundle",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -52,11 +64,28 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
+        },
+        {
+          "name": "getTimeBundle",
+          "parameters": [
+            {
+              "name": "bundle",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
