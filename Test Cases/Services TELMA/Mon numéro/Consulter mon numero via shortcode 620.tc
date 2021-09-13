@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter mon numero via shortcode 620</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5b21427-8387-49af-a4ba-d5b5725e3067</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>733f2a57-1669-45a7-85ca-14dc58a22ca1</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

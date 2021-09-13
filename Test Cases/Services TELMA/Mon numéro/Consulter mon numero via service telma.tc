@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter mon numero via service telma</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebf180bb-09f7-4da9-a278-86626ffd1b97</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>b5bc0b77-2542-4e2c-b72a-08941cf03e3f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
