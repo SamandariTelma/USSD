@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-Consulter mon numero via shortcode 620 -postpaid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b1c0fdb-b9e1-4021-9f6a-e5d3d4258fd7</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.numeroNonEligible</defaultValue>
+      <description></description>
+      <id>17ecb8a1-8c21-4894-af0e-b28ca3c8cbc0</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -19,20 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
 
-'En tant que client TELMA, je vais dans le menu service en composant #130*4#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA, GlobalVariable.msisdnInitiateur)
-
-CustomKeywords.'ussd.Send.response'('4')
-
-'Je saisis 7 (Mon numero)'
-String actualMenu=CustomKeywords.'ussd.Send.response'('7')
-
-'Je vérifie la conformité du message ussd'
+'En tant que client TELMA, je consulte mon numéro en saisissant le shortcode *620#'
+String actualMenu=CustomKeywords.'ussd.Send.code'("*620#", numeroInitiateur)
 
 numeroInitiateur=CustomKeywords.'ussd.Util.to034'(numeroInitiateur)
 
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre numero est le '+numeroInitiateur, 'Ny nomeraonao dia '+numeroInitiateur)
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre numero est '+numeroInitiateur)
 
 WS.verifyMatch(actualMenu, menu, true)
-
-

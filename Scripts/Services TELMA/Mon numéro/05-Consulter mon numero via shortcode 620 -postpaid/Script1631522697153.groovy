@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que client TELMA, je consulte mon numéro en saisissant le shortcode *620#'
-String actualMenu=CustomKeywords.'ussd.Send.code'("*620#", GlobalVariable.msisdnInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'("*620#", numeroInitiateur)
 
 numeroInitiateur=CustomKeywords.'ussd.Util.to034'(numeroInitiateur)
 

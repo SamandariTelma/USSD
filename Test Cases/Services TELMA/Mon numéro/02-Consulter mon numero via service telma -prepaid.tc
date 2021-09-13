@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Consulter menu mon numero</name>
+   <name>02-Consulter mon numero via service telma -prepaid</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e632aa23-e26a-424e-af3d-a5903fa3493d</testCaseGuid>
+   <testCaseGuid>ebf180bb-09f7-4da9-a278-86626ffd1b97</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>c3775c1c-99d9-4e83-8c45-60e5117eeca6</id>
+      <id>b5bc0b77-2542-4e2c-b72a-08941cf03e3f</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
