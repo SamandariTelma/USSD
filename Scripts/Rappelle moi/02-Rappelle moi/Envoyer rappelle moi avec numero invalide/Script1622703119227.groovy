@@ -43,16 +43,6 @@ WS.verifyMatch(actualMenu, menu, true)
 
 actualMenu=CustomKeywords.'ussd.Send.response'('03400blabla')
 
-menu=CustomKeywords.'ussd.Expected.menu'('Verifiez le numero de telephone SVP\\.', 'Hamarino ny nomerao azafady\\.')
-
-'Vérifier la conformité du prompt'
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis un numéro invalide pour la 4ème fois'
-
-actualMenu=CustomKeywords.'ussd.Send.response'('03400blabla')
-
 menu=CustomKeywords.'ussd.Expected.menu'('Le nombre d\'essai maximum est atteint\\.', 'Diso io laharana io, avereno ny fangatahanao miaraka amin\'ny laharana marina\\.')
 
 'Vérifier la conformité du prompt'
