@@ -31,7 +31,7 @@ println 'Solde avant recharge: '+soldeAvantRecharge
 'En tant que client TELMA, je vais dans le menu pour Recharger mon numéro en composant #130*4*2#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
-'Je saisis 1 (Recharger mon numero) et je valide '
+'Je saisis 1 (Recharger mon numero) et je valide'
 CustomKeywords.'ussd.Send.response'('1')
 
 'Je saisis correctement le code de recharge et je valide'
@@ -48,7 +48,8 @@ WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), 
 
 int soldeApresRecharge = GlobalVariable.soldeCredit
 
+int soldeExpected = soldeAvantRecharge + Integer.valueOf(montantRecharge)
 'Vérifier que le crédit rechargé est ajouté à mon solde'
 
-WS.verifyEqual(soldeApresRecharge, soldeAvantRecharge + montantRecharge)
+WS.verifyEqual(soldeApresRecharge, soldeExpected)
 

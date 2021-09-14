@@ -46,6 +46,8 @@ String actualMenu=CustomKeywords.'ussd.Send.response'(codeRecharge)
 String menu=CustomKeywords.'ussd.Expected.menu'('Vous venez de recharger le compte du '+numeroRecepteur+' de '+montantRecharge+' Ar\\.',
 	'Voafahana '+montantRecharge+' Ar ny kaontin\'ny '+numeroRecepteur+'\\.')
 
+WS.verifyMatch(actualMenu, menu, true)
+
 'Je consulte le solde crédit du numéro beneficiarie après avoir recharger son compte'
 WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
 	FailureHandling.CONTINUE_ON_FAILURE)
@@ -53,5 +55,6 @@ WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), 
 int soldeApresRecharge = GlobalVariable.soldeCredit
 
 'Vérifier que le crédit rechargé est ajouté au solde du numéro beneficiaire'
+int soldeExpected = soldeAvantRecharge + Integer.valueOf(montantRecharge)
 
-WS.verifyEqual(soldeApresRecharge, soldeAvantRecharge + montantRecharge)
+WS.verifyEqual(soldeApresRecharge, soldeExpected)

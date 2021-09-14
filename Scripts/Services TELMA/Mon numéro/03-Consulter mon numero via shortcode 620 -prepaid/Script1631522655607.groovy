@@ -24,6 +24,6 @@ String actualMenu=CustomKeywords.'ussd.Send.code'("*620#", numeroInitiateur)
 
 numeroInitiateur=CustomKeywords.'ussd.Util.to034'(numeroInitiateur)
 
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre numero est '+numeroInitiateur)
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre numero est '+numeroInitiateur,'Ny nomeraonao dia '+numeroInitiateur)
 
 WS.verifyMatch(actualMenu, menu, true)
