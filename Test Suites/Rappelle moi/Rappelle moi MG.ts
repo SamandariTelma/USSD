@@ -56,7 +56,7 @@
    <testCaseLink>
       <guid>c5ca7fc9-e8f2-4006-b407-995ba1c4e60d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Rappelle moi/03-Aide/Consulter Aide</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

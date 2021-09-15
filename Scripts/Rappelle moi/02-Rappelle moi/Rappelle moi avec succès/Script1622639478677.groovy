@@ -36,6 +36,6 @@ WS.verifyMatch(actualMenu, menu, true)
 'Je saisis un numéro valide et je valide'
 actualMenu=CustomKeywords.'ussd.Send.response'(msisdnRecepteur)
 
-menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de Rappelle-moi a ete envoyee','Lasa soa aman-tsara ny SMS nangatahinao\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de Rappelle-moi a ete envoyee','Tontosa ny fangatahana "Rappelle-moi" nataonao\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
