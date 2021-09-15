@@ -19,9 +19,9 @@ String msisdnInitiateur = GlobalVariable.msisdnRecepteur
 
 String msisdnRecepteur = GlobalVariable.msisdnInitiateur
 
-'Je fais un rappelle moi 5 fois succéssive'
+'Je fais un rappelle moi 5 fois succéssive'/*
 WebUI.callTestCase(findTestCase('Rappelle moi/02-Rappelle moi/Rappelle moi avec succès'), [('msisdnInitiateur') : msisdnInitiateur
-        , ('msisdnRecepteur') : msisdnRecepteur], FailureHandling.CONTINUE_ON_FAILURE)
+        , ('msisdnRecepteur') : msisdnRecepteur], FailureHandling.CONTINUE_ON_FAILURE)*/
 
 WebUI.callTestCase(findTestCase('Rappelle moi/02-Rappelle moi/Rappelle moi avec succès'), [('msisdnInitiateur') : msisdnInitiateur
         , ('msisdnRecepteur') : msisdnRecepteur], FailureHandling.CONTINUE_ON_FAILURE)
