@@ -35,7 +35,7 @@ CustomKeywords.'ussd.Send.response'(nomInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'(prenom)
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Merci de renseigner le numero de votre piece d\'identite:', 'Ampidiro ny laharan ny karapanondronao')
+String menu=CustomKeywords.'ussd.Expected.menu'('Merci de renseigner le numero de votre piece d\'identite :', 'Ampidiro ny laharan ny karapanondronao's)
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -43,7 +43,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'(cin)
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Pour confirmer l\'enregistrement du numero '+numeroInitiateurFormate+' au nom de '+nomInitiateur+' '+prenom+' '+cin+' merci de taper 1, sinon ignorez', 
+menu=CustomKeywords.'ussd.Expected.menu'('Pour confirmer l\'enregistrement du numero '+numeroInitiateurFormate+' au nom de '+nomInitiateur+'   '+cin+' merci de taper 1, sinon ignorez', 
 	'Mba ahafahanao manamafy hanamarinanao ny fanamarinana fisoratan ny laharana '+numeroInitiateurFormate+' amin ny anaran ny i '+nomInitiateur+' '+prenom+' '+cin+'  tsindrio ny 1, raha tsy izay, dingano')
 
 WS.verifyMatch(actualMenu, menu, true)
@@ -52,7 +52,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Votre identification s\'est déroulée avec succès\\. Afin de béneficier des services Mvola veuillez\\-vous rendre auprès d\'un revendeur Telma\\.',
-	'Voamarina soamantsara ny laharanao\\. Raha mila fanazavana fanampiny momba ny Mvola dia manatona mpaninjara Telma')
+menu=CustomKeywords.'ussd.Expected.menu'('Votre identification s\'est deroulee avec succès\\. Afin de beneficier des services Mvola veuillez\\-vous rendre auprès d\'un revendeur Telma\\.', 
+	'Voamarina soamantsara ny laharanao\\. Raha mila fanazavana fanampiny momba ny MVola dia manatona mpaninjara Telma\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

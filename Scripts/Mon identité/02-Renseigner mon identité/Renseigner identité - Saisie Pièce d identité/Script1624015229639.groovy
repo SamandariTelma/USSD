@@ -28,14 +28,19 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', numeroInitiateur
 CustomKeywords.'ussd.Send.response'(nomInitiateur)
 
 'Je saisis mon prénom et valide'
-CustomKeywords.'ussd.Send.response'(prenomInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.response'(prenomInitiateur)
+
+'Je vérifie la conformité du prompt'
+String menu = CustomKeywords.'ussd.Expected.menu'('Merci de renseigner le numero de votre piece d\'identite :', 'Ampidiro ny laharan ny karapanondronao')
+
+WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis un CIN avec plus de 30 caractères'
-String actualMenu=CustomKeywords.'ussd.Send.response'('1234567890123456789012345678901')
+actualMenu=CustomKeywords.'ussd.Send.response'('1234567890123456789012345678901')
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero de la piece d identite \\(1 a 30 caracteres\\)', 
-	'Hamarino ny laharan ny karapanondronao  \\(Tarehimarika 1 hatramin ny 30\\)')
+menu=CustomKeywords.'ussd.Expected.menu'('Verifier le  numero d\'identification svp ', 
+	'Hamarino ny laharan\'ny fanamarinana azafady ')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -43,8 +48,8 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1234567890123456789012345678901')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero de la piece d identite \\(1 a 30 caracteres\\)',
-	'Hamarino ny laharan ny karapanondronao  \\(Tarehimarika 1 hatramin ny 30\\)')
+menu=CustomKeywords.'ussd.Expected.menu'('Verifier le  numero d\'identification svp ',
+	'Hamarino ny laharan\'ny fanamarinana azafady ')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -52,8 +57,8 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1234567890123456789012345678901')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero de la piece d identite \\(1 a 30 caracteres\\)',
-	'Hamarino ny laharan ny karapanondronao  \\(Tarehimarika 1 hatramin ny 30\\)')
+menu=CustomKeywords.'ussd.Expected.menu'('Verifier le  numero d\'identification svp ',
+	'Hamarino ny laharan\'ny fanamarinana azafady ')
 
 WS.verifyMatch(actualMenu, menu, true)
 

@@ -21,7 +21,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Vous êtes déjà enregistré, vous pouvez composer le #111\\*8\\*2# pour consulter votre identité enregistrée', 
+String menu=CustomKeywords.'ussd.Expected.menu'('Vous etes deja enregistre, vous pouvez composer le #111\\*8\\*2# pour consulter votre identite enregistree', 
 	'Efa voamarina ny laharanao ka tsy afaka miditra amin\'io tolotra io ianao')
 
 WS.verifyMatch(actualMenu, menu, true)

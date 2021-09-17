@@ -18,13 +18,18 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que client TELMA, je vais dans le menu pour Mon identité en composant #111 > 8 > 1 et valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', numeroInitiateur)
-
-'Je saisis un nom avec plus de 30 caractères et valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('RAVELOMANANTSOASamandariSandySamandariSandy')
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', numeroInitiateur)
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le nom \\(1 a 30 caracteres\\)', 'Hamarino ny anarananao \\(tarehintsoratra 1 hatramin ny 30\\)\\.')
+String menu = CustomKeywords.'ussd.Expected.menu'('Afin de vous identifier, merci de renseigner votre NOM :', 'Mba ahafahana manamarina ny laharanao, ampidiro ny ANARANAO :')
+
+WS.verifyMatch(actualMenu, menu, true)
+
+'Je saisis un nom avec plus de 30 caractères et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('RAVELOMANANTSOASamandariSandySamandariSandy')
+
+'Vérifier la conformité du prompt'
+menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le nom \\(1 a 30 caracteres\\)', 'Hamarino ny anarananao \\(tarehintsoratra 1 hatramin ny 30\\)\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>09fcec62-cb5e-4436-a843-81d222720b44</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Mon numéro/04-Consulter mon numero via service telma -postpaid</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
