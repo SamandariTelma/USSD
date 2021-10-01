@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Numero postpaid - Consulter le menu Changer de tarif</name>
+   <name>01-Prompt de confirmation - YELOW 100</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>009dd61d-dd48-4106-bcdd-d2863f6c1d36</testCaseGuid>
+   <testCaseGuid>8a46ebcb-666a-40af-bf0c-c91e4934a875</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnNonEligible</defaultValue>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>8f5b7492-dafe-4886-886d-171d7c3b356f</id>
+      <id>ae859c49-1729-4114-806b-d53770bf5ea3</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Numero postpaid - Consulter le menu Changer de tarif</name>
+   <name>01-Prompt de confirmation - MORA NIGHT</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>009dd61d-dd48-4106-bcdd-d2863f6c1d36</testCaseGuid>
+   <testCaseGuid>90028290-f237-4213-a1b3-74255dfd8dd2</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnNonEligible</defaultValue>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>8f5b7492-dafe-4886-886d-171d7c3b356f</id>
+      <id>84d04873-54eb-4060-abb9-189dc661f692</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

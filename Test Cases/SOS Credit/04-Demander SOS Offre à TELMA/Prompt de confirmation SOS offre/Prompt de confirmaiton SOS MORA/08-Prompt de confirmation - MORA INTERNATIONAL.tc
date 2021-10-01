@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Numero postpaid - Consulter le menu Changer de tarif</name>
+   <name>08-Prompt de confirmation - MORA INTERNATIONAL</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>009dd61d-dd48-4106-bcdd-d2863f6c1d36</testCaseGuid>
+   <testCaseGuid>f8f48220-b401-44ae-afaa-8be36435c6de</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnNonEligible</defaultValue>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>8f5b7492-dafe-4886-886d-171d7c3b356f</id>
+      <id>ddc2a7ed-4398-4918-9896-656d93d6c0b2</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Numero postpaid - Consulter le menu Changer de tarif</name>
+   <name>07-Consulter menu SOS Offre - TELMA NET HEBDOMADAIRE</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>009dd61d-dd48-4106-bcdd-d2863f6c1d36</testCaseGuid>
+   <testCaseGuid>bfa03a5b-e13c-4501-80df-efc7a44aee30</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnNonEligible</defaultValue>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>8f5b7492-dafe-4886-886d-171d7c3b356f</id>
+      <id>bae21781-0699-4a37-8038-9a43609b541d</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

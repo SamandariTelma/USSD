@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Numero postpaid - Consulter le menu Changer de tarif</name>
+   <name>08 - Prompt de confirmation - NET 9 MOIS</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>009dd61d-dd48-4106-bcdd-d2863f6c1d36</testCaseGuid>
+   <testCaseGuid>16cb45d7-1bd4-4557-8295-e74bde8c3fb0</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnNonEligible</defaultValue>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>8f5b7492-dafe-4886-886d-171d7c3b356f</id>
+      <id>8409f366-164d-4e6e-8918-034a2009c979</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

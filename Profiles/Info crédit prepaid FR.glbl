@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Info crédit prepaid FR</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'*130#'</initValue>
+      <name>ShortCodeTELMA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'*130*4*1'</initValue>
+      <name>shortCode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'261346849627'</initValue>
+      <name>msisdnInitiateur</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'261348000079'</initValue>
+      <name>msisdnPostpaid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'fr'</initValue>
+      <name>langue</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

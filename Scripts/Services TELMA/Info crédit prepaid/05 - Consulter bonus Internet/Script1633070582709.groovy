@@ -18,26 +18,16 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
+String regexDate ='(0?[1-9]|[12][0-9]|3[01])[\\/\\-](0?[1-9]|1[012])[\\/\\-]\\d{4}'
 
-'En tant que client TELMA je me rends sur le menu SOS Offre à TELMA en composant le short code #111# > 3 > 3'
-String actualMenu= CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*3#', numeroInitiateur)
+'En tant que client TELMA, je vais dans le menu pour Info crédit en composant #130*4*1#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
 
-'Vérifier la conformité du menu'
-String menu= CustomKeywords.'ussd.Expected.menu'("Sos Offre\n1 MORA \\(VOIX \\- SMS \\- INTERNET\\)\n2 FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n3 YELOW \\(SMS \\- INTERNET\\)\n4 TELMA Net \\(INTERNET\\)")
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 1 pour l\'offre MORA'
-actualMenu= CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 2 (Info Conso Internet) et valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du menu'
-menu = CustomKeywords.'ussd.Expected.menu'('MORA \\(VOIX \\- SMS \\- INTERNET\\)\n1 MORA NIGHT\n2 MORA TEAM\n3 MORA 500\n4 MORA\\+ 2000\n5 MORA\\+ 5000\n6 FIRST CLASSIQUE\n7 MORA ONE\n8 MORA INTERNATIONAL')
+String menu=CustomKeywords.'ussd.Expected.menu'('Vous beneficiez de \\d{1,8} Mo de bonus internet valable jusqu\'au '+regexDate,
+	'Manana \\d{1,8} Mo bonus internet ianao manankery hatramin\'ny '+regexDate+'\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 3 (MORA 500)'
-actualMenu= CustomKeywords.'ussd.Send.response'('3')
-
-'Vérifier la conformité du prompt'
-menu = CustomKeywords.'ussd.Expected.menu'(actualMenu, 'Raha hanamarina ny fangatahana SOS @ TELMA, ny tolotra MORA 500, tsindrio ny 1')
-

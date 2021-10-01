@@ -18,26 +18,19 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
+String regexDate ='(0?[1-9]|[12][0-9]|3[01])[\\/\\-](0?[1-9]|1[012])[\\/\\-]\\d{4}'
 
-'En tant que client TELMA je me rends sur le menu SOS Offre à TELMA en composant le short code #111# > 3 > 3'
-String actualMenu= CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*3#', numeroInitiateur)
+'En tant que client TELMA, je vais dans le menu pour Info crédit en composant #130*4*1#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
-'Vérifier la conformité du menu'
-String menu= CustomKeywords.'ussd.Expected.menu'("Sos Offre\n1 MORA \\(VOIX \\- SMS \\- INTERNET\\)\n2 FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n3 YELOW \\(SMS \\- INTERNET\\)\n4 TELMA Net \\(INTERNET\\)")
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 1 pour l\'offre MORA'
-actualMenu= CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 1 (Info credit prepaye) et valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
-menu = CustomKeywords.'ussd.Expected.menu'('MORA \\(VOIX \\- SMS \\- INTERNET\\)\n1 MORA NIGHT\n2 MORA TEAM\n3 MORA 500\n4 MORA\\+ 2000\n5 MORA\\+ 5000\n6 FIRST CLASSIQUE\n7 MORA ONE\n8 MORA INTERNATIONAL')
+numeroInitiateur=CustomKeywords.'ussd.Util.to034'(numeroInitiateur)
 
-WS.verifyMatch(actualMenu, menu, true)
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre credit est de \\d{1,8} Ar, valable jusqu\'au '+regexDate+'\\. Bonus \\d{1,8} Ar vers Telma, \\d{1,8} Ar vers Ami Telma, \\d{1,8} Ar vers toute destination',
+	'Ny credit anananao dia \\d{1,8} Ar, izay azonao ampiasaina hatramin ny '+regexDate+'\\. Kaonty voatokananao Bonus TELMA \\d{1,8}, Appel TELMA \\d{1,8} Ar')
 
-'Je saisis 3 (MORA 500)'
-actualMenu= CustomKeywords.'ussd.Send.response'('3')
-
-'Vérifier la conformité du prompt'
-menu = CustomKeywords.'ussd.Expected.menu'(actualMenu, 'Raha hanamarina ny fangatahana SOS @ TELMA, ny tolotra MORA 500, tsindrio ny 1')
+WS.verifyMatch(actualMenu, menu, true)  
 

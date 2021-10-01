@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02 - Consulter solde credit - Client Postpaid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbdd46c1-f043-474b-8f41-69506d2128db</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnPostpaid</defaultValue>
+      <description></description>
+      <id>b62db15f-6be8-4aa5-ad76-063c7d46fa7c</id>
+      <masked>false</masked>
+      <name>numeroPostpaid</name>
+   </variable>
+</TestCaseEntity>

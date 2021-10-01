@@ -20,24 +20,13 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que client TELMA je me rends sur le menu SOS Offre à TELMA en composant le short code #111# > 3 > 3'
-String actualMenu= CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*3#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*3#', numeroInitiateur)
+
+'Je saisis 3 pour l\'offre YELOW'
+String actualMenu= CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du menu'
-String menu= CustomKeywords.'ussd.Expected.menu'("Sos Offre\n1 MORA \\(VOIX \\- SMS \\- INTERNET\\)\n2 FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n3 YELOW \\(SMS \\- INTERNET\\)\n4 TELMA Net \\(INTERNET\\)")
+String menu = CustomKeywords.'ussd.Expected.menu'('YELOW \\(SMS \\- INTERNET\\)\n1 YELOW100\n2 YELOW SMS\n3 YELOW FACEBOBAKA\n4 YELOW 1000\n5 YELOW 200\n6 YELOW FACEBOOBAKA \\+')
 
 WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 1 pour l\'offre MORA'
-actualMenu= CustomKeywords.'ussd.Send.response'('1')
-
-'Vérifier la conformité du menu'
-menu = CustomKeywords.'ussd.Expected.menu'('MORA \\(VOIX \\- SMS \\- INTERNET\\)\n1 MORA NIGHT\n2 MORA TEAM\n3 MORA 500\n4 MORA\\+ 2000\n5 MORA\\+ 5000\n6 FIRST CLASSIQUE\n7 MORA ONE\n8 MORA INTERNATIONAL')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 3 (MORA 500)'
-actualMenu= CustomKeywords.'ussd.Send.response'('3')
-
-'Vérifier la conformité du prompt'
-menu = CustomKeywords.'ussd.Expected.menu'(actualMenu, 'Raha hanamarina ny fangatahana SOS @ TELMA, ny tolotra MORA 500, tsindrio ny 1')
 

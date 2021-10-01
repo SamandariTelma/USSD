@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04 - Consulter info conso internet - Client postpaid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d64c3d8-007f-403b-81a7-ef39c14c06b1</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnPostpaid</defaultValue>
+      <description></description>
+      <id>6da4929b-afd1-4b84-9e19-5eac33de6cf3</id>
+      <masked>false</masked>
+      <name>numeroPostpaid</name>
+   </variable>
+</TestCaseEntity>

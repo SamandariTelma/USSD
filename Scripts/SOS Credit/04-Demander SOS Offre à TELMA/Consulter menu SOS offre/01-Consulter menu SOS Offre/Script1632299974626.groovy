@@ -26,18 +26,3 @@ String actualMenu= CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*3#
 String menu= CustomKeywords.'ussd.Expected.menu'("Sos Offre\n1 MORA \\(VOIX \\- SMS \\- INTERNET\\)\n2 FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n3 YELOW \\(SMS \\- INTERNET\\)\n4 TELMA Net \\(INTERNET\\)")
 
 WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 1 pour l\'offre MORA'
-actualMenu= CustomKeywords.'ussd.Send.response'('1')
-
-'Vérifier la conformité du menu'
-menu = CustomKeywords.'ussd.Expected.menu'('MORA \\(VOIX \\- SMS \\- INTERNET\\)\n1 MORA NIGHT\n2 MORA TEAM\n3 MORA 500\n4 MORA\\+ 2000\n5 MORA\\+ 5000\n6 FIRST CLASSIQUE\n7 MORA ONE\n8 MORA INTERNATIONAL')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 3 (MORA 500)'
-actualMenu= CustomKeywords.'ussd.Send.response'('3')
-
-'Vérifier la conformité du prompt'
-menu = CustomKeywords.'ussd.Expected.menu'(actualMenu, 'Raha hanamarina ny fangatahana SOS @ TELMA, ny tolotra MORA 500, tsindrio ny 1')
-
