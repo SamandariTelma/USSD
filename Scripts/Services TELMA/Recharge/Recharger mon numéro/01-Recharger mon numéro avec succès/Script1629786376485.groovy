@@ -52,4 +52,3 @@ int soldeExpected = soldeAvantRecharge + Integer.valueOf(montantRecharge)
 'Vérifier que le crédit rechargé est ajouté à mon solde'
 
 WS.verifyEqual(soldeApresRecharge, soldeExpected)
-

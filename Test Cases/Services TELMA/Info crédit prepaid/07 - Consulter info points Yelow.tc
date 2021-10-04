@@ -4,12 +4,12 @@
    <name>07 - Consulter info points Yelow</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f223783c-d32b-432a-ba65-d3fd3bb767ff</testCaseGuid>
+   <testCaseGuid>cccd2e17-0029-4490-a92f-8096477241d3</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnPostpaid</defaultValue>
       <description></description>
-      <id>2d25fc48-f958-460a-b7ab-438a2ac17c9f</id>
+      <id>ca5a1bbe-d30e-4606-a43e-b48fc7f0e998</id>
       <masked>false</masked>
-      <name>numeroInitiateur</name>
+      <name>numeroPostpaid</name>
    </variable>
 </TestCaseEntity>
