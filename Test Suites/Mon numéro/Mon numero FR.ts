@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>a8c3e68c-e0c3-44aa-aaaa-e5fd48af0e29</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Mon numéro/05-Consulter mon numero via shortcode 620 -postpaid</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

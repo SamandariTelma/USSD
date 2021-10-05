@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>3573141e-fe37-4f4b-afe1-54c35c0399e0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/01-Accès USSD/Menu Configurer mon mobile</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>86c70e53-6eb8-4baf-853a-899b3c30ef46</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/02-Configurer service WAP/Configurer service WAP - Succès</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>e7bd3755-3ab7-4023-9c9a-9c2e2d5ec1c1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/03-Configurer service WEB/Configurer service WEB - Succès</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>929ebbf8-4d88-4336-aa7c-a5ed4d423daa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/04-Configurer tous les services/Configurer tous les services - Succès</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>ffdc3966-8e3f-4b69-9138-61266ba84d67</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/05-Activer INTERNET sur compte principal/Annuler activation Internet</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -86,7 +86,7 @@
    <testCaseLink>
       <guid>086761d9-1b2c-4ff2-9783-e7da89741ebe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/05-Activer INTERNET sur compte principal/Activer internet déjà activé</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -98,7 +98,7 @@
    <testCaseLink>
       <guid>5df2e3e9-3f13-42e3-9f3c-f94d99b1c148</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/06-Desactiver INTERNET sur compte principal/Annuler désactivation internet</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -110,7 +110,7 @@
    <testCaseLink>
       <guid>6eb4d27d-70db-47ee-b34e-debe272ce16e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/06-Desactiver INTERNET sur compte principal/Désactiver INTERNET</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -122,7 +122,7 @@
    <testCaseLink>
       <guid>0068be83-1b0f-428b-84b3-0f333b142bdd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/06-Desactiver INTERNET sur compte principal/DésActiver Internet déjà désactivé</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -134,7 +134,7 @@
    <testCaseLink>
       <guid>d6c7a2e5-2840-4d5b-8e41-fe87704ad7c9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/06-Desactiver INTERNET sur compte principal/RéActiver internet désactivé</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -146,7 +146,7 @@
    <testCaseLink>
       <guid>802963f5-828a-4222-9dbe-80109bfe560c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/06-Desactiver INTERNET sur compte principal/DésActiver Internet - limite mensuelle atteint</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -158,7 +158,7 @@
    <testCaseLink>
       <guid>0dc86db8-e644-4d05-92de-a4954978cf98</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP Mvola/Generer OTP Mvola - Keys incomplet</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -176,7 +176,7 @@
    <testCaseLink>
       <guid>64372eab-e7c1-4e40-938e-dd3858f79858</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP Mvola/Generer OTP Mvola - Succès</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -194,7 +194,7 @@
    <testCaseLink>
       <guid>d936e64d-6633-44f8-a458-65b98b3101bd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP Mvola/Generer OTP Mvola- Application Mvola déjà installée</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -212,7 +212,7 @@
    <testCaseLink>
       <guid>2fecbce9-151d-4cb2-aece-4d7f9afbb55f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP Mvola/Generer OTP Mvola - Quota journalier Atteint</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -230,7 +230,7 @@
    <testCaseLink>
       <guid>3303ca1e-a43a-4c61-8f9f-36b9e69c5758</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP TelmaEtMoi/Generer OTP T M - Keys incomplet</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -248,7 +248,7 @@
    <testCaseLink>
       <guid>aff6f2bb-9281-43b4-abc7-fedefe568f08</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP TelmaEtMoi/Generer OTP T M - Succès</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -266,7 +266,7 @@
    <testCaseLink>
       <guid>a4199113-034a-4992-a434-860531bf7ed6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP TelmaEtMoi/Generer OTP T M Application T M déjà installée</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -284,7 +284,7 @@
    <testCaseLink>
       <guid>9214d6ef-67e7-4ee3-b7c2-6ffeb92b7e6a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP TelmaEtMoi/Generer OTP T M - Quota journalier Atteint</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -302,7 +302,7 @@
    <testCaseLink>
       <guid>84cbeb81-cd32-4e5c-bee1-22bd1fd0abca</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP Mvola/PIN Bloqué</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -314,7 +314,7 @@
    <testCaseLink>
       <guid>3a7a9510-f38f-423f-9674-bb87665185b6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/07-Generer code OTP/Generer OTP TelmaEtMoi/PIN Bloqué</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

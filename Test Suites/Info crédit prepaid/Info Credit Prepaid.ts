@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description></description>
-   <name>Info Credit Postpaid</name>
+   <name>Info Credit Prepaid</name>
    <tag></tag>
    <executionMode>SEQUENTIAL</executionMode>
    <maxConcurrentInstances>8</maxConcurrentInstances>
@@ -13,7 +13,7 @@
             <runConfigurationId>Web Service</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Info crédit postpaid/01 - Info Credit Postpaid FR</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Info crédit prepaid/01 - Info Credit Prepaid FR</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -22,7 +22,7 @@
             <runConfigurationId>Web Service</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Info crédit postpaid/02 - Consulter solde credit après recharge</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Info crédit prepaid/02 - Consulter solde credit après recharge</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -31,7 +31,7 @@
             <runConfigurationId>Web Service</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Info crédit postpaid/03 - Consulter solde crédit après consommation</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Info crédit prepaid/03 - Consulter solde crédit après consommation</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

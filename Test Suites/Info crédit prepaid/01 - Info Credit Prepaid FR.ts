@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>01 - Info Credit Postpaid FR</name>
+   <name>01 - Info Credit Prepaid FR</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>78bc61d0-37ab-4bc2-b3df-b84dab5591a5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Info crédit prepaid/01 - Consulter le menu Info crédit</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>8a5663b5-9263-4f37-9d84-9d1120be1660</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Info crédit prepaid/02 - Consulter solde credit - Client Postpaid</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>6cce1c26-66f4-4964-8353-14cab5704645</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Info crédit prepaid/03 - Consulter solde credit - Client Prépayé</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>6563c8d3-f126-47a2-bc7f-c52c641cc843</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Info crédit prepaid/04 - Consulter info conso internet - Client postpaid</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>deb5edc7-5c43-430a-ad39-cb8b5bcca2b8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Info crédit prepaid/05 - Consulter bonus Internet</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
