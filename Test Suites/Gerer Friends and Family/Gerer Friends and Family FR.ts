@@ -198,24 +198,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>cb62be9b-c493-4370-91b0-8c322686bafa</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/03-Effacer un contact/Limite de suppriession contact</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2135f2c3-34f2-4aa2-bc4a-005af67c7870</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5283910c-c1d3-4d3b-83f5-31c0ad71d840</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c7740a95-1eda-4e5b-b0fb-16a12bd3e596</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -231,6 +213,24 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>3ada1589-bc87-4190-b2c3-dbb19a35ba27</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cb62be9b-c493-4370-91b0-8c322686bafa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/03-Effacer un contact/Limite de suppriession contact</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2135f2c3-34f2-4aa2-bc4a-005af67c7870</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5283910c-c1d3-4d3b-83f5-31c0ad71d840</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

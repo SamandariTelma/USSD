@@ -32,6 +32,6 @@ String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '
 String menu = CustomKeywords.'ussd.Expected.menu'('Vous avez atteint le nombre maximum de numeros Friends and Familly autorises\\. Vous devez supprimer un avant d\'en rajouter\\.', 
     'Efa feno ny lisitra Friends and Family nao\\. Mamafa nomerao 1 raha hampiditra vaovao ianao\\.')
 
-WS.verifyMatch(menu, menu, true)
+WS.verifyMatch(actualMenu, menu, true)
 
 
