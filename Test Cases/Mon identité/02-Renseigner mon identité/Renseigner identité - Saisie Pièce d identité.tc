@@ -20,7 +20,7 @@
       <name>nomInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>'SamandariTest'</defaultValue>
+      <defaultValue>GlobalVariable.prenomMsisdn</defaultValue>
       <description></description>
       <id>63795e41-eb80-419c-8420-d6a3a639b0e4</id>
       <masked>false</masked>

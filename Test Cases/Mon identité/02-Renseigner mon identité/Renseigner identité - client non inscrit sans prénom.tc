@@ -20,7 +20,7 @@
       <name>nomInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>'123456789012'</defaultValue>
+      <defaultValue>GlobalVariable.nouveauCIN</defaultValue>
       <description></description>
       <id>f8865c40-1b6f-41f5-a0fe-28d0c44c856d</id>
       <masked>false</masked>

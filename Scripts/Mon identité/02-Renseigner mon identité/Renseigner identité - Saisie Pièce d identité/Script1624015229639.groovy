@@ -31,7 +31,7 @@ CustomKeywords.'ussd.Send.response'(nomInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'(prenomInitiateur)
 
 'Je vérifie la conformité du prompt'
-String menu = CustomKeywords.'ussd.Expected.menu'('Merci de renseigner le numero de votre piece d\'identite :', 'Ampidiro ny laharan ny karapanondronao')
+String menu = CustomKeywords.'ussd.Expected.menu'('Merci de renseigner le numero de votre piece d\'identite :', 'Ampidiro ny laharan ny karapanondronao :')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -66,6 +66,6 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1234567890123456789012345678901')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Le nombre d\'essai maximum est atteint\\.','Mihaotra ny fanandramana azo ekena\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Le nombre d\'essai maximum est atteint\\.','Mihoatra ny fanandramana azo ekena\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

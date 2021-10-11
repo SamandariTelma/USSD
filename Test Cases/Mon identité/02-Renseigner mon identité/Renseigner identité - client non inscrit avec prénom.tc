@@ -27,7 +27,7 @@
       <name>prenom</name>
    </variable>
    <variable>
-      <defaultValue>'123456789013'</defaultValue>
+      <defaultValue>GlobalVariable.nouveauCIN</defaultValue>
       <description></description>
       <id>ddea4f37-76f8-4e29-87ed-5a7325a5e4f4</id>
       <masked>false</masked>

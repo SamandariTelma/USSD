@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Numero pour l'inscription sans prénom</description>
-      <initValue>'261346849882'</initValue>
+      <initValue>'261343063891'</initValue>
       <name>msisdnInitiateur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -28,6 +28,16 @@
       <description></description>
       <initValue>'Test'</initValue>
       <name>nomMsisdn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Samandari Test'</initValue>
+      <name>prenomMsisdn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'159263487555'</initValue>
+      <name>nouveauCIN</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

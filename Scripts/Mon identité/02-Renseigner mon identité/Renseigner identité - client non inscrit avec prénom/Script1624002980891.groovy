@@ -35,7 +35,7 @@ CustomKeywords.'ussd.Send.response'(nomInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'(prenom)
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Merci de renseigner le numero de votre piece d\'identite :', 'Ampidiro ny laharan ny karapanondronao's)
+String menu=CustomKeywords.'ussd.Expected.menu'('Merci de renseigner le numero de votre piece d\'identite :', 'Ampidiro ny laharan ny karapanondronao')
 
 WS.verifyMatch(actualMenu, menu, true)
 

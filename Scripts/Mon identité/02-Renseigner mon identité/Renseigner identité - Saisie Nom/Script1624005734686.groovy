@@ -53,7 +53,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('RAVELOMANANTSOA Samandari')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Le nombre d\'essai maximum est atteint\\.','Mihaotra ny fanandramana azo ekena\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Le nombre d\'essai maximum est atteint\\.','Mihoatra ny fanandramana azo ekena\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
