@@ -43,8 +43,8 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus YELOW SMS restants: 100 SMS Telma et 25 SMS autres opérateurs jusqu au '+dateExpiration+' '+heureExpiration+'\\.',
-	'Bonus YELOW SMS : 100 SMS Telma  \\+ 25 SMS mankany @ tambazotra hafa azo ampiasaina hatramin ny '+dateExpiration+' '+heureExpiration+'\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Bonus YELOW SMS restants: 100 SMS Telma et 25 SMS autres opérateurs jusqu au '+dateExpiration+' a '+heureExpiration+'\\.',
+	'Bonus YELOW SMS : 100 SMS Telma  \\+ 25 SMS mankany @ tambazotra hafa azo ampiasaina hatramin ny '+dateExpiration+' @ '+heureExpiration+'\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

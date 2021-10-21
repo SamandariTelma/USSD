@@ -46,13 +46,10 @@ CustomKeywords.'ussd.Send.response'(numeroRecepteur)
 CustomKeywords.'ussd.Send.response'('3')
 
 'Je saisis 3 (FACEBOBAKA)'
-CustomKeywords.'ussd.Send.response'('3')
-
-'Je saisis mon code secret'
-String actualMenu = CustomKeywords.'ussd.Send.response'(pinNumeroInitiateur)
+String actualMenu = CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Le recepteur a deja depassé le nombre d\'achat journalier de l\'offre YELOW FACEBOBAKA', 
+String menu = CustomKeywords.'ussd.Expected.menu'('Le récepteur a déjà depassé le nombre d achat journalier de l offre YELOW FACEBOBAKA', 
     'Mihoatra ny fividianana tolotra YELOW FACEBOBAKA ho an\'io laharanao io androany')
 
 WS.verifyMatch(actualMenu, menu, true)
@@ -63,5 +60,5 @@ WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), 
 
 int soldeEnvoyeurApresEnvoi = GlobalVariable.soldeCredit
 
-WS.verifyMatch(soldeEnvoyeurAvantEnvoi, soldeEnvoyeurApresEnvoi, false)
+WS.verifyEqual(soldeEnvoyeurAvantEnvoi, soldeEnvoyeurApresEnvoi)
 

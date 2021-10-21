@@ -61,7 +61,7 @@ WS.verifyMatch(actualMenu, menu, true)
 
 'Saisir le code secret MVola puis valide'
 
-actualMenu=CustomKeywords.'ussd.Send.response'(GlobalVariable.numeroNonEligible)
+actualMenu=CustomKeywords.'ussd.Send.response'(GlobalVariable.pinMsisdnInitiateur)
 
 menu=CustomKeywords.'ussd.Expected.menu'('Vous avez transferé '+moitieARembourser+' Ar pour rembourser une partie du SOS du '+numeroARembourser+'\\.', 'Namindra '+moitieARembourser+' Ar ho famerenana ny ampahan ny SOS ho an ny laharana '+numeroARembourser+' ianao\\.')
 

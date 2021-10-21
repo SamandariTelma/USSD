@@ -54,6 +54,8 @@ numeroRecepteur = CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 println(numeroRecepteur)
 
+CustomKeywords.'ussd.Send.response'(numeroRecepteur)
+
 'Je saisis mon PIN et je valide'
 String actualMenu = CustomKeywords.'ussd.Send.response'(pinNumeroInitiateur)
 

@@ -42,7 +42,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA\\+ 5000 : 5000 Ar \\+ 100 SMS Telma \\+ 100\\.0 Mo la journee et 50\\.0 Mo la nuit valable jusqu au '+dateExpiration,
-	'Bonus MORA\\+ 5000 : 5000 Ar antso eto an toerana \\+ 100 SMS Telma + 100\\.0 Mo ny tontolo andro sy 50\\.0 Mo ny alina azo ampiasaina h@ '+dateExpiration)
+menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA\\+ 5000 restants: 5000 Ar appels \\+ 100 SMS Telma \\+ 100\\.0 Mo la journee et 50\\.0 Mo la nuit valable jusqu au '+dateExpiration,
+	'Bonus MORA\\+ 5000 : 5000 Ar antso eto an toerana \\+ 100 SMS Telma \\+ 100\\.0 Mo ny tontolo andro sy 50\\.0 Mo ny alina azo ampiasaina h@ '+dateExpiration)
 
 WS.verifyMatch(actualMenu, menu, true)

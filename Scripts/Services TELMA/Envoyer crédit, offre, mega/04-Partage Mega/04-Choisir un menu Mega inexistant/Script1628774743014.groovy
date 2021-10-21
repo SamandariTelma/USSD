@@ -39,8 +39,8 @@ CustomKeywords.'ussd.Send.response'('1')
 actualMenu=CustomKeywords.'ussd.Send.response'('12')
 
 'Vérifier que je reste sur la page liste Mega'
-menu=CustomKeywords.'ussd.Expected.menu'('Mega partager Il vous reste \\d{1,5}\\.\\d{1,3} Mo sur votre NET ONE MONTH 1,5Go :\n1 100 Mo\n2 500 Mo\n3 1024 Mo\n4 5120 Mo\n5 10240 Mo',
-	'Mega zaraina \\d{1,5}\\.\\d{1,3} sisa no ao @ tolotra NET ONE MONTH 1\\,5Go anao\n1 100 Mo\n2 500 Mo\n3 1024 Mo\n4 5120 Mo\n5 10240 Mo')
+menu=CustomKeywords.'ussd.Expected.menu'('Mega a partager \nIl vous reste \\d{1,5}\\.\\d{1,3} Mo sur votre NET ONE MONTH 1,5Go :\n1 100 Mo\n2 500 Mo\n3 1024 Mo',
+	'Mega zaraina \\d{1,5}\\.\\d{1,3} sisa no ao @ tolotra NET ONE MONTH 1\\,5Go anao\n1 100 Mo\n2 500 Mo\n3 1024 Mo')
 
 WS.verifyMatch(actualMenu, menu, true)
 

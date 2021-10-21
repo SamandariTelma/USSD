@@ -25,7 +25,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Vous n avez pas d offre eligible a ce service\\. Acheter une offre a partir du NET ONE MONTH 250Mo pour beneficier du partage Mega', 
-	'Tsy manana tolotra ahafahanao mampiasa an ny partage mega ianao\\. Mividiana tolotra manomboka @ NET ONE MONTH 250Mo ahafahanao mampiasa azy\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Vous n avez pas d offre eligible a ce service\\. Acheter une offre a partir du NET ONE MONTH 1Go pour beneficier du partage Mega', 
+	'Tsy manana tolotra ahafahanao mampiasa an ny partage mega ianao\\. Mividiana tolotra manomboka @ NET ONE MONTH 1Go ahafahanao mampiasa azy\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

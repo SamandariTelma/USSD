@@ -34,8 +34,8 @@ CustomKeywords.'ussd.Send.response'('3')
 String actualMenu = CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'(('Desole, vous avez utilise toutes vos demandes\\. Vous pourrez envoyer 2 demandes à partir du ' + 
-    nextDate) + ' ', ('Tapitra ny fahafahanao mampiditra io tolotra io\\. Amin ny ' + nextDate) + ' indray ianao afaka mividy 2\\.')
+String menu = CustomKeywords.'ussd.Expected.menu'(('Desole, vous avez utilise toutes vos demandes\\. Vous pourrez envoyer 2 demandes a partir du ' + 
+    nextDate) + '\\.', ('Tapitra ny fahafahanao mampiasa io tolotra io\\. Amin ny ' + nextDate) + ' indray ianao afaka mividy 2\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

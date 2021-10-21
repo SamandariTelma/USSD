@@ -18,7 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur="${numeroInitiateur}"
 String numeroRecepteur="${numeroRecepteur}"
 String pinEnvoyeur="${pinEnvoyeur}"
-String dateExpiration="${dateExpiration}"
+//String dateExpiration="${dateExpiration}"
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
 'Je shortcode #130*4*4#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 
@@ -33,8 +34,8 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformtité du menu'
-menu=CustomKeywords.'ussd.Expected.menu'('Mega partager Il vous reste \\d{1,5}\\.\\d{1,3} Mo sur votre NET ONE MONTH 1,5Go :\n1 100 Mo\n2 500 Mo\n3 1024 Mo\n4 5120 Mo\n5 10240 Mo', 
-	'Mega zaraina \\d{1,5}\\.\\d{1,3} sisa no ao @ tolotra NET ONE MONTH 1\\,5Go anao\n1 100 Mo\n2 500 Mo\n3 1024 Mo\n4 5120 Mo\n5 10240 Mo')
+menu=CustomKeywords.'ussd.Expected.menu'('Mega a partager \nIl vous reste \\d{1,5}\\.\\d{1,3} Mo sur votre NET ONE MONTH 1,5Go :\n1 100 Mo\n2 500 Mo\n3 1024 Mo', 
+	'Mega zaraina \\d{1,5}\\.\\d{1,3} sisa no ao @ tolotra NET ONE MONTH 1\\,5Go anao\n1 100 Mo\n2 500 Mo\n3 1024 Mo')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -42,7 +43,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Entrer numero tel: \\(Saisir 9 pour afficher votre répertoire OU 0 pour choisir l\'un des 3 derniers numéros\\):', 
+menu=CustomKeywords.'ussd.Expected.menu'('Entrer numero tel: \\(Saisir 9 pour afficher votre repertoire OU 0 pour choisir l\'un des 3 derniers numeros\\):', 
 	'Ampidiro ny numero: \\(Tsindrio ny 9 raha hifidy laharana ao @ reperetoire Mvola anao NA 0 raha hisafidy ny iray @ laharana 3 farany nampiasainao:')
 
 WS.verifyMatch(actualMenu, menu, true)
@@ -53,7 +54,7 @@ numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 actualMenu=CustomKeywords.'ussd.Send.response'(numeroRecepteur)
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Pour accepter le partage de 100 Mo \\(valable jusqu au '+dateExpiration+'\\) vers \\('+numeroRecepteur+'\\)\\. Frais: 10 Mo\\. Entrer code secret MVola :', 
+menu=CustomKeywords.'ussd.Expected.menu'('Pour accepter le partage de 100 Mo \\(valable jusqu au '+dateExpiration+'\\) vers  \\('+numeroRecepteur+'\\)\\. Frais: 10 Mo\\. Entrer code secret MVola :', 
 	'Hanantontosana ny fandefasana ny 100 Mo \\(azo ampiasaina hatramin ny '+dateExpiration+'\\) any @ \\('+numeroRecepteur+'\\)\\. Frais: 10 Mo\\. Ampidiro ny kaody miafina MVola anao :')
 
 WS.verifyMatch(actualMenu, menu, true)

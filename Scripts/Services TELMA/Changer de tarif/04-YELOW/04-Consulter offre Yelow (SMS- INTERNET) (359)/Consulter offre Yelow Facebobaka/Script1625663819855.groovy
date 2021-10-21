@@ -43,8 +43,8 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Vos bonus YELOW FACEBOBAKA restant : 1024\\.0 Mo utilisable toute la journee valable jusqu au '+dateExpiration+' '+heureExpiration+' inclus',
-	'Ny bonus YELOW FACEBOBAKA- nao: 1024\\.0 Mo ny tontolo andro ampiasaina  hatramin ny '+dateExpiration+' '+heureExpiration+'\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Vos bonus YELOW FACEBOBAKA restant : 1024\\.0 Mo utilisable toute la journee valable jusqu au '+dateExpiration+' a '+heureExpiration+' inclus',
+	'Ny bonus YELOW FACEBOBAKA- nao: 1024\\.0 Mo ny tontolo andro ampiasaina  hatramin ny '+dateExpiration+' @ '+heureExpiration+'\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

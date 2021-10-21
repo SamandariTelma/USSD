@@ -15,21 +15,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant') : '400'], 
+WebUI.callTestCase(findTestCase('SOS Credit/06-Repertoire SOS/Supprimer un numéro'), [('numeroInitiateur') : GlobalVariable.msisdnInitiateur
+        , ('numeroASupprimer') : GlobalVariable.msisdnRecepteur, ('pinMsisdnInitiateur') : GlobalVariable.pinMsisdnRecepteur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant') : '400'], 
-    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant') : '400'], 
-    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant') : '400'], 
-    FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant') : '400'], 
-    FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant') : '400'], 
-    FailureHandling.CONTINUE_ON_FAILURE)
 

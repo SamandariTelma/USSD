@@ -76,7 +76,7 @@ menu = CustomKeywords.'ussd.Expected.menu'(((((('L\'envoi de l\'offre NET ONE DA
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Vérifier si le numéro beneficiaire a reçu l\'offre MORA'
-WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/04-YELOW/04-Consulter offre Yelow (SMS- INTERNET) (359)/Consulter offre Yelow 100'), 
+'Vérifier si le numéro beneficiaire a reçu l\'offre NET ONE DAY'
+WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/02-Info conso - ONE DAY'), 
     [('numeroInitiateur') : numeroRecepteur], FailureHandling.CONTINUE_ON_FAILURE)
 

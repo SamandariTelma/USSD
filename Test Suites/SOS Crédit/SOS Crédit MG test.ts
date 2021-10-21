@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>SOS Crédit FR</name>
+   <name>SOS Crédit MG test</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>68fd60c2-c7bb-4b08-8826-c545aeeb114b</testSuiteGuid>
+   <testSuiteGuid>fdc7907d-5124-4167-8432-1fd14b62409e</testSuiteGuid>
    <testCaseLink>
       <guid>232b4cdc-8289-417b-9a83-401b803c3365</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>046876fe-2995-424c-8387-e1ed7f1a088e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/02-Demander SOS Crédit à TELMA/SOS crédit avec succès</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -74,7 +74,7 @@
    <testCaseLink>
       <guid>84c62da6-890f-4645-9e22-5faa3bb67204</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/02-Demander SOS Crédit à TELMA/SOS crédit avec un client ayant une dette</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -254,7 +254,7 @@
    <testCaseLink>
       <guid>f28d1d51-b68c-4e87-828c-2760af8aecbc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/05-Rembourser SOS/Demander le remboursement à un numéro non certifié MVola</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -314,7 +314,7 @@
    <testCaseLink>
       <guid>b223974a-d441-4f24-91aa-9b8bb7cab05e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/05-Rembourser SOS/Rembourser la totalité du SOS Crédit d un ami avec MVola</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -344,7 +344,7 @@
    <testCaseLink>
       <guid>16c7208a-7924-4acf-ba8c-91943849f690</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/05-Rembourser SOS/Rembourser un ami qui n a pas de dette</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -362,7 +362,7 @@
    <testCaseLink>
       <guid>bcc218be-f6b1-4187-a76d-83c809e21d80</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/05-Rembourser SOS/Rembourser une dette inférieur à un crédit de 100 Ar</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -464,7 +464,7 @@
    <testCaseLink>
       <guid>4cd5c039-233b-4c3a-b2c4-bbfe96eee37b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/SOS offre avec un client ayant une dette</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

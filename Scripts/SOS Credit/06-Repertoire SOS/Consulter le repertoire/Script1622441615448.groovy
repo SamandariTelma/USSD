@@ -25,8 +25,8 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4*3#', numeroInitiate
 'Je saisis 3 et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
-String menu=CustomKeywords.'ussd.Expected.menu'('^Les numéros autorisés à rembourser mes SOS :(\n[1-5] 034\\d{1,7}){1,5}$', 
-	'^Ny lisitr ireo laharana afaka mamerina ny SOS nao :(\n[1-5] 034\\d{1,7}){1,5}$')
+String menu=CustomKeywords.'ussd.Expected.menu'('^.*Les numéros autorisés à rembourser mes SOS :.*$', 
+	'^.*Ny lisitr ireo laharana afaka mamerina ny SOS nao :.*$')
 
 'Vérifier la conformité du repertoire'
 WS.verifyMatch(actualMenu, menu, true)

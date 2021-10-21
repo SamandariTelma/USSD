@@ -77,9 +77,10 @@ actualMenu = CustomKeywords.'ussd.Send.response'(pinNumeroInitiateur)
 
 int soldeExcepted=soldeEnvoyeurAvantEnvoi - Integer.valueOf(montantAEnvoyer) - Integer.valueOf(frais)
 
+String soldeExceptedStr=CustomKeywords.'ussd.Util.separateThousand'(soldeExcepted)
 'Vérifier la conformité du message'
-menu = CustomKeywords.'ussd.Expected.menu'('Transfert effectue de '+montantAEnvoyer+'  Ar pour le '+numeroRecepteur+'. Frais de transfert '+frais+'  Ar.Nouveau solde : '+soldeExcepted+' Ar.', 
-	'Voarain\'ny '+numeroRecepteur+'  ny fahana : '+montantAEnvoyer+'  Ar.Saran\'ny fandefasana '+frais+'  Ar.Fahana sisa tavela '+soldeExcepted+' Ar.')
+menu = CustomKeywords.'ussd.Expected.menu'('Transfert effectue de '+montantAEnvoyer+' Ar pour le '+numeroRecepteur+'\\. Frais de transfert '+frais+' Ar\\.Nouveau solde : '+soldeExceptedStr+' Ar.', 
+	'Voarain\'ny '+numeroRecepteur+' ny fahana : '+montantAEnvoyer+'  Ar. Saran\'ny fandefasana '+frais+' Ar.Fahana sisa tavela '+soldeExceptedStr+' Ar.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

@@ -46,7 +46,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123456789012'</initValue>
+      <initValue>'123456789888'</initValue>
       <name>cinNumeroDejaInscrit</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

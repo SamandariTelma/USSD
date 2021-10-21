@@ -34,7 +34,7 @@ CustomKeywords.'ussd.Send.response'('1')
 String actualMenu=CustomKeywords.'ussd.Send.response'('034350078@a')
 
 'Vérifier que je reste sur le prompt de saisie numero de tel'
-String menu=CustomKeywords.'ussd.Expected.menu'('Verifiez le numero de telephone SVP', 'Hamarino ny nomerao azafady')
+String menu=CustomKeywords.'ussd.Expected.menu'('Entrer numero tel: \\(Saisir 9 pour afficher votre repertoire OU 0 pour choisir l\'un des 3 derniers numeros\\):', 'Hamarino ny nomerao azafady')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -42,7 +42,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('4214569875')
 
 'Vérifier que je reste sur le prompt de saisie numero de tel'
-menu=CustomKeywords.'ussd.Expected.menu'('Verifiez le numero de telephone SVP', 'Hamarino ny nomerao azafady')
+menu=CustomKeywords.'ussd.Expected.menu'('Entrer numero tel: \\(Saisir 9 pour afficher votre repertoire OU 0 pour choisir l\'un des 3 derniers numeros\\):', 'Hamarino ny nomerao azafady')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -50,6 +50,6 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('03245632154')
 
 'Vérifier que je reste sur le prompt de saisie numero de tel'
-menu=CustomKeywords.'ussd.Expected.menu'('Verifiez le numero de telephone SVP', 'Hamarino ny nomerao azafady')
+menu=CustomKeywords.'ussd.Expected.menu'('Entrer numero tel: \\(Saisir 9 pour afficher votre repertoire OU 0 pour choisir l\'un des 3 derniers numeros\\):', 'Hamarino ny nomerao azafady')
 
 WS.verifyMatch(actualMenu, menu, true)

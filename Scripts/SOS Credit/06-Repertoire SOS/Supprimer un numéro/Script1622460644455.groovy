@@ -17,14 +17,16 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 String numeroASupprimer="${numeroASupprimer}"
+String pinMsisdnInitiateur="${pinMsisdnInitiateur}"
+
 'En tant que client TELMA, je vais dans le menu repertoire SOS en composant le #111# > 3 > 4 >3'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4*3#', numeroInitiateur)
 
 'Je saisis 2 et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
-String menu=CustomKeywords.'ussd.Expected.menu'('^Selectionner le contact SOS à supprimer: (\n[1-5] 034\\d{1,7}){1,5}$',
-	'^Safidio ny laharana SOS hofafana: (\n[1-5] 034\\d{1,7}){1,5}$')
+String menu=CustomKeywords.'ussd.Expected.menu'('^.*Selectionner le contact SOS à supprimer:.*$',
+	'^.*Safidio ny laharana SOS hofafana:.*$')
 
 'Vérifier la conformité du repertoire'
 WS.verifyMatch(actualMenu, menu, true)
@@ -40,7 +42,18 @@ println "Numero à supprimer: "+menuNumASupprimer
 
 actualMenu=CustomKeywords.'ussd.Send.response'(menuNumASupprimer)
 
-menu=CustomKeywords.'ussd.Expected.menu'('INDEFINI', 'INDEFINI')
+'Vérifier la conformité du prompt'
+menu=CustomKeywords.'ussd.Expected.menu'('Pour supprimer le numéro '+numeroASupprimer+' \\(.{1,30}\\) parmi les personnes autorisées à rembourser vos SOS, entrer code secret MVola :', 
+	'Raha hamafa ny laharana '+numeroASupprimer+' \\(.{1,30}\\) @ lisitr ireo afaka mamerina ny SOS nao, tsindrio ny code secret Mvola :')
+
+WS.verifyMatch(actualMenu, menu, true)
+
+'Je saisi mon code MVola'
+actualMenu = CustomKeywords.'ussd.Send.response'(pinMsisdnInitiateur)
+
+'Vérifier la conformité du prompt'
+menu=CustomKeywords.'ussd.Expected.menu'('Le numéro '+numeroASupprimer+' \\(.{1,30}\\) a été supprimé de la liste des personnes autorisées à rembourser votre SOS\\.',
+	'Ny laharana  '+numeroASupprimer+' \\(.{1,30}\\) dia voafafa ao anatin ny lisitr ireo olona afaka mamerina ny SOS nataonao\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

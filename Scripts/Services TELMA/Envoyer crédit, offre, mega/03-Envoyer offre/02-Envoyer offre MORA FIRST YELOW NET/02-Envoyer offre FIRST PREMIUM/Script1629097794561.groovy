@@ -73,7 +73,7 @@ menu = CustomKeywords.'ussd.Expected.menu'(((((('L\'envoi de l\'offre FIRST PREM
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Vérifier si le numéro beneficiaire a reçu l\'offre FIRST'
+'Vérifier si le numéro beneficiaire a reçu l\'offre FIRST PREMIUM'
 WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/03-FIRST/05-Consulter offre FIRST (359)/01-Info conso - PREMIUM'), 
     [('numeroInitiateur') : numeroRecepteur], FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -548,7 +548,7 @@
    <testCaseLink>
       <guid>ed3d1e66-1f5f-4662-9071-8a51cc06b1fb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/01-Info conso - ONE NIGHT</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -560,7 +560,7 @@
    <testCaseLink>
       <guid>2174d0a6-3378-457d-bea7-b5143e460466</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/02-Info conso - ONE DAY</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -572,7 +572,7 @@
    <testCaseLink>
       <guid>07f7012e-0b20-460f-9998-eb357f786510</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/03-Info conso - ONE WEEK 250 Mo</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -584,7 +584,7 @@
    <testCaseLink>
       <guid>d33e95de-137d-4e81-96b4-64494c9c68ce</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/04-Info conso - ONE WEEK 500 Mo</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -596,7 +596,7 @@
    <testCaseLink>
       <guid>cc55ab41-dd90-43bd-8460-a6b49ff65e3f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/05-Info conso - ONE WEEK 1,5Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -608,7 +608,7 @@
    <testCaseLink>
       <guid>0ce342b9-c6c0-4c9c-98c3-74cf0a1bd068</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/06-Info conso - ONE MONTH 1,5Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -620,7 +620,7 @@
    <testCaseLink>
       <guid>d7c90dd2-c103-4563-a423-516be4da868c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/07-Info conso - ONE MONTH 3Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -632,7 +632,7 @@
    <testCaseLink>
       <guid>d14d10d4-20e6-496c-9bcd-44ce4ecf01c7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/08-Info conso - ONE MONTH 10Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -644,7 +644,7 @@
    <testCaseLink>
       <guid>94197cb5-6af6-486e-af9c-a446f8126158</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/09-Info conso - ONE MONTH 20Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -656,7 +656,7 @@
    <testCaseLink>
       <guid>f715ab10-b380-4236-a646-a8b71f22876b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/10-Info conso - ONE MONTH 100Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -668,7 +668,7 @@
    <testCaseLink>
       <guid>665ae8bd-67cd-4ca5-9396-8748ba31ab54</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/11-Info conso - NET 3 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -680,7 +680,7 @@
    <testCaseLink>
       <guid>6d4d142b-3a92-414e-a8c5-35d70cb2a334</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/12-Info conso - NET 6 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -692,7 +692,7 @@
    <testCaseLink>
       <guid>824a9700-73be-42b1-82bd-c28078f630bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/13-Info conso - NET 9 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -704,7 +704,7 @@
    <testCaseLink>
       <guid>5612b825-9840-4fc4-9902-974e90154c3d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/04-Consulter offre Telma net (359)/14-Info conso - NET 12 MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -716,7 +716,7 @@
    <testCaseLink>
       <guid>342789ff-a6ce-499d-9b28-1a44e446ccd4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/08-Consulter etat de renouvellement TELMA NET (359)/01-Etat de renouvellement activé - NET 3 Mois</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -728,7 +728,7 @@
    <testCaseLink>
       <guid>1f8f8405-0ae1-413f-bdea-96c8415d6b1a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/08-Consulter etat de renouvellement TELMA NET (359)/02-Etat de renouvellement activé - NET 6 Mois</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -740,7 +740,7 @@
    <testCaseLink>
       <guid>76bb1759-a24b-4202-8e12-14f6fb814148</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/08-Consulter etat de renouvellement TELMA NET (359)/03-Etat de renouvellement activé - NET 9 Mois</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -752,7 +752,7 @@
    <testCaseLink>
       <guid>71caeb16-f1f6-4cf7-86bb-e7a054ccd704</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/08-Consulter etat de renouvellement TELMA NET (359)/04-Etat de renouvellement activé - NET 12 Mois</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -764,7 +764,7 @@
    <testCaseLink>
       <guid>e4a1b52e-5d98-4283-92ff-1c2697b43dc7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/06-Désactiver Renouvellement TELMA NET (359)/01-Désactiver Renouvellement TELMA net 3MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -776,7 +776,7 @@
    <testCaseLink>
       <guid>5bbfbfe4-4175-410a-aec3-cb016189cb1a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/06-Désactiver Renouvellement TELMA NET (359)/02-Désactiver Renouvellement TELMA net 6MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -788,7 +788,7 @@
    <testCaseLink>
       <guid>ef79d030-3617-4c02-85f7-752f7d50aa95</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/06-Désactiver Renouvellement TELMA NET (359)/03-Désactiver Renouvellement TELMA net 9MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -800,7 +800,7 @@
    <testCaseLink>
       <guid>8dae2949-fca6-471b-ab5f-058017d22861</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/06-Désactiver Renouvellement TELMA NET (359)/04-Désactiver Renouvellement TELMA net 12MOIS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -812,7 +812,7 @@
    <testCaseLink>
       <guid>453d0805-bec6-41b0-be01-665bdf6034f2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/08-Consulter etat de renouvellement TELMA NET (359)/05-Etat de renouvellement desactivé - NET 3 Mois</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -824,7 +824,7 @@
    <testCaseLink>
       <guid>05b1054e-7dac-486a-bfcb-2421af84c3f1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/08-Consulter etat de renouvellement TELMA NET (359)/06-Etat de renouvellement desactivé - NET 6 Mois</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -836,7 +836,7 @@
    <testCaseLink>
       <guid>2095f19f-80dc-4449-b8d7-5bc28e91ff8e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/08-Consulter etat de renouvellement TELMA NET (359)/07-Etat de renouvellement desactivé - NET 9 Mois</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -848,7 +848,7 @@
    <testCaseLink>
       <guid>afb82c60-e6a0-40bf-8568-091113c69ab3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/08-Consulter etat de renouvellement TELMA NET (359)/08-Etat de renouvellement desactivé - NET 12 Mois</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

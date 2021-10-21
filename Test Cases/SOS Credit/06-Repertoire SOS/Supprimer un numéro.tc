@@ -19,4 +19,11 @@
       <masked>false</masked>
       <name>numeroASupprimer</name>
    </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>1f850e1b-56e5-4e71-84f8-6297d9c41a03</id>
+      <masked>false</masked>
+      <name>pinMsisdnInitiateur</name>
+   </variable>
 </TestCaseEntity>

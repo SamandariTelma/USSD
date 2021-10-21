@@ -36,7 +36,7 @@ WS.verifyMatch(actualMenu, menu, true)
 
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
-menu=CustomKeywords.'ussd.Expected.menu'('^Entrer le numéro de la personne autorisée à rembourser mes SOS :$',
+menu=CustomKeywords.'ussd.Expected.menu'('^.*Entrer le numéro de la personne autorisée à rembourser mes SOS :.*$',
 	'^Ampidiro ny laharan ny nomerao afaka mamerina ny SOS offre ko :$')
 
 'Vérifier la conformité du prompt'
@@ -45,7 +45,7 @@ WS.verifyMatch(actualMenu, menu, true)
 'Je rentre un numéro invalide'
 actualMenu=CustomKeywords.'ussd.Send.response'('03400')
 
-menu=CustomKeywords.'ussd.Expected.menu'('^.*Entrer le numéro de la personne autorisée à rembourser mes SOS :$',
+menu=CustomKeywords.'ussd.Expected.menu'('^.*Entrer le numéro de la personne autorisée à rembourser mes SOS :.*$',
 	'^Ampidiro ny laharan ny nomerao afaka mamerina ny SOS offre ko :$')
 
 'Vérifier la conformité du prompt'

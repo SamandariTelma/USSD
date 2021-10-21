@@ -26,6 +26,6 @@ String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Pour pouvoir utiliser les services Mvola, ouvrez gratuitement votre compte\\. Contactez votre Telma Shop ou Marchand Mvola le plus proche !', 
-	'Rah te hampiasa tolotra Mvoa ianao dia manokafa kaonty maimaimpoana eny amin\'ny Telma Shop na mpanjara akaikinao\\.')
+	'Rah te hampiasa tolotra Mvola ianao dia manokafa kaonty maimaimpoana eny amin\'ny Telma Shop na mpanjara akaikinao\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

@@ -146,7 +146,7 @@
    <testCaseLink>
       <guid>8924ab3c-c8b3-4891-a77d-eadc40538f71</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Mon identité/02-Renseigner mon identité/Renseigner identité - client inscrit</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -158,7 +158,7 @@
    <testCaseLink>
       <guid>7ab9d1ef-1101-4c4e-b4ce-24c7c4022882</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Mon identité/03-Consulter mon identité/Consulter identité - client inscrit</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
