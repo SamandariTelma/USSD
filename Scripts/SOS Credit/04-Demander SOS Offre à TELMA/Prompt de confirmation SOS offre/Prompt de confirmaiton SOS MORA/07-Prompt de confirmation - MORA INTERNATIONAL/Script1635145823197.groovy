@@ -22,13 +22,13 @@ String numeroInitiateur="${numeroInitiateur}"
 'En tant que client TELMA je me rends sur le menu SOS Offre à TELMA en composant le short code #111# > 3 > 3'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*3#', numeroInitiateur)
 
-'Je saisis 2 pour l\'offre FIRST'
-CustomKeywords.'ussd.Send.response'('2')
+'Je saisis 1 pour l\'offre MORA'
+CustomKeywords.'ussd.Send.response'('1')
 
-'Je saisi 1 (FIRST PREMIUM)'
-String actualMenu = CustomKeywords.'ussd.Send.response'('1')
+'Je saisi 8 (MORA INTERNATIONAL)'
+String actualMenu = CustomKeywords.'ussd.Send.response'('7')
 
 'Je vérifie la conformité du prompt'
-String menu = CustomKeywords.'ussd.Expected.menu'('Pour confirmer votre demande de SOS a TELMA, FIRST PREMIUM, Taper 1', 'Raha hanamarina ny fangatahana SOS @ TELMA, ny tolotra FIRST PREMIUM, tsindrio ny 1')
+String menu = CustomKeywords.'ussd.Expected.menu'('Pour confirmer votre demande de SOS a TELMA, MORA INTERNATIONAL, Taper 1', 'Raha hanamarina ny fangatahana SOS @ TELMA, ny tolotra MORA INTERNATIONAL, tsindrio ny 1')
 
-WS.verifyMatch(actualMenu, menu, true) 
+WS.verifyMatch(actualMenu, menu, true)

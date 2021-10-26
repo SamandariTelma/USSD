@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>046876fe-2995-424c-8387-e1ed7f1a088e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/02-Demander SOS Crédit à TELMA/SOS crédit avec succès</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -314,7 +314,7 @@
    <testCaseLink>
       <guid>b223974a-d441-4f24-91aa-9b8bb7cab05e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/05-Rembourser SOS/Rembourser la totalité du SOS Crédit d un ami avec MVola</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

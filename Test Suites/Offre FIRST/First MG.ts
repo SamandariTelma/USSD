@@ -48,24 +48,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>798c435a-310b-4044-8ab6-be34468388f8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/02-Acheter Offre FIRST (Voix - SMS - Internet)/05-Achat FIRSTpour soi - FIRST CLASSIQUE</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>dcf5f3ed-5d6d-41ee-8442-1ee9ac619750</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>80eafcea-bb38-4750-bb84-358b1a0bffb0</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8b89906a-bf9b-45ca-b3d4-5d6b936ea977</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -138,18 +120,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b5ac09c8-a90c-485d-88d4-3c8e40c64235</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/03-Achat FIRST avec crédit Insuffisant/05-Credit insuffisant - FIRST CLASSIQUE</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>656d8c2b-e7f3-447e-adf1-b5b01fb04936</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>05f5ec6d-47e9-44fe-8963-1046a2ab0053</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -198,18 +168,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5aa31c47-e6eb-4702-ad92-94b784a2bf6c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/04-Achat FIRST avec numéro non eligible/05-Non eligible - FIRST CLASSIQUE</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a0d04c37-810e-4e04-8d2f-17f52f602147</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>d3ba05d9-87a3-43b8-8576-e5fe03e8cadf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -255,18 +213,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>0492c5d0-f073-4fde-ad00-c3df1ef0202c</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a14be64d-eedf-457a-a286-dfa4af5547a2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/05-Consulter offre FIRST (359)/05-Info conso - CLASSIQUE</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1bb31e3e-af12-45e4-8cc9-962746ecc9fd</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -366,30 +312,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0bbca1ab-303e-47c8-be06-d31cb80e1586</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/08-Consulter etat de renouvellement Offre (359)/05-Etat de renouvellement activé - FIRST CLASSIQUE</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>354af3ed-1b02-40c3-8cad-81ad2943500c</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>910cce58-1cc9-4164-9325-c3979a898098</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/07-Désactiver Renouvellement Offre FIRST (359)/05-Désactiver Renouvellement Offre FIRST CLASSIQUE</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d745c69b-9386-4c9a-8051-c80000d3d452</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>d4d1a409-815a-4ffb-b39a-f713d06ca18c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -483,30 +405,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>99db4d32-cab9-4af6-9a6d-3417a75af8b1</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>06defca2-7e86-46f2-ac5a-a01620cf5288</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/08-Consulter etat de renouvellement Offre (359)/10-Etat de renouvellement déactivé - FIRST CLASSIQUE</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c4694861-ad19-4c11-bec7-752b2c1b5ccb</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e64b0e53-ad61-42b8-9e3e-3100e613480f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/09-Reactiver Renouvellement Offre FIRST (359)/05-Activer Renouvellement Offre FIRST CLASSIQUE</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>16247833-04cc-4ea4-845e-2c3b998a8533</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

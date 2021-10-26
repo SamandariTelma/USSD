@@ -27,7 +27,7 @@ String actualMenu=CustomKeywords.'ussd.Send.response'('4')
 CustomKeywords.'ussd.Send.response'('12')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('TELMA Net \\(INTERNET\\)\n1 NET JOURNALIER\n2 NET HEBDOMADAIRE\n3 NET MENSUEL\n4 NET PAYER MENSUALITES EN AVANCE')
+String menu=CustomKeywords.'ussd.Expected.menu'('TELMA Net \\(INTERNET\\)\n1 NET JOURNALIER\n2 NET HEBDOMADAIRE\n3 NET MENSUEL')
 
 WS.verifyMatch(actualMenu, menu, true)
 

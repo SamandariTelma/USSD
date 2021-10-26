@@ -144,24 +144,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>80631bc4-b01a-4f3c-ac66-587822f6e576</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/03-FIRST/02-Achat FIRST/05-Achat FIRSTpour soi - FIRST CLASSIQUE</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f1a1f1ba-2568-4c65-bca6-8352604aee0e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ccb4989b-a5cf-44b6-9858-a702d034d354</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f30059bb-6cd6-4a79-9909-eeca056458fd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -210,18 +192,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>bc0b3b1c-dbc1-4839-8a43-f384bace5455</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/03-FIRST/03-Crédit insuffisant/05-Credit insuffisant - FIRST CLASSIQUE</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4f7b312b-2fcb-49c4-bbe6-24efacc43b6d</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>9eb8b80b-7bae-4697-aabc-115789dbee85</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -267,18 +237,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>3a689e23-a18c-4d6a-b018-a61918be599b</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b7371e53-a2cd-4d0b-8ac0-2d0992e2dcf1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/03-FIRST/04-Annulation achat promotion FIRST/05-Annuler achat promotion - FIRST CLASSIQUE</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>098a9798-25c4-4ef9-8bd4-40ba9a18af1e</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

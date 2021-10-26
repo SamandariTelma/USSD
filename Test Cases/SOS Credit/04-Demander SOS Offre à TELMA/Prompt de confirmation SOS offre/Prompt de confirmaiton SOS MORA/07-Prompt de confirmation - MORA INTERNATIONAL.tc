@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>01-Prompt de confirmation - MORA NIGHT</name>
+   <name>07-Prompt de confirmation - MORA INTERNATIONAL</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>90028290-f237-4213-a1b3-74255dfd8dd2</testCaseGuid>
+   <testCaseGuid>f8f48220-b401-44ae-afaa-8be36435c6de</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>84d04873-54eb-4060-abb9-189dc661f692</id>
+      <id>ddc2a7ed-4398-4918-9896-656d93d6c0b2</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

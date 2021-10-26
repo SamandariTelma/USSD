@@ -26,7 +26,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*3#', numeroInitiateur
 String actualMenu= CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
-String menu = CustomKeywords.'ussd.Expected.menu'('MORA \\(VOIX \\- SMS \\- INTERNET\\)\n1 MORA NIGHT\n2 MORA TEAM\n3 MORA 500\n4 MORA\\+ 2000\n5 MORA\\+ 5000\n6 FIRST CLASSIQUE\n7 MORA ONE\n8 MORA INTERNATIONAL')
+String menu = CustomKeywords.'ussd.Expected.menu'('MORA \\(VOIX \\- SMS \\- INTERNET\\)\n1 MORA NIGHT\n2 MORA TEAM\n3 MORA 500\n4 MORA\\+ 2000\n5 MORA\\+ 5000\n6 MORA ONE\n7 MORA INTERNATIONAL')
 
 WS.verifyMatch(actualMenu, menu, true)
 

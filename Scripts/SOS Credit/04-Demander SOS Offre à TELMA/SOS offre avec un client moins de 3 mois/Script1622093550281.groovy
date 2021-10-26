@@ -21,8 +21,7 @@ String numeroNonEligible="${numeroNonEligible}"
 String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*3#', numeroNonEligible)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('^Cher abonne, pour beneficier de ce service, merci d\'utiliser davantage les services TELMA\\.$', 
+String menu = CustomKeywords.'ussd.Expected.menu'('^Cher abonne, pour beneficier de ce service, merci d\'utiliser davantage les services TELMA\\.$',
     '^Ry mpanjifa, mba ahafahanao manjifa ity tolotra ity, mampiasa matetika kokoa ny tolotra TELMA\\.$')
 
 WS.verifyMatch(actualMenu, menu, true)
-

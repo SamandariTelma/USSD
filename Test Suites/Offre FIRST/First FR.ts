@@ -48,24 +48,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>798c435a-310b-4044-8ab6-be34468388f8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/02-Acheter Offre FIRST (Voix - SMS - Internet)/05-Achat FIRSTpour soi - FIRST CLASSIQUE</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>dcf5f3ed-5d6d-41ee-8442-1ee9ac619750</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>80eafcea-bb38-4750-bb84-358b1a0bffb0</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8b89906a-bf9b-45ca-b3d4-5d6b936ea977</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>

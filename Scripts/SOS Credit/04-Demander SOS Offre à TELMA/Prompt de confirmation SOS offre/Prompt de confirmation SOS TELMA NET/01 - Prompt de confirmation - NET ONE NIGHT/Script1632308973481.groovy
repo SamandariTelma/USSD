@@ -32,6 +32,6 @@ CustomKeywords.'ussd.Send.response'('1')
 String actualMenu = CustomKeywords.'ussd.Send.response'('1')
 
 'Je vérifie la conformité du prompt'
-String menu = CustomKeywords.'ussd.Expected.menu'(actualMenu, 'Raha hanamarina ny fangatahana SOS @ TELMA, ny tolotra ONE DAY, tsindrio ny 1')
+String menu = CustomKeywords.'ussd.Expected.menu'('Pour confirmer votre demande de SOS a TELMA, ONE NIGHT, Taper 1', 'Raha hanamarina ny fangatahana SOS @ TELMA, ny tolotra ONE NIGHT, tsindrio ny 1')
 
 WS.verifyMatch(actualMenu, menu, true)

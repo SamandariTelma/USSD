@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>aaf8daf4-e6ac-4cf6-9afe-ce0fa143bdfc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Mon identité/01-Menu mon identite/Consulter le menu Mon identité</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>1c39a138-7e12-44c6-9cbe-06b69e9b617e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Mon identité/02-Renseigner mon identité/Renseigner identité - Saisie Nom</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>cadb140b-68d7-44c1-a6a5-428667e69d99</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Mon identité/02-Renseigner mon identité/Renseigner identité - Saisie Prénom</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -56,7 +56,7 @@
    <testCaseLink>
       <guid>a455ee98-25ca-4ec5-840a-63da1aa7291b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Mon identité/02-Renseigner mon identité/Renseigner identité - Saisie Pièce d identité</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -80,7 +80,7 @@
    <testCaseLink>
       <guid>8e0c15c5-0eea-41a5-a52e-d4df64137078</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Mon identité/03-Consulter mon identité/Consulter identité - client non inscrit</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

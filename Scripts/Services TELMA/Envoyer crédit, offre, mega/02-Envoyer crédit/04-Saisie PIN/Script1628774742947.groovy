@@ -54,8 +54,8 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('8624')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n a pas abouti\\. Vous avez recu un SMS avec les details de votre transaction\\. Si besoin, contactez le Service Clientele au 807\\.',
-	'Tsy tafita ny fangatahanao\\. Naharay SMS manazava ny antony ianao\\. Raha ilaina, antsoy ny Service Clientele amin ny 807\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Le code secret saisi est incorrect. Ref: \\d{1,9}',
+	'Diso ny kaodinao. Ref: \\d{1,9}')
 
 WS.verifyMatch(actualMenu, menu, true)
 
