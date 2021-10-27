@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SOS crédit avec choix montant invalide</name>
+   <name>07-Consulter l aide</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7b3afe8c-616e-4a87-ab08-877b4e900160</testCaseGuid>
+   <testCaseGuid>cb48d5e2-f72e-4420-869c-c7067d6f8e2d</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>0bf3cff0-6e0f-496e-a54e-378c07422309</id>
+      <id>d7fff452-3deb-4a20-bd22-0c5152812594</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

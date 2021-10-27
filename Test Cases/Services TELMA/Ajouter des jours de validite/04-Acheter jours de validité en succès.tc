@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Acheter jours de validité en succès</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa373742-1ac8-421d-8c0e-b3efc8565e6d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>42a3e1fd-614b-4718-8540-95a2b175c5e1</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.montant1Jour</defaultValue>
+      <description></description>
+      <id>bd842f63-94e5-4fb7-8bb8-f443d1ea38dc</id>
+      <masked>false</masked>
+      <name>montant1Jour</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>0cdbf3a4-a32f-4725-b377-0ef9cf21f920</id>
+      <masked>false</masked>
+      <name>nombreJourAchete</name>
+   </variable>
+</TestCaseEntity>

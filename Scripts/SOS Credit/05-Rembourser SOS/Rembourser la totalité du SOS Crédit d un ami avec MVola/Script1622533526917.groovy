@@ -15,13 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroInitiateur="${numeroInitiateur}"
+String numeroInitiateur="261343500078"//"${numeroInitiateur}"
 
 String pinMsisdnInitiateur="${pinMsisdnInitiateur}"
 
-String numeroARembourser="${numeroARembourser}"
+String numeroARembourser="261346848017"//"${numeroARembourser}"
 
-String montantARembourser="${montantARembourser}"
+String montantARembourser="500"//"${montantARembourser}"
 
 'En tant que client TELMA, je vais dans le menu pour SOS Crédit en composant le #111# > 3, puis je sasis 4 et je valide'
 
@@ -58,9 +58,3 @@ actualMenu=CustomKeywords.'ussd.Send.response'(pinMsisdnInitiateur)
 menu=CustomKeywords.'ussd.Expected.menu'('Vous avez transferé '+montantARembourser+' Ar pour rembourser la totalité du SOS du '+numeroARembourser+'\\.', 'Namindra '+montantARembourser+' Ar ho famerenana ny sandan ny SOS ho an ny laharana '+numeroARembourser+' ianao.')
 
 WS.verifyMatch(actualMenu, menu, true)
-
-
-
-
-
-

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remboursement SOS offre</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>33058b64-8d3e-40b9-a698-099db932b310</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>8461dcd7-6ebe-4d26-81a2-ef0bd06bf705</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>c580126d-6401-4779-bd6a-d36b275097ba</id>
+      <masked>false</masked>
+      <name>pinInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>fa73c54b-9d64-4881-8b03-e26e6365a788</id>
+      <masked>false</masked>
+      <name>numeroARembourser</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>36b77c3e-2813-43fd-a0b1-1d4fd7509e27</id>
+      <masked>false</masked>
+      <name>montantBundleARembourser</name>
+   </variable>
+</TestCaseEntity>

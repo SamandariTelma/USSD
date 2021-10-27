@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>Yelow FR</name>
+   <name>Ajout jour validite FR</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
@@ -11,13 +11,18 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'*130*4*6'</initValue>
-      <name>shortCode</name>
+      <initValue>'*130*4*5'</initValue>
+      <name>ShortCode</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'*655'</initValue>
-      <name>shortCode359</name>
+      <initValue>'*130*4*1*1'</initValue>
+      <name>ShortCodeInfoCred</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>dateValidite</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -27,26 +32,26 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'261348000061'</initValue>
-      <name>numeroNonEligible</name>
+      <name>msisdnPostpaid</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'261346848017'</initValue>
+      <initValue>'261346848952'</initValue>
       <name>msisdnCreditInsuffisant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>0</initValue>
-      <name>soldeCredit</name>
+      <initValue>'261346848017'</initValue>
+      <name>msisdnPlus60JoursValidite</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'mg'</initValue>
+      <initValue>'5'</initValue>
+      <name>montant1Jour</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'fr'</initValue>
       <name>langue</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>dateExp</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

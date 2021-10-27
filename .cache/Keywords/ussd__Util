@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "FBFECFDF51D648F6959FF8B0FA45D4BD",
+  "keywordFileContentHash": "3F9E3BF63CEB2915728B40024D6B5C03",
   "keywordClasses": [
     {
       "name": "ussd.Util",
@@ -31,6 +31,51 @@
         {
           "name": "nextDate",
           "parameters": [
+            {
+              "name": "dateIteration",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "format",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "nextDate",
+          "parameters": [
+            {
+              "name": "date",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
             {
               "name": "dateIteration",
               "initialExpression": "",

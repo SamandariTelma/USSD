@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Non eligible au service</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>00513555-b613-435f-a3f2-d8e2c8c8cd91</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnPostpaid</defaultValue>
+      <description></description>
+      <id>7e372a6f-86a3-4899-8bf0-4714459c3f6e</id>
+      <masked>false</masked>
+      <name>numeroPostpaid</name>
+   </variable>
+</TestCaseEntity>

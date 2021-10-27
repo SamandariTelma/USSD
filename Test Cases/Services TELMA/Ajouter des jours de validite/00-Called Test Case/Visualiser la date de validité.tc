@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SOS crédit avec choix montant invalide</name>
+   <name>Visualiser la date de validité</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7b3afe8c-616e-4a87-ab08-877b4e900160</testCaseGuid>
+   <testCaseGuid>5f01b27d-473a-4e6d-ae95-05fceaf3ad31</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>0bf3cff0-6e0f-496e-a54e-378c07422309</id>
+      <id>0d7dd1c7-db50-49ac-92c0-3c8e776470b0</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

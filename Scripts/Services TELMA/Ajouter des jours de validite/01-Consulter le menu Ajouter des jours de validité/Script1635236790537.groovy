@@ -18,18 +18,15 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
-String regexDate ='(0?[1-9]|[12][0-9]|3[01])[\\/\\-](0?[1-9]|1[012])[\\/\\-]\\d{4}'
 
-'En tant que client TELMA, je vais dans le menu pour Info crédit en composant #130*4*1#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+'En tant que client TELMA, je vais dans le menu pour Ajouter des jours de validité en composant #130*4#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA,numeroInitiateur)
+CustomKeywords.'ussd.Send.response'('4')
 
-'Je saisis 1 (Info credit prepaye) et valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 5 (Ajouter des jours de validité) et valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'('5')
 
 'Vérifier la conformité du menu'
-numeroInitiateur=CustomKeywords.'ussd.Util.to034'(numeroInitiateur)
+String menu=CustomKeywords.'ussd.Expected.menu'('Achat de jour de validite\n1 Acheter des jours de validite\n2 Aide', 'Hanampy Fetr\'andro\n1 Hividy fetr\'andro\n2 Fanampiana')
 
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre credit est de \\d{1,8} Ar, valable jusqu\'au '+regexDate+'\\. Bonus \\d{1,8} Ar vers Telma, \\d{1,8} Ar vers Ami Telma, \\d{1,8} Ar vers toute destination',
-	'Ny credit anananao dia \\d{1,8} Ar, izay azonao ampiasaina hatramin ny '+regexDate+'\\. Kaonty voatokananao Bonus TELMA \\d{1,8}, Appel TELMA \\d{1,8} Ar')
-
-WS.verifyMatch(actualMenu, menu, true)  
+WS.verifyMatch(actualMenu, menu, true)

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SOS crédit avec choix montant invalide</name>
+   <name>01-Consulter le menu Ajouter des jours de validité</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7b3afe8c-616e-4a87-ab08-877b4e900160</testCaseGuid>
+   <testCaseGuid>9c29ccce-31e0-4f51-ae4b-79c387405ff7</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>0bf3cff0-6e0f-496e-a54e-378c07422309</id>
+      <id>9647d72b-9cae-4ac9-8f81-1d31dbd243a5</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

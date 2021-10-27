@@ -18,18 +18,36 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
-String regexDate ='(0?[1-9]|[12][0-9]|3[01])[\\/\\-](0?[1-9]|1[012])[\\/\\-]\\d{4}'
 
-'En tant que client TELMA, je vais dans le menu pour Info crédit en composant #130*4*1#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+'Je shortcode #130*4*5#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+"#", numeroInitiateur)
 
-'Je saisis 1 (Info credit prepaye) et valide'
+'Je saisis 1 (Acheter des jours de validite) et valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
-'Vérifier la conformité du menu'
-numeroInitiateur=CustomKeywords.'ussd.Util.to034'(numeroInitiateur)
+'Vérifier la conformité du prompt'
+String menu=CustomKeywords.'ussd.Expected.menu'('Entrez nombre de jours a acheter', 'Isan\'ny andro hovidiana')
 
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre credit est de \\d{1,8} Ar, valable jusqu\'au '+regexDate+'\\. Bonus \\d{1,8} Ar vers Telma, \\d{1,8} Ar vers Ami Telma, \\d{1,8} Ar vers toute destination',
-	'Ny credit anananao dia \\d{1,8} Ar, izay azonao ampiasaina hatramin ny '+regexDate+'\\. Kaonty voatokananao Bonus TELMA \\d{1,8}, Appel TELMA \\d{1,8} Ar')
+WS.verifyMatch(actualMenu, menu, true)
 
-WS.verifyMatch(actualMenu, menu, true)  
+'Je saisis 0 et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('0')
+
+'Vérifier la conformité du prompt'
+menu=CustomKeywords.'ussd.Expected.menu'('Saisie incorrecte, veuiller entrer un nombre entre 1 et 100', 'diso ny tarehimarika, ampidiro ny isa eo anelanelan\'ny  1 sy  100')
+
+WS.verifyMatch(actualMenu, menu, true)
+
+'Je saisis 101 et valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('101')
+
+'Vérifier la conformité du prompt'
+WS.verifyMatch(actualMenu, menu, true)
+
+'Je saisis un nombre différent de 1 à 100 (3ème tentative)'
+actualMenu=CustomKeywords.'ussd.Send.response'('200')
+
+'Vérifier la conformité du prompt'
+menu=CustomKeywords.'ussd.Expected.menu'('Nombre d\'essai maximum atteint\\. Veuillez réessayer plus tard\\.', 'Mihaotra ny fanandramana azo ekena\\.')
+
+WS.verifyMatch(actualMenu, menu, true)

@@ -17,19 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String numeroInitiateur="${numeroInitiateur}"
-String regexDate ='(0?[1-9]|[12][0-9]|3[01])[\\/\\-](0?[1-9]|1[012])[\\/\\-]\\d{4}'
+String numeroAvecSoldeInsuffisant="${numeroAvecSoldeInsuffisant}"
 
-'En tant que client TELMA, je vais dans le menu pour Info crédit en composant #130*4*1#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+'Je shortcode #130*4*5#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+"#", numeroAvecSoldeInsuffisant)
 
-'Je saisis 1 (Info credit prepaye) et valide'
+'Je saisis 1 (Acheter des jours de validite) et valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
-'Vérifier la conformité du menu'
-numeroInitiateur=CustomKeywords.'ussd.Util.to034'(numeroInitiateur)
+'Vérifier la conformité du message'
+String menu=CustomKeywords.'ussd.Expected.menu'('Desole, votre credit est insuffisant utiliser pour ce service\\.', 'Tsy ampy angatahana ity servisy ity ny fahana anananao\\.')
 
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre credit est de \\d{1,8} Ar, valable jusqu\'au '+regexDate+'\\. Bonus \\d{1,8} Ar vers Telma, \\d{1,8} Ar vers Ami Telma, \\d{1,8} Ar vers toute destination',
-	'Ny credit anananao dia \\d{1,8} Ar, izay azonao ampiasaina hatramin ny '+regexDate+'\\. Kaonty voatokananao Bonus TELMA \\d{1,8}, Appel TELMA \\d{1,8} Ar')
-
-WS.verifyMatch(actualMenu, menu, true)  
+WS.verifyMatch(actualMenu, menu, true)

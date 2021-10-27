@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06-Achat de jours de validité - Max de jour atteint (60 jours)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>631f8dce-554a-47ec-9b77-462adec73527</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnPlus60JoursValidite</defaultValue>
+      <description></description>
+      <id>75f11aa3-afb4-4e93-b20a-34fbfa6c68eb</id>
+      <masked>false</masked>
+      <name>numeroPlus60JoursValidite</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>7b3f51b7-3c81-4a77-89bd-59088134114b</id>
+      <masked>false</masked>
+      <name>nombreJourAchete</name>
+   </variable>
+</TestCaseEntity>

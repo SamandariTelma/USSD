@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>MSISDN actif en moins de 1 jour, certifié Mvola </description>
-      <initValue>'261346849627'</initValue>
+      <initValue>'261346847989'</initValue>
       <name>msisdnInitiateur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

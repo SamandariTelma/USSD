@@ -45,6 +45,13 @@ public class Util {
 		return wantedDate.format(format)
 	}
 	@Keyword
+	String nextDate(String date, int dateIteration,String format)
+	{
+		def today=new SimpleDateFormat("dd/MM/yyyy").parse(date)
+		def wantedDate = today + dateIteration
+		return wantedDate.format(format)
+	}
+	@Keyword
 	String getLastDayOfMonth() {
 
 		Date today = new Date();
