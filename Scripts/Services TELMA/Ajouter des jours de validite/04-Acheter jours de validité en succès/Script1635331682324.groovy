@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String numeroInitiateur = "261346848017"//"$numeroInitiateur"
+String numeroInitiateur = "$numeroInitiateur"
 
 String montant1Jour = "$montant1Jour"
 

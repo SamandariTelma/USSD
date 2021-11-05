@@ -27,7 +27,7 @@ String frais = "$frais"
 String montantOffre = "$montantOffre"
 
 'Je consulte mon crédit restant avant d\'envoyer du crédit'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeEnvoyeurAvantEnvoi = GlobalVariable.soldeCredit

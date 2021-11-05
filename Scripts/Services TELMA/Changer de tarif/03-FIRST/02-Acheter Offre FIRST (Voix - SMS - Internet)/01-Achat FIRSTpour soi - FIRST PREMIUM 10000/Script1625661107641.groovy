@@ -20,7 +20,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String montantFirstPrenium = "${montantFirstPrenium}"
 
 'Consulter mon solde avant d\' effectuer un FIRST PRENIUM 10000'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeAvant = GlobalVariable.soldeCredit
@@ -41,7 +41,7 @@ String menu=CustomKeywords.'ussd.Expected.menu'('BRAVO! Grace a l achat de l off
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je vérifie que mon solde est déduit du montant de FIRST PRENIUM 10000'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeApresFirst10000 = GlobalVariable.soldeCredit

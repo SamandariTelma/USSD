@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>f8f48220-b401-44ae-afaa-8be36435c6de</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
       <description></description>
       <id>ddc2a7ed-4398-4918-9896-656d93d6c0b2</id>
       <masked>false</masked>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03 - Vérification prompt pour langue FR</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3ee1be3-1b2d-4885-90c9-8a597931cb45</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>6c9c3e01-b722-45b4-bf05-78880dd2273e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

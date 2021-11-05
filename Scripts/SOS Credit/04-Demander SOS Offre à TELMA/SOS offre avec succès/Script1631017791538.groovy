@@ -33,6 +33,6 @@ CustomKeywords.'ussd.Send.response'('3')
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformtité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'(actualMenu, 'Eo ampanatontosaina ny fangatahanao izahay, hahavoaray sms ianao.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande est en cours de traitement, vous allez recevoir un sms', 'Eo ampanatontosaina ny fangatahanao izahay, hahavoaray sms ianao.')
 
 WS.verifyMatch(actualMenu, menu, true)

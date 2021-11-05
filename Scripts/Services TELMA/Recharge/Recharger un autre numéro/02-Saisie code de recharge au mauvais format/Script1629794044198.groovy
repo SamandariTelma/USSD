@@ -21,7 +21,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String numeroRecepteur="${numeroRecepteur}"
 
 'Je consulte le solde crédit du numéro beneficiaire avant de recharger son compte'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeAvantRecharge = GlobalVariable.soldeCredit
@@ -75,7 +75,7 @@ menu=CustomKeywords.'ussd.Expected.menu'('Le nombre d\'essai maximum a été att
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je consulte le solde crédit du numéro beneficiarie après avoir recharger son compte'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeApresRecharge = GlobalVariable.soldeCredit

@@ -19,11 +19,11 @@ String numeroInitiateur="${numeroInitiateur}"
 
 'Ajourter un 2ème numéro dans ma liste FAF'
 WebUI.callTestCase(findTestCase('Services TELMA/Gerer Friends and Family/02-Ajouter un contact/Ajouter contact avec succès'), 
-    [('numeroInitiateur') : GlobalVariable.msisdnInitiateur, ('numeroAAjouter') : GlobalVariable.msisdnAAjouter2], FailureHandling.CONTINUE_ON_FAILURE)
+    [('numeroInitiateur') : GlobalVariable.msisdnGrossiste, ('numeroAAjouter') : GlobalVariable.msisdnAAjouter2], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Ajouter un 3ème numéro dans ma liste FAF'
 WebUI.callTestCase(findTestCase('Services TELMA/Gerer Friends and Family/02-Ajouter un contact/Ajouter contact avec succès'), 
-    [('numeroInitiateur') : GlobalVariable.msisdnInitiateur, ('numeroAAjouter') : GlobalVariable.msisdnAAjouter3], FailureHandling.CONTINUE_ON_FAILURE)
+    [('numeroInitiateur') : GlobalVariable.msisdnGrossiste, ('numeroAAjouter') : GlobalVariable.msisdnAAjouter3], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Essayer d\' ajouter un 4ème numéro dans ma liste FAF'
 String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '*1*0340030816#', numeroInitiateur)

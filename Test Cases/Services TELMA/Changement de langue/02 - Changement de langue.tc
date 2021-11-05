@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02 - Changement de langue</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfd3892b-57af-4470-817c-82310a9fc53a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>0aaf1e55-b454-4fb2-8e87-ca06113ef6ad</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

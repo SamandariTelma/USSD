@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Annuler envoi stock</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a82b2e51-cf7e-491d-976a-176cb073215a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>5fa4ef66-804c-4967-a078-2428e4832667</id>
+      <masked>false</masked>
+      <name>numeroGrossiste</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>a94e188d-87e2-4384-8564-1c799269c9b9</id>
+      <masked>false</masked>
+      <name>numeroRevendeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
+      <description></description>
+      <id>004e6521-a7ff-4228-b993-c666552a1982</id>
+      <masked>false</masked>
+      <name>numeroANotifier</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
+      <description></description>
+      <id>f1542e30-43de-46a0-bef1-a5c75d1ef5e0</id>
+      <masked>false</masked>
+      <name>pinGrossiste</name>
+   </variable>
+</TestCaseEntity>

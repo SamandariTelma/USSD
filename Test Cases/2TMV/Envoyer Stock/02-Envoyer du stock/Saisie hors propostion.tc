@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Saisie hors propostion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fed9a4ca-3b54-4e42-9adb-9324f542b17b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>d1e37f5c-e07a-4787-9450-56ebbad5d034</id>
+      <masked>false</masked>
+      <name>numeroGrossiste</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>6d999fc4-2f09-4d18-9dfe-1de01d7e6eed</id>
+      <masked>false</masked>
+      <name>numeroRevendeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
+      <description></description>
+      <id>99e8b7c3-ce98-4148-a750-a2476b74d0ee</id>
+      <masked>false</masked>
+      <name>numeroANotifier</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
+      <description></description>
+      <id>d2c7d312-263c-4f34-9db4-03c3d35d6b04</id>
+      <masked>false</masked>
+      <name>pinGrossiste</name>
+   </variable>
+</TestCaseEntity>

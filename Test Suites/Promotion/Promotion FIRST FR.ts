@@ -243,7 +243,7 @@
       <guid>1f066830-c232-4a3f-bf4f-6005df858ea5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Called Test Case/Changer de langue</testCaseId>
+      <testCaseId>Test Cases/00-Called Test Case/Changer de langue</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

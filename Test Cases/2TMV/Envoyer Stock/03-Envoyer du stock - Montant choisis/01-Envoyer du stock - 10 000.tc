@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Envoyer du stock - 10 000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea32f93e-ba82-4e79-afa2-7c98d2065245</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>5314e35c-fa81-414e-a25a-216dc4215acb</id>
+      <masked>false</masked>
+      <name>numeroGrossiste</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>f6eeef51-b308-4b28-aa5e-b655852c339f</id>
+      <masked>false</masked>
+      <name>numeroRevendeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
+      <description></description>
+      <id>2c64d34b-5d5b-4fb0-87e9-d956353f2e9e</id>
+      <masked>false</masked>
+      <name>numeroANotifier</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
+      <description></description>
+      <id>2109fc1f-34f4-4a8e-9308-79f05004357a</id>
+      <masked>false</masked>
+      <name>pinGrossiste</name>
+   </variable>
+   <variable>
+      <defaultValue>'10 000'</defaultValue>
+      <description></description>
+      <id>e0c52616-b989-4338-8452-c1a42422ccc9</id>
+      <masked>false</masked>
+      <name>montantStock</name>
+   </variable>
+</TestCaseEntity>

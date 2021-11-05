@@ -20,7 +20,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String montantYelow = "${montantYelow}"
 
 'Consulter mon solde avant d\' effectuer un YELOW'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeAvant = GlobalVariable.soldeCredit
@@ -44,7 +44,7 @@ String menu=CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW 200 est 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je vérifie que mon solde est déduit du montant de YELOW'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeApresYelow = GlobalVariable.soldeCredit

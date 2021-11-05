@@ -24,7 +24,7 @@ String pinNumeroInitiateur = "$pinNumeroInitiateur"
 
 
 'Je consulte mon crédit restant avant d\'envoyer du crédit'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeEnvoyeurAvantEnvoi = GlobalVariable.soldeCredit
@@ -55,7 +55,7 @@ String menu = CustomKeywords.'ussd.Expected.menu'('Le récepteur a déjà depass
 WS.verifyMatch(actualMenu, menu, true)
 
 'Vérifier que le crédit de l\'envoyeur n\'a pas bougé'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeEnvoyeurApresEnvoi = GlobalVariable.soldeCredit

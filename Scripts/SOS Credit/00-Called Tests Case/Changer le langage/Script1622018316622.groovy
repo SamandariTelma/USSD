@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 'Je compose le short code *130*4*8*1# pour le changement de langage'
 GlobalVariable.message = '*130*4*8*1#'
 
-GlobalVariable.msisdn = GlobalVariable.msisdnInitiateur
+GlobalVariable.msisdn = GlobalVariable.msisdnGrossiste
 
 GlobalVariable.sessionId = CustomKeywords.'ussd.Util.randomizeNumber'()
 

@@ -27,7 +27,7 @@ String pinNumeroInitiateur = "$pinNumeroInitiateur"
 String frais = "$frais"
 
 'Je consulte mon crédit restant avant d\'envoyer du crédit'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeEnvoyeurAvantEnvoi = GlobalVariable.soldeCredit
@@ -35,7 +35,7 @@ println 'Crédit envoyeur: '+soldeEnvoyeurAvantEnvoi
 
 'Je consulte le crédit du numéro recepteur avant de recevoir du crédit'
 
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeRecepteurAvantRecep = GlobalVariable.soldeCredit
@@ -85,7 +85,7 @@ menu = CustomKeywords.'ussd.Expected.menu'('Transfert effectue de '+montantAEnvo
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je vérifie que mon solde est déduit du crédit envoyé'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeEnvoyerApresEnvoi=GlobalVariable.soldeCredit 
@@ -95,7 +95,7 @@ WS.verifyEqual(soldeEnvoyerApresEnvoi, soldeExcepted)
 
 'Je vérifie que le solde du recepteur a beneficier du crédit envoyé '
 
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeRecepApresEnvoi=GlobalVariable.soldeCredit

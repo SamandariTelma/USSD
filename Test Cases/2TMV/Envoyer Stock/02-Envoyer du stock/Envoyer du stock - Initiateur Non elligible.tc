@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Envoyer du stock - Initiateur Non elligible</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea729e1f-5095-43c6-bf68-fee727fed018</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.numeroNonEligible2tmv</defaultValue>
+      <description></description>
+      <id>23d1adb1-5f93-4f32-ad34-714e6993c568</id>
+      <masked>false</masked>
+      <name>numeroGPNonEligible</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>7ae67160-374a-4e15-9f3d-4efbba24beef</id>
+      <masked>false</masked>
+      <name>numeroRevendeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
+      <description></description>
+      <id>83c23cbf-d977-45c9-80a5-602171f37ae8</id>
+      <masked>false</masked>
+      <name>numeroANotifier</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
+      <description></description>
+      <id>30352d85-3554-4583-bbca-0b9deb6d3136</id>
+      <masked>false</masked>
+      <name>pinGrossiste</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Envoyer du stock - Beneficiaire non elligible</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f508a36e-b292-44dc-8553-7e0b6dfe3cf9</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>9374b903-a18c-4dcc-9fd5-f99c0e6973d1</id>
+      <masked>false</masked>
+      <name>numeroGrossiste</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.numeroNonEligible2tmv</defaultValue>
+      <description></description>
+      <id>21985906-7bcb-48b0-a118-b10c88200580</id>
+      <masked>false</masked>
+      <name>numeroRevendeurNonEligible</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
+      <description></description>
+      <id>caa4321a-4eb2-4548-883c-f16ae6bb78a8</id>
+      <masked>false</masked>
+      <name>numeroANotifier</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
+      <description></description>
+      <id>8abd0b61-8efb-4a24-a4b7-5ecaf631575b</id>
+      <masked>false</masked>
+      <name>pinGrossiste</name>
+   </variable>
+</TestCaseEntity>

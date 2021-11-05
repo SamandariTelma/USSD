@@ -717,7 +717,7 @@
       <guid>217d1a05-1a24-4f4b-bcb8-de8ff0836c6c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Called Test Case/Changer de langue</testCaseId>
+      <testCaseId>Test Cases/00-Called Test Case/Changer de langue</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

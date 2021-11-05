@@ -38,7 +38,6 @@ WS.verifyMatch(actualMenu, menu, true)
 'Je saisi un montant supérieur à 199999 au montant autorisé ex: 200000'
 actualMenu=CustomKeywords.'ussd.Send.response'('200000')
 
-'Vérifier la conformité du promt'
+'Vérifier la conformité du prompt'
 
 WS.verifyMatch(actualMenu, menu, true)
-

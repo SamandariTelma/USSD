@@ -15,13 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroInitiateur="261343500078"//"${numeroInitiateur}"
+String numeroInitiateur="${numeroInitiateur}"
 
 String pinMsisdnInitiateur="${pinMsisdnInitiateur}"
 
-String numeroARembourser="261346848017"//"${numeroARembourser}"
+String numeroARembourser="${numeroARembourser}"
 
-String montantARembourser="500"//"${montantARembourser}"
+String montantARembourser="${montantARembourser}"
 
 'En tant que client TELMA, je vais dans le menu pour SOS Crédit en composant le #111# > 3, puis je sasis 4 et je valide'
 

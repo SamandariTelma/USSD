@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>232b4cdc-8289-417b-9a83-401b803c3365</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/01-Menu SOS Credit/Consulter le menu SOS Crédit</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>c2a9eb0d-acea-4696-81b2-0e9b6324c764</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/02-Demander SOS Crédit à TELMA/SOS crédit avec un client moins de 3 mois</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>803078a5-39f4-4869-9c6a-2811e0fab8a5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/02-Demander SOS Crédit à TELMA/SOS crédit avec choix montant invalide</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>046876fe-2995-424c-8387-e1ed7f1a088e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/02-Demander SOS Crédit à TELMA/SOS crédit avec succès</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -74,7 +74,7 @@
    <testCaseLink>
       <guid>84c62da6-890f-4645-9e22-5faa3bb67204</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/02-Demander SOS Crédit à TELMA/SOS crédit avec un client ayant une dette</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -86,7 +86,7 @@
    <testCaseLink>
       <guid>fee5e616-da38-4442-8f3a-7aa20a6e7841</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit au numéro de soi-même</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -98,7 +98,7 @@
    <testCaseLink>
       <guid>5a491fb8-5d99-48d6-b9db-6c19c0bb67fa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit avec un montant non inférieur et supérieur à la limite</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -116,7 +116,7 @@
    <testCaseLink>
       <guid>9d5938a1-b955-437d-b752-f581893605a2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un numéro non TELMA</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -128,7 +128,7 @@
    <testCaseLink>
       <guid>6bb08cf4-53fb-443a-bafd-b37bb0c9c30e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -152,7 +152,7 @@
    <testCaseLink>
       <guid>20ce95c6-2096-4918-b946-563ae5c6bc3e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/03-Demander SOS Crédit à un ami/Limite journalière SOS crédit à un ami</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -170,7 +170,7 @@
    <testCaseLink>
       <guid>bc4ffb36-4582-485b-a901-8e606683d6a4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/06-Repertoire SOS/Ajouter un numéro (PIN mauvais format et PIN invalide)</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -188,7 +188,7 @@
    <testCaseLink>
       <guid>6679dd2f-aad5-4fb5-ab4b-5eb936c87226</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/06-Repertoire SOS/Ajouter un numéro</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -212,7 +212,7 @@
    <testCaseLink>
       <guid>40b79693-b670-40e6-a325-f13a28a55852</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/06-Repertoire SOS/Consulter le repertoire</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -230,7 +230,7 @@
    <testCaseLink>
       <guid>9f9e0e86-91f7-4057-9e4e-525c2666f9a0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/06-Repertoire SOS/Ajouter un numéro qui existe déjà</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -254,7 +254,7 @@
    <testCaseLink>
       <guid>f28d1d51-b68c-4e87-828c-2760af8aecbc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/05-Rembourser SOS/Demander le remboursement à un numéro non certifié MVola</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -272,7 +272,7 @@
    <testCaseLink>
       <guid>efc31d2a-a918-4603-b0cf-c1aa493325d5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/05-Rembourser SOS/Demander le remboursement à un ami</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -290,7 +290,7 @@
    <testCaseLink>
       <guid>ee5decef-46d3-439f-810e-6c26812ac01d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/05-Rembourser SOS/Rembourser la moitié du SOS crédit d un ami</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -314,7 +314,7 @@
    <testCaseLink>
       <guid>b223974a-d441-4f24-91aa-9b8bb7cab05e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/05-Rembourser SOS/Rembourser la totalité du SOS Crédit d un ami avec MVola</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -344,7 +344,7 @@
    <testCaseLink>
       <guid>16c7208a-7924-4acf-ba8c-91943849f690</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/05-Rembourser SOS/Rembourser un ami qui n a pas de dette</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -362,7 +362,7 @@
    <testCaseLink>
       <guid>bcc218be-f6b1-4187-a76d-83c809e21d80</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/05-Rembourser SOS/Rembourser une dette inférieur à un crédit de 100 Ar</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -380,7 +380,7 @@
    <testCaseLink>
       <guid>8060a3a1-72ba-4b82-9b83-fe9d922f8c71</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/02-Demander SOS Crédit à TELMA/SOS crédit après Remboursement du crédit</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -404,7 +404,7 @@
    <testCaseLink>
       <guid>1c9783b1-1ce0-496a-9d2a-950f38161d63</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/06-Repertoire SOS/Supprimer un numéro</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -428,7 +428,7 @@
    <testCaseLink>
       <guid>87ef6e95-3284-4fbe-954f-93026ebdc0cf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/07-Aide/Aide SOS crédit à TELMA</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -440,7 +440,7 @@
    <testCaseLink>
       <guid>77781e00-a799-4549-975c-f0dcfa4ba999</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/07-Aide/Aide SOS offre à TELMA</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -452,7 +452,7 @@
    <testCaseLink>
       <guid>eaa01868-628f-4050-b9fd-295b7a4e5a79</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/07-Aide/Aide SOS crédit à un ami</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -464,7 +464,7 @@
    <testCaseLink>
       <guid>4cd5c039-233b-4c3a-b2c4-bbfe96eee37b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/SOS offre avec un client ayant une dette</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -476,7 +476,7 @@
    <testCaseLink>
       <guid>e2c27adc-d498-4adf-92e5-410301c04316</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/SOS offre avec un client moins de 3 mois</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

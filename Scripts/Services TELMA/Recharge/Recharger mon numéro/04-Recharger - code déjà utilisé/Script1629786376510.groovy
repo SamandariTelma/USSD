@@ -21,7 +21,7 @@ String numeroInitiateur= "${numeroInitiateur}"
 String codeRecharge= "${codeRecharge}"
 
 'Je consulte mon solde crédit avant de recharger mon compte'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeAvantRecharge = GlobalVariable.soldeCredit
@@ -42,7 +42,7 @@ String menu=CustomKeywords.'ussd.Expected.menu'('Votre carte de recharge est dej
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je consulte mon solde crédit après avoir recharger mon compte'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeApresRecharge = GlobalVariable.soldeCredit

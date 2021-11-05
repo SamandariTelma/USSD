@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Ajouter jour de validité (FR)</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>97b5bc69-f305-4669-9a3b-d4bd9a622a4d</testSuiteGuid>
+   <testCaseLink>
+      <guid>fcd458b9-63ea-4c33-b157-9efacc017f74</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Ajouter des jours de validite/01-Consulter le menu Ajouter des jours de validité</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9647d72b-9cae-4ac9-8f81-1d31dbd243a5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>daba99ec-09ff-43af-9bdc-4240708dda12</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Ajouter des jours de validite/02-Non eligible au service</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7e372a6f-86a3-4899-8bf0-4714459c3f6e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1f978878-9710-4dea-88fe-b604cbd88e09</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Ajouter des jours de validite/03-Solde crédit insuffisant</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>abaf2369-f5c8-4bc0-90a5-f13269221c67</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>380c8aaf-77bc-4b40-8d55-d1f6f0a92464</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Ajouter des jours de validite/04-Acheter jours de validité en succès</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>42a3e1fd-614b-4718-8540-95a2b175c5e1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bd842f63-94e5-4fb7-8bb8-f443d1ea38dc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0cdbf3a4-a32f-4725-b377-0ef9cf21f920</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6e8f3f4b-f0d8-44d5-8432-c8ce5502df83</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Ajouter des jours de validite/05-Saisie nombre de jour</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2e85e10d-f9f7-457e-9191-edcdc8cab518</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1d172ca9-275a-40d2-99b2-aaa3ba5f095b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Ajouter des jours de validite/06-Achat de jours de validité - Max de jour atteint (60 jours)</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>75f11aa3-afb4-4e93-b20a-34fbfa6c68eb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7b3f51b7-3c81-4a77-89bd-59088134114b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cf1d2a09-ff65-420a-a66d-ec8db5a2c380</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Ajouter des jours de validite/07-Consulter l aide</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d7fff452-3deb-4a20-bd22-0c5152812594</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

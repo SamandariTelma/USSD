@@ -19,7 +19,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String montantTelmaNet="${montantTelmaNet}"
 
 'Consulter mon solde avant d\' effectuer un TELMA NET'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeAvant = GlobalVariable.soldeCredit
@@ -42,7 +42,7 @@ String menu=CustomKeywords.'ussd.Expected.menu'('Votre achat de NET ONE MONTH 1,
 
 WS.verifyMatch(actualMenu, menu, true)
 'Je vérifie que mon solde est déduit du montant de TELMA NET acheté'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeApresTelmaNet = GlobalVariable.soldeCredit

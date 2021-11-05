@@ -9,18 +9,15 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-String numeroInitiateur="${numeroInitiateur}"
-'Je change la langue de mon USSD en shortcodant *130*4*8*1#'
-String actualMenu=CustomKeywords.'ussd.Send.code'('*130*4*8*1', numeroInitiateur)
+WebUI.callTestCase(findTestCase('2TMV/Envoyer Stock/00-Called test case/Envoyer du stock - Par montant'), [('numeroGrossiste') : GlobalVariable.msisdnGrossiste
+        , ('numeroRevendeur') : GlobalVariable.msisdnRevendeur, ('numeroANotifier') : GlobalVariable.msisdnPourNotification
+        , ('pinGrossiste') : GlobalVariable.pinMsisdnGrossiste, ('montantStock') : '1 000 000'], FailureHandling.CONTINUE_ON_FAILURE)
 
-'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Tanteraka ny fanovana fiteny izay nataonao\\.','Le changement de langue a ete pris en compte\\.')
-
-WS.verifyMatch(actualMenu, menu, true)
-//

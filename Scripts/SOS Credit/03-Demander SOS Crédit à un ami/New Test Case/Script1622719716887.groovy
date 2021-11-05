@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('SOS Credit/06-Repertoire SOS/Supprimer un numéro'), [('numeroInitiateur') : GlobalVariable.msisdnInitiateur
+WebUI.callTestCase(findTestCase('SOS Credit/06-Repertoire SOS/Supprimer un numéro'), [('numeroInitiateur') : GlobalVariable.msisdnGrossiste
         , ('numeroASupprimer') : GlobalVariable.msisdnRecepteur, ('pinMsisdnInitiateur') : GlobalVariable.pinMsisdnRecepteur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 

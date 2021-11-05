@@ -27,7 +27,7 @@ String frais = "$frais"
 String montantOffre = "$montantOffre"
 
 'Je consulte mon crédit restant avant d\'envoyer du crédit'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeEnvoyeurAvantEnvoi = GlobalVariable.soldeCredit
@@ -61,7 +61,7 @@ String menu = CustomKeywords.'ussd.Expected.menu'('Votre credit est insuffisant 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je vérifie que mon solde n\'a pas bougé'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeEnvoyeurApresEnvoi=GlobalVariable.soldeCredit

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01 - Consulter le menu Changement de langue</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2481701c-857b-498f-9cbe-b7a769e64e74</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e7d31876-98a2-430e-8890-541a7cc0bfbf</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

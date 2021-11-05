@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter le menu Envoyer Stock</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a178d86-1cdb-4c1e-8f95-cbeacd6fcf03</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>2cea2055-c1b4-4c21-b41d-64faf6ff1ed5</id>
+      <masked>false</masked>
+      <name>numeroGrossiste</name>
+   </variable>
+</TestCaseEntity>

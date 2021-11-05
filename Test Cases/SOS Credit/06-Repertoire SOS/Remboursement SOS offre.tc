@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>33058b64-8d3e-40b9-a698-099db932b310</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
       <id>8461dcd7-6ebe-4d26-81a2-ef0bd06bf705</id>
       <masked>false</masked>
@@ -20,7 +20,7 @@
       <name>pinInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
       <description></description>
       <id>fa73c54b-9d64-4881-8b03-e26e6365a788</id>
       <masked>false</masked>

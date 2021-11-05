@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String msisdnInitiateur = GlobalVariable.msisdnRecepteur
 
-String msisdnRecepteur = GlobalVariable.msisdnInitiateur
+String msisdnRecepteur = GlobalVariable.msisdnGrossiste
 
 'Je fais un rappelle moi 5 fois succéssive'/*
 WebUI.callTestCase(findTestCase('Rappelle moi/02-Rappelle moi/Rappelle moi avec succès'), [('msisdnInitiateur') : msisdnInitiateur

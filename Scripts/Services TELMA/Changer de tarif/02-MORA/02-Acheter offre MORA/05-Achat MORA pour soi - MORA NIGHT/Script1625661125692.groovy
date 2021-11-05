@@ -20,7 +20,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String montantMora = "${montantMoraNIGHT}"
 
 'Consulter mon solde avant d\' effectuer un achat MORA'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeAvant = GlobalVariable.soldeCredit
@@ -41,7 +41,7 @@ String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez choisi MORA NIGHT, de
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je vérifie que mon solde est déduit du montant de MORA acheté'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeApresMora = GlobalVariable.soldeCredit

@@ -24,7 +24,7 @@ String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy')
 String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'HH:mm')
 
 'Consulter mon solde avant d\' effectuer un Yelow sms'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeAvant = GlobalVariable.soldeCredit
@@ -47,7 +47,7 @@ WS.verifyMatch(actualMenu, menu, true)
 CustomKeywords.'outStream.XML.setDateBundle'("yelow sms", dateExpiration, heureExpiration)
 
 'Je vérifie que mon solde est déduit du montant de Yelow sms'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeApresYelow100 = GlobalVariable.soldeCredit

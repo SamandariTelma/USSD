@@ -23,6 +23,5 @@ String montantBundleARembourser="${montantBundleARembourser}"
 String pinInitiateur="${pinInitiateur}"
 
 WebUI.callTestCase(findTestCase('SOS Credit/05-Rembourser SOS/Rembourser la totalité du SOS Crédit d un ami avec MVola'), 
-    [('numeroInitiateur') : numeroInitiateur, ('numeroARembourser') : numeroARembourser, ('montantARembourser') : GlobalVariable.montantARembourser
-        , ('pinMsisdnInitiateur') : GlobalVariable.pinMsisdnInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
-
+    [('numeroInitiateur') : numeroInitiateur, ('numeroARembourser') : numeroARembourser, ('montantARembourser') : montantBundleARembourser
+        , ('pinMsisdnInitiateur') : pinInitiateur], FailureHandling.CONTINUE_ON_FAILURE)

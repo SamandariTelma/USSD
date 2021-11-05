@@ -23,7 +23,7 @@ String codeRecharge="${codeRecharge}"
 String montantRecharge="${montantRecharge}"
 
 'Je consulte le solde crédit du numéro beneficiaire avant de recharger son compte'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeAvantRecharge = GlobalVariable.soldeCredit
@@ -56,7 +56,7 @@ menu=CustomKeywords.'ussd.Expected.menu'('Vous venez de recharger le compte du '
 	'Voafahana '+montantRecharge+' Ar ny kaontin\'ny '+numeroRecepteur+'\\.')
 
 'Je consulte le solde crédit du numéro beneficiarie après avoir recharger son compte'
-WebUI.callTestCase(findTestCase('Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeApresRecharge = GlobalVariable.soldeCredit
