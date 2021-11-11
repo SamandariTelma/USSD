@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Acceder à 2tmv via un numéro GP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>99f475cb-7387-4b78-bbe3-c95bbf882da7</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnClientGP</defaultValue>
+      <description></description>
+      <id>5f8158db-b836-4526-9307-f236dc612dfb</id>
+      <masked>false</masked>
+      <name>numeroEnvoyeur</name>
+   </variable>
+</TestCaseEntity>

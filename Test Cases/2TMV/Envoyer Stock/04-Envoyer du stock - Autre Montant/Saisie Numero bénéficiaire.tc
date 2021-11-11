@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Saisie Numero bénéficiaire</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9cddd09-50b3-4597-95d7-b7612faff97e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>1b42c73e-2123-4d2e-96a6-a3deddb589c3</id>
+      <masked>false</masked>
+      <name>numeroGrossiste</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
+      <description></description>
+      <id>f1d20888-1b89-4475-999d-03a871c83140</id>
+      <masked>false</masked>
+      <name>numeroANotifier</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
+      <description></description>
+      <id>dabbf748-989a-4fe9-961c-ce1c6d84b923</id>
+      <masked>false</masked>
+      <name>pinGrossiste</name>
+   </variable>
+</TestCaseEntity>

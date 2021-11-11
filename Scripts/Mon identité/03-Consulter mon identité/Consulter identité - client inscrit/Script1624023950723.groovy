@@ -26,5 +26,5 @@ String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#'
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Votre compte est Identifie et Certifie MVola\\. Type et numéro de pièce enregistrés : CIN \\*\\*\\*'+troisDernierChiffreCIN+'\\. MVola vous remercie de votre confiance\\.')
-
+//ou L'identification de votre compte est en cours de traitement. Pour plus d'information, contactez le 807.
 WS.verifyMatch(actualMenu, menu, true)

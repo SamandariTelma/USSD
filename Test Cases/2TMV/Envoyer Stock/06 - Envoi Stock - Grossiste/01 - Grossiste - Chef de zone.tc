@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01 - Grossiste - Chef de zone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6431c5c7-fde9-48d6-8483-deeefcaacc42</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>8fe7d4b2-d579-473d-8e7d-4bb67c89b8d4</id>
+      <masked>false</masked>
+      <name>numeroEnvoyeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnChefDeZone</defaultValue>
+      <description></description>
+      <id>a604ea8a-0a1d-47a7-921b-b690f12cadb6</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'10 000'</defaultValue>
+      <description></description>
+      <id>1e76c185-a561-4b36-8011-a5f8b0f47523</id>
+      <masked>false</masked>
+      <name>montantStock</name>
+   </variable>
+</TestCaseEntity>

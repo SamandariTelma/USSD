@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05 - Grossiste - Client GP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbd0e7a9-7717-4581-a1ab-b941fa0a000b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>c6608bf3-9847-4a1e-9796-bd99c20d3f69</id>
+      <masked>false</masked>
+      <name>numeroEnvoyeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnClientGP</defaultValue>
+      <description></description>
+      <id>c7f93766-dba2-4a62-bdce-8ef364bd2318</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'10 000'</defaultValue>
+      <description></description>
+      <id>823dfbdc-cb6d-4b4c-95a4-aad8885bc020</id>
+      <masked>false</masked>
+      <name>montantStock</name>
+   </variable>
+</TestCaseEntity>

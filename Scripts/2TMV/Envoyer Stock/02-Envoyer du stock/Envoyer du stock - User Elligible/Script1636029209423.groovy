@@ -51,10 +51,10 @@ WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis correctement le numero (0346848239) pour passer le SMS de confirmation et je valide'
 numeroANotifier=CustomKeywords.'ussd.Util.to034'(numeroANotifier)
-actualMenu=CustomKeywords.'ussd.Send.response'(numeroANotifier)
+CustomKeywords.'ussd.Send.response'(numeroANotifier)
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret :', 'Entrer code secret :')
+CustomKeywords.'ussd.Expected.menu'('Entrer code secret :', 'Entrer code secret :')
 
 WS.verifyMatch(actualMenu, menu, true)
 'Je saisis correctement mon PIN (0000) et je valide'

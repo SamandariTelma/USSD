@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Numero pour l'inscription sans prénom</description>
-      <initValue>'261343063864'</initValue>
+      <initValue>'261343063891'</initValue>
       <name>msisdnInitiateur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

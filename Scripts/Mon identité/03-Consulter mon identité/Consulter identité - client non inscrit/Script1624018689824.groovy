@@ -24,6 +24,6 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Cher client, pour pouvoir utiliser les services TELMA, ouvrez gratuitement votre compte auprès d\'un TS ou revendeur SIM TELMA le plus proche, muni de votre CIN')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre compte n\'est pas identifie\\. Motif de non identification : 1\\. Rendez-vous en TS ou dans un revendeur SIM TELMA pour completer vos dossiers')
 
 WS.verifyMatch(actualMenu, menu, true)

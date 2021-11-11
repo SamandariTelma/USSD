@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Saisie montant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa32b186-e5fe-48e6-a60e-6cfc69e6608f</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>81c513ed-e765-4f6d-8cf1-b15ecf92d426</id>
+      <masked>false</masked>
+      <name>numeroGrossiste</name>
+   </variable>
+</TestCaseEntity>

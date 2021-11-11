@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Envoi stock - destinataire non eligible</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6eb9be8-bebe-4925-9bc8-8f3fc4a19dd1</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>2da0af23-372f-4ec1-967a-77b207b768ec</id>
+      <masked>false</masked>
+      <name>numeroEnvoyeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>3251c3fa-ee58-41f8-9399-33521cbb8673</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
+      <description></description>
+      <id>49bb0723-8e79-4ab2-9799-97364f033c38</id>
+      <masked>false</masked>
+      <name>numeroANotifier</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
+      <description></description>
+      <id>edc54909-b7d9-4e2b-b329-4f422b3a7fee</id>
+      <masked>false</masked>
+      <name>pinGrossiste</name>
+   </variable>
+   <variable>
+      <defaultValue>'10000'</defaultValue>
+      <description></description>
+      <id>201c0fd8-b5f4-40e1-a6ad-5cf0e2848192</id>
+      <masked>false</masked>
+      <name>montantStock</name>
+   </variable>
+</TestCaseEntity>

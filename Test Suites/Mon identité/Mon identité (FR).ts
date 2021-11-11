@@ -114,6 +114,18 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>8924ab3c-c8b3-4891-a77d-eadc40538f71</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mon identité/02-Renseigner mon identité/Renseigner identité - client inscrit</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2ac6b71b-bfee-4664-9303-b0e3c747ea25</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>44f276fd-f511-45cc-8788-bb49d45ab107</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -141,18 +153,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>ddea4f37-76f8-4e29-87ed-5a7325a5e4f4</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8924ab3c-c8b3-4891-a77d-eadc40538f71</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Mon identité/02-Renseigner mon identité/Renseigner identité - client inscrit</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2ac6b71b-bfee-4664-9303-b0e3c747ea25</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

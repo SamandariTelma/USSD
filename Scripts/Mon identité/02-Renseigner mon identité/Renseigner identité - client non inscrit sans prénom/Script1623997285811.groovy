@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroInitiateur="${numeroInitiateur}"
+String numeroInitiateur='261343063891'//"${numeroInitiateur}"
 
 String nomInitiateur="${nomInitiateur}"
 
@@ -36,7 +36,7 @@ CustomKeywords.'ussd.Send.response'(nomInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('0')
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Merci de renseigner le numero de votre piece d\'identite :', 'Ampidiro ny laharan ny karapanondronao')
+String menu=CustomKeywords.'ussd.Expected.menu'('Merci de renseigner le numero de votre piece d\'identite :', 'Ampidiro ny laharan ny karapanondronao :')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -45,10 +45,10 @@ actualMenu=CustomKeywords.'ussd.Send.response'(cin)
 
 'Vérifier la conformité du prompt'
 menu=CustomKeywords.'ussd.Expected.menu'('Pour confirmer l\'enregistrement du numero '+numeroInitiateurFormate+' au nom de '+nomInitiateur+'   '+cin+' merci de taper 1, sinon ignorez', 
-	'Mba ahafahanao manamafy hanamarinanao ny fanamarinana fisoratan ny laharana '+numeroInitiateurFormate+' amin ny anaran ny i '+nomInitiateur+' '+prenom+' '+cin+'  tsindrio ny 1, raha tsy izay, dingano')
+	'Mba ahafahanao manamafy hanamarinanao ny fanamarinana fisoratan ny laharana '+numeroInitiateurFormate+' amin ny anaran ny i '+nomInitiateur+'   '+cin+' tsindrio ny 1, raha tsy izay, dingano')
 
 WS.verifyMatch(actualMenu, menu, true)
-
+/*
 'Je saisis 1 et je valide'
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
@@ -57,3 +57,5 @@ menu=CustomKeywords.'ussd.Expected.menu'('Votre identification s\'est deroulee a
 	'Voamarina soamantsara ny laharanao\\. Raha mila fanazavana fanampiny momba ny MVola dia manatona mpaninjara Telma\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
+*/
+println('fin')

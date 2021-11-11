@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04 - Grossiste - Grossiste</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9715f40d-ee9d-45f9-8293-40be6af442ae</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>5044921b-4734-41ae-9b81-a65f51135be9</id>
+      <masked>false</masked>
+      <name>numeroEnvoyeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste2</defaultValue>
+      <description></description>
+      <id>17d52efa-5d64-43db-b762-5854dc769b5e</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'10 000'</defaultValue>
+      <description></description>
+      <id>d97c3c11-fb66-4982-922c-224ba9e2705b</id>
+      <masked>false</masked>
+      <name>montantStock</name>
+   </variable>
+</TestCaseEntity>

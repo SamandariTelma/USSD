@@ -21,7 +21,6 @@ String numeroGrossiste="${numeroGrossiste}"
 String numeroRevendeur="${numeroRevendeur}"
 String numeroANotifier="${numeroANotifier}"
 String pinGrossiste="${pinGrossiste}"
-String montantStock="${montantStock}"
 
 'En tant que MSISDN grossiste [0346849414], je compose le *130*129*5#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroGrossiste)
@@ -30,36 +29,30 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroGrossiste)
 CustomKeywords.'ussd.Send.response'('2')
 
 'Je clique sur 1 Envoyer du stock et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('1')
+CustomKeywords.'ussd.Send.response'('1')
 
-'Je saisis le rang du stock a envoyer'
-String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('Envoyer '+montantStock+' Ar', actualMenu)
-actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
+'Je saisis 1 (Autre montant) et je valide'
+CustomKeywords.'ussd.Send.response'('1')
+
+'Je saisis un montant 1 000 000 et je valide'
+CustomKeywords.'ussd.Send.response'('10000000')
 
 'Je saisis correctement le numero du Destinataire [0346847989] qui est revendeur et je valide'
 numeroRevendeur=CustomKeywords.'ussd.Util.to034'(numeroRevendeur)
 CustomKeywords.'ussd.Send.response'(numeroRevendeur)
-
-'Je saisis 1 Oui pour saisir le numéro de confirmation'
-CustomKeywords.'ussd.Send.response'('1')
 
 'Je saisis correctement le numero (0346848239) pour passer le SMS de confirmation et je valide'
 numeroANotifier=CustomKeywords.'ussd.Util.to034'(numeroANotifier)
 CustomKeywords.'ussd.Send.response'(numeroANotifier)
 
 'Je saisis correctement mon PIN (0000) et je valide'
-actualMenu=CustomKeywords.'ussd.Send.response'(pinGrossiste)
+CustomKeywords.'ussd.Send.response'(pinGrossiste)
 
-'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Envoyer '+montantStock+' Ar au '+numeroRevendeur+' \\? No pour SMS de confirmation '+numeroANotifier+'\n1 \\- Oui\n0 \\- Non',
-	'Andefa '+montantStock+' Ar amin\'ny '+numeroRevendeur+' \\?  No pour SMS de confirmation '+numeroANotifier+'\n1 \\- Eny \n0 \\- Tsia')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 1 (Oui) pour confirmation et je valide'
-actualMenu=CustomKeywords.'ussd.Send.response'('1')
+'Je saisis 1 (Oui) et je valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert est en cours de traitement\\.','Tontosa ny fividiana fahana ho n\'ny laharako\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n a pas abouti\\. Vous avez recu un SMS avec les details de votre transaction\\. Si besoin, contactez le Service Clientele au 807\\.',
+	'Tsy tafita ny fangatahanao\\. Naharay SMS manazava ny antony ianao\\. Raha ilaina, antsoy ny Service Clientele amin ny 807\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

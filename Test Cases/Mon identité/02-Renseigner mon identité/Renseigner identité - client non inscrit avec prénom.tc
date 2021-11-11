@@ -20,7 +20,7 @@
       <name>nomInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>'PrénomTest'</defaultValue>
+      <defaultValue>'PrenomTest'</defaultValue>
       <description></description>
       <id>a5cb0c81-fd03-44d9-9ba5-e6010ba7bc92</id>
       <masked>false</masked>

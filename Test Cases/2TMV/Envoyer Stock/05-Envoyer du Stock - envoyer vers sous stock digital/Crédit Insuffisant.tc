@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Crédit Insuffisant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad5686fb-c31d-4b37-a98b-d5d975704cdd</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>6d635399-7a86-4d73-9ed3-7132bef8b8bd</id>
+      <masked>false</masked>
+      <name>numeroGrossiste</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>ad3d3567-144b-4221-81bf-82554dece41a</id>
+      <masked>false</masked>
+      <name>numeroRevendeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
+      <description></description>
+      <id>ae526e67-e331-4b0a-b8eb-e29d58749a4f</id>
+      <masked>false</masked>
+      <name>numeroANotifier</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
+      <description></description>
+      <id>47aa40a0-9c41-43fb-845e-cbd04402d765</id>
+      <masked>false</masked>
+      <name>pinGrossiste</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sans numero pour SMS de confirmation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a88edcb3-1f81-4765-b426-22b9866480f7</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>eea700f4-ad60-4d52-a419-b27dae99aaa3</id>
+      <masked>false</masked>
+      <name>numeroGrossiste</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>4dfe13cf-5c55-43db-8045-e93014eec264</id>
+      <masked>false</masked>
+      <name>numeroRevendeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
+      <description></description>
+      <id>fb038515-0920-4e70-9578-bd43ce72200a</id>
+      <masked>false</masked>
+      <name>numeroANotifier</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
+      <description></description>
+      <id>640750f7-5090-4063-9523-d20a102a472b</id>
+      <masked>false</masked>
+      <name>pinGrossiste</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04 - Chef de zone - Client GP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>38d21fe3-bfbe-46d2-8bbf-09f76a740090</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnChefDeZone</defaultValue>
+      <description></description>
+      <id>e957fb5b-5272-412b-a66c-4d2b74435078</id>
+      <masked>false</masked>
+      <name>numeroEnvoyeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnClientGP</defaultValue>
+      <description></description>
+      <id>aba5b3da-48b9-4fe4-b394-d793d209d4b7</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'10 000'</defaultValue>
+      <description></description>
+      <id>ab862380-44d6-4d59-824f-7c5937c5886d</id>
+      <masked>false</masked>
+      <name>montantStock</name>
+   </variable>
+</TestCaseEntity>

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('2TMV/Envoyer Stock/00-Called test case/Envoyer du stock - Par montant'), [('numeroGrossiste') : GlobalVariable.msisdnGrossiste
+WebUI.callTestCase(findTestCase('2TMV/Envoyer Stock/00-Called test case/Envoi stock - destinataire eligible'), [('numeroGrossiste') : GlobalVariable.msisdnGrossiste
         , ('numeroRevendeur') : GlobalVariable.msisdnRevendeur, ('numeroANotifier') : GlobalVariable.msisdnPourNotification
-        , ('pinGrossiste') : GlobalVariable.pinMsisdnGrossiste, ('montantStock') : '20 000'], FailureHandling.CONTINUE_ON_FAILURE)
+        , ('pinGrossiste') : GlobalVariable.pinEnvoyeur, ('montantStock') : '20 000'], FailureHandling.CONTINUE_ON_FAILURE)
 
