@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01 - Point de vente - Client GP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>257da3c5-ad47-4260-a8e3-08a531a78646</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>08fd8c02-bb3d-40de-aa0d-bead1d7d03d8</id>
+      <masked>false</masked>
+      <name>numeroEnvoyeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnClientGP</defaultValue>
+      <description></description>
+      <id>7f08b83a-7b73-4462-8a7a-0e7e88a1680d</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'10 000'</defaultValue>
+      <description></description>
+      <id>944c942c-f1e0-4c8d-9e8f-26c426cdaea4</id>
+      <masked>false</masked>
+      <name>montantStock</name>
+   </variable>
+</TestCaseEntity>

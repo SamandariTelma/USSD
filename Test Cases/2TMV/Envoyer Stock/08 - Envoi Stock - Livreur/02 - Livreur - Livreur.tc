@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02 - Livreur - Livreur</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd127b62-20d4-45a2-a28e-1f0371baaf81</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnLivreur</defaultValue>
+      <description></description>
+      <id>dad5e879-9fa9-418b-ae1a-dc5fcb01274f</id>
+      <masked>false</masked>
+      <name>numeroEnvoyeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnLivreur2</defaultValue>
+      <description></description>
+      <id>fc00f658-7831-4829-99bf-2258fd2faac3</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'10 000'</defaultValue>
+      <description></description>
+      <id>2a3d2795-db92-43aa-ab74-6c1d52c9e51c</id>
+      <masked>false</masked>
+      <name>montantStock</name>
+   </variable>
+</TestCaseEntity>

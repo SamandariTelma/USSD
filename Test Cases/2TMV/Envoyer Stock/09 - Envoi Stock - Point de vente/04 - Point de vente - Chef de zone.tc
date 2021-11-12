@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04 - Point de vente - Chef de zone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68446845-3b96-488d-82d5-af93d21421e8</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>9f2f4b07-61b3-4809-bf23-3ca4ca1d63fa</id>
+      <masked>false</masked>
+      <name>numeroEnvoyeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnChefDeZone</defaultValue>
+      <description></description>
+      <id>08f68468-be15-429e-a367-fc00bfb334ce</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'10 000'</defaultValue>
+      <description></description>
+      <id>dceb0d74-16f5-4111-94ab-e5a1b7969d2e</id>
+      <masked>false</masked>
+      <name>montantStock</name>
+   </variable>
+</TestCaseEntity>

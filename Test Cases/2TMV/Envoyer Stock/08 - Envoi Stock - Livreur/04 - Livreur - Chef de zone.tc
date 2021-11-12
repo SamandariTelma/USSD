@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04 - Livreur - Chef de zone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b361b359-5752-4510-b03e-db618310c1ee</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnLivreur</defaultValue>
+      <description></description>
+      <id>fed08a76-445d-43f8-a898-2ad6d7cb3d81</id>
+      <masked>false</masked>
+      <name>numeroEnvoyeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnChefDeZone</defaultValue>
+      <description></description>
+      <id>24b824ef-9f81-471b-8bf2-54c38bf48760</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'10 000'</defaultValue>
+      <description></description>
+      <id>0e266518-31c5-45e2-8531-3453b841fa35</id>
+      <masked>false</masked>
+      <name>montantStock</name>
+   </variable>
+</TestCaseEntity>

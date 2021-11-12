@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FolderEntity>
-   <description>folder</description>
-   <name>08 - Envoi Stock - Livreur --</name>
+   <description></description>
+   <name>09 - Envoi Stock - Point de vente</name>
    <tag></tag>
    <folderType>TESTCASE</folderType>
 </FolderEntity>

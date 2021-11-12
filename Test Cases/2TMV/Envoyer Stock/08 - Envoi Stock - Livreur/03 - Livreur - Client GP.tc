@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03 - Livreur - Client GP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65c5416e-f318-4024-80a4-1c9867a299e3</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnLivreur</defaultValue>
+      <description></description>
+      <id>aa182a54-5122-4c59-8893-7092cea81c27</id>
+      <masked>false</masked>
+      <name>numeroEnvoyeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnClientGP</defaultValue>
+      <description></description>
+      <id>feafb23c-f4d7-4087-bd71-69f4ba3e7273</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'10 000'</defaultValue>
+      <description></description>
+      <id>411b05f4-58e4-4fa7-beb2-3e02ddcf6c6a</id>
+      <masked>false</masked>
+      <name>montantStock</name>
+   </variable>
+</TestCaseEntity>

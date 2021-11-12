@@ -4,11 +4,11 @@
    <name>Acceder à 2tmv via un numéro GP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>99f475cb-7387-4b78-bbe3-c95bbf882da7</testCaseGuid>
+   <testCaseGuid>9662a561-6b29-4b36-a5d4-5eb49c377f04</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnClientGP</defaultValue>
       <description></description>
-      <id>5f8158db-b836-4526-9307-f236dc612dfb</id>
+      <id>66c47845-6b31-4597-8d40-fb9db1626d6d</id>
       <masked>false</masked>
       <name>numeroEnvoyeur</name>
    </variable>
