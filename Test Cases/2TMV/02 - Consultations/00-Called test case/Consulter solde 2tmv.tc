@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter solde 2tmv</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da5c7270-d1d8-4746-b51f-7ba41ab615f6</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>31021c3e-b88f-4ad0-a9d6-aa6898fc8b2e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <description></description>
+      <id>1cce3fb6-0d80-4631-bc44-8db29701e346</id>
+      <masked>false</masked>
+      <name>pinInitiateur</name>
+   </variable>
+</TestCaseEntity>

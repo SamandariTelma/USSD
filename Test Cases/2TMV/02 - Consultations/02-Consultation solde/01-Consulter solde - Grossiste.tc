@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Consulter solde - Grossiste</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8ec808bb-1fc2-47c9-ac4b-2fe08f622fa6</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>a8a9cde3-338b-4b30-90e5-ea2485bfb0ce</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <description></description>
+      <id>6ed2dc2e-80ef-4d10-a5e8-9edc3880ba0f</id>
+      <masked>false</masked>
+      <name>pinInitiateur</name>
+   </variable>
+</TestCaseEntity>

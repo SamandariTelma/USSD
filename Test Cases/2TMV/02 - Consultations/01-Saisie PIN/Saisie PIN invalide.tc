@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Saisie PIN invalide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9de82f4b-cacb-4490-bd01-80ef48d103e1</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>4b5057a6-fca9-4b64-9c3e-b4bef7ff6c46</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

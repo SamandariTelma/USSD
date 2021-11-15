@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Consulter solde - Point de vente</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eff44b1e-ab9e-45df-98f4-329e3b02ae56</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>8ca5f8ad-cbb6-4648-869b-5cc0e32edfc5</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <description></description>
+      <id>7fa8c63c-774a-4dbc-aa8b-57cf5eedd281</id>
+      <masked>false</masked>
+      <name>pinInitiateur</name>
+   </variable>
+</TestCaseEntity>

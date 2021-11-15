@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Consulter solde - Livreur</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3676ce92-bd19-4a27-b284-25353f41e799</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnLivreur</defaultValue>
+      <description></description>
+      <id>3b4aa775-6a15-4e62-84a7-2ebd8ccf8f1a</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <description></description>
+      <id>951ca0df-e5f7-449c-89b3-72b3060ed593</id>
+      <masked>false</masked>
+      <name>pinInitiateur</name>
+   </variable>
+</TestCaseEntity>
