@@ -33,7 +33,9 @@ String menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret :')
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Je saisis un PIN plus de 4 chiffres'
+
+
+'Je saisis un PIN qui ne m\'appartient pas'
 actualMenu=CustomKeywords.'ussd.Send.response'('2589')
 
 'Vérifier la conformité du prompt'

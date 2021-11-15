@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter bonus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2edb0867-113f-4d68-bab5-bf43ce0fa644</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>a520f6a5-d881-451e-8a70-42218f00ce16</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <description></description>
+      <id>b928f0a0-70bd-41d2-a7b7-17b5854c2ebd</id>
+      <masked>false</masked>
+      <name>pinInitiateur</name>
+   </variable>
+</TestCaseEntity>

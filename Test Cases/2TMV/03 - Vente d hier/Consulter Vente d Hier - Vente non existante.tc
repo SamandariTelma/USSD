@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter Vente d Hier - Vente non existante</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d61e40c2-3756-480e-ac95-e746e1e31799</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>acc39bcf-57b5-4d62-b0bc-b837c31c12c9</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

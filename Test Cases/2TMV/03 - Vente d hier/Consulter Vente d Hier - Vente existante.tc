@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter Vente d Hier - Vente existante</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f6d5354-a5b4-4448-a0ce-7ca2dc429e61</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>a098b83e-7a5d-4376-8470-622988a8d4c2</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <description></description>
+      <id>ea4a61bc-74f4-41e0-b901-d36b9e12ae1c</id>
+      <masked>false</masked>
+      <name>pin</name>
+   </variable>
+</TestCaseEntity>

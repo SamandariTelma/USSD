@@ -17,26 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String numeroInitiateur="${numeroInitiateur}"
-String pinInitiateur="${pinInitiateur}"
 
-'En tant que MSISDN grossiste , je compose le *130*129*5#'
+String numeroInitiateur="${numeroInitiateur}"
+String pin="${pin}"
+
+'En tant que MSISDN grossiste, je compose le *130*129*5#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
 
 'Je compose le 2 ( De toi a moi vaovao) et je valide'
 CustomKeywords.'ussd.Send.response'('2')
 
-'Je saisis 4 (Consultation du solde) et je valide'
+'Je saisis 4 (Ventes d\'hier) et je valide'
 CustomKeywords.'ussd.Send.response'('4')
 
-'Je saisis un PIN valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'(pinInitiateur)
+'Je saisis correctement mon PIN (0000) et je valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'(pin)
 
 'Vérifier la conformité du message ussd'
-Stirng menu=CustomKeywords.'ussd.Expected.menu'('Votre solde est de \\d{1,8} Ar\\. Ref:\\d{1,10}')
+String menu=CustomKeywords.'ussd.Expected.menu'('Total montant envoyé : \\d{1,10} Ar\\. Le nombre de transactions est: \\d{1,4} \\. Ref: \\d{1,10}')
 
 WS.verifyMatch(actualMenu, menu, true)
-
-String solde=actualMenu.substring(actualMenu.lastIndexOf('solde est de')+12, actualMenu.lastIndexOf('Ar'))
-
-GlobalVariable.solde2tmv=solde

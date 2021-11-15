@@ -26,17 +26,10 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
 'Je compose le 2 ( De toi a moi vaovao) et je valide'
 CustomKeywords.'ussd.Send.response'('2')
 
-'Je saisis 4 (Consultation du solde) et je valide'
-CustomKeywords.'ussd.Send.response'('4')
-
-'Je saisis un PIN valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'(pinInitiateur)
+'Je saisis 3 (Consultation de bonus) et je valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du message ussd'
-Stirng menu=CustomKeywords.'ussd.Expected.menu'('Votre solde est de \\d{1,8} Ar\\. Ref:\\d{1,10}')
+Stirng menu=CustomKeywords.'ussd.Expected.menu'('Votre bonus est de \\d{1,8} Ar')
 
 WS.verifyMatch(actualMenu, menu, true)
-
-String solde=actualMenu.substring(actualMenu.lastIndexOf('solde est de')+12, actualMenu.lastIndexOf('Ar'))
-
-GlobalVariable.solde2tmv=solde
