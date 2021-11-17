@@ -39,4 +39,4 @@ WS.verifyMatch(actualMenu, menu, true)
 
 String solde=actualMenu.substring(actualMenu.lastIndexOf('solde est de')+12, actualMenu.lastIndexOf('Ar'))
 
-GlobalVariable.solde2tmv=solde
+GlobalVariable.solde2tmv=solde.toInteger()

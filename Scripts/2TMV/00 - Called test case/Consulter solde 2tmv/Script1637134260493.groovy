@@ -20,40 +20,18 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 String pinInitiateur="${pinInitiateur}"
 
-'En tant que MSISDN grossiste, je compose le *130*129*5#'
+'En tant que MSISDN grossiste , je compose le *130*129*5#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
 
 'Je compose le 2 ( De toi a moi vaovao) et je valide'
 CustomKeywords.'ussd.Send.response'('2')
 
-'Je saisis 7 (Changement de langue) et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('7')
+'Je saisis 4 (Consultation du solde) et je valide'
+CustomKeywords.'ussd.Send.response'('4')
 
-'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('1 Ho an\'ny teny Frantsay\n 2 Pour le Malagasy')
+'Je saisis un PIN valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'(pinInitiateur)
 
-WS.verifyMatch(actualMenu, menu, true)
+String solde=actualMenu.substring(actualMenu.lastIndexOf('solde est de')+12, actualMenu.lastIndexOf('Ar'))
 
-'Je saisis 1 (Ho an\'ny teny Frantsay)'
-actualMenu=CustomKeywords.'ussd.Send.response'('1')
-
-'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret:')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis un code pin au mauvais format'
-actualMenu=CustomKeywords.'ussd.Send.response'('185')
-
-'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis correctement mon PIN et je valide'
-actualMenu=CustomKeywords.'ussd.Send.response'(pinInitiateur)
-
-'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Votre demande est en cours de traitement')
-
-WS.verifyMatch(actualMenu, menu, true)
+GlobalVariable.solde2tmv=solde.toInteger()

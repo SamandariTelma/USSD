@@ -11,57 +11,57 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'*130*129*5#'</initValue>
+      <initValue>'*130*2#'</initValue>
       <name>shortCode</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'261346849414'</initValue>
+      <initValue>'261340683172'</initValue>
       <name>msisdnGrossiste</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'261388494798'</initValue>
       <name>msisdnGrossiste2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'261346847989'</initValue>
-      <name>msisdnRevendeur</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>msisdnRevendeur2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
+      <initValue>'261343063864'</initValue>
       <name>msisdnChefDeZone</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'261380724684'</initValue>
       <name>msisdnChefDeZone2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'261340693538'</initValue>
       <name>msisdnLivreur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'261380531183'</initValue>
       <name>msisdnLivreur2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'261343063902'</initValue>
+      <name>msisdnRevendeur</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'261380000040'</initValue>
+      <name>msisdnRevendeur2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2610346848017'</initValue>
       <name>msisdnClientGP</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'2610346849627'</initValue>
       <name>msisdnClientGP2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,12 +76,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'1111'</initValue>
+      <initValue>'0000'</initValue>
       <name>pinEnvoyeur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>0</initValue>
       <name>solde2tmv</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

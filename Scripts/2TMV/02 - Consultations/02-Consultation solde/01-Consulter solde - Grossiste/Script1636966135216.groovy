@@ -25,4 +25,3 @@ String pinInitiateur = "$pinInitiateur"
 
 WebUI.callTestCase(findTestCase('2TMV/02 - Consultations/00-Called test case/Consulter solde 2tmv'), [('numeroInitiateur') : numeroInitiateur
         , ('pinInitiateur') : pinInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
-

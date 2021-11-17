@@ -34,8 +34,8 @@ String menu=CustomKeywords.'ussd.Expected.menu'('1 Ho an\'ny teny Frantsay\n 2 P
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Je saisis 1 (Ho an\'ny teny Frantsay)'
-actualMenu=CustomKeywords.'ussd.Send.response'('1')
+'Je saisis Pour le malagasy (Pour le malagasy)'
+actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du prompt'
 menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret:')

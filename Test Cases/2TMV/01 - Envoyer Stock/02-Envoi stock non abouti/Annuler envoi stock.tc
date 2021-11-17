@@ -27,7 +27,7 @@
       <name>numeroANotifier</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
       <description></description>
       <id>f1542e30-43de-46a0-bef1-a5c75d1ef5e0</id>
       <masked>false</masked>
