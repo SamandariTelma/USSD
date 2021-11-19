@@ -17,31 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String numeroGrossiste="${numeroGrossiste}"
-String numeroRevendeur="${numeroRevendeur}"
+String numeroEnvoyeur="${numeroEnvoyeur}"
+String numeroRecepteur="${numeroRecepteur}"
 String numeroANotifier="${numeroANotifier}"
 String pinGrossiste="${pinGrossiste}"
 
-'En tant que MSISDN grossiste , je compose le *130*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroGrossiste)
+'En tant que MSISDN Envoyeur , je compose le *130*2#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroEnvoyeur)
 
-'Je clique sur 1 Envoyer du stock et je valide'
-CustomKeywords.'ussd.Send.response'('1')
+'Je clique sur 3 Envoyer du stock et je valide'
+CustomKeywords.'ussd.Send.response'('3')
 
 'Je saisis 3 (Envoyer 20 000 Ar) et je valide'
 CustomKeywords.'ussd.Send.response'('3')
 
-'Je saisis correctement le numero du Destinataire [0346847989] qui est revendeur et je valide'
-numeroRevendeur=CustomKeywords.'ussd.Util.to034'(numeroRevendeur)
-actualMenu=CustomKeywords.'ussd.Send.response'(numeroRevendeur)
+'Je saisis correctement le numero du Destinataire et je valide'
+numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+actualMenu=CustomKeywords.'ussd.Send.response'(numeroRecepteur)
 
-'Je saisis correctement mon PIN (0000) et je valide'
+'Je saisis correctement mon PIN  et je valide'
 CustomKeywords.'ussd.Send.response'(pinGrossiste)
 
-'Je saisis 0 (Non) et je valide '
+'Je saisis 0 (Non) et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('0')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert a bien ete annulee\\.','Tsy nekena ny fividiana fahana ho n\'ny laharako\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert a bien ete annulee\\.','Tsy nekena ny fividiana fahana ho an\'ny laharako\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

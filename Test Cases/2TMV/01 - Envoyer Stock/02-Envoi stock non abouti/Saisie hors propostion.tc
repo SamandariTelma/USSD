@@ -13,11 +13,11 @@
       <name>numeroGrossiste</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnChefDeZone</defaultValue>
       <description></description>
       <id>6d999fc4-2f09-4d18-9dfe-1de01d7e6eed</id>
       <masked>false</masked>
-      <name>numeroRevendeur</name>
+      <name>numeroChefDeZone</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
@@ -27,10 +27,10 @@
       <name>numeroANotifier</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
       <description></description>
       <id>d2c7d312-263c-4f34-9db4-03c3d35d6b04</id>
       <masked>false</masked>
-      <name>pinGrossiste</name>
+      <name>pinEnvoyeur</name>
    </variable>
 </TestCaseEntity>

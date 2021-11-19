@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Annuler envoi stock</name>
+   <name>Envoyer stock - Autre montant--</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a82b2e51-cf7e-491d-976a-176cb073215a</testCaseGuid>
+   <testCaseGuid>9a90c950-0afc-4792-96c5-6bde3cb8a114</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
       <description></description>
-      <id>5fa4ef66-804c-4967-a078-2428e4832667</id>
+      <id>0ef29e18-4258-4cf5-8904-a6e8967ab8d8</id>
       <masked>false</masked>
-      <name>numeroEnvoyeur</name>
+      <name>numeroGrossiste</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnChefDeZone</defaultValue>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
       <description></description>
-      <id>a94e188d-87e2-4384-8564-1c799269c9b9</id>
+      <id>c19fd756-bd74-40e7-a534-221bfd807f45</id>
       <masked>false</masked>
-      <name>numeroRecepteur</name>
+      <name>numeroRevendeur</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
       <description></description>
-      <id>004e6521-a7ff-4228-b993-c666552a1982</id>
+      <id>4b16189e-7402-4ac1-9b9b-c874b37e1c9a</id>
       <masked>false</masked>
       <name>numeroANotifier</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
       <description></description>
-      <id>f1542e30-43de-46a0-bef1-a5c75d1ef5e0</id>
+      <id>e269a646-6731-4fe7-9baf-a19f17aeb344</id>
       <masked>false</masked>
       <name>pinGrossiste</name>
    </variable>

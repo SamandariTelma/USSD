@@ -17,24 +17,34 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String numeroInitiateur="${numeroInitiateur}"
-String pinInitiateur="${pinInitiateur}"
+String numeroEnvoyeur="${numeroEnvoyeur}"
+String numeroRecepteur="${numeroRecepteur}"
+String pinEnvoyeur="${pinEnvoyeur}"
+String montantStock="${montantStock}"
 
-'En tant que MSISDN grossiste , je compose le *130*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+'En tant que MSISDN envoyeur, je compose le *130*2#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroEnvoyeur)
 
-'Je saisis 4 (Consultation du solde) et je valide'
-CustomKeywords.'ussd.Send.response'('4')
+'Je clique sur 3 Envoyer du stock et je valide'
+CustomKeywords.'ussd.Send.response'('3')
 
-'Je saisis un PIN valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'(pinInitiateur)
+'Je saisis 1 Autre montant'
+CustomKeywords.'ussd.Send.response'('1')
 
-String solde
-if(GlobalVariable.langue=='fr')
-	solde=actualMenu.substring(actualMenu.lastIndexOf('solde est de')+12, actualMenu.lastIndexOf('Ar')-1)
-else if (GlobalVariable.langue=='mg')
-	solde=actualMenu.substring(actualMenu.lastIndexOf('sisa dia')+9, actualMenu.lastIndexOf('Ar')-1)
-	
-GlobalVariable.solde2tmv=(solde.replaceAll("\\s","")).toInteger()
+'Je saisis le montant désiré'
+CustomKeywords.'ussd.Send.response'(montantStock)
 
-println("Solde 2tmv :"+GlobalVariable.solde2tmv)
+'Je saisis correctement le numero du Destinataire et je valide'
+numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+CustomKeywords.'ussd.Send.response'(numeroRecepteur)
+
+'Je saisis correctement mon PIN  et je valide'
+CustomKeywords.'ussd.Send.response'(pinEnvoyeur)
+
+'Je saisis 1 (Oui) pour confirmation et je valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('1')
+
+'Vérifier la conformité du message'
+menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert est en cours de traitement\\.','Tontosa ny fividiana fahana ho an\'ny laharako\\.')
+
+WS.verifyMatch(actualMenu, menu, true)

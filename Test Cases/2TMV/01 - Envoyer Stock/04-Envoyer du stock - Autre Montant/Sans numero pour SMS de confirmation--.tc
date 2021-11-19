@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Annuler envoi stock</name>
+   <name>Sans numero pour SMS de confirmation--</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a82b2e51-cf7e-491d-976a-176cb073215a</testCaseGuid>
+   <testCaseGuid>a88edcb3-1f81-4765-b426-22b9866480f7</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
       <description></description>
-      <id>5fa4ef66-804c-4967-a078-2428e4832667</id>
+      <id>eea700f4-ad60-4d52-a419-b27dae99aaa3</id>
       <masked>false</masked>
-      <name>numeroEnvoyeur</name>
+      <name>numeroGrossiste</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnChefDeZone</defaultValue>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
       <description></description>
-      <id>a94e188d-87e2-4384-8564-1c799269c9b9</id>
+      <id>4dfe13cf-5c55-43db-8045-e93014eec264</id>
       <masked>false</masked>
-      <name>numeroRecepteur</name>
+      <name>numeroRevendeur</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
       <description></description>
-      <id>004e6521-a7ff-4228-b993-c666552a1982</id>
+      <id>fb038515-0920-4e70-9578-bd43ce72200a</id>
       <masked>false</masked>
       <name>numeroANotifier</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
       <description></description>
-      <id>f1542e30-43de-46a0-bef1-a5c75d1ef5e0</id>
+      <id>640750f7-5090-4063-9523-d20a102a472b</id>
       <masked>false</masked>
       <name>pinGrossiste</name>
    </variable>

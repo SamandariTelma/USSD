@@ -6,31 +6,24 @@
    <comment></comment>
    <testCaseGuid>3593c2e5-5f94-4984-8eaf-90913719011f</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <defaultValue>GlobalVariable.msisdnChefDeZone</defaultValue>
       <description></description>
       <id>e78b80ef-d1c8-48ad-87c5-89cb7e83fb6e</id>
       <masked>false</masked>
-      <name>numeroGrossiste</name>
+      <name>numeroEnvoyeur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnLivreur</defaultValue>
       <description></description>
       <id>6b5f8038-2ae4-4b01-928a-cda6635b93b6</id>
       <masked>false</masked>
-      <name>numeroRevendeur</name>
+      <name>numeroRecepteur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
-      <description></description>
-      <id>6774ff0d-cdad-4997-9bec-9e6d952655ef</id>
-      <masked>false</masked>
-      <name>numeroANotifier</name>
-   </variable>
-   <variable>
-      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
       <description></description>
       <id>c0700370-e67d-4ef2-9e1c-845db8a5f208</id>
       <masked>false</masked>
-      <name>pinGrossiste</name>
+      <name>pinEnvoyeur</name>
    </variable>
 </TestCaseEntity>

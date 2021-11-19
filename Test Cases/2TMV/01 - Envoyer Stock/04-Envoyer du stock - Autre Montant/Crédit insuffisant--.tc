@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Annuler envoi stock</name>
+   <name>Crédit insuffisant--</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a82b2e51-cf7e-491d-976a-176cb073215a</testCaseGuid>
+   <testCaseGuid>f6ee0b14-e18e-44e5-bb33-56cbfa4a8f56</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
       <description></description>
-      <id>5fa4ef66-804c-4967-a078-2428e4832667</id>
+      <id>e0d7629e-748e-4e26-8bc8-e7e0945cb05e</id>
       <masked>false</masked>
-      <name>numeroEnvoyeur</name>
+      <name>numeroGrossiste</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnChefDeZone</defaultValue>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
       <description></description>
-      <id>a94e188d-87e2-4384-8564-1c799269c9b9</id>
+      <id>39ef5486-17e0-44ef-9497-f9f35a4d09ec</id>
       <masked>false</masked>
-      <name>numeroRecepteur</name>
+      <name>numeroRevendeur</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
       <description></description>
-      <id>004e6521-a7ff-4228-b993-c666552a1982</id>
+      <id>46bcf5d9-7789-4c07-a709-32fb8de539ab</id>
       <masked>false</masked>
       <name>numeroANotifier</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
       <description></description>
-      <id>f1542e30-43de-46a0-bef1-a5c75d1ef5e0</id>
+      <id>b8efc1af-e55f-4ba8-9e3c-b669de6c84d8</id>
       <masked>false</masked>
       <name>pinGrossiste</name>
    </variable>

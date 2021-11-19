@@ -4,39 +4,32 @@
    <name>05-Envoyer du stock - 500 000</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4114a5c9-5bbc-4d90-abe5-9c796bffbd04</testCaseGuid>
+   <testCaseGuid>4701e5eb-8017-4e62-b818-b4c45edc9d4b</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <defaultValue>GlobalVariable.msisdnChefDeZone</defaultValue>
       <description></description>
-      <id>f0ef28ba-c95e-4ce7-b3b1-79c2a9713bc8</id>
+      <id>15fe0bf9-5428-4da9-a760-26fc5e1d4811</id>
       <masked>false</masked>
-      <name>numeroGrossiste</name>
+      <name>numeroEnvoyeur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnLivreur</defaultValue>
       <description></description>
-      <id>ee549e38-c488-4e0d-b067-904a3b35df4a</id>
+      <id>281141ca-bd75-48ca-833c-f811755f9264</id>
       <masked>false</masked>
-      <name>numeroRevendeur</name>
+      <name>numeroRecepteur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
       <description></description>
-      <id>b1fbbf82-a72f-44cd-832e-10a283bf2f42</id>
+      <id>39facdf8-5966-4626-8399-adc8740ca1af</id>
       <masked>false</masked>
-      <name>numeroANotifier</name>
+      <name>pinEnvoyeur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
+      <defaultValue>'500 000'</defaultValue>
       <description></description>
-      <id>02fcafee-55ca-4808-93e1-a057300e985c</id>
-      <masked>false</masked>
-      <name>pinGrossiste</name>
-   </variable>
-   <variable>
-      <defaultValue>'10 000'</defaultValue>
-      <description></description>
-      <id>9a05534a-58e2-4e40-9256-b044b611a2e9</id>
+      <id>d8befb75-9563-462d-8075-46c270130361</id>
       <masked>false</masked>
       <name>montantStock</name>
    </variable>

@@ -1,5 +1,3 @@
-import internal.GlobalVariable
-
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -19,32 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String numeroGrossiste="${numeroGrossiste}"
+String numeroEnvoyeur="${numeroEnvoyeur}"
+String numeroRecepteur="${numeroRecepteur}"
 
-'En tant que MSISDN grossiste [0346849414], je compose le *130*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroGrossiste)
+'En tant que MSISDN envoyeur, je compose le *130*2#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroEnvoyeur)
 
 'Je clique sur 3 Envoyer du stock et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('3')
+CustomKeywords.'ussd.Send.response'('3')
 
-'Vérifier la conformité du prompt montant'
-String menu=CustomKeywords.'ussd.Expected.menu'('1 Autre montant\n2 Envoyer 10 000 Ar\n3 Envoyer 20 000 Ar\n4 Envoyer 50 000 Ar\n5 Envoyer 100 000 Ar\n6 Envoyer 500 000 Ar\n7 Envoyer 1 000 000 Ar\n00 Page precedente',
-	'1 Sandam\\-bola hafa\n2 Andefa 10 000 Ar\n3 Andefa 20 000 Ar\n4 Andefa 50 000 Ar\n5 Andefa 100 000 Ar\n6 Andefa 500 000 Ar\n7 Andefa 1 000 000 Ar\n00 Pejy aloha\n\\*\\* main')
+'Je saisis 1 (Autre montant) et je valide'
+CustomKeywords.'ussd.Send.response'('1')
 
-WS.verifyMatch(actualMenu, menu, true)
+'Je saisis un montant entre 100 à 1 000 000 Ar et je valide'
+CustomKeywords.'ussd.Send.response'('18000')
 
-'Je saisis 0'
-actualMenu=CustomKeywords.'ussd.Send.response'('0')
+'Je saisis correctement le numero du Destinataire et je valide'
+numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+String actualMenu=CustomKeywords.'ussd.Send.response'(numeroRecepteur)
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('8 Transfert vers sous stock digital\n00 Page precedente')
+String menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret :', 'kaody miafina :')
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Je saisis 00 et je valide'
-actualMenu=CustomKeywords.'ussd.Send.response'('00')
+'Je saisis un PIN qui ne m\'appartient pas'
+actualMenu=CustomKeywords.'ussd.Send.response'('6328')
 
-'Vérifier que je retourne sur le prompt montant'
-menu=CustomKeywords.'ussd.Expected.menu'('1 Autre montant\n2 Envoyer 10 000 Ar\n3 Envoyer 20 000 Ar\n4 Envoyer 50 000 Ar\n5 Envoyer 100 000 Ar\n6 Envoyer 500 000 Ar\n7 Envoyer 1 000 000 Ar\n00 Page precedente')
+'Vérifier la conformité du prompt'
+menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n a pas abouti\\. Vous avez recu un SMS avec les details de votre transaction\\. Si besoin, contactez le Service Clientele au 807\\.', 
+	'Tsy tafita ny fangatahanao\\. Naharay SMS manazava ny antony ianao\\. Raha ilaina, antsoy ny Service Clientele amin ny 807\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
+
+
+
+

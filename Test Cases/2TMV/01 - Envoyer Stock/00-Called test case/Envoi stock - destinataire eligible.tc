@@ -4,39 +4,32 @@
    <name>Envoi stock - destinataire eligible</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c0c8ada4-e495-4e4c-9a3c-9934d6f7c481</testCaseGuid>
+   <testCaseGuid>617d0e95-78c4-493a-97a7-ea48fa29bdb4</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
       <description></description>
-      <id>26e9341f-8279-41a3-99fd-5cf73e5032fb</id>
+      <id>d47f3ac3-2302-4ed2-b9db-c37e3d0bf909</id>
       <masked>false</masked>
       <name>numeroEnvoyeur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnChefDeZone</defaultValue>
       <description></description>
-      <id>43952b41-a271-45d1-a2f1-9fe2edba2826</id>
+      <id>2e466ed8-d953-44b4-a526-5f600c62eb8e</id>
       <masked>false</masked>
       <name>numeroRecepteur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnPourNotification</defaultValue>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
       <description></description>
-      <id>770057a0-8838-410f-b57b-f29d244fb044</id>
+      <id>f3c65dda-5b1b-4271-b8ad-2c7f428587d1</id>
       <masked>false</masked>
-      <name>numeroANotifier</name>
-   </variable>
-   <variable>
-      <defaultValue>GlobalVariable.pinMsisdnGrossiste</defaultValue>
-      <description></description>
-      <id>7a5879aa-f838-49fe-90a3-4b7a18bf835a</id>
-      <masked>false</masked>
-      <name>pinGrossiste</name>
+      <name>pinEnvoyeur</name>
    </variable>
    <variable>
       <defaultValue>'10000'</defaultValue>
       <description></description>
-      <id>aa4df519-370b-4e64-bab6-8933138fd3c1</id>
+      <id>bc522f14-2f32-4bad-9165-3082ad8d7478</id>
       <masked>false</masked>
       <name>montantStock</name>
    </variable>

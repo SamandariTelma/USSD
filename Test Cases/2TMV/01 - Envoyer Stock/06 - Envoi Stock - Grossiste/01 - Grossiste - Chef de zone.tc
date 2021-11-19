@@ -20,7 +20,7 @@
       <name>numeroRecepteur</name>
    </variable>
    <variable>
-      <defaultValue>'10 000'</defaultValue>
+      <defaultValue>'105000'</defaultValue>
       <description></description>
       <id>1e76c185-a561-4b36-8011-a5f8b0f47523</id>
       <masked>false</masked>

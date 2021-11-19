@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>02-Envoyer du stock - 20 000</name>
+   <name>Envoi stock - choix montant</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>70faee23-af65-46b3-93d8-ccda150a1d7b</testCaseGuid>
+   <testCaseGuid>c0c8ada4-e495-4e4c-9a3c-9934d6f7c481</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnChefDeZone</defaultValue>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
       <description></description>
-      <id>3a033a40-b50a-4344-9bd8-1a181e636845</id>
+      <id>26e9341f-8279-41a3-99fd-5cf73e5032fb</id>
       <masked>false</masked>
       <name>numeroEnvoyeur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnLivreur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnChefDeZone</defaultValue>
       <description></description>
-      <id>71498dab-4c83-42c1-845f-6175c5925c8d</id>
+      <id>43952b41-a271-45d1-a2f1-9fe2edba2826</id>
       <masked>false</masked>
       <name>numeroRecepteur</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
       <description></description>
-      <id>1a8506bd-0c6e-4717-b732-b2b3be0af543</id>
+      <id>7a5879aa-f838-49fe-90a3-4b7a18bf835a</id>
       <masked>false</masked>
       <name>pinEnvoyeur</name>
    </variable>
    <variable>
-      <defaultValue>'20 000'</defaultValue>
+      <defaultValue>'10 000'</defaultValue>
       <description></description>
-      <id>ef04df4c-2924-4e4f-9ea2-55be44715c8e</id>
+      <id>aa4df519-370b-4e64-bab6-8933138fd3c1</id>
       <masked>false</masked>
       <name>montantStock</name>
    </variable>

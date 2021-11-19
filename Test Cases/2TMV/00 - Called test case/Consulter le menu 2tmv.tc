@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Saisie montant</name>
+   <name>Consulter le menu 2tmv</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>aa32b186-e5fe-48e6-a60e-6cfc69e6608f</testCaseGuid>
+   <testCaseGuid>09932135-a83f-4890-b0df-dfe29827ff52</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnLivreur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
       <description></description>
-      <id>81c513ed-e765-4f6d-8cf1-b15ecf92d426</id>
+      <id>f74f3481-e239-45f0-a53f-4e8ea453a197</id>
       <masked>false</masked>
       <name>numeroGrossiste</name>
    </variable>

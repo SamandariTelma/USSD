@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Saisie Numero bénéficiaire</name>
+   <name>Saisie PIN - PIN Invalide</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d9cddd09-50b3-4597-95d7-b7612faff97e</testCaseGuid>
+   <testCaseGuid>db08efb7-6df5-4aa7-9901-a28b78c48d4f</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
       <description></description>
-      <id>1b42c73e-2123-4d2e-96a6-a3deddb589c3</id>
+      <id>cffdc926-3872-46a9-841a-9b7a5bef7410</id>
       <masked>false</masked>
       <name>numeroEnvoyeur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnChefDeZone</defaultValue>
       <description></description>
-      <id>dabbf748-989a-4fe9-961c-ce1c6d84b923</id>
+      <id>3c22c9a8-de70-4627-9641-e6d219bd1986</id>
       <masked>false</masked>
-      <name>pinEnvoyeur</name>
+      <name>numeroRecepteur</name>
    </variable>
 </TestCaseEntity>

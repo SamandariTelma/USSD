@@ -1,5 +1,3 @@
-import internal.GlobalVariable
-
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -21,30 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 String numeroGrossiste="${numeroGrossiste}"
 
-'En tant que MSISDN grossiste [0346849414], je compose le *130*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroGrossiste)
+'En tant que MSISDN grossiste, je compose le *130*2#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA+'#', numeroGrossiste)
 
-'Je clique sur 3 Envoyer du stock et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('3')
-
-'Vérifier la conformité du prompt montant'
-String menu=CustomKeywords.'ussd.Expected.menu'('1 Autre montant\n2 Envoyer 10 000 Ar\n3 Envoyer 20 000 Ar\n4 Envoyer 50 000 Ar\n5 Envoyer 100 000 Ar\n6 Envoyer 500 000 Ar\n7 Envoyer 1 000 000 Ar\n00 Page precedente',
-	'1 Sandam\\-bola hafa\n2 Andefa 10 000 Ar\n3 Andefa 20 000 Ar\n4 Andefa 50 000 Ar\n5 Andefa 100 000 Ar\n6 Andefa 500 000 Ar\n7 Andefa 1 000 000 Ar\n00 Pejy aloha\n\\*\\* main')
+'Je vérifie la présence du menu 2tmv'
+String menu=CustomKeywords.'ussd.Expected.menu'('^.*De Toi a Moi Vaovao.*$')
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Je saisis 0'
+'Je compose le 2 et je valide'
+actualMenu=CustomKeywords.'ussd.Send.response'('2')
+
+'Vérifier l\'affichage du sous-menu'
+menu=CustomKeywords.'ussd.Expected.menu'('1 Recharger client\n2 Changer tarif client\n3 Envoyer du stock\n4 Consultation du solde\n5 Ventes d\'hier\n6 Changer code secret\n7 Changement de langue\n0 Page suivante\n00 Page precedente',
+	'1 Mamahana mpanjifa\n2 Manova ny tolotry ny mpanjifa\n3 Andefa tahiry\n4 Mijery fahana sisa tavela\n5 Varotra omaly\n6 Manova kaody miafina\n7 Hisafidy fiteny\n0 Pejy manaraka\n00 Pejy aloha')
+
+WS.verifyMatch(actualMenu, menu, true)
+
+'Je saisis 0 (Page suivante)'
 actualMenu=CustomKeywords.'ussd.Send.response'('0')
 
-'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('8 Transfert vers sous stock digital\n00 Page precedente')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 00 et je valide'
-actualMenu=CustomKeywords.'ussd.Send.response'('00')
-
-'Vérifier que je retourne sur le prompt montant'
-menu=CustomKeywords.'ussd.Expected.menu'('1 Autre montant\n2 Envoyer 10 000 Ar\n3 Envoyer 20 000 Ar\n4 Envoyer 50 000 Ar\n5 Envoyer 100 000 Ar\n6 Envoyer 500 000 Ar\n7 Envoyer 1 000 000 Ar\n00 Page precedente')
+'Vérifier la conformité du menu'
+menu=CustomKeywords.'ussd.Expected.menu'("8 Verification du grossiste\n00 Page precedente\n\\*\\* Menu principal","8 Verification du grossiste\n00 Pejy aloha\n\\*\\* main")
 
 WS.verifyMatch(actualMenu, menu, true)

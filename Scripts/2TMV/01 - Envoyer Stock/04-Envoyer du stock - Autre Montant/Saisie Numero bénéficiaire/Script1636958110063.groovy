@@ -17,18 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String numeroGrossiste="${numeroGrossiste}"
-String numeroANotifier="${numeroANotifier}"
-String pinGrossiste="${pinGrossiste}"
+String numeroEnvoyeur="${numeroEnvoyeur}"
+String pinEnvoyeur="${pinEnvoyeur}"
 
-'En tant que MSISDN grossiste [0346849414], je compose le *130*129*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroGrossiste)
+'En tant que MSISDN grossiste, je compose le *130*2#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroEnvoyeur)
 
-'Je compose le 2 et je valide'
-CustomKeywords.'ussd.Send.response'('2')
-
-'Je clique sur 1 Envoyer du stock et je valide'
-CustomKeywords.'ussd.Send.response'('1')
+'Je clique sur 3 Envoyer du stock et je valide'
+CustomKeywords.'ussd.Send.response'('3')
 
 'Je saisis 1 (Autre montant) et je valide'
 CustomKeywords.'ussd.Send.response'('1')
@@ -37,7 +33,7 @@ CustomKeywords.'ussd.Send.response'('1')
 String actualMenu=CustomKeywords.'ussd.Send.response'('18000')
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Envoyer au No : ','Alefa amin\'ny No :')
+String menu=CustomKeywords.'ussd.Expected.menu'('Envoyer au No :','Alefa amin\'ny No :')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -46,7 +42,23 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('0330000000')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Verifiez le numero de telephone SVP\\.', 'Nomerao tsy manankery')
+menu=CustomKeywords.'ussd.Expected.menu'('Vérifier le numéro de télephone SVP', 'Nomerao tsy manankery')
+
+WS.verifyMatch(actualMenu, menu, true)
+
+'Je saisis un numero non Telma'
+actualMenu=CustomKeywords.'ussd.Send.response'('0326848017')
+
+'Vérifier la conformité du prompt'
+menu=CustomKeywords.'ussd.Expected.menu'('Vérifier le numéro de télephone SVP', 'Nomerao tsy manankery')
+
+WS.verifyMatch(actualMenu, menu, true)
+
+'Je saisis pour la 3è fois un numero invalide'
+actualMenu=CustomKeywords.'ussd.Send.response'('0326848017')
+
+'Vérifier la conformité du prompt'
+menu=CustomKeywords.'ussd.Expected.menu'('Le nombre d essai maximum est atteint','Mihaotra ny fanandramana azo ekena\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
