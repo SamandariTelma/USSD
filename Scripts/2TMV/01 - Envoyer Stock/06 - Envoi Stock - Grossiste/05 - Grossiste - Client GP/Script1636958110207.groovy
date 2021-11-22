@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 String numeroEnvoyeur="${numeroEnvoyeur}"
 String numeroRecepteur="${numeroRecepteur}"
+String pinEnvoyeur="${pinEnvoyeur}"
 String montantStock="${montantStock}"
 int montant=(montantStock.replaceAll("\\s","")).toInteger()
 
@@ -27,15 +28,9 @@ WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv
 		, ('pinInitiateur') : GlobalVariable.pinEnvoyeur], FailureHandling.CONTINUE_ON_FAILURE)
 int soldeEnvoyeurAvant=GlobalVariable.solde2tmv
 
-'Consulter le solde du GP avant l\'envoi'
-WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv'), [('numeroInitiateur') :numeroRecepteur
-		, ('pinInitiateur') : GlobalVariable.pinEnvoyeur], FailureHandling.CONTINUE_ON_FAILURE)
-int soldeRecepteurAvant=GlobalVariable.solde2tmv
-
 'En tant que numero de type Grossiste, j\'envoi du stock à un numéro de type GP'
 WebUI.callTestCase(findTestCase('2TMV/01 - Envoyer Stock/00-Called test case/Envoi stock - destinataire non eligible'), [('numeroEnvoyeur') : numeroEnvoyeur
-        , ('numeroRecepteur') : numeroRecepteur, ('numeroANotifier') : GlobalVariable.msisdnPourNotification
-        , ('pinEnvoyeur') : GlobalVariable.pinEnvoyeur, ('montantStock') : montantStock], FailureHandling.CONTINUE_ON_FAILURE)
+        , ('numeroRecepteur') : numeroRecepteur , ('pinEnvoyeur') : pinEnvoyeur, ('montantStock') : montantStock], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Consulter le solde du grossiste après l\'envoi'
 WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv'), [('numeroInitiateur') : numeroEnvoyeur
@@ -43,12 +38,3 @@ WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv
 int soldeEnvoyeurApres=GlobalVariable.solde2tmv
 
 WS.verifyEqual(soldeEnvoyeurApres, soldeEnvoyeurAvant)
-
-'Consulter le solde du GP l\'envoi'
-WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv'), [('numeroInitiateur') : numeroRecepteur
-		, ('pinInitiateur') : GlobalVariable.pinEnvoyeur], FailureHandling.CONTINUE_ON_FAILURE)
-int soldeReceveurApres=GlobalVariable.solde2tmv
-
-WS.verifyEqual(soldeReceveurApres, soldeRecepteurAvant)
-
-

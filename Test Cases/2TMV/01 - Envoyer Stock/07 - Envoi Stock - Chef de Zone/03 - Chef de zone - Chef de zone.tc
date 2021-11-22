@@ -21,9 +21,16 @@
    </variable>
    <variable>
       <defaultValue>'10 000'</defaultValue>
-      <description></description>
+      <description>montant sous forme de menu, devrait être saisi avec séparateur de millier</description>
       <id>5ad32c45-9651-4e1f-b23b-2afde03a24d2</id>
       <masked>false</masked>
       <name>montantStock</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur2</defaultValue>
+      <description></description>
+      <id>d0710dc0-8d75-4632-ba91-d71a8dedd538</id>
+      <masked>false</masked>
+      <name>pinEnvoyeur2</name>
    </variable>
 </TestCaseEntity>

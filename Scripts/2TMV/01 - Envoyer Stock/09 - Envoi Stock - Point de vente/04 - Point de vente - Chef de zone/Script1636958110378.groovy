@@ -21,9 +21,6 @@ String numeroEnvoyeur="${numeroEnvoyeur}"
 String numeroRecepteur="${numeroRecepteur}"
 String montantStock="${montantStock}"
 
-String numeroEnvoyeur="${numeroEnvoyeur}"
-String numeroRecepteur="${numeroRecepteur}"
-String montantStock="${montantStock}"
 int montant=(montantStock.replaceAll("\\s","")).toInteger()
 
 'Consulter le solde du Revendeur avant l\'envoi'
@@ -38,8 +35,7 @@ int soldeRecepteurAvant=GlobalVariable.solde2tmv
 
 'En tant que numero de type Revendeur, j\'envoi du stock à un autre numéro de type Chef de zone'
 WebUI.callTestCase(findTestCase('2TMV/01 - Envoyer Stock/00-Called test case/Envoi stock - destinataire non eligible'), [('numeroEnvoyeur') : numeroEnvoyeur
-        , ('numeroRecepteur') : numeroRecepteur, ('numeroANotifier') : GlobalVariable.msisdnPourNotification
-        , ('pinEnvoyeur') : GlobalVariable.pinEnvoyeur, ('montantStock') : montantStock], FailureHandling.CONTINUE_ON_FAILURE)
+        , ('numeroRecepteur') : numeroRecepteur , ('pinEnvoyeur') : GlobalVariable.pinEnvoyeur, ('montantStock') : montantStock], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Consulter le solde du Revendeur après l\'envoi'
 WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv'), [('numeroInitiateur') : numeroEnvoyeur

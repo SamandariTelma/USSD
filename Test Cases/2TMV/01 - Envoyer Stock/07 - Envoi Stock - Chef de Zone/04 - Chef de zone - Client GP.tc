@@ -21,7 +21,7 @@
    </variable>
    <variable>
       <defaultValue>'10 000'</defaultValue>
-      <description></description>
+      <description>montant sous forme de menu, devrait être saisi avec séparateur de millier</description>
       <id>ab862380-44d6-4d59-824f-7c5937c5886d</id>
       <masked>false</masked>
       <name>montantStock</name>

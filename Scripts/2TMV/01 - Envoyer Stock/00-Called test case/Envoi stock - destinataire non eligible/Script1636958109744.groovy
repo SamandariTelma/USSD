@@ -19,48 +19,39 @@ import org.openqa.selenium.Keys as Keys
 
 String numeroEnvoyeur="${numeroEnvoyeur}"
 String numeroRecepteur="${numeroRecepteur}"
-String numeroANotifier="${numeroANotifier}"
 String pinEnvoyeur="${pinEnvoyeur}"
 String montantStock="${montantStock}"
 
-'En tant que MSISDN envoyeur [0346849414], je compose le *130*129*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroEnvoyeur)
+'En tant que MSISDN envoyeur, je compose le *130*2#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroEnvoyeur)
 
-'Je compose le 2 et je valide'
-CustomKeywords.'ussd.Send.response'('2')
-
-'Je clique sur 1 Envoyer du stock et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('1')
+'Je clique sur 3 Envoyer du stock et je valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Je saisis le rang du stock a envoyer'
-String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('Envoyer '+montantStock+' Ar', actualMenu)
+String rangMenu
+if(GlobalVariable.langue=='fr')
+	rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('Envoyer '+montantStock+' Ar', actualMenu)
+else if (GlobalVariable.langue=='mg')
+	rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('Andefa '+montantStock+' Ar', actualMenu)
+
 actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 
-'Je saisis correctement le numero du Destinataire [0346847989] qui est revendeur et je valide'
+'Je saisis correctement le numero du Destinataire et je valide'
 numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 CustomKeywords.'ussd.Send.response'(numeroRecepteur)
 
 'Je saisis 1 Oui pour saisir le numéro de confirmation'
 CustomKeywords.'ussd.Send.response'('1')
 
-'Je saisis correctement le numero (0346848239) pour passer le SMS de confirmation et je valide'
-numeroANotifier=CustomKeywords.'ussd.Util.to034'(numeroANotifier)
-CustomKeywords.'ussd.Send.response'(numeroANotifier)
-
 'Je saisis correctement mon PIN (0000) et je valide'
-actualMenu=CustomKeywords.'ussd.Send.response'(pinEnvoyeur)
-
-'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Envoyer '+montantStock+' Ar au '+numeroRecepteur+' \\? No pour SMS de confirmation '+numeroANotifier+'\n1 \\- Oui\n0 \\- Non',
-	'Andefa '+montantStock+' Ar amin\'ny '+numeroRecepteur+' \\?  No pour SMS de confirmation '+numeroANotifier+'\n1 \\- Eny \n0 \\- Tsia')
-
-WS.verifyMatch(actualMenu, menu, true)
+CustomKeywords.'ussd.Send.response'(pinEnvoyeur)
 
 'Je saisis 1 (Oui) pour confirmation et je valide'
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n a pas abouti. Vous avez recu un SMS avec les details de votre transaction\\. Si besoin, contactez le Service Clientele au 807\\.',
-	'Tsy tafita ny fangatahanao\\. Naharay SMS manazava ny antony ianao\\. Raha ilaina, antsoy ny Service Clientele amin ny 807\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n\'a pas abouti\\. Vous n\'avez pas acces a cette fonction\\. Si besoin, contactez le Service Clientele au 801\\. Ref: \\d{1,10}',
+	'Tsy tontosa ny fangatahanao\\. Tsy afaka manatontosa ity fifanakalozana ity ianao\\. Raha mila fanazavana fanampiny, antsoy ny 801\\. Ref: \\d{1,10}')
 
 WS.verifyMatch(actualMenu, menu, true)

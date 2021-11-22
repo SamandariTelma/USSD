@@ -35,8 +35,7 @@ int soldeRecepteurAvant=GlobalVariable.solde2tmv
 
 'En tant que numero de type Chef de zone, j\'envoi du stock à un numéro de type Revendeur'
 WebUI.callTestCase(findTestCase('2TMV/01 - Envoyer Stock/00-Called test case/Envoi stock - destinataire non eligible'), [('numeroEnvoyeur') : numeroEnvoyeur
-        , ('numeroRecepteur') : numeroRecepteur, ('numeroANotifier') : GlobalVariable.msisdnPourNotification, ('pinEnvoyeur') : GlobalVariable.pinEnvoyeur
-        , ('montantStock') : montantStock], FailureHandling.CONTINUE_ON_FAILURE)
+        , ('numeroRecepteur') : numeroRecepteur, ('pinEnvoyeur') : GlobalVariable.pinEnvoyeur , ('montantStock') : montantStock], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Consulter le solde du Chef de zone après l\'envoi'
 WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv'), [('numeroInitiateur') : numeroEnvoyeur

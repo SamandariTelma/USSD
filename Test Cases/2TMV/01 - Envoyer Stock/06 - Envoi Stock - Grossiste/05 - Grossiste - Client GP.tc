@@ -20,8 +20,15 @@
       <name>numeroRecepteur</name>
    </variable>
    <variable>
-      <defaultValue>'10 000'</defaultValue>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
       <description></description>
+      <id>5f5ba3b2-4dd5-484e-a744-d0eef56966e9</id>
+      <masked>false</masked>
+      <name>pinEnvoyeur</name>
+   </variable>
+   <variable>
+      <defaultValue>'10 000'</defaultValue>
+      <description>montant sous forme de menu, devrait être saisi avec séparateur de menu</description>
       <id>823dfbdc-cb6d-4b4c-95a4-aad8885bc020</id>
       <masked>false</masked>
       <name>montantStock</name>

@@ -39,7 +39,7 @@ int soldeRecepteurAvant = GlobalVariable.solde2tmv
 
 'En tant que numero de type Grossiste, j\'envoi du stock à un numéro de type Chef de Zone'
 WebUI.callTestCase(findTestCase('2TMV/01 - Envoyer Stock/00-Called test case/Envoi stock - destinataire eligible'), [('numeroEnvoyeur') : numeroEnvoyeur
-        , ('numeroRecepteur') : numeroRecepteur, ('pinEnvoyeur') : GlobalVariable.pinEnvoyeur, ('montantStock') : montantStock], 
+        , ('numeroRecepteur') : numeroRecepteur, ('pinEnvoyeur') : GlobalVariable.pinEnvoyeur, ('montantStock') : montantStock, 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 'Consulter le solde du grossiste après l\'envoi'

@@ -20,6 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroEnvoyeur="${numeroEnvoyeur}"
 String numeroRecepteur="${numeroRecepteur}"
 String montantStock="${montantStock}"
+String pinEnvoyeur2="${pinEnvoyeur2}"
 int montant=(montantStock.replaceAll("\\s","")).toInteger()
 
 'Consulter le solde du Livreur avant l\'envoi'
@@ -29,13 +30,12 @@ int soldeEnvoyeurAvant=GlobalVariable.solde2tmv
 
 'Consulter le solde du 2e Livreur avant l\'envoi'
 WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv'), [('numeroInitiateur') :numeroRecepteur
-		, ('pinInitiateur') : GlobalVariable.pinEnvoyeur], FailureHandling.CONTINUE_ON_FAILURE)
+		, ('pinInitiateur') : pinEnvoyeur2], FailureHandling.CONTINUE_ON_FAILURE)
 int soldeRecepteurAvant=GlobalVariable.solde2tmv
 
 'En tant que numero de type Livreur, j\'envoi du stock à un autre numéro de type Livreur'
 WebUI.callTestCase(findTestCase('2TMV/01 - Envoyer Stock/00-Called test case/Envoi stock - destinataire non eligible'), [('numeroEnvoyeur') : numeroEnvoyeur
-        , ('numeroRecepteur') : numeroRecepteur, ('numeroANotifier') : GlobalVariable.msisdnPourNotification
-        , ('pinEnvoyeur') : GlobalVariable.pinEnvoyeur, ('montantStock') : montantStock], FailureHandling.CONTINUE_ON_FAILURE)
+        , ('numeroRecepteur') : numeroRecepteur,('pinEnvoyeur') : GlobalVariable.pinEnvoyeur, ('montantStock') : montantStock], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Consulter le solde du Livreur après l\'envoi'
 WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv'), [('numeroInitiateur') : numeroEnvoyeur
@@ -46,7 +46,7 @@ WS.verifyEqual(soldeEnvoyeurApres, soldeEnvoyeurAvant)
 
 'Consulter le solde du 2e livreur après l\'envoi'
 WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv'), [('numeroInitiateur') : numeroRecepteur
-		, ('pinInitiateur') : GlobalVariable.pinEnvoyeur], FailureHandling.CONTINUE_ON_FAILURE)
+		, ('pinInitiateur') : pinEnvoyeur2], FailureHandling.CONTINUE_ON_FAILURE)
 int soldeReceveurApres=GlobalVariable.solde2tmv
 
 WS.verifyEqual(soldeReceveurApres, soldeRecepteurAvant)

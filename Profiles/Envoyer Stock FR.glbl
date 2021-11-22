@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'2610346848017'</initValue>
+      <initValue>'261346848017'</initValue>
       <name>msisdnClientGP</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -81,12 +81,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'0000'</initValue>
+      <name>pinEnvoyeur2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>0</initValue>
       <name>solde2tmv</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'mg'</initValue>
+      <initValue>0</initValue>
+      <name>soldeCredit</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'fr'</initValue>
       <name>langue</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

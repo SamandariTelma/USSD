@@ -26,4 +26,11 @@
       <masked>false</masked>
       <name>montantStock</name>
    </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur2</defaultValue>
+      <description></description>
+      <id>8fc5d50e-a72a-41f3-b9b9-93b12aac0a05</id>
+      <masked>false</masked>
+      <name>pinEnvoyeur2</name>
+   </variable>
 </TestCaseEntity>

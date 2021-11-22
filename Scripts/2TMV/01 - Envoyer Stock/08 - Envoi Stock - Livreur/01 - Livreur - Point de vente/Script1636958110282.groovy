@@ -38,8 +38,8 @@ WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv
 int soldeRecepteurAvant = GlobalVariable.solde2tmv
 
 'En tant que numero de type Livreur, j\'envoi du stock à un numéro de type Revendeur'
-WebUI.callTestCase(findTestCase('2TMV/01 - Envoyer Stock/00-Called test case/Envoi stock - destinataire eligible'), [('numeroEnvoyeur') : GlobalVariable.msisdnGrossiste
-        , ('numeroRecepteur') : GlobalVariable.msisdnChefDeZone, ('pinEnvoyeur') : GlobalVariable.pinEnvoyeur, ('montantStock') : '10000'], 
+WebUI.callTestCase(findTestCase('2TMV/01 - Envoyer Stock/00-Called test case/Envoi stock - destinataire eligible'), [('numeroEnvoyeur') : numeroEnvoyeur
+        , ('numeroRecepteur') : numeroRecepteur, ('pinEnvoyeur') : GlobalVariable.pinEnvoyeur, ('montantStock') : montantStock], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 'Consulter le solde du Livreur après l\'envoi'
