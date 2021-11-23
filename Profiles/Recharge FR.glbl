@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'261346849627'</initValue>
+      <initValue>'261346848017'</initValue>
       <name>msisdnInitiateur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,12 +36,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'261348000079'</initValue>
+      <initValue>'261348000061'</initValue>
       <name>msisdnPostpaid</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'82978173915481'</initValue>
+      <initValue>'98456022458137'</initValue>
       <name>codeRecharge1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,12 +51,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'82978173915481'</initValue>
+      <initValue>'84088447388102'</initValue>
       <name>codeRecharge2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'1000'</initValue>
+      <initValue>'2000'</initValue>
       <name>montantCode2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -81,7 +81,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'fr'</initValue>
+      <initValue>'mg'</initValue>
       <name>langue</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

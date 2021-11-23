@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>bc76e80a-cd3c-435f-a237-4d6ea68c82df</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Recharge/Recharger mon numéro/05-Recharger - client suspendu</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -80,7 +80,7 @@
    <testCaseLink>
       <guid>e276f171-7ef2-4003-a5eb-795da3046048</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Recharge/Recharger mon numéro/07-Recharger - client postpaid</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -182,7 +182,7 @@
    <testCaseLink>
       <guid>e576753c-19ec-4f92-9239-3b60def02368</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Recharge/Recharger un autre numéro/06-Recharger - client envoyeur suspendu</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -206,7 +206,7 @@
    <testCaseLink>
       <guid>14bfa792-a527-4989-b6fd-23cff1d81c74</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Recharge/Recharger un autre numéro/08-Recharger - client envoyeur postpaid</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -270,57 +270,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5842d19e-2c5a-4342-b559-c3a1fa1ef5c5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Recharge/Recharger un autre numéro/09-Recharger - Annuler la recharge quand limite atteint</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7853f7e2-e8df-40df-b934-0cf5ea8f430a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e178aa76-06d0-4c0c-914a-415dcecadbe1</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2bc49a07-2a77-49a2-959a-33f2589758b3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Recharge/Recharger un autre numéro/10-Recharger suite au nombre de transaction atteint</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>adcd18d4-2c2d-479c-9a85-af53364fd26e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0a0a08d1-4858-4dcb-964a-5e88eb2f0db6</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>633e3dfa-1476-40c1-a778-4ddf869140c7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>243b8ffd-ad03-40b0-a1fc-f2bc5bd892ff</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8038cebf-4c0a-4bb7-95a3-69c04c359982</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/00-Called Test Case/Changer de langue</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

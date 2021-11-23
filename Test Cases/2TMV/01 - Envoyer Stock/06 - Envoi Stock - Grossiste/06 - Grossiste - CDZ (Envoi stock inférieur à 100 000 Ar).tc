@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06 - Grossiste - CDZ (Envoi stock inférieur à 100 000 Ar)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eccd22b9-8975-44a0-a3c8-482316de46e5</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>8ecd15df-618a-4dfa-aee6-7ae39b752c55</id>
+      <masked>false</masked>
+      <name>numeroEnvoyeur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnChefDeZone</defaultValue>
+      <description></description>
+      <id>cd543ebc-7617-401e-b11a-7121b48ddb8f</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <description></description>
+      <id>8fe90be9-5ac9-40e7-a2bb-fd8875e0063b</id>
+      <masked>false</masked>
+      <name>pinEnvoyeur</name>
+   </variable>
+   <variable>
+      <defaultValue>'50 000'</defaultValue>
+      <description>montant sous forme de menu, devrait être saisi avec séparateur de menu</description>
+      <id>31213a46-4136-4c73-8e96-b1a91a8fe4ec</id>
+      <masked>false</masked>
+      <name>montantStock</name>
+   </variable>
+</TestCaseEntity>

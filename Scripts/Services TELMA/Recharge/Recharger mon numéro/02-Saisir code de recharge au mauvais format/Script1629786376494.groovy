@@ -26,7 +26,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du prompt'
-String menu= CustomKeywords.'ussd.Expected.menu'('Entrer code recharge :','Kaodin\'ny fahana :')
+String menu= CustomKeywords.'ussd.Expected.menu'('Entrer code recharge :','Kaodin ny fahana :')
 
 WS.verifyMatch(actualMenu, menu, true)
 

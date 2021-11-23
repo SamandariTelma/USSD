@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
 String numeroRecepteur="${numeroRecepteur}"
+String codeRecharge="${codeRecharge}"
+String montantRecharge="${montantRecharge}"
 
 'En tant que client TELMA, je vais dans le menu pour Recharge en composant #130*4# > 2'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
@@ -27,8 +29,11 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 CustomKeywords.'ussd.Send.response'('2')
 
 'Je saisis correctement un numéro MSISDN valide et je valide'
-numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
-String actualMenu=CustomKeywords.'ussd.Send.response'(numeroRecepteur)
+String numeroBeneficiarie=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+CustomKeywords.'ussd.Send.response'(numeroBeneficiarie)
+
+'Je saisis correctement le code de recharge et je valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'(codeRecharge)
 
 'Vérifier la conformtité du prompt'
 String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez depasse le nombre de transactions gratuites de la journee\\. Votre demande sera maintenant facturee\\.  Continuer\\?\n0 Non\n1 Oui',

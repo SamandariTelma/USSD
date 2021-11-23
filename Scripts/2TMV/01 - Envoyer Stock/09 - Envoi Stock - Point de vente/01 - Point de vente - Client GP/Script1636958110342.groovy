@@ -31,16 +31,10 @@ WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv
 
 int soldeEnvoyeurAvant = GlobalVariable.solde2tmv
 
-'Consulter le solde du client GP avant l\'envoi'
-WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur], 
-    FailureHandling.CONTINUE_ON_FAILURE)
-
-int soldeRecepteurAvant = GlobalVariable.soldeCredit
-
 'En tant que numero de type Revendeur, j\'envoi du stock à un numéro de type GP'
-WebUI.callTestCase(findTestCase('2TMV/01 - Envoyer Stock/00-Called test case/Envoi stock - destinataire eligible'), [('numeroEnvoyeur') : GlobalVariable.msisdnGrossiste
-        , ('numeroRecepteur') : GlobalVariable.msisdnChefDeZone, ('pinEnvoyeur') : GlobalVariable.pinEnvoyeur, ('montantStock') : '10000'], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2TMV/01 - Envoyer Stock/00-Called test case/Envoi stock - destinataire non eligible'), 
+    [('numeroEnvoyeur') : numeroEnvoyeur, ('numeroRecepteur') : numeroRecepteur, ('pinEnvoyeur') : GlobalVariable.pinEnvoyeur
+        , ('montantStock') : montantStock], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Consulter le solde du Revendeur après l\'envoi'
 WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv'), [('numeroInitiateur') : numeroEnvoyeur
@@ -50,11 +44,5 @@ int soldeEnvoyeurApres = GlobalVariable.solde2tmv
 
 WS.verifyEqual(soldeEnvoyeurApres, soldeEnvoyeurAvant)
 
-'Consulter le solde du client GP après l\'envoi'
-WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur], 
-    FailureHandling.CONTINUE_ON_FAILURE)
 
-int soldeReceveurApres = GlobalVariable.soldeCredit
-
-WS.verifyEqual(soldeReceveurApres, soldeRecepteurAvant + montant)
 

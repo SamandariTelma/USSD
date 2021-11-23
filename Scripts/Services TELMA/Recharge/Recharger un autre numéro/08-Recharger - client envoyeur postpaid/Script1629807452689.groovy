@@ -26,7 +26,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du message ussd'
-String menu=CustomKeywords.'ussd.Expected.menu'('Un numero post paye ne peut pas beneficier de ce service\\.', 'Tsy afaka mampiasa ity servisy ity ny mpamandrika postpaye\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Desole, les abonnes Postpaye Telma Mobile ne peuvent pas beneficier de ce service\\.', 'Tsy afaka mampiasa ity servisy ity ny mpamandrika postpaye\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

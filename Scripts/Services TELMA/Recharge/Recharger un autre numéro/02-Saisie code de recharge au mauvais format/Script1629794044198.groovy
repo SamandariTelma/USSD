@@ -38,7 +38,7 @@ String numeroBeneficiaire=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 String actualMenu=CustomKeywords.'ussd.Send.response'(numeroBeneficiaire)
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Entrer code recharge :', 'Kaodin\'ny fahana :')
+String menu=CustomKeywords.'ussd.Expected.menu'('Entrer code recharge :', 'Kaodin ny fahana :')
 
 WS.verifyMatch(actualMenu, menu, true)
 
