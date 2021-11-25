@@ -19,21 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
 
-'En tant que MSISDN grossiste, je compose le *130*129*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
+'En tant que MSISDN grossiste, je compose le *130*2'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
-'Je compose le 2 ( De toi a moi vaovao) et je valide '
-CustomKeywords.'ussd.Send.response'('2')
-
-'Je saisis 2 (Consultation du solde) et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('2')
+'Je saisis 4 (Consultation du solde) et je valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'('4')
 
 'Vérifier la conformité du prompt'
 String menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret :')
 
 WS.verifyMatch(actualMenu, menu, true)
-
-
 
 'Je saisis un PIN qui ne m\'appartient pas'
 actualMenu=CustomKeywords.'ussd.Send.response'('2589')

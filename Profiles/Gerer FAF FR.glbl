@@ -16,12 +16,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'261346849627'</initValue>
+      <initValue>'261346848017'</initValue>
       <name>msisdnInitiateur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>même que msisdn Initiateur</description>
-      <initValue>'0346848017'</initValue>
+      <initValue>'0346849627'</initValue>
       <name>monNumero</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,12 +36,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0343500078'</initValue>
+      <initValue>'0346848017'</initValue>
       <name>msisdnAAjouter3</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'fr'</initValue>
+      <initValue>'mg'</initValue>
       <name>langue</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

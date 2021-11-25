@@ -27,7 +27,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('Vous beneficiez de \\d{1,8} Mo de bonus internet valable jusqu\'au '+regexDate,
-	'Manana \\d{1,8} Mo bonus internet ianao manankery hatramin\'ny '+regexDate+'\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Il vous reste \\d{1,8} Mo de bonus internet sur votre compte, valable jusqu\'au '+regexDate,
+	'Bonus internet \\d{1,8} Mo sisa no tavela ao \\@kaontinao, manankery hatramin ny '+regexDate)
 
 WS.verifyMatch(actualMenu, menu, true)

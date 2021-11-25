@@ -28,7 +28,7 @@ String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 'Vérifier la conformité du menu'
 numeroInitiateur=CustomKeywords.'ussd.Util.to034'(numeroInitiateur)
 
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre offre ne vous permet pas d acceder a ce service', 'Ny nomeronao dia '+numeroInitiateur+' ary tolotra Postpaye TELMA Mobile no ampiasainao\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre offre ne vous permet pas d\'acceder a ce service', 'Ny nomeronao dia '+numeroInitiateur+' ary tolotra Postpaye TELMA Mobile no ampiasainao\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

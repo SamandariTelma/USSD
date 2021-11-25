@@ -26,6 +26,6 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroPostpaid)
 String actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre offre ne vous permet pas d acceder a ce service', 'Ny nomeronao dia '+numeroPostpaid+' ary tolotra Postpaye TELMA Mobile no ampiasainao\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre offre ne vous permet pas d\'acceder a ce service', 'Ny nomeronao dia '+numeroPostpaid+' ary tolotra Postpaye TELMA Mobile no ampiasainao\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
