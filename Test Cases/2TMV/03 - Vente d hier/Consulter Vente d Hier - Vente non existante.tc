@@ -6,10 +6,17 @@
    <comment></comment>
    <testCaseGuid>d61e40c2-3756-480e-ac95-e746e1e31799</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <defaultValue>GlobalVariable.msisdnGrossiste2</defaultValue>
       <description></description>
       <id>acc39bcf-57b5-4d62-b0bc-b837c31c12c9</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur2</defaultValue>
+      <description></description>
+      <id>21070913-3d9b-4ff7-bc7d-f25356fe5b64</id>
+      <masked>false</masked>
+      <name>pinInitiateur</name>
    </variable>
 </TestCaseEntity>

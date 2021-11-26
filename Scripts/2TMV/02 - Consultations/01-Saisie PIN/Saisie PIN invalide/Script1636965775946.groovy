@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String numeroInitiateur="${numeroInitiateur}"
+String numeroInitiateur= "${numeroInitiateur}"
 
 'En tant que MSISDN grossiste, je compose le *130*2'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
@@ -26,14 +26,14 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('4')
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret :')
+String menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret :','Kaody miafina :')
 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis un PIN qui ne m\'appartient pas'
-actualMenu=CustomKeywords.'ussd.Send.response'('2589')
+actualMenu=CustomKeywords.'ussd.Send.response'('8526')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Le code secret saisi n\'est pas le bon\\.','Nanoratra kaody miafina diso ilay olona')
+menu=CustomKeywords.'ussd.Expected.menu'('Le code secret saisi est incorrect\\. Ref: \\d{1,10}','Diso ny kaodinao\\. Ref: \\d{1,10}')
 
 WS.verifyMatch(actualMenu, menu, true)

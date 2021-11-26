@@ -17,6 +17,6 @@
       <description></description>
       <id>ea4a61bc-74f4-41e0-b901-d36b9e12ae1c</id>
       <masked>false</masked>
-      <name>pin</name>
+      <name>pinInitiateur</name>
    </variable>
 </TestCaseEntity>

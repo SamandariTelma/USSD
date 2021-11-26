@@ -19,21 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 
 String numeroInitiateur="${numeroInitiateur}"
-String pin="${pin}"
+String pinInitiateur= "${pinInitiateur}"
+String regexSolde='(([1-9]{1,3})|(([1-9]{1,3}(\\s\\d{3})+)))'
 
-'En tant que MSISDN grossiste, je compose le *130*129*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
+'En tant que MSISDN grossiste, je compose le *130*2#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
-'Je compose le 2 ( De toi a moi vaovao) et je valide'
-CustomKeywords.'ussd.Send.response'('2')
+'Je saisis 5 (Ventes d\'hier) et je valide'
+CustomKeywords.'ussd.Send.response'('5')
 
-'Je saisis 4 (Ventes d\'hier) et je valide'
-CustomKeywords.'ussd.Send.response'('4')
-
-'Je saisis correctement mon PIN (0000) et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'(pin)
+'Je saisis correctement mon PIN  et je valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'(pinInitiateur)
 
 'Vérifier la conformité du message ussd'
-String menu=CustomKeywords.'ussd.Expected.menu'('Total montant envoyé : \\d{1,10} Ar\\. Le nombre de transactions est: \\d{1,4} \\. Ref: \\d{1,10}')
+String menu=CustomKeywords.'ussd.Expected.menu'('Total montant envoye: '+regexSolde+' Ar\\.\nLe nombre de transactions est: [1-9]{1,4}\\. Ref: \\d{1,10}\\.',
+	'Sandan ny vola voaray: '+regexSolde+' Ar\\. Ny isan ny fifanakalozana dia: [1-9]{1,4}\\. Ref: \\d{1,10}\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

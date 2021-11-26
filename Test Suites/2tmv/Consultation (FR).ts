@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>07b41969-8124-4f12-bb8c-edb98c5981e1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/2TMV/00 - Called test case/Consulter le menu 2tmv</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>73719549-ebb4-4401-b054-e15e16c2cfdf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/2TMV/02 - Consultations/01-Saisie PIN/Saisie PIN invalide</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>199d7acf-eb5a-432f-bfa0-dde6a6c7b196</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/2TMV/02 - Consultations/01-Saisie PIN/Saisie PIN mauvais format</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -117,24 +117,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>7fa8c63c-774a-4dbc-aa8b-57cf5eedd281</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>afaf0890-1099-409f-b123-f91b041c0941</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/2TMV/02 - Consultations/03-Consultation bonus/Consulter bonus</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a520f6a5-d881-451e-8a70-42218f00ce16</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b928f0a0-70bd-41d2-a7b7-17b5854c2ebd</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

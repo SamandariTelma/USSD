@@ -20,16 +20,13 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 String pinInitiateur="${pinInitiateur}"
 
-'En tant que MSISDN grossiste , je compose le *130*129*5#'
+'En tant que MSISDN grossiste , je compose le *130*2#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
-
-'Je compose le 2 ( De toi a moi vaovao) et je valide'
-CustomKeywords.'ussd.Send.response'('2')
 
 'Je saisis 3 (Consultation de bonus) et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du message ussd'
-Stirng menu=CustomKeywords.'ussd.Expected.menu'('Votre bonus est de \\d{1,8} Ar')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre bonus est de \\d{1,8} Ar')
 
 WS.verifyMatch(actualMenu, menu, true)

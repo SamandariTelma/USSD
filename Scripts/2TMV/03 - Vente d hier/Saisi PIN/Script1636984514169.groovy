@@ -19,19 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 
 String numeroInitiateur="${numeroInitiateur}"
-String pin="${pin}"
 
-'En tant que MSISDN grossiste, je compose le *130*129*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
+'En tant que MSISDN grossiste, je compose le *130*2#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
-'Je compose le 2 ( De toi a moi vaovao) et je valide'
-CustomKeywords.'ussd.Send.response'('2')
-
-'Je saisis 4 (Ventes d\'hier) et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('4')
+'Je saisis 5 (Ventes d\'hier) et je valide'
+String actualMenu=CustomKeywords.'ussd.Send.response'('5')
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret :')
+String menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret :','Kaody miafina :')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -39,14 +35,14 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('258')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres')
+menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres','Kaody miafina tsy manankery')
 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis un PIN qui ne m\'appartient pas'
-actualMenu=CustomKeywords.'ussd.Send.response'('2589')
+actualMenu=CustomKeywords.'ussd.Send.response'('5852')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Le code secret saisi n\'est pas le bon\\.','Nanoratra kaody miafina diso ilay olona')
+menu=CustomKeywords.'ussd.Expected.menu'('Le code secret saisi est incorrect\\. Ref: \\d{1,10}','Diso ny kaodinao\\. Ref: \\d{1,10}')
 
 WS.verifyMatch(actualMenu, menu, true)
