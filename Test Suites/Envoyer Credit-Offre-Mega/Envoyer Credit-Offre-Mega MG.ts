@@ -555,7 +555,7 @@
       <guid>32174c28-4f97-4890-8ece-a7bb4441a98c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/03-TELMA NET Mensuel/01-Achat offre pour soi - TELMA net ONE MONTH 1,5 Go</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/03-TELMA NET Mensuel/01-Achat offre pour soi - TELMA net ONE MONTH 2,5 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

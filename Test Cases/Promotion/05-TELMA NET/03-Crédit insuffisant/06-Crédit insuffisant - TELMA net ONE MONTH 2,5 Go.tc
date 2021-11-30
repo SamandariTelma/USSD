@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06-Crédit insuffisant - TELMA net ONE MONTH 2,5 Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25616e93-c513-46bd-ba49-a3ddea665c4d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>22cee445-ff5b-4fb7-be9a-b9863b6bf8eb</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

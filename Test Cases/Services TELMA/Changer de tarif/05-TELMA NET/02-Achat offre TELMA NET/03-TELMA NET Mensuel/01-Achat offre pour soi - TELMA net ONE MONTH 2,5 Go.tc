@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Achat offre pour soi - TELMA net ONE MONTH 2,5 Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc66890e-f01c-4550-b626-bd98b667624d</testCaseGuid>
+   <variable>
+      <defaultValue>'15000'</defaultValue>
+      <description></description>
+      <id>7167b24f-25f1-4cfd-a784-4bad3e7896a2</id>
+      <masked>false</masked>
+      <name>montantTelmaNet</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>1e6ef065-c013-4bb3-929a-b58a4f455f03</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

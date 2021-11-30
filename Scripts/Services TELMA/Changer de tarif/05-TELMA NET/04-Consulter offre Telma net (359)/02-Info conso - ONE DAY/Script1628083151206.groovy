@@ -41,7 +41,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('NET ONE DAY, il vous reste 150\\.0 Mo utilisable a toute heure\\.',
-	'NET ONE DAY, 150\\.0 Mo sisa ny bonus\\-nao azo ampiasaina @ ora rehetra\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('NET ONE DAY, il vous reste 250\\.0 Mo utilisable a toute heure\\.',
+	'NET ONE DAY, 250\\.0 Mo sisa ny bonus\\-nao azo ampiasaina @ ora rehetra\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

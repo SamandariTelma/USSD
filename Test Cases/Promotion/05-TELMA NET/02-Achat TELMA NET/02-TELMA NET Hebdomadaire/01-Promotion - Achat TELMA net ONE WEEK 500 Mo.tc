@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Promotion - Achat TELMA net ONE WEEK 500 Mo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d31fbd35-d5a9-4047-b643-2252aa6794d5</testCaseGuid>
+   <variable>
+      <defaultValue>'3000'</defaultValue>
+      <description></description>
+      <id>e5b3f424-47d3-4e3b-a33b-79fcbe3a2922</id>
+      <masked>false</masked>
+      <name>montantTelmaNet</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e26de2bc-50b3-42e4-b2a8-0e1455d5fd7f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

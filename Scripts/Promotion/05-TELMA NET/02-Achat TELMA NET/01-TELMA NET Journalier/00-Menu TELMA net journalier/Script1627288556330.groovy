@@ -24,6 +24,6 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*5#', numeroInitiateur
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Je vérifie la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('NET JOURNALIER\n1 NET ONE NIGHT  \\(100 Ar\\)\n2 NET ONE DAY \\(1 000 Ar\\)')
+String menu=CustomKeywords.'ussd.Expected.menu'('NET JOURNALIER\n1 NET ONE NIGHT  \\(100 Ar\\)\n2 NET ONE DAY \\(1000 Ar\\)')
 
 WS.verifyMatch(actualMenu, menu, true)

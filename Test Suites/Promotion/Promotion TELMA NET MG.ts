@@ -123,7 +123,7 @@
       <guid>8bc4bb04-7dbb-43f6-aab7-13c69f860bec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/02-Achat TELMA NET/02-TELMA NET Hebdomadaire/03-Promotion - Achat TELMA net ONE WEEK 1,5Go</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/02-Achat TELMA NET/02-TELMA NET Hebdomadaire/03-Promotion - Achat TELMA net ONE WEEK 2,5Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -141,7 +141,7 @@
       <guid>59a46432-34c4-4a49-9768-e4bd0e7f4701</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/02-Achat TELMA NET/02-TELMA NET Hebdomadaire/02-Promotion - Achat TELMA net ONE WEEK 500 Mo</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/02-Achat TELMA NET/02-TELMA NET Hebdomadaire/02-Promotion - Achat TELMA net ONE WEEK 1Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -159,7 +159,7 @@
       <guid>a2ecc0e2-8ff5-454e-b86c-e5a8d9748756</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/02-Achat TELMA NET/02-TELMA NET Hebdomadaire/01-Promotion - Achat TELMA net ONE WEEK 250 Mo</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/02-Achat TELMA NET/02-TELMA NET Hebdomadaire/01-Promotion - Achat TELMA net ONE WEEK 500 Mo</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -207,7 +207,7 @@
       <guid>a3e69858-8c34-4057-a3ed-2e2497e53403</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/02-Achat TELMA NET/03-TELMA NET Mensuel/04-Promotion - Achat TELMA net ONE MONTH 20Go</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/02-Achat TELMA NET/03-TELMA NET Mensuel/04-Promotion - Achat TELMA net ONE MONTH 30Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -225,7 +225,7 @@
       <guid>ff7f4b3c-6b6e-41f6-bbd4-77d08ff7299b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/02-Achat TELMA NET/03-TELMA NET Mensuel/03-Promotion - Achat TELMA net ONE MONTH 10Go</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/02-Achat TELMA NET/03-TELMA NET Mensuel/03-Promotion - Achat TELMA net ONE MONTH 15Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -243,7 +243,7 @@
       <guid>a550e193-f391-47c0-8c92-4acc70a10465</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/02-Achat TELMA NET/03-TELMA NET Mensuel/02-Promotion - Achat TELMA net ONE MONTH 3Go</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/02-Achat TELMA NET/03-TELMA NET Mensuel/02-Promotion - Achat TELMA net ONE MONTH 4,5Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -261,7 +261,7 @@
       <guid>5b552e65-2c9e-4745-8072-9a0f3a1ffa2d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/02-Achat TELMA NET/03-TELMA NET Mensuel/01-Promotion - Achat TELMA net ONE MONTH 1,5 Go</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/02-Achat TELMA NET/03-TELMA NET Mensuel/01-Promotion - Achat TELMA net ONE MONTH 2,5 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -303,7 +303,7 @@
       <guid>62e5fce6-367b-486d-bd80-37ea50c6bfb1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/03-Crédit insuffisant/09-Crédit insuffisant - TELMA net ONE MONTH 20 Go</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/03-Crédit insuffisant/09-Crédit insuffisant - TELMA net ONE MONTH 30 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -315,7 +315,7 @@
       <guid>109db76c-abb8-49c5-bc33-c8f3de8d6cc8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/03-Crédit insuffisant/08-Crédit insuffisant - TELMA net ONE MONTH 10 Go</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/03-Crédit insuffisant/08-Crédit insuffisant - TELMA net ONE MONTH 15 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -327,7 +327,7 @@
       <guid>517c17d5-2e8d-42b6-aad5-59980c050f94</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/03-Crédit insuffisant/07-Crédit insuffisant - TELMA net ONE MONTH 3 Go</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/03-Crédit insuffisant/07-Crédit insuffisant - TELMA net ONE MONTH 4,5 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -339,7 +339,7 @@
       <guid>375dbbac-e596-4bf3-b666-fa24536ebf77</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/03-Crédit insuffisant/06-Crédit insuffisant - TELMA net ONE MONTH 1,5 Go</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/03-Crédit insuffisant/06-Crédit insuffisant - TELMA net ONE MONTH 2,5 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -351,7 +351,7 @@
       <guid>526db39f-f0fe-4a9d-a512-3112e11b83f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/03-Crédit insuffisant/05-Crédit insuffisant - TELMA net ONE WEEK 1,5 Go</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/03-Crédit insuffisant/05-Crédit insuffisant - TELMA net ONE WEEK 2,5 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -363,7 +363,7 @@
       <guid>629e874f-c97a-45a5-9363-79fb942eaeef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/03-Crédit insuffisant/04-Crédit insuffisant - TELMA net ONE WEEK 500 Mo</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/03-Crédit insuffisant/04-Crédit insuffisant - TELMA net ONE WEEK 1Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -375,7 +375,7 @@
       <guid>212104ee-e427-4504-aebf-72069b7cd512</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/03-Crédit insuffisant/03-Crédit insuffisant - TELMA net ONE WEEK 250 Mo</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/03-Crédit insuffisant/03-Crédit insuffisant - TELMA net ONE WEEK 500 Mo</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -423,7 +423,7 @@
       <guid>d9a74f8f-92f5-407b-88e2-2cb6b18454e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/04-Annulation Promotion/09-Annuler achat promotion - TELMA net ONE MONTH 20 Go</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/04-Annulation Promotion/09-Annuler achat promotion - TELMA net ONE MONTH 30 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -435,7 +435,7 @@
       <guid>625a4212-cdfe-4b8e-b9a3-921f6b67d076</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/04-Annulation Promotion/08-Annuler achat promotion - TELMA net ONE MONTH 10 Go</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/04-Annulation Promotion/08-Annuler achat promotion - TELMA net ONE MONTH 15Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -447,7 +447,7 @@
       <guid>2df712ee-1ae8-4114-a767-2d5ca95abc40</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/04-Annulation Promotion/07-Annuler achat promotion - TELMA net ONE MONTH 3 Go</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/04-Annulation Promotion/07-Annuler achat promotion - TELMA net ONE MONTH 4,5 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -459,7 +459,7 @@
       <guid>560f6dac-1ab9-4342-b61f-3cb4e6e0c39d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/04-Annulation Promotion/06-Annuler achat promotion - TELMA net ONE MONTH 1,5 Go</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/04-Annulation Promotion/06-Annuler achat promotion - TELMA net ONE MONTH 2,5 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -471,7 +471,7 @@
       <guid>4b4a9eba-820b-4aff-9719-21f46d76ceb3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/04-Annulation Promotion/05-Annuler achat promotion - TELMA net ONE WEEK 1,5 Go</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/04-Annulation Promotion/05-Annuler achat promotion - TELMA net ONE WEEK 2,5 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -483,7 +483,7 @@
       <guid>0da2cd9f-7330-4690-8b13-6768341f66f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/04-Annulation Promotion/04-Annuler achat promotion - TELMA net ONE WEEK 500 Mo</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/04-Annulation Promotion/04-Annuler achat promotion - TELMA net ONE WEEK 1Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -495,7 +495,7 @@
       <guid>37e3f989-6ee6-4cda-b8ca-cede950016c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Promotion/05-TELMA NET/04-Annulation Promotion/03-Annuler achat promotion - TELMA net ONE WEEK 250 Mo</testCaseId>
+      <testCaseId>Test Cases/Promotion/05-TELMA NET/04-Annulation Promotion/03-Annuler achat promotion - TELMA net ONE WEEK 500 Mo</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

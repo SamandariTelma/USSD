@@ -37,8 +37,8 @@ CustomKeywords.'ussd.Send.response'('1')
 String actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Je vérifie la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('L achat de votre NET ONE DAY est reussi\\. Vous avez 150 Mo de DATA utilisable à toute heure\\. Achetez via Mvola et gagnez 20% de bonus\\. \\(#111\\*1#\\)\\.',
-	'Tafiditra ny tolotra NET ONE DAY novidianao\\. Manana 150 Mo azo ampiasaina @ fotoana rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('L achat de votre NET ONE DAY est reussi\\. Vous avez 250 Mo de DATA utilisable à toute heure\\. Achetez via Mvola et gagnez 20% de bonus\\. \\(#111\\*1#\\)\\.',
+	'Tafiditra ny tolotra NET ONE DAY novidianao\\. Manana 250 Mo azo ampiasaina @ fotoana rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 'Je vérifie que mon solde est déduit du montant de TELMA NET acheté'
