@@ -69,7 +69,7 @@ int soldeRestant = soldeEnvoyeurAvantEnvoi - Integer.valueOf(montantOffre)
 String solde = CustomKeywords.'ussd.Util.separateThousand'(soldeRestant)
 
 menu = CustomKeywords.'ussd.Expected.menu'(((((('L\'envoi de l\'offre FIRST PREMIUM au tarif de ' + montantOffre) + ' Ar vers le numero ') + 
-    numeroRecepteur) + ' est reussi\\. Votre nouveau solde est ') + solde) + ' Ar. Telma toujours plus pour vous.')
+    numeroRecepteur) + ' est reussi\\. Votre nouveau solde est ') + solde) + ' Ar. Telma Safidiko N1 Malagasy\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

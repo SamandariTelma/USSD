@@ -29,7 +29,7 @@ CustomKeywords.'ussd.Send.response'('4')
 String actualMenu= CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
-String menu = CustomKeywords.'ussd.Expected.menu'('NET JOURNALIER\n1 NET ONE NIGHT \n2 NET ONE DAY')
+String menu = CustomKeywords.'ussd.Expected.menu'('NET JOURNALIER\n1 NET ONE NIGHT  \\(100 Ar\\)\n2 NET ONE DAY \\(1000 Ar\\)')
 
 WS.verifyMatch(actualMenu, menu, true)
 

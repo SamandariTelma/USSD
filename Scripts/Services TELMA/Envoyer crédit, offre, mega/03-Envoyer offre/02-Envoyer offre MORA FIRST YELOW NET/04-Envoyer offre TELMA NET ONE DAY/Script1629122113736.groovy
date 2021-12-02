@@ -56,8 +56,8 @@ String actualMenu = CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du prompt'
 String menu = CustomKeywords.'ussd.Expected.menu'(('Pour accepter d\'acheter l\'offre NET ONE DAY a 1000 Ar pour le numero ' + 
-    numeroRecepteur) + ', Entrer le code secret:', ('Raha handefa ny tolotra NET ONE DAY ho an ny ' + numeroRecepteur) + 
-    ', Ampidiro ny kaody miafina MVola:')
+    numeroRecepteur) + ', Entrer le code secret:', ('Raha handefa ny tolotra NET ONE DAY @ sarany 1000 Ar ho an ny ' + numeroRecepteur) + 
+    ' ianao, ampidiro ny kaody miafina:')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -71,8 +71,8 @@ int soldeRestant = soldeEnvoyeurAvantEnvoi - Integer.valueOf(montantOffre)
 
 String solde = CustomKeywords.'ussd.Util.separateThousand'(soldeRestant)
 
-menu = CustomKeywords.'ussd.Expected.menu'(((((('L\'envoi de l\'offre NET ONE DAY au tarif de ' + montantOffre) + ' Ar vers le numero ') + 
-    numeroRecepteur) + ' est reussi\\. Votre nouveau solde est ') + solde) + ' Ar. Telma toujours plus pour vous.')
+menu = CustomKeywords.'ussd.Expected.menu'('L\'envoi de l\'offre NET ONE DAY au tarif de ' + montantOffre + ' Ar vers le numero ' +numeroRecepteur+ ' est reussi\\. Votre nouveau solde est ' + solde + ' Ar\\. Telma Safidiko N1 Malagasy\\.',
+'Tontosa ny fandefasanao ny tolotra NET ONE DAY amin ny sarany ' + montantOffre+ ' Ar ho an ny laharana '+numeroRecepteur+'\\. ' +solde+ ' Ar sisa ny credit-nao\\. Telma Safidiko N1 Malagasy\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

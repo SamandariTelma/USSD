@@ -27,15 +27,15 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('^.*BONUS Mega partageable :\n1 NET ONE MONTH 1\\,5Go.*$', '^.*BONUS Mega afaka zaraina :\n1 NET ONE MONTH 1\\,5Go.*$')
+String menu=CustomKeywords.'ussd.Expected.menu'('^.*BONUS Mega partageable :\n1 NET ONE MONTH 2\\,5Go.*$', '^.*BONUS Mega afaka zaraina :\n1 NET ONE MONTH 2\\,5Go.*$')
 
 WS.verifyMatch(actualMenu, menu, true)
-'Je saisis 1 (NET ONE MONTH 1,5Go)'
+'Je saisis 1 (NET ONE MONTH 2,5Go)'
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformtité du menu'
-menu=CustomKeywords.'ussd.Expected.menu'('Mega a partager \nIl vous reste \\d{1,5}\\.\\d{1,3} Mo sur votre NET ONE MONTH 1,5Go :\n1 100 Mo\n2 500 Mo\n3 1024 Mo', 
-	'Mega zaraina \\d{1,5}\\.\\d{1,3} sisa no ao @ tolotra NET ONE MONTH 1\\,5Go anao\n1 100 Mo\n2 500 Mo\n3 1024 Mo')
+menu=CustomKeywords.'ussd.Expected.menu'('Mega a partager \nIl vous reste \\d{1,5}\\.\\d{1,3} Mo sur votre NET ONE MONTH 2,5Go :\n1 100 Mo\n2 500 Mo\n3 1024 Mo', 
+	'Mega zaraina \\d{1,5}\\.\\d{1,3} sisa no ao @ tolotra NET ONE MONTH 2\\,5Go anao\n1 100 Mo\n2 500 Mo\n3 1024 Mo')
 
 WS.verifyMatch(actualMenu, menu, true)
 

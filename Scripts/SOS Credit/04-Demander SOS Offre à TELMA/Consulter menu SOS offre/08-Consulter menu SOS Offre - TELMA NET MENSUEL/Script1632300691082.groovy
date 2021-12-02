@@ -29,7 +29,7 @@ CustomKeywords.'ussd.Send.response'('4')
 String actualMenu= CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du menu'
-String menu = CustomKeywords.'ussd.Expected.menu'('NET MENSUEL\n1 NET ONE MONTH 1,5Go\n2 NET ONE MONTH 3Go\n3 NET ONE MONTH 10Go\n4 NET ONE MONTH 20Go\n5 NET ONE MONTH 100Go')
+String menu = CustomKeywords.'ussd.Expected.menu'('NET MENSUEL\n1 NET ONE MONTH 2,5Go \\(15000 Ar\\)\n2 NET ONE MONTH 4,5Go \\(25000 Ar\\)\n3 NET ONE MONTH 15Go \\(75000 Ar\\)\n4 NET ONE MONTH 30Go \\(125000 Ar\\)\n5 NET ONE MONTH 100Go \\(195000 Ar\\)')
 
 WS.verifyMatch(actualMenu, menu, true)
 

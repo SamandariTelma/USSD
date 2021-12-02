@@ -32,7 +32,7 @@ CustomKeywords.'ussd.Send.response'('1')
 'Je sélectionne un numero parmi la liste et je valide'
 CustomKeywords.'ussd.Send.response'('1')
 
-'Je saisis 9 pour voir le repertoire je valide '
+'Je saisis 9 pour voir le repertoire je valide'
 CustomKeywords.'ussd.Send.response'('9')
 
 'Je saisis 1 pour choisir le numéro dans le repertoire'
