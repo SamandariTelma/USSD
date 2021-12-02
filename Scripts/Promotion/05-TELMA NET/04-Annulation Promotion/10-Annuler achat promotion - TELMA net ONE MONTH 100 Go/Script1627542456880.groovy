@@ -27,7 +27,8 @@ CustomKeywords.'ussd.Send.response'('3')
 String actualMenu=CustomKeywords.'ussd.Send.response'('5')
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('^.*Vous voulez en profiter\\? 1\\-OUI ; 0\\-NON.*$','^.*Hanararaotra\\? 1\\-ENY ; 0\\-TSIA.*$')
+String menu=CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 100 Go! Beneficiez de 100 Go de DATA utilisable a toute heure pendant 30 jours pour seulement 195\\.000 Ar\\. En profiter\\? 1\\-OUI ; 0\\-NON',
+	'NET ONE MONTH 100 Go! Mahazoa 100 Go DATA azo ampiasaina @ ora rehetra @ sarany 195\\.000 Ar monja mandritry ny 30 andro\\. Hanararoatra\\? 1\\-ENY ; 0\\-TSIA')
 
 WS.verifyMatch(actualMenu, menu, true)
 

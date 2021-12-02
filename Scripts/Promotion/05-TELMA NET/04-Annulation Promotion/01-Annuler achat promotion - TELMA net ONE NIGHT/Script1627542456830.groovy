@@ -27,7 +27,8 @@ CustomKeywords.'ussd.Send.response'('1')
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('^.*En profiter\\? 1\\-OUI ; 0\\-NON.*$','^.*Hanararaotra\\? 1\\-ENY ; 0\\-TSIA.*$')
+String menu=CustomKeywords.'ussd.Expected.menu'('Avec NET ONE NIGHT, beneficiez de 40Mo par nuit de 00H-6H et de 21H-0H pour seulement 100Ar\\. En profiter\\? 1\\-OUI ; 0\\-NON',
+	'^.*Hanararaotra\\? 1\\-ENY ; 0\\-TSIA.*$')
 
 WS.verifyMatch(actualMenu, menu, true)
 

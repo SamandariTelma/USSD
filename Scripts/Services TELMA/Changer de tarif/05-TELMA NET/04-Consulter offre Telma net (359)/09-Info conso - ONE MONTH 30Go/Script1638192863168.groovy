@@ -33,7 +33,7 @@ actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 30Go\n1 Info conso\n00 Page precedente',
-	'NET ONE MONTH 20Go\n1 Info conso\n00 Pejy aloha')
+	'NET ONE MONTH 30Go\n1 Info conso\n00 Pejy aloha')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -41,7 +41,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 30Go, il vous reste 36864\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
-	'NET ONE MONTH 30 Go, 36864\\.0  Mo sisa ny bonus-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 30Go, il vous reste 30720\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
+	'NET ONE MONTH 30 Go, 30720\\.0  Mo sisa ny bonus-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

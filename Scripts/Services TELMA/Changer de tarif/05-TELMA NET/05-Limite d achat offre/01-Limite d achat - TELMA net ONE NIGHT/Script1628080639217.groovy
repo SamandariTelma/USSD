@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur = "$numeroInitiateur"
 
 String montantTelmaNet = "$montantTelmaNet"
-
+/*
 'Acheter TELMA net ONE NIGHT pour la 2ème fois'
 WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/01-TELMA NET Journalier/01-Achat offre pour soi - TELMA net ONE NIGHT'), 
     [('montantTelmaNet') : montantTelmaNet, ('numeroInitiateur') : numeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
@@ -34,7 +34,7 @@ WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/05-TELMA NET/02
 'Acheter TELMA net ONE NIGHT pour la 5ème fois'
 WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/01-TELMA NET Journalier/01-Achat offre pour soi - TELMA net ONE NIGHT'),
 	[('montantTelmaNet') : montantTelmaNet, ('numeroInitiateur') : numeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
-
+*/
 'Achat ONE NIGHT 6ème Tentative'
 'Je vais dans le menu Changer de tarif en shortcodant #130*4*6# (Achat TELMA ONE NIGHT 5ème tentative)'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)

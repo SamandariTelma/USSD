@@ -37,7 +37,7 @@ CustomKeywords.'ussd.Send.response'('1')
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Je vérifie la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('L achat de votre NET ONE NIGHT est reussi\\. Vous avez 40 Mo utilisable de 0h à 6h et de 21h à 00h\\. Achetez via Mvola et gagnez 20% de bonus\\. #111\\*1#\\.',
+String menu=CustomKeywords.'ussd.Expected.menu'('L achat de votre NET ONE NIGHT est reussi\\. Vous avez 40 Mo utilisable de 0h a 6h et de 21h a 00h\\. Achetez via Mvola et gagnez 20% de bonus\\. #111\\*1#\\.',
 	'Tafiditra ny tolotra NET ONE NIGHT novidianao\\. Manana 40 Mo ianao azo ampiasaina @ 0h\\-6h sy 21h\\-0h\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

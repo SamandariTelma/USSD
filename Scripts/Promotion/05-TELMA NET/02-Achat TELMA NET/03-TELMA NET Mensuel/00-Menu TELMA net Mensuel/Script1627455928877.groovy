@@ -24,23 +24,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*5#', numeroInitiateur
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Je vérifie la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('NET MENSUEL\n1 NET ONE MONTH 1,5Go \\(15 000 Ar\\)\n2 NET ONE MONTH 3Go \\(25 000 Ar\\)\n3 NET ONE MONTH 10Go \\(75 000 Ar\\)\n4 NET ONE MONTH 20Go \\(125 000 Ar\\)\n0 Page suivante',
-	'NET MENSUEL\n1 NET ONE MONTH 1,5Go \\(15 000 Ar\\)\n2 NET ONE MONTH 3Go \\(25 000 Ar\\)\n3 NET ONE MONTH 10Go \\(75 000 Ar\\)\n4 NET ONE MONTH 20Go \\(125 000 Ar\\)\n0 Pejy manaraka')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 0 (Page suivante)'
-actualMenu=CustomKeywords.'ussd.Send.response'('0')
-
-'Je vérifie la conformité du menu dans la page suivante'
-menu=CustomKeywords.'ussd.Expected.menu'('5 NET ONE MONTH 100Go \\(195 000 Ar\\)\n00 Page precedente', '5 NET ONE MONTH 100Go \\(195 000 Ar\\)\n00 Pejy aloha')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 00 pourretourner sur le menu précedent'
-actualMenu=CustomKeywords.'ussd.Send.response'('00')
-
-menu=CustomKeywords.'ussd.Expected.menu'('NET MENSUEL\n1 NET ONE MONTH 1,5Go \\(15 000 Ar\\)\n2 NET ONE MONTH 3Go \\(25 000 Ar\\)\n3 NET ONE MONTH 10Go \\(75 000 Ar\\)\n4 NET ONE MONTH 20Go \\(125 000 Ar\\)\n0 Page suivante',
-	'NET MENSUEL\n1 NET ONE MONTH 1,5Go \\(15 000 Ar\\)\n2 NET ONE MONTH 3Go \\(25 000 Ar\\)\n3 NET ONE MONTH 10Go \\(75 000 Ar\\)\n4 NET ONE MONTH 20Go \\(125 000 Ar\\)\n0 Pejy manaraka')
+String menu=CustomKeywords.'ussd.Expected.menu'('NET MENSUEL\n1 NET ONE MONTH 2,5Go \\(15000 Ar\\)\n2 NET ONE MONTH 4,5Go \\(25000 Ar\\)\n3 NET ONE MONTH 15Go \\(75000 Ar\\)\n4 NET ONE MONTH 30Go \\(125000 Ar\\)\n5 NET ONE MONTH 100Go \\(195000 Ar\\)',
+	'NET MENSUEL\n1 NET ONE MONTH 2,5Go \\(15000 Ar\\)\n2 NET ONE MONTH 4,5Go \\(25000 Ar\\)\n3 NET ONE MONTH 15Go \\(75000 Ar\\)\n4 NET ONE MONTH 30Go \\(125000 Ar\\)\n5 NET ONE MONTH 100Go \\(195000 Ar\\)')
 
 WS.verifyMatch(actualMenu, menu, true)
