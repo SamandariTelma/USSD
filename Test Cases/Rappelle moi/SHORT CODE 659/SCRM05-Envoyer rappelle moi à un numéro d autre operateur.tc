@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCRM05-Envoyer rappelle moi à un numéro d autre operateur</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9142be20-51c8-4cac-8c61-603b8d9caae8</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>2e390812-ac78-4702-8a3c-bb7ed20b0d86</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

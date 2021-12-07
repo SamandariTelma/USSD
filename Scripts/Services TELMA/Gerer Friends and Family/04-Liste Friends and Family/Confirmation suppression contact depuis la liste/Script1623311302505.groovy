@@ -29,7 +29,7 @@ CustomKeywords.'ussd.Send.response'('3')
 String actualMenu = CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du prompt'
-String menu = CustomKeywords.'ussd.Expected.menu'('Confirmez la suppression du numero '+numeroASupprime+' ? 1 Oui\n0 Non', 'Ho fafana ny numerao '+numeroASupprime+' ? 1 Eny\n0 Tsia')
+String menu = CustomKeywords.'ussd.Expected.menu'('Confirmez la suppression du numero '+numeroASupprime+' \\? \\(1\\-Oui \\; 0\\-Non\\)\\.', 'Ho fafana ny numerao '+numeroASupprime+' \\? \\(1\\-Eny ; 0\\-Tsia\\)\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

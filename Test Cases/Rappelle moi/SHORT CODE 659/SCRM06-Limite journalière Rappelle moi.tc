@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>06-Envoyer offre a quelqun qui a atteint son limite offre</name>
+   <name>SCRM06-Limite journalière Rappelle moi</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>dee11032-a633-4bde-bd3b-7563650fcd0b</testCaseGuid>
+   <testCaseGuid>f3cd0c0c-a596-4e8d-a2d1-cdc6bc8d54a2</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
       <description></description>
-      <id>45872633-4e27-4443-9641-5e5a510c0e95</id>
+      <id>dcc2c3b4-ca57-4b57-8732-3fb1ac2f0c68</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>b32ad438-c7e7-41a7-ad19-56042a7eb64e</id>
+      <id>798c1020-a18f-4d48-b056-cca97eef844c</id>
       <masked>false</masked>
       <name>numeroRecepteur</name>
-   </variable>
-   <variable>
-      <defaultValue>GlobalVariable.pinMsisdnCrediInsuffisant</defaultValue>
-      <description></description>
-      <id>e8c74b3f-00f1-45f1-8ce1-afa7c961afb4</id>
-      <masked>false</masked>
-      <name>pinNumeroInitiateur</name>
    </variable>
 </TestCaseEntity>

@@ -28,6 +28,6 @@ String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier l\'affichage du menu'
 String menu=CustomKeywords.'ussd.Expected.menu'('Liste Friends & Familly\\.\n1 '+numeroAjoute1+'\n2 '+numeroAjoute2+'\n3 '+numeroAjoute3, 
-	'Lisitra Namana & fianakaviana\\.\n1'+numeroAjoute1+'\n2 '+numeroAjoute2+'\n3 '+numeroAjoute3)
+	'Lisitra Namana & Fianakaviana\n1 '+numeroAjoute1+'\n2 '+numeroAjoute2+'\n3 '+numeroAjoute3)
 
 WS.verifyMatch(actualMenu, menu, true)

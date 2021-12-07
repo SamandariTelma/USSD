@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Suppression d un numéro inéxistant</name>
+   <name>SCRM03-Envoyer rappelle moi à un numéro postpaid</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d6de482b-8b79-4fb8-82e1-a8ec36c93ee7</testCaseGuid>
+   <testCaseGuid>2ae0900e-a0a8-461e-a582-76408f9b41bc</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>6d3f4240-7585-4baa-bbc7-7293ccc59bc2</id>
+      <id>9b8734f5-88d3-476a-ae67-2db2a8e791c5</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>'0340030818'</defaultValue>
+      <defaultValue>GlobalVariable.msisdnPostpaid</defaultValue>
       <description></description>
-      <id>358625b2-2d71-4c10-8304-efbbdc7ed784</id>
+      <id>f1528b18-3ed5-4f94-ab5f-c3598fed4339</id>
       <masked>false</masked>
-      <name>numeroNonFAF</name>
+      <name>numeroRecepteur</name>
    </variable>
 </TestCaseEntity>

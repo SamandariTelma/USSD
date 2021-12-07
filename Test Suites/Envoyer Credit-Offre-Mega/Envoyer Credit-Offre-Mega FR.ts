@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>87dc8fca-40b2-4a95-b56e-86e53fab758b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/01-Menu envoyer crédit/Consulter le menu envoyer crédit</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>ec8de61d-ab52-4713-b2e8-475fb40ed5ed</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/02-Envoyer crédit/02-Saisie Numero destinataire</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -44,7 +44,7 @@
    <testCaseLink>
       <guid>553ade15-0e37-4898-b95e-90def988b7d0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/02-Envoyer crédit/03-Saisie Montant</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -56,7 +56,7 @@
    <testCaseLink>
       <guid>8d20ecd5-e9a8-4af2-a15f-9141685287fd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/02-Envoyer crédit/04-Saisie PIN</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -80,7 +80,7 @@
    <testCaseLink>
       <guid>17355d15-961b-4eb1-afad-d36c237a5c87</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/02-Envoyer crédit/05-Crédit insuffisant</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -116,7 +116,7 @@
    <testCaseLink>
       <guid>6720ea56-8e89-496c-b810-a5683129e446</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/02-Envoyer crédit/01-Envoyer credit avec succès</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -152,7 +152,7 @@
    <testCaseLink>
       <guid>fd328d94-a83a-40c0-a667-07817d8debfd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/02-Envoyer crédit/06-Crédit suffisant mais frais non inclus</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -188,7 +188,7 @@
    <testCaseLink>
       <guid>03a96546-9394-48e7-9768-f6dc95b2de26</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/01-Menu offre/01-Consulter menu offre</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -224,7 +224,7 @@
    <testCaseLink>
       <guid>29b35bc5-7752-47ee-956d-a4fbff5ad15c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/02-Envoyer offre MORA FIRST YELOW NET/01-Envoyer offre MORA 500</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -260,7 +260,7 @@
    <testCaseLink>
       <guid>0f3cf980-2ae6-4ec9-afcc-1b0fedaa910d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/02-Envoyer offre MORA FIRST YELOW NET/02-Envoyer offre FIRST PREMIUM</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -296,7 +296,7 @@
    <testCaseLink>
       <guid>b89830aa-119b-4154-a2a5-5266ce2c01b3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/02-Envoyer offre MORA FIRST YELOW NET/03-Envoyer offre YELOW100</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -332,7 +332,7 @@
    <testCaseLink>
       <guid>53db6e4f-b920-4ace-a785-b14a98a8fc92</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/02-Envoyer offre MORA FIRST YELOW NET/04-Envoyer offre TELMA NET ONE DAY</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -368,7 +368,7 @@
    <testCaseLink>
       <guid>412f8138-a6f8-4046-8c3f-966b15eab535</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/Envoi offre non abouti/01-Saisie Numero destinataire</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -386,7 +386,7 @@
    <testCaseLink>
       <guid>a776fa47-8c89-4ffa-924b-1a79afa9329e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/Envoi offre non abouti/02-Choisir un menu offre inexistant</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -404,7 +404,7 @@
    <testCaseLink>
       <guid>58a7d11b-905d-4f3c-8e66-7ef511d2d37d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/Envoi offre non abouti/03-Saisie PIN</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -422,7 +422,7 @@
    <testCaseLink>
       <guid>1e37c0c6-d401-4d67-82a5-225776c5b5f2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/Envoi offre non abouti/04-Crédit insuffisant</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -458,7 +458,7 @@
    <testCaseLink>
       <guid>1717c272-4293-4643-aaa4-e7b490482a22</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/Envoi offre non abouti/05-Envoyer offre MORA a un numero postpaid</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -482,7 +482,7 @@
    <testCaseLink>
       <guid>dec17d0f-0368-478c-a5a7-bb04b80b4fb8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/02-Acheter offre Yelow (SMS - INTERNET)/Achat Yelow Facebobaka plus pour soi</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -500,7 +500,7 @@
    <testCaseLink>
       <guid>b905d16b-9d1a-4a71-9bdc-59d85c8ef3d1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/03-Achat limité offre Yelow (SMS - INTERNET)/Limite journalière d achat - Yelow facebobaka</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -512,7 +512,7 @@
    <testCaseLink>
       <guid>3d2b5310-1f8a-4041-86e5-d619e9280116</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/Envoi offre non abouti/06-Envoyer offre a quelqun qui a atteint son limite offre</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -536,7 +536,7 @@
    <testCaseLink>
       <guid>e609094f-a0f7-4a37-a540-934e0f4b40f4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/04-Partage Mega/06-Partage mega - pas d offre</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -554,7 +554,7 @@
    <testCaseLink>
       <guid>32174c28-4f97-4890-8ece-a7bb4441a98c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/02-Achat offre TELMA NET/03-TELMA NET Mensuel/01-Achat offre pour soi - TELMA net ONE MONTH 2,5 Go</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -572,7 +572,7 @@
    <testCaseLink>
       <guid>a4dc72b8-2d1b-415b-b3b3-e0520bcae62e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/04-Partage Mega/01-Partager mega avec succès</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -602,7 +602,7 @@
    <testCaseLink>
       <guid>b1a8ac2b-584d-44eb-933e-48dcef70f33c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/04-Partage Mega/02-Partager mega - numéro déjà enregistré</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -638,7 +638,7 @@
    <testCaseLink>
       <guid>3ed94369-2345-4c1e-868d-45784268d9b1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/04-Partage Mega/03-Saisie Numero destinataire</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -656,7 +656,7 @@
    <testCaseLink>
       <guid>3dc04f6f-c8c3-4a1d-9934-eda1d6f5ec27</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/04-Partage Mega/04-Choisir un menu Mega inexistant</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -674,7 +674,7 @@
    <testCaseLink>
       <guid>4c2abac9-7ae2-4b64-9f2f-97b0830a7ec9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/04-Partage Mega/05-Saisie PIN</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -698,7 +698,7 @@
    <testCaseLink>
       <guid>5dd34cbb-28ff-4b43-a610-fb5af699ed3d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/04-Partage Mega/07-Partage mega - non certifié MVola</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -716,7 +716,7 @@
    <testCaseLink>
       <guid>2b3a5db1-0f52-4f10-a81a-c4d163bc9a67</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/00-Called Test Case/Changer de langue</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

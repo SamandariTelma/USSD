@@ -44,6 +44,6 @@ actualMenu= CustomKeywords.'ussd.Send.response'(numeroInitiateur)
 
 'Vérifier la conformité du prompt'
 menu= CustomKeywords.'ussd.Expected.menu'('Votre offre tarifaire actuelle est (TOKANA|(\\w*))\n1 MORA \\(VOIX \\- SMS \\- INTERNET\\)\n2 FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n3 YELOW \\(SMS \\- INTERNET\\)\n4 TELMA Net \\(INTERNET\\)',
-	'Ny tolotra misy anao dia (TOKANA|(\\w*))\n1 MORA \\(VOIX \\- SMS \\- INTERNET\\)\n2 FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n3 YELOW \\(SMS \\- INTERNET\\)\n4 TELMA Net \\(INTERNET\\)')
+	'Ny tolotra misy anao ankehitriny dia (TOKANA|(\\w*))\n1 MORA \\(VOIX \\- SMS \\- INTERNET\\)\n2 FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n3 YELOW \\(SMS \\- INTERNET\\)\n4 TELMA Net \\(INTERNET\\)')
 
 WS.verifyMatch(actualMenu, menu, true)

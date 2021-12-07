@@ -38,8 +38,8 @@ CustomKeywords.'ussd.Send.response'('1')
 String actualMenu=CustomKeywords.'ussd.Send.response'('000@')
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Pour accepter d\'acheter l\'offre MORA 500 a 500 Ar pour le numero '+numeroRecepteur+', Entrer le code secret:',
-	'Raha handefa ny tolotra MORA 500 ho an ny '+numeroRecepteur+', Ampidiro ny kaody miafina MVola:')
+String menu = CustomKeywords.'ussd.Expected.menu'(('Pour accepter d\'acheter l\'offre MORA 500 au tarrif de 500 Ar pour le numero ' + numeroRecepteur) + ', Entrer le code secret:', 
+('Raha manaiky ny handefa ny tolotra MORA 500 amin\'ny sarany 500 Ar ho an\'ny laharana ' + numeroRecepteur) + ', Ampidiro ny kaody miafina:')
 
 WS.verifyMatch(actualMenu, menu, true)
 

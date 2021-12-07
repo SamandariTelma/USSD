@@ -64,4 +64,4 @@ WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'
 
 int soldeEnvoyeurApresEnvoi = GlobalVariable.soldeCredit
 
-WS.verifyMatch(soldeEnvoyeurAvantEnvoi, soldeEnvoyeurApresEnvoi, false)
+WS.verifyEqual(soldeEnvoyeurAvantEnvoi, soldeEnvoyeurApresEnvoi)

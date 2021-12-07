@@ -13,7 +13,7 @@
       <name>numeroInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnAAjouter2</defaultValue>
+      <defaultValue>GlobalVariable.msisdnAAjouter1</defaultValue>
       <description></description>
       <id>e59f7224-f762-4638-890e-8c902107aa67</id>
       <masked>false</masked>

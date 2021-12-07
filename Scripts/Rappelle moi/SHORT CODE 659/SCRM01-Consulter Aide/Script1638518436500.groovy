@@ -9,24 +9,21 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String numeroAEfface="${numeroAEfface}"
+'En tant que GP , je shortcode en composant *659#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'#', numeroInitiateur)
 
-'En tant que client TELMA, je vais dans le menu Gerer Friends and family en composant *130*4*3#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
-
-'Je saisis 2 (Effacer un contact) puis valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('2')
-
-'Vérifier la conformité du messsage'
-String menu=CustomKeywords.'ussd.Expected.menu'('Ne peut pas supprimer le numero FAF\\. Vous devez remplir votre liste de numero FAF\\.', 
-	'Tsy afaka mamafa laharana FAF\\. Fenoy aloha ny lisitra')
+'Vérifier la conformité du message'
+String menu=CustomKeywords.'ussd.Expected.menu'('Bienvenue\\. Pour le Rappelle-moi composez #555\\*Numero TELMA MOBILE#\\. Pour SOS credit composez #555\\*1\\*Numero TELMA Mobile\\*somme à demander# ',
+	'Rappelle Moi, tsindrio ny #555\\*Numerao TELMA# ho an\'ny SOS Fahana, Tsindrio #555\\*1\\*Numerao TELMA\\*sanda ny Fahana#')
 
 WS.verifyMatch(actualMenu, menu, true)

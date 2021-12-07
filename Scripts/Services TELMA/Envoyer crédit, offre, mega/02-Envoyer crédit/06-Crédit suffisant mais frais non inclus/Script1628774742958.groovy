@@ -76,6 +76,7 @@ WS.verifyEqual(soldeEnvoyerApresEnvoi, soldeEnvoyeurAvantEnvoi)
 
 'Je vérifie que le solde du recepteur n\'a pas bougé'
 
+numeroRecepteur = CustomKeywords.'ussd.Util.to261'(numeroRecepteur)
 WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 

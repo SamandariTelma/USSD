@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Suppression d un numéro inéxistant</name>
+   <name>SCRM02-Rappelle moi avec succès</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d6de482b-8b79-4fb8-82e1-a8ec36c93ee7</testCaseGuid>
+   <testCaseGuid>9b6bad11-beeb-4288-9b62-a0f169e061fb</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>6d3f4240-7585-4baa-bbc7-7293ccc59bc2</id>
+      <id>170219ae-a893-4890-96a2-697f25dac613</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>'0340030818'</defaultValue>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
       <description></description>
-      <id>358625b2-2d71-4c10-8304-efbbdc7ed784</id>
+      <id>02bd7bb5-1782-4cf3-a8be-33c017749488</id>
       <masked>false</masked>
-      <name>numeroNonFAF</name>
+      <name>numeroRecepteur</name>
    </variable>
 </TestCaseEntity>

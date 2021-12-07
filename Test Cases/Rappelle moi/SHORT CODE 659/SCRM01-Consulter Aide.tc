@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCRM01-Consulter Aide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce4d5965-ff9c-428d-8fa9-f8a6154f1600</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>16eb6833-b690-4cad-b14d-39e172ea4e44</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

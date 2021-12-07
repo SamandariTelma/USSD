@@ -80,7 +80,7 @@ int soldeExcepted=soldeEnvoyeurAvantEnvoi - Integer.valueOf(montantAEnvoyer) - I
 String soldeExceptedStr=CustomKeywords.'ussd.Util.separateThousand'(soldeExcepted)
 'Vérifier la conformité du message'
 menu = CustomKeywords.'ussd.Expected.menu'('Transfert effectue de '+montantAEnvoyer+' Ar pour le '+numeroRecepteur+'\\. Frais de transfert '+frais+' Ar\\.Nouveau solde : '+soldeExceptedStr+' Ar.', 
-	'Voarain\'ny '+numeroRecepteur+' ny fahana : '+montantAEnvoyer+'  Ar. Saran\'ny fandefasana '+frais+' Ar.Fahana sisa tavela '+soldeExceptedStr+' Ar.')
+	'Voarain\'ny '+numeroRecepteur+' ny fahana : '+montantAEnvoyer+' Ar. Saran\'ny fandefasana '+frais+' Ar.Fahana sisa tavela '+soldeExceptedStr+' Ar.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -94,12 +94,13 @@ WS.verifyEqual(soldeEnvoyerApresEnvoi, soldeExcepted)
 
 
 'Je vérifie que le solde du recepteur a beneficier du crédit envoyé '
+numeroRecepteur = CustomKeywords.'ussd.Util.to261'(numeroRecepteur)
 
 WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeRecepApresEnvoi=GlobalVariable.soldeCredit
-soldeExcepted=soldeRecepApresEnvoi + Integer.valueOf(montantAEnvoyer)
+soldeExcepted=soldeRecepteurAvantRecep + Integer.valueOf(montantAEnvoyer)
 
 WS.verifyEqual(soldeRecepApresEnvoi, soldeExcepted)
 

@@ -338,7 +338,7 @@
    <testCaseLink>
       <guid>82020fbb-d7ff-4d19-9814-588514ba25d3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/SOS offre avec un client moins de 3 mois</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -350,7 +350,7 @@
    <testCaseLink>
       <guid>0fb08023-027b-4ff3-8d38-ab0b743159dc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/SOS offre avec succès</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -362,7 +362,7 @@
    <testCaseLink>
       <guid>2fc4c0d3-8041-43a5-b669-c61786567a30</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/SOS offre avec un client ayant une dette</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -374,7 +374,7 @@
    <testCaseLink>
       <guid>8fa0eaaa-da49-4d24-86d8-28e9b36e9e97</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SOS Credit/06-Repertoire SOS/Remboursement SOS offre</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

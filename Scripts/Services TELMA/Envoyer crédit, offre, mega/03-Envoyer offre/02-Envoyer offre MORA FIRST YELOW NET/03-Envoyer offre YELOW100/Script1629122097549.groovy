@@ -52,8 +52,8 @@ CustomKeywords.'ussd.Send.response'('3')
 String actualMenu = CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du prompt'
-String menu = CustomKeywords.'ussd.Expected.menu'(('Pour accepter d\'acheter l\'offre YELOW100 a 100 Ar pour le numero ' + 
-    numeroRecepteur) + ', Entrer le code secret:', ('Raha handefa ny tolotra YELOW100 ho an ny ' + numeroRecepteur) + ', Ampidiro ny kaody miafina MVola:')
+String menu = CustomKeywords.'ussd.Expected.menu'('Pour accepter d\'acheter l\'offre YELOW100 a 100 Ar pour le numero ' + numeroRecepteur + ', Entrer le code secret:', 
+'Raha manaiky ny handefa ny tolotra YELOW100 amin\'ny sarany '+montantOffre+' Ar ho an\'ny laharana ' + numeroRecepteur + ', Ampidiro ny kaody miafina:')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -68,11 +68,11 @@ int soldeRestant = soldeEnvoyeurAvantEnvoi - Integer.valueOf(montantOffre)
 String solde = CustomKeywords.'ussd.Util.separateThousand'(soldeRestant)
 
 menu = CustomKeywords.'ussd.Expected.menu'(((((('L\'envoi de l\'offre YELOW100 au tarif de ' + montantOffre) + ' Ar vers le numero ') + 
-    numeroRecepteur) + ' est reussi\\. Votre nouveau solde est ') + solde) + ' Ar. Telma Safidiko N1 Malagasy\\.')
+    numeroRecepteur) + ' est reussi\\. Votre nouveau solde est ') + solde) + ' Ar. Telma Safidiko N1 Malagasy\\.',
+'Tontosa ny fandefasanao ny tolotra YELOW100 amin\'ny sarany '+montantOffre+' Ar ho an ny laharana '+numeroRecepteur+'\\. '+ solde + ' Ar sisa ny credit-nao\\. Telma Safidiko N1 Malagasy\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Vérifier si le numéro beneficiaire a reçu l\'offre YELOW 100'
 WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/04-YELOW/04-Consulter offre Yelow (SMS- INTERNET) (359)/Consulter offre Yelow 100'), 
     [('numeroInitiateur') : numeroRecepteur], FailureHandling.CONTINUE_ON_FAILURE)
-
