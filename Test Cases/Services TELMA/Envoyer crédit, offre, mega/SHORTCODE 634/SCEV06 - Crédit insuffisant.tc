@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEV06 - Crédit insuffisant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce7ea6d1-9e63-4010-b200-f68d8faeb81c</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>5406aabc-406d-4e82-8e93-ae1fd2742015</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>b0e22869-fc86-4a87-935d-7b825efd393b</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>9e0d91fa-a4f9-4195-a65b-86eff5273587</id>
+      <masked>false</masked>
+      <name>pinNumeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>79dae2a8-6fb7-455d-a129-3f007ed4b924</id>
+      <masked>false</masked>
+      <name>montantAEnvoyer</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.fraisEnvoiCredit</defaultValue>
+      <description></description>
+      <id>3f4c6fd5-f7df-4a0f-998a-28b57870b667</id>
+      <masked>false</masked>
+      <name>frais</name>
+   </variable>
+</TestCaseEntity>

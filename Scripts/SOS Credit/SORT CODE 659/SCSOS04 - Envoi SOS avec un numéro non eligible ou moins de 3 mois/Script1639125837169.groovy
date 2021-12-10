@@ -17,28 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 String numeroInitiateur="${numeroInitiateur}"
-String pinActuel="${pinActuel}"
-String nouveauPin="${nouveauPin}"
+String numeroRecepteur="${numeroRecepteur}"
 
-'En tant que MSISDN grossiste, je compose le *130*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+'En tant que GP moins de 3 mois ou n\'ayant pas utiliser le service telma , je shortCode le SOS Credit  en composant *659*1*numNonEligible*1000#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+numeroRecepteur+'*1000#', numeroInitiateur)
 
-'Je saisis 6 (Changer code secret) et je valide'
-CustomKeywords.'ussd.Send.response'('6')
-
-'Je saisis mon code secret actuel et je valide'
-CustomKeywords.'ussd.Send.response'(pinActuel)
-
-'Je saisis un nouveau code correct . Différent du code actuel'
-CustomKeywords.'ussd.Send.response'(nouveauPin)
-
-'Je saisis un code qui ne corréspond pas au nouveau code saisi'
-String actualMenu=CustomKeywords.'ussd.Send.response'('8346')
-
-'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Les deux saisies ne sont pas identiques\\.',
-	'Ilay vao nampidirina dia tsy mifanaraka amin\'ny nampidirina teo aloha')
+'Vérifier la conformité du message'
+String menu=CustomKeywords.'ussd.Expected.menu'('Cher abonne, pour beneficier de ce service, merci d\'utiliser davantage les services TELMA\\.', 
+	'Ry mpanjifa, mba ahafahanao manjifa ity tolotra ity, mampiasa matetika kokoa ny tolotra TELMA\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

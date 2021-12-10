@@ -20,17 +20,14 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 String pinInitiateur="${pinInitiateur}"
 
-'En tant que MSISDN grossiste, je compose le *130*129*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
-
-'Je compose le 2 ( De toi a moi vaovao) et je valide'
-CustomKeywords.'ussd.Send.response'('2')
+'En tant que MSISDN grossiste, je compose le *130*2#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis 7 (Changement de langue) et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('7')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('1 Ho an\'ny teny Frantsay\n 2 Pour le Malagasy')
+String menu=CustomKeywords.'ussd.Expected.menu'('1 Pour le Francais\n2 Pour le Malagasy')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -38,7 +35,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret:')
+menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret :')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -54,6 +51,11 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'(pinInitiateur)
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Votre demande est en cours de traitement')
+menu=CustomKeywords.'ussd.Expected.menu'('Votre demande est en cours de traitement\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
+
+if (GlobalVariable.langue=='mg')
+	GlobalVariable.langue='fr'
+else if (GlobalVariable.langue=='fr')
+	GlobalVariable.langue='mg'

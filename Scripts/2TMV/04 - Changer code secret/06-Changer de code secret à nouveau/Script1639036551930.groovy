@@ -17,28 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-String numeroInitiateur="${numeroInitiateur}"
 String pinActuel="${pinActuel}"
-String nouveauPin="${nouveauPin}"
+String nouveauPIN="${nouveauPIN}"
 
-'En tant que MSISDN grossiste, je compose le *130*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+WebUI.callTestCase(findTestCase('2TMV/04 - Changer code secret/05-Changer code secret - User 2TMV'), [('numeroInitiateur') : GlobalVariable.msisdnGrossiste
+        , ('pinActuel') : pinActuel, ('nouveauPin') : nouveauPIN], FailureHandling.CONTINUE_ON_FAILURE)
 
-'Je saisis 6 (Changer code secret) et je valide'
-CustomKeywords.'ussd.Send.response'('6')
-
-'Je saisis mon code secret actuel et je valide'
-CustomKeywords.'ussd.Send.response'(pinActuel)
-
-'Je saisis un nouveau code correct . Différent du code actuel'
-CustomKeywords.'ussd.Send.response'(nouveauPin)
-
-'Je saisis un code qui ne corréspond pas au nouveau code saisi'
-String actualMenu=CustomKeywords.'ussd.Send.response'('8346')
-
-'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Les deux saisies ne sont pas identiques\\.',
-	'Ilay vao nampidirina dia tsy mifanaraka amin\'ny nampidirina teo aloha')
-
-WS.verifyMatch(actualMenu, menu, true)

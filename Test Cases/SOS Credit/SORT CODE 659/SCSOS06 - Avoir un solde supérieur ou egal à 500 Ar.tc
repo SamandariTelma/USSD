@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCSOS06 - Avoir un solde supérieur ou egal à 500 Ar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7d13aa3-0c7b-45e9-a395-e64e9cb1a67e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnAvecSolde</defaultValue>
+      <description></description>
+      <id>c5a03e36-8b21-4278-9e7a-9dbe16591752</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>2d198cee-e8ae-4868-aace-d86adbd2b20d</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description></description>
+      <id>39bfbfd0-43c6-47c4-b17b-763f4911582d</id>
+      <masked>false</masked>
+      <name>montantSOS</name>
+   </variable>
+</TestCaseEntity>

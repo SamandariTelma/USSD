@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCSOS04 - Envoi SOS avec un numéro non eligible ou moins de 3 mois</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65b503c9-b6a5-483e-8c1e-a1bb552bf210</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.numeroNonEligible</defaultValue>
+      <description></description>
+      <id>bf2d308a-7235-46ea-961d-58b137ae5bd2</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>1ac33d7c-14aa-465c-b3cd-7351761ee9be</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+</TestCaseEntity>

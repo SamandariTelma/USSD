@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Changement langue</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>a28afdad-7720-486b-a70e-03d82f797e62</testSuiteGuid>
+   <testCaseLink>
+      <guid>3dcbc186-0e65-4e00-b550-3982aed223f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/2TMV/05 - Changement de langue/Changer langue en FR</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0d17bace-b426-4158-bd13-a4fd4fe2f7dc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aa324099-62ac-4550-9538-253aa89080f5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c29c986a-4b53-4a29-9d5b-13e215b1c84a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/2TMV/05 - Changement de langue/Changer langue en MG</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d2a47cff-7009-4b72-8f72-ed2b6b1f79b9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6e3848b7-e8dc-4774-b93e-fdd9e150241d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

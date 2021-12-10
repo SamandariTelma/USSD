@@ -17,28 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 String numeroInitiateur="${numeroInitiateur}"
-String pinActuel="${pinActuel}"
-String nouveauPin="${nouveauPin}"
 
-'En tant que MSISDN grossiste, je compose le *130*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+'En tant que GP,  je shortCode le Transfert de crédit  en composant *634#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'#', numeroInitiateur)
 
-'Je saisis 6 (Changer code secret) et je valide'
-CustomKeywords.'ussd.Send.response'('6')
-
-'Je saisis mon code secret actuel et je valide'
-CustomKeywords.'ussd.Send.response'(pinActuel)
-
-'Je saisis un nouveau code correct . Différent du code actuel'
-CustomKeywords.'ussd.Send.response'(nouveauPin)
-
-'Je saisis un code qui ne corréspond pas au nouveau code saisi'
-String actualMenu=CustomKeywords.'ussd.Send.response'('8346')
-
-'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Les deux saisies ne sont pas identiques\\.',
-	'Ilay vao nampidirina dia tsy mifanaraka amin\'ny nampidirina teo aloha')
+'Vérifier la conformité du message'
+String menu=CustomKeywords.'ussd.Expected.menu'('Pour transferer du credit composez #311\\*montant\\*numero TELMA MOBILE\\*code secret#',
+	'Raha handefa fahana dia tsindrio ny #311\\*Sandan\'ny fahana\\*laharana TELMA\\*Kaody miafina#')
 
 WS.verifyMatch(actualMenu, menu, true)

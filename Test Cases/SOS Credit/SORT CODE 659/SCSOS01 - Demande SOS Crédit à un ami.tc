@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCSOS01 - Demande SOS Crédit à un ami</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d49632d8-fe85-4976-8dfc-05cc238b32bf</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>7c366867-3824-4e02-ae9f-0f01eede7d6b</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>d23174bd-87a9-4656-ab22-36da53f44894</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description></description>
+      <id>276a31b4-abad-4212-be9b-cd3bb5801554</id>
+      <masked>false</masked>
+      <name>montantSOS</name>
+   </variable>
+</TestCaseEntity>

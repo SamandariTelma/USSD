@@ -22,11 +22,8 @@ String numeroInitiateur="${numeroInitiateur}"
 String pinActuel="${pinActuel}"
 String nouveauPin="${nouveauPin}"
 
-'En tant que MSISDN grossiste, je compose le *130*129*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
-
-'Je compose le 2 ( De toi a moi vaovao) et je valide'
-CustomKeywords.'ussd.Send.response'('2')
+'En tant que MSISDN grossiste, je compose le *130*2#'
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis 6 (Changer code secret) et je valide'
 CustomKeywords.'ussd.Send.response'('6')
@@ -35,15 +32,12 @@ CustomKeywords.'ussd.Send.response'('6')
 CustomKeywords.'ussd.Send.response'(pinActuel)
 
 'Je saisis un nouveau pin'
-CustomKeywords.'ussd.Send.response'(pinActuel)
-
-'Je saisis un nouveau pin et je valide '
 CustomKeywords.'ussd.Send.response'(nouveauPin)
 
 'Je confirme mon nouveau Pin'
 String actualMenu=CustomKeywords.'ussd.Send.response'(nouveauPin)
 
 'Vérifier la conformité du message ussd'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande est en cours de traitement')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande est en cours de traitement','Tontosa ny fanovana kaody miafina')
 
 WS.verifyMatch(actualMenu, menu, true)

@@ -180,6 +180,36 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>385f338b-647a-481f-8080-ff24ba8aec5a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/04-Liste Friends and Family/Annulation suppression contact depuis la liste</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cb767643-d0fe-4a84-a89c-d412cb9b4094</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5500a542-6d8f-4ee4-a95d-20f30a0be527</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>95d27279-2c7e-4b0e-9409-35eb57598784</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/03-Effacer un contact/Suppression numero invalide</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>213ae973-1d91-48b3-91c5-12adffcb6c01</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>0dff32b9-c9f5-499f-a125-f3d056414361</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -231,36 +261,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>5283910c-c1d3-4d3b-83f5-31c0ad71d840</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>385f338b-647a-481f-8080-ff24ba8aec5a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/04-Liste Friends and Family/Annulation suppression contact depuis la liste</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cb767643-d0fe-4a84-a89c-d412cb9b4094</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5500a542-6d8f-4ee4-a95d-20f30a0be527</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>95d27279-2c7e-4b0e-9409-35eb57598784</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Gerer Friends and Family/03-Effacer un contact/Suppression numero invalide</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>213ae973-1d91-48b3-91c5-12adffcb6c01</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

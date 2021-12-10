@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEV01 - Aide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec616478-eeb7-4fbd-a512-895ffffd4ad2</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>8ac29e4c-c815-4039-ae7e-1ceb9700dff3</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -30,14 +30,19 @@
       <name>sessionId</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>msisdn n'ayant pas de solde crédit</description>
       <initValue>'261343500078'</initValue>
       <name>msisdnInitiateur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>msisdn n'ayant pas de solde crédit</description>
       <initValue>'261346848017'</initValue>
       <name>msisdnRecepteur</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>msisdn ayant un solde supérieur ou égal à 500 Ar</description>
+      <initValue>'261346848017'</initValue>
+      <name>msisdnAvecSolde</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -73,5 +78,10 @@
       <description></description>
       <initValue>'0343500078'</initValue>
       <name>numeroAAjouter</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'*659*1'</initValue>
+      <name>shortCodeDirect</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

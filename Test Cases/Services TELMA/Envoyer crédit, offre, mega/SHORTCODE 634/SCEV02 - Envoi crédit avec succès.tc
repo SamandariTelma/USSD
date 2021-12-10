@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEV02 - Envoi crédit avec succès</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9602bed-a9f2-4ff7-ae28-ce9bf616f2ff</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>f1d1cd01-f9c0-4844-8f54-178862bce755</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>9d48010e-f4c8-4c97-b768-c413b653a4c8</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>dfded851-46fc-482f-843c-6dcb5fe86ed4</id>
+      <masked>false</masked>
+      <name>pinNumeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>79d27af8-af38-4b40-aa7c-2bf631c93cec</id>
+      <masked>false</masked>
+      <name>montantAEnvoyer</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.fraisEnvoiCredit</defaultValue>
+      <description></description>
+      <id>ab2b1754-0d45-4f29-bf5b-0833e8c5c690</id>
+      <masked>false</masked>
+      <name>frais</name>
+   </variable>
+</TestCaseEntity>

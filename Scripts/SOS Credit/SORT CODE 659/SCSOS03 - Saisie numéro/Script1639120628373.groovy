@@ -17,28 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 String numeroInitiateur="${numeroInitiateur}"
-String pinActuel="${pinActuel}"
-String nouveauPin="${nouveauPin}"
 
-'En tant que MSISDN grossiste, je compose le *130*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
-
-'Je saisis 6 (Changer code secret) et je valide'
-CustomKeywords.'ussd.Send.response'('6')
-
-'Je saisis mon code secret actuel et je valide'
-CustomKeywords.'ussd.Send.response'(pinActuel)
-
-'Je saisis un nouveau code correct . Différent du code actuel'
-CustomKeywords.'ussd.Send.response'(nouveauPin)
-
-'Je saisis un code qui ne corréspond pas au nouveau code saisi'
-String actualMenu=CustomKeywords.'ussd.Send.response'('8346')
+'En tant que GP, je shortCode le SOS Credit  en composant *659*1*0325785400*1000#  qui est un numero autre opérateur'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*0325785400*1000#', numeroInitiateur)
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Les deux saisies ne sont pas identiques\\.',
-	'Ilay vao nampidirina dia tsy mifanaraka amin\'ny nampidirina teo aloha')
+String menu=CustomKeywords.'ussd.Expected.menu'('Verifiez le numero svp\\.', 'Hamarino ny nomerao azafady\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
+
+'En tant que GP, je shortCode le SOS Credit  en composant *659*1*261346848017*1000#  qui est un numero autre opérateur'
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*261346848017*1000#', numeroInitiateur)
+
+'Vérifier la conformité du prompt'
+
+WS.verifyMatch(actualMenu, menu, true)
+
+'Je reshortCode le SOS Credit  en composant *659*1*12536544*1000#  en saisissant des chiffres invalides'
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*12345*1000#', numeroInitiateur)
+
+'Vérifier la conformité du prompt'
+menu=CustomKeywords.'ussd.Expected.menu'('Echec de la transaction\\. Merci de contacter le Service Clientele au 800\\.', 
+	'Fangatahana tsy tontosa\\. Antsoy ny Service Clientele amin\'ny 800\\.')
+
+WS.verifyMatch(actualMenu, menu, true)
+

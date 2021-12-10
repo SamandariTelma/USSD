@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEV04 - Saisie numéro</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>599ba87e-395b-4a25-84b8-874f4ffd22bb</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>fcf96e90-2120-44ec-8fa6-683527642615</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>b868f955-7a36-4143-8ad6-d4db3726da1c</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinMsisdnInitiateur</defaultValue>
+      <description></description>
+      <id>f1810cce-9417-42f9-a2a3-627ee936c619</id>
+      <masked>false</masked>
+      <name>pinNumeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>cafc12b5-0e02-4057-bf16-b87fd261f3b3</id>
+      <masked>false</masked>
+      <name>montantAEnvoyer</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.fraisEnvoiCredit</defaultValue>
+      <description></description>
+      <id>f4de3e59-11e3-41eb-a58b-9f0b9d6633d7</id>
+      <masked>false</masked>
+      <name>frais</name>
+   </variable>
+</TestCaseEntity>

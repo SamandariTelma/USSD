@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCSOS05 - Envoi SOS à moi même</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e775d3e-8f5e-4ce4-8ed6-1b61751067eb</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.numeroNonEligible</defaultValue>
+      <description></description>
+      <id>79545757-02b9-42bb-8aa7-28a8bdfd125d</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

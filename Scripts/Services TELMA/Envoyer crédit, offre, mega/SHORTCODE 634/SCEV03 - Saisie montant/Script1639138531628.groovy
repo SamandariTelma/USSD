@@ -17,32 +17,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String numeroInitiateur = "$numeroInitiateur"
 
-String numeroInitiateur="${numeroInitiateur}"
+String numeroRecepteur = "$numeroRecepteur"
 
-'En tant que MSISDN grossiste, je compose le *130*2'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+String montantAEnvoyer = "$montantAEnvoyer"
 
-'Je saisis 6 (Changer code secret) et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('6')
+String pinNumeroInitiateur = "$pinNumeroInitiateur"
 
-'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret :','kaody miafina :')
+String frais = "$frais"
 
-WS.verifyMatch(actualMenu, menu, true)
+numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+'J\'envoie du crédit avec un montant invalide'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*1000Ar*'+numeroRecepteur+'*'+pinNumeroInitiateur+'#', numeroInitiateur)
 
-'Je saisis un PIN moins de 4 chiffres'
-actualMenu=CustomKeywords.'ussd.Send.response'('258')
-
-'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres')
+'Vérifier la conformité du message'
+String menu= CustomKeywords.'ussd.Expected.menu'('Montant incorrect\\. Veuillez entrer un montant entre 500 Ar et 200 000 Ar',
+	'Diso ny sandam\\-bola\\. Ampidiro ny sanda eo anelanelan ny 500 Ar sy 200 000 Ar')
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Je saisis un PIN qui ne m\'appartient pas'
-actualMenu=CustomKeywords.'ussd.Send.response'('2589')
+'J\'envoie du crédit inférieur à 500Ar'
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*499*'+numeroRecepteur+'*'+pinNumeroInitiateur+'#', numeroInitiateur)
 
-'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Entrer nouveau code secret :','kaody miafina vaovao :') 
-
+'Vérifier la confromité du message'
 WS.verifyMatch(actualMenu, menu, true)
+
+'J\'envoie du crédit supérieur à 200000Ar'
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*200001*'+numeroRecepteur+'*'+pinNumeroInitiateur+'#', numeroInitiateur)
+
+'Vérifier la confromité du message'
+WS.verifyMatch(actualMenu, menu, true)
+

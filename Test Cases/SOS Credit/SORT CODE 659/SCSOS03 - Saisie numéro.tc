@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCSOS03 - Saisie numéro</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb42990c-113f-40f6-aca5-841b80c0c9d5</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>81280458-de2d-4d92-a0ff-075ea9fef3fd</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
