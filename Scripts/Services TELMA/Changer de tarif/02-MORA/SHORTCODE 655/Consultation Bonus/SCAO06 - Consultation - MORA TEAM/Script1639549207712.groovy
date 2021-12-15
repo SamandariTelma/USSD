@@ -18,18 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
-String regexDate ='(0?[1-9]|[12][0-9]|3[01])[\\/\\-](0?[1-9]|1[012])[\\/\\-]\\d{4}'
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy')
 
-'En tant que client TELMA, je vais dans le menu pour Info crédit en composant #130*4*1#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+'En tant que GP, je consulte mon offre Mora Team :  *655*26#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*26#', numeroInitiateur)
 
-'Je saisis 1 (Info credit prepaye) et valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('1')
-
-'Vérifier la conformité du menu'
-numeroInitiateur=CustomKeywords.'ussd.Util.to034'(numeroInitiateur)
-
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre credit est de \\d{1,8} Ar, valable jusqu\'au '+regexDate+'\\. Bonus \\d{1,8} Ar vers Telma, \\d{1,8} Ar vers Ami Telma, \\d{1,8} Ar vers toute destination',
-	'Ny credit anananao dia \\d{1,8} Ar, izay azonao ampiasaina hatramin ny '+regexDate+'\\. Kaonty voatokananao Bonus TELMA \\d{1,8}, Appel TELMA \\d{1,8} Ar')
+'Vérifier la conformité du message'
+String menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA TEAM: 3600 sec d appels et/ou 60 SMS vers Num FAF et/ou 60\\.0 Mo valable jusqu a minuit\\. Tapez #344\\*1\\*Num pour rajouter Num FAF\\. Telma N1 a M/car',
+	'Bonus MORA TEAM: antso 3600 sec sy/na 60 SMS mankany @ Num FAF sy/na 60\\.0 Mo h@ sasak alina\\. Antsoy ny #344\\*1\\*Num# raha hanampy Num FAF\\. Telma N1 eto M/kara')
 
 WS.verifyMatch(actualMenu, menu, true)

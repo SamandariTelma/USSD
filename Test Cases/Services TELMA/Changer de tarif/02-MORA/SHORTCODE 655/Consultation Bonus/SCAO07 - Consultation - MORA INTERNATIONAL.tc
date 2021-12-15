@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAO07 - Consultation - MORA INTERNATIONAL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e96b1f94-2497-4c07-a46b-76f5fe8ca174</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>4c1a8fd9-7b3b-4878-a2c5-8c686c296155</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

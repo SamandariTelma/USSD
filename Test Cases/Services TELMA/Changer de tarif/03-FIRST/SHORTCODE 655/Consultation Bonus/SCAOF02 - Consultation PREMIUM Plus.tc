@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOF02 - Consultation PREMIUM Plus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac2b625c-cc8f-4207-9fb5-c25d17684640</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>c33933d1-2f20-4181-888e-86072c5fc70a</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

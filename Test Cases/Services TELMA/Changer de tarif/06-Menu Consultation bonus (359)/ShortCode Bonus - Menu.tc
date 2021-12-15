@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ShortCode Bonus - Menu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcff3ff4-5802-44e5-831a-65124d05daa7</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>6e99a813-692f-4772-b7ce-4709f1936748</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

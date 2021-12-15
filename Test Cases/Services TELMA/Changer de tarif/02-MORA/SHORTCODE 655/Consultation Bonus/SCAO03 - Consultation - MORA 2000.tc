@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAO03 - Consultation - MORA 2000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>362c591e-de5b-4d5e-a1d5-b7ba15488df4</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>76fde566-433e-45e9-9f36-cc303b77fb36</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

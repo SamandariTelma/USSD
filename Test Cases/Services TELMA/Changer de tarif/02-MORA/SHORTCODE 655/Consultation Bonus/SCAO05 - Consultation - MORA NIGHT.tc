@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAO05 - Consultation - MORA NIGHT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfca0479-600b-4949-9c11-088201b9da74</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>4891d7e3-49fe-4c67-a24e-0ac821a3f40d</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

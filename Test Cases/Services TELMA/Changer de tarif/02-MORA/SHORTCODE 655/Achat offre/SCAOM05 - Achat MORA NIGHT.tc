@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOM05 - Achat MORA NIGHT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d59ad1ed-6060-41f6-bf94-3e7a43e7dab0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>8c8661b9-4eb1-47d8-a5c4-00550765fc07</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

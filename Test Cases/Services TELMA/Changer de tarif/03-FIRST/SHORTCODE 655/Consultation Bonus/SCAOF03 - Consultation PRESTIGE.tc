@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOF03 - Consultation PRESTIGE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4eeaea0a-2f9f-4e12-b33f-42e3ed0fdcf6</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>c24360a8-6d2f-4a9b-a511-4cbceec0f62b</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

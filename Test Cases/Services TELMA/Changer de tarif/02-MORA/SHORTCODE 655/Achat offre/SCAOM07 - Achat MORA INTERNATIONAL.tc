@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOM07 - Achat MORA INTERNATIONAL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>677c095a-c784-4207-abb2-ec12785f817e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>1ad5a8f6-1ef9-4dde-8715-44409b8813cf</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
