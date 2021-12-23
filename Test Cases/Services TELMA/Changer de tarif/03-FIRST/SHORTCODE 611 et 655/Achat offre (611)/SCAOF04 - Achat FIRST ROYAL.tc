@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOF04 - Achat FIRST ROYAL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6317e062-55bb-4a32-bade-2eb28be56205</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>c868a4ec-95d8-4483-bca8-e86979794fa7</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

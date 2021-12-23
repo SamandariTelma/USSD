@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOF03 - Achat FIRST PRESTIGE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7aea1563-9527-489a-90a1-2bcbbe5be0e4</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>b56b998f-7d4b-4eec-8c41-01976b305083</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

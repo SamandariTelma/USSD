@@ -58,6 +58,6 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('12345678989465456465464668')
 
 'Vérifer la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Le nombre d\'essai maximum a été atteint\\.','Mihaotra ny fanandramana azo ekena\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Le nombre d\'essai maximum a ete atteint\\.','Mihaotra ny fanandramana azo ekena\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

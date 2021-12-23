@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOT07 - Achat NET ONE MONTH 4,5Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da7f3dbf-f4a4-4592-82e7-72c8fcc1206a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>b2334e3e-039c-4c75-8c98-58798c73cdf1</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

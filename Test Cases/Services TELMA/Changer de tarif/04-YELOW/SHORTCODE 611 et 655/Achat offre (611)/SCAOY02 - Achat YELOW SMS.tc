@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOY02 - Achat YELOW SMS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d475b1de-c7bf-4f36-9489-85f04e70f648</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>7f6af1fe-5590-4faa-a966-02862cb3e2d5</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

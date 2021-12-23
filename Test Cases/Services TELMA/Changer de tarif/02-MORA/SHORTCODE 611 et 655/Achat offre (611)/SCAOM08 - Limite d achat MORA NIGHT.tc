@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOM08 - Limite d achat MORA NIGHT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f78212d-e82f-4f7d-8323-de29a3e4aabb</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>7aecee26-29bd-4066-a6eb-0e9002526148</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

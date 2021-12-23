@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOF06 - Achat FIRST PREMIUM - Limite mensuel atteint</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>667e046a-0a24-4edc-b7ad-393a45b84567</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e29722b3-715e-4ddd-9066-9b533654131b</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

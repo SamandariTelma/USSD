@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOT11 - Achat NET ONE MONTH 100Go - Solde insuffisant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>43748e5b-c4bc-4c4b-8735-e197ca5c943a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>9d2c2e4b-576e-441d-8436-92253be344ef</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

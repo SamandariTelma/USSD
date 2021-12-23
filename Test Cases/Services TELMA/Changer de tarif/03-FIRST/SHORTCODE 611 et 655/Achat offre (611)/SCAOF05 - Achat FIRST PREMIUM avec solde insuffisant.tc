@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOF05 - Achat FIRST PREMIUM avec solde insuffisant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee17a47e-fd43-400b-b797-3151c71b7f5a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>83bd1cb1-3acb-45ed-9d22-bc7fd579d5f1</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

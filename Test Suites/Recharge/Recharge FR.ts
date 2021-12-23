@@ -80,7 +80,7 @@
    <testCaseLink>
       <guid>e276f171-7ef2-4003-a5eb-795da3046048</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Recharge/Recharger mon numéro/07-Recharger - client postpaid</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -206,7 +206,7 @@
    <testCaseLink>
       <guid>14bfa792-a527-4989-b6fd-23cff1d81c74</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Recharge/Recharger un autre numéro/08-Recharger - client envoyeur postpaid</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

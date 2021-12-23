@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOF04 - Consultation ROYAL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>17527e07-1f85-4be8-bb1f-4201788f5d27</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>cc3b6e03-c97f-4a80-98c4-8aa5b30b8ecb</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

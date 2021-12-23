@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOM09 - Limite d achat MORA TEAM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b131b024-17bb-45d0-98ce-90aaa98993ae</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>97add279-4833-4e01-8f39-d0addbd074ac</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

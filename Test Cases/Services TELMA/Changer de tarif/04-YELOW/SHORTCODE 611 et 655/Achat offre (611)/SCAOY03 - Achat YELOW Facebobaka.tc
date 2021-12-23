@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOY03 - Achat YELOW Facebobaka</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a922c828-00fd-4ef9-8324-fad31beaed42</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>f80dbfe7-545e-40f4-9df9-5b35e05db0e6</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

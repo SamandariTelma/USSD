@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOY04 - Achat YELOW 1000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec2b9388-7c29-4a6c-88b0-f611ea21116f</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>0ebaa635-d409-4d71-b3bc-df4431de90c6</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -38,7 +38,7 @@ CustomKeywords.'ussd.Send.response'('1')
 String actualMenu=CustomKeywords.'ussd.Send.response'(codeRecharge)
 
 'Vérifier la conformité du message ussd'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre compte a ete recharge de '+montantRecharge+' Ar', 'Voafahana '+montantRecharge+' Ar ny kaontinao')
+String menu=CustomKeywords.'ussd.Expected.menu'('^.*Votre compte a ete recharge de '+montantRecharge+' Ar.*$', '^.*Voafahana '+montantRecharge+' Ar ny kaontinao.*$')
 
 WS.verifyMatch(actualMenu, menu, true)
 

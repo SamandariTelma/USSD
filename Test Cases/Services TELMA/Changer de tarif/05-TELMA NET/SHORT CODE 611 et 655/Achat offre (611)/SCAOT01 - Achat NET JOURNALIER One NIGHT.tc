@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOT01 - Achat NET JOURNALIER One NIGHT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>704534c2-afe0-48b3-8c34-1f4bc29900cf</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>adc8cff2-67bd-4ecc-b3da-9d01e7008bce</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
