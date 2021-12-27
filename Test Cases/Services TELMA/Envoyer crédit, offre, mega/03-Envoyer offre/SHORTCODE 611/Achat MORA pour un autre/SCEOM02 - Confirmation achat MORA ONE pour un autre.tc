@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOM02 - Confirmation achat MORA ONE pour un autre</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>763d61c3-4b7d-4a7c-81a6-15c336b57a17</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>ec5c65d5-67f3-4a24-b9dc-3dece4890699</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>63eb4a33-4ad3-4731-8970-15e39f8d93f5</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description></description>
+      <id>6581c70b-39dd-46ba-9bec-67da7e2d9f99</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

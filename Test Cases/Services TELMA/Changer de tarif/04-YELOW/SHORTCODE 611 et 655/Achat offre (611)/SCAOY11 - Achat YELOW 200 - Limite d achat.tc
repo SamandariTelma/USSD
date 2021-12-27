@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOY11 - Achat YELOW 200 - Limite d achat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07350eef-aeea-4380-b28a-7d01063c0b10</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>56992a24-60f4-4712-ab8d-7f3f2b027637</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

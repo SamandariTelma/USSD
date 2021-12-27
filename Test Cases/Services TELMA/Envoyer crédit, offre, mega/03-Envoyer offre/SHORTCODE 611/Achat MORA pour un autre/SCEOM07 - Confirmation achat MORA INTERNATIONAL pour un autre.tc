@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOM07 - Confirmation achat MORA INTERNATIONAL pour un autre</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf176047-d0c7-4c89-ac31-79d19801c7c0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>1039f7de-a050-475b-bb05-5c3df9d45ed9</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>7d1d0a39-d6eb-4514-8af7-f62c8a2669d1</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'5000'</defaultValue>
+      <description></description>
+      <id>379f1e30-dea8-4e68-82f1-0e3b8c291a3a</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

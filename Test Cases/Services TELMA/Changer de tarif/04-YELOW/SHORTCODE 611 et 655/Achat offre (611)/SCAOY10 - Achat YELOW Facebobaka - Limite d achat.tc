@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOY10 - Achat YELOW Facebobaka - Limite d achat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7298d8bd-e7ac-4a38-aa0a-624e87c9aafa</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e360b56e-74cf-414d-a7fa-0acc824a4a19</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

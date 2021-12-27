@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOM01 - Confirmation achat MORA 500 pour un autre</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ecc31f4-a931-4960-bc2b-497443a80b72</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>28011ca0-de01-44d7-bc81-344f7548c08f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>8e61dff2-821a-4c0f-8f79-adeef3507f29</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>c835809c-d790-45bb-8fff-50ba1108f0dc</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

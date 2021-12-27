@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SCAOY05 - Achat YELOW Faceboobaka plus</name>
+   <name>SCAOY09 - Achat YELOW SMS - Limite d achat</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b2334366-7221-4346-992c-65a92c0e5578</testCaseGuid>
+   <testCaseGuid>67171840-6a65-4ed8-90b4-a8ad4ed95aef</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>969d2093-d553-43e3-a23f-0e24ce8118cd</id>
+      <id>bd226cfe-ac48-49d3-9bf8-426fa9b8aeac</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

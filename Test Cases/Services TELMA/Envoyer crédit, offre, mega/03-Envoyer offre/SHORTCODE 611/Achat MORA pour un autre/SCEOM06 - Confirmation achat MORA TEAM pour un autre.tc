@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOM06 - Confirmation achat MORA TEAM pour un autre</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4254767a-463a-4e56-8d20-fc119b65a95b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>39634f67-33fc-4d82-a110-1c08b5ecd327</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>f3aaa0d4-5387-4b69-8806-b7816d123bb4</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description></description>
+      <id>8294b8fd-c874-405f-ac6e-80afc6f6ff5d</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

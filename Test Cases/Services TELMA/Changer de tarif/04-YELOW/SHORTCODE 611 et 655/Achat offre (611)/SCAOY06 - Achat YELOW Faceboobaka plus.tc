@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SCAOY06 - Achat YELOW Faceboobaka plus - solde insuffisant</name>
+   <name>SCAOY06 - Achat YELOW Faceboobaka plus</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>12691432-d78d-4ed5-845d-d409a3056470</testCaseGuid>
+   <testCaseGuid>b2334366-7221-4346-992c-65a92c0e5578</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>ff6a70fc-c6fc-4996-9702-bce89191ebcb</id>
+      <id>969d2093-d553-43e3-a23f-0e24ce8118cd</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

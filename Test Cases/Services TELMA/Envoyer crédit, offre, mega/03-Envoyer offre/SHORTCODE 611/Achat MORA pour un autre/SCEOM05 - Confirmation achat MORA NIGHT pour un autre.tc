@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOM05 - Confirmation achat MORA NIGHT pour un autre</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b18cf57a-2022-4db3-b055-7bb3153b49fc</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>06980d0e-9f53-442d-93ae-63b9a23db15a</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>7902e83c-2be8-4fd2-8f5e-758efce2e35c</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'5000'</defaultValue>
+      <description></description>
+      <id>36b391ee-ef43-4482-914c-355280c0082a</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOM03 - Confirmation achat MORA 2000 pour un autre</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9910dee-b4a0-4166-9843-d7796e89e94c</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>5b4ee903-3a63-49c9-b821-ba21aaca41ae</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>e2daf098-dcc8-4665-8e88-f2d9cf3ec247</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'2000'</defaultValue>
+      <description></description>
+      <id>a9170fe6-22bd-418a-b410-a57690164d30</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>
