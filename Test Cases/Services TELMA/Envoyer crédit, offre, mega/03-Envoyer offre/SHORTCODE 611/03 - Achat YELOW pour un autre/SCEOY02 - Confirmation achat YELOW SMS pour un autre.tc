@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOY02 - Confirmation achat YELOW SMS pour un autre</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb81c95e-80bd-43aa-9335-546f9ed31c01</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>a4de7cfe-0911-4441-8ba4-1568ee80e954</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>744eef72-d01d-4f62-896d-de153b52112e</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'200'</defaultValue>
+      <description></description>
+      <id>6831a436-708d-4ed1-80df-e7259a955a56</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

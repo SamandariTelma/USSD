@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOY03 - Confirmation achat YELOW FB pour un autre</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d63c61c-aacc-454d-ac46-b94911cdf781</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>2a56aca2-6d04-4293-be03-98efa16c8895</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>d6944365-1119-4148-b865-2499d5c80351</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>03881704-fbd5-4ac8-82b7-290691f4dc8c</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

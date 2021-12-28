@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOY06 - Confirmation achat YELOW Faceboobaka</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbb54d7b-be34-4ad5-9bbb-7a85a1b5f08b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>69dee952-0348-4c04-86f5-78e4b14190dc</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>3efc568f-0e7e-4aa9-87e1-3637a4f1588d</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'2000'</defaultValue>
+      <description></description>
+      <id>1386d104-d50c-4c27-9f2e-56f380c27fcd</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

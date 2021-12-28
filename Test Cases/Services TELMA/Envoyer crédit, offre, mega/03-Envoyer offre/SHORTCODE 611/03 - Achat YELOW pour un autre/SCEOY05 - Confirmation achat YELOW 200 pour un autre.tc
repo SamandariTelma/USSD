@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOY05 - Confirmation achat YELOW 200 pour un autre</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91eb5bb8-e898-4c68-967e-e3a6f316b251</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>f654e556-e02f-4199-8ed2-fafbefd7caee</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>054f1f4e-5630-4cff-8819-0ba28b59b8b3</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'200'</defaultValue>
+      <description></description>
+      <id>f28f7689-9546-4b0c-a98b-5af5e7e9aa05</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

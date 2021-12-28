@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOF03 - FIRST PRESTIGE pour un autre</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>33a8f6c6-6f28-4a95-b2aa-895076069b56</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>093e4442-49a0-42ca-825f-2d6b0367a47f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>7d99121b-e579-44ec-a57b-522317bfc32b</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'15000'</defaultValue>
+      <description></description>
+      <id>96703d1e-8cb0-4db7-8dce-9a391413c7a9</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

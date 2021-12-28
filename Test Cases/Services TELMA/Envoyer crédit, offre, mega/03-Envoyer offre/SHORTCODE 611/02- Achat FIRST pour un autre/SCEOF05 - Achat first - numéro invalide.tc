@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOF05 - Achat first - numéro invalide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae2fb05b-9750-4e54-b00f-e6e3f8c2bf4b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>88cecb35-67de-45a7-9f3b-6e00cb7e0676</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

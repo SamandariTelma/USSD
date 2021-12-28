@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOF01 - Confirmation achat FIRST PREMIUM pour un autre</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2683135-4dc7-4183-8537-90bed2c6bb07</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>2c4b1657-30d1-4871-8c72-5ee834e2ce3e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>b897969f-7788-4029-8800-2aa48cac1aa2</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'10000'</defaultValue>
+      <description></description>
+      <id>091fadc1-2b49-4a1d-9aa1-f119dafdaffb</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>
