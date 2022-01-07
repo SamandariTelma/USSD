@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVEY07 - Envoi YELOW Faceboobaka via MVola - Saisie numéro</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54bc261e-f15d-4baa-a868-334bac62c1f5</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>52d1f107-7b6f-4d0e-88c6-cd4baf970b8b</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

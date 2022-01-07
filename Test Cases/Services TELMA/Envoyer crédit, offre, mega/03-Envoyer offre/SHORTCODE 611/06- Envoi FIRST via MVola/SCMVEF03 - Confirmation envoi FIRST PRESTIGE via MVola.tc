@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVEF03 - Confirmation envoi FIRST PRESTIGE via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d80b6a8-aabd-4f7d-9f4b-5a1a30e6c77a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>ad6ed6a1-111b-4111-850e-84ac711708cc</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>f99020d8-89d3-4f59-94f6-7f3a536b3421</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'30000'</defaultValue>
+      <description></description>
+      <id>ea61ed76-c349-4679-ad8d-bed259cbf686</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVY06 - Confirmation achat YELOW Faceboobaka via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e56008d1-84b6-4bec-b72c-7504f6e66ca4</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>7384d6d2-88d6-418f-99a5-da36f57ef97b</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>54ea066c-edac-445e-8750-706f77ea9a91</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'2000'</defaultValue>
+      <description></description>
+      <id>2545d623-914e-4727-8570-577169d939a9</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

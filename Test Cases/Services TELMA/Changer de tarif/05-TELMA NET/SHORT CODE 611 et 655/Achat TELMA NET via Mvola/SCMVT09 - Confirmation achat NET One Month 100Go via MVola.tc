@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVT09 - Confirmation achat NET One Month 100Go via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8fc3c697-f772-4649-a74b-a4c680725d6d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>2118b7b7-d625-4ab6-9877-433b7a7dfb47</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVF03 - Confirmation achat FIRST PRESTIGE via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19afb28a-4b77-4bb4-b6bd-e703a5d449a2</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>9175b4f4-9cd3-4af7-836f-166c7dee62bf</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>8072eba3-d74a-48e9-a18b-2d3e560f1ea9</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'30000'</defaultValue>
+      <description></description>
+      <id>58d8a508-e024-4894-ac44-67e591036c70</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

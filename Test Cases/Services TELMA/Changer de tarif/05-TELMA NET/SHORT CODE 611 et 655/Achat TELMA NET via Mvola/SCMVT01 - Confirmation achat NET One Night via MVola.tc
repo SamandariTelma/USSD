@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVT01 - Confirmation achat NET One Night via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdcd080a-f816-4580-a254-80924e077083</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>a991d97e-8046-4b2f-b281-e45676b2b961</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>976e6569-4530-4321-8fa1-c79e06f9b09a</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'100'</defaultValue>
+      <description></description>
+      <id>47c727aa-7238-4aee-9e6d-d2d681839b09</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

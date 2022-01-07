@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVEY04 - Confirmation envoi YELOW 1000 via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbfcc26c-46cd-41d4-851c-e332f0659649</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>ef9fe7ef-5cf1-4743-9c3e-760f9273ff9f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>fa9cd01e-7bd4-4a24-9f6e-f08471fdc850</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description></description>
+      <id>a541faa1-2ef1-466f-9be4-dac57200739e</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

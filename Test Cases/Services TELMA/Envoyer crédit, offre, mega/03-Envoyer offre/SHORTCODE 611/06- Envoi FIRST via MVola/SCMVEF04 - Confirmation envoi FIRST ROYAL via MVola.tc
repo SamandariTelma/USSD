@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVEF04 - Confirmation envoi FIRST ROYAL via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0aa25e0-58d3-4a47-bafc-a6676ae6d5d0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>d7d333f3-4b93-4aad-8943-29632e1bbba8</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>25050837-2358-4536-bafc-a47cdf20123e</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'50000'</defaultValue>
+      <description></description>
+      <id>f30cb87c-a25e-45b2-8ff3-33a296c45c2a</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

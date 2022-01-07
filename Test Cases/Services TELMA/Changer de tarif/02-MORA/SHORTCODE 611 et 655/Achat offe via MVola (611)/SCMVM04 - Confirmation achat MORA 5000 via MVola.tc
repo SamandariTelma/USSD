@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVM04 - Confirmation achat MORA 5000 via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>319d79ce-096c-4a32-9a7b-1d55cb978897</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>51cdeac5-cb24-44a1-9eed-7256dd6ed3e6</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>1ca7b717-62ee-4209-9e1d-555ec7872243</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'5000'</defaultValue>
+      <description></description>
+      <id>e39b110d-b273-40e0-86d0-85c854b54650</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

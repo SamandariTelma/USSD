@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVF04 - Confirmation achat FIRST ROYAL via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2485dc35-0dec-44e3-a950-2aa8dadb2a63</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>f9ec2912-c362-4536-899b-801a342120bf</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>7bedfb7f-e961-45a9-9e2a-3cefab01d8b7</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'50000'</defaultValue>
+      <description></description>
+      <id>a680b03d-5435-4665-9b8d-0d8f74f379d5</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

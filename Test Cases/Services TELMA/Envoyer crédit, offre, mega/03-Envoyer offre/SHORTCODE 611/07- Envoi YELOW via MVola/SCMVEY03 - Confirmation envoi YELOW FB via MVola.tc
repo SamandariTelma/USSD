@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVEY03 - Confirmation envoi YELOW FB via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>031f9832-9aec-4fb7-82ed-02ad8902f59d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>c78cd8e6-b63c-47b0-8889-22375ec03c6e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>af98047c-ff04-4307-b588-310ad5c1a830</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>d42a67fd-8e66-4566-a002-1a0b62feb108</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

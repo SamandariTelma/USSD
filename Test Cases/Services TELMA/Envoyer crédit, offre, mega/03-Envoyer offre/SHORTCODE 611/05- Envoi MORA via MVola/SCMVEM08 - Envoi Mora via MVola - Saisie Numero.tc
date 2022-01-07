@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVEM08 - Envoi Mora via MVola - Saisie Numero</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>70962427-36df-44fa-a4b5-fda6ad838ec8</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>dc256056-df28-4c24-9e30-48dfa234a04f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>addfe9fa-5da4-4e3d-934c-4f9f073a1c36</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'5000'</defaultValue>
+      <description></description>
+      <id>a65845eb-1da8-4022-b2cf-40ebab04d55e</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

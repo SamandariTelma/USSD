@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOY07 - Achat YELOW Faceboobaka - Crédit insuffisant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce771ed5-6160-4d08-9115-21963f43c1e0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>f5e8a7d5-974c-48fb-9990-5c92b40b6fa0</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>37ed045c-cd3a-4572-9628-1ff333c0ec62</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+</TestCaseEntity>

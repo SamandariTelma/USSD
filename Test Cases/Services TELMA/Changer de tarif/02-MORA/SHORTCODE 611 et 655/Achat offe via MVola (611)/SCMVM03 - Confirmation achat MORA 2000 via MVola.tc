@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVM03 - Confirmation achat MORA 2000 via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a4d3849-604e-465a-93e2-c9a8e46f0ced</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e2b961e2-1f42-43ce-83cd-aa5c47678e22</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>f8a4edcd-7662-492e-a41d-079b2461a209</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'2000'</defaultValue>
+      <description></description>
+      <id>fd5f4bc9-4878-4c85-b1f4-80778d76b0f7</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

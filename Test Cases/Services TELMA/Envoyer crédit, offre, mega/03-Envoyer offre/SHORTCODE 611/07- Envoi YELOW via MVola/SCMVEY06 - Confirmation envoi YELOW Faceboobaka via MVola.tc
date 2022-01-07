@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVEY06 - Confirmation envoi YELOW Faceboobaka via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb0d601e-bd68-4bc0-930d-75c51f3253ed</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>2105ecef-3058-48bc-8cba-24d3f1fa324c</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>6a3fb1b9-4d49-4144-a854-3df3ef0bc834</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'2000'</defaultValue>
+      <description></description>
+      <id>4fd7a20b-6946-40bf-947f-34ad309c3027</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

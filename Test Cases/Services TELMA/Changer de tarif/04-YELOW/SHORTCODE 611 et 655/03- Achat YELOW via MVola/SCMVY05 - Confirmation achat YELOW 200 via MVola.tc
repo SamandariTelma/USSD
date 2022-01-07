@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVY05 - Confirmation achat YELOW 200 via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa5c1042-aee4-4b22-8fc6-44f8bbc47354</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>4faefec8-e0ae-4148-8e2d-bf82757ff31e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>312bceb6-4866-43c6-badc-5fdceb35c36c</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'200'</defaultValue>
+      <description></description>
+      <id>b9101e3d-3de6-4ff2-ab41-ae61728ef5a4</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

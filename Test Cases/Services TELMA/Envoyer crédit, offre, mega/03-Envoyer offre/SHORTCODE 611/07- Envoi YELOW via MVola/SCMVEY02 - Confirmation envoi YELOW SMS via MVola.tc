@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVEY02 - Confirmation envoi YELOW SMS via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>580168a2-cb4f-4777-87f8-4142e564d7bc</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>dde904b9-990e-4bbf-a281-7bee74cdc879</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>694c81ca-d581-486e-829d-e47af0263b04</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'200'</defaultValue>
+      <description></description>
+      <id>c9cadb10-d148-4fe6-9b9a-65ae6502bdcb</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

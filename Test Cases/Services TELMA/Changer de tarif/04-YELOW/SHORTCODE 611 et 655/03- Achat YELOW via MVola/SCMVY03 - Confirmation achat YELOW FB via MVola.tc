@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVY03 - Confirmation achat YELOW FB via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd84a753-3ed1-4d3e-869f-072ab921c76c</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>bd7e34b6-62fa-4f3e-9ba5-32f830c4b742</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>7393658e-83d0-41bb-ba4b-b3b6b82e0c88</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>e1c10bb1-3fdb-4f9f-829f-a3cf6a0ef025</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOF03 - Confirmation envoi FIRST PRESTIGE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>95239134-e328-41f9-98b9-73b6b2335a16</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>aa534121-c480-42c1-9ac3-6af2afd6298f</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>28ea345d-4256-4947-be35-80018830caa3</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'30000'</defaultValue>
+      <description></description>
+      <id>d878bc7e-0ca6-4a75-a401-2606726505fc</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

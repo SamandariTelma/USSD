@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVEM06 - Confirmation envoi MORA TEAM via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08b27c92-1e07-441a-9f96-7f74a8a65ba1</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>fcaccb5d-cbcb-428a-a25d-45f03190f97d</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>71b3fe02-769a-4232-81e6-ccef075fdcf1</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description></description>
+      <id>0071d24b-b8b4-44ed-81bc-d0d7456e6c59</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

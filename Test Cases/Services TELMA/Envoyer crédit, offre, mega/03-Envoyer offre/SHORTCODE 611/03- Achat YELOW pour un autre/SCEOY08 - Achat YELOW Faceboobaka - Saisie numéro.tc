@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOY08 - Achat YELOW Faceboobaka - Saisie numéro</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4a38d23-6109-4a74-81e6-7a8b7cd8c181</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>8259aeba-3331-4980-957e-644f2c099993</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOT06 - Confirmation achat NET One Month 4,5Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>326115b9-3f29-4fd3-bdf3-faa2190f9411</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>4271543f-470f-4a47-8967-7cd896eed974</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>59dd7057-6681-4662-b717-66eca53f2ed8</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'10000'</defaultValue>
+      <description></description>
+      <id>c75d28cf-2a67-4c45-aa5b-96a2eed728c8</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

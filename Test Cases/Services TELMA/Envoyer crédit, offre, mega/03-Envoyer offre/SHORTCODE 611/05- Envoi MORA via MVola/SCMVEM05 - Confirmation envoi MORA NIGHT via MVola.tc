@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVEM05 - Confirmation envoi MORA NIGHT via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67f04b1c-dae1-47a4-b5ae-9ca6ebd6d2b9</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>110bc046-01ac-4845-b62f-80e4e737c585</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>1bd1154b-38a4-4722-8961-65ea4b18460e</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'5000'</defaultValue>
+      <description></description>
+      <id>f1ffc01f-baf5-43ba-b605-f1272075bd54</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

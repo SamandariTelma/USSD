@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVEM03 - Confirmation envoi MORA 2000 via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f86c4801-30e9-4b76-8849-9a31226ed493</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>5fa7c2ff-3dc9-462b-a7d8-574c52923da9</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>2fb14cd3-3896-41a8-9af2-fdfb1509a3bb</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'2000'</defaultValue>
+      <description></description>
+      <id>64908d48-9ebc-4cfe-a795-49ce38a261d1</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

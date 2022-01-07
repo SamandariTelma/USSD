@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVEF02 - Confirmation envoi FIRST PREMIUM plus via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2e90fcf-a8ef-4c8a-9bfc-5829d94c5cc0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>870d11f8-4bbe-4fc7-9c86-0b532aa71e49</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>c7a5690a-445f-45ab-a932-11192a200311</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'15000'</defaultValue>
+      <description></description>
+      <id>3879d92f-2824-4178-a5ab-ec304e5c6c5d</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVEF05 - Envoi FIRST via MVola - Saisie numero</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9c88f5f-805f-4517-abd6-9a052dfe732f</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>9655e38a-8109-46b2-856c-eff945718ff0</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>feb16b89-6811-4ea2-9104-b0bcd75880b6</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'50000'</defaultValue>
+      <description></description>
+      <id>c12e6c44-48f8-4072-9bff-c43da99434f6</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

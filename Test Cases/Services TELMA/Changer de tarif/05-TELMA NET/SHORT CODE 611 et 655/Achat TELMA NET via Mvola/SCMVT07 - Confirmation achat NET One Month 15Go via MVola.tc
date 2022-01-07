@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVT07 - Confirmation achat NET One Month 15Go via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9c191222-4872-4a25-987b-f398a478ef6b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>33e4b52a-0756-49e2-9f2b-fbe880898f6e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>e0bb80fe-f817-44ac-898c-98ace3402e46</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'75000'</defaultValue>
+      <description></description>
+      <id>5456e6e2-8dcf-4873-96d6-ed6460180aaa</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

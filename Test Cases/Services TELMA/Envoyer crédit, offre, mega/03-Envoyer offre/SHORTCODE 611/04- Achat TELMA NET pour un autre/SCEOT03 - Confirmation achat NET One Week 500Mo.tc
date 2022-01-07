@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOT03 - Confirmation achat NET One Week 500Mo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>23d7d9f8-57bd-4015-bb6f-61da351052dd</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>de1d8bc8-8a10-4cf3-b948-a555540d0538</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>0fa3ce2d-6ad8-4a46-aefe-d70d92028476</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'3000'</defaultValue>
+      <description></description>
+      <id>f4e3137a-9f26-4c7d-9ec2-4b00af1a238c</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVEM01 - Confirmation envoi MORA 500 via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce0ce55c-4a88-4193-88f3-ded62fd4544a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>d7eea582-e92a-449e-917d-70b09b7a6642</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>15ca728f-b577-45d5-b6bc-488bd9e4f9ff</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>bbcb2746-d287-49da-b909-af5f956a4cb3</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>
