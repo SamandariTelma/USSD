@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCFAF07 - Ajouter numero déjà exsistant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6b8c1c0a-c1ed-4810-9bd9-ebb765f648d2</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>9c441de1-4517-416a-9cf4-133c2025f381</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnAAjouter1</defaultValue>
+      <description></description>
+      <id>9b1d10e6-459b-4f29-b39e-d69af13be6b3</id>
+      <masked>false</masked>
+      <name>numeroExistant</name>
+   </variable>
+</TestCaseEntity>

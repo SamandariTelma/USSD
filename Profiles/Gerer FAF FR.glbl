@@ -44,4 +44,9 @@
       <initValue>'fr'</initValue>
       <name>langue</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'*644'</initValue>
+      <name>shortCodeDirect</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

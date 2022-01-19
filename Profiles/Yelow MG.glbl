@@ -49,4 +49,14 @@
       <initValue>''</initValue>
       <name>dateExp</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'*655'</initValue>
+      <name>shortCodeDirect</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'*611'</initValue>
+      <name>shortCodeDirectAchat</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

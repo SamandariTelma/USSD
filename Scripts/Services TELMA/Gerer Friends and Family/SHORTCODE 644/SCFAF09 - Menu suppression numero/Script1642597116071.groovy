@@ -9,28 +9,21 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-
+import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String numeroExistant="${numeroExistant}"
+'En tant que GP, je shortCode  *644*2# pour supprimer un numero FAF'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*2#', numeroInitiateur)
 
-'En tant que client TELMA, je vais dans le menu Gerer Friends and family'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'#', numeroInitiateur)
+'Vérifier la conformité du prompt'
 
-'Je saisis 1 (Ajouter un contact)'
-CustomKeywords.'ussd.Send.response'('1')
-
-'J\'ajoute  un numéro qui existe déjà dans la liste contact FAF'
-String actualMenu=CustomKeywords.'ussd.Send.response'(numeroExistant)
-
-'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Le '+numeroExistant+' fait deja partie de vos numeros Friends and Family\\.',
-	'Efa ao anaty lisitra Friends and Family ny '+numeroExistant+'\\.')
+String menu = CustomKeywords.'ussd.Expected.menu'('Entrer numero :', 'Ampidiro ny laharana :')
 
 WS.verifyMatch(actualMenu, menu, true)

@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String monNumero="${monNumero}"
+String numeroExistant="${numeroExistant}"
 
 'En tant que client TELMA, je vais dans le menu Gerer Friends and family'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)

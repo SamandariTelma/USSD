@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCFAF05 - Ajouter un numéro invalide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>390ba25e-b834-409d-8c43-778cab29eaf4</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>a71d2886-7955-47df-947b-efd99f33bb69</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

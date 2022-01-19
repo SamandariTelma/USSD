@@ -30,7 +30,7 @@ String menu=CustomKeywords.'ussd.Expected.menu'('Desole, vous ne pouvez pas util
 WS.verifyMatch(actualMenu, menu, true)
 
 'En tant que GP, j\'effectue un envoi offre Yelow faceboobaka + à mon numéro:  *611*68*1*monNumero#'
-actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*68*1*0325785400#', numeroInitiateur)
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*68*1*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 menu = CustomKeywords.'ussd.Expected.menu'('Vous ne pouvez pas transferer de credit a votre numero\\. Merci de saisir un autre numero TELMA Mobile\\.',

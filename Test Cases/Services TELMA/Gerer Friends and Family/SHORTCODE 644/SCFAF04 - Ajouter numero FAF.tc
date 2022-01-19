@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCFAF04 - Ajouter numero FAF</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>312b6695-131e-4535-975b-b9e10a735225</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>044901fd-7302-4673-958d-b39a3d503bc8</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnAAjouter1</defaultValue>
+      <description></description>
+      <id>80d9da2a-3ec8-4ee6-bee9-fa9912070fe2</id>
+      <masked>false</masked>
+      <name>numeroAAjouter</name>
+   </variable>
+</TestCaseEntity>

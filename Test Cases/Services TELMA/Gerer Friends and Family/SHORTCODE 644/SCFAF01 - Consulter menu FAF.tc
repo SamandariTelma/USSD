@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCFAF01 - Consulter menu FAF</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bef8e426-0abe-4341-8a6c-7ca3b6359f93</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>223fc841-2b41-4b63-8d51-6a56e9eb02cf</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

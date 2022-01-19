@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCFAF11 - Supprimer numero - Liste vide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5d6a0a1-502d-4800-9763-8bae61ce58e4</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>c076821b-8fed-4791-9611-d1c82ebed10c</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

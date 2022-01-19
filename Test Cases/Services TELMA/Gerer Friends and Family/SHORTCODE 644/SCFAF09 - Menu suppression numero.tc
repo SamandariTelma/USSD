@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCFAF09 - Menu suppression numero</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4fa45e62-44cb-4e1b-a1b2-5ca9bb4d769f</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>ab7f590a-456a-49af-afad-d86f21efe4ad</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

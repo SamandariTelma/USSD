@@ -15,22 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+String numeroInitiateur = "$numeroInitiateur"
 
-String numeroInitiateur="${numeroInitiateur}"
+'En tant que GP, je shortCode  *644*1*MSISDN# pour ajouter le numero d\'autre operateur *644*1*032xxx#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect + '*1*0325785400#', numeroInitiateur)
 
-String numeroExistant="${numeroExistant}"
-
-'En tant que client TELMA, je vais dans le menu Gerer Friends and family'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'#', numeroInitiateur)
-
-'Je saisis 1 (Ajouter un contact)'
-CustomKeywords.'ussd.Send.response'('1')
-
-'J\'ajoute  un numéro qui existe déjà dans la liste contact FAF'
-String actualMenu=CustomKeywords.'ussd.Send.response'(numeroExistant)
-
-'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Le '+numeroExistant+' fait deja partie de vos numeros Friends and Family\\.',
-	'Efa ao anaty lisitra Friends and Family ny '+numeroExistant+'\\.')
+'Vérifier la conformité du messsage'
+String menu=CustomKeywords.'ussd.Expected.menu'('Ce numero ne peut etre ajouter a votre liste Friends & Familly', 'Tsy afaka ampidirina ao anaty lisitra FAF io laharana io')
 
 WS.verifyMatch(actualMenu, menu, true)
+

@@ -27,7 +27,7 @@ numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*8*2*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'(('Pour accepter d\'acheter l\'offre NET ONE WEEK 4,5Go a '+montantOffre+' Ar pour le numero ' + 
-    numeroRecepteur) + ', Entrer le code secret:', ('Raha manaiky ny handefa ny tolotra NET ONE WEEK 4,5Go amin\'ny sarany '+montantOffre+' Ar ho an\'ny laharana ' + numeroRecepteur) + 
+String menu = CustomKeywords.'ussd.Expected.menu'(('Pour accepter d\'acheter l\'offre NET ONE MONTH 4,5Go a '+montantOffre+' Ar pour le numero ' + 
+    numeroRecepteur) + ', Entrer le code secret:', ('Raha manaiky ny handefa ny tolotra NET ONE MONTH 4,5Go amin\'ny sarany '+montantOffre+' Ar ho an\'ny laharana ' + numeroRecepteur) + 
     ', Ampidiro ny kaody miafina:')
 WS.verifyMatch(actualMenu, menu, true)

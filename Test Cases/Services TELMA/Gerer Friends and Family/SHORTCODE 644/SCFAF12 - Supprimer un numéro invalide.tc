@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCFAF12 - Supprimer un numéro invalide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd2c1336-3ba7-4501-a30a-1e9925ba891c</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>c31b7b6c-537f-483f-bdcc-2997cd8525ed</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

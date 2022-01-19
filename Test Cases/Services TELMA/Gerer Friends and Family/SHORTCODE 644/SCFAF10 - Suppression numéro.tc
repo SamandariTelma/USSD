@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCFAF10 - Suppression numéro</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3efccefd-0d37-4654-9726-8d9d8ccb49a8</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>4a8b7e9c-fcd9-4fcb-97d4-86e434f28681</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnAAjouter1</defaultValue>
+      <description></description>
+      <id>49131980-3b3e-4460-b1b8-672b8097b6ce</id>
+      <masked>false</masked>
+      <name>numeroAEfface</name>
+   </variable>
+</TestCaseEntity>

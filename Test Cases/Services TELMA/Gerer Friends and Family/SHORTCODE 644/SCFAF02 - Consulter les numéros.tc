@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCFAF02 - Consulter les numéros</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a574d3ce-6ed5-4cc6-a961-87da0d733c4b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>2b089ff8-438a-4798-ad5e-38893025ebe3</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnAAjouter1</defaultValue>
+      <description></description>
+      <id>1cf6ed3c-292e-4166-8751-c1e2520dee6f</id>
+      <masked>false</masked>
+      <name>numeroAjoute1</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnAAjouter2</defaultValue>
+      <description></description>
+      <id>ed4cb633-25f2-45e5-9e5f-f0d6d38b0517</id>
+      <masked>false</masked>
+      <name>numeroAjoute2</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnAAjouter3</defaultValue>
+      <description></description>
+      <id>6b34ec1c-3954-47c5-bb28-8f99142efb5d</id>
+      <masked>false</masked>
+      <name>numeroAjoute3</name>
+   </variable>
+</TestCaseEntity>
