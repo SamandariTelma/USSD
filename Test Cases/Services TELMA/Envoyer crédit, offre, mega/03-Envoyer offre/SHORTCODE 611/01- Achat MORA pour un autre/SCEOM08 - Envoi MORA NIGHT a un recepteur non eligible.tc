@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOM08 - Envoi MORA NIGHT a un recepteur non eligible</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c381b87e-1246-4aea-9002-cf6db72dfe42</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>1da8189f-1909-4379-81a7-2f0e0e237e9b</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>71da5b3d-00e1-48af-a981-8742dfb5df38</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+</TestCaseEntity>

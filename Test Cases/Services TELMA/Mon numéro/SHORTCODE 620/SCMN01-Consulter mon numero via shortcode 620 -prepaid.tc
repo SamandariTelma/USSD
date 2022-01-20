@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>03-Consulter mon numero via shortcode 620 -prepaid</name>
+   <name>SCMN01-Consulter mon numero via shortcode 620 -prepaid</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f5b21427-8387-49af-a4ba-d5b5725e3067</testCaseGuid>

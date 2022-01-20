@@ -39,7 +39,7 @@
       <guid>6bf6d7ef-e501-4f61-b6f7-5f964e0cbaf7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Mon numéro/03-Consulter mon numero via shortcode 620 -prepaid</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Mon numéro/SHORTCODE 620/SCMN01-Consulter mon numero via shortcode 620 -prepaid</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -51,7 +51,7 @@
       <guid>09fcec62-cb5e-4436-a843-81d222720b44</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Mon numéro/04-Consulter mon numero via service telma -postpaid</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Mon numéro/03-Consulter mon numero via service telma -postpaid</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -63,7 +63,7 @@
       <guid>a8c3e68c-e0c3-44aa-aaaa-e5fd48af0e29</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Mon numéro/05-Consulter mon numero via shortcode 620 -postpaid</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Mon numéro/SHORTCODE 620/SCMN02-Consulter mon numero via shortcode 620 -postpaid</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOM09 - Envoi MORA NIGHT - Envoyeur postpaid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>318b0f98-47e9-45af-b2a0-f7fc222648dc</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnNonEligible</defaultValue>
+      <description></description>
+      <id>d76671e3-b7ba-4e97-a91c-f86dec971133</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>b5ae6fe6-1f61-4412-b2cd-99d96492f7e8</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+</TestCaseEntity>

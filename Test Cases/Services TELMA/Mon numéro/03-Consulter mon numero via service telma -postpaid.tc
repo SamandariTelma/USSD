@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>05-Consulter mon numero via shortcode 620 -postpaid</name>
+   <name>03-Consulter mon numero via service telma -postpaid</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8b1c0fdb-b9e1-4021-9f6a-e5d3d4258fd7</testCaseGuid>
+   <testCaseGuid>d70991f7-22ed-4509-8045-3a0f5bf7f4b4</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.numeroNonEligible</defaultValue>
       <description></description>
-      <id>17ecb8a1-8c21-4894-af0e-b28ca3c8cbc0</id>
+      <id>e312f744-4338-43c3-9038-91789b734cb5</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

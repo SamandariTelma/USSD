@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVEM09 - Envoi MORA NIGHT a un recepteur non eligible</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>93acc7b6-80e5-44ec-b15a-5eef1d2cc27a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>1140b5e1-d961-4568-bde8-0ad2989e1759</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>41d13e4f-f5f6-42d7-9115-6224000902ca</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+</TestCaseEntity>
