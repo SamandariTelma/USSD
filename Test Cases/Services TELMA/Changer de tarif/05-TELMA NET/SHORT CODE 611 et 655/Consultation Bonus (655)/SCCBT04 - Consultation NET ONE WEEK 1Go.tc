@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCCBT04 - Consultation NET ONE WEEK 1Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7ffb74d-72cd-44a1-b792-31b4f927e90f</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>a541a6cf-0082-4b2b-a891-00521bedc1cc</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

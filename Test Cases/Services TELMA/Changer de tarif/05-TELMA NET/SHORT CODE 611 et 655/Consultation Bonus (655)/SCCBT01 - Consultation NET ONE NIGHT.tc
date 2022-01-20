@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCCBT01 - Consultation NET ONE NIGHT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ac0f5d2-9acd-4c77-8060-c180f34fa510</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e5434ab3-41ec-4823-b2b5-b997732f8358</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

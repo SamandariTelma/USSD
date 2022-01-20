@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCCBY01 - Consultation Yelow 100</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f172f0e-5214-4edd-af94-01d194fb0815</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>468a38ce-9877-4ae0-bd43-09f961572411</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

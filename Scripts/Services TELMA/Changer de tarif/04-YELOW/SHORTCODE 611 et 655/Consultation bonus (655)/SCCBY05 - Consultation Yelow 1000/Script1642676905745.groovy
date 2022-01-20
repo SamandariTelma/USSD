@@ -19,17 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy')
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
 
-String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'HH:mm')
-
-'En tant que GP, j\'effectue mon offre YELOW 200 :  *611*63#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*63#', numeroInitiateur)
+'En tant que GP, je consulte mon offre YELOW 1000 : *655*66#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*66#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW 200 est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois 20% de bonus\\.Tapez vite le #111\\*1#\\.', 
-    'Tafiditra ny tolotra YELOW 200 novidianao\\. Bonus-nao: #359#\\. Vidio @MVola ny tolotrao ary mahazoa Bonus internet 20%\\. Tsindrio ny #111\\*1#\\.')
-
+String menu=CustomKeywords.'ussd.Expected.menu'('Bonus YELOW 1000 restants: 100 SMS vers tous les opérateurs et/ou 50\\.0 Mo utilisable à toute heure \\+ 50\\.0 Mo la nuit jusqu au '+dateExpiration+'\\.',
+	'Bonus YELOW 1000 tavela: 100 SMS mankany @ tambazotra rehetra  \\+ 50\\.0 Mo ny alina hatramin ny '+dateExpiration+'\\.')
 WS.verifyMatch(actualMenu, menu, true)
-
-CustomKeywords.'outStream.XML.setDateBundle'("yelow 200", dateExpiration, heureExpiration)

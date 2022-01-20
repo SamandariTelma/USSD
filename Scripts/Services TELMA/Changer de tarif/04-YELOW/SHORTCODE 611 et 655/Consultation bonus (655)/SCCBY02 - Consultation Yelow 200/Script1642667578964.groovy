@@ -18,18 +18,15 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
+String dateExpiration=CustomKeywords.'outStream.XML.getDateBundle'("yelow 200")
+String heureExpiration=CustomKeywords.'outStream.XML.getTimeBundle'("yelow 200")
 
-String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy')
 
-String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'HH:mm')
-
-'En tant que GP, j\'effectue mon offre YELOW 200 :  *611*63#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*63#', numeroInitiateur)
+'En tant que GP, je consulte mon offre YELOW 200 :  *655*63#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*63#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW 200 est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois 20% de bonus\\.Tapez vite le #111\\*1#\\.', 
-    'Tafiditra ny tolotra YELOW 200 novidianao\\. Bonus-nao: #359#\\. Vidio @MVola ny tolotrao ary mahazoa Bonus internet 20%\\. Tsindrio ny #111\\*1#\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Bonus YELOW 200 restants: 50 SMS Telma et/ou 50 Mo utilisable a toute heure jusqu au '+dateExpiration+' a '+heureExpiration,
+	'Bonus YELOW 200: 50 SMS Telma sy/na 50 Mo azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+' @ '+heureExpiration)
 
 WS.verifyMatch(actualMenu, menu, true)
-
-CustomKeywords.'outStream.XML.setDateBundle'("yelow 200", dateExpiration, heureExpiration)

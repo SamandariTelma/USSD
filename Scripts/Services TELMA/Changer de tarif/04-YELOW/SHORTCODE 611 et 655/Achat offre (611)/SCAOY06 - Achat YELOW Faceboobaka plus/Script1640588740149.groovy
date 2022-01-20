@@ -19,6 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
 
+String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(14,'dd/MM/yyy')
+
+String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(14,'HH:mm')
+
 'En tant que GP, j\'effectue mon offre YELOW faceboobaka + :  *611*68#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*68#', numeroInitiateur)
 
@@ -27,3 +31,5 @@ String menu = CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW FACEBO
     'Tafiditra ny tolotra YELOW FACEBOOBAKA \\+ novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao  ary mahazoa hatrany Bonus kadoa 20%\\. Tsindrio ny #111\\*1#\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
+
+CustomKeywords.'outStream.XML.setDateBundle'("yelow faceboobaka", dateExpiration, heureExpiration)

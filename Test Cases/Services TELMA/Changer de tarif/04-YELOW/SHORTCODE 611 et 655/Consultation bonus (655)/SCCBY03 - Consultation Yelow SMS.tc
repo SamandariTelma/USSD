@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCCBY03 - Consultation Yelow SMS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>813fa39a-db86-4e4c-b259-62cfd91e6ed6</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>c6785e71-c5e6-49f4-aac3-88c8aa1640ad</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
