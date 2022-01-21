@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter le menu Offre via shortcode direct (611)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>daf90fe7-1fc1-4f65-830c-e64922c656fb</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>4f3ff7e7-e079-47c0-bf33-4cec4bc5ff5a</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

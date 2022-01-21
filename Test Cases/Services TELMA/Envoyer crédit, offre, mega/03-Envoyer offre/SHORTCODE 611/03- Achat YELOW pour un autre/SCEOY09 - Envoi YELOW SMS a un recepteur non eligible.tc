@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOY09 - Envoi YELOW SMS a un recepteur non eligible</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>017d3133-5e10-47e2-acb0-4894c54988ae</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>b814b932-0339-4274-8bae-53ef54d3ffa9</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>af7a299f-cf7a-411a-805e-b7e33752d8f6</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+</TestCaseEntity>
