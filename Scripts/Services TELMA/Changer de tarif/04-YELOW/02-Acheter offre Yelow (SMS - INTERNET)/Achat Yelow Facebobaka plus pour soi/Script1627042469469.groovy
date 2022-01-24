@@ -38,6 +38,9 @@ CustomKeywords.'ussd.Send.response'('3')
 'Je saisis 6(YELOW FACEBOBAKA +) et je valide'
 String actualMenu = CustomKeywords.'ussd.Send.response'('6')
 
+'Je choisis 1 Oui'
+actualMenu = CustomKeywords.'ussd.Send.response'('1')
+
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW FACEBOOBAKA \\+ est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois un bonus kadoa de 20%\\. Tapez vite le #111\\*1#\\.', 
     'Tafiditra ny tolotra YELOW FACEBOOBAKA \\+ novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao  ary mahazoa hatrany Bonus kadoa 20%\\. Tsindrio ny #111\\*1#\\.')

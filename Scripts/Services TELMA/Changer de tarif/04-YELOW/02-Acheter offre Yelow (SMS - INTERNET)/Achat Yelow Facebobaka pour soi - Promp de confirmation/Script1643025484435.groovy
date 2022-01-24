@@ -23,7 +23,7 @@ String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(3,'dd/MM/yyy')
 
 String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(3,'HH:mm')
 
-'Consulter mon solde avant d\' effectuer un Yelow facebobaka'
+'Consulter mon solde avant d\' effectuer un Yelow facebobaka+'
 WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -35,26 +35,23 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur
 'Je saisis 3 (YELOW (SMS - INTERNET)) et valide'
 CustomKeywords.'ussd.Send.response'('3')
 
-'Je saisis 3(YELOW FACEBOBAKA) et je valide'
-String actualMenu = CustomKeywords.'ussd.Send.response'('3')
+'Je saisis 6(YELOW FACEBOBAKA +) et je valide'
+String actualMenu = CustomKeywords.'ussd.Send.response'('6')
 
-'Je choisis 1 Oui'
-actualMenu = CustomKeywords.'ussd.Send.response'('1')
-
-'Vérifier la conformité du message'
-menu = CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW FACEBOBAKA est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois un bonus kadoa de 20%\\. Tapez vite le #111\\*1#\\.', 
-    'Tafiditra ny tolotra YELOW FACEBOBAKA novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao  ary mahazoa hatrany Bonus kadoa 20%\\. Tsindrio ny #111\\*1#\\.')
+'Vérifier la conformité du pormpt de confirmation'
+String menu=CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAKA\\+ : vous avez 1 Go pour acceder a vos videos et photos sur Instagram et Facebook pendant 7j pour 2000 Ar\\. En profiter\\? 1\\-OUI; 0\\-NON', 
+	'YELOW FACEBOOBAKA\\+: Manana 1 Go ianao ahafahana mampiasa Instagram sy Facebook, manan\\-kery 7 andro @ sarany 2000 Ar\\. Hanararoatra\\? 1\\-ENY ; 0\\-TSIA')
 
 WS.verifyMatch(actualMenu, menu, true)
 
-CustomKeywords.'outStream.XML.setDateBundle'("yelow facebobaka", dateExpiration, heureExpiration)
+'Je choisis 2 Non'
+actualMenu = CustomKeywords.'ussd.Send.response'('2')
 
-'Je vérifie que mon solde est déduit du montant de Yelow facebobaka'
+'Je vérifie que mon solde n\' est pas déduit du montant de Yelow facebobaka+'
 WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 int soldeApresYelow100 = GlobalVariable.soldeCredit
 
-int soldeExcepted=soldeAvant - Integer.valueOf(montantYelowFacebobaka)
-WS.verifyEqual(soldeApresYelow100, soldeExcepted)
+WS.verifyEqual(soldeApresYelow100, soldeAvant)
 
