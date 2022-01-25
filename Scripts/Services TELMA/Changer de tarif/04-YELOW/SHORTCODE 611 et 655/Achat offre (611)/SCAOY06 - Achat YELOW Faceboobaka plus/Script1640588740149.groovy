@@ -26,8 +26,17 @@ String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(14,'HH:mm')
 'En tant que GP, j\'effectue mon offre YELOW faceboobaka + :  *611*68#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*68#', numeroInitiateur)
 
+'Vérifier la conformité du prompt'
+String menu=CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAK\\+ : vous avez 1 Go pour acceder a vos videos et photos sur Instagram et Facebook pendant 7 jours pour 2000 Ar\\. En profiter\\? 1\\-OUI; 0\\-NON',
+	'YELOW FACEBOOBAKA \\+: Manana 1 Go ianao ahafahana mampiasa Instagram sy Facebook, manan\\-kery 7 andro @ sarany 2000 Ar\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA')
+
+WS.verifyMatch(actualMenu, menu, true)
+
+'Je saisis 1 (OUI)'
+actualMenu=CustomKeywords.'ussd.Send.response'('1')
+
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW FACEBOOBAKA \\+ est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois un bonus kadoa de 20%\\. Tapez vite le #111\\*1#\\.', 
+menu = CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW FACEBOOBAKA \\+ est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois un bonus kadoa de 20%\\. Tapez vite le #111\\*1#\\.', 
     'Tafiditra ny tolotra YELOW FACEBOOBAKA \\+ novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao  ary mahazoa hatrany Bonus kadoa 20%\\. Tsindrio ny #111\\*1#\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

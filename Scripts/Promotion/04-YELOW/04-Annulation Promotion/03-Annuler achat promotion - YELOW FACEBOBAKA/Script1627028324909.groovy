@@ -27,7 +27,8 @@ CustomKeywords.'ussd.Send.response'('4')
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('^.*Vous voulez en profiter\\? 1\\-OUI ; 0\\-NON.*$','^.*Hanararaotra\\? 1\\-ENY ; 0\\-TSIA.*$')
+String menu=CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAKA : vous avez 250 Mo pour acceder a vos videos et photos sur Instagram et Facebook pendant 3j pour 500 Ar\\. En profiter\\? 1\\-OUI ; 0\\-NON', 
+	'YELOW FACEBOOBAKA: Manana 250 Mo ianao ahafahana mampiasa Instagram sy Facebook, manan\\-kery 3 andro @ sarany 500 Ar\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA')
 
 WS.verifyMatch(actualMenu, menu, true)
 

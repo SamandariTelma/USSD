@@ -23,7 +23,7 @@ String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(3,'dd/MM/yyy')
 
 String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(3,'HH:mm')
 
-'Consulter mon solde avant d\' effectuer un Yelow facebobaka'
+'Consulter mon solde avant d\' effectuer un Yelow facebobaka+'
 WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -35,19 +35,19 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur
 'Je saisis 3 (YELOW (SMS - INTERNET)) et valide'
 CustomKeywords.'ussd.Send.response'('3')
 
-'Je saisis 3(YELOW FACEBOBAKA) et je valide'
-String actualMenu = CustomKeywords.'ussd.Send.response'('3')
+'Je saisis 6(YELOW FACEBOBAKA +) et je valide'
+String actualMenu = CustomKeywords.'ussd.Send.response'('6')
 
 'Vérifier la conformité du pormpt de confirmation'
-String menu=CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAKA : vous avez 250 Mo pour acceder a vos videos et photos sur Instagram et Facebook pendant 3j pour 500 Ar\\. En profiter\\? 1\\-OUI; 0\\-NON', 
-	'YELOW FACEBOOBAKA: Manana 250 Mo ianao ahafahana mampiasa Instagram sy Facebook, manan\\-kery 3 andro @ sarany 500 Ar\\. Hanararoatra\\? 1\\-ENY ; 0\\-TSIA')
+String menu=CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAK\\+ : vous avez 1 Go pour acceder a vos videos et photos sur Instagram et Facebook pendant 7 jours pour 2000 Ar\\. En profiter\\? 1\\-OUI; 0\\-NON', 
+	'YELOW FACEBOOBAKA \\+: Manana 1 Go ianao ahafahana mampiasa Instagram sy Facebook, manan\\-kery 7 andro @ sarany 2000 Ar\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA')
 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je choisis 2 Non'
 actualMenu = CustomKeywords.'ussd.Send.response'('2')
 
-'Je vérifie que mon solde n\' est pas déduit du montant de Yelow facebobaka'
+'Je vérifie que mon solde n\' est pas déduit du montant de Yelow facebobaka+'
 WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroInitiateur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Achat Yelow Facebobaka pour soi - Promp de confirmation</name>
+   <name>Achat Yelow Facebobaka - Promp de confirmation</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0cbbc67c-20e6-4fea-b18c-7a74860f217e</testCaseGuid>
+   <testCaseGuid>b3c7f294-6d0b-4940-aa69-6b62ee3580fb</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>40716f53-aabd-4e86-b30d-bdae460166d5</id>
+      <id>f3192730-e0be-4401-94d6-88434bb6ca14</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
       <defaultValue>'500'</defaultValue>
       <description></description>
-      <id>56bfd308-7f4b-4dd0-aa5e-0a5f4c4a7c21</id>
+      <id>59600f32-192c-4c27-bee5-e2fb64f37192</id>
       <masked>false</masked>
       <name>montantYelowFacebobaka</name>
    </variable>
