@@ -31,7 +31,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur
 CustomKeywords.'ussd.Send.response'('3')
 
 'Je saisis 3 (YELOW FACEBOBAKA) et je valide'
-String actualMenu = CustomKeywords.'ussd.Send.response'('3')
+actualMenu = CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'(('Desole, vous avez utilise toutes vos demandes\\. Vous pourrez envoyer 2 demandes a partir du ' + 

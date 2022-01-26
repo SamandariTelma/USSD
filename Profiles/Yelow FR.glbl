@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'fr'</initValue>
+      <initValue>'mg'</initValue>
       <name>langue</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

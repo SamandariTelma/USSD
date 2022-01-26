@@ -19,11 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
 
+String codeInitiateur="${codeInitiateur}"
+
 numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+
 
 
 'En tant que GP, j\'effectue un achat offre Yelow faceboobaka + pour un autre:  *611*68*2*numero#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*68*2*'+numeroRecepteur+'#', numeroInitiateur)
+
+'Saisir le code pin de l\'utilisateur'
+actualMenu=CustomKeywords.'ussd.Send.response'(codeInitiateur)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Votre credit est insuffisant pour le changement d\'offre que vous demandez\\.',

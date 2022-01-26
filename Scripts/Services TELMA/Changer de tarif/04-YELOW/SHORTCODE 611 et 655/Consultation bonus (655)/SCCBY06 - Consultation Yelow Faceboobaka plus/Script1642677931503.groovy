@@ -26,7 +26,7 @@ String heureExpiration=CustomKeywords.'outStream.XML.getTimeBundle'("yelow faceb
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*68#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Bonus YELOW FACEBOOBAKA \\+ : 2048\\.0 Mo utilisable toute la journee valable jusqu au '+dateExpiration+' a '+heureExpiration+' inclus\\.',
-	'Bonus YELOW FACEBOOBAKA \\+ : 2048\\.0 Mo azo ampiasaina ny tontolo andro ampiasaina  hatramin ny '+dateExpiration+' @ '+heureExpiration+'\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Bonus YELOW FACEBOOBAKA \\+ : 1024\\.0 Mo utilisable toute la journee valable jusqu au '+dateExpiration+' a '+heureExpiration+' inclus\\.',
+	'Bonus YELOW FACEBOOBAKA \\+ : 1024\\.0 Mo azo ampiasaina ny tontolo andro ampiasaina  hatramin ny '+dateExpiration+' @ '+heureExpiration+'\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

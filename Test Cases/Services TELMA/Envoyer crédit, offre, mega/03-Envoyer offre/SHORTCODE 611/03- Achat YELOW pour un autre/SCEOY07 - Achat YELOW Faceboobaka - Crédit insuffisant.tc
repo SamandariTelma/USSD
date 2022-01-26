@@ -19,4 +19,11 @@
       <masked>false</masked>
       <name>numeroRecepteur</name>
    </variable>
+   <variable>
+      <defaultValue>'0000'</defaultValue>
+      <description></description>
+      <id>44faead5-908d-4821-8bd9-57c110db2fbf</id>
+      <masked>false</masked>
+      <name>codeInitiateur</name>
+   </variable>
 </TestCaseEntity>

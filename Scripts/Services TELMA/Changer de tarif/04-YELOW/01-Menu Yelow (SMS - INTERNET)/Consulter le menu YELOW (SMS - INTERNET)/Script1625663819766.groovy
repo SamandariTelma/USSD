@@ -24,6 +24,16 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du sous menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('YELOW \\(SMS \\- INTERNET\\)\n1 YELOW100 \\(100 Ar\\)\n2 YELOW SMS \\(200 Ar\\)\n3 YELOW FACEBOBAKA \\(500 Ar\\)\n4 YELOW 1000 \\(1 000 Ar\\)\n5 YELOW 200 \\(200 Ar\\)\n6 YELOW FACEBOOBAKA \\+ \\(2 000 Ar\\)')
+String menu=CustomKeywords.'ussd.Expected.menu'('YELOW \\(SMS \\- INTERNET\\)\n1 YELOW100 \\(100 Ar\\)\n2 YELOW SMS \\(200 Ar\\)\n3 YELOW FACEBOBAKA \\(500 Ar\\)\n4 YELOW 1000 \\(1000 Ar\\)\n5 YELOW 200 \\(200 Ar\\)\n0 Page suivante',
+	'YELOW \\(SMS \\- INTERNET\\)\n1 YELOW100 \\(100 Ar\\)\n2 YELOW SMS \\(200 Ar\\)\n3 YELOW FACEBOBAKA \\(500 Ar\\)\n4 YELOW 1000 \\(1000 Ar\\)\n5 YELOW 200 \\(200 Ar\\)\n0 Pejy manaraka')
+
+WS.verifyMatch(actualMenu, menu, true)
+
+'Je saisis 0 (Page suivant)'
+actualMenu=CustomKeywords.'ussd.Send.response'('0')
+
+'Vérifier la conformité du sous menu'
+menu=CustomKeywords.'ussd.Expected.menu'('6 YELOW FACEBOOBAKA \\+ \\(2000 Ar\\)\n7 YELOW ONE \\(1000 Ar\\)\n00 Page precedente', 
+	'6 YELOW FACEBOOBAKA \\+ \\(2000 Ar\\)\n7 YELOW ONE \\(1000 Ar\\)\n00 Pejy aloha')
 
 WS.verifyMatch(actualMenu, menu, true)

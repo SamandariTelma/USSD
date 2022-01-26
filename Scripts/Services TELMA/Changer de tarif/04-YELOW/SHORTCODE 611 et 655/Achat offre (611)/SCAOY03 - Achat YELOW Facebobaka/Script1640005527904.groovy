@@ -40,5 +40,5 @@ menu = CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW FACEBOBAKA es
     'Tafiditra ny tolotra YELOW FACEBOBAKA novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao  ary mahazoa hatrany Bonus kadoa 20%\\. Tsindrio ny #111\\*1#\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
-
+e
 CustomKeywords.'outStream.XML.setDateBundle'("yelow facebobaka", dateExpiration, heureExpiration)

@@ -26,6 +26,9 @@ CustomKeywords.'ussd.Send.response'('3')
 'Je saisis  6 (Yelow Facebobaka +) et je valide'
 String actualMenu = CustomKeywords.'ussd.Send.response'('6')
 
+'Je choisis 1 Oui'
+actualMenu = CustomKeywords.'ussd.Send.response'('1')
+
 'Vérifier la conformité du menu'
 String menu=CustomKeywords.'ussd.Expected.menu'('Votre credit est insuffisant pour le changement d\'offre que vous demandez\\.',
 	'Tsy ampy ny fahana anananao raha hiova io tolotra nangatahanao io ianao\\.')
