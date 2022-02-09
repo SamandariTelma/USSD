@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>bc76e80a-cd3c-435f-a237-4d6ea68c82df</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Recharge/Recharger mon numéro/05-Recharger - client suspendu</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -182,7 +182,7 @@
    <testCaseLink>
       <guid>e576753c-19ec-4f92-9239-3b60def02368</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Recharge/Recharger un autre numéro/06-Recharger - client envoyeur suspendu</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -272,7 +272,7 @@
    <testCaseLink>
       <guid>8038cebf-4c0a-4bb7-95a3-69c04c359982</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/00-Called Test Case/Changer de langue</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

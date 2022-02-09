@@ -27,7 +27,7 @@ public class Send {
 	String code(String code, String msisdn) {
 
 		def Util=new Util()
-		
+
 		KeywordLogger log = new KeywordLogger()
 
 		GlobalVariable.message = code
@@ -39,24 +39,24 @@ public class Send {
 		def response=WS.sendRequest(findTestObject('AdaptIT first menu request'))
 
 		println 'MESSAGE: \n'+ WS.getElementPropertyValue(response, 'message').toString()
-		
+
 		log.logInfo('Envoyé : '+code+'\nMsisdn :'+msisdn+ '\nEcran USSD : \n'+WS.getElementPropertyValue(response, 'message').toString())
-		
+
 		//log.logInfo('Etape : ' + WS.getElementPropertyValue(response, 'message').toString())
 
 		return WS.getElementPropertyValue(response, 'message').toString()
 	}
 	@Keyword
 	String response(String response) {
-		
+
 		KeywordLogger log = new KeywordLogger()
-		
+
 		GlobalVariable.message = response
 
 		def resp = WS.sendRequest(findTestObject('AdaptIT response menu request'))
 
 		println 'MESSAGE: \n'+WS.getElementPropertyValue(resp, 'message').toString()
-		
+
 		log.logInfo('Envoyé : '+response+ '\nEcran USSD : \n' + WS.getElementPropertyValue(resp, 'message').toString())
 
 		return WS.getElementPropertyValue(resp, 'message').toString()
