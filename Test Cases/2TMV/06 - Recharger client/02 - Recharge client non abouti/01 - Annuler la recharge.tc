@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01 - Annuler la recharge</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4923328-d032-4b80-821e-46a837de55a8</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>586fa748-98f1-434a-b17b-5c7f7e3ae8c3</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>ca4754ff-d371-482e-82b5-e35b414907f0</id>
+      <masked>false</masked>
+      <name>numeroARecharger</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <description></description>
+      <id>670ec669-1c17-45f7-8ad3-cceb7b6d765b</id>
+      <masked>false</masked>
+      <name>codeNumeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

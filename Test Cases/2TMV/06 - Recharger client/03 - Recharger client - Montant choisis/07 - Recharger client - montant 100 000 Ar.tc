@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>07 - Recharger client - montant 100 000 Ar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52afd45e-8624-456c-8070-06eecd618e06</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>2c3286f9-2613-438c-8d70-d6e629ef5155</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>53708bb7-79d8-4591-ad81-83ae773a2295</id>
+      <masked>false</masked>
+      <name>numeroARecharger</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <description></description>
+      <id>def70a22-8fe3-410b-b5e8-64d0b9d23471</id>
+      <masked>false</masked>
+      <name>codeNumeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03 - Recharger client - Crédit insuffisant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3e23e41-5281-4ecb-bb65-a2fce1831117</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>55ab46a0-2be8-4156-9936-0e94a7b188a3</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>60e890b8-9fc6-4d2e-ade8-12503397250b</id>
+      <masked>false</masked>
+      <name>numeroARecharger</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <description></description>
+      <id>8ac17145-cc2c-40fe-8b06-d6de7e7991d2</id>
+      <masked>false</masked>
+      <name>codeNumeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
