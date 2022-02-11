@@ -17,28 +17,42 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String numeroInitiateur ="${numeroInitiateur}"
-String numeroARecharger ="${numeroARecharger}"
-String codeNumeroInitiateur="${codeNumeroInitiateur}"
-
+String numeroInitiateur="${numeroInitiateur}"
+String numeroARecharger="${numeroARecharger}"
 numeroARecharger=CustomKeywords.'ussd.Util.to034'(numeroARecharger)
 
 'En tant que MSISDN Revendeur , je compose le *130*2*1#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', numeroInitiateur)
 
-'Je saisis 7 (Envoyer 50 000 Ar) et je valide'
-CustomKeywords.'ussd.Send.response'('7')
+'Je saisis 2 (Envoyer 1 000 Ar) et je valide'
+CustomKeywords.'ussd.Send.response'('2')
 
-'Je saisis correctement le numero du Client GP et je valide'
-CustomKeywords.'ussd.Send.response'(numeroARecharger)
+'Je saisis un numéro non Telma'
+String actualMenu=CustomKeywords.'ussd.Send.response'(numeroARecharger)
 
-'Je saisis le bon code PIN'
-CustomKeywords.'ussd.Send.response'(codeNumeroInitiateur)
+'Vérifier la conformité du prompt'
+String menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret :', 'kaody miafina :')
 
-'Je confirme l\'envoi en saisissant 1 (Oui)'
-String actualMenu=CustomKeywords.'ussd.Send.response'('1')
+WS.verifyMatch(actualMenu, menu, true)
 
-'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert  est en cours de traitement\\.', 'Tontosa ny "fividiana fahana ho n\'ny laharako"\\.')
+'Je saisis un code Pin au mauvais format (Alphanumerique)'
+actualMenu=CustomKeywords.'ussd.Send.response'('aa11')
+
+'Vérifier la conformité du prompt'
+menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres', 'Kaody miafina tsy manankery')
+
+WS.verifyMatch(actualMenu, menu, true)
+
+'Je saisis un code Pin inférieur à 4 chiffres'
+actualMenu=CustomKeywords.'ussd.Send.response'('11')
+
+'Vérifier la conformité du prompt'
+WS.verifyMatch(actualMenu, menu, true)
+
+'Je saisis un code Pin supérieur à 4 chiffres'
+actualMenu=CustomKeywords.'ussd.Send.response'('11111')
+
+'Vérifier la conformité du prompt'
+menu=CustomKeywords.'ussd.Expected.menu'('Le nombre d essai maximum est atteint', 'Mihaotra ny fanandramana azo ekena\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

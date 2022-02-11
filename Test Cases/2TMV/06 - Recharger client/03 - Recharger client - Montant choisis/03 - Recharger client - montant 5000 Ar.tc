@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>7015c49c-6253-42a8-a3dc-2fdc168ec6ad</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
       <description></description>
       <id>6d85a0e1-dd92-4790-a9e1-ec5b0f3e6643</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnClientGP</defaultValue>
       <description></description>
       <id>34843c11-b17c-4817-9ae9-e4b35eedd79e</id>
       <masked>false</masked>

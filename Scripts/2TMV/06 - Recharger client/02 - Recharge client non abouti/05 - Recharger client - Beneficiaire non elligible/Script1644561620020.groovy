@@ -26,10 +26,13 @@ numeroARecharger=CustomKeywords.'ussd.Util.to034'(numeroARecharger)
 'En tant que MSISDN Revendeur , je compose le *130*2*1#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', numeroInitiateur)
 
-'Je saisis 7 (Envoyer 50 000 Ar) et je valide'
-CustomKeywords.'ussd.Send.response'('7')
+'Je saisis 1 (Autre montant) et je valide'
+CustomKeywords.'ussd.Send.response'('1')
 
-'Je saisis correctement le numero du Client GP et je valide'
+'Je saisis le montant souhaité'
+CustomKeywords.'ussd.Send.response'('20000')
+
+'Je saisis correctement le numero qui n\'est pas un client GP et je valide'
 CustomKeywords.'ussd.Send.response'(numeroARecharger)
 
 'Je saisis le bon code PIN'
@@ -39,6 +42,7 @@ CustomKeywords.'ussd.Send.response'(codeNumeroInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert  est en cours de traitement\\.', 'Tontosa ny "fividiana fahana ho n\'ny laharako"\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n a pas abouti\\. Vous avez recu un SMS avec les details de votre transaction\\. Si besoin, contactez le Service Clientele au 807\\.', 
+	'Tsy tafita ny fangatahanao\\. Naharay SMS manazava ny antony ianao\\. Raha ilaina, antsoy ny Service Clientele amin ny 807\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

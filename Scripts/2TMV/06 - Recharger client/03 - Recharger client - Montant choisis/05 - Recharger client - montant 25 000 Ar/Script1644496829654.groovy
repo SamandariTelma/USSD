@@ -23,13 +23,13 @@ String codeNumeroInitiateur="${codeNumeroInitiateur}"
 
 numeroARecharger=CustomKeywords.'ussd.Util.to034'(numeroARecharger)
 
-'En tant que MSISDN grossiste , je compose le *130*2*1#'
+'En tant que MSISDN Revendeur , je compose le *130*2*1#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', numeroInitiateur)
 
 'Je saisis 6 (Envoyer 25 000 Ar) et je valide'
 CustomKeywords.'ussd.Send.response'('6')
 
-'Je saisis correctement le numero du Destinataire qui est revendeur et je valide'
+'Je saisis correctement le numero du Client GP et je valide'
 CustomKeywords.'ussd.Send.response'(numeroARecharger)
 
 'Je saisis le bon code PIN'

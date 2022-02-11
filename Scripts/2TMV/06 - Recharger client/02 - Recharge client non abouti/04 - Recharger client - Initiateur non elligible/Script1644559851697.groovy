@@ -23,13 +23,16 @@ String codeNumeroInitiateur="${codeNumeroInitiateur}"
 
 numeroARecharger=CustomKeywords.'ussd.Util.to034'(numeroARecharger)
 
-'En tant que MSISDN Revendeur , je compose le *130*2*1#'
+'En tant que MSISDN non revendeur , je compose le *130*2*1#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', numeroInitiateur)
 
-'Je saisis 7 (Envoyer 50 000 Ar) et je valide'
-CustomKeywords.'ussd.Send.response'('7')
+'Je saisis 1 (Autre montant) et je valide'
+CustomKeywords.'ussd.Send.response'('1')
 
-'Je saisis correctement le numero du Client GP et je valide'
+'Je saisis le montant souhaité'
+CustomKeywords.'ussd.Send.response'('20000')
+
+'Je saisis correctement un numéro Client GP et je valide'
 CustomKeywords.'ussd.Send.response'(numeroARecharger)
 
 'Je saisis le bon code PIN'
@@ -39,6 +42,7 @@ CustomKeywords.'ussd.Send.response'(codeNumeroInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert  est en cours de traitement\\.', 'Tontosa ny "fividiana fahana ho n\'ny laharako"\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Desole, vous n\'etes pas autorise a acceder a ce service\\.', 
+	'Tsy afaka mampiasa io tolotra io ianao\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

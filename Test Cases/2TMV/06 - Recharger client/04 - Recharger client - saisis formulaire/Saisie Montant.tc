@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Saisie Montant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b714086a-77f0-4a02-b936-878b47d08db3</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>a8ae581c-103a-4ffc-aa46-08f6fe51d1b6</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

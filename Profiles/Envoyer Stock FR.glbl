@@ -96,7 +96,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'mg'</initValue>
+      <initValue>'fr'</initValue>
       <name>langue</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

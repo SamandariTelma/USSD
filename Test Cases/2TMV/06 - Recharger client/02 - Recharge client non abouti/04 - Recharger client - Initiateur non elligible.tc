@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>03 - Recharger client - Crédit insuffisant</name>
+   <name>04 - Recharger client - Initiateur non elligible</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f3e23e41-5281-4ecb-bb65-a2fce1831117</testCaseGuid>
+   <testCaseGuid>62ddc9cc-9076-400f-be34-bc96aef38b4c</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
       <description></description>
-      <id>55ab46a0-2be8-4156-9936-0e94a7b188a3</id>
+      <id>7a2479dc-9484-4f73-8942-83a284b13554</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.msisdnClientGP</defaultValue>
       <description></description>
-      <id>60e890b8-9fc6-4d2e-ade8-12503397250b</id>
+      <id>b6dfc07b-5f24-4849-9453-f439aa829910</id>
       <masked>false</masked>
       <name>numeroARecharger</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
       <description></description>
-      <id>8ac17145-cc2c-40fe-8b06-d6de7e7991d2</id>
+      <id>b0b1c249-867c-4f6e-822d-edee474c3096</id>
       <masked>false</masked>
       <name>codeNumeroInitiateur</name>
    </variable>

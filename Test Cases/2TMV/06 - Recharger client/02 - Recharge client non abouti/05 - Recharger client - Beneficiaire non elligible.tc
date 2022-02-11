@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>03 - Recharger client - Crédit insuffisant</name>
+   <name>05 - Recharger client - Beneficiaire non elligible</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f3e23e41-5281-4ecb-bb65-a2fce1831117</testCaseGuid>
+   <testCaseGuid>f1a2b169-5d8c-4dc1-916c-54a68afc4218</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
       <description></description>
-      <id>55ab46a0-2be8-4156-9936-0e94a7b188a3</id>
+      <id>5d94a5fa-93ec-4c23-80f5-36a9db9029b9</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnClientGP</defaultValue>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
       <description></description>
-      <id>60e890b8-9fc6-4d2e-ade8-12503397250b</id>
+      <id>bb65e85b-7409-48df-b050-2c11c1d282ae</id>
       <masked>false</masked>
       <name>numeroARecharger</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
       <description></description>
-      <id>8ac17145-cc2c-40fe-8b06-d6de7e7991d2</id>
+      <id>614400ea-e543-4b94-805d-6878f95dc16b</id>
       <masked>false</masked>
       <name>codeNumeroInitiateur</name>
    </variable>

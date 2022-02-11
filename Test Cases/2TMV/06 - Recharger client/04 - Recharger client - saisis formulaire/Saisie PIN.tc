@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>03 - Recharger client - Crédit insuffisant</name>
+   <name>Saisie PIN</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f3e23e41-5281-4ecb-bb65-a2fce1831117</testCaseGuid>
+   <testCaseGuid>e3cf8e61-f087-42d6-9ff2-3fe893199e1e</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
       <description></description>
-      <id>55ab46a0-2be8-4156-9936-0e94a7b188a3</id>
+      <id>e48a0cd4-b320-48c1-be0e-66c25d5035b6</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.msisdnClientGP</defaultValue>
       <description></description>
-      <id>60e890b8-9fc6-4d2e-ade8-12503397250b</id>
+      <id>417ce5f4-bbda-4b3d-9ef5-392d01f2c907</id>
       <masked>false</masked>
       <name>numeroARecharger</name>
-   </variable>
-   <variable>
-      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
-      <description></description>
-      <id>8ac17145-cc2c-40fe-8b06-d6de7e7991d2</id>
-      <masked>false</masked>
-      <name>codeNumeroInitiateur</name>
    </variable>
 </TestCaseEntity>
