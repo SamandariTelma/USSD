@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04 - Vérification avec succès</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e4b85ac-2782-4e70-9bb5-fd9c5a1104f6</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>abd23551-c997-40f3-a1eb-d59b817c6ef1</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>a22acdfb-26ff-48a0-a1a7-f738d8d1e0e5</id>
+      <masked>false</masked>
+      <name>numeroAVerifier</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <description></description>
+      <id>59f0802d-f8b9-429e-b39a-703348790152</id>
+      <masked>false</masked>
+      <name>pinInitateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.nonBranche</defaultValue>
+      <description></description>
+      <id>1ec6e91d-857a-4bd0-92e9-7038eb126bfe</id>
+      <masked>false</masked>
+      <name>nonBranche</name>
+   </variable>
+</TestCaseEntity>

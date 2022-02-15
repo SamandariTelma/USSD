@@ -39,14 +39,16 @@ int soldeEnvoyeurAvant = GlobalVariable.solde2tmv
 WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroARecharger], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-int soldeCreditAvantRecharge= GlobalVariable.soldeCredit 
-
+int soldeCreditAvantRecharge = GlobalVariable.soldeCredit
 
 'En tant que MSISDN Revendeur , je compose le *130*2*1#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '*1#', numeroInitiateur)
 
-'Je saisis 4 (Envoyer 5000 Ar) et je valide'
-CustomKeywords.'ussd.Send.response'('4')
+'Je saisis 1 (Autre Montant) et je valide'
+CustomKeywords.'ussd.Send.response'('1')
+
+'Je saisis le montant à envoyer'
+CustomKeywords.'ussd.Send.response'(montantRecharge)
 
 'Je saisis correctement le numero du Client qui est de type GP et je valide'
 CustomKeywords.'ussd.Send.response'(numeroARechargerTo034)
@@ -62,7 +64,7 @@ String menu = CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert  e
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Consulter le stock du Revendeur après la recharge du client'
+'Vérifier que le solde 2tmv du revendeur est déduit du montant de recharge'
 WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv'), [('numeroInitiateur') : numeroInitiateur
         , ('pinInitiateur') : codeNumeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -70,11 +72,12 @@ int soldeEnvoyeurApres = GlobalVariable.solde2tmv
 
 WS.verifyEqual(soldeEnvoyeurApres, soldeEnvoyeurAvant - montant)
 
-'Consulter le solde crédit du client avant la recharge 2tmv'
-WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroARecharger],
-	FailureHandling.CONTINUE_ON_FAILURE)
+'Vérifier que le solde crédit du client est augmenté du montant que le revendeur à envoyer'
 
-int soldeCreditApresRecharge= GlobalVariable.soldeCredit
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroARecharger], 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+int soldeCreditApresRecharge = GlobalVariable.soldeCredit
 
 WS.verifyEqual(soldeCreditApresRecharge, soldeCreditAvantRecharge + montant)
 

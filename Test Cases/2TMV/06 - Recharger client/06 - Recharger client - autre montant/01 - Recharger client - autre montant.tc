@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>02 - Recharger client - montant 2000 Ar</name>
+   <name>01 - Recharger client - autre montant</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8acbc8ce-49a3-4153-9153-cd1d959d99c5</testCaseGuid>
+   <testCaseGuid>29e3e37c-7fc6-4bb9-a458-2dc55584d765</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
       <description></description>
-      <id>146389ad-3711-4876-9d41-f21d7522f35f</id>
+      <id>4e49ccc4-cbf4-4f32-9213-451b611e2db7</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.msisdnClientGP</defaultValue>
       <description></description>
-      <id>850b6392-e968-4822-b0ac-d8fac5468750</id>
+      <id>d102ac8a-e012-4cbb-9483-59561ee5c519</id>
       <masked>false</masked>
       <name>numeroARecharger</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
       <description></description>
-      <id>bd0254f3-9d5d-4496-9f3a-61d17b238f5d</id>
+      <id>8fde0473-083d-4c54-944e-73b4d0989a45</id>
       <masked>false</masked>
       <name>codeNumeroInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>'2000'</defaultValue>
+      <defaultValue>'200'</defaultValue>
       <description></description>
-      <id>6f183d03-f9c6-4f49-8037-1b38e3c8c525</id>
+      <id>0a5c9d78-15ee-49a5-95b2-d44622270e5b</id>
       <masked>false</masked>
       <name>montantRecharge</name>
    </variable>

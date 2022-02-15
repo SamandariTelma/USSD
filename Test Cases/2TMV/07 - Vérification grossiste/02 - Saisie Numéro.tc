@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02 - Saisie Numéro</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3fb186f-14fb-40a8-952b-0bb7cac0fdbd</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>38d3fd07-1c5a-4d18-80ab-f4866bf4fec7</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <description></description>
+      <id>a8a3f5f5-8a34-4306-9166-15888e1fff13</id>
+      <masked>false</masked>
+      <name>pinInitateur</name>
+   </variable>
+</TestCaseEntity>

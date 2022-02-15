@@ -21,7 +21,20 @@ String numeroInitiateur ="${numeroInitiateur}"
 String numeroARecharger ="${numeroARecharger}"
 String codeNumeroInitiateur="${codeNumeroInitiateur}"
 
-numeroARecharger=CustomKeywords.'ussd.Util.to034'(numeroARecharger)
+numeroARechargerTo034=CustomKeywords.'ussd.Util.to034'(numeroARecharger)
+
+
+'Consulter le stock du Revendeur avant la recharge client'
+WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv'), [('numeroInitiateur') : numeroInitiateur
+		, ('pinInitiateur') : codeNumeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
+
+int soldeEnvoyeurAvant = GlobalVariable.solde2tmv
+
+'Consulter le solde crédit du client avant la recharge 2tmv'
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroARecharger],
+	FailureHandling.CONTINUE_ON_FAILURE)
+
+int soldeCreditAvantRecharge = GlobalVariable.soldeCredit
 
 'En tant que MSISDN Revendeur , je compose le *130*2*1#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', numeroInitiateur)
@@ -33,7 +46,7 @@ CustomKeywords.'ussd.Send.response'('1')
 CustomKeywords.'ussd.Send.response'('200000')
 
 'Je saisis correctement le numero du Client qui est GP et je valide'
-CustomKeywords.'ussd.Send.response'(numeroARecharger)
+CustomKeywords.'ussd.Send.response'(numeroARechargerTo034)
 
 'Je saisis le bon code PIN'
 CustomKeywords.'ussd.Send.response'(codeNumeroInitiateur)
@@ -46,3 +59,20 @@ String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n a pas abouti\\.
 	'Tsy tafita ny fangatahanao\\. Naharay SMS manazava ny antony ianao\\. Raha ilaina, antsoy ny Service Clientele amin ny 807\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
+
+'Vérifier que le solde 2tmv du revendeur n\'est pas déduit du montant de recharge'
+WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv'), [('numeroInitiateur') : numeroInitiateur
+		, ('pinInitiateur') : codeNumeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
+
+int soldeEnvoyeurApres = GlobalVariable.solde2tmv
+
+WS.verifyEqual(soldeEnvoyeurApres, soldeEnvoyeurAvant)
+
+'Vérifier que le solde crédit du client est pas augmenté du montant que le revendeur à envoyer'
+
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroARecharger],
+	FailureHandling.CONTINUE_ON_FAILURE)
+
+int soldeCreditApresRecharge = GlobalVariable.soldeCredit
+
+WS.verifyEqual(soldeCreditApresRecharge, soldeCreditAvantRecharge)

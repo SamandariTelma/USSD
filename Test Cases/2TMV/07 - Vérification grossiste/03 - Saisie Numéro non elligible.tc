@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03 - Saisie Numéro non elligible</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18eb74e3-acc6-4992-8ce3-b32a9f2de95b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>6f5f1f4b-3779-45d0-b4de-aef32c6645fe</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnClientGP</defaultValue>
+      <description></description>
+      <id>fb0addae-fcc1-41eb-97cf-5f3656752a41</id>
+      <masked>false</masked>
+      <name>numeroAVerifier</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <description></description>
+      <id>7c24f148-0ed8-457b-8434-998206f6a852</id>
+      <masked>false</masked>
+      <name>pinInitateur</name>
+   </variable>
+</TestCaseEntity>

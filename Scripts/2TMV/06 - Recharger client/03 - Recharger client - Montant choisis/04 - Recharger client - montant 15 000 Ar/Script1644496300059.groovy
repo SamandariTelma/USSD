@@ -17,28 +17,64 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String numeroInitiateur ="${numeroInitiateur}"
-String numeroARecharger ="${numeroARecharger}"
-String codeNumeroInitiateur="${codeNumeroInitiateur}"
+String numeroInitiateur = "$numeroInitiateur"
 
-numeroARecharger=CustomKeywords.'ussd.Util.to034'(numeroARecharger)
+String numeroARecharger = "$numeroARecharger"
+
+String codeNumeroInitiateur = "$codeNumeroInitiateur"
+
+String montantRecharge = "$montantRecharge"
+
+int montant = montantRecharge.toInteger()
+
+numeroARechargerTo034 = CustomKeywords.'ussd.Util.to034'(numeroARecharger)
+
+'Consulter le stock du Revendeur avant la recharge client'
+WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv'), [('numeroInitiateur') : numeroInitiateur
+        , ('pinInitiateur') : codeNumeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
+
+int soldeEnvoyeurAvant = GlobalVariable.solde2tmv
+
+'Consulter le solde crédit du client avant la recharge 2tmv'
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroARecharger], 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+int soldeCreditAvantRecharge= GlobalVariable.soldeCredit 
+
 
 'En tant que MSISDN Revendeur , je compose le *130*2*1#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '*1#', numeroInitiateur)
 
 'Je saisis 5 (Envoyer 15 000 Ar) et je valide'
 CustomKeywords.'ussd.Send.response'('5')
 
 'Je saisis correctement le numero du Client qui est de type GP et je valide'
-CustomKeywords.'ussd.Send.response'(numeroARecharger)
+CustomKeywords.'ussd.Send.response'(numeroARechargerTo034)
 
 'Je saisis le bon code PIN'
 CustomKeywords.'ussd.Send.response'(codeNumeroInitiateur)
 
 'Je confirme l\'envoi en saisissant 1 (Oui)'
-String actualMenu=CustomKeywords.'ussd.Send.response'('1')
+String actualMenu = CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert  est en cours de traitement\\.', 'Tontosa ny "fividiana fahana ho n\'ny laharako"\\.')
+String menu = CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert  est en cours de traitement\\.', 'Tontosa ny "fividiana fahana ho n\'ny laharako"\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
+
+'Consulter le stock du Revendeur après la recharge du client'
+WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv'), [('numeroInitiateur') : numeroInitiateur
+        , ('pinInitiateur') : codeNumeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
+
+int soldeEnvoyeurApres = GlobalVariable.solde2tmv
+
+WS.verifyEqual(soldeEnvoyeurApres, soldeEnvoyeurAvant - montant)
+
+'Consulter le solde crédit du client avant la recharge 2tmv'
+WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroARecharger],
+	FailureHandling.CONTINUE_ON_FAILURE)
+
+int soldeCreditApresRecharge= GlobalVariable.soldeCredit
+
+WS.verifyEqual(soldeCreditApresRecharge, soldeCreditAvantRecharge + montant)
+

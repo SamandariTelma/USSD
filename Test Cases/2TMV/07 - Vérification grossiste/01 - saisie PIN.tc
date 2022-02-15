@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01 - saisie PIN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0211da7a-e190-4aa3-a564-f6f9584ba140</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
+      <description></description>
+      <id>2158f3c9-0dac-4ea1-9569-3b526d34c958</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

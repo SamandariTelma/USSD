@@ -26,4 +26,11 @@
       <masked>false</masked>
       <name>codeNumeroInitiateur</name>
    </variable>
+   <variable>
+      <defaultValue>'100000'</defaultValue>
+      <description></description>
+      <id>30bc56d4-8bfc-45d2-83aa-b3de6005777f</id>
+      <masked>false</masked>
+      <name>montantRecharge</name>
+   </variable>
 </TestCaseEntity>
