@@ -54,8 +54,8 @@ CustomKeywords.'ussd.Send.response'(codeNumeroInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Desole, vous n\'etes pas autorise a acceder a ce service\\.', 
-	'Tsy afaka mampiasa io tolotra io ianao\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n\'a pas abouti\\. Vous n\'avez pas acces a cette fonction\\. Si besoin, contactez le Service Clientele au 801\\. Ref: \\d{1,10}', 
+	'Tsy tontosa ny fangatahanao\\. Tsy afaka manatontosa ity fifanakalozana ity ianao. Raha mila fanazavana fanampiny, antsoy ny 801\\. Ref: \\d{1,10}')
 
 WS.verifyMatch(actualMenu, menu, true)
 

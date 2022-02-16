@@ -36,7 +36,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', numeroInitiateur
 CustomKeywords.'ussd.Send.response'('1')
 
 'Je saisis le montant souhaité'
-CustomKeywords.'ussd.Send.response'('20000')
+CustomKeywords.'ussd.Send.response'('2000')
 
 'Je saisis correctement le numero qui n\'est pas un client GP et je valide'
 CustomKeywords.'ussd.Send.response'(numeroARechargerTo034)

@@ -26,4 +26,11 @@
       <masked>false</masked>
       <name>codeNumeroInitiateur</name>
    </variable>
+   <variable>
+      <defaultValue>'5000'</defaultValue>
+      <description></description>
+      <id>3f333cf7-821e-47b2-96a9-a5e3b4614cbb</id>
+      <masked>false</masked>
+      <name>montantAEnvoyer</name>
+   </variable>
 </TestCaseEntity>

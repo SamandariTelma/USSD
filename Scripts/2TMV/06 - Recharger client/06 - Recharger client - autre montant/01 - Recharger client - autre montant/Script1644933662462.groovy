@@ -60,7 +60,7 @@ CustomKeywords.'ussd.Send.response'(codeNumeroInitiateur)
 String actualMenu = CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert  est en cours de traitement\\.', 'Tontosa ny "fividiana fahana ho n\'ny laharako"\\.')
+String menu = CustomKeywords.'ussd.Expected.menu'('Votre demande d\'achat est en cours de traitement\\.', 'Tontosa ny fividiana fahana ho an\'ny laharako\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -70,7 +70,7 @@ WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv
 
 int soldeEnvoyeurApres = GlobalVariable.solde2tmv
 
-WS.verifyEqual(soldeEnvoyeurApres, soldeEnvoyeurAvant - montant)
+WS.verifyEqual(soldeEnvoyeurApres, soldeEnvoyeurAvant - montant + 20) //plus bonus
 
 'Vérifier que le solde crédit du client est augmenté du montant que le revendeur à envoyer'
 

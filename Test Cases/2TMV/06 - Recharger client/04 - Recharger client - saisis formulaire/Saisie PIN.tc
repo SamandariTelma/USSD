@@ -19,4 +19,11 @@
       <masked>false</masked>
       <name>numeroARecharger</name>
    </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <description></description>
+      <id>e7c5c415-1883-4765-81dd-807de419fd89</id>
+      <masked>false</masked>
+      <name>codeNumeroInitiateur</name>
+   </variable>
 </TestCaseEntity>

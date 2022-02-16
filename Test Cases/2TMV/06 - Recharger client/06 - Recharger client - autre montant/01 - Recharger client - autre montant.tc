@@ -27,7 +27,7 @@
       <name>codeNumeroInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>'200'</defaultValue>
+      <defaultValue>'4000'</defaultValue>
       <description></description>
       <id>0a5c9d78-15ee-49a5-95b2-d44622270e5b</id>
       <masked>false</masked>
