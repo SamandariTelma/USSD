@@ -27,7 +27,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*8#', numeroInitiateur
 String actualMenu=CustomKeywords.'ussd.Send.response'(pinInitateur)
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Entrer le numéro du PDV')
+String menu=CustomKeywords.'ussd.Expected.menu'('Entrer le numero du PDV:')
 
 WS.verifyMatch(actualMenu, menu, true)
 
