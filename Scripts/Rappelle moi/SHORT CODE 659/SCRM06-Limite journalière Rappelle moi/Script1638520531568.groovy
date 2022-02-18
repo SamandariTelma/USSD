@@ -21,7 +21,7 @@ String numeroInitiateur = "$numeroInitiateur"
 
 String numeroRecepteur = "$numeroRecepteur"
 
-numeroRecepteur = CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+numeroRecepteurTo034 = CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 'Je fais un rappelle moi 5 fois succéssive'
 WebUI.callTestCase(findTestCase('Rappelle moi/SHORT CODE 659/SCRM02-Rappelle moi avec succès'), [('numeroInitiateur') : numeroInitiateur
@@ -38,7 +38,7 @@ WebUI.callTestCase(findTestCase('Rappelle moi/SHORT CODE 659/SCRM02-Rappelle moi
 
 'Je fais un rappelle moi 6ème tentative'
 
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+numeroRecepteur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+numeroRecepteurTo034+'#', numeroInitiateur)
 
 String menu = CustomKeywords.'ussd.Expected.menu'('Desole, vous avez utilise toutes vos demandes pour aujourd\'hui\\. Vous pourrez envoyer 5 demandes demain\\.', 
     'Tapitra ny fahafahanao mampiasa io servisy io androany\\.Rahampitso  indray  mandefa hafatra 5\\.')

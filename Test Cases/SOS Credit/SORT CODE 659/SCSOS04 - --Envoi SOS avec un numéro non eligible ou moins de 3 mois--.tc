@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SCSOS04 - Envoi SOS avec un numéro non eligible ou moins de 3 mois</name>
+   <name>SCSOS04 - --Envoi SOS avec un numéro non eligible ou moins de 3 mois--</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>65b503c9-b6a5-483e-8c1e-a1bb552bf210</testCaseGuid>

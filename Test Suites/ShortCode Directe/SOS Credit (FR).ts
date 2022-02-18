@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>SOS Credit (FR)</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>f609db70-ab77-4ed5-9457-79f5c1909403</testSuiteGuid>
+   <testCaseLink>
+      <guid>d8646112-be5f-420b-9508-6ce335f39fbf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SOS Credit/SORT CODE 659/SCSOS02 - Saisie montant</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>046cbaea-ba2a-4558-a2f9-a127079c622c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7b1c3bbb-3a41-49fc-aaf8-9c4bb95ed6f5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9670a6bc-c158-4f9a-baa5-18df5b7c0bf7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SOS Credit/SORT CODE 659/SCSOS03 - Saisie numéro</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>81280458-de2d-4d92-a0ff-075ea9fef3fd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d306ffc2-7284-4644-8570-52d92d6bf5d2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SOS Credit/SORT CODE 659/SCSOS05 - Envoi SOS à moi même</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>79545757-02b9-42bb-8aa7-28a8bdfd125d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9d0b937c-c920-4a92-b903-507598e1e48c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SOS Credit/SORT CODE 659/SCSOS01 - Demande SOS Crédit à un ami</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7c366867-3824-4e02-ae9f-0f01eede7d6b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d23174bd-87a9-4656-ab22-36da53f44894</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>276a31b4-abad-4212-be9b-cd3bb5801554</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

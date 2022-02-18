@@ -47,7 +47,7 @@ numeroInitiateur=CustomKeywords.'ussd.Util.to034'(numeroInitiateur)
 actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+montantAEnvoyer+'*'+numeroInitiateur+'*'+pinNumeroInitiateur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-menu= CustomKeywords.'ussd.Expected.menu'('Vous ne pouvez pas transferer de credt a votre numero\\. Merci de saisir un autre numero TELMA Mobile\\.', 
+menu= CustomKeywords.'ussd.Expected.menu'('Vous ne pouvez pas transferer de credit a votre numero\\. Merci de saisir un autre numero TELMA Mobile\\.', 
 	'Tsy afaka mamindra fahana mankany amin ny nomeraonao ianao\\. Mampidira nomerao TELMA Mobila hafa\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

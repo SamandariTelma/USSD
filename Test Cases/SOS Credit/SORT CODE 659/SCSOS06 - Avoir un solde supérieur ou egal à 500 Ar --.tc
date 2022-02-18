@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SCSOS06 - Avoir un solde supérieur ou egal à 500 Ar</name>
+   <name>SCSOS06 - Avoir un solde supérieur ou egal à 500 Ar --</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a7d13aa3-0c7b-45e9-a395-e64e9cb1a67e</testCaseGuid>

@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>msisdn n'ayant pas de solde crédit</description>
-      <initValue>'261343500078'</initValue>
+      <initValue>'261346849627'</initValue>
       <name>msisdnInitiateur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

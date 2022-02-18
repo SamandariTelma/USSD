@@ -38,8 +38,4 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*12345*1000#', numeroInitiateur)
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Echec de la transaction\\. Merci de contacter le Service Clientele au 800\\.', 
-	'Fangatahana tsy tontosa\\. Antsoy ny Service Clientele amin\'ny 800\\.')
-
 WS.verifyMatch(actualMenu, menu, true)
-

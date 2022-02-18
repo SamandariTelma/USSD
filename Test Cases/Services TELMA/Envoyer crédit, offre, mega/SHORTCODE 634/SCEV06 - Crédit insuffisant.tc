@@ -27,7 +27,7 @@
       <name>pinNumeroInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>'500'</defaultValue>
+      <defaultValue>'3000'</defaultValue>
       <description></description>
       <id>79dae2a8-6fb7-455d-a129-3f007ed4b924</id>
       <masked>false</masked>

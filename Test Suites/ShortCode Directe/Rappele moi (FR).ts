@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Rappele moi (FR)</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>4c2a9e1a-17a8-4eb4-bf8e-c1423180c96d</testSuiteGuid>
+   <testCaseLink>
+      <guid>5b3c0a65-7d6e-4b94-a26d-5a2ee643890a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rappelle moi/SHORT CODE 659/SCRM01-Consulter Aide</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>16eb6833-b690-4cad-b14d-39e172ea4e44</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>080b68b9-9da1-4dab-8d61-c472b383d20b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rappelle moi/SHORT CODE 659/SCRM04-Envoyer rappelle moi à moi même</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>44fb1841-1d7e-484e-94d8-030d19de4ee1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c43d1d86-47c2-4def-97d4-03cd407450cb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rappelle moi/SHORT CODE 659/SCRM05-Envoyer rappelle moi à un numéro d autre operateur</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2e390812-ac78-4702-8a3c-bb7ed20b0d86</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>711ec19b-e905-44d6-895d-364f3bb0ee32</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rappelle moi/SHORT CODE 659/SCRM03-Envoyer rappelle moi à un numéro postpaid</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9b8734f5-88d3-476a-ae67-2db2a8e791c5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f1528b18-3ed5-4f94-ab5f-c3598fed4339</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4c5e60a7-b4aa-4c90-a65a-da164e274f2f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rappelle moi/SHORT CODE 659/SCRM02-Rappelle moi avec succès</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>170219ae-a893-4890-96a2-697f25dac613</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>02bd7bb5-1782-4cf3-a8be-33c017749488</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6adc327e-c05a-4d92-9c4c-de68ff090369</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rappelle moi/SHORT CODE 659/SCRM06-Limite journalière Rappelle moi</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dcc2c3b4-ca57-4b57-8732-3fb1ac2f0c68</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>798c1020-a18f-4d48-b056-cca97eef844c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

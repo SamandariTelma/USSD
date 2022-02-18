@@ -23,7 +23,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Bienvenue\\. Pour le Rappelle-moi composez #555\\*Numero TELMA MOBILE#\\. Pour SOS credit composez #555\\*1\\*Numero TELMA Mobile\\*somme à demander# ',
-	'Rappelle Moi, tsindrio ny #555\\*Numerao TELMA# ho an\'ny SOS Fahana, Tsindrio #555\\*1\\*Numerao TELMA\\*sanda ny Fahana#')
+String menu=CustomKeywords.'ussd.Expected.menu'('Bienvenue\\. Pour le Rappelle-moi composez #555\\*Numero TELMA MOBILE#\\. Pour SOS credit composez #555\\*1\\*Numero TELMA Mobile\\*somme a demander# ',
+	'Rappelle-moi, tsindrio ny #555\\*Numerao TELMA#\\. Ho an\'ny SOS Fahana, tsindrio #555\\*1\\*Numerao TELMA\\*sandan ny Fahana#')
 
 WS.verifyMatch(actualMenu, menu, true)

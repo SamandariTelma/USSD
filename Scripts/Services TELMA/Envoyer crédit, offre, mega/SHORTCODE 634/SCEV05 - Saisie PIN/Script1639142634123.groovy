@@ -25,10 +25,13 @@ String montantAEnvoyer = "$montantAEnvoyer"
 
 String pinNumeroInitiateur = "$pinNumeroInitiateur"
 
+String numeroRecepteurTo034 = CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+
 String frais = "$frais"
 
+
 'J\'envoie du crédit à un numéro invalide'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+montantAEnvoyer+'*'+numeroInitiateur+'*1939#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+montantAEnvoyer+'*'+numeroRecepteurTo034+'*1939#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu= CustomKeywords.'ussd.Expected.menu'('Votre code secret est incorrect\\. Ref : \\d{1,10}',
@@ -37,10 +40,10 @@ String menu= CustomKeywords.'ussd.Expected.menu'('Votre code secret est incorrec
 WS.verifyMatch(actualMenu, menu, true)
 
 'J\'envoie du crédit à un numéro en laissant vide le PIN'
-actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+montantAEnvoyer+'*261346848017*#', numeroInitiateur)
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+montantAEnvoyer+'*'+numeroRecepteurTo034+'*#', numeroInitiateur)
 
 'Vérifier la confromité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Pour transferer du credit composez #311\\*montant\\*numero TELMA MOBILE\\*code secret#',
+menu=CustomKeywords.'ussd.Expected.menu'('Pour transferer du credit composez #311\\*montant\\*numero TELMA MOBILE\\*code secret#',
 	'Raha handefa fahana dia tsindrio ny #311\\*Sandan\'ny fahana\\*laharana TELMA\\*Kaody miafina#')
 
 WS.verifyMatch(actualMenu, menu, true)
