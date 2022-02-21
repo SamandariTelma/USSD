@@ -1,0 +1,153 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=10196, tid=0x00000000000013e4
+#
+# JRE version:  (8.0_181-b13) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.181-b13 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000025c4000):  JavaThread "Unknown thread" [_thread_in_vm, id=5092, stack(0x0000000002400000,0x0000000002500000)]
+
+Stack: [0x0000000002400000,0x0000000002500000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000025c4000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=5092, stack(0x0000000002400000,0x0000000002500000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 37888K, used 655K [0x00000000d5580000, 0x00000000d7f80000, 0x0000000100000000)
+  eden space 32768K, 2% used [0x00000000d5580000,0x00000000d5623d80,0x00000000d7580000)
+  from space 5120K, 0% used [0x00000000d7a80000,0x00000000d7a80000,0x00000000d7f80000)
+  to   space 5120K, 0% used [0x00000000d7580000,0x00000000d7580000,0x00000000d7a80000)
+ ParOldGen       total 86016K, used 0K [0x0000000080000000, 0x0000000085400000, 0x00000000d5580000)
+  object space 86016K, 0% used [0x0000000080000000,0x0000000080000000,0x0000000085400000)
+ Metaspace       used 779K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 76K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x0000000011a70000,0x0000000011e80000] byte_map_base: 0x0000000011670000
+
+Marking Bits: (ParMarkBitMap*) 0x0000000060182d00
+ Begin Bits: [0x0000000012730000, 0x0000000014730000)
+ End Bits:   [0x0000000014730000, 0x0000000016730000)
+
+Polling page: 0x0000000000ac0000
+
+CodeCache: size=245760Kb used=328Kb max_used=328Kb free=245431Kb
+ bounds [0x00000000026b0000, 0x0000000002920000, 0x00000000116b0000]
+ total_blobs=58 nmethods=0 adapters=38
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.021 loading class java/lang/Short
+Event: 0.021 loading class java/lang/Short done
+Event: 0.021 loading class java/lang/Integer
+Event: 0.021 loading class java/lang/Integer done
+Event: 0.021 loading class java/lang/Long
+Event: 0.021 loading class java/lang/Long done
+Event: 0.022 loading class java/lang/NullPointerException
+Event: 0.022 loading class java/lang/NullPointerException done
+Event: 0.022 loading class java/lang/ArithmeticException
+Event: 0.022 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x00007ff74ffa0000 - 0x00007ff74ffd7000 	D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\jre\bin\javaw.exe
+0x00007ff92d070000 - 0x00007ff92d265000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ff92cd40000 - 0x00007ff92cdfe000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ff92a8b0000 - 0x00007ff92ab78000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ff92b180000 - 0x00007ff92b22e000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ff92b2f0000 - 0x00007ff92b38e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ff92cca0000 - 0x00007ff92cd3c000 	C:\WINDOWS\System32\sechost.dll
+0x00007ff92cf00000 - 0x00007ff92d025000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ff92c940000 - 0x00007ff92cae0000 	C:\WINDOWS\System32\USER32.dll
+0x00007ff92a880000 - 0x00007ff92a8a2000 	C:\WINDOWS\System32\win32u.dll
+0x00007ff92cae0000 - 0x00007ff92cb0b000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ff92af00000 - 0x00007ff92b00d000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ff92ab80000 - 0x00007ff92ac1d000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ff92a780000 - 0x00007ff92a880000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ff91c5d0000 - 0x00007ff91c86a000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\COMCTL32.dll
+0x00007ff92ced0000 - 0x00007ff92cf00000 	C:\WINDOWS\System32\IMM32.DLL
+0x000000005f440000 - 0x000000005f512000 	D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\jre\bin\msvcr100.dll
+0x000000005f960000 - 0x0000000060202000 	D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\jre\bin\server\jvm.dll
+0x00007ff92b170000 - 0x00007ff92b178000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ff91b890000 - 0x00007ff91b8b7000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ff912fc0000 - 0x00007ff912fc9000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ff9206e0000 - 0x00007ff9206ea000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ff92ce60000 - 0x00007ff92cecb000 	C:\WINDOWS\System32\WS2_32.dll
+0x000000005f870000 - 0x000000005f87f000 	D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\jre\bin\verify.dll
+0x000000005f840000 - 0x000000005f869000 	D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\jre\bin\java.dll
+0x000000005f820000 - 0x000000005f836000 	D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dgroovy.home=D:\Utilisateurs\samandari/.groovy -Djava.system.class.loader=groovy.lang.GroovyClassLoader -Xmx2048m -Dfile.encoding=UTF-8 
+java_command: org.codehaus.groovy.tools.GroovyStarter --classpath D:\Utilisateurs\samandari\QA\PROJET AUTOMATISATION\USSD\USSD TELMA\bin\keyword;D:\Utilisateurs\samandari\QA\PROJET AUTOMATISATION\USSD\USSD TELMA\Keywords;D:\Utilisateurs\samandari\QA\PROJET AUTOMATISATION\USSD\USSD TELMA\bin\listener;D:\Utilisateurs\samandari\QA\PROJET AUTOMATISATION\USSD\USSD TELMA\Test Listeners;D:\Utilisateurs\samandari\QA\PROJET AUTOMATISATION\USSD\USSD TELMA\bin\lib;D:\Utilisateurs\samandari\QA\PROJET AUTOMATISATION\USSD\USSD TELMA\Libs;D:\Utilisateurs\samandari\QA\PROJET AUTOMATISATION\USSD\USSD TELMA\bin\groovy;D:\Utilisateurs\samandari\QA\PROJET AUTOMATISATION\USSD\USSD TELMA\Include\scripts\groovy;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\plugins\com.kms.katalon.core_1.0.0.202106150524.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\aalto-xml-1.0.0.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\aspectjweaver-1.9.1.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\bcpkix-jdk15on-1.64.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\bcprov-jdk15on-1.64.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\browsermob-core-2.1.5.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\cglib-3.2.10.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\commons-codec-1.10.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\commons-collections4-4.1.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\commons-validator-1.6.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\curvesa
+java_class_path (initial): D:\Utilisateurs\samandari\QA\PROJET AUTOMATISATION\USSD\USSD TELMA\bin\keyword;D:\Utilisateurs\samandari\QA\PROJET AUTOMATISATION\USSD\USSD TELMA\bin\listener;D:\Utilisateurs\samandari\QA\PROJET AUTOMATISATION\USSD\USSD TELMA\bin\lib;D:\Utilisateurs\samandari\QA\PROJET AUTOMATISATION\USSD\USSD TELMA\bin\groovy;D:\Utilisateurs\samandari\QA\PROJET AUTOMATISATION\USSD\USSD TELMA\bin;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\plugins\com.kms.katalon.core_1.0.0.202106150524.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\aalto-xml-1.0.0.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\aspectjweaver-1.9.1.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\bcpkix-jdk15on-1.64.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\bcprov-jdk15on-1.64.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\browsermob-core-2.1.5.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\cglib-3.2.10.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\commons-codec-1.10.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\commons-collections4-4.1.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\commons-validator-1.6.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\curvesapi-1.04.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\dnsjava-2.1.8.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1\configuration\resources\lib\java-client-7.0.0.jar;D:\Utilisateurs\samandari\QA\Outils\Katalon_
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_281
+PATH=D:/Utilisateurs/samandari/QA/Outils/Katalon_Studio_Windows_64-7.7.1/jre/bin/server;D:/Utilisateurs/samandari/QA/Outils/Katalon_Studio_Windows_64-7.7.1/jre/bin;D:/Utilisateurs/samandari/QA/Outils/Katalon_Studio_Windows_64-7.7.1/jre/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\nodejs\;D:\Utilisateurs\samandari\AppData\Local\Microsoft\WindowsApps;D:\Utilisateurs\samandari\AppData\Roaming\npm;;D:\Utilisateurs\samandari\QA\Outils\Katalon_Studio_Windows_64-7.7.1;
+USERNAME=samandari
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 19041 (10.0.19041.1503)
+
+CPU:total 6 (initial active 6) (6 cores per cpu, 1 threads per core) family 6 model 158 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, rtm, 3dnowpref, lzcnt, tsc, tscinvbit, bmi1, bmi2, adx
+
+Memory: 4k page, physical 8236320k(683416k free), swap 20649280k(5336k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.181-b13) for windows-amd64 JRE (1.8.0_181-b13), built on Jul  7 2018 04:01:33 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Mon Feb 21 15:03:02 2022
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

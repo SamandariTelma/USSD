@@ -17,8 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur = "$numeroInitiateur"
 
-'En tant que GP, je shortCode  *644*1*MSISDN# pour ajouter le numero d\'autre operateur *644*1*032xxx#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect + '*1*0325785400#', numeroInitiateur)
+'En tant que GP, je shortCode  *644*1*MSISDN# pour ajouter un numéro au mauvais format *644*1*034xxx#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect + '*1*034#', numeroInitiateur)
 
 'Vérifier la conformité du messsage'
 String menu=CustomKeywords.'ussd.Expected.menu'('Ce numero ne peut etre ajouter a votre liste Friends & Familly', 'Tsy afaka ampidirina ao anaty lisitra FAF io laharana io')

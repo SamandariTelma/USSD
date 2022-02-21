@@ -23,7 +23,7 @@ String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect
 
 'Vérifier la conformité du messsage'
 String menu=CustomKeywords.'ussd.Expected.menu'('Impossible de vous ajouter vous meme dans votre propre liste Friends & Familly', 
-	'Tsy afaka ampidirina ao anaty lisitra FAF io laharana io')
+	'Tsy azonao ampidirina anaty lisitra Friends & Family ny nomeraonao')
 
 WS.verifyMatch(actualMenu, menu, true)
 

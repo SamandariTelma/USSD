@@ -17,13 +17,16 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur = "$numeroInitiateur"
 
-String numeroExistant = "$numeroAAjouter"
+String numeroExistant = "$numeroExistant"
 
 'En tant que GP, je shortCode  *644*1*MSISDN# pour ajouter le numero *644*1*034xxx#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect + '*1*'+numeroExistant+'#', numeroInitiateur)
 
-'Vérifier la conformité du messsage'
+'Vérifier la conformité du messsage'/*
 String menu=CustomKeywords.'ussd.Expected.menu'('Le nombre maximum de numero FAF autre que TELMA est deja atteint\\.',
-	'Feno ny isan\'ny FAF tsy TELMA anananao\\.')
+	'Feno ny isan\'ny FAF tsy TELMA anananao\\.')*/
+
+String menu=CustomKeywords.'ussd.Expected.menu'('Le '+numeroExistant+' fait deja partie de vos numeros Friends and Family\\.',
+	'Efa ao anaty lisitra Friends and Family ny '+numeroExistant+'\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
