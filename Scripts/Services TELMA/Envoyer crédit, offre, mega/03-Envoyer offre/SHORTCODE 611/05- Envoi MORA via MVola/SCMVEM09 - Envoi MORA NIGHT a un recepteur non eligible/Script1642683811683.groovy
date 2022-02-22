@@ -22,10 +22,9 @@ String numeroRecepteur="${numeroRecepteur}"
 numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 'En tant que GP, j\'effectue un achat offre MORA night à un client qui à déjà atteint son quota pour cet offre: *611*25*1*numeroBeneficiaire#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*25*1*'+numeroRecepteur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*25*1*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Le récepteur a déjà depassé le nombre d achat journalier de l offre MORA NIGHT',
-	'Mihoatra ny fividianana tolotra MORA NIGHT ho an\'io laharanao io androany')
+String menu = CustomKeywords.'ussd.Expected.menu'('Votre demande n\'a pas abouti\\. Merci d\'essayer a nouveau ulterieurement\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

@@ -24,10 +24,10 @@ numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 
 'En tant que GP, j\'effectue un envoi offre Yelow facebobaka via MVola:  *611*65*1*numero#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*65*1*'+numeroRecepteur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*65*1*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Pour accepter d\'acheter l\'offre YELOW FACEBOBAKA a'+montant+' Ar pour le numero '+numeroRecepteur+' depuis votre compte MVola, Entrer code secret:',
-	'Raha manaiky ny handefa tolotra YELOW FACEBOBAKA amin\'ny sarany '+montant+' Ar ho an\'ny laharana '+numeroRecepteur+' , avy amin ny kaonty MVola ianao dia, Ampidiro ny kaody miafina:')
+String menu = CustomKeywords.'ussd.Expected.menu'('Pour accepter d acheter YELOW FACEBOOBAKA a '+montant+' Ar pour 250 Mo d Instagram et Facebook pour le '+numeroRecepteur+' depuis votre compte MVola, entrer le code secret :',
+	'Raha manaiky hividy ny YELOW FACEBOOBAKA misy 250 Mo Facebook sy Instagram @vidiny '+montant+'Ar ho an ny '+numeroRecepteur+' avy @ kaonty Mvola nao ianao,ampidiro ny kaody miafinao:')
 
 WS.verifyMatch(actualMenu, menu, true)

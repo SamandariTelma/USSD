@@ -27,7 +27,7 @@ numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*91*1#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Pour confirmer le paiement de l\'offre FIRST PREMIUM via Mvola d\'un montant de '+montant+' Ar, Entrer code secret :',
-	'Raha manaiky ny hividy ny tolotra FIRST PREMIUM amin\'ny sarany '+montant+' Ar, avy amin ny kaonty Mvola ianao dia, Ampidiro ny kaody miafina :')
+String menu = CustomKeywords.'ussd.Expected.menu'('Pour confirmer le paiement de l\'offre FIRST PREMIUM via MVola d\'un montant de '+montant+' Ar, Entrer code secret :',
+	'Raha manaiky ny hividy ny tolotra FIRST PREMIUM amin\'ny sarany '+montant+' Ar, avy amin ny kaonty MVola ianao dia, Ampidiro ny kaody miafina :')
 
 WS.verifyMatch(actualMenu, menu, true)

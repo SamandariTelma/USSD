@@ -22,10 +22,9 @@ String numeroRecepteur="${numeroRecepteur}"
 numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 'En tant que client postayé, j\'effectue un achat offre FIRST ROYAL à un client prepaid: *611*95*2*numeroBeneficiaire#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*25*2*'+numeroRecepteur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*25*2*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Vous ne pouvez pas acceder a cette offre\\. Pour plus d\'informations, veuillez contacter le service client Telma au 800 (Cout : 200 Ar/ Appel)',
-	'Tsy afaka misafidy io tolotra io ianao\\. Raha mila fanazavana fanampiny, antsoy ny service client Telma 800 (Sandany : 200 Ar/ Antso)')
+String menu = CustomKeywords.'ussd.Expected.menu'('Vous n avez pas acces a ce service!')
 
 WS.verifyMatch(actualMenu, menu, true)

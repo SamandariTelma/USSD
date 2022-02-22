@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Achat offre pour soi via MVola (FR)</name>
+   <name>Envoi YELOW via MVola (FR)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,173 +10,161 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>b2fae44e-f9f9-4080-b866-0132a6a497a1</testSuiteGuid>
+   <testSuiteGuid>3ef47c11-431c-4058-abf2-947c9d320710</testSuiteGuid>
    <testCaseLink>
-      <guid>a463fb60-d58e-442e-8926-cb3edbae8069</guid>
+      <guid>b14eed61-ea81-4a5e-96de-876accdcd4b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Achat offe via MVola (611)/SCMVM01 - Confirmation achat MORA 500 via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/07- Envoi YELOW via MVola/SCMVEY07 - Envoi YELOW Faceboobaka via MVola - Saisie numéro</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>52c539c5-31af-4732-88e8-af0f9759b342</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3820924a-2c9f-47b0-ad97-9fd8d6664975</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5fb0868f-0a65-4d9b-9f48-5f40ebd16065</variableId>
+         <variableId>52d1f107-7b6f-4d0e-88c6-cd4baf970b8b</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>722ede4d-735a-4318-8385-c787615064ee</guid>
+      <guid>0d620636-5887-4506-a736-ac8860eb4b17</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Achat offe via MVola (611)/SCMVM02 - Confirmation achat MORA ONE via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/07- Envoi YELOW via MVola/SCMVEY01 - Confirmation envoi YELOW 100 via MVola</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>21f2dccd-9c01-4e28-9732-fdccf2622cfe</variableId>
+         <variableId>3ef7f046-bb06-41f2-b9c7-ff70016caf95</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>a565bd0b-bcfd-489f-8e7c-bb82e6ab8dd0</variableId>
+         <variableId>aaf10279-8055-4e30-a4a6-59c0252b0117</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>744b5a08-bd24-49ba-8518-612c1497e698</variableId>
+         <variableId>50024769-30e4-4350-9f1a-f052abd8dc79</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7999b2d2-3d24-45a1-8c27-d3ff66232f04</guid>
+      <guid>eec69e85-a770-4244-a939-ec32421221e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Achat offe via MVola (611)/SCMVM03 - Confirmation achat MORA 2000 via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/07- Envoi YELOW via MVola/SCMVEY02 - Confirmation envoi YELOW SMS via MVola</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e2b961e2-1f42-43ce-83cd-aa5c47678e22</variableId>
+         <variableId>dde904b9-990e-4bbf-a281-7bee74cdc879</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f8a4edcd-7662-492e-a41d-079b2461a209</variableId>
+         <variableId>694c81ca-d581-486e-829d-e47af0263b04</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>fd5f4bc9-4878-4c85-b1f4-80778d76b0f7</variableId>
+         <variableId>c9cadb10-d148-4fe6-9b9a-65ae6502bdcb</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>25dfd99e-c17b-4e8a-b7e2-588f2406eba6</guid>
+      <guid>79f9d5de-a1fd-41bf-9ea9-5f3245881122</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Achat offe via MVola (611)/SCMVM04 - Confirmation achat MORA 5000 via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/07- Envoi YELOW via MVola/SCMVEY03 - Confirmation envoi YELOW FB via MVola</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>51cdeac5-cb24-44a1-9eed-7256dd6ed3e6</variableId>
+         <variableId>c78cd8e6-b63c-47b0-8889-22375ec03c6e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>1ca7b717-62ee-4209-9e1d-555ec7872243</variableId>
+         <variableId>af98047c-ff04-4307-b588-310ad5c1a830</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e39b110d-b273-40e0-86d0-85c854b54650</variableId>
+         <variableId>d42a67fd-8e66-4566-a002-1a0b62feb108</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ac200cdc-f701-400b-90f5-db3a3e41d4b9</guid>
+      <guid>105c7e9d-6398-4291-bce1-6c2c4a94ce91</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Achat offe via MVola (611)/SCMVM05 - Confirmation achat MORA NIGHT via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/07- Envoi YELOW via MVola/SCMVEY04 - Confirmation envoi YELOW 1000 via MVola</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>a26c8f33-2d8b-417d-a325-50e1793d5482</variableId>
+         <variableId>ef9fe7ef-5cf1-4743-9c3e-760f9273ff9f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>64f4c193-daa7-4ed3-9dd0-655430174530</variableId>
+         <variableId>fa9cd01e-7bd4-4a24-9f6e-f08471fdc850</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0c296455-6a23-425f-ad68-1b96b509e73c</variableId>
+         <variableId>a541faa1-2ef1-466f-9be4-dac57200739e</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7a26fa45-b505-4721-b672-d8a12780e77e</guid>
+      <guid>157ded1c-d158-4518-b33f-226e70841b82</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Achat offe via MVola (611)/SCMVM06 - Confirmation achat MORA TEAM via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/07- Envoi YELOW via MVola/SCMVEY05 - Confirmation envoi YELOW 200 via MVola</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>a7e31918-93cb-4a7e-92cf-4cb562342a43</variableId>
+         <variableId>3b525118-b2cc-4dad-a7b6-5be0f40d5d9a</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d8a8934e-0615-4916-b233-bbd768d56d4f</variableId>
+         <variableId>7499ac2b-2ab9-4d23-943f-68e4449e50f3</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>02dfcd8d-d037-42e1-9a43-9c2914e51b9c</variableId>
+         <variableId>6be6bd34-751c-4665-86a4-e5bb9dc62418</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b72c9aa0-b3ce-4f02-9aaa-695f09e027b0</guid>
+      <guid>1ab46145-0b39-4f4c-bb41-0cdf9a6b5809</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Achat offe via MVola (611)/SCMVM07 - Confirmation achat MORA INTERNATIONAL via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/07- Envoi YELOW via MVola/SCMVEY06 - Confirmation envoi YELOW Faceboobaka via MVola</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>90d520d0-0e6b-423a-b1bc-130c993f0e1c</variableId>
+         <variableId>2105ecef-3058-48bc-8cba-24d3f1fa324c</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>52a07231-5f07-4164-9daf-d5f5340b7b2c</variableId>
+         <variableId>6a3fb1b9-4d49-4144-a854-3df3ef0bc834</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>fe8721ca-b182-4b5a-8140-4cc17494dca9</variableId>
+         <variableId>4fd7a20b-6946-40bf-947f-34ad309c3027</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
