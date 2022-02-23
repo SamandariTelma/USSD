@@ -52,7 +52,7 @@ String soldeExceptedStr=CustomKeywords.'ussd.Util.separateThousand'(soldeExcepte
 
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'('Transfert effectue de '+montantAEnvoyer+' Ar pour le '+numeroRecepteur+'\\. Frais de transfert '+frais+' Ar\\.Nouveau solde : '+soldeExceptedStr+' Ar.',
-	'Voarain\'ny '+numeroRecepteur+' ny fahana : '+montantAEnvoyer+' Ar. Saran\'ny fandefasana '+frais+' Ar.Fahana sisa tavela '+soldeExceptedStr+' Ar.')
+	'Voarain\'ny '+numeroRecepteur+' ny fahana : '+montantAEnvoyer+' Ar\\. Saran\'ny fandefasana '+frais+' Ar.Fahana sisa tavela '+soldeExceptedStr+' Ar.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

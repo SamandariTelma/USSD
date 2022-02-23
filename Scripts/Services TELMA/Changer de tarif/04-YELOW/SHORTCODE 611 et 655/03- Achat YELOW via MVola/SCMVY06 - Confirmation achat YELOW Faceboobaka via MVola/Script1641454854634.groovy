@@ -24,9 +24,9 @@ numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 
 'En tant que GP, j\'effectue un achat offre Yelow faceboobaka + pour un autre:  *611*68*1#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*68*2*1#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*68*1#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Pour confirmer le paiement de l\'offre YELOW FACEBOOBAKA \\+ via Mvola d\'un montant de '+montant+' Ar, Entrer le code secret:',
-	'Raha manaiky ny hividy tolotra YELOW FACEBOOBAKA \\+ amin\'ny sarany '+montant+' Ar avy aminy kaonty MVola ianao dia, Ampidiro ny kaody miafina:')
+String menu = CustomKeywords.'ussd.Expected.menu'('Pour confirmer le paiement de l offre YELOW FACEBOOBAKA \\+ a '+montant+' Ar via MVola pour acceder a 2 Go de forfait Instagram et Facebook , entrer code secret :',
+	'Nividy YELOW FACEBOOBAKA \\+ misy 2 Go Facebook sy Instagram @ vidiny '+montant+' Ar avy @ kaonty MVola nao ianao, ampidiro ny kaody miafinao hanamarina izany :')
 WS.verifyMatch(actualMenu, menu, true)
