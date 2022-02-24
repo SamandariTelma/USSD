@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>318b0f98-47e9-45af-b2a0-f7fc222648dc</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnNonEligible</defaultValue>
+      <defaultValue>GlobalVariable.numeroNonEligible</defaultValue>
       <description></description>
       <id>d76671e3-b7ba-4e97-a91c-f86dec971133</id>
       <masked>false</masked>

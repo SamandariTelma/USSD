@@ -24,9 +24,9 @@ numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 
 'En tant que GP, j\'effectue envoi offre First Prestige via MVola:  *611*93*1*numero#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*93*1*'+numeroRecepteur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*93*1*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Pour accepter d\'acheter l\'offre FIRST PRESTIGE a '+montant+' Ar pour le numero '+numeroRecepteur+' depuis votre compte MVola, Entrer code secret:',
-	'Raha manaiky ny handefa tolotra PRESTIGE amin\'ny sarany '+montant+' Ar ho an\'ny laharana '+numeroRecepteur+' , avy amin ny kaonty MVola ianao dia, Ampidiro ny kaody miafina:')
+String menu = CustomKeywords.'ussd.Expected.menu'('Pour accepter d\'acheter l\'offre FIRST PRESTIGE d\'un montant de '+montant+'Ar pour le '+numeroRecepteur+' depuis votre compte MVola, Entrer code secret :',
+	'Raha manaiky ny handefa ny tolotra FIRST PRESTIGE amin\'ny sarany '+montant+' Ar ho an\'ny laharana '+numeroRecepteur+', avy amin ny kaonty MVola ianao dia, Ampidiro ny kaody miafina :')
 WS.verifyMatch(actualMenu, menu, true)

@@ -24,10 +24,10 @@ numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 
 'En tant que GP, j\'effectue un achat offre Mora + 2000 pour un autre:  *611*32*2*numero#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*32*2*'+numeroRecepteur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*32*2*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'(('Pour accepter d\'acheter l\'offre MORA \\+ 2000 a '+montant+' Ar pour le numero ' + numeroRecepteur) + ', Entrer le code secret:', 
-('Raha manaiky ny handefa ny tolotra MORA \\+ 2000 amin\'ny sarany '+montant+' Ar ho an\'ny laharana ' + numeroRecepteur) + ', Ampidiro ny kaody miafina:')
+String menu = CustomKeywords.'ussd.Expected.menu'(('Pour accepter d\'acheter l\'offre MORA\\+ 2000 a '+montant+' Ar pour le numero ' + numeroRecepteur) + ', Entrer le code secret:', 
+('Raha manaiky ny handefa ny tolotra MORA\\+ 2000 amin\'ny sarany '+montant+' Ar ho an\'ny laharana ' + numeroRecepteur) + ', Ampidiro ny kaody miafina:')
 
 WS.verifyMatch(actualMenu, menu, true)

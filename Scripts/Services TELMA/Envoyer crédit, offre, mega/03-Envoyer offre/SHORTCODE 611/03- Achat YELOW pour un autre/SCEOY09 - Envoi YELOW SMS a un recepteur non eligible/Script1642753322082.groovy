@@ -22,10 +22,10 @@ String numeroRecepteur="${numeroRecepteur}"
 numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 'En tant que GP, j\'effectue un achat offre YELOW sms à un client qui à déjà atteint son quota pour cet offre: *611*62*2*numeroBeneficiaire#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*62*2*'+numeroRecepteur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*62*2*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Le récepteur a déjà depassé le nombre d achat journalier de l offre YELOW SMS',
-	'Mihoatra ny fividianana tolotra SMS ho an\'io laharanao io androany')
+String menu = CustomKeywords.'ussd.Expected.menu'('Le recepteur a deja depasse le nombre d achat journalier de l offre YELOW SMS\\.',
+	'Mihoatra ny fividianana tolotra YELOW SMS ho an\'io laharanao io androany\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

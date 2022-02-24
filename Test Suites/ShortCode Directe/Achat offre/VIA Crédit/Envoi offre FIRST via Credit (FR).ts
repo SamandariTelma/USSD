@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Envoi offre FIRST via MVola (FR)</name>
+   <name>Envoi offre FIRST via Credit (FR)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,125 +10,131 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>78aa9e71-a922-4ac9-ab64-bbbb72b11954</testSuiteGuid>
+   <testSuiteGuid>400624c0-dba9-4147-8182-a64cc0398fec</testSuiteGuid>
    <testCaseLink>
-      <guid>0824a65b-f8af-488e-85e3-4f0f9152e16c</guid>
+      <guid>70a403b8-c68f-4697-b82c-35e736bc3e3d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/06- Envoi FIRST via MVola/SCMVEF05 - Envoi FIRST via MVola - Saisie numero</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/02- Achat FIRST pour un autre/SCEOF05 - Achat first - numéro invalide</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>9655e38a-8109-46b2-856c-eff945718ff0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>feb16b89-6811-4ea2-9104-b0bcd75880b6</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c12e6c44-48f8-4072-9bff-c43da99434f6</variableId>
+         <variableId>88cecb35-67de-45a7-9f3b-6e00cb7e0676</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>92f86a25-788a-4789-9d0e-ee9672a0414f</guid>
+      <guid>c7c75f64-eb63-44f0-930d-bab97e05421e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/06- Envoi FIRST via MVola/SCMVEF01 - Confirmation envoi FIRST PREMIUM via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/02- Achat FIRST pour un autre/SCEOF06 - Envoi FIRST- Envoyeur postpaid</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>df875e65-da15-45c6-9645-3274a47192b9</variableId>
+         <variableId>31faef43-52ed-4409-a446-18c54645a04f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>619d2234-f795-4923-ae22-c4fbaf3ecbd4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9774e7a1-f548-4e6b-8a9a-85f62cffc2fb</variableId>
+         <variableId>1aa29fe2-7a68-46de-b683-def4a423710e</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7710c621-f5ee-4f9c-a8dc-b2bc1959478a</guid>
+      <guid>b3d3a893-a355-441c-88f3-a86b53aab115</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/06- Envoi FIRST via MVola/SCMVEF02 - Confirmation envoi FIRST PREMIUM plus via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/02- Achat FIRST pour un autre/SCEOF01 - Confirmation envoi FIRST PREMIUM</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>870d11f8-4bbe-4fc7-9c86-0b532aa71e49</variableId>
+         <variableId>2c4b1657-30d1-4871-8c72-5ee834e2ce3e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c7a5690a-445f-45ab-a932-11192a200311</variableId>
+         <variableId>b897969f-7788-4029-8800-2aa48cac1aa2</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3879d92f-2824-4178-a5ab-ec304e5c6c5d</variableId>
+         <variableId>091fadc1-2b49-4a1d-9aa1-f119dafdaffb</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9fec8424-fdea-4586-988b-44c52b542917</guid>
+      <guid>fc889188-5f8d-492c-bc83-cf71da0111cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/06- Envoi FIRST via MVola/SCMVEF03 - Confirmation envoi FIRST PRESTIGE via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/02- Achat FIRST pour un autre/SCEOF02 - Confirmation envoi FIRST PREMIUM plus</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ad6ed6a1-111b-4111-850e-84ac711708cc</variableId>
+         <variableId>093e4442-49a0-42ca-825f-2d6b0367a47f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f99020d8-89d3-4f59-94f6-7f3a536b3421</variableId>
+         <variableId>7d99121b-e579-44ec-a57b-522317bfc32b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ea61ed76-c349-4679-ad8d-bed259cbf686</variableId>
+         <variableId>96703d1e-8cb0-4db7-8dce-9a391413c7a9</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c9b1885f-31ff-401e-97e7-f5cf885c0c31</guid>
+      <guid>d7b52396-58af-4e8e-97bc-87c9dbe6a88e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/06- Envoi FIRST via MVola/SCMVEF04 - Confirmation envoi FIRST ROYAL via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/02- Achat FIRST pour un autre/SCEOF03 - Confirmation envoi FIRST PRESTIGE</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d7d333f3-4b93-4aad-8943-29632e1bbba8</variableId>
+         <variableId>aa534121-c480-42c1-9ac3-6af2afd6298f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>25050837-2358-4536-bafc-a47cdf20123e</variableId>
+         <variableId>28ea345d-4256-4947-be35-80018830caa3</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f30cb87c-a25e-45b2-8ff3-33a296c45c2a</variableId>
+         <variableId>d878bc7e-0ca6-4a75-a401-2606726505fc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3f817f67-d233-47c3-b076-ab7dec538a22</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/02- Achat FIRST pour un autre/SCEOF04 - Confirmation envoi FIRST ROYAL</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a675e279-9b84-4925-8d13-b73cf512c4c6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>04f7bb13-f604-404e-be78-2ae3757412e0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a894d4b0-c2fd-4130-a508-82bc8db06d8f</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

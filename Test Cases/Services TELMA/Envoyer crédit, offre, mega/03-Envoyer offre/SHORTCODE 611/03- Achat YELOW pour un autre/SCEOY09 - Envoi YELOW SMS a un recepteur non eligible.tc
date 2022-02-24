@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>017d3133-5e10-47e2-acb0-4894c54988ae</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
       <id>b814b932-0339-4274-8bae-53ef54d3ffa9</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
       <description></description>
       <id>af7a299f-cf7a-411a-805e-b7e33752d8f6</id>
       <masked>false</masked>

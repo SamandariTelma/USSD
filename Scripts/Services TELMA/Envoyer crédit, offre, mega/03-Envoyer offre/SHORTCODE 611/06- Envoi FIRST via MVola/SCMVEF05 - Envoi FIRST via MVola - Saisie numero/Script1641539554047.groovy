@@ -21,10 +21,11 @@ String numeroInitiateur="${numeroInitiateur}"
 String numeroRecepteur="${numeroRecepteur}"
 String montant="${montant}"
 numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
+String numeroInitiateurTo034 = CustomKeywords.'ussd.Util.to034'(numeroInitiateur)
 
 
 'En tant que GP, j\'effectue un envoi offre First Royal via MVola avec un numéro non Telma:  *611*95*1*numeroNonTelma#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*95*1*0325785400#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*95*1*0325785400#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'('Desole, vous ne pouvez pas utiliser ce service\\.',
@@ -32,7 +33,7 @@ String menu = CustomKeywords.'ussd.Expected.menu'('Desole, vous ne pouvez pas ut
 WS.verifyMatch(actualMenu, menu, true)
 
 'En tant que GP, j\'effectue un envoi offre First Royal via MVola à moi même:  *611*95*1*monNumero#'
-actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*95*1*'+numeroRecepteur+'#', numeroInitiateur)
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*95*1*'+numeroInitiateurTo034+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 menu = CustomKeywords.'ussd.Expected.menu'('Vous ne pouvez pas transferer de credit a votre numero\\. Merci de saisir un autre numero TELMA Mobile\\.',

@@ -24,10 +24,10 @@ numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 
 'En tant que GP, j\'effectue un envoi offre Mora TEAM via MVola:  *611*26*1*numero#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*26*2*1*'+numeroRecepteur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*26*1*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Pour accepter d\'acheter l\'offre MORA TEAM d\'un montant de '+montant+'Ar pour le numero '+numeroRecepteur+' depuis votre compte MVola, Entrer code secret :',
+String menu = CustomKeywords.'ussd.Expected.menu'('Pour accepter d\'acheter l\'offre MORA TEAM d\'un montant de '+montant+'Ar pour le '+numeroRecepteur+' depuis votre compte MVola, Entrer code secret :',
 	'Raha manaiky ny handefa ny tolotra MORA TEAM amin\'ny sarany '+montant+' Ar ho an\'ny laharana '+numeroRecepteur+', avy amin ny kaonty MVola ianao dia, Ampidiro ny kaody miafina :')
 
 
