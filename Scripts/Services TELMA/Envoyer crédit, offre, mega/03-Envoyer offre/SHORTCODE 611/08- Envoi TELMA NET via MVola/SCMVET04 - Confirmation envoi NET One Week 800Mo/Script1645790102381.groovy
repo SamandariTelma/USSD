@@ -23,11 +23,11 @@ String montant="${montant}"
 numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 
-'En tant que GP, j\'effectue un envoi offre NET One Month 100 Go via MVola:  *611*15*1*numero#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*15*1*'+numeroRecepteur+'#', numeroInitiateur)
+'En tant que GP, j\'effectue un envoi offre NET One Week 800Mo avec MVola:  *611*71*1*numero#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*71*1*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Pour accepter d\'acheter l\'offre NET ONE MONTH 100Go d\'un montant de '+montant+'Ar pour le ' + numeroRecepteur + ' depuis votre compte MVola, Entrer code secret :',
-	'Raha manaiky ny handefa ny tolotra NET ONE MONTH 100Go amin\'ny sarany '+montant+' Ar ho an\'ny laharana ' + numeroRecepteur + ', avy amin ny kaonty MVola ianao dia, Ampidiro ny kaody miafina :')
+String menu = CustomKeywords.'ussd.Expected.menu'('Pour accepter d acheter l offre NET ONE WEEK 800 Mo d\'un montant de '+montant+' Ar pour le '+ numeroRecepteur +' depuis votre compte Mvola, entrez votre code secret :', 
+	'Raha manaiky ny fandefasana ny tolotra NET ONE WEEK 800 Mo @ sarany '+montant+' Ar ho an\'ny laharana ' + numeroRecepteur + ' avy @ kaonty Mvola nao ianao, ampidiro ny code secret:')
 
 WS.verifyMatch(actualMenu, menu, true)

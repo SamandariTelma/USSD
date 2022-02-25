@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SCMVT01 - Confirmation achat NET One Night via MVola</name>
+   <name>SCMVT03 - Confirmation achat NET One Week 350Mo via MVola</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>cdcd080a-f816-4580-a254-80924e077083</testCaseGuid>
+   <testCaseGuid>6f76954f-7c29-4930-8575-2d75833991a3</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>a991d97e-8046-4b2f-b281-e45676b2b961</id>
+      <id>9cad1f9b-dff7-4327-af87-fcd04a0b5ac6</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>'100'</defaultValue>
+      <defaultValue>'3000'</defaultValue>
       <description></description>
-      <id>47c727aa-7238-4aee-9e6d-d2d681839b09</id>
+      <id>232942e2-f823-4900-a24f-8e7f60be3052</id>
       <masked>false</masked>
       <name>montant</name>
    </variable>

@@ -24,10 +24,10 @@ numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 
 'En tant que GP, j\'effectue un envoi offre NET One Night avec MVola:  *611*61*1*numero#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*61*1*'+numeroRecepteur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*61*1*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Pour accepter d\'acheter l\'offre NET ONE NIGHT a '+montant+' Ar pour le numero ' + numeroRecepteur + ' depuis votre compte MVola, Entrer code secret:', 
-	'Raha manaiky ny handefa ny tolotra NET ONE NIGHT amin\'ny sarany '+montant+' Ar ho an\'ny laharana ' + numeroRecepteur + ' , avy amin ny kaonty MVola ianao dia, Ampidiro ny kaody miafina:')
+String menu = CustomKeywords.'ussd.Expected.menu'('Pour accepter d\'acheter l\'offre NET ONE NIGHT d\'un montant de '+montant+'Ar pour le ' + numeroRecepteur + ' depuis votre compte MVola, Entrer code secret :', 
+	'Raha manaiky ny handefa ny tolotra NET ONE NIGHT amin\'ny sarany '+montant+' Ar ho an\'ny laharana ' + numeroRecepteur + ', avy amin ny kaonty MVola ianao dia, Ampidiro ny kaody miafina :')
 
 WS.verifyMatch(actualMenu, menu, true)

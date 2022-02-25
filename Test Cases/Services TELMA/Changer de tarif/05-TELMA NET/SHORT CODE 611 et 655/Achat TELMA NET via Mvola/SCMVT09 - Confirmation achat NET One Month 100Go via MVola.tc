@@ -12,4 +12,11 @@
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
+   <variable>
+      <defaultValue>'195000'</defaultValue>
+      <description></description>
+      <id>e1233de7-4752-46ab-b11a-b40a5bf81fea</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
 </TestCaseEntity>

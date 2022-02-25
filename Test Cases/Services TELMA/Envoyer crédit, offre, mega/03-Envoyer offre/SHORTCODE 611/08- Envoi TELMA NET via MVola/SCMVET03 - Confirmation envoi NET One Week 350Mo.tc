@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SCMVET09 - Confirmation envoi NET One Month 100Go</name>
+   <name>SCMVET03 - Confirmation envoi NET One Week 350Mo</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>544c35d7-ec79-4f92-a81f-78c9350969fe</testCaseGuid>
+   <testCaseGuid>a13fea83-1c66-4492-a70e-87ea3402a69c</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>dfeb5062-e6be-4b08-b5bf-0a888bfd4015</id>
+      <id>a8112bb3-ad85-4b2c-83d0-5d6bf3d77c89</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
       <description></description>
-      <id>86b22519-68d0-41f7-89ca-b1d52db906f9</id>
+      <id>4aad402b-169e-4426-9725-5dcf34552cbf</id>
       <masked>false</masked>
       <name>numeroRecepteur</name>
    </variable>
    <variable>
-      <defaultValue>'195000'</defaultValue>
+      <defaultValue>'3000'</defaultValue>
       <description></description>
-      <id>53155797-9074-4441-a551-79167f2a0283</id>
+      <id>2b79a7e0-018c-4693-bb6c-039e90325c06</id>
       <masked>false</masked>
       <name>montant</name>
    </variable>
