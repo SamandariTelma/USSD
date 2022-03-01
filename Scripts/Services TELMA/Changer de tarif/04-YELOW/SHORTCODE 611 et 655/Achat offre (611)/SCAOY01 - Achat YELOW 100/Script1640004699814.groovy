@@ -24,6 +24,6 @@ String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect
 
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW 100 est reussi\\. Vous avez 20 SMS et/ou 20Mo utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus\\. #111\\*1#\\.', 
-    'Tafiditra ny tolotra YELOW100 novidianao\\. Manana 20 SMS sy/na 20 Mo azo ampiasaina @ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
+    'Tafiditra ny tolotra YELOW 100 novidianao\\. Manana 20 SMS sy/na 20 Mo azo ampiasaina @ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

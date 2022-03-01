@@ -96,6 +96,18 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>1bf70598-ece1-41d7-8960-efa08bef4110</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Achat offre (611)/SCAOM09 - Limite d achat MORA TEAM</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>97add279-4833-4e01-8f39-d0addbd074ac</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>80df2043-5b94-461f-a764-b9e85cce8d16</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -108,18 +120,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>e49f6f5a-7ecf-4cb4-bfad-08ef1d5e03a4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Achat offre (611)/SCAOM09 - Limite d achat MORA TEAM</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>97add279-4833-4e01-8f39-d0addbd074ac</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>6d0c903c-37bc-432a-906b-2085885f0f8b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -129,6 +129,90 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>2cda6c6c-2403-4f58-9d81-fe7f03739be7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ce075709-a4fe-4de3-bb06-18b3d4456460</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Consultation Bonus (655)/SCAO01 - Consultation MORA 500</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>40acfc4a-eeff-438a-814d-8416485e775b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a2ef0e45-f3b3-4f03-8e48-14a6d099a551</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Consultation Bonus (655)/SCAO02 - Consultation - MORA ONE</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>27ac470b-11f5-44e2-b199-b6f20f938b9c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>03f00e61-e5f9-47a1-bcf7-0127f3aabd5d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Consultation Bonus (655)/SCAO03 - Consultation - MORA 2000</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>76fde566-433e-45e9-9f36-cc303b77fb36</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c1a8a281-857a-4abc-9694-9d1bb4f79a20</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Consultation Bonus (655)/SCAO04 - Consultation - MORA 5000</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>68126d73-1ce7-43b4-93e0-818460852e90</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5862e32c-a293-40bb-8637-c801d7b94809</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Consultation Bonus (655)/SCAO05 - Consultation - MORA NIGHT</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4891d7e3-49fe-4c67-a24e-0ac821a3f40d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9a1a994c-92a0-4b1f-b255-ed4f4aa77922</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Consultation Bonus (655)/SCAO06 - Consultation - MORA TEAM</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>378a7f5a-cbaa-45a1-a4ba-4a45c05d2c77</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>75f9cc8a-ed75-4cac-9722-26c35c193a16</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Consultation Bonus (655)/SCAO07 - Consultation - MORA INTERNATIONAL</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4c1a8fd9-7b3b-4878-a2c5-8c686c296155</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

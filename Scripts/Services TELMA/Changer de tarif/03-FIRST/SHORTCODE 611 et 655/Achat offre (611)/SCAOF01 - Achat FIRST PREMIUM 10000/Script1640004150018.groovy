@@ -23,7 +23,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*91#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('BRAVO! Grace a l achat de l offre FIRST PREMIUM, TELMA vous offre un bonus NET ONE WEEK 1,5 Go\\. Consultez vos bonus sur #359#\\. TELMA N1 des KADOA\\.',
-	'ARAHABAINA! Noho ny fividiananao ny tolotra FIRST PREMIUM, TELMA dia manolotra anao bonus NET ONE WEEK 1,5Go\\. Araho ny bonus\\-nao @ #359#\\. TELMA N1 ny KADOA\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('L achat du First Premium est reussi\\.Bonus restants:#359#\\.Achats et consultation bonus SIMPLE& RAPIDE via l app Telma&Moi\\.\\+Bonus Kadoa 20% si achat via MVola',
+	'Tafiditra ny First Premium\\. Bonus-nao:#359#\\.Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma&Moi\\.\\+Bonus Kadoa 20% raha vidiana @MVola')
 
 WS.verifyMatch(actualMenu, menu, true)

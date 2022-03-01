@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Achat FIRST pour soi via Crédit</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>76249951-abbd-472c-a0f1-3cb5e6cc64c5</testSuiteGuid>
+   <testCaseLink>
+      <guid>25b3476c-0989-49ee-a7dc-d14b00125b00</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/SHORTCODE 611 et 655/Achat offre (611)/SCAOF01 - Achat FIRST PREMIUM 10000</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d3a27e76-14e7-4cea-b634-a99c73251691</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b5b57a50-d144-4f64-953a-7267387a8c3c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/SHORTCODE 611 et 655/Achat offre (611)/SCAOF02 - Achat FIRST PREMIUM Plus</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>02d9be85-6bc0-41ed-a8ab-be7455977ed3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>32210fe6-242e-494a-9ad2-f78082b619a2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/SHORTCODE 611 et 655/Achat offre (611)/SCAOF03 - Achat FIRST PRESTIGE</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b56b998f-7d4b-4eec-8c41-01976b305083</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>97f5627f-7dc1-4cff-a410-8fe5073567b8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/SHORTCODE 611 et 655/Achat offre (611)/SCAOF04 - Achat FIRST ROYAL</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c868a4ec-95d8-4483-bca8-e86979794fa7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8f671cb6-9ed7-4b39-8b63-8e65a079710f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/SHORTCODE 611 et 655/Achat offre (611)/SCAOF05 - Achat FIRST PREMIUM avec solde insuffisant</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>83bd1cb1-3acb-45ed-9d22-bc7fd579d5f1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>20f65da6-3d3a-4584-ba9d-ad8d516d1f0d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/SHORTCODE 611 et 655/Consultation Bonus (655)/SCAOF01 - Consultation PREMIUM</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7e08471e-f85e-4ac8-b26a-61fb421638a4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>914f1a90-efef-49a7-97ec-a170b7511481</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/SHORTCODE 611 et 655/Consultation Bonus (655)/SCAOF02 - Consultation PREMIUM Plus</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c33933d1-2f20-4181-888e-86072c5fc70a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0d020573-607b-4a42-ac4e-e74324efe87a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/SHORTCODE 611 et 655/Consultation Bonus (655)/SCAOF03 - Consultation PRESTIGE</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c24360a8-6d2f-4a9b-a511-4cbceec0f62b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1a4c7cd1-1cf2-47fe-9858-089fad4a58b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/SHORTCODE 611 et 655/Consultation Bonus (655)/SCAOF04 - Consultation ROYAL</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cc3b6e03-c97f-4a80-98c4-8aa5b30b8ecb</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

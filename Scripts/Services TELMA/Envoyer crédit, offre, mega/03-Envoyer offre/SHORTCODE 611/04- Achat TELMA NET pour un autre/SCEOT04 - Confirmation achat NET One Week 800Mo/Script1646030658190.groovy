@@ -23,11 +23,11 @@ String montant="${montant}"
 numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 
-'En tant que GP, j\'effectue un achat offre NET One Month 15 Go pour un autre:  *611*13*2*numero#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*13*2*'+numeroRecepteur+'#', numeroInitiateur)
+'En tant que GP, j\'effectue un achat offre NET One Week 800 Mo pour un autre:  *611*71*2*numero#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*71*2*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'(('Pour accepter d\'acheter l\'offre NET ONE MONTH 15Go a '+montantOffre+' Ar pour le numero ' + 
-    numeroRecepteur) + ', Entrer le code secret:', ('Raha manaiky ny handefa ny tolotra NET ONE MONTH 15Go amin\'ny sarany '+montantOffre+' Ar ho an\'ny laharana ' + numeroRecepteur) + 
+String menu = CustomKeywords.'ussd.Expected.menu'(('Pour accepter d\'acheter l\'offre NET ONE WEEK 800 Mo a '+montant+' Ar pour le numero ' + 
+    numeroRecepteur) + ', Entrer le code secret:', ('Raha manaiky ny handefa ny tolotra NET ONE WEEK 800 Mo amin\'ny sarany '+montant+' Ar ho an\'ny laharana ' + numeroRecepteur) + 
     ', Ampidiro ny kaody miafina:')
 WS.verifyMatch(actualMenu, menu, true)

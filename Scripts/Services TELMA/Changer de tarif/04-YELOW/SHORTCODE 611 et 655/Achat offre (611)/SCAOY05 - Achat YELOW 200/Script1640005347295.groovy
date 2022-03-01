@@ -27,8 +27,8 @@ String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'HH:mm')
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*63#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW 200 est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois 20% de bonus\\.Tapez vite le #111\\*1#\\.', 
-    'Tafiditra ny tolotra YELOW 200 novidianao\\. Bonus-nao: #359#\\. Vidio @MVola ny tolotrao ary mahazoa Bonus internet 20%\\. Tsindrio ny #111\\*1#\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('L achat du Yelow 200 est reussi\\.Bonus restants:#359#\\.Achats et consultation bonus SIMPLE& RAPIDE via l app Telma&Moi\\.\\+Bonus Kadoa 20% si achat via MVola',
+	'Tafiditra ny Yelow 200\\. Bonus-nao:#359#\\.Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma&Moi\\.\\+Bonus Kadoa 20% raha vidiana @MVola')
 
 WS.verifyMatch(actualMenu, menu, true)
 

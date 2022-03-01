@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Achat YELOW pour soi via Crédit</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>88d93245-c1a6-4a2c-848a-08c45f639a14</testSuiteGuid>
+   <testCaseLink>
+      <guid>288c7db8-33b7-4e68-b494-a6ab508a6bf6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Achat offre (611)/SCAOY01 - Achat YELOW 100</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>291f5d48-86c0-40c0-b21e-b8919d55ce1b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4dfba160-4f23-4e45-a415-e201c9007e06</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Achat offre (611)/SCAOY02 - Achat YELOW SMS</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7f6af1fe-5590-4faa-a966-02862cb3e2d5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a61fcfa2-7667-4834-8a7b-0b76c04dbdcd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Achat offre (611)/SCAOY03 - Achat YELOW Facebobaka</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f80dbfe7-545e-40f4-9df9-5b35e05db0e6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>07348720-8044-4fa0-b9af-12f148907203</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Achat offre (611)/SCAOY04 - Achat YELOW 1000</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0ebaa635-d409-4d71-b3bc-df4431de90c6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8feb0bd9-2c35-43a8-9998-a3c9767be0a4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Achat offre (611)/SCAOY05 - Achat YELOW 200</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>81fe0bdb-3840-4503-b5e5-a72cdaa05ef5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5ce9836a-33a5-4b67-b7da-ecac72265aec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Achat offre (611)/SCAOY06 - Achat YELOW Faceboobaka plus</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>969d2093-d553-43e3-a23f-0e24ce8118cd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9beb1619-0bff-4c8e-917f-3e290501e5c5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Achat offre (611)/SCAOY07 - Achat YELOW Faceboobaka plus - solde insuffisant</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ff6a70fc-c6fc-4996-9702-bce89191ebcb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ca7ee0a7-c070-4e4a-aa59-e62e430177a9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Achat offre (611)/SCAOY08 - Achat YELOW 100 - Limite d achat</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e4b119a2-d685-477d-869e-b72af4164cbc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>92563ef2-e076-4e41-b845-67d1b77b9675</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Achat offre (611)/SCAOY09 - Achat YELOW SMS - Limite d achat</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bd226cfe-ac48-49d3-9bf8-426fa9b8aeac</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3c482205-34b8-426c-a754-6e3c4c6ed144</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Achat offre (611)/SCAOY10 - Achat YELOW Facebobaka - Limite d achat</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e360b56e-74cf-414d-a7fa-0acc824a4a19</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3ae11f42-94da-4a16-93aa-741bb3d43daa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Achat offre (611)/SCAOY11 - Achat YELOW 200 - Limite d achat</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>56992a24-60f4-4712-ab8d-7f3f2b027637</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f154c179-c52e-4055-ba69-66843a9ffc6b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Consultation bonus (655)/SCCBY01 - Consultation Yelow 100</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>468a38ce-9877-4ae0-bd43-09f961572411</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4c8b3690-22d7-4c46-b853-f73ff64d0463</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Consultation bonus (655)/SCCBY02 - Consultation Yelow 200</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2394b1d0-82a8-42e2-b524-4582425585b7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7a383da1-3389-42c8-909c-f593bd288a25</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Consultation bonus (655)/SCCBY03 - Consultation Yelow SMS</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c6785e71-c5e6-49f4-aac3-88c8aa1640ad</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bc7cb47c-aabe-4441-9b11-cd8df1bbbf50</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Consultation bonus (655)/SCCBY04 - Consultation Yelow Facebobaka</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>41d3b622-0c66-451f-8774-7b66f1b29e35</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>02fe5259-7717-48ac-aa3c-68b0f7486d6e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Consultation bonus (655)/SCCBY05 - Consultation Yelow 1000</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>40565e3c-8c51-46d9-bddb-6698452f2b59</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ae8cabd1-308c-4830-8838-5c3774f40932</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/04-YELOW/SHORTCODE 611 et 655/Consultation bonus (655)/SCCBY06 - Consultation Yelow Faceboobaka plus</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>701c5f99-f099-483a-ac88-e7f30245f43e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

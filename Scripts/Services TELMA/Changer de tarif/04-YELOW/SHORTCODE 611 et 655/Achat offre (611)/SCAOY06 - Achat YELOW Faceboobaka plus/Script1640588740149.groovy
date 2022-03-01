@@ -27,7 +27,7 @@ String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(14,'HH:mm')
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*68#', numeroInitiateur)
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAK\\+ : vous avez 2 Go pour acceder a vos videos et photos sur Instagram et Facebook pendant 7 jours pour 2000 Ar\\. En profiter\\? 1\\-OUI; 0\\-NON',
+String menu=CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAKA\\+ : vous avez 2 Go pour acceder a vos videos et photos sur Instagram et Facebook pendant 7 jours pour 2000 Ar\\. En profiter\\? 1\\-OUI; 0\\-NON',
 	'YELOW FACEBOOBAKA \\+: Manana 2 Go ianao ahafahana mampiasa Instagram sy Facebook, manan\\-kery 7 andro @ sarany 2000 Ar\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA')
 
 WS.verifyMatch(actualMenu, menu, true)

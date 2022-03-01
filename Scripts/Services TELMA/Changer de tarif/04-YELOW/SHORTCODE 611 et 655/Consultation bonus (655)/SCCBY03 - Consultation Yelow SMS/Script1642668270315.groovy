@@ -19,11 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
 
+String dateExpiration=CustomKeywords.'outStream.XML.getDateBundle'("yelow sms")
+String heureExpiration=CustomKeywords.'outStream.XML.getTimeBundle'("yelow sms")
+
 'En tant que GP, je consulte mon offre YELOW SMS :  *655*62#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*62#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW SMS est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois un bonus kadoa de 20%\\. Tapez vite le #111\\*1#\\.', 
-    'Tafiditra ny tolotra YELOW SMS novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao  ary mahazoa hatrany Bonus kadoa 20%\\. Tsindrio ny #111\\*1#\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Bonus YELOW SMS restants: 100 SMS Telma et 25 SMS autres opérateurs jusqu au '+dateExpiration+' a '+heureExpiration+'\\.',
+	'Bonus YELOW SMS : 100 SMS Telma  \\+ 25 SMS mankany @ tambazotra hafa azo ampiasaina hatramin ny '+dateExpiration+' @ '+heureExpiration+'\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

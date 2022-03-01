@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SCEOT05 - Confirmation achat NET One Week 2,5Go</name>
+   <name>SCEOT04 - Confirmation achat NET One Week 800Mo</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>5d339fe4-8d86-4450-aeed-eed5639bbb94</testCaseGuid>
+   <testCaseGuid>19ea8b90-13e7-48d9-8382-b325939abae1</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>9203c44b-dac9-4178-a74e-52b634559f6c</id>
+      <id>f80f515e-343f-40e6-95bd-b8f0ef84a492</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
       <description></description>
-      <id>83905e77-9d79-47d6-af29-904c1c667159</id>
+      <id>a406b67e-14f2-4cd2-ad36-472b38590c54</id>
       <masked>false</masked>
       <name>numeroRecepteur</name>
    </variable>
    <variable>
-      <defaultValue>'10000'</defaultValue>
+      <defaultValue>'5000'</defaultValue>
       <description></description>
-      <id>3db95614-1219-4f7b-818d-1e47caec0a34</id>
+      <id>3e498454-47cb-46ae-94f9-8be3b7b8c8ac</id>
       <masked>false</masked>
       <name>montant</name>
    </variable>
