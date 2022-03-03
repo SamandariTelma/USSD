@@ -23,7 +23,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*21#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA ONE restants : 1000 Ar appel national \\+ 20 SMS Telma \\+ 20\\.0 Mo utilisables jusqu a minuit\\. ',
+String menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA ONE restants : 1000 Ar appel national \\+ 20 SMS Telma \\+ 20\\.0 Mo utilisables jusqu a minuit\\.',
 	'Bonus MORA ONE : 1000 Ar antso mankany @tambazotra rehetra \\+ 20 SMS Telma \\+ 20\\.0 Mo manankery hatramin ny sasakalina\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

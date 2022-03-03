@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>25b3476c-0989-49ee-a7dc-d14b00125b00</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/SHORTCODE 611 et 655/Achat offre (611)/SCAOF01 - Achat FIRST PREMIUM 10000</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>b5b57a50-d144-4f64-953a-7267387a8c3c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/SHORTCODE 611 et 655/Achat offre (611)/SCAOF02 - Achat FIRST PREMIUM Plus</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>32210fe6-242e-494a-9ad2-f78082b619a2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/SHORTCODE 611 et 655/Achat offre (611)/SCAOF03 - Achat FIRST PRESTIGE</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>8f671cb6-9ed7-4b39-8b63-8e65a079710f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/03-FIRST/SHORTCODE 611 et 655/Achat offre (611)/SCAOF05 - Achat FIRST PREMIUM avec solde insuffisant</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

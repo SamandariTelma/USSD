@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SCAOT02 - Achat NET JOURNALIER One DAY</name>
+   <name>SCAOT08 - Achat NET ONE MONTH 12Go</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f9c4e02c-e798-4798-b210-fb8685ca2991</testCaseGuid>
+   <testCaseGuid>3a27f48b-019a-468b-b422-6b4b48177ed6</testCaseGuid>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
-      <id>611c4ec0-64ea-472b-9328-a9055f403f8d</id>
+      <id>b1b9d3fa-da92-48ab-853e-f14ac0dac5d0</id>
       <masked>false</masked>
       <name>numeroInitiateur</name>
    </variable>

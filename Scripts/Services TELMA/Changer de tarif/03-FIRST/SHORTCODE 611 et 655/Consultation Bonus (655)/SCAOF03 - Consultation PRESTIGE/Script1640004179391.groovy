@@ -24,7 +24,7 @@ String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*93#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu= CustomKeywords.'ussd.Expected.menu'('Bonus FIRST PRESTIGE: 60000 Ar appel national \\+ 1000 SMS Telma \\+ 1000\\.0 Mo la journee \\+ 1000\\.0 Mo la nuit \\+ Bonus 1200 sec vers international jusqu au '+dateExpiration,
-	'Bonus FIRST PRESTIGE: 60000 Ar antso eto M/kara \\+ 1000 SMS Telma \\+ 1000\\.0 Mo ny tontolo andro  \\+ 1000\\.0 Mo  ny alina \\+Bonus 1200 sec  makany ivelany, h@ '+dateExpiration)
+String menu= CustomKeywords.'ussd.Expected.menu'('Bonus FIRST PRESTIGE: 30000 Ar appel national \\+ 500 SMS Telma \\+ 500\\.0 Mo la journee \\+ 500\\.0 Mo la nuit \\+ Bonus 600 sec vers international jusqu au '+dateExpiration,
+	'Bonus FIRST PRESTIGE: 30000 Ar antso eto M/kara \\+ 500 SMS Telma \\+ 500\\.0 Mo ny tontolo andro  \\+ 500\\.0 Mo  ny alina \\+Bonus 600 sec  makany ivelany, h@ '+dateExpiration)
 
 WS.verifyMatch(actualMenu, menu, true)

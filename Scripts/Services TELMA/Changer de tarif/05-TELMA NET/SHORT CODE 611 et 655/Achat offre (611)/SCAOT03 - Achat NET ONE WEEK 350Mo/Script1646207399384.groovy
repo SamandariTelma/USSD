@@ -22,8 +22,11 @@ String numeroInitiateur="${numeroInitiateur}"
 'En tant que GP, j\'effectue mon offre NET One Week 500 :  *611*70#'
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*70#', numeroInitiateur)
 
+'Vérifier la conformité du prompt de confirmation'
+String 
+
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('L achat de votre NET ONE WEEK 500 Mo est reussi\\. Vous avez 500 Mo de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus\\. \\(#111\\*1#\\)\\.',
-	'Tafiditra ny tolotra NET ONE WEEK 500 Mo novidianao\\. Manana 500 Mo azo ampiasaina @ ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('L achat de votre NET ONE WEEK 350 Mo est reussi\\. Vous avez 500 Mo de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus\\. \\(#111\\*1#\\)\\.',
+	'Tafiditra ny tolotra NET ONE WEEK 350 Mo novidianao\\. Manana 350 Mo azo ampiasaina @ ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
