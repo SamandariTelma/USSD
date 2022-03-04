@@ -24,7 +24,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*26#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('L achat du Mora Team Night est reussi\\.Bonus restants:#359#\\.Achats et consultation bonus SIMPLE& RAPIDE via l app Telma&Moi\\.\\+Bonus Kadoa 20% si achat via MVola',
+String menu=CustomKeywords.'ussd.Expected.menu'('L achat du Mora Team est reussi\\.Bonus restants:#359#\\.Achats et consultation bonus SIMPLE& RAPIDE via l app Telma&Moi\\.\\+Bonus Kadoa 20% si achat via MVola',
 	'Tafiditra ny Mora Team. Bonus-nao:#359#\\.Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma&Moi\\.\\+Bonus Kadoa 20% raha vidiana @MVola')
 
 WS.verifyMatch(actualMenu, menu, true)
