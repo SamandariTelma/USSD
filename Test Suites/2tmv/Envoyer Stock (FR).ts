@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Envoyeur Stock (FR)</name>
+   <name>Envoyer Stock (FR)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -36,30 +36,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d76a44ed-0324-436f-b11e-343722a8ea93</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/2TMV/01 - Envoyer Stock/02-Envoi stock non abouti/Crédit insuffisant</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e78b80ef-d1c8-48ad-87c5-89cb7e83fb6e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6b5f8038-2ae4-4b01-928a-cda6635b93b6</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c0700370-e67d-4ef2-9e1c-845db8a5f208</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>664edb6e-4f12-4090-b6c0-7d78568f2410</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -87,6 +63,30 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>d2c7d312-263c-4f34-9db4-03c3d35d6b04</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7198c8f1-79b5-41ce-ab1f-67ee07e11cbd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/2TMV/01 - Envoyer Stock/06 - Envoi Stock - Grossiste/01 - Grossiste - Chef de zone</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8fe7d4b2-d579-473d-8e7d-4bb67c89b8d4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a604ea8a-0a1d-47a7-921b-b690f12cadb6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1e76c185-a561-4b36-8011-a5f8b0f47523</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -366,30 +366,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7198c8f1-79b5-41ce-ab1f-67ee07e11cbd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/2TMV/01 - Envoyer Stock/06 - Envoi Stock - Grossiste/01 - Grossiste - Chef de zone</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8fe7d4b2-d579-473d-8e7d-4bb67c89b8d4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a604ea8a-0a1d-47a7-921b-b690f12cadb6</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1e76c185-a561-4b36-8011-a5f8b0f47523</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b037195b-1d54-4a11-93b8-54963f6c5ba1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -663,6 +639,30 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>8203e390-e710-4199-b8ac-42cd40aaf131</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d76a44ed-0324-436f-b11e-343722a8ea93</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/2TMV/01 - Envoyer Stock/02-Envoi stock non abouti/Crédit insuffisant</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e78b80ef-d1c8-48ad-87c5-89cb7e83fb6e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6b5f8038-2ae4-4b01-928a-cda6635b93b6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c0700370-e67d-4ef2-9e1c-845db8a5f208</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

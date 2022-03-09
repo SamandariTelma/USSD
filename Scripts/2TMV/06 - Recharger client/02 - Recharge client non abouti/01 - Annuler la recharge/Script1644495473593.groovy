@@ -48,7 +48,7 @@ CustomKeywords.'ussd.Send.response'(numeroARechargerTo034)
 String actualMenu=CustomKeywords.'ussd.Send.response'(codeNumeroInitiateur)
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Envoyer 5000 Ar au 0346848017 \\? \\(1\\-Oui ; 0\\-Non\\)', 'Andefa 15000 Ar ny 0346848017 \\? \\(1\\-Eny; 0\\-Tsia\\)')
+String menu=CustomKeywords.'ussd.Expected.menu'('Envoyer 5000 Ar au 0346848017 \\? \\(1\\-Oui ; 0\\-Non\\)', 'Andefa 5000 Ar ny 0346848017 \\? \\(1\\-Eny; 0\\-Tsia\\)')
 
 WS.verifyMatch(actualMenu, menu, true)
 

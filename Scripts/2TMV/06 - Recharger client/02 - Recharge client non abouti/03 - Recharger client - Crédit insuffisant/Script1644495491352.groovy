@@ -43,7 +43,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', numeroInitiateur
 CustomKeywords.'ussd.Send.response'('1')
 
 'Je saisis le montant souhaité'
-CustomKeywords.'ussd.Send.response'('200000')
+CustomKeywords.'ussd.Send.response'('300000')
 
 'Je saisis correctement le numero du Client qui est GP et je valide'
 CustomKeywords.'ussd.Send.response'(numeroARechargerTo034)
@@ -55,8 +55,8 @@ CustomKeywords.'ussd.Send.response'(codeNumeroInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n a pas abouti\\. Vous avez recu un SMS avec les details de votre transaction\\. Si besoin, contactez le Service Clientele au 807\\.', 
-	'Tsy tafita ny fangatahanao\\. Naharay SMS manazava ny antony ianao\\. Raha ilaina, antsoy ny Service Clientele amin ny 807\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n a pas abouti\\. Vous avez recu un SMS avec les details de votre transaction\\. Si besoin, contactez le Service Clientele au 801\\.', 
+	'Tsy tafita ny fangatahanao\\. Naharay SMS manazava ny antony ianao\\. Raha ilaina, antsoy ny Service Clientele amin ny 801\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

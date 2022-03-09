@@ -51,7 +51,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'(pinInitiateur)
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Votre demande est en cours de traitement\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Votre langue a ete modifiee avec succes')
 
 WS.verifyMatch(actualMenu, menu, true)
 

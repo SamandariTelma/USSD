@@ -20,7 +20,7 @@
       <name>numeroRecepteur</name>
    </variable>
    <variable>
-      <defaultValue>'105000'</defaultValue>
+      <defaultValue>'1800000'</defaultValue>
       <description>montant à saisir sans séparateur de millier</description>
       <id>1e76c185-a561-4b36-8011-a5f8b0f47523</id>
       <masked>false</masked>

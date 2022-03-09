@@ -51,7 +51,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'(pinInitiateur)
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Tontosa ny fanovana fiteny')
+menu=CustomKeywords.'ussd.Expected.menu'('Tafita soa aman-tsara ny fanovana fiteny\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

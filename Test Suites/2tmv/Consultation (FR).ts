@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>07b41969-8124-4f12-bb8c-edb98c5981e1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/2TMV/00 - Called test case/Consulter le menu 2tmv</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>73719549-ebb4-4401-b054-e15e16c2cfdf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/2TMV/02 - Consultations/01-Saisie PIN/Saisie PIN invalide</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>199d7acf-eb5a-432f-bfa0-dde6a6c7b196</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/2TMV/02 - Consultations/01-Saisie PIN/Saisie PIN mauvais format</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

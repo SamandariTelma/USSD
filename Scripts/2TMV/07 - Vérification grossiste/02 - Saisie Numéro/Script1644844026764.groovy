@@ -35,7 +35,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('0325785400')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Verifier le numero de telephone SVP', 'Nomerao tsy manankery')
+menu=CustomKeywords.'ussd.Expected.menu'('Veuillez verifier le numero Tel \\(034xxxxxxx ou 038xxxxxxx\\):', 'Hamarino ny laharan\'ny finday \\(034xxxxxxx na 038xxxxxxx\\):')
 
 WS.verifyMatch(actualMenu, menu, true)
 
