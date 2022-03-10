@@ -44,7 +44,7 @@ CustomKeywords.'ussd.Send.response'('2')
 String actualMenu=CustomKeywords.'ussd.Send.response'(numeroARechargerTo034)
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret :', 'kaody miafina :')
+String menu=CustomKeywords.'ussd.Expected.menu'('Entrer code secret :', 'Kaody miafina :')
 
 WS.verifyMatch(actualMenu, menu, true)
 

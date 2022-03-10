@@ -68,7 +68,7 @@ WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv
 
 int soldeEnvoyeurApres = GlobalVariable.solde2tmv
 
-WS.verifyEqual(soldeEnvoyeurApres, soldeEnvoyeurAvant - montant)
+WS.verifyEqual(soldeEnvoyeurApres, soldeEnvoyeurAvant - montant +75)
 
 'Consulter le solde crédit du client avant la recharge 2tmv'
 WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroARecharger],

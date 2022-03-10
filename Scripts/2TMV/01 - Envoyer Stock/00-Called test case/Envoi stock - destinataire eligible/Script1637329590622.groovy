@@ -45,6 +45,6 @@ CustomKeywords.'ussd.Send.response'(pinEnvoyeur)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert est en cours de traitement\\.','Tontosa ny fividiana fahana ho an\'ny laharako\\.')
+menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert est en cours de traitement\\.','Tontosa ny fividiana fahana ho an\'ny laharana safidinao\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
