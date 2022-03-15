@@ -51,8 +51,8 @@ int soldeExcepted=soldeEnvoyeurAvantEnvoi - Integer.valueOf(montantAEnvoyer) - I
 String soldeExceptedStr=CustomKeywords.'ussd.Util.separateThousand'(soldeExcepted)
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Votre credit est inssufisant\\.',
-	'Tsy ampy ny fahana anananao')
+String menu = CustomKeywords.'ussd.Expected.menu'('Credit insuffisant: rechargez votre Compte puis essayez a nouveau ou diminuez le montant a transferer\\.',
+	'Tsy ampy ny fahana anananao\\. Fahano ny kaontinao na ahenao ny fahana hafindra\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
@@ -67,7 +67,7 @@ int soldeEnvoyerApresEnvoi=GlobalVariable.soldeCredit
 WS.verifyEqual(soldeEnvoyerApresEnvoi, soldeEnvoyeurAvantEnvoi)
 
 
-'Je vérifie que le solde du recepteur a beneficier du crédit envoyé '
+'Je vérifie que le solde du recepteur a beneficier du crédit envoyé'
 numeroRecepteur = CustomKeywords.'ussd.Util.to261'(numeroRecepteur)
 
 WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'), [('numeroInitiateur') : numeroRecepteur],

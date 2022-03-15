@@ -135,4 +135,10 @@ public class Util {
 		String nombre=formatter.format(number)
 		return nombre.replace(",", " ")
 	}
+	@Keyword
+	String escapeCharRegex(String str)
+	{
+		String specialCharRegex = /[\W_&&[^\s]]/
+		return str.replaceAll(specialCharRegex,'\\\\$0')
+	}
 }

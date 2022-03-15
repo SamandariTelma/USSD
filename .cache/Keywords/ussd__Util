@@ -1,13 +1,12 @@
 {
-  "keywordFileContentHash": "9F72BA1A30D8E2B3BE8480E15EC89FA7",
+  "keywordFileContentHash": "A60F4A1EF0617DECB18CA28D7816E1A0",
   "keywordClasses": [
     {
       "name": "ussd.Util",
       "keywordMethods": [
         {
           "name": "randomizeNumber",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "nextDate",
@@ -25,8 +24,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "nextDate",
@@ -57,8 +55,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "nextDate",
@@ -102,13 +99,11 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "getLastDayOfMonth",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "rechercheMenu",
@@ -139,8 +134,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "to034",
@@ -158,8 +152,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "to261",
@@ -177,8 +170,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "separateThousand",
@@ -196,11 +188,28 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
+        },
+        {
+          "name": "escapeCharRegex",
+          "parameters": [
+            {
+              "name": "str",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
