@@ -44,7 +44,7 @@ CustomKeywords.'ussd.Send.response'(pinEnvoyeur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre solde MVola est insuffisant\\. Votre solde est de \\d{1,8}Ar\\. Faites un depot MVola suffisant pour pouvoir effectuer cette transaction\\. Ref: \\d{1,10}',
-	'Tsy tontosa ny fangatahanao noho ny volanao tsy ampy\\. Volanao sisa \\d{1,8}Ar\\. Mampidira vola ao anaty kaonty hanatontosana ny fifanakalozana\\. Ref: \\d{1,10}')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n a pas abouti\\. Vous avez recu un SMS avec les details de votre transaction\\. Si besoin, contactez le Service Clientele au 801\\.', 
+	'Tsy tafita ny fangatahanao\\. Naharay SMS manazava ny antony ianao\\. Raha ilaina, antsoy ny Service Clientele amin ny 801\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

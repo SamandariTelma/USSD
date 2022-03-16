@@ -21,7 +21,7 @@
          <id>86c96855-03c0-4def-91d5-f73bde9cfc4b</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>4,5</value>
+            <value>4</value>
          </iterationEntity>
          <testDataId>Data Files/demo ddt</testDataId>
       </testDataLink>
