@@ -51,7 +51,7 @@ CustomKeywords.'ussd.Send.response'(pinEnvoyeur)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n\'a pas abouti\\. Vous n\'avez pas acces a cette fonction\\. Si besoin, contactez le Service Clientele au 801\\. Ref: \\d{1,10}',
-	'Tsy tontosa ny fangatahanao\\. Tsy afaka manatontosa ity fifanakalozana ity ianao\\. Raha mila fanazavana fanampiny, antsoy ny 801\\. Ref: \\d{1,10}')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n a pas abouti\\. Vous avez recu un SMS avec les details de votre transaction\\. Si besoin, contactez le Service Clientele au 801\\.',
+	'Tsy tafita ny fangatahanao\\. Naharay SMS manazava ny antony ianao\\. Raha ilaina, antsoy ny Service Clientele amin ny 801\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
