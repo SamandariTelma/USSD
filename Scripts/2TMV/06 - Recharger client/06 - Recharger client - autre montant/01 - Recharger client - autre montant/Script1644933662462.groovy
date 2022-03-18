@@ -60,7 +60,7 @@ CustomKeywords.'ussd.Send.response'(codeNumeroInitiateur)
 String actualMenu = CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu = CustomKeywords.'ussd.Expected.menu'('Votre demande d\'achat est en cours de traitement\\.', 'Tontosa ny fividiana fahana ho an\'ny laharako\\.')
+String menu = CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert est en cours de traitement\\.', 'Tontosa ny fividiana fahana ho an\'ny laharana safidinao\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

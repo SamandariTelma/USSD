@@ -28,7 +28,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroGrossiste)
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du prompt montant'
-String menu=CustomKeywords.'ussd.Expected.menu'('1 Autre montant\n2 Envoyer 10 000 Ar\n3 Envoyer 20 000 Ar\n4 Envoyer 50 000 Ar\n5 Envoyer 100 000 Ar\n6 Envoyer 500 000 Ar\n7 Envoyer 1 000 000 Ar\n00 Page precedente',
-	'1 Sandam\\-bola hafa\n2 Andefa 10 000 Ar\n3 Andefa 20 000 Ar\n4 Andefa 50 000 Ar\n5 Andefa 100 000 Ar\n6 Andefa 500 000 Ar\n7 Andefa 1 000 000 Ar\n00 Pejy aloha\n\\*\\* main')
+String menu=CustomKeywords.'ussd.Expected.menu'('1 Autre montant\n2 Envoyer 10 000 Ar\n3 Envoyer 20 000 Ar\n4 Envoyer 50 000 Ar\n5 Envoyer 100 000 Ar\n6 Envoyer 500 000 Ar\n7 Envoyer 1 000 000 Ar\n0 Page suivante\n00 Page precedente',
+	'1 Sandam\\-bola hafa\n2 Andefa 10 000 Ar\n3 Andefa 20 000 Ar\n4 Andefa 50 000 Ar\n5 Andefa 100 000 Ar\n6 Andefa 500 000 Ar\n7 Andefa 1 000 000 Ar\n0 Pejy manaraka\\n00 Pejy aloha')
 
 WS.verifyMatch(actualMenu, menu, true)

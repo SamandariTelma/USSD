@@ -19,7 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 String pinActuel="${pinActuel}"
 String nouveauPIN="${nouveauPIN}"
+String numeroInitiateur = "${numeroInitiateur}"
 
-WebUI.callTestCase(findTestCase('2TMV/04 - Changer code secret/05-Changer code secret - User 2TMV'), [('numeroInitiateur') : GlobalVariable.msisdnGrossiste
+WebUI.callTestCase(findTestCase('2TMV/04 - Changer code secret/05-Changer code secret - User 2TMV'), [('numeroInitiateur') : numeroInitiateur
         , ('pinActuel') : pinActuel, ('nouveauPin') : nouveauPIN], FailureHandling.CONTINUE_ON_FAILURE)
 

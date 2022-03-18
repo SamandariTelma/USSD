@@ -56,7 +56,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('0')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert a bien ete annulee\\.', 'Tsy nekena ny "fividiana fahana ho an\'ny laharako"')
+menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de transfert a bien ete annulee\\.', 'Tsy nekena ny fividiana fahana ho an ny laharako\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

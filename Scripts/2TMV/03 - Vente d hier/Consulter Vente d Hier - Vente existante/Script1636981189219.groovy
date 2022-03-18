@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
 String pinInitiateur= "${pinInitiateur}"
-String regexSolde='(([1-9]{1,3})|(([1-9]{1,3}(\\s\\d{3})+)))'
+String regexSolde='(([0-9]{1,3})|(([0-9]{1,3}(\\s\\d{3})+)))'
 
 'En tant que MSISDN grossiste, je compose le *130*2#'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)

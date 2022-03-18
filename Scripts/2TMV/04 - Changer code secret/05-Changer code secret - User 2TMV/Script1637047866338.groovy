@@ -38,6 +38,6 @@ CustomKeywords.'ussd.Send.response'(nouveauPin)
 String actualMenu=CustomKeywords.'ussd.Send.response'(nouveauPin)
 
 'Vérifier la conformité du message ussd'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande est en cours de traitement','Tontosa ny fanovana kaody miafina')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande est en cours de traitement\\.','Tontosa ny fanovana kaody miafina')
 
 WS.verifyMatch(actualMenu, menu, true)

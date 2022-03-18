@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Changement langue</name>
+   <name>Validation correctif</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,41 +10,41 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>a28afdad-7720-486b-a70e-03d82f797e62</testSuiteGuid>
+   <testSuiteGuid>8cd96ee2-3345-4aa5-8d11-9a9df690cd31</testSuiteGuid>
    <testCaseLink>
-      <guid>c29c986a-4b53-4a29-9d5b-13e215b1c84a</guid>
+      <guid>6d09f995-c9e5-43a9-a40c-a2d6dd40b594</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/2TMV/05 - Changement de langue/Changer langue en MG</testCaseId>
+      <testCaseId>Test Cases/2TMV/01 - Envoyer Stock/01-Menu 2toi aMoi Vaovao/Consulter le menu Envoyer Stock</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d2a47cff-7009-4b72-8f72-ed2b6b1f79b9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6e3848b7-e8dc-4774-b93e-fdd9e150241d</variableId>
+         <variableId>2cea2055-c1b4-4c21-b41d-64faf6ff1ed5</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3dcbc186-0e65-4e00-b550-3982aed223f8</guid>
+      <guid>33d54ec0-add9-4fd1-b12b-67d6f7b25d59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/2TMV/05 - Changement de langue/Changer langue en FR</testCaseId>
+      <testCaseId>Test Cases/2TMV/01 - Envoyer Stock/04-Envoyer du stock - Autre Montant/Saisie montant</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0d17bace-b426-4158-bd13-a4fd4fe2f7dc</variableId>
+         <variableId>81c513ed-e765-4f6d-8cf1-b15ecf92d426</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>df69c07a-ef1d-4b30-a47d-ae5c3fb91f56</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/2TMV/06 - Recharger client/04 - Recharger client - saisis formulaire/Saisie Montant</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>aa324099-62ac-4550-9538-253aa89080f5</variableId>
+         <variableId>a8ae581c-103a-4ffc-aa46-08f6fe51d1b6</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

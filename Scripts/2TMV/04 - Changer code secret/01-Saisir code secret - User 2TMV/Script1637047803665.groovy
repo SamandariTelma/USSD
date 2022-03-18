@@ -35,7 +35,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('258')
 
 'Vérifier la conformité du prompt'
-menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres')
+menu=CustomKeywords.'ussd.Expected.menu'('Le code secret doit comporter 4 chiffres','Kaody miafina tsy manankery')
 
 WS.verifyMatch(actualMenu, menu, true)
 
