@@ -22,7 +22,7 @@ numeroRecepteur = CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 String actualMenu = CustomKeywords.'ussd.Send.code'(((GlobalVariable.shortCodeDirectAchat + '*') + tarifCode) + '*1#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu = WebUI.callTestCase(findTestCase('zz - Demo ddt/00 - Called Test Case/Message de confirmation achat via MVola'), 
+String menu = WebUI.callTestCase(findTestCase('null'), 
     [('montant') : montant, ('offre') : offre], FailureHandling.CONTINUE_ON_FAILURE)
 
 WS.verifyMatch(actualMenu, menu, true)

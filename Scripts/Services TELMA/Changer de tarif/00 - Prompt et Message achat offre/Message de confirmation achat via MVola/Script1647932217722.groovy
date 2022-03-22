@@ -20,16 +20,12 @@ import org.openqa.selenium.Keys as Keys
 String montant = "${montant}"
 String offre ="${offre}"
 offre = CustomKeywords.'ussd.Util.escapeCharRegex'(offre)
-/*
-CustomKeywords.'ussd.Expected.menu'('Pour confirmer le paiement de l\'offre '+offre+' via MVola d\'un montant de '+montant+' Ar, Entrer code secret :',
-	'Raha manaiky ny hividy ny tolotra '+offre+' amin\'ny sarany '+montant+' Ar, avy amin ny kaonty MVola ianao dia, Ampidiro ny kaody miafina :')
-*/
 
 switch(offre) 
 {            
 	case "YELOW FACEBOBAKA":
 		return CustomKeywords.'ussd.Expected.menu'('Pour confirmer le paiement de l offre '+offre+' a '+montant+' Ar via MVola pour acceder a 400 Mo de forfait Instagram et Facebook , entrer code secret :',
-			'Nividy '+offre+' misy 250 Mo Facebook sy Instagram @ vidiny '+montant+' Ar avy @ kaonty MVola nao ianao, ampidiro ny kaody miafinao hanamarina izany :')
+			'Nividy '+offre+' misy 400 Mo Facebook sy Instagram @ vidiny '+montant+' Ar avy @ kaonty MVola nao ianao, ampidiro ny kaody miafinao hanamarina izany :')
 	break;
 	case "YELOW FACEBOOBAKA \\+":
 		return CustomKeywords.'ussd.Expected.menu'('Pour confirmer le paiement de l offre '+offre+' a '+montant+' Ar via MVola pour acceder a 2 Go de forfait Instagram et Facebook , entrer code secret :',

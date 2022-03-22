@@ -21,7 +21,7 @@
          <id>04a85e49-2bf9-40e1-897f-ef9a5e93b77b</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>15</value>
+            <value>14</value>
          </iterationEntity>
          <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
       </testDataLink>
