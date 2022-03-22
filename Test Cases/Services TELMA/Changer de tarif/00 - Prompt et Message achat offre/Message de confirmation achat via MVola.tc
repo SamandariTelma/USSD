@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Message de confirmation achat via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>142edb83-aec4-4cec-a66b-05672e8c47c3</testCaseGuid>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>b1ca2703-8329-40f7-8b14-a598320f5823</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+   <variable>
+      <defaultValue>'MORA 500'</defaultValue>
+      <description></description>
+      <id>15eeeacc-5681-45df-8d2f-e1c1efc70109</id>
+      <masked>false</masked>
+      <name>offre</name>
+   </variable>
+</TestCaseEntity>

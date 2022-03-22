@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>demo ddt</name>
+   <name>DDT - OFFRE</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>6cfea227-0dc6-472a-8e15-14a6f127f35e</dataFileGUID>
-   <dataSourceUrl>D:\Utilisateurs\samandari\QA\PROJET AUTOMATISATION\USSD\USSD TELMA\dataTest.xlsx</dataSourceUrl>
+   <dataSourceUrl>D:\Utilisateurs\samandari\QA\PROJET AUTOMATISATION\USSD\USSD TELMA\Data Files\Acheter une offre\dataTest-Offres.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <properties>

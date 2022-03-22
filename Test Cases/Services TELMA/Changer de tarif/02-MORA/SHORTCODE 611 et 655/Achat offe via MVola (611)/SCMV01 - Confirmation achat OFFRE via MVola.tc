@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMV01 - Confirmation achat OFFRE via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7dae1f0a-34fe-4527-8d5a-6197917275c3</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>e9b65128-ba46-4ed7-9bc4-b69829843185</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>0e420267-069c-4f95-b028-b1be341e6ed4</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>89271ab3-69da-4d5b-bc57-8ae264902d2c</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+   <variable>
+      <defaultValue>'MORA 500'</defaultValue>
+      <description></description>
+      <id>9d4146ff-1634-4e9f-b3d4-9279822c2373</id>
+      <masked>false</masked>
+      <name>offre</name>
+   </variable>
+   <variable>
+      <defaultValue>'20'</defaultValue>
+      <description></description>
+      <id>4c7adb6e-6d15-4c26-a451-36e747a3eb9a</id>
+      <masked>false</masked>
+      <name>tarifCode</name>
+   </variable>
+</TestCaseEntity>

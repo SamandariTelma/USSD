@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVF01 - Confirmation achat FIRST via MVola</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b937ad3b-4017-4eed-aae8-17b98d10393e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>a326151e-bdff-4ed2-ab3f-6dac9c1f85c0</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>0f886e34-cfe7-4afd-b078-44bfb6cb6da6</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>bed1a64e-4e58-48a5-9427-7402ba3454b8</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+   <variable>
+      <defaultValue>'MORA 500'</defaultValue>
+      <description></description>
+      <id>07206fe3-5dd1-43c8-8d8a-3a70acfd462e</id>
+      <masked>false</masked>
+      <name>offre</name>
+   </variable>
+   <variable>
+      <defaultValue>'20'</defaultValue>
+      <description></description>
+      <id>2551b88b-fbbe-419a-b0ff-7bc95d90c8e8</id>
+      <masked>false</masked>
+      <name>tarifCode</name>
+   </variable>
+</TestCaseEntity>

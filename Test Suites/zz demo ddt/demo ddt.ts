@@ -12,48 +12,48 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>85868ccd-951d-46f2-82df-9beb1c76be87</testSuiteGuid>
    <testCaseLink>
-      <guid>ca8cfa5b-ccc1-4b10-a936-0697eee4d50f</guid>
+      <guid>641cef27-e876-40d5-80ce-3e9e9c7f0ec9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/zz - Demo ddt/SCMVM01 - Confirmation achat MORA via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Achat offe via MVola (611)/SCMV01 - Confirmation achat OFFRE via MVola</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>86c96855-03c0-4def-91d5-f73bde9cfc4b</id>
+         <id>04a85e49-2bf9-40e1-897f-ef9a5e93b77b</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>4</value>
+            <iterationType>ALL</iterationType>
+            <value>15</value>
          </iterationEntity>
-         <testDataId>Data Files/demo ddt</testDataId>
+         <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>12bb809b-9ef3-4172-9dc9-53e0d2b2f62c</variableId>
+         <variableId>e9b65128-ba46-4ed7-9bc4-b69829843185</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0bfd633c-b459-4339-a00a-fda77b3db456</variableId>
+         <variableId>0e420267-069c-4f95-b028-b1be341e6ed4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>86c96855-03c0-4def-91d5-f73bde9cfc4b</testDataLinkId>
+         <testDataLinkId>04a85e49-2bf9-40e1-897f-ef9a5e93b77b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>montant</value>
-         <variableId>cc3b1398-24a6-4ff1-81ff-669068f21c42</variableId>
+         <variableId>89271ab3-69da-4d5b-bc57-8ae264902d2c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>86c96855-03c0-4def-91d5-f73bde9cfc4b</testDataLinkId>
+         <testDataLinkId>04a85e49-2bf9-40e1-897f-ef9a5e93b77b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>offre</value>
-         <variableId>ac0e550f-3d83-4afc-a463-d4ff52059635</variableId>
+         <variableId>9d4146ff-1634-4e9f-b3d4-9279822c2373</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>86c96855-03c0-4def-91d5-f73bde9cfc4b</testDataLinkId>
+         <testDataLinkId>04a85e49-2bf9-40e1-897f-ef9a5e93b77b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>tarifCode</value>
-         <variableId>673e43c7-d17e-406d-8176-ddc9c6952dc0</variableId>
+         <variableId>4c7adb6e-6d15-4c26-a451-36e747a3eb9a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
