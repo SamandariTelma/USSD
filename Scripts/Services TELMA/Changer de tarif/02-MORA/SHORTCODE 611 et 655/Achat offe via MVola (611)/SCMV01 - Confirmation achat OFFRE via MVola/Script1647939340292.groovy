@@ -26,6 +26,7 @@ String offre = "$offre"
 
 String tarifCode = "$tarifCode"
 
+
 numeroRecepteur = CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 'En tant que GP, j\'effectue un achat offre (MORA/FIRST/YELOW/TELMA NET) via Mvola:  *611*tarifCodeMora*1#'

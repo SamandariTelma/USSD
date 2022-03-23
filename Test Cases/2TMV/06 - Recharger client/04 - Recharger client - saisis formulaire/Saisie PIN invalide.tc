@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Saisie PIN invalide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8770a931-01b4-4502-be14-8792596fdee0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRevendeur</defaultValue>
+      <description></description>
+      <id>ccb8b702-5cf3-4213-864c-9989502cd21e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnClientGP</defaultValue>
+      <description></description>
+      <id>616bf3af-43d9-4495-882a-5418fde9154c</id>
+      <masked>false</masked>
+      <name>numeroARecharger</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.pinEnvoyeur</defaultValue>
+      <description></description>
+      <id>c67cc0d3-473b-49e8-8c6b-207ca43e7a57</id>
+      <masked>false</masked>
+      <name>codeNumeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

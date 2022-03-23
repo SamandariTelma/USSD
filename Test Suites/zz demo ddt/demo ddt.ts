@@ -18,10 +18,10 @@
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Achat offe via MVola (611)/SCMV01 - Confirmation achat OFFRE via MVola</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>04a85e49-2bf9-40e1-897f-ef9a5e93b77b</id>
+         <id>85d193c5-bd7a-449b-9407-44307de62ca4</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value>14</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
       </testDataLink>
@@ -38,19 +38,19 @@
          <variableId>0e420267-069c-4f95-b028-b1be341e6ed4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>04a85e49-2bf9-40e1-897f-ef9a5e93b77b</testDataLinkId>
+         <testDataLinkId>85d193c5-bd7a-449b-9407-44307de62ca4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>montant</value>
          <variableId>89271ab3-69da-4d5b-bc57-8ae264902d2c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>04a85e49-2bf9-40e1-897f-ef9a5e93b77b</testDataLinkId>
+         <testDataLinkId>85d193c5-bd7a-449b-9407-44307de62ca4</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>offre</value>
+         <value>nomOffreConfirmationMvola</value>
          <variableId>9d4146ff-1634-4e9f-b3d4-9279822c2373</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>04a85e49-2bf9-40e1-897f-ef9a5e93b77b</testDataLinkId>
+         <testDataLinkId>85d193c5-bd7a-449b-9407-44307de62ca4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>tarifCode</value>
          <variableId>4c7adb6e-6d15-4c26-a451-36e747a3eb9a</variableId>

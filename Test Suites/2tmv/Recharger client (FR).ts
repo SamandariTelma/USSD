@@ -150,6 +150,30 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>b653ee51-9ca5-496e-aadd-d7bc985d9302</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/2TMV/06 - Recharger client/04 - Recharger client - saisis formulaire/Saisie PIN invalide</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ccb8b702-5cf3-4213-864c-9989502cd21e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>616bf3af-43d9-4495-882a-5418fde9154c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c67cc0d3-473b-49e8-8c6b-207ca43e7a57</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>8de8c3f0-5236-4506-a503-e85cfbdb2be6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
