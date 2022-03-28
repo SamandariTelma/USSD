@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>01-Achat MORA pour soi - MORA 500</name>
+   <name>01-Achat OFFRE pour soi via Credit</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e6aeaf5d-7397-4428-8a22-8bf342e43f73</testCaseGuid>
@@ -60,5 +60,19 @@
       <id>bf1edee8-7d74-4d8a-a4bb-9970187542f1</id>
       <masked>false</masked>
       <name>volumeData</name>
+   </variable>
+   <variable>
+      <defaultValue>'non'</defaultValue>
+      <description></description>
+      <id>4294e601-0407-4731-ac66-3ab4e44ab50a</id>
+      <masked>false</masked>
+      <name>confirmation</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>4d5aee76-4f7f-4e95-9630-a4b56a2c26e1</id>
+      <masked>false</masked>
+      <name>validite</name>
    </variable>
 </TestCaseEntity>

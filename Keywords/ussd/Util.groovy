@@ -136,6 +136,13 @@ public class Util {
 		return nombre.replace(",", " ")
 	}
 	@Keyword
+	String separateThousand(int number,String separatorFormat)
+	{
+		NumberFormat formatter = NumberFormat.getInstance(new Locale("en_US"))
+		String nombre=formatter.format(number)
+		return nombre.replace(",", separatorFormat)
+	}
+	@Keyword
 	String escapeCharRegex(String str)
 	{
 		String specialCharRegex = /[\W_&&[^\s]]/

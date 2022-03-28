@@ -19,4 +19,11 @@
       <masked>false</masked>
       <name>offre</name>
    </variable>
+   <variable>
+      <defaultValue>'0 Mo'</defaultValue>
+      <description></description>
+      <id>cd9977a1-f68e-443d-967c-9bc32f7de422</id>
+      <masked>false</masked>
+      <name>volumeData</name>
+   </variable>
 </TestCaseEntity>

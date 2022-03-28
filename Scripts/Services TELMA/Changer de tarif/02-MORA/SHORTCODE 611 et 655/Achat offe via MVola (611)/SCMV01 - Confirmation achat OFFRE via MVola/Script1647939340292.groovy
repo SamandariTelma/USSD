@@ -26,6 +26,8 @@ String offre = "$offre"
 
 String tarifCode = "$tarifCode"
 
+String volumeData = "${volumeData}"
+
 
 numeroRecepteur = CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
@@ -34,7 +36,7 @@ String actualMenu = CustomKeywords.'ussd.Send.code'(((GlobalVariable.shortCodeDi
 
 'Vérifier la conformité du message'
 String menu = WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/00 - Prompt et Message achat offre/Message de confirmation achat via MVola'), 
-    [('montant') : montant, ('offre') : offre], FailureHandling.CONTINUE_ON_FAILURE)
+    [('montant') : montant, ('offre') : offre, ('volumeData') : volumeData], FailureHandling.CONTINUE_ON_FAILURE)
 
 WS.verifyMatch(actualMenu, menu, true)
 

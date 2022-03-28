@@ -40,4 +40,11 @@
       <masked>false</masked>
       <name>tarifCode</name>
    </variable>
+   <variable>
+      <defaultValue>'0 Mo'</defaultValue>
+      <description></description>
+      <id>9f3dc728-41ec-4460-bb75-2e0717a5bc26</id>
+      <masked>false</masked>
+      <name>volumeData</name>
+   </variable>
 </TestCaseEntity>

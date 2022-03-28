@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Message de confirmation achat via Credit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9af4fdb5-df19-44b4-8927-c00fb4c3f2a3</testCaseGuid>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>ce24b094-0fee-4d0a-9265-d825e59c2ce7</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+   <variable>
+      <defaultValue>'MORA 500'</defaultValue>
+      <description></description>
+      <id>0b1ac8a3-b9ee-438a-89f0-7bd7e60158a9</id>
+      <masked>false</masked>
+      <name>offre</name>
+   </variable>
+   <variable>
+      <defaultValue>'MORA'</defaultValue>
+      <description></description>
+      <id>a8a7fbfc-d120-4e3c-bb64-e90731ffdae0</id>
+      <masked>false</masked>
+      <name>groupeOffre</name>
+   </variable>
+   <variable>
+      <defaultValue>'0 Mo'</defaultValue>
+      <description></description>
+      <id>996aa6a9-401f-42ad-8538-c6703ac5d095</id>
+      <masked>false</masked>
+      <name>volumeData</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>ad75d663-e285-4639-880b-09b1a5f4254b</id>
+      <masked>false</masked>
+      <name>validite</name>
+   </variable>
+</TestCaseEntity>

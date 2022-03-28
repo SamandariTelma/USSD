@@ -14,14 +14,14 @@
    <testCaseLink>
       <guid>641cef27-e876-40d5-80ce-3e9e9c7f0ec9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/02-MORA/SHORTCODE 611 et 655/Achat offe via MVola (611)/SCMV01 - Confirmation achat OFFRE via MVola</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>85d193c5-bd7a-449b-9407-44307de62ca4</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>2</value>
+            <iterationType>RANGE</iterationType>
+            <value>20-26</value>
          </iterationEntity>
          <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
       </testDataLink>
@@ -54,6 +54,87 @@
          <type>DATA_COLUMN</type>
          <value>tarifCode</value>
          <variableId>4c7adb6e-6d15-4c26-a451-36e747a3eb9a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>85d193c5-bd7a-449b-9407-44307de62ca4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>volumeData</value>
+         <variableId>9f3dc728-41ec-4460-bb75-2e0717a5bc26</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cafaffac-9db3-4ccb-bcc5-129f313c8bba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/Achat Offre MORA, FRIST, YELOW, TELMA NET/01-Achat OFFRE pour soi via Credit</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d28281cb-6c5e-4b25-b1c0-c070dfe088f5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>14,17,18</value>
+         </iterationEntity>
+         <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ef9f8af8-f4ed-4eb1-ac6a-5871f9334c34</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d28281cb-6c5e-4b25-b1c0-c070dfe088f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nomOffreConfirmationMvola</value>
+         <variableId>1aeb8a0c-72dc-49ae-b29e-5c512b978217</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d28281cb-6c5e-4b25-b1c0-c070dfe088f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>groupeOffre</value>
+         <variableId>1a069773-fdac-48de-a81b-6bd27fd06486</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d28281cb-6c5e-4b25-b1c0-c070dfe088f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>montant</value>
+         <variableId>8bfaf789-7ea7-4f41-b7d7-2d68182fcf1d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d28281cb-6c5e-4b25-b1c0-c070dfe088f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>rangMenu</value>
+         <variableId>225e8ab6-e98f-48f3-ba52-a2139e2a359a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d28281cb-6c5e-4b25-b1c0-c070dfe088f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>rangOffreNivI</value>
+         <variableId>28028431-7362-4f54-9eb3-4ad610f3599a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d28281cb-6c5e-4b25-b1c0-c070dfe088f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>rangOffreNivII</value>
+         <variableId>63a51e34-165c-4045-87e4-dd0c26dc90fd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d28281cb-6c5e-4b25-b1c0-c070dfe088f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>volumeData</value>
+         <variableId>bf1edee8-7d74-4d8a-a4bb-9970187542f1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d28281cb-6c5e-4b25-b1c0-c070dfe088f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>confirmationAchat</value>
+         <variableId>4294e601-0407-4731-ac66-3ab4e44ab50a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d28281cb-6c5e-4b25-b1c0-c070dfe088f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>validite (j)</value>
+         <variableId>4d5aee76-4f7f-4e95-9630-a4b56a2c26e1</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
