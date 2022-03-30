@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>85d193c5-bd7a-449b-9407-44307de62ca4</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>20-26</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>14,16,18</value>
          </iterationEntity>
          <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
       </testDataLink>
@@ -46,7 +46,7 @@
       <variableLink>
          <testDataLinkId>85d193c5-bd7a-449b-9407-44307de62ca4</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>nomOffreConfirmationMvola</value>
+         <value>nomOffre</value>
          <variableId>9d4146ff-1634-4e9f-b3d4-9279822c2373</variableId>
       </variableLink>
       <variableLink>
@@ -71,8 +71,8 @@
          <combinationType>ONE</combinationType>
          <id>d28281cb-6c5e-4b25-b1c0-c070dfe088f5</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value>14,17,18</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
       </testDataLink>
@@ -85,7 +85,7 @@
       <variableLink>
          <testDataLinkId>d28281cb-6c5e-4b25-b1c0-c070dfe088f5</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>nomOffreConfirmationMvola</value>
+         <value>nomOffre</value>
          <variableId>1aeb8a0c-72dc-49ae-b29e-5c512b978217</variableId>
       </variableLink>
       <variableLink>

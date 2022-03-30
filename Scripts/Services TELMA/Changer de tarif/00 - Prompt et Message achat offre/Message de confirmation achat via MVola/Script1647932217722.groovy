@@ -25,11 +25,15 @@ offre = CustomKeywords.'ussd.Util.escapeCharRegex'(offre)
 switch(offre) 
 {            
 	case "YELOW FACEBOBAKA":
-		return CustomKeywords.'ussd.Expected.menu'('Pour confirmer le paiement de l offre '+offre+' a '+montant+' Ar via MVola pour acceder a '+volumeData+' de forfait Instagram et Facebook , entrer code secret :',
+		return CustomKeywords.'ussd.Expected.menu'('Pour confirmer le paiement de l offre '+offre+' a '+montant+' Ar via MVola pour acceder a '+volumeData+' de forfait Instagram \\& Facebook , entrer code secret :',
 			'Nividy '+offre+' misy 400 Mo Facebook sy Instagram @ vidiny '+montant+' Ar avy @ kaonty MVola nao ianao, ampidiro ny kaody miafinao hanamarina izany :')
 	break;
 	case "YELOW FACEBOOBAKA \\+":
-		return CustomKeywords.'ussd.Expected.menu'('Pour confirmer le paiement de l offre '+offre+' a '+montant+' Ar via MVola pour acceder a '+volumeData+' de forfait Instagram et Facebook , entrer code secret :',
+		return CustomKeywords.'ussd.Expected.menu'('Pour confirmer le paiement de l offre '+offre+' a '+montant+' Ar via MVola pour acceder a '+volumeData+' de forfait Instagram \\& Facebook , entrer code secret :',
+			'Nividy '+offre+' misy 2 Go Facebook sy Instagram @ vidiny '+montant+' Ar avy @ kaonty MVola nao ianao, ampidiro ny kaody miafinao hanamarina izany :')
+	break;
+	case "YELOW FACEBOOBAKA ONE":
+		return CustomKeywords.'ussd.Expected.menu'('Pour confirmer le paiement de l\'offre '+offre+' a '+montant+' Ar via MVola pour acceder a '+volumeData+' de forfait Instagram et Facebook , entrer code secret :',
 			'Nividy '+offre+' misy 2 Go Facebook sy Instagram @ vidiny '+montant+' Ar avy @ kaonty MVola nao ianao, ampidiro ny kaody miafinao hanamarina izany :')
 	break;
 	default:

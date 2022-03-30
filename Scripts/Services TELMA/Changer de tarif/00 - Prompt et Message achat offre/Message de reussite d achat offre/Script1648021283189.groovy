@@ -40,6 +40,23 @@ switch(groupeOffre)
 			break;
 		}
 	break;
+	//------------------------------------------------*FIRST*--------------------------------------------------
+	case "FIRST" :
+		switch(offre)
+		{
+			case "FIRST PREMIUM":
+				return CustomKeywords.'ussd.Expected.menu'('BRAVO! Grace a l achat de l offre '+offre+', TELMA vous offre un bonus NET ONE WEEK 1,5 Go\\. Consultez vos bonus sur #359#\\. TELMA N1 des KADOA\\.',
+					'ARAHABAINA! Noho ny fividiananao ny tolotra '+offre+', TELMA dia manolotra anao bonus NET ONE WEEK 1,5Go\\. Araho ny bonus\\-nao @ #359#\\. TELMA N1 ny KADOA\\.')
+			break;
+			case "FIRST PREMIUM \\+":
+				return CustomKeywords.'ussd.Expected.menu'('L achat de votre FIRST PREMIUM\\+ est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois un bonus kadoa de 20%\\.Tapez vite le #111\\*1#\\.',
+					'Tafiditra ny tolotra FIRST PREMIUM\\+ novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao ary mahazoa hatrany Bonus kadoa 20%\\. Tsindrio ny #111\\*1#\\.')
+			break;
+			default:
+				return CustomKeywords.'ussd.Expected.menu'('L achat de votre '+offre+' est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois un bonus kadoa de 20%\\.Tapez vite le #111\\*1#\\.',
+					'Tafiditra ny tolotra '+offre+' novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao  ary mahazoa hatrany Bonus kadoa 20%\\. Tsindrio ny #111\\*1#\\.')
+			break;
+		}
 	//------------------------------------------------*YELOW*--------------------------------------------------
 	case "YELOW" :
 		switch(offre)

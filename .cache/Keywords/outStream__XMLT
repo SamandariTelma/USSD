@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "3A6A88B1C96A69AA5E58F3DC77D13C31",
+  "keywordFileContentHash": "584CF7F21290774298A1B41EC33F2BF0",
   "keywordClasses": [
     {
-      "name": "outStream.XML",
+      "name": "outStream.XMLT",
       "keywordMethods": [
         {
           "name": "setDateBundle",
@@ -46,7 +46,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "getDateBundle",
@@ -64,7 +65,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "getTimeBundle",
@@ -82,10 +84,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

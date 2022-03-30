@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Date d expiration offres</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa24bca5-c736-426b-970b-a595ba4afea8</testCaseGuid>
+   <variable>
+      <defaultValue>'MORA 500'</defaultValue>
+      <description></description>
+      <id>ff49051c-ec82-4374-96c6-cc4a6fb625c4</id>
+      <masked>false</masked>
+      <name>offre</name>
+   </variable>
+</TestCaseEntity>
