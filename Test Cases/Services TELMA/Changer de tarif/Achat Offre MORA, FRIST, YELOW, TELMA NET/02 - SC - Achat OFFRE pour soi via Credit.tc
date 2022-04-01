@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02 - SC - Achat OFFRE pour soi via Credit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c43f59e-17f7-4ae0-a5a9-a908c9160606</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>4dcaefc6-fe5a-411c-9b4b-75fbcce1cd6a</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>69aedf4f-a0e6-4220-93e8-bb44028a1900</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>17ea5f06-650b-420e-b8e1-172bfa4c40bb</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+   <variable>
+      <defaultValue>'MORA 500'</defaultValue>
+      <description></description>
+      <id>e5cf6366-dc34-4807-ac97-b6b1ae6456bc</id>
+      <masked>false</masked>
+      <name>offre</name>
+   </variable>
+   <variable>
+      <defaultValue>'MORA'</defaultValue>
+      <description></description>
+      <id>197bf794-d173-459b-a56d-b6c7ce5eec62</id>
+      <masked>false</masked>
+      <name>groupeOffre</name>
+   </variable>
+   <variable>
+      <defaultValue>'20'</defaultValue>
+      <description></description>
+      <id>bbe5e01d-700f-49ad-9df1-870b93f5a677</id>
+      <masked>false</masked>
+      <name>tarifCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'0 Mo'</defaultValue>
+      <description></description>
+      <id>7549b850-2235-412b-921e-b587ca384541</id>
+      <masked>false</masked>
+      <name>volumeData</name>
+   </variable>
+</TestCaseEntity>

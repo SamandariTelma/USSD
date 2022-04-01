@@ -65,14 +65,14 @@
    <testCaseLink>
       <guid>cafaffac-9db3-4ccb-bcc5-129f313c8bba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/Achat Offre MORA, FRIST, YELOW, TELMA NET/01-Achat OFFRE pour soi via Credit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d28281cb-6c5e-4b25-b1c0-c070dfe088f5</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
+            <value>9,10,11</value>
          </iterationEntity>
          <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
       </testDataLink>
@@ -135,6 +135,63 @@
          <type>DATA_COLUMN</type>
          <value>validite (j)</value>
          <variableId>4d5aee76-4f7f-4e95-9630-a4b56a2c26e1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>14c7ca41-89c4-4f6a-8553-e5e97b2702a6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/Achat Offre MORA, FRIST, YELOW, TELMA NET/02 - SC - Achat OFFRE pour soi via Credit</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>10d1540e-ffcf-4a61-9e4b-9ff2c54c4ee0</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4dcaefc6-fe5a-411c-9b4b-75fbcce1cd6a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>69aedf4f-a0e6-4220-93e8-bb44028a1900</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>10d1540e-ffcf-4a61-9e4b-9ff2c54c4ee0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>montant</value>
+         <variableId>17ea5f06-650b-420e-b8e1-172bfa4c40bb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>10d1540e-ffcf-4a61-9e4b-9ff2c54c4ee0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nomOffre</value>
+         <variableId>e5cf6366-dc34-4807-ac97-b6b1ae6456bc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>10d1540e-ffcf-4a61-9e4b-9ff2c54c4ee0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>groupeOffre</value>
+         <variableId>197bf794-d173-459b-a56d-b6c7ce5eec62</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>10d1540e-ffcf-4a61-9e4b-9ff2c54c4ee0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>tarifCode</value>
+         <variableId>bbe5e01d-700f-49ad-9df1-870b93f5a677</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>10d1540e-ffcf-4a61-9e4b-9ff2c54c4ee0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>volumeData</value>
+         <variableId>7549b850-2235-412b-921e-b587ca384541</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
