@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Info conso OFFRES TELMA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca544554-9565-4078-9ebb-e2567a6425b5</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>39bb496e-e714-40c2-9b38-fb98c05579e0</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
