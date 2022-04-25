@@ -21,7 +21,7 @@
          <id>85d193c5-bd7a-449b-9407-44307de62ca4</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>14,16,18</value>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
       </testDataLink>
@@ -65,14 +65,14 @@
    <testCaseLink>
       <guid>cafaffac-9db3-4ccb-bcc5-129f313c8bba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/Achat Offre MORA, FRIST, YELOW, TELMA NET/01-Achat OFFRE pour soi via Credit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d28281cb-6c5e-4b25-b1c0-c070dfe088f5</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>9,10,11</value>
+            <value>11</value>
          </iterationEntity>
          <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
       </testDataLink>
@@ -140,7 +140,7 @@
    <testCaseLink>
       <guid>14c7ca41-89c4-4f6a-8553-e5e97b2702a6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/Achat Offre MORA, FRIST, YELOW, TELMA NET/02 - SC - Achat OFFRE pour soi via Credit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
