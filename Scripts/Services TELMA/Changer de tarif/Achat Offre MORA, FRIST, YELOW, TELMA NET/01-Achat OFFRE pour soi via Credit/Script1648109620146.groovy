@@ -71,7 +71,6 @@ if (confirmation.equals('oui')) {
     
 }
 
-
 'Vérifier la conformité du menu'
 String menu = WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/00 - Prompt et Message achat offre/Message de reussite d achat offre'), 
     [('montant') : montant, ('offre') : offre, ('groupeOffre') : groupeOffre, ('volumeData') : volumeData], FailureHandling.CONTINUE_ON_FAILURE)

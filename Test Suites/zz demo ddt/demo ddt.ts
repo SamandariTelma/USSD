@@ -72,7 +72,7 @@
          <id>d28281cb-6c5e-4b25-b1c0-c070dfe088f5</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>11</value>
+            <value>28</value>
          </iterationEntity>
          <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
       </testDataLink>

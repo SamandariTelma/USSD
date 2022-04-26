@@ -39,6 +39,10 @@ switch(offre)
 		return CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAKA\\+ : vous avez '+volumeData+' pour acceder a vos videos et photos sur Instagram et Facebook pendant '+validite+' jours pour '+montant+' Ar\\. En profiter\\? 1\\-OUI; 0\\-NON', 
 			'YELOW FACEBOOBAKA \\+: Manana '+volumeData+' ianao ahafahana mampiasa Instagram sy Facebook, manan\\-kery '+validite+' andro @ sarany '+montant+' Ar\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA')
 	break;
+	case "YELOW FACEBOOBAKA ONE":
+		return CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAKA ONE : vous avez '+volumeData+' pour acceder a vos videos et photos sur Instagram et Facebook pendant '+validite+'j pour '+montant+' Ar\\. En profiter\\? 1-OUI; 0-NON',
+			'YELOW FACEBOOBAKA ONE: Manana '+volumeData+' ianao ahafahana mampiasa Instagram sy Facebook, manan\\-kery '+validite+' andro @ sarany '+montant+' Ar\\. Hanararoatra\\? 1\\-ENY ; 0; TSIA')
+	break;
 	default:
 		montant = CustomKeywords.'ussd.Util.separateThousand'(montant.toInteger(), ".")
 		return CustomKeywords.'ussd.Expected.menu'(offre+'! Beneficiez de '+volumeData+' de DATA utilisable a toute heure pendant '+validite+' jours pour seulement '+montant+' Ar\\. En profiter\\? 1\\-OUI; 0 \\- NON',
