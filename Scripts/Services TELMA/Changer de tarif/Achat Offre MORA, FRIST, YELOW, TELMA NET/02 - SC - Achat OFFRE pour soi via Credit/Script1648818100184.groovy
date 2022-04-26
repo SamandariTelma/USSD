@@ -61,4 +61,4 @@ WS.verifyEqual(soldeApresAchatOffre, soldeExcepted)
 //Initialiser la date d'expiration
 WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/00 - Prompt et Message achat offre/Date d expiration offres'), 
     [('offre') : offre], FailureHandling.CONTINUE_ON_FAILURE)
-
+//
