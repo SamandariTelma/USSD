@@ -56,7 +56,7 @@ switch(groupeOffre)
 				break;
 			case "MORA INTERNATIONAL":
 				return CustomKeywords.'ussd.Expected.menu'('L achat du Mora International est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa20% si achat via MVola',
-					'Tafiditra ny Mora International\\.Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa20% raha vidiana @Mvola')
+					'Tafiditra ny Mora International\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa20% raha vidiana @Mvola')
 				break;
 		}
 	break;
@@ -139,7 +139,7 @@ switch(groupeOffre)
 			break;
 			case "NET ONE MONTH 100Go" :
 			return CustomKeywords.'ussd.Expected.menu'('L achat de votre NET ONE MONTH 100 Go est reussi\\. Vous avez '+volumeData+' de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus \\(#111\\*1#\\)\\.',
-				'Tafiditra ny tolotra NET ONE MONTH 100 Go novidianao\\. Manana '+volumeData+' azo ampiasaina @ ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
+				'Tafiditra ny tolotra NET ONE MONTH 100Go novidianao\\. Manana '+volumeData+' azo ampiasaina @ ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
 			break;
 			default : 
 				return CustomKeywords.'ussd.Expected.menu'('L achat de votre '+offre+' est reussi\\. Vous avez '+volumeData+' de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus\\. \\(#111\\*1#\\)\\.',
