@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>85d193c5-bd7a-449b-9407-44307de62ca4</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
+            <iterationType>RANGE</iterationType>
+            <value>2-31</value>
          </iterationEntity>
          <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
       </testDataLink>
@@ -65,7 +65,7 @@
    <testCaseLink>
       <guid>cafaffac-9db3-4ccb-bcc5-129f313c8bba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/Achat Offre MORA, FRIST, YELOW, TELMA NET/01-Achat OFFRE pour soi via Credit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -140,14 +140,14 @@
    <testCaseLink>
       <guid>14c7ca41-89c4-4f6a-8553-e5e97b2702a6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/Achat Offre MORA, FRIST, YELOW, TELMA NET/02 - SC - Achat OFFRE pour soi via Credit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>10d1540e-ffcf-4a61-9e4b-9ff2c54c4ee0</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
+            <value>18</value>
          </iterationEntity>
          <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
       </testDataLink>

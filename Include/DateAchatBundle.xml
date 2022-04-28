@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?><Entity>
   <BundleY200>
-    <heure>14:25</heure>
-    <date>27/04/2022</date>
+    <heure>10:00</heure>
+    <date>28/04/2022</date>
   </BundleY200>
   <BundleYsms>
-    <heure>09:20</heure>
-    <date>27/04/2022</date>
+    <heure>09:59</heure>
+    <date>28/04/2022</date>
   </BundleYsms>
   <BundleYfacebobaka>
-    <heure>10:27</heure>
-    <date>29/04/2022</date>
+    <heure>09:59</heure>
+    <date>30/04/2022</date>
   </BundleYfacebobaka>
   <BundleYfaceboobakaOne>
-    <heure>14:16</heure>
-    <date>03/05/2022</date>
+    <heure>09:59</heure>
+    <date>04/05/2022</date>
   </BundleYfaceboobakaOne>
   <BundleYfaceboobaka>
-    <heure>14:41</heure>
-    <date>10/05/2022</date>
+    <heure>11:12</heure>
+    <date>11/05/2022</date>
   </BundleYfaceboobaka>
   <BundleNetOneWeek350>
     <heure>23:59</heure>
-    <date>02/05/2022</date>
+    <date>03/05/2022</date>
   </BundleNetOneWeek350>
   <BundleNetOneWeek800>
     <heure>23:59</heure>
-    <date>02/05/2022</date>
+    <date>03/05/2022</date>
   </BundleNetOneWeek800>
   <BundleNetOneWeek2>
     <heure>23:59</heure>
-    <date>02/05/2022</date>
+    <date>03/05/2022</date>
   </BundleNetOneWeek2>
   <BundleNetOneMonth2>
     <heure>23:59</heure>
-    <date>25/05/2022</date>
+    <date>26/05/2022</date>
   </BundleNetOneMonth2>
   <BundleNetOneMonth4>
     <heure>23:59</heure>
-    <date>25/05/2022</date>
+    <date>26/05/2022</date>
   </BundleNetOneMonth4>
   <BundleNetOneMonth12>
     <heure>23:59</heure>
-    <date>25/05/2022</date>
+    <date>26/05/2022</date>
   </BundleNetOneMonth12>
   <BundleNetOneMonth25>
     <heure>23:59</heure>
-    <date>25/05/2022</date>
+    <date>26/05/2022</date>
   </BundleNetOneMonth25>
   <BundleNetOneMonth50>
     <heure>23:59</heure>
-    <date>25/05/2022</date>
+    <date>26/05/2022</date>
   </BundleNetOneMonth50>
   <BundleNetOneMonth100>
     <heure>23:59</heure>
-    <date>25/05/2022</date>
+    <date>26/05/2022</date>
   </BundleNetOneMonth100>
 </Entity>
