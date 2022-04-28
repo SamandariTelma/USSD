@@ -28,8 +28,9 @@ println("OFFRE -------------------"+offre+"-----------------")
 switch(offre) 
 {            
 	case "YELOW ONE":
+		montant = CustomKeywords.'ussd.Util.separateThousand'(montant.toInteger(), ".")
 		return CustomKeywords.'ussd.Expected.menu'('YELOW ONE ! Beneficiez de '+volumeData+' de DATA utilisable a toute heure pour '+montant+' Ar/ jour\\. En profiter\\? 1\\-OUI; 0 \\- NON',
-			'YELOW ONE! Mahazoa '+volumeData+' DATA azo ampiasaina @ ora rehetra @ sarany '+montant+' Ar monja\\. Hanararoatra\\? 1\\-ENY ; 0\\-TSIA ')
+			'YELOW ONE! Mahazoa '+volumeData+' DATA azo ampiasaina @ ora rehetra @ sarany '+montant+' Ar monja\\. Hanararoatra\\? 1\\-ENY ; 0\\-TSIA')
 	break;
 	case "YELOW FACEBOBAKA":
 		return CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAKA : vous avez '+volumeData+' pour acceder a vos videos et photos sur Instagram et Facebook pendant '+validite+'j pour '+montant+' Ar\\. En profiter\\? 1\\-OUI; 0\\-NON',
@@ -42,6 +43,31 @@ switch(offre)
 	case "YELOW FACEBOOBAKA ONE":
 		return CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAKA ONE : vous avez '+volumeData+' pour acceder a vos videos et photos sur Instagram et Facebook pendant '+validite+'j pour '+montant+' Ar\\. En profiter\\? 1-OUI; 0-NON',
 			'YELOW FACEBOOBAKA ONE: Manana '+volumeData+' ianao ahafahana mampiasa Instagram sy Facebook, manan\\-kery '+validite+' andro @ sarany '+montant+' Ar\\. Hanararoatra\\? 1\\-ENY ; 0; TSIA')
+	break;
+	case "NET ONE WEEK 800 Mo":
+		montant = CustomKeywords.'ussd.Util.separateThousand'(montant.toInteger(), ".")
+		return CustomKeywords.'ussd.Expected.menu'(offre+'! Beneficiez de '+volumeData+' de DATA utilisable a toute heure pendant '+validite+' jours pour seulement '+montant+' Ar\\. En profiter\\? 1\\-OUI; 0 \\- NON',
+			offre+'! Mahazoa '+volumeData+'  DATA azo ampiasaina @ ora rehetra @ sarany '+montant+'Ar monja mandritry ny '+validite+' andro\\. Hanararoatra\\? 1\\-ENY ; 0\\-TSIA')
+	break;
+	case "NET ONE MONTH 2 Go":
+		montant = CustomKeywords.'ussd.Util.separateThousand'(montant.toInteger(), ".")
+		return CustomKeywords.'ussd.Expected.menu'(offre+'! Beneficiez de '+volumeData+' de DATA utilisable a toute heure pendant '+validite+' jours pour seulement '+montant+' Ar\\. En profiter\\? 1\\-OUI; 0 \\- NON',
+			offre+'! Mahazoa '+volumeData+' DATA azo ampiasaina @ ora rehetra @ sarany '+montant+' Ar monja mandritry ny '+validite+' andro\\. Hanararoatra\\? 1\\-ENY ; 0\\-TSIA')
+	break;
+	case "NET ONE MONTH 4 Go":
+		montant = CustomKeywords.'ussd.Util.separateThousand'(montant.toInteger(), ".")
+		return CustomKeywords.'ussd.Expected.menu'(offre+'! Beneficiez de '+volumeData+' de DATA utilisable a toute heure pendant '+validite+' jours pour seulement '+montant+' Ar\\. En profiter\\? 1\\-OUI; 0 \\- NON',
+			offre+'! Mahazoa '+volumeData+' DATA azo ampiasaina @ ora rehetra @ sarany '+montant+' Ar monja mandritry ny '+validite+' andro\\. Hanararoatra\\? 1\\-ENY ; 0\\-TSIA')
+	break;
+	case "NET ONE MONTH 12 Go":
+		montant = CustomKeywords.'ussd.Util.separateThousand'(montant.toInteger(), ".")
+		return CustomKeywords.'ussd.Expected.menu'(offre+'! Beneficiez de '+volumeData+' de DATA utilisable a toute heure pendant '+validite+' jours pour seulement '+montant+' Ar\\. En profiter\\? 1\\-OUI; 0 \\- NON',
+			offre+'! Mahazoa '+volumeData+' DATA azo ampiasaina @ ora rehetra @ sarany '+montant+' Ar monja mandritry ny '+validite+' andro\\. Hanararoatra\\? 1\\-ENY ; 0\\-TSIA')
+	break;
+	case "NET ONE MONTH 25 Go":
+		montant = CustomKeywords.'ussd.Util.separateThousand'(montant.toInteger(), ".")
+		return CustomKeywords.'ussd.Expected.menu'(offre+'! Beneficiez de '+volumeData+' de DATA utilisable a toute heure pendant '+validite+' jours pour seulement '+montant+' Ar\\. En profiter\\? 1\\-OUI; 0 \\- NON',
+			offre+'! Mahazoa '+volumeData+' DATA azo ampiasaina @ ora rehetra @ sarany '+montant+' Ar monja mandritry ny '+validite+' andro\\. Hanararoatra\\? 1\\-ENY ; 0\\-TSIA')
 	break;
 	default:
 		montant = CustomKeywords.'ussd.Util.separateThousand'(montant.toInteger(), ".")

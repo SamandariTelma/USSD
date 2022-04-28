@@ -30,6 +30,10 @@ String tarifCode = "$tarifCode"
 
 String volumeData = "${volumeData}"
 
+String confirmation = "${confirmation}"
+
+String validite = "${validite}"
+
 
 numeroRecepteur = CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
@@ -42,6 +46,19 @@ int soldeAvant = GlobalVariable.soldeCredit
 'En tant que GP, j\'effectue un achat offre (MORA/FIRST/YELOW/TELMA NET) pour mon compte:  *611*tarifCodeMora#'
 String actualMenu = CustomKeywords.'ussd.Send.code'(((GlobalVariable.shortCodeDirectAchat + '*') + tarifCode) + '#', numeroInitiateur)
 
+//S'il existe de confirmation avant d'acheter un offre
+if (confirmation.equals('oui')) {
+	'Vérifier la conformité du prompt de confirmation'
+	menu = WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/00 - Prompt et Message achat offre/Message de confirmation achat via Credit'),
+		[('montant') : montant, ('offre') : offre, ('groupeOffre') : groupeOffre, ('volumeData') : volumeData, ('validite') : validite],
+		FailureHandling.CONTINUE_ON_FAILURE)
+
+	WS.verifyMatch(actualMenu, menu, true)/*
+	'Je confirme l\'achat en repondant par 1'
+	actualMenu = CustomKeywords.'ussd.Send.response'('1')
+	*/
+}
+/*
 'Vérifier la conformité du menu'
 String menu = WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/00 - Prompt et Message achat offre/Message de reussite d achat offre'), 
     [('montant') : montant, ('offre') : offre, ('groupeOffre') : groupeOffre, ('volumeData') : volumeData], FailureHandling.CONTINUE_ON_FAILURE)
@@ -61,4 +78,5 @@ WS.verifyEqual(soldeApresAchatOffre, soldeExcepted)
 //Initialiser la date d'expiration
 WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/00 - Prompt et Message achat offre/Date d expiration offres'), 
     [('offre') : offre], FailureHandling.CONTINUE_ON_FAILURE)
-//
+*/
+print("fin")

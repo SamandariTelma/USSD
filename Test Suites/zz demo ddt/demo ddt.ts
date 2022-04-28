@@ -147,7 +147,7 @@
          <id>10d1540e-ffcf-4a61-9e4b-9ff2c54c4ee0</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>18</value>
+            <value>24,27</value>
          </iterationEntity>
          <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
       </testDataLink>
@@ -192,6 +192,18 @@
          <type>DATA_COLUMN</type>
          <value>volumeData</value>
          <variableId>7549b850-2235-412b-921e-b587ca384541</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>10d1540e-ffcf-4a61-9e4b-9ff2c54c4ee0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>confirmationAchat</value>
+         <variableId>1f03f7b4-26c4-4150-bff9-06162bc5da40</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>10d1540e-ffcf-4a61-9e4b-9ff2c54c4ee0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>validite (j)</value>
+         <variableId>85576380-f0f8-45cc-8172-d5e9ee01e618</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

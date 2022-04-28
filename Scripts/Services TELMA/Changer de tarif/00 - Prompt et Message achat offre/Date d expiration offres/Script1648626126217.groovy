@@ -33,8 +33,8 @@ switch(offre)
 		CustomKeywords.'outStream.XML.setDateBundle'("yelow sms", dateExpiration, heureExpiration)
 	break;
 	case "YELOW FACEBOBAKA" :
-		String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(3,'dd/MM/yyy')
-		String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(3,'HH:mm')
+		String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(2,'dd/MM/yyy')
+		String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(2,'HH:mm')
 		CustomKeywords.'outStream.XML.setDateBundle'("yelow facebobaka", dateExpiration, heureExpiration)
 	break;
 	case "YELOW FACEBOOBAKA ONE" :

@@ -99,7 +99,7 @@ switch(groupeOffre)
 				break;
 			case "YELOW FACEBOBAKA":
 				return CustomKeywords.'ussd.Expected.menu'('L achat du Yelow Facebobaka est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa 20% si achat via MVola',
-					'Tafiditra ny Yelow Facebobaka\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa 20% raha vidiana @Mvola')
+					'Tafiditra ny Yelow Facebobaka\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa20% raha vidiana @MVola')
 				break;
 			case "YELOW FACEBOOBAKA ONE":
 				return CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW FACEBOOBAKA ONE est reussi\\. Bonus restants:#359#\\. Achetez via MVola et gagnez a chaque fois un bonus kadoa de 20%\\. Tapez vite le #111\\*1#\\.',
@@ -127,7 +127,7 @@ switch(groupeOffre)
 			break;
 			case "NET ONE MONTH 2 Go" :
 				return CustomKeywords.'ussd.Expected.menu'('L achat de votre '+offre+' est reussi\\. Vous avez '+volumeData+' de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus \\(#111\\*1#\\)\\.',
-					'Tafiditra ny tolotra '+offre+' novidianao\\. Manana '+volumeData+' azo ampiasaina @ ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
+					'Tafiditra ny tolotra '+offre+' novidianao\\. Manana '+volumeData+' azo ampiasaina @ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
 			break;
 			case "NET ONE MONTH 25 Go" :
 				return CustomKeywords.'ussd.Expected.menu'('L achat de votre '+offre+' est reussi\\. Vous avez '+volumeData+' de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus \\(#111\\*1#\\)\\.',

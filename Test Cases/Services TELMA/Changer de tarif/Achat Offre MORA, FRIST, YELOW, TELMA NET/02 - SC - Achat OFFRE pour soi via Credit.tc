@@ -54,4 +54,18 @@
       <masked>false</masked>
       <name>volumeData</name>
    </variable>
+   <variable>
+      <defaultValue>'non'</defaultValue>
+      <description></description>
+      <id>1f03f7b4-26c4-4150-bff9-06162bc5da40</id>
+      <masked>false</masked>
+      <name>confirmation</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>85576380-f0f8-45cc-8172-d5e9ee01e618</id>
+      <masked>false</masked>
+      <name>validite</name>
+   </variable>
 </TestCaseEntity>
