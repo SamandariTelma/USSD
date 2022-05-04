@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Liste des offres achetés</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>296ef971-2dc0-4755-ad4a-2c31b9596ffa</testCaseGuid>
+   <variable>
+      <defaultValue>'MORA 500'</defaultValue>
+      <description></description>
+      <id>388d86b9-8a22-4d93-8d11-d69c6a75a815</id>
+      <masked>false</masked>
+      <name>offre</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>39dda038-efa4-4116-b60a-b40cb849df66</id>
+      <masked>false</masked>
+      <name>actualMenu</name>
+   </variable>
+</TestCaseEntity>

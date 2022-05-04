@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>01-Info conso OFFRES TELMA</name>
+   <name>Message info conso offre</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ca544554-9565-4078-9ebb-e2567a6425b5</testCaseGuid>
-   <variable>
-      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
-      <description></description>
-      <id>39bb496e-e714-40c2-9b38-fb98c05579e0</id>
-      <masked>false</masked>
-      <name>numeroInitiateur</name>
-   </variable>
+   <testCaseGuid>2a330ef1-4afc-47fa-a800-23bc483cc367</testCaseGuid>
    <variable>
       <defaultValue>'MORA 500'</defaultValue>
       <description></description>
-      <id>eee66850-0bde-4563-9fd1-7c9b166142d9</id>
+      <id>8d954aa4-9925-46c5-b53a-580b3d45d6f8</id>
       <masked>false</masked>
       <name>offre</name>
    </variable>
    <variable>
       <defaultValue>'MORA'</defaultValue>
       <description></description>
-      <id>c33d04b6-7511-4143-b3de-447e5f87ac6a</id>
+      <id>72c0b05a-9082-48c2-a712-a229af695012</id>
       <masked>false</masked>
       <name>groupeOffre</name>
    </variable>

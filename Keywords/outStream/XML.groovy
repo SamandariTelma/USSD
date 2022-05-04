@@ -55,7 +55,7 @@ public class XML {
 				xml.BundleYfaceboobakaOne.date = date;
 				xml.BundleYfaceboobakaOne.heure = time;
 				break;
-				
+
 			case "yelow faceboobaka":
 				xml.BundleYfaceboobaka.date = date;
 				xml.BundleYfaceboobaka.heure = time;
@@ -173,7 +173,7 @@ public class XML {
 			case "yelow facebobaka":
 				return xml.BundleYfacebobaka.heure;
 				break;
-				
+
 			case "yelow faceboobaka one":
 				return xml.BundleYfaceboobakaOne.heure;
 				break;

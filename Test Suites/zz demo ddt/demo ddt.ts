@@ -140,14 +140,14 @@
    <testCaseLink>
       <guid>14c7ca41-89c4-4f6a-8553-e5e97b2702a6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/Achat Offre MORA, FRIST, YELOW, TELMA NET/02 - SC - Achat OFFRE pour soi via Credit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>10d1540e-ffcf-4a61-9e4b-9ff2c54c4ee0</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>24,27</value>
+            <value>23</value>
          </iterationEntity>
          <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
       </testDataLink>
@@ -204,6 +204,39 @@
          <type>DATA_COLUMN</type>
          <value>validite (j)</value>
          <variableId>85576380-f0f8-45cc-8172-d5e9ee01e618</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>38815ddc-3fbe-4733-9a1e-e41208022caf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/Consulter Info Conso/01-Info conso OFFRES TELMA</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>36849adf-bc6f-4195-bd99-a4b9ccfe538b</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>23</value>
+         </iterationEntity>
+         <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>39bb496e-e714-40c2-9b38-fb98c05579e0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>36849adf-bc6f-4195-bd99-a4b9ccfe538b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nomOffre</value>
+         <variableId>eee66850-0bde-4563-9fd1-7c9b166142d9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>36849adf-bc6f-4195-bd99-a4b9ccfe538b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>groupeOffre</value>
+         <variableId>c33d04b6-7511-4143-b3de-447e5f87ac6a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

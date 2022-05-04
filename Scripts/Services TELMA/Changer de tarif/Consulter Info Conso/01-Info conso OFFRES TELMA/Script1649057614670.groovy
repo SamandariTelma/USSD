@@ -15,44 +15,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+String numeroInitiateur = "$numeroInitiateur"
+String offre = "$offre"
+String groupeOffre = "${groupeOffre}"
 
-String numeroInitiateur="${numeroInitiateur}"
+'Après achat Offre avec succès , je consulte mon solde en saisissant #359#'
+String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359 + '#', numeroInitiateur)
 
-
-'Après achat Offre MORA 500 avec succès , je consulte mon solde en saisissant #359#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
+WS.delay(2)
 
 'Je saisis 1 (Mes offres) et valide'
-actualMenu=CustomKeywords.'ussd.Send.response'('1')
+actualMenu = CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier si l\'offre apparait dans la liste offre'
-String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('MORA 500', actualMenu)
+String rangMenu = WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/Consulter Info Conso/Called Test case/Liste des offres achetés'), 
+    [('offre') : offre, ('actualMenu') : actualMenu], FailureHandling.CONTINUE_ON_FAILURE)
 
-'Je saisis le rang du menu MORA 500 et valide'
-actualMenu=CustomKeywords.'ussd.Send.response'(rangMenu)
+'Je saisis le rang de l\'offre affiché dans le menu puis je valide'
+actualMenu = CustomKeywords.'ussd.Send.response'(rangMenu)
+
+'Je saisis 1 (Info conso) et valide'
+actualMenu = CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('MORA 500\n1 Info conso\n2 Etat du renouvellement automatique\n00 Page precedente\n\\*\\* Menu principal',
-	'MORA 500\n1 Info conso\n2 Etat du renouvellement automatique\n00 Pejy aloha\n\\*\\* main')
+String menu = WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/00 - Prompt et Message achat offre/Message info conso offre'), 
+    [('offre') : offre, ('groupeOffre') : groupeOffre,], FailureHandling.CONTINUE_ON_FAILURE)
 
 WS.verifyMatch(actualMenu, menu, true)
 
-'Je saisis 1 (Info conso) à nouveau et valide'
-actualMenu=CustomKeywords.'ussd.Send.response'('1')
-
-'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA 500 restants : 500 Ar appels \\+ 10 SMS Telma et/ou 10 Mo valables a toute heure ET BONUS 10\\.0 SMS Telma et/ou 10\\.0 Mo valable la nuit',
-	'Bonus MORA 500 : 500 Ar antso \\+ 10 SMS Telma sy/na 10 Mo manankery @ ora rehetra ARY BONUS 10\\.0 SMS Telma sy/na 10\\.0 Mo manankery @alina\\.')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-/*
-String actualMenu='Mes offres\n1 MORA ONE\n0 Pejy manaraka'
-
-
-String rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('MORA 500', actualMenu)
-
-println 'RANG MENU:'+rangMenu
-
-WS.verifyMatch('test', 'test', true)
-*/
