@@ -120,30 +120,49 @@ switch(groupeOffre)
 	case "TELMA NET" : 
 		switch(offre)
 		{
+			case "NET ONE NIGHT" : 
+				return CustomKeywords.'ussd.Expected.menu'('NET ONE NIGHT, il vous reste  40\\.0 Mo utlisable de 0H\\-6H et de 21H\\-0H',
+					'NET ONE NIGHT, 40.0 Mo sisa ny bonus-nao azo ampiasaina @ 0H-6H sy 21H-0H')
+			break;
+			case "NET ONE WEEK 350 Mo" :
+				String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("net one week 350 Mo")
+				return CustomKeywords.'ussd.Expected.menu'('NET ONE WEEK 350 Mo, il vous reste 350\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
+					'NET ONE WEEK 350 Mo, 350\\.0  Mo sisa ny bonus\\-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
+			break;
+			case "NET ONE WEEK 800 Mo" :
+				String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("net one week 800 Mo")
+				return CustomKeywords.'ussd.Expected.menu'('NET ONE WEEK 800 Mo, il vous reste 800\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
+					'NET ONE WEEK 800 Mo, 800\\.0  Mo sisa ny bonus\\-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
+			break;
 			case "NET ONE WEEK 2 Go" :
 				String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("net one week 2 Go")
 				return CustomKeywords.'ussd.Expected.menu'('NET ONE WEEK 2 Go, il vous reste 4096\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
 					'NET ONE WEEK 2 Go, 4096\\.0  Mo sisa ny bonus\\-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
+				break;
+			case "NET ONE MONTH 4 Go" :
+				String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("net one month 4 Go")
+				return CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 4 Go, il vous reste 4096\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
+					'NET ONE MONTH 4 Go, 4096\\.0  Mo sisa ny bonus-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
 			break;
-			case "NET ONE NIGHT" : 
-				return CustomKeywords.'ussd.Expected.menu'('L achat de votre '+offre+' est reussi\\. Vous avez '+volumeData+' utilisable de 0h a 6h et de 21h a 00h\\. Achetez via Mvola et gagnez 20% de bonus\\. #111\\*1#\\.',
-					'Tafiditra ny tolotra '+offre+' novidianao\\. Manana '+volumeData+' ianao azo ampiasaina @ 0h\\-6h sy 21h\\-0h\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
-			break;
-			case "NET ONE MONTH 2 Go" :
-				return CustomKeywords.'ussd.Expected.menu'('L achat de votre '+offre+' est reussi\\. Vous avez '+volumeData+' de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus \\(#111\\*1#\\)\\.',
-					'Tafiditra ny tolotra '+offre+' novidianao\\. Manana '+volumeData+' azo ampiasaina @ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
+			case "NET ONE MONTH 12 Go" :
+			String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("net one month 12 Go")
+				return CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 12 Go, il vous reste 12288\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
+					'NET ONE MONTH 12 Go, 12288\\.0  Mo sisa ny bonus-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
 			break;
 			case "NET ONE MONTH 25 Go" :
-				return CustomKeywords.'ussd.Expected.menu'('L achat de votre '+offre+' est reussi\\. Vous avez '+volumeData+' de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus \\(#111\\*1#\\)\\.',
-					'Tafiditra ny tolotra '+offre+' novidianao\\. Manana '+volumeData+' azo ampiasaina @ ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
+			String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("net one month 25 Go")
+				return CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 25 Go, il vous reste 25600\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
+					'NET ONE MONTH 25 Go, 25600\\.0  Mo sisa ny bonus-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
 			break;
-			case "NET ONE MONTH 50Go" :
-			return CustomKeywords.'ussd.Expected.menu'('L achat de votre NET ONE MONTH 50 Go est reussi\\. Vous avez '+volumeData+' de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus \\(#111\\*1#\\)\\.',
-				'Tafiditra ny tolotra NET ONE MONTH 50 Go novidianao\\. Manana '+volumeData+' azo ampiasaina @ ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
+			case "NET ONE MONTH 50 Go" :
+			String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("net one month 50 Go")
+				return CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 50 Go, il vous reste 51200\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
+					'NET ONE MONTH 50 Go, 51200\\.0  Mo sisa ny bonus-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
 			break;
 			case "NET ONE MONTH 100Go" :
-			return CustomKeywords.'ussd.Expected.menu'('L achat de votre NET ONE MONTH 100 Go est reussi\\. Vous avez '+volumeData+' de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus \\(#111\\*1#\\)\\.',
-				'Tafiditra ny tolotra NET ONE MONTH 100Go novidianao\\. Manana '+volumeData+' azo ampiasaina @ ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
+				String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("net one month 100 Go")
+				return CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 100 Go, il vous reste 102400\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
+					'NET ONE MONTH 100 Go, 102400\\.0  Mo sisa ny bonus-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
 			break;
 			default : 
 				return CustomKeywords.'ussd.Expected.menu'('L achat de votre '+offre+' est reussi\\. Vous avez '+volumeData+' de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus\\. \\(#111\\*1#\\)\\.',

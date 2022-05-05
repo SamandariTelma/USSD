@@ -24,11 +24,11 @@ String rangMenu
 
 'Vérifier si l\'offre apparait dans la liste offre'
 switch(offre)
-{
-	case "NET ONE WEEK 2 Go" :
-		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE WEEK 2 Go', actualMenu)
+{	
+	case "FIRST PREMIUM" :
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('FIRST PREMIUM\n', actualMenu)
 		break;
-	case "NET ONE WEEK 2 Gok" :
+	case "NET ONE WEEK 2 Go" :
 		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE WEEK 2Go', actualMenu)
 		break;
 	case "NET ONE MONTH 2 Go" :
@@ -42,12 +42,6 @@ switch(offre)
 		break;
 	case "NET ONE MONTH 25 Go" :
 		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE MONTH 25Go', actualMenu)
-		break;
-	case "NET ONE MONTH 50 Go" :
-		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE MONTH 50Go', actualMenu)
-		break;
-	case "NET ONE MONTH 100 Go" :
-		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE MONTH 100Go', actualMenu)
 		break;
 	default :
 		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'(offre, actualMenu)
