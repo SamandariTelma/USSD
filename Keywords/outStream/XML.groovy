@@ -55,7 +55,10 @@ public class XML {
 				xml.BundleYfaceboobakaOne.date = date;
 				xml.BundleYfaceboobakaOne.heure = time;
 				break;
-
+			case "yelow 1000":
+				xml.BundleY1000.date = date;
+				xml.BundleY1000.heure = time;
+				break;
 			case "yelow faceboobaka":
 				xml.BundleYfaceboobaka.date = date;
 				xml.BundleYfaceboobaka.heure = time;
@@ -125,7 +128,9 @@ public class XML {
 			case "yelow faceboobaka":
 				return xml.BundleYfaceboobaka.date;
 				break;
-
+			case "yelow 1000":
+				return xml.BundleY1000.date;
+				break;
 			case "net one week 350 Mo":
 				return xml.BundleNetOneWeek350.date;
 				break;
@@ -180,6 +185,9 @@ public class XML {
 
 			case "yelow faceboobaka":
 				return xml.BundleYfaceboobaka.heure;
+				break;
+			case "yelow 1000":
+				return xml.BundleY1000.heure;
 				break;
 			case "net one week 350 Mo":
 				return xml.BundleNetOneWeek350.heure;

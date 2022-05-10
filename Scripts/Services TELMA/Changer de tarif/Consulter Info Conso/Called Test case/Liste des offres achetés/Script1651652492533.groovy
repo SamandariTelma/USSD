@@ -28,20 +28,50 @@ switch(offre)
 	case "FIRST PREMIUM" :
 		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('FIRST PREMIUM\n', actualMenu)
 		break;
+	case "YELOW100":
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('YELOW100', actualMenu)
+		break;
+	case "YELOW 200":
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('YELOW 200', actualMenu)
+		break;
+	case "YELOW SMS":
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('YELOW SMS', actualMenu)
+		break;
+	case "YELOW FACEBOBAKA":
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('YELOW FACEBOBAKA', actualMenu)
+		break;
+	case "YELOW FACEBOOBAKA ONE":
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('YELOW FACEBOOBAKA ONE', actualMenu)
+		break;
+	case "YELOW FACEBOOBAKA \\+":
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('YELOW FACEBOOBAKA \\+', actualMenu)
+		break;
+	case "YELOW 1000":
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('YELOW 1000', actualMenu)
+		break;
+	case "YELOW ONE":
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('YELOW ONE', actualMenu)
+		break;
 	case "NET ONE WEEK 2 Go" :
 		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE WEEK 2Go', actualMenu)
 		break;
 	case "NET ONE MONTH 2 Go" :
-		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE MONTH 2Go', actualMenu)
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE MONTH 2 Go', actualMenu)
 		break;
 	case "NET ONE MONTH 4 Go" :
-		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE MONTH 4Go', actualMenu)
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE MONTH 4 Go', actualMenu)
 		break;
 	case "NET ONE MONTH 12 Go" :
-		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE MONTH 12Go', actualMenu)
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE MONTH 12 Go', actualMenu)
 		break;
 	case "NET ONE MONTH 25 Go" :
-		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE MONTH 25Go', actualMenu)
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE MONTH 25 Go', actualMenu)
+		break;
+	case "NET ONE MONTH 50Go" :
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE MONTH 50Go', actualMenu)
+		break;
+	case "NET ONE MONTH 100Go" :
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('NET ONE MONTH 100Go', actualMenu)
 		break;
 	default :
 		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'(offre, actualMenu)

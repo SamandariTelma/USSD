@@ -47,6 +47,10 @@ switch(offre)
 		String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(14,'HH:mm')
 		CustomKeywords.'outStream.XML.setDateBundle'("yelow faceboobaka", dateExpiration, heureExpiration)
 	break;
+	case "YELOW 1000" :
+		String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
+		CustomKeywords.'outStream.XML.setDateBundle'("yelow 1000", dateExpiration, "23:59")
+	break;
 	case "NET ONE WEEK 350 Mo" :
 		String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(6,'dd/MM/yyy')
 		CustomKeywords.'outStream.XML.setDateBundle'("net one week 350 Mo", dateExpiration, "23:59")

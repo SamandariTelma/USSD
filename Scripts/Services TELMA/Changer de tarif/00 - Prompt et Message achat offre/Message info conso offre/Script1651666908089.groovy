@@ -85,35 +85,45 @@ switch(groupeOffre)
 		switch(offre)
 		{
 			case "YELOW100":
-				return CustomKeywords.'ussd.Expected.menu'('L achat du Yelow 100 est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa 20% si achat via MVola',
-					'Tafiditra ny Yelow 100\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa 20% raha vidiana @Mvola')
+				return CustomKeywords.'ussd.Expected.menu'('YELOW 100, il vous reste 20\\.0 SMS et/ou 20\\.0 Mo utilisable a toute heure\\.',
+					'YELOW 100, 20\\.0 SMS sy/na 20\\.0 Mo sisa ny bonus-nao azo ampiasaina @ ora rehetra\\.')
 				break;
 			case "YELOW 200":
-				return CustomKeywords.'ussd.Expected.menu'('L achat du Yelow 200 est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa 20% si achat via MVola',
-					'Tafiditra ny Yelow 200\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa 20% raha vidiana @Mvola')
+				String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("yelow 200")
+				String heureExpiration = CustomKeywords.'outStream.XML.getTimeBundle'("yelow 200")
+				return CustomKeywords.'ussd.Expected.menu'('Bonus YELOW 200 restants: 50 SMS Telma et/ou 50 Mo utilisable a toute heure jusqu au '+dateExpiration+' a '+heureExpiration,
+					'Bonus YELOW 200: 50 SMS Telma sy/na 50 Mo azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+' @ '+heureExpiration)
 				break;
 			case "YELOW SMS":
-				return CustomKeywords.'ussd.Expected.menu'('L achat du Yelow SMS est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa 20% si achat via MVola',
-					'Tafiditra ny Yelow SMS\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa 20% raha vidiana @Mvola')
+				String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("yelow sms")
+				String heureExpiration = CustomKeywords.'outStream.XML.getTimeBundle'("yelow sms")
+				return CustomKeywords.'ussd.Expected.menu'('Bonus YELOW SMS restants: 100 SMS Telma et 25 SMS autres opérateurs jusqu au '+dateExpiration+' a '+heureExpiration+'\\.',
+					'Bonus YELOW SMS : 100 SMS Telma  \\+ 25 SMS mankany @ tambazotra hafa azo ampiasaina hatramin ny '+dateExpiration+' @ '+heureExpiration+'\\.')
 				break;
 			case "YELOW FACEBOBAKA":
-				return CustomKeywords.'ussd.Expected.menu'('L achat du Yelow Facebobaka est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa 20% si achat via MVola',
-					'Tafiditra ny Yelow Facebobaka\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa20% raha vidiana @MVola')
+				String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("yelow facebobaka")
+				return CustomKeywords.'ussd.Expected.menu'('Vos bonus YELOW FACEBOOBAKA restant: 250\\.0 Mo utilisable toute la journee valable jusqu au '+dateExpiration+' inclus\\.',
+					'Ny bonus YELOW FACEBOOBAKA-nao: 250\\.0 Mo azo ampiasaina ny tontolo andro ampiasaina  hatramin ny '+dateExpiration+'\\.')
 				break;
 			case "YELOW FACEBOOBAKA ONE":
-				return CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW FACEBOOBAKA ONE est reussi\\. Bonus restants:#359#\\. Achetez via MVola et gagnez a chaque fois un bonus kadoa de 20%\\. Tapez vite le #111\\*1#\\.',
-					'Tafiditra ny tolotra YELOW FACEBOOBAKA ONE novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao  ary mahazoa hatrany Bonus kadoa 20%\\. Tsindrio ny #111\\*1#\\. ')
+				String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("yelow faceboobaka one")
+				return CustomKeywords.'ussd.Expected.menu'('Vos bonus YELOW FACEBOOBAKA restant: 700\\.0 Mo utilisable toute la journee valable jusqu au '+dateExpiration+' inclus\\.',
+					'Ny bonus YELOW FACEBOOBAKA-nao: 700\\.0 Mo azo ampiasaina ny tontolo andro ampiasaina  hatramin ny '+dateExpiration+'\\.')
 				break;
 			case "YELOW FACEBOOBAKA \\+":
-				return CustomKeywords.'ussd.Expected.menu'('L achat du Yelow Facebobaka\\+ est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa 20% si achat via MVola',
-					'Tafiditra ny Yelow Facebobaka\\+\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa 20% raha vidiana @Mvola')
+				String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("yelow faceboobaka")
+				return CustomKeywords.'ussd.Expected.menu'('Bonus YELOW FACEBOOBAKA \\+ : 1536\\.0 Mo utilisable toute la journee valable jusqu au '+dateExpiration+' inclus\\.',
+					'Bonus YELOW FACEBOOBAKA \\+ : 1536\\.0 Mo azo ampiasaina ny tontolo andro ampiasaina  hatramin ny '+dateExpiration+'\\.')
 				break;
 			case "YELOW 1000":
-				return CustomKeywords.'ussd.Expected.menu'('L achat du Yelow 1000 est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa 20% si achat via MVola',
-					'Tafiditra ny Yelow 1000\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa 20% raha vidiana @Mvola')
+				String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("yelow 1000")
+				return CustomKeywords.'ussd.Expected.menu'('Bonus YELOW 1000 restants: 100 SMS vers tous les opérateurs et/ou 50\\.0 Mo utilisable à toute heure \\+ 50\\.0 Mo la nuit jusqu au '+dateExpiration+'\\.',
+					'Bonus YELOW 1000 tavela: 100 SMS mankany @ tambazotra rehetra  \\+ 50\\.0 Mo ny alina hatramin ny '+dateExpiration+'\\.')
+				break;
 			case "YELOW ONE":
-				return CustomKeywords.'ussd.Expected.menu'('L achat du Yelow One est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa 20% si achat via MVola',
-					'Tafiditra ny Yelow One\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa 20% raha vidiana @Mvola')
+				return CustomKeywords.'ussd.Expected.menu'('YELOW ONE, il vous reste 250\\.0 Mo utilisable a toute heure\\.',
+					'YELOW ONE, 250\\.0 Mo sisa ny bonus\\-nao azo ampiasaina @ ora rehetra\\.')
+				break;
 		}
 		break;
 	//------------------------------------------------*TELMA NET*--------------------------------------------------
@@ -136,9 +146,14 @@ switch(groupeOffre)
 			break;
 			case "NET ONE WEEK 2 Go" :
 				String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("net one week 2 Go")
-				return CustomKeywords.'ussd.Expected.menu'('NET ONE WEEK 2 Go, il vous reste 4096\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
-					'NET ONE WEEK 2 Go, 4096\\.0  Mo sisa ny bonus\\-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
+				return CustomKeywords.'ussd.Expected.menu'('NET ONE WEEK 2 Go, il vous reste 2048\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
+					'NET ONE WEEK 2 Go, 2048\\.0  Mo sisa ny bonus\\-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
 				break;
+			case "NET ONE MONTH 2 Go" :
+			String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("net one month 2 Go")
+				return CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 2 Go, il vous reste 2048\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
+					'NET ONE MONTH 2 Go, 2048\\.0  Mo sisa ny bonus-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
+			break;
 			case "NET ONE MONTH 4 Go" :
 				String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("net one month 4 Go")
 				return CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 4 Go, il vous reste 4096\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
@@ -154,7 +169,7 @@ switch(groupeOffre)
 				return CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 25 Go, il vous reste 25600\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
 					'NET ONE MONTH 25 Go, 25600\\.0  Mo sisa ny bonus-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
 			break;
-			case "NET ONE MONTH 50 Go" :
+			case "NET ONE MONTH 50Go" :
 			String dateExpiration = CustomKeywords.'outStream.XML.getDateBundle'("net one month 50 Go")
 				return CustomKeywords.'ussd.Expected.menu'('NET ONE MONTH 50 Go, il vous reste 51200\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',
 					'NET ONE MONTH 50 Go, 51200\\.0  Mo sisa ny bonus-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
@@ -165,8 +180,8 @@ switch(groupeOffre)
 					'NET ONE MONTH 100 Go, 102400\\.0  Mo sisa ny bonus-nao azo ampiasaina @ ora rehetra hatramin ny '+dateExpiration+'\\.')
 			break;
 			default : 
-				return CustomKeywords.'ussd.Expected.menu'('L achat de votre '+offre+' est reussi\\. Vous avez '+volumeData+' de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus\\. \\(#111\\*1#\\)\\.',
-					'Tafiditra ny tolotra '+offre+' novidianao\\. Manana '+volumeData+' azo ampiasaina @ ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
+				return CustomKeywords.'ussd.Expected.menu'('L achat de votre '+offre+' est reussi\\. Vous avez de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus\\. \\(#111\\*1#\\)\\.',
+					'Tafiditra ny tolotra '+offre+' novidianao\\. Manana  azo ampiasaina @ ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
 		
 		}
 }
