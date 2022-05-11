@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>envoi rappelle moi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ad327e3-a0a0-41ed-84ad-2910675dcd87</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.numeroInitiateurRPM</defaultValue>
+      <description></description>
+      <id>ba52dc89-c5b1-4ad9-a12a-eb948987a097</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.numeroRecepteurRPM</defaultValue>
+      <description></description>
+      <id>203fe6ab-567e-40a8-bf4b-2a1d9087b434</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+</TestCaseEntity>

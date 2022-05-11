@@ -38,6 +38,7 @@ public class Send {
 
 		def response=WS.sendRequest(findTestObject('AdaptIT first menu request'))
 
+		//Récupération de l'attribut "message" dans la réponse JSON
 		println 'MESSAGE: \n'+ WS.getElementPropertyValue(response, 'message').toString()
 
 		log.logInfo('Envoyé : '+code+'\nMsisdn :'+msisdn+ '\nEcran USSD : \n'+WS.getElementPropertyValue(response, 'message').toString())

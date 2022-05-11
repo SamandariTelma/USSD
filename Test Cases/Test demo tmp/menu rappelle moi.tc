@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>menu rappelle moi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>15cf9d62-3862-4f49-8fab-9e2f48d5c2c0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.numeroInitiateurRPM</defaultValue>
+      <description></description>
+      <id>63b5d609-a1e7-46f1-9801-bc17f5e71fcd</id>
+      <masked>false</masked>
+      <name>numInitiateur</name>
+   </variable>
+</TestCaseEntity>

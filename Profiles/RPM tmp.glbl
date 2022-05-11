@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>RPM tmp</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'*130*2'</initValue>
+      <name>shortCodeRPM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'261346848017'</initValue>
+      <name>numeroInitiateurRPM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'261346848952'</initValue>
+      <name>numeroRecepteurRPM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'fr'</initValue>
+      <name>langue</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
