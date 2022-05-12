@@ -37,11 +37,38 @@ public class XML {
 		bundleName=bundle
 
 		switch (bundleName) {
-			case "yelow sms":
-				xml.BundleYsms.date = date;
-				xml.BundleYsms.heure = time;
+			case "mora 2000":
+				xml.BundleMora2000.date = date;
+				xml.BundleMora2000.heure = time;
 				break;
-
+			case "mora 5000":
+				xml.BundleMora5000.date = date;
+				xml.BundleMora5000.heure = time;
+				break;
+			case "mora night":
+				xml.BundleMoraNight.date = date;
+				xml.BundleMoraNight.heure = time;
+				break;
+			case "mora international":
+				xml.BundleMoraInternat.date = date;
+				xml.BundleMoraInternat.heure = time;
+				break;
+			case "first premium":
+				xml.BundleFpremium.date = date;
+				xml.BundleFpremium.heure = time;
+				break;
+			case "first premiumPlus":
+				xml.BundleFpremiumplus.date = date;
+				xml.BundleFpremiumplus.heure = time;
+				break;
+			case "first prestige":
+				xml.BundleFprestige.date = date;
+				xml.BundleFprestige.heure = time;
+				break;
+			case "first royal":
+				xml.BundleFroyal.date = date;
+				xml.BundleFroyal.heure = time;
+				break;
 			case "yelow 200":
 				xml.BundleY200.date = date;
 				xml.BundleY200.heure = time;
@@ -111,14 +138,36 @@ public class XML {
 		bundleName=bundle
 
 		switch (bundleName) {
+			case "mora 2000":
+				return xml.BundleMora2000.date;
+				break;
+			case "mora 5000":
+				return xml.BundleMora5000.date;
+				break;
+			case "mora night":
+				return xml.BundleMoraNight.date;
+				break;
+			case "mora international":
+				return xml.BundleMoraInternat.date;
+				break;
+			case "first premium":
+				return xml.BundleFpremium.date;
+				break;
+			case "first premiumPlus":
+				return xml.BundleFpremiumplus.date;
+				break;
+			case "first prestige":
+				return xml.BundleFprestige.date;
+				break;
+			case "first royal":
+				return xml.BundleFroyal.date;
+				break;
 			case "yelow sms":
 				return xml.BundleYsms.date;
 				break;
-
 			case "yelow 200":
 				return xml.BundleY200.date;
 				break;
-
 			case "yelow facebobaka":
 				return xml.BundleYfacebobaka.date;
 				break;
@@ -167,22 +216,42 @@ public class XML {
 		bundleName=bundle
 
 		switch (bundleName) {
+			case "mora 2000":
+				return xml.BundleMora2000.heure;
+				break;
+			case "mora 5000":
+				return xml.BundleMora5000.heure;
+				break;
+			case "mora night":
+				return xml.BundleMoraNight.heure;
+				break;
+			case "mora international":
+				return xml.BundleMoraInternat.heure;
+				break;
+			case "first premium":
+				return xml.BundleFpremium.heure;
+				break;
+			case "first premiumPlus":
+				return xml.BundleFpremiumplus.heure;
+				break;
+			case "first prestige":
+				return xml.BundleFprestige.heure;
+				break;
+			case "first royal":
+				return xml.BundleFroyal.heure;
+				break;
 			case "yelow sms":
 				return xml.BundleYsms.heure;
 				break;
-
 			case "yelow 200":
 				return xml.BundleY200.heure;
 				break;
-
 			case "yelow facebobaka":
 				return xml.BundleYfacebobaka.heure;
 				break;
-
 			case "yelow faceboobaka one":
 				return xml.BundleYfaceboobakaOne.heure;
 				break;
-
 			case "yelow faceboobaka":
 				return xml.BundleYfaceboobaka.heure;
 				break;

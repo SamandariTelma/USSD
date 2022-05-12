@@ -209,7 +209,7 @@
    <testCaseLink>
       <guid>38815ddc-3fbe-4733-9a1e-e41208022caf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/Consulter Info Conso/01-Info conso OFFRES TELMA</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -237,6 +237,45 @@
          <type>DATA_COLUMN</type>
          <value>groupeOffre</value>
          <variableId>c33d04b6-7511-4143-b3de-447e5f87ac6a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ddca7d7e-975c-4c57-8f2b-45b8e7300bd9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/Consulter Info Conso/02 - SC - Info conso OFFRES TELMA</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>07c82f63-824a-480b-9ab5-6633e8a4d07f</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1,2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Acheter une offre/DDT - OFFRE</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1c4ad251-2bf1-43df-bbca-22ddf7f0c2db</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>07c82f63-824a-480b-9ab5-6633e8a4d07f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>groupeOffre</value>
+         <variableId>60b31762-1171-4fb3-aebe-ab4f275cef1d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>07c82f63-824a-480b-9ab5-6633e8a4d07f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nomOffre</value>
+         <variableId>70112ccd-139b-4a03-9444-b07abc0f3e5b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>07c82f63-824a-480b-9ab5-6633e8a4d07f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>tarifCode</value>
+         <variableId>5f59e72b-82be-45e6-9d34-33ff1ceca5ea</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

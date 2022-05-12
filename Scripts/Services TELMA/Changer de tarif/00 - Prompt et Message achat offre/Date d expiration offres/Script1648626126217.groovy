@@ -19,9 +19,40 @@ import org.openqa.selenium.Keys as Keys
 
 String offre = "${offre}"
 
-//------------------------------YELOW 200------------------------------
 switch(offre)
 {
+	case "MORA\\+ 2000" :
+		String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy')
+		CustomKeywords.'outStream.XML.setDateBundle'("mora 2000", dateExpiration, "23:59")
+	break;
+	case "MORA\\+ 5000" :
+		String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(6,'dd/MM/yyy')
+		CustomKeywords.'outStream.XML.setDateBundle'("mora 5000", dateExpiration, "23:59")
+	break;
+	case "MORA NIGHT" :
+		String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy')
+		CustomKeywords.'outStream.XML.setDateBundle'("mora night", dateExpiration, "23:59")
+	break;
+	case 'MORA INTERNATIONAL':
+		String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy')
+		CustomKeywords.'outStream.XML.setDateBundle'("mora international", dateExpiration, "23:59")
+	break;
+	case 'FIRST PREMIUM':
+		String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
+		CustomKeywords.'outStream.XML.setDateBundle'("first premium", dateExpiration, "23:59")
+	break
+	case 'FIRST PREMIUM \\+':
+		String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
+		CustomKeywords.'outStream.XML.setDateBundle'("first premiumPlus", dateExpiration, "23:59")
+	break
+	case 'FIRST PRESTIGE':
+		String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
+		CustomKeywords.'outStream.XML.setDateBundle'("first prestige", dateExpiration, "23:59")
+	break
+	case 'FIRST ROYAL':
+		String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
+		CustomKeywords.'outStream.XML.setDateBundle'("first royal", dateExpiration, "23:59")
+	break
 	case "YELOW 200" :
 		String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy') //La date d'expiration est d'une journée à partir de la date actuel
 		String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'HH:mm') //L'heure d'expiration est l'heure actuel

@@ -53,12 +53,11 @@ if (confirmation.equals('oui')) {
 		[('montant') : montant, ('offre') : offre, ('groupeOffre') : groupeOffre, ('volumeData') : volumeData, ('validite') : validite],
 		FailureHandling.CONTINUE_ON_FAILURE)
 
-	WS.verifyMatch(actualMenu, menu, true)/*
+	WS.verifyMatch(actualMenu, menu, true)
 	'Je confirme l\'achat en repondant par 1'
-	actualMenu = CustomKeywords.'ussd.Send.response'('1')
-	*/
+	actualMenu = CustomKeywords.'ussd.Send.response'('1')	
 }
-/*
+
 'Vérifier la conformité du menu'
 String menu = WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/00 - Prompt et Message achat offre/Message de reussite d achat offre'), 
     [('montant') : montant, ('offre') : offre, ('groupeOffre') : groupeOffre, ('volumeData') : volumeData], FailureHandling.CONTINUE_ON_FAILURE)
@@ -78,5 +77,3 @@ WS.verifyEqual(soldeApresAchatOffre, soldeExcepted)
 //Initialiser la date d'expiration
 WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/00 - Prompt et Message achat offre/Date d expiration offres'), 
     [('offre') : offre], FailureHandling.CONTINUE_ON_FAILURE)
-*/
-print("fin")
