@@ -20,7 +20,7 @@ String numeroRecepteur="${numeroRecepteur}"
 String pinEnvoyeur="${pinEnvoyeur}"
 
 'Je shortcode #130*4*4#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode + '#', numeroInitiateur)
 
 'Je saisis 3 (Partager du Mega) et je valide '
 CustomKeywords.'ussd.Send.response'('3')

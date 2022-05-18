@@ -20,14 +20,14 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que GP, j\'effectue un achat offre First Royal pour un numéro invalide:  *611*95*2*numeroInvalide#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*95*2*2610340030816#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirectEnvoiOffre+'*95*2*2610340030816#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'('Verifier le numero de tel\\. Destinataire SVP \\(03 & 8 chiffres\\) \\(Saisir 9 pour afficher le repertoire MVola\\)')
 WS.verifyMatch(actualMenu, menu, true)
 
 'En tant que GP, j\'effectue un achat offre First Royal à mon numéro:  *611*95*2*monNumero#'
-actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*95*2*'+numeroInitiateur+'#', numeroInitiateur)
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirectEnvoiOffre+'*95*2*'+numeroInitiateur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 menu = CustomKeywords.'ussd.Expected.menu'('Vous ne pouvez pas transferer de credit a votre numero\\. Merci de saisir un autre numero TELMA Mobile\\.')

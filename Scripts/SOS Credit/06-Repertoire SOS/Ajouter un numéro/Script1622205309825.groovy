@@ -22,7 +22,7 @@ String pinMsisdnInitiateur="${pinMsisdnInitiateur}"
 String numeroAAjouter="${numeroAAjouter}"
 
 'En tant que client TELMA, je vais dans le menu pour SOS Crédit en composant le #111# > 3, puis je sasis 4 et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*4', numeroInitiateur)
 
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 

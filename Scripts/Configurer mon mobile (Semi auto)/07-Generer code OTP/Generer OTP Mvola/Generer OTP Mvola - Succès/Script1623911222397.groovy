@@ -20,7 +20,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String pinNumeroInitiateur="${pinNumeroInitiateur}"
 
 'Je shortcode *130*9#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroInitiateur)
 
 'Je saisis 5 ( Generer le code OTP)'
 String actualMenu=CustomKeywords.'ussd.Send.response'('5')

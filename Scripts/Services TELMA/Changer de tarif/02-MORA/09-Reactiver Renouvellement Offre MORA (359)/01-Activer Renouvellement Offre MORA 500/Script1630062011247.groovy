@@ -22,7 +22,7 @@ String dateExpiration=CustomKeywords.'ussd.Util.getLastDayOfMonth'()
 
 
 'Après desactivation Offre MORA 500, je short code #359#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode359+'#', numeroInitiateur)
 
 'Je saisis 1 (Mes offres) et valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')

@@ -20,7 +20,7 @@ String numeroInitiateur = "$numeroInitiateur"
 String numeroRecepteur = "$numeroRecepteur"
 
 'Je shortcode #130*4*4#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode + '#', numeroInitiateur)
 
 'Je saisis 2 (Envoyer offre) et valide'
 CustomKeywords.'ussd.Send.response'('2')

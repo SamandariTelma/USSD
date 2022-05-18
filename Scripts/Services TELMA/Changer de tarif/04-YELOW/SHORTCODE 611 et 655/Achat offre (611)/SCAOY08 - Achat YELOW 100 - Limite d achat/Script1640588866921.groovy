@@ -56,7 +56,7 @@ WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/04-YELOW/SHORTC
 	[('numeroInitiateur') : numeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
 
 '11e tentative Je tente d\'acheter un offre YELOW100 :  *611*67#'
-String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat + '*67#', numeroInitiateur)
+String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirectAchat + '*67#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'('Desole, vous avez utilise toutes vos demandes pour aujourd\'hui\\. Vous pourrez envoyer 10 demande\\(s\\) demain\\.', 

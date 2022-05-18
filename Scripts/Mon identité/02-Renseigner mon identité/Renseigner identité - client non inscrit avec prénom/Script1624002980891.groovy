@@ -26,7 +26,7 @@ String cin="${cin}"
 String numeroInitiateurFormate='0'+numeroInitiateur.substring(3)
 
 'En tant que client TELMA, je vais dans le menu pour Mon identité en composant #111 > 8 > 1 et valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*1#', numeroInitiateur)
 
 'Je saisis mon nom et  je valide'
 CustomKeywords.'ussd.Send.response'(nomInitiateur)

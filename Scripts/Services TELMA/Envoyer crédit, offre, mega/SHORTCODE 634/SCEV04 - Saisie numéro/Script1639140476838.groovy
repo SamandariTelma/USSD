@@ -28,7 +28,7 @@ String pinNumeroInitiateur = "$pinNumeroInitiateur"
 String frais = "$frais"
 
 'J\'envoie du crédit à un numéro invalide'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+montantAEnvoyer+'*0325785400*'+pinNumeroInitiateur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*'+montantAEnvoyer+'*0325785400*'+pinNumeroInitiateur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu= CustomKeywords.'ussd.Expected.menu'('Verifiez le numero svp\\.',
@@ -37,14 +37,14 @@ String menu= CustomKeywords.'ussd.Expected.menu'('Verifiez le numero svp\\.',
 WS.verifyMatch(actualMenu, menu, true)
 
 'J\'envoie du crédit à un numéro au format incorecte'
-actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+montantAEnvoyer+'*261346848017*'+pinNumeroInitiateur+'#', numeroInitiateur)
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*'+montantAEnvoyer+'*261346848017*'+pinNumeroInitiateur+'#', numeroInitiateur)
 
 'Vérifier la confromité du message'
 WS.verifyMatch(actualMenu, menu, true)
 
 'J\'envoie du crédit à mon numéro'
 numeroInitiateur=CustomKeywords.'ussd.Util.to034'(numeroInitiateur)
-actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+montantAEnvoyer+'*'+numeroInitiateur+'*'+pinNumeroInitiateur+'#', numeroInitiateur)
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*'+montantAEnvoyer+'*'+numeroInitiateur+'*'+pinNumeroInitiateur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 menu= CustomKeywords.'ussd.Expected.menu'('Vous ne pouvez pas transferer de credit a votre numero\\. Merci de saisir un autre numero TELMA Mobile\\.', 

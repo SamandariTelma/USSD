@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur = "${numeroInitiateur}"
 
 'Je shortcode #130*4*9#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroInitiateur)
 
 'Vérifier la conformité du prompt'
 String menu= CustomKeywords.'ussd.Expected.menu'('Entrer le Numero à recuperer :')

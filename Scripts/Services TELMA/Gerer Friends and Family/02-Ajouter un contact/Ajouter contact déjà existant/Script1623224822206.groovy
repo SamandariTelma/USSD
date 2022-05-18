@@ -21,7 +21,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String numeroExistant="${numeroExistant}"
 
 'En tant que client TELMA, je vais dans le menu Gerer Friends and family'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'#', numeroInitiateur)
 
 'Je saisis 1 (Ajouter un contact)'
 CustomKeywords.'ussd.Send.response'('1')

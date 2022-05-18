@@ -19,7 +19,7 @@ String numeroInitiateur = "${numeroInitiateur}"
 String numeroRecepteur = "${numeroRecepteur}"
 
 "Etape 1 : Acceder menu rappele moi"
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeRPM+"#", numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeRPM+"#", numeroInitiateur)
 
 "Etape 2 : Choisir 1 pour Rappelle moi"
 CustomKeywords.'ussd.Send.response'("1")

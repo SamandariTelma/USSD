@@ -23,7 +23,7 @@ String cinNumARecuperer = "${cinNumARecuperer}"
 
 
 'Je shortcode #130*4*9#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroInitiateur)
 
 'Je saisis le numéro à recupérer'
 numeroARecuperer=CustomKeywords.'ussd.Util.to034'(numeroARecuperer)

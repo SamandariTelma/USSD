@@ -24,7 +24,7 @@ String montantSOS="${montantSOS}"
 numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 'En tant que GP, je shortCode le SOS Credit  en composant *659*1*034xxx*montantxx#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+numeroRecepteur+'*'+montantSOS+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*'+numeroRecepteur+'*'+montantSOS+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 int montant=montantSOS.toInteger()

@@ -26,7 +26,7 @@ WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'
 int soldeAvant = GlobalVariable.soldeCredit
 
 'Je shortcode *130*5# et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroInitiateur)
 
 'Je saisis 4(YELOW)'
 CustomKeywords.'ussd.Send.response'('4')

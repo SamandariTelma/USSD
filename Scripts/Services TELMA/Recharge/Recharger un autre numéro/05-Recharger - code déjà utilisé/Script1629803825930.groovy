@@ -29,7 +29,7 @@ int soldeAvantRecharge = GlobalVariable.soldeCredit
 println 'Solde avant recharge: '+soldeAvantRecharge
 
 'En tant que client TELMA, je vais dans le menu pour Recharger mon numéro en composant #130*4*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroInitiateur)
 
 'Je saisis 2 (Recharger un autre numéro) et je valide'
 CustomKeywords.'ussd.Send.response'('2')

@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que MSISDN Revendeur , je compose le *130*2*1#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*1#', numeroInitiateur)
 
 'Je saisis 2 (Envoyer 1 000 Ar) et je valide'
 String actualMenu= CustomKeywords.'ussd.Send.response'('2')

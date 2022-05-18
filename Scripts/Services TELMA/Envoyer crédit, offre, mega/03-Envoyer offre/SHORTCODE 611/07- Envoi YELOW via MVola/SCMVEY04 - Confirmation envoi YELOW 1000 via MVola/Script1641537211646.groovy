@@ -24,7 +24,7 @@ numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 
 'En tant que GP, j\'effectue un envoi offre Yelow 1000:  *611*66*1*numero#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*66*1*'+numeroRecepteur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirectEnvoiOffre+'*66*1*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'('Pour accepter d\'acheter l\'offre YELOW 1000 d\'un montant de '+montant+'Ar pour le '+numeroRecepteur+' depuis votre compte MVola, Entrer code secret :',

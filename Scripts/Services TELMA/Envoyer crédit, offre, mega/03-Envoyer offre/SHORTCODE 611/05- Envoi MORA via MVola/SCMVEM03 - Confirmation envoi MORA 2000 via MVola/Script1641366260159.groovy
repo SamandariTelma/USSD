@@ -24,7 +24,7 @@ numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 
 'En tant que GP, j\'effectue un envoi offre Mora + 2000 via MVola:  *611*32*1*numero#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectEnvoiOffre+'*32*1*'+numeroRecepteur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirectEnvoiOffre+'*32*1*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'('Pour accepter d\'acheter l\'offre MORA\\+ 2000 d\'un montant de '+montant+'Ar pour le '+numeroRecepteur+' depuis votre compte MVola, Entrer code secret :',

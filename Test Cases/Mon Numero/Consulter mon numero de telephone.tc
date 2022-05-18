@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Consulter mon numero de telephone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82fa91fc-da88-4bfb-bbc0-40c85f5953b6</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description>Numero utilisé</description>
+      <id>5fbd50aa-f990-4a8c-9636-733e0afe3498</id>
+      <masked>false</masked>
+      <name>msisdnInitiator</name>
+   </variable>
+</TestCaseEntity>

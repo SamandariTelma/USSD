@@ -20,7 +20,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String numeroAjoute="${numeroAjoute}"
 
 'En tant que client TELMA, je vais dans le menu repertoire SOS en composant le #111# > 3 > 4 >3'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4*3#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*4*3#', numeroInitiateur)
 
 'Je saisis 3 et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')

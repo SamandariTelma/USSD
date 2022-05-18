@@ -22,7 +22,7 @@ String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(6,'dd/MM/yyy')
 
 
 'En tant que GP, je consulte mon offre NET ON WEEK 2,5Go :  *655*73#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*73#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*73#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('NET ONE WEEK 2,5 Go, il vous reste 2560\\.0 Mo utilisable a toute heure jusqu au '+dateExpiration+' inclus\\.',

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 String monMsisdn=CustomKeywords.'ussd.Util.to034'(GlobalVariable.msisdnInitiateur)
 'En tant que client TELMA, je vais dans mon USSD en composant le short code *130*2*1#'
 
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', GlobalVariable.msisdnGrossiste)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*1#', GlobalVariable.msisdnGrossiste)
 
 'Je saisis mon numéro et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'(monMsisdn)

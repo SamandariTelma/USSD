@@ -20,7 +20,7 @@ String offre = "$offre"
 String groupeOffre = "${groupeOffre}"
 
 'Après achat Offre avec succès , je consulte mon solde en saisissant #359#'
-String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359 + '#', numeroInitiateur)
+String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode359 + '#', numeroInitiateur)
 
 WS.delay(2)
 

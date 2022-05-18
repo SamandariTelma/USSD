@@ -24,7 +24,7 @@ WebUI.callTestCase(findTestCase('Configurer mon mobile (Semi auto)/07-Generer co
     [('numeroInitiateur') : numeroInitiateur, ('nbrTentative') : '2'], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Je shortcode *130*9#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroInitiateur)
 
 'Je saisis 5 ( Generer le code OTP)'
 CustomKeywords.'ussd.Send.response'('5')

@@ -19,7 +19,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String numeroRecepteur="${numeroRecepteur}"
 
 'En tant que client Telma qui ne dispose aucune offre, Je shortcode #130*4*4#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroInitiateur)
 
 'Je saisis 3 (Partager du Mega) et je valide '
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')

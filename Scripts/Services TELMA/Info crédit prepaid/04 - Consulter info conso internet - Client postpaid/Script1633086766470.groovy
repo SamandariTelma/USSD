@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroPostpaid="${numeroPostpaid}"
 
 'En tant que client TELMA, je vais dans le menu pour Info crédit en composant #130*4*1#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroPostpaid)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode, numeroPostpaid)
 
 'Je saisis 2 (Info Conso Internet) et valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('2')

@@ -43,7 +43,7 @@ int soldeCreditAvantRecharge= GlobalVariable.soldeCredit
 
 
 'En tant que MSISDN Revendeur , je compose le *130*2*1#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '*1#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode + '*1#', numeroInitiateur)
 
 'Je saisis 8 (Envoyer 100 000 Ar) et je valide'
 CustomKeywords.'ussd.Send.response'('8')

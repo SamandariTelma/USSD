@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 
 'Je shortcode *130*2*8# pour acceder au menu Vérification grossiste'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*8#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*8#', numeroInitiateur)
 
 'Vérifier la conformité du prompt'
 String menu=CustomKeywords.'ussd.Expected.menu'('Veuillez entrer votre mot de passe 2TMV :')

@@ -22,7 +22,7 @@ String cinDejaInscrit="${cinDejaInscrit}"
 String troisDernierChiffreCIN=cinDejaInscrit.substring(cinDejaInscrit.length()-3)
 
 'En tant que client TELMA, je vais dans le menu pour Mon identité en composant #111 > 8 > 2, et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*2#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Votre compte est Identifie et Certifie MVola\\. Type et numéro de pièce enregistrés : CIN \\*\\*\\*'+troisDernierChiffreCIN+'\\. MVola vous remercie de votre confiance\\.')

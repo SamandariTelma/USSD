@@ -39,7 +39,7 @@ WebUI.callTestCase(findTestCase('Rappelle moi/02-Rappelle moi/Rappelle moi avec 
 
 msisdnRecepteur=CustomKeywords.'ussd.Util.to034'(msisdnRecepteur)
 
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1*'+msisdnRecepteur+'#', msisdnInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*1*'+msisdnRecepteur+'#', msisdnInitiateur)
 
 String menu=CustomKeywords.'ussd.Expected.menu'('Desole, vous avez utilise toutes vos demandes pour aujourd\'hui\\. Vous pourrez envoyer 5 demandes demain\\.', 
 	'Tapitra ny fahafahanao mampiasa io servisy io androany\\.Rahampitso  indray  mandefa hafatra 5\\.')

@@ -21,7 +21,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String pinInitiateur="${pinInitiateur}"
 
 'En tant que MSISDN grossiste, je compose le *130*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroInitiateur)
 
 'Je saisis 7 (Changement de langue) et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('7')

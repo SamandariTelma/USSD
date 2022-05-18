@@ -21,7 +21,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String numeroRecepteur="${numeroRecepteur}"
 
 'En tant que GP moins de 3 mois ou n\'ayant pas utiliser le service telma , je shortCode le SOS Credit  en composant *659*1*numNonEligible*1000#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+numeroRecepteur+'*1000#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*'+numeroRecepteur+'*1000#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Cher abonne, pour beneficier de ce service, merci d\'utiliser davantage les services TELMA\\.', 

@@ -23,7 +23,7 @@ String montant="${montant}"
 
 
 'En tant que GP, j\'effectue un achat offre NET One Week 350 Mo via MVola:  *611*70*1#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*70*1#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirectAchat+'*70*1#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'('Pour confirmer le paiement de l\'offre NET ONE WEEK 350 Mo via MVola d\'un montant de '+montant+' Ar, Entrer code secret :',

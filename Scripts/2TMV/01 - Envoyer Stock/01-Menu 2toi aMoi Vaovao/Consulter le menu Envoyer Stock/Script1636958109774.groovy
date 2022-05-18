@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroGrossiste="${numeroGrossiste}"
 
 'En tant que MSISDN grossiste [0346849414], je compose le *130*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroGrossiste)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroGrossiste)
 
 'Je clique sur 3 Envoyer du stock et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')

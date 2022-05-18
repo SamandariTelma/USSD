@@ -21,7 +21,7 @@ String numeroEnvoyeur="${numeroEnvoyeur}"
 String numeroRecepteur="${numeroRecepteur}"
 
 'En tant que MSISDN envoyeur, je compose le *130*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroEnvoyeur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroEnvoyeur)
 
 'Je clique sur 3 Envoyer du stock et je valide'
 CustomKeywords.'ussd.Send.response'('3')

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Vérification numéro</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>169f0701-e0a2-4858-8208-77819de22931</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>f0446e9b-2905-4752-a72a-6e38fd8ca754</id>
+      <masked>false</masked>
+      <name>msisdninitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>'0000'</defaultValue>
+      <description></description>
+      <id>c6c0c66a-74e7-4474-94b7-94ed5d337ce9</id>
+      <masked>false</masked>
+      <name>menuAttendu</name>
+   </variable>
+</TestCaseEntity>

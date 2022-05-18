@@ -29,7 +29,7 @@ String frais = "$frais"
 
 numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 'J\'envoie du crédit avec un montant invalide'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*1000Ar*'+numeroRecepteur+'*'+pinNumeroInitiateur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*1000Ar*'+numeroRecepteur+'*'+pinNumeroInitiateur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu= CustomKeywords.'ussd.Expected.menu'('Montant incorrect\\. Veuillez entrer un montant entre 500 Ar et 200 000 Ar',
@@ -38,13 +38,13 @@ String menu= CustomKeywords.'ussd.Expected.menu'('Montant incorrect\\. Veuillez 
 WS.verifyMatch(actualMenu, menu, true)
 
 'J\'envoie du crédit inférieur à 500Ar'
-actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*499*'+numeroRecepteur+'*'+pinNumeroInitiateur+'#', numeroInitiateur)
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*499*'+numeroRecepteur+'*'+pinNumeroInitiateur+'#', numeroInitiateur)
 
 'Vérifier la confromité du message'
 WS.verifyMatch(actualMenu, menu, true)
 
 'J\'envoie du crédit supérieur à 200000Ar'
-actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*200001*'+numeroRecepteur+'*'+pinNumeroInitiateur+'#', numeroInitiateur)
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*200001*'+numeroRecepteur+'*'+pinNumeroInitiateur+'#', numeroInitiateur)
 
 'Vérifier la confromité du message'
 WS.verifyMatch(actualMenu, menu, true)

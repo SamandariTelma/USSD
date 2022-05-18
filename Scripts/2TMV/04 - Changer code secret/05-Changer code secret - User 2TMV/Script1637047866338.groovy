@@ -23,7 +23,7 @@ String pinActuel="${pinActuel}"
 String nouveauPin="${nouveauPin}"
 
 'En tant que MSISDN grossiste, je compose le *130*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroInitiateur)
 
 'Je saisis 6 (Changer code secret) et je valide'
 CustomKeywords.'ussd.Send.response'('6')

@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 'Je shortcode *130*9*4# '
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*4#', numeroInitiateur)
 
 'Vérifier la conformité du sous menu'
 String menu=CustomKeywords.'ussd.Expected.menu'('1 Activer INTERNET sur Compte principal\n2 Desactiver INTERNET sur Compte Principal')

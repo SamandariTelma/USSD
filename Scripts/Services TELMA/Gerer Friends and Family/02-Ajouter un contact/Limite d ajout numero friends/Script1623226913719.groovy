@@ -26,7 +26,7 @@ WebUI.callTestCase(findTestCase('Services TELMA/Gerer Friends and Family/02-Ajou
     [('numeroInitiateur') :numeroInitiateur, ('numeroAAjouter') : GlobalVariable.msisdnAAjouter3], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Essayer d\' ajouter un 4ème numéro dans ma liste FAF'
-String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '*1*0340030816#', numeroInitiateur)
+String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode + '*1*0340030816#', numeroInitiateur)
 
 'Vérifier la conformité du messsage'
 String menu = CustomKeywords.'ussd.Expected.menu'('Vous avez atteint le nombre maximum de numeros Friends and Familly autorises\\. Vous devez supprimer un avant d\'en rajouter\\.', 

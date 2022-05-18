@@ -23,7 +23,7 @@ String numeroANotifier="${numeroANotifier}"
 String pinGrossiste="${pinGrossiste}"
 
 'En tant que MSISDN non eligible, je compose le *130*129*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroGPNonEligible)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode, numeroGPNonEligible)
 
 'Je compose le 2 et je valide'
 CustomKeywords.'ussd.Send.response'('2')
@@ -41,7 +41,7 @@ String menu=CustomKeywords.'ussd.Expected.menu'('Desole, vous n\'etes pas autori
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je recompose le *130*129*5# '
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroGPNonEligible)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode, numeroGPNonEligible)
 
 'Je compose le 2 et je valide'
 CustomKeywords.'ussd.Send.response'('2')

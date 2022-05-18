@@ -23,7 +23,7 @@ String dateExpiration=CustomKeywords.'outStream.XML.getDateBundle'("yelow facebo
 String heureExpiration=CustomKeywords.'outStream.XML.getTimeBundle'("yelow faceboobaka")
 
 'En tant que GP, je consulte mon offre YELOW Faceboobaka + : *655*68#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*68#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*68#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Bonus YELOW FACEBOOBAKA \\+ : 2048\\.0 Mo utilisable toute la journee valable jusqu au '+dateExpiration+' a '+heureExpiration+' inclus\\.',

@@ -23,7 +23,7 @@ String numeroANotifier="${numeroANotifier}"
 String pinEnvoyeur="${pinEnvoyeur}"
 
 'En tant que MSISDN grossiste, je compose le *130*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroGrossiste)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroGrossiste)
 
 'Je saisis un menu qui n\'existe pas'
 String actualMenu=CustomKeywords.'ussd.Send.response'('12')

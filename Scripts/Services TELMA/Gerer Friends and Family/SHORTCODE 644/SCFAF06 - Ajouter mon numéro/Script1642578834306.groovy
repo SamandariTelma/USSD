@@ -19,7 +19,7 @@ String numeroInitiateur = "$numeroInitiateur"
 String numeroAAjouter=CustomKeywords.'ussd.Util.to034'(numeroInitiateur)
 
 'En tant que GP, je shortCode  *644*1*MSISDN# pour ajouter mon numéro *644*1*monNumero#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect + '*1*'+numeroAAjouter+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect + '*1*'+numeroAAjouter+'#', numeroInitiateur)
 
 'Vérifier la conformité du messsage'
 String menu=CustomKeywords.'ussd.Expected.menu'('Impossible de vous ajouter vous meme dans votre propre liste Friends & Familly', 

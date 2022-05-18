@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 String numInitiateur = "${numInitiateur}"
 
 'Etape 1 : Acceder au menu rappelle moi'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeRPM+"#", numInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeRPM+"#", numInitiateur)
 
 'Etape 2 : Vérifier la conformité du menu'
 String menu = CustomKeywords.'ussd.Expected.menu'("Rappelle moi \n1 Envoyer un rappelle moi\n2 Aide")

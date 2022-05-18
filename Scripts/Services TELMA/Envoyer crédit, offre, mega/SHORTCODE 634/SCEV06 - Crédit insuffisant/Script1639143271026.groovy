@@ -45,7 +45,7 @@ println 'Crédit recepteur: '+soldeRecepteurAvantRecep
 numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 'En tant que GP,  je shortCode le Transfert de crédit  en composant *634*Montant*MSISDN*Pin#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+montantAEnvoyer+'*'+numeroRecepteur+'*'+pinNumeroInitiateur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*'+montantAEnvoyer+'*'+numeroRecepteur+'*'+pinNumeroInitiateur+'#', numeroInitiateur)
 
 int soldeExcepted=soldeEnvoyeurAvantEnvoi - Integer.valueOf(montantAEnvoyer) - Integer.valueOf(frais)
 String soldeExceptedStr=CustomKeywords.'ussd.Util.separateThousand'(soldeExcepted)

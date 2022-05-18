@@ -21,7 +21,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String pinInitateur="${pinInitateur}"
 
 'Je shortcode *130*2*8# pour acceder au menu Vérification grossiste'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*8#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*8#', numeroInitiateur)
 
 'Je saisi le code pin de mon numéro 2tmv'
 String actualMenu=CustomKeywords.'ussd.Send.response'(pinInitateur)

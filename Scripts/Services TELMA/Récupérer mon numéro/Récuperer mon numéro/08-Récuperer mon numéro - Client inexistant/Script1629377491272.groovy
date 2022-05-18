@@ -21,7 +21,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String numeroInexistant="${numeroInexistant}"
 
 'En tant que client TELMA, je vais dans le menu pour Récupérer mon numéro en composant #130*4*9#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroInitiateur)
 
 'Je saisis le MSISDN à récupérer'
 numeroInexistant=CustomKeywords.'ussd.Util.to034'(numeroInexistant)

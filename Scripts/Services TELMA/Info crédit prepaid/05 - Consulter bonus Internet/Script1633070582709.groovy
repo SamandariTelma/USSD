@@ -21,7 +21,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String regexDate ='(0?[1-9]|[12][0-9]|3[01])[\\/\\-](0?[1-9]|1[012])[\\/\\-]\\d{4}'
 
 'En tant que client TELMA, je vais dans le menu pour Info crédit en composant #130*4*1#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode, numeroInitiateur)
 
 'Je saisis 2 (Info Conso Internet) et valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('2')

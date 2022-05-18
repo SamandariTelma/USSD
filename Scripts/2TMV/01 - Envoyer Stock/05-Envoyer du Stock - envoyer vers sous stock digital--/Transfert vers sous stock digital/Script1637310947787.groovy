@@ -23,7 +23,7 @@ String numeroANotifier="${numeroANotifier}"
 String pinGrossiste="${pinGrossiste}"
 
 'En tant que MSISDN grossiste [0346849414], je compose le *130*129*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroGrossiste)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode, numeroGrossiste)
 
 'Je compose le 2 et je valide'
 CustomKeywords.'ussd.Send.response'('2')

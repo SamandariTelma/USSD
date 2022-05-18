@@ -21,7 +21,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String numeroNonMvola="${numeroNonMvola}"
 
 'En tant que client TELMA, je vais dans le menu pour Récupérer mon numéro en composant #130*4*9#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroInitiateur)
 
 'Vérifier la conformité du prompt'
 String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n a pas abouti\\. Votre compte MVola n est pas certifié\\. Si besoin, contactez le Service Clientele au 807\\.')

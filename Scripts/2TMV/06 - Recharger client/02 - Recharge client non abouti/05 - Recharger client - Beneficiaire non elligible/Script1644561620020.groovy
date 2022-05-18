@@ -30,7 +30,7 @@ WebUI.callTestCase(findTestCase('2TMV/00 - Called test case/Consulter solde 2tmv
 int soldeEnvoyeurAvant = GlobalVariable.solde2tmv
 
 'En tant que MSISDN Revendeur , je compose le *130*2*1#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*1#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*1#', numeroInitiateur)
 
 'Je saisis 1 (Autre montant) et je valide'
 CustomKeywords.'ussd.Send.response'('1')
