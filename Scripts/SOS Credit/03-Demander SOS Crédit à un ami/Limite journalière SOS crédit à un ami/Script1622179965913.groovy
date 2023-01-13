@@ -36,7 +36,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String numeroRecepteur="${numeroRecepteur}"
 
 'J\'effectue un SOS crédit pour la 6 ème fois'
-String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode + '*1#', numeroInitiateur)
+String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '*1#', numeroInitiateur)
 /*
 String menu = CustomKeywords.'ussd.Expected.menu'('^Entrer numero de tel\\. Destinataire :$', '^nomerao tel\\. andefasana :$')
 

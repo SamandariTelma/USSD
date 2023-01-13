@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que client TELMA je me rends sur le menu SOS Offre à TELMA en composant le short code #111# > 3 > 3'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*3#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*3#', numeroInitiateur)
 
 'Je saisis 1 pour l\'offre MORA'
 String actualMenu= CustomKeywords.'ussd.Send.response'('1')

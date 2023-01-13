@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/02-MORA/02-Ache
 
 'J\'effectue un achat MORA NIGHT 3e tentative'
 'Je shortcode *130*4*6*# et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode, numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
 
 'Je saisis 1(MORA)'
 CustomKeywords.'ussd.Send.response'('1')

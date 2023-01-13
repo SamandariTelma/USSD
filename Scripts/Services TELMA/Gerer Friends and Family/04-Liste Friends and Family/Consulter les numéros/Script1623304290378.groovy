@@ -21,13 +21,13 @@ String numeroAjoute1="${numeroAjoute1}"
 String numeroAjoute2="${numeroAjoute2}"
 String numeroAjoute3="${numeroAjoute3}"
 'En tant que client TELMA, je vais dans le menu Gerer Friends and family en composant *130*4*3#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis 3 (Liste Friends & Family) et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier l\'affichage du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('Liste Friends & Familly\\.\n1 '+numeroAjoute1+'\n2 '+numeroAjoute2+'\n3 '+numeroAjoute3, 
-	'Lisitra Namana & Fianakaviana\n1 '+numeroAjoute1+'\n2 '+numeroAjoute2+'\n3 '+numeroAjoute3)
+String menu=CustomKeywords.'ussd.Expected.menu'('Liste Friends and Familly\\.\n1 '+numeroAjoute2+'\n2 '+numeroAjoute3+'\n3 '+numeroAjoute1, 
+	'Lisitra Namana sy Fianakaviana\n1 '+numeroAjoute3+'\n2 '+numeroAjoute2+'\n3 '+numeroAjoute1)
 
 WS.verifyMatch(actualMenu, menu, true)

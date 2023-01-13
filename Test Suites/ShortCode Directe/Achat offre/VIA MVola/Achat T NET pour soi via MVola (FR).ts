@@ -16,6 +16,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat TELMA NET via Mvola/SCMVT01 - Confirmation achat NET One Night via MVola</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -34,6 +35,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat TELMA NET via Mvola/SCMVT03 - Confirmation achat NET One Week 350Mo via MVola</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -52,6 +54,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat TELMA NET via Mvola/SCMVT04 - Confirmation achat NET One Week 800Mo via MVola</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -70,6 +73,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat TELMA NET via Mvola/SCMVT05 - Confirmation achat NET One Week 2Go via MVola</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -87,7 +91,8 @@
       <guid>c6ca0689-0780-4507-8e04-4bf0040e2aa8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat TELMA NET via Mvola/SCMVT06 - Confirmation achat NET One Month 4Go via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat TELMA NET via Mvola/SCMVT07 - Confirmation achat NET One Month 4Go via MVola</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -105,7 +110,8 @@
       <guid>59974256-2ac1-4605-b90f-99b4b6fb7721</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat TELMA NET via Mvola/SCMVT07 - Confirmation achat NET One Month 12Go via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat TELMA NET via Mvola/SCMVT08 - Confirmation achat NET One Month 12Go via MVola</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -123,7 +129,8 @@
       <guid>fac0e042-bebb-4214-b378-0312211744bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat TELMA NET via Mvola/SCMVT08 - Confirmation achat NET One Month 25Go via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat TELMA NET via Mvola/SCMVT09 - Confirmation achat NET One Month 25Go via MVola</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -141,7 +148,8 @@
       <guid>cae7e9ba-a0cd-451f-b409-e6e5ec2df00e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat TELMA NET via Mvola/SCMVT09 - Confirmation achat NET One Month 100Go via MVola</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat TELMA NET via Mvola/SCMVT10- Confirmation achat NET One Month 50Go via MVola</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -153,6 +161,69 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>e1233de7-4752-46ab-b11a-b40a5bf81fea</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1e4d1687-591a-4ad0-b3c8-c61bcc4d86f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat TELMA NET via Mvola/SCMVT06 - Confirmation achat NET One Month 2Go via MVola</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1ded324c-7fb4-456e-90a2-9219f9909aeb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6538b2d2-11d7-4527-98c1-2b6edd1eeda9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cd63e1cf-b6aa-4795-9a3b-d988cb6b7e19</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat TELMA NET via Mvola/SCMVT11 - Confirmation achat NET One Month 100Go via MVola</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>91e01bb7-97f8-43e7-96ed-9f8a74f5255c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f42b7b9a-c7ad-4f33-9a7a-2deb739347b8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>311d2117-8859-47f2-9d1a-2005a5c6193d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat TELMA NET via Mvola/SCMVT02 - Confirmation YELOW ONE via MVola--</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4445ad62-cef9-418e-b4e9-ee895d8ed043</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d0e1cfd0-d9be-4dac-a9e4-363fa84f42f2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3a5d0193-4244-47f4-991b-ddaa90af7f8b</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

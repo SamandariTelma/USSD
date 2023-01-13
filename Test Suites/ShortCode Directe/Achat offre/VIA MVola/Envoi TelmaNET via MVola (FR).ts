@@ -15,7 +15,8 @@
       <guid>1b989472-32c8-42a0-9564-8dca10f7b7df</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/08- Envoi TELMA NET via MVola/SCMVET10 - Envoi via MVola TELMA NET - Saisie numéro</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/08- Envoi TELMA NET via MVola/SCMVET11 - Envoi via MVola TELMA NET - Saisie numéro</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -28,6 +29,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/08- Envoi TELMA NET via MVola/SCMVET01 - Confirmation envoi NET One Night</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -52,6 +54,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/08- Envoi TELMA NET via MVola/SCMVET03 - Confirmation envoi NET One Week 350Mo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -76,6 +79,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/08- Envoi TELMA NET via MVola/SCMVET04 - Confirmation envoi NET One Week 800Mo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -100,6 +104,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/08- Envoi TELMA NET via MVola/SCMVET05 - Confirmation envoi NET One Week 2Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -124,6 +129,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/08- Envoi TELMA NET via MVola/SCMVET06 - Confirmation envoi NET One Month 4Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -148,6 +154,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/08- Envoi TELMA NET via MVola/SCMVET07 - Confirmation envoi NET One Month 12Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -172,6 +179,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/08- Envoi TELMA NET via MVola/SCMVET08 - Confirmation envoi NET One Month 25Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -195,7 +203,8 @@
       <guid>a4f0758d-a6ea-40da-afa3-06f57cc23b69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/08- Envoi TELMA NET via MVola/SCMVET09 - Confirmation envoi NET One Month 100Go</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/08- Envoi TELMA NET via MVola/SCMVET09 - Confirmation envoi NET One Month 50Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -213,6 +222,81 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>53155797-9074-4441-a551-79167f2a0283</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e8d2bb9b-7300-4575-97fe-cf2e2a1be7eb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/08- Envoi TELMA NET via MVola/SCMVET10 - Confirmation envoi NET One Month 100Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4ee84556-1ca2-4e5d-aefc-e7dc1fd95020</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7c3a6e73-d9bd-4798-b8fd-52be05bde0a2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dacba329-1c58-40c9-84e4-8c6cd3e4b3e6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9a2fba12-3daa-490e-897e-ae808ba52f2b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/08- Envoi TELMA NET via MVola/SCMVET02 - Confirmation envoi YELOW ONE</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cdec1775-1d5f-4d4e-a608-5537c9fcc9ac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e2407f5b-b68b-4e00-afae-4713c4088cc4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5b3a4516-94f9-4709-8e14-632d2b4f4061</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49d8ddcb-9db6-4b43-ade0-0177bdc5c96b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/08- Envoi TELMA NET via MVola/SCMVET06 - Confirmation envoi NET One Month 2Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2e41f41b-4a77-46b7-ad57-f5ec2c669fa6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6cd77cf4-fd3f-4366-ab70-e0ffde62ea0a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>92ae15b4-a3c6-4848-8f1a-89c1f43a95f8</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

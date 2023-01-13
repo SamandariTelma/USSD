@@ -5,6 +5,12 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>fa21e0da-afe8-427b-874f-85963ec1d602</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad57b361-d8ca-454d-9197-ac2c06dc1ced</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
       <description></description>

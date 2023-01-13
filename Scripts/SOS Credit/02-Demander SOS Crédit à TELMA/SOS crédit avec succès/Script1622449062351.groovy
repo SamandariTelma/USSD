@@ -20,7 +20,7 @@ String montant="${montant}"
 GlobalVariable.montantARembourser=montant
 String numeroInitiateur="${numeroInitiateur}"
 'En tant que client TELMA je me rends sur le menu SOS Credit à TELMA en composant le short code #111# > 3 > 2'
-String actualMenu= CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*2#', numeroInitiateur)
+String actualMenu= CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#', numeroInitiateur)
 
 String menu=CustomKeywords.'ussd.Expected.menu'('^Selectionner le montant du credit:\n1 200\n2 500\n3 1000\n4 2000\n5 5000\n6 10000$')
 
@@ -30,8 +30,8 @@ WS.verifyMatch(actualMenu, menu, true)
 'Choisi un montant'
 actualMenu=CustomKeywords.'ussd.Send.response'(menuMontant)
 
-menu=CustomKeywords.'ussd.Expected.menu'('^Pour confirmer votre demande de SOS credit a TELMA '+montant+' Ar tapez 1$', 
-	'^Raha hanamafy ny fangatahana SOS fahana any amin\'ny TELMA '+montant+' Ar tsindrio 1$')
+menu=CustomKeywords.'ussd.Expected.menu'('^Pour confirmer votre demande de SOS credit a TELMA '+montant+' Ar tapez 1', 
+	'^Raha hanamafy ny fangatahana SOS fahana any amin\'ny TELMA '+montant+' Ar tsindrio 1')
 
 'Vérifier la conformité du prompt'
 WS.verifyMatch(actualMenu, menu, true)
@@ -39,8 +39,8 @@ WS.verifyMatch(actualMenu, menu, true)
 'Je saisi 1 et je valide'
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
-menu=CustomKeywords.'ussd.Expected.menu'('(^Votre demande de SOS crédit est en cours\\. Vous allez recevoir un SMS\\. Sinon veuillez appeler le service client au 800$)|(^Merci d\'avoir utilise le service Telma\\.$)', 
-	'^Misaotra anao nampiasa ny tolotra Telma\\.$')
+menu=CustomKeywords.'ussd.Expected.menu'('(^Votre demande de SOS crédit est en cours\\. Vous allez recevoir un SMS\\. Sinon veuillez appeler le service client au 800)|(^Merci d\'avoir utilise le service Telma\\.)', 
+	'^Misaotra anao nampiasa ny tolotra Telma\\.')
 
 'Vérifier la conformité du message'
 WS.verifyMatch(actualMenu, menu, true)

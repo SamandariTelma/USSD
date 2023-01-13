@@ -17,13 +17,13 @@ import internal.GlobalVariable as GlobalVariable
 
 'En tant que client TELMA, je vais dans mon USSD en composant le short code *130*2#'
 
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', GlobalVariable.msisdnInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', GlobalVariable.msisdnInitiateur)
 
 'Je saisis 2 (Aide) et je valide'
 
 String actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
-String menu=CustomKeywords.'ussd.Expected.menu'('Bienvenue\\. Pour le Rappelle-moi composez #555\\*Numero TELMA MOBILE#\\. Pour SOS credit composez #555\\*1\\*Numero TELMA Mobile\\*somme à demander# ','Rappelle Moi, tsindrio ny #555\\*Numerao TELMA# ho an\'ny SOS Fahana, Tsindrio #555\\*1\\*Numerao TELMA\\*sanda ny Fahana#')
+String menu=CustomKeywords.'ussd.Expected.menu'('Bienvenue\\. Pour le Rappelle-moi composez #555 \\* Numero TELMA MOBILE# \\. Pour SOS credit composez #555 \\* 1 \\* Numero TELMA Mobile \\* somme à demander# ','Rappelle Moi, tsindrio ny #555\\*Numerao TELMA# ho an\'ny SOS Fahana, Tsindrio #555\\*1\\*Numerao TELMA\\*sanda ny Fahana#')
 
 'Vérifier la conformité du message'
 

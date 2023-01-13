@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que client TELMA, je vais dans le menu pour Mon identité en composant #111 > 8 > 1 et valide'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*1#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA+'*8*1#', numeroInitiateur)
 
 'Vérifier la conformité du prompt'
 String menu = CustomKeywords.'ussd.Expected.menu'('Afin de vous identifier, merci de renseigner votre NOM :', 'Mba ahafahana manamarina ny laharanao, ampidiro ny ANARANAO :')

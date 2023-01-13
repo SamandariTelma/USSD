@@ -46,10 +46,10 @@ CustomKeywords.'ussd.Send.response'(numeroANotifier)
 CustomKeywords.'ussd.Send.response'(pinGrossiste)
 
 'Je saisis 1 (Oui) et je valide '
-String actualMenu=CustomKeywords.'ussd.Send.response'('1')
+String actualMen=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande n a pas abouti\\. Vous avez recu un SMS avec les details de votre transaction\\. Si besoin, contactez le Service Clientele au 807\\.',
+String men=CustomKeywords.'ussd.Expected.menu'('Votre demande n a pas abouti\\. Vous avez recu un SMS avec les details de votre transaction\\. Si besoin, contactez le Service Clientele au 807\\.',
 	'Tsy tafita ny fangatahanao\\. Naharay SMS manazava ny antony ianao\\. Raha ilaina, antsoy ny Service Clientele amin ny 807\\.')
 
-WS.verifyMatch(actualMenu, menu, true)
+WS.verifyMatch(actualMen, men, true)

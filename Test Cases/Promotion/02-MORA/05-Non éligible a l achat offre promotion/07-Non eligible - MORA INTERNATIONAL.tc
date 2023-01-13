@@ -5,6 +5,12 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c2ecad87-dba5-40ab-afce-f373f1f66dc8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>00ff0661-5206-4177-a23e-85f0f2497100</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.numeroNonEligible</defaultValue>
       <description></description>

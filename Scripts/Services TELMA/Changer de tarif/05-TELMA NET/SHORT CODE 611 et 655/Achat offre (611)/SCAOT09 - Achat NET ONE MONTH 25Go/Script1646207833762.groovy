@@ -19,10 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
 
-'En tant que GP, j\'effectue mon offre NET One Month 30Go : *611*17#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirectAchat+'*17#', numeroInitiateur)
+'En tant que GP, j\'effectue mon offre NET One Month 25 Go : *611*17#'
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*17#', numeroInitiateur)
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre achat de NET ONE MONTH 30 Go est reussi\\. Vous avez 30 Go de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus \\(#111\\*1#\\)\\.',
-	'Tafiditra ny tolotra NET ONE MONTH 30 Go novidianao\\. Manana 30 Go azo ampiasaina @ ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre achat de NET ONE MONTH 25 Go est reussi\\. Vous avez 25 Go de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus \\(#111\\*1#\\)\\.',
+	'Tafiditra ny tolotra NET ONE MONTH 25 Go novidianao\\. Manana 25 Go azo ampiasaina @ ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
 WS.verifyMatch(actualMenu, menu, true)

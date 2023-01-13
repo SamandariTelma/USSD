@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 'En tant que client TELMA je me rends sur le menu SOS Credit à TELMA en composant le short code #111# > 3 > 2'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*2#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#', numeroInitiateur)
 
 'Choisi un montant en dehors de 1 à 6'
 String actualMenu=CustomKeywords.'ussd.Send.response'('10')

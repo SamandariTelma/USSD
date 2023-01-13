@@ -32,7 +32,7 @@ WebUI.callTestCase(findTestCase('Configurer mon mobile (Semi auto)/06-Desactiver
     FailureHandling.CONTINUE_ON_FAILURE)
 
 'Pour la 4ème tentative je désactive mon internet en tappant le shortcode Je shortcode *130*9*4#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode + '*4#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '*4#', numeroInitiateur)
 
 'Je saisis 2 (Desactiver INTERNET)'
 CustomKeywords.'ussd.Send.response'('2')

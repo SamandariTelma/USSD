@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que client TELMA je me rends sur le menu SOS Offre à TELMA en composant le short code #111# > 3 > 3'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*3#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*3#', numeroInitiateur)
 
 'Je saisis 4 pour l\'offre TELMA NET'
 CustomKeywords.'ussd.Send.response'('4')
@@ -29,7 +29,7 @@ CustomKeywords.'ussd.Send.response'('4')
 String actualMenu= CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du menu'
-String menu = CustomKeywords.'ussd.Expected.menu'('NET HEBDOMADAIRE\n1 NET ONE WEEK 500 Mo \\(3000 Ar\\)\n2 NET ONE WEEK 1Go \\(5000 Ar\\)\n3 NET ONE WEEK 2,5Go \\(10000 Ar\\)')
+String menu = CustomKeywords.'ussd.Expected.menu'('NET HEBDOMADAIRE\n1 NET ONE WEEK 350 Mo\n2 NET ONE WEEK 800 Mo\n3 NET ONE WEEK 2 Go')
 
 WS.verifyMatch(actualMenu, menu, true)
 

@@ -20,7 +20,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String numeroSansDette="${numeroSansDette}"
 
 'En tant que client TELMA, je vais dans le menu pour SOS Crédit en composant le #111# > 3, puis je sasis 4 et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*4#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4#', numeroInitiateur)
 
 'Je sasis 2 et je valide'
 CustomKeywords.'ussd.Send.response'('2')

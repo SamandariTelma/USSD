@@ -5,6 +5,12 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>7cefa743-f526-4537-88af-62cb05205449</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ac6b71b-bfee-4664-9303-b0e3c747ea25</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.msisdnInscrit</defaultValue>
       <description></description>

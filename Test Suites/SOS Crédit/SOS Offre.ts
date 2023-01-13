@@ -16,6 +16,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Consulter menu SOS offre/01-Consulter menu SOS Offre</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -28,6 +29,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Consulter menu SOS offre/02-Consulter menu SOS Offre - MORA</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -40,6 +42,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Consulter menu SOS offre/03-Consulter menu SOS Offre - FIRST</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -52,6 +55,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Consulter menu SOS offre/04-Consulter menu SOS Offre - YELOW</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -64,6 +68,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Consulter menu SOS offre/05-Consulter menu SOS Offre - TELMA NET</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -76,6 +81,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Consulter menu SOS offre/06-Consulter menu SOS Offre - TELMA NET JOURNALIER</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -88,6 +94,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Consulter menu SOS offre/07-Consulter menu SOS Offre - TELMA NET HEBDOMADAIRE</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -100,6 +107,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Consulter menu SOS offre/08-Consulter menu SOS Offre - TELMA NET MENSUEL</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -112,6 +120,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmaiton SOS MORA/01-Prompt de confirmation - MORA NIGHT</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -124,6 +133,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmaiton SOS MORA/02-Prompt de confirmation - MORA TEAM</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -136,6 +146,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmaiton SOS MORA/03-Prompt de confirmation - MORA 500</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -148,6 +159,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmaiton SOS MORA/04-Prompt de confirmation - MORA 2000</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -160,6 +172,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmaiton SOS MORA/05-Prompt de confirmation - MORA 5000</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -172,6 +185,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmaiton SOS MORA/06-Prompt de confirmation - MORA ONE</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -184,6 +198,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmaiton SOS MORA/07-Prompt de confirmation - MORA INTERNATIONAL</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -196,6 +211,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS FIRST/01-Prompt de confirmation - FIRST PREMIUM</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -208,6 +224,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS TELMA NET/01 - Prompt de confirmation - NET ONE NIGHT</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -219,7 +236,8 @@
       <guid>1ca7ffed-664c-45ae-90e5-719941140d1b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS TELMA NET/02 - Prompt de confirmation - NET ONE DAY</testCaseId>
+      <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS TELMA NET/02 - Prompt de confirmation - YELOW ONE</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -231,7 +249,8 @@
       <guid>ae04fc91-7eb8-40b5-9621-e018228e1e5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS TELMA NET/03 - Prompt de confirmation - NET ONE WEEK 250</testCaseId>
+      <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS TELMA NET/04 - Prompt de confirmation - NET ONE WEEK 800Mo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -243,7 +262,8 @@
       <guid>a6286960-4cda-48ec-9d2c-e5fadcaae5ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS TELMA NET/04 - Prompt de confirmation - NET ONE WEEK 500</testCaseId>
+      <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS TELMA NET/03 - Prompt de confirmation - NET ONE WEEK 350 Mo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -255,7 +275,8 @@
       <guid>f7bc228d-5660-4eef-8fcf-d6b92d1dd230</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS TELMA NET/05 - Prompt de confirmation - NET ONE WEEK 1,5</testCaseId>
+      <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS TELMA NET/05 - Prompt de confirmation - NET ONE WEEK 2 Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -268,6 +289,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS YELOW/01-Prompt de confirmation - YELOW 100</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -280,6 +302,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS YELOW/02-Prompt de confirmation - YELOW SMS</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -292,6 +315,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS YELOW/03-Prompt de confirmation - YELOW FACEBOBAKA</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -304,6 +328,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS YELOW/04-Prompt de confirmation - YELOW 1000</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -316,6 +341,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS YELOW/05-Prompt de confirmation - YELOW 200</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -328,6 +354,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/Prompt de confirmation SOS offre/Prompt de confirmation SOS YELOW/06-Prompt de confirmation - YELOW FACEBOOBAKA plus</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -340,6 +367,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/SOS offre avec un client moins de 3 mois</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -352,6 +380,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/SOS offre avec succès</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -364,6 +393,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/SOS Credit/04-Demander SOS Offre à TELMA/SOS offre avec un client ayant une dette</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -376,6 +406,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/SOS Credit/06-Repertoire SOS/Remboursement SOS offre</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

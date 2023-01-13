@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que client TELMA, je vais dans mon USSD en composant le short code #130*4*6#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis 4 (TELMA Net (INTERNET)) et valide'
 CustomKeywords.'ussd.Send.response'('4')
@@ -27,6 +27,6 @@ CustomKeywords.'ussd.Send.response'('4')
 String actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Je vérifie la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('NET HEBDOMADAIRE\n1 NET ONE WEEK 500 Mo \\(3000 Ar\\)\n2 NET ONE WEEK 1Go \\(5000 Ar\\)\n3 NET ONE WEEK 2,5Go \\(10000 Ar\\)')
+String menu=CustomKeywords.'ussd.Expected.menu'('NET HEBDOMADAIRE\n1 NET ONE WEEK 350 Mo \\(3000 Ar\\)\n2 NET ONE WEEK 800Mo \\(5000 Ar\\)\n3 NET ONE WEEK 2Go \\(10000 Ar\\)')
 
 WS.verifyMatch(actualMenu, menu, true)

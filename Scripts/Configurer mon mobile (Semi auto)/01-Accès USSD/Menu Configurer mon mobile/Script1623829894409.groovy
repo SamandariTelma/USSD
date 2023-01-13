@@ -30,16 +30,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('9')
 
 'Vérifier la conformité du sous menu'
-menu=CustomKeywords.'ussd.Expected.menu'('Configurer mon mobile\n1 Configurer service WAP\n2 Configurer service WEB\n3 Configurer tous les services \\(WAP,WEB\\)\n4 \\(Des\\-\\) Activer INTERNET sur compte principal\n0 Page suivante',
-	'Configurer mon mobile\n1 Configurer service WAP\n2 Configurer service WEB\n3 Configurer tous les services \\(WAP,WEB\\)\n4 \\(Des\\-\\) Activer INTERNET sur compte principal\n0 Pejy manaraka')
-
-WS.verifyMatch(actualMenu, menu, true)
-
-'Je saisis 0 pour voir la page suuivante'
-actualMenu=CustomKeywords.'ussd.Send.response'('0')
-
-'Vérifier la conformité du sous menu'
-menu=CustomKeywords.'ussd.Expected.menu'('5 Generer le code OTP pour mon application\n00 Page precedente',
-	'5 Generer le code OTP pour mon application\n00 Pejy aloha')
+menu=CustomKeywords.'ussd.Expected.menu'('Configurer mon mobile\n1 \\(\\Des\\-\\)\\ Activer INTERNET sur compte principal',
+	'Configurer mon mobile\n1 \\(\\Des\\-\\)\\ Activer INTERNET sur compte principal')
 
 WS.verifyMatch(actualMenu, menu, true)

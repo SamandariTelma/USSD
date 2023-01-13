@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur="${numeroInitiateur}"
 
 'Je shortcode *130*4*6*# et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode, numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode, numeroInitiateur)
 
 'Je saisis 1(MORA)'
 CustomKeywords.'ussd.Send.response'('1')

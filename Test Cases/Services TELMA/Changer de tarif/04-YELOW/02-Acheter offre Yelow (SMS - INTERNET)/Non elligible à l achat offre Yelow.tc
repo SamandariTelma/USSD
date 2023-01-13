@@ -5,6 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>dd6bdc9b-b942-4022-9006-7724cb843714</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad59dd24-03ab-43ce-bc2c-e9b71ff2e107</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80531d74-fb56-488d-aa85-c152e7678e1d</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.numeroNonEligible</defaultValue>
       <description></description>

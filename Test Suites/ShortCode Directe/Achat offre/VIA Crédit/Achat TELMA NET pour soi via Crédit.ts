@@ -16,6 +16,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat offre (611)/SCAOT01 - Achat NET JOURNALIER One NIGHT</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -28,6 +29,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat offre (611)/SCAOT03 - Achat NET ONE WEEK 350Mo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -40,6 +42,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat offre (611)/SCAOT04 - Achat NET ONE WEEK 800Mo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -52,6 +55,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat offre (611)/SCAOT05 - Achat NET ONE WEEK 2Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -64,6 +68,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat offre (611)/SCAOT06 - Achat NET ONE MONTH 2Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -76,6 +81,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat offre (611)/SCAOT07 - Achat NET ONE MONTH 4Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -88,6 +94,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat offre (611)/SCAOT08 - Achat NET ONE MONTH 12Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -100,6 +107,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat offre (611)/SCAOT09 - Achat NET ONE MONTH 25Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -112,6 +120,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat offre (611)/SCAOT10 - Achat NET ONE MONTH 100Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -124,6 +133,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat offre (611)/SCAOT11 - Achat NET ONE MONTH 100Go - Solde insuffisant</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -136,6 +146,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT01 - Consultation NET ONE NIGHT</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -147,7 +158,8 @@
       <guid>05bc0670-5d89-48ca-b5e9-799c9b369344</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT02 - Consultation NET ONE DAY</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT02 - Consultation NET YELOW ONE</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -159,7 +171,8 @@
       <guid>cb705eb9-3ec8-49a6-a3af-faa0a511419a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT03 - Consultation NET ONE WEEK 500 Mo</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT03 - Consultation NET ONE WEEK 350 Mo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -171,7 +184,8 @@
       <guid>0ecfdce2-f148-4d76-b033-1bfbadd7870d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT04 - Consultation NET ONE WEEK 1Go</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT04 - Consultation NET ONE WEEK 800 Mo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -183,7 +197,8 @@
       <guid>4ec06ddb-c9dd-446a-8675-3623660d742d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT05 - Consultation NET ONE WEEK 2,5Go</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT05 - Consultation NET ONE WEEK 2Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -195,7 +210,8 @@
       <guid>2c2687e2-b8d3-4f73-826e-1a4660d3f60f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT06 - Consultation NET ONE MONTH 2,5Go</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT06 - Consultation NET ONE MONTH 2Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -207,7 +223,8 @@
       <guid>c21d2edf-3f4b-4e19-8048-8d825595d6d4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT07 - Consultation NET ONE MONTH 4,5Go</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT07 - Consultation NET ONE MONTH 4Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -219,7 +236,8 @@
       <guid>47446124-da66-40fb-b041-8574417098ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT08 - Consultation NET ONE MONTH 15Go</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT08 - Consultation NET ONE MONTH 12Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -231,7 +249,8 @@
       <guid>5cd68a18-42be-4e53-9f71-d561bdf74d7b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT09 - Consultation NET ONE MONTH 30Go</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT09 - Consultation NET ONE MONTH 25Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -243,12 +262,39 @@
       <guid>f87fa75b-9c78-40c6-a6a5-9642d45770ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT10 - Consultation NET ONE MONTH 100Go</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT10 - Consultation NET ONE MONTH 50Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
          <variableId>314ed455-7b00-4f39-9b05-d260313b727e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>18d092a9-2c17-4e61-95cc-17102ecaa22a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Achat offre (611)/SCAOT12 - Achat NET ONE MONTH 50Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c6bdcf64-f86b-4d83-ba5f-a7211340cacc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2a7c53f9-a7ac-4abd-be0a-6e0881757bb7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Changer de tarif/05-TELMA NET/SHORT CODE 611 et 655/Consultation Bonus (655)/SCCBT11 - Consultation NET ONE MONTH 100Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>994a904e-067d-4897-9d75-4a48263488c6</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

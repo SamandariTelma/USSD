@@ -22,7 +22,7 @@ String numeroAjoute2="${numeroAjoute2}"
 String numeroAjoute3="${numeroAjoute3}"
 
 'En tant que GP, je shortCode  *644*3# pour consulter la liste des numeros FAF'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*3#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*3#', numeroInitiateur)
 
 'Vérifier l\'affichage du menu'
 String menu=CustomKeywords.'ussd.Expected.menu'('Liste Friends & Familly\\.\n1 '+numeroAjoute1+'\n2 '+numeroAjoute2+'\n3 '+numeroAjoute3, 

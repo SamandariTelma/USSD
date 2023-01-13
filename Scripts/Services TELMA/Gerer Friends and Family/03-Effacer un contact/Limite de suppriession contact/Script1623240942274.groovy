@@ -19,7 +19,7 @@ String numeroInitiateur="${numeroInitiateur}"
 
 String numeroAEfface="${numeroAEfface}"
 'Etand donné que j\'ai déjà supprimé auparavant un numéro FAF, je vais dans le menu Effacer un contact en composant *130*4*3*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*2#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#', numeroInitiateur)
 
 'je supprime un numéro dans ma liste de contact Friends & Family'
 String actualMenu=CustomKeywords.'ussd.Send.response'(numeroAEfface)

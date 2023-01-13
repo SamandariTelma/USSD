@@ -5,6 +5,24 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e2dde780-fee2-4d51-b63e-66cc9b198f66</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1b4bba0c-1f8c-4683-be13-ab1b8794268b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>da91a246-0aaf-4a0d-823f-3ab7aca1c48a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3516b696-b3d7-46ba-a365-e17240198022</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'3'</defaultValue>
       <description></description>
@@ -20,7 +38,7 @@
       <name>montant</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
       <id>3516b696-b3d7-46ba-a365-e17240198022</id>
       <masked>false</masked>

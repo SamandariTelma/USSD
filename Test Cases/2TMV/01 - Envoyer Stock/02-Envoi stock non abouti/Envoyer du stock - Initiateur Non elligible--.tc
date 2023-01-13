@@ -5,6 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ea729e1f-5095-43c6-bf68-fee727fed018</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>23d1adb1-5f93-4f32-ad34-714e6993c568</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ae67160-374a-4e15-9f3d-4efbba24beef</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>83c23cbf-d977-45c9-80a5-602171f37ae8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>30352d85-3554-4583-bbca-0b9deb6d3136</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.numeroNonEligible2tmv</defaultValue>
       <description></description>

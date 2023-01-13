@@ -22,7 +22,7 @@ String regexDate ='(0?[1-9]|[12][0-9]|3[01])[\\/\\-](0?[1-9]|1[012])[\\/\\-]\\d{
 String regexSolde='((\\d{1,3})|((\\d{1,3}(\\s\\d{3})+)))'
 
 'En tant que GP , je shortCode  *655#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode359+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
 
 'Vérifier la conformité du menu'
 String menu=CustomKeywords.'ussd.Expected.menu'('Votre credit est: '+regexSolde+',\\d{2} Ar valable jusqu au '+regexDate+'\\.\n1 Mes offres', 

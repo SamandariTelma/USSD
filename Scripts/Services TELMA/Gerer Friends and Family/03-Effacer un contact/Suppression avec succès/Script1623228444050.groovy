@@ -20,7 +20,7 @@ String numeroInitiateur = "$numeroInitiateur"
 String numeroAEfface = "$numeroAEfface"
 
 'En tant que client TELMA, je vais dans le menu Gerer Friends and family en composant *130*4*3#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode + '#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 
 'Je saisis 2 (Effacer un contact) puis valide'
 String actualMenu = CustomKeywords.'ussd.Send.response'('2')

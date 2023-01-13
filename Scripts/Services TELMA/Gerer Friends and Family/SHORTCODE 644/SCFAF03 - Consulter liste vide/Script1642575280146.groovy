@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que GP, je shortCode  *644*3# pour consulter la liste des numeros FAF'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*3#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*3#', numeroInitiateur)
 
 'Vérifier l\'affichage du menu'
 String menu=CustomKeywords.'ussd.Expected.menu'('Vous n avez pas de numeros Friends & Family\\. Pour ajouter un numero, composez #344\\*1\\*numero#', 

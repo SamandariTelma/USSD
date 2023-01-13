@@ -24,7 +24,7 @@ WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/02-MORA/SHORTCO
     [('numeroInitiateur') : numeroInitiateur], FailureHandling.CONTINUE_ON_FAILURE)
 
 '3ème tentative : En tant que GP, j\'effectue un achat mon offre Mora Night  :  *611*25#'
-String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirectAchat + '*25#', numeroInitiateur)
+String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat + '*25#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'('Desole, vous avez utilise toutes vos demandes pour aujourd\'hui\\. Vous pourrez envoyer 2 demande\\(s\\) demain\\.', 

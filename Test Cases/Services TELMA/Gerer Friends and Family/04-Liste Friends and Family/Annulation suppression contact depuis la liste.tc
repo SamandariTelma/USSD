@@ -5,6 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c05945cb-ddf9-41f0-853f-3e502e446e5f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5500a542-6d8f-4ee4-a95d-20f30a0be527</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb767643-d0fe-4a84-a89c-d412cb9b4094</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
@@ -13,7 +25,7 @@
       <name>numeroInitiateur</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.msisdnAAjouter1</defaultValue>
+      <defaultValue>GlobalVariable.msisdnAAjouter3</defaultValue>
       <description></description>
       <id>cb767643-d0fe-4a84-a89c-d412cb9b4094</id>
       <masked>false</masked>

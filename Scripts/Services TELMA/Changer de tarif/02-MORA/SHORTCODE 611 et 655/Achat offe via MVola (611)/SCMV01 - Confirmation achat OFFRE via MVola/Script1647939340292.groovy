@@ -32,7 +32,7 @@ String volumeData = "${volumeData}"
 numeroRecepteur = CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 'En tant que GP, j\'effectue un achat offre (MORA/FIRST/YELOW/TELMA NET) via Mvola:  *611*tarifCodeMora*1#'
-String actualMenu = CustomKeywords.'ussd.Send.code'(((GlobalVariable.ShortCodeDirectAchat + '*') + tarifCode) + '*1#', numeroInitiateur)
+String actualMenu = CustomKeywords.'ussd.Send.code'(((GlobalVariable.shortCodeDirectAchat + '*') + tarifCode) + '*1#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu = WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/00 - Prompt et Message achat offre/Message de confirmation achat via MVola'), 

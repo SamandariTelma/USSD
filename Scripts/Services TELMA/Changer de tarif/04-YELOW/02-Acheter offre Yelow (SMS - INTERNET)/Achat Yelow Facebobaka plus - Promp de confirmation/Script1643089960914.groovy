@@ -30,7 +30,7 @@ WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'
 int soldeAvant = GlobalVariable.soldeCredit
 
 'Je shortcode #111*4*6#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode + '#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 
 'Je saisis 3 (YELOW (SMS - INTERNET)) et valide'
 CustomKeywords.'ussd.Send.response'('3')
@@ -39,8 +39,8 @@ CustomKeywords.'ussd.Send.response'('3')
 String actualMenu = CustomKeywords.'ussd.Send.response'('6')
 
 'Vérifier la conformité du pormpt de confirmation'
-String menu=CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAKA\\+ : vous avez 2 Go pour acceder a vos videos et photos sur Instagram et Facebook pendant 7 jours pour 2000 Ar\\. En profiter\\? 1\\-OUI; 0\\-NON', 
-	'YELOW FACEBOOBAKA \\+: Manana 2 Go ianao ahafahana mampiasa Instagram sy Facebook, manan\\-kery 7 andro @ sarany 2000 Ar\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA')
+String menu=CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAKA\\+ : vous avez 1,5 Go pour acceder a vos videos et photos sur Facebook,Instagram et WhatsApp pendant 7j pour 2000 Ar\\. En profiter\\? 1\\-OUI; 0\\-NON', 
+	'YELOW FACEBOOBAKA \\+: Manana 2 Go ianao ahafahana mampiasa Facebook,Instagram sy WhatsApp, manan\\-kery 7 andro @ sarany 2000 Ar\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA')
 
 WS.verifyMatch(actualMenu, menu, true)
 

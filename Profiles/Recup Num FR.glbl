@@ -16,22 +16,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>MSISDN actif en moins de 1 jour, certifié Mvola </description>
-      <initValue>'261346847989'</initValue>
+      <initValue>'261380942156'</initValue>
       <name>msisdnInitiateur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>MSISDN bloqué</description>
-      <initValue>'261346849627'</initValue>
+      <initValue>'261341877181'</initValue>
       <name>msisdnARecuperer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0000'</initValue>
+      <initValue>'9599'</initValue>
       <name>pinNumARecuperer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123456789012'</initValue>
+      <initValue>'512011004858'</initValue>
       <name>cinMsisdnARecuperer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

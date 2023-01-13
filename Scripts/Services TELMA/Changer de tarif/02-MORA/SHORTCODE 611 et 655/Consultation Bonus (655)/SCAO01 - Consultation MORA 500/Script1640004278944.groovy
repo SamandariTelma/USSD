@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que GP, je consulte mon offre Mora 500 :  *655*20#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*20#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*20#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA 500 restants : 500 Ar appels \\+ 10 SMS Telma et/ou 10 Mo valables a toute heure ET BONUS 10\\.0 SMS Telma et/ou 10\\.0 Mo valable la nuit',

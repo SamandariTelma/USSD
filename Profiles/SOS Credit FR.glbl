@@ -31,22 +31,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>msisdn n'ayant pas de solde crédit</description>
-      <initValue>'261346849627'</initValue>
+      <initValue>'261380942156'</initValue>
       <name>msisdnInitiateur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>msisdn n'ayant pas de solde crédit</description>
-      <initValue>'261346848017'</initValue>
+      <initValue>'261382796235'</initValue>
       <name>msisdnRecepteur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>msisdn ayant un solde supérieur ou égal à 500 Ar</description>
-      <initValue>'261346848017'</initValue>
+      <initValue>'261346848952'</initValue>
       <name>msisdnAvecSolde</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'261346849627'</initValue>
+      <initValue>'261387752889'</initValue>
       <name>msisdnNonEligible</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -83,5 +83,10 @@
       <description></description>
       <initValue>'*659*1'</initValue>
       <name>shortCodeDirect</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>msisdn n'ayant pas de solde crédit</description>
+      <initValue>'261380942156'</initValue>
+      <name>msisdnAvecDette</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

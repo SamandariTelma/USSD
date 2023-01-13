@@ -21,4 +21,5 @@ String actualMenu = "${menuAttendu}"
 
 "Comparaison du resultat"
 String attenduMenu = CustomKeywords.'ussd.Expected.menu'("Votre numero est " + CustomKeywords.'ussd.Util.to034'(msisdninitiateur), "Ny nomeraonao dia " + CustomKeywords.'ussd.Util.to034'(msisdninitiateur))
+//String attenduMenu = CustomKeywords.'ussd.Expected.menu'("Votre numero est " + msisdninitiateur, "Ny nomeraonao dia " +msisdninitiateur)
 WS.verifyMatch(actualMenu, attenduMenu, true)

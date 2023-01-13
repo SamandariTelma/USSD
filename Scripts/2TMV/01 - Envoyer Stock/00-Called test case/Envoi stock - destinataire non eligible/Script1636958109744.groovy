@@ -47,6 +47,7 @@ CustomKeywords.'ussd.Send.response'('1')
 'Je saisis correctement mon PIN (0000) et je valide'
 CustomKeywords.'ussd.Send.response'(pinEnvoyeur)
 
+ 
 'Je saisis 1 (Oui) pour confirmation et je valide'
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 

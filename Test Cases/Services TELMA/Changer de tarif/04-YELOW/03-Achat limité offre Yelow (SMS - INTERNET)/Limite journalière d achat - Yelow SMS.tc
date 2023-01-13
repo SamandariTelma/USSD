@@ -5,6 +5,12 @@
    <tag></tag>
    <comment>Achat Yelow SMS 2eme tentative</comment>
    <testCaseGuid>2d8e4330-e5f1-483c-b3e6-2dadb78d77a7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e6eadc95-53da-413c-b538-23a0dda02ec9</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>

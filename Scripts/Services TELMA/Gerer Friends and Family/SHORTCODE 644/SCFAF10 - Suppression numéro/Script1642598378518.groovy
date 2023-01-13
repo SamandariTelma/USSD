@@ -22,7 +22,7 @@ String numeroInitiateur = "$numeroInitiateur"
 String numeroAEfface = "$numeroAEfface"
 
 'En tant que GP, je shortCode  *644*2*numeroASupprimer# pour supprimer un numero FAF'
-String actualMenu = CustomKeywords.'ussd.Send.code'(((GlobalVariable.ShortCodeDirect + '*2*') + numeroAEfface) + '#', numeroInitiateur)
+String actualMenu = CustomKeywords.'ussd.Send.code'(((GlobalVariable.shortCodeDirect + '*2*') + numeroAEfface) + '#', numeroInitiateur)
 
 'Vérifier la conformité du prompt'
 String menu = CustomKeywords.'ussd.Expected.menu'(('Le numero ' + numeroAEfface) + ' a ete supprime avec succes\\.', ('Voafafa ny nomerao ' + 

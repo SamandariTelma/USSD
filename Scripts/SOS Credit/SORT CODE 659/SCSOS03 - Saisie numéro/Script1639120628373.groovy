@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que GP, je shortCode le SOS Credit  en composant *659*1*0325785400*1000#  qui est un numero autre opérateur'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*0325785400*1000#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*0325785400*1000#', numeroInitiateur)
 
 'Vérifier la conformité du prompt'
 String menu=CustomKeywords.'ussd.Expected.menu'('Verifiez le numero svp\\.', 'Hamarino ny nomerao azafady\\.')
@@ -28,14 +28,14 @@ String menu=CustomKeywords.'ussd.Expected.menu'('Verifiez le numero svp\\.', 'Ha
 WS.verifyMatch(actualMenu, menu, true)
 
 'En tant que GP, je shortCode le SOS Credit  en composant *659*1*261346848017*1000#  qui est un numero autre opérateur'
-actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*261346848017*1000#', numeroInitiateur)
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*261346848017*1000#', numeroInitiateur)
 
 'Vérifier la conformité du prompt'
 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je reshortCode le SOS Credit  en composant *659*1*12536544*1000#  en saisissant des chiffres invalides'
-actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*12345*1000#', numeroInitiateur)
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*12345*1000#', numeroInitiateur)
 
 'Vérifier la conformité du prompt'
 WS.verifyMatch(actualMenu, menu, true)

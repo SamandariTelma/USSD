@@ -17,10 +17,10 @@ import internal.GlobalVariable as GlobalVariable
 
 String numeroInitiateur="${numeroInitiateur}"
 
-String numeroExistant="${numeroExistant}"
+String monNumero="${monNumero}"
 
 'En tant que client TELMA, je vais dans le menu Gerer Friends and family'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis 1 (Ajouter un contact)'
 CustomKeywords.'ussd.Send.response'('1')
@@ -30,6 +30,6 @@ String actualMenu=CustomKeywords.'ussd.Send.response'(monNumero)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Impossible de vous ajouter vous meme dans votre propre liste Friends & Familly', 
-	'Tsy afaka ampidirina ao anaty lisitra FAF io laharana io')
+	'Tsy azonao ampidirina anaty lisitra Friends & Family ny nomeraonao')
 
 WS.verifyMatch(actualMenu, menu, true)

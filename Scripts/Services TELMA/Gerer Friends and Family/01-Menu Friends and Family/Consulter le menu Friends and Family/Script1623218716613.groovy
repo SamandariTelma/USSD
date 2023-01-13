@@ -38,7 +38,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du menu'
-menu=CustomKeywords.'ussd.Expected.menu'('Gerer Friends & Familly\n1 Ajouter un contact\n2 Effacer un contact\n3 Liste Friends & Family',
+menu=CustomKeywords.'ussd.Expected.menu'('Gerer Friends and Family\n1 Ajouter un contact\n2 Effacer un contact\n3 Liste Friends and Family',
 	'Namana sy Fianakaviana\n1 Ampiditra Laharana\n2 Hamafa laharana\n3 Lisitra Namana & fianakaviana')
 
 WS.verifyMatch(actualMenu, menu, true)

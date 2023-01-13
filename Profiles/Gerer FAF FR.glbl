@@ -16,17 +16,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'261340683172'</initValue>
+      <initValue>'261380942156'</initValue>
       <name>msisdnInitiateur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>même que msisdn Initiateur</description>
-      <initValue>'346848239'</initValue>
+      <initValue>'0380942156'</initValue>
       <name>monNumero</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Par ordre croissant ex : msisdn1 034 00 ; msisdn2 034 01</description>
-      <initValue>'0343500078'</initValue>
+      <initValue>'0346848239'</initValue>
       <name>msisdnAAjouter1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

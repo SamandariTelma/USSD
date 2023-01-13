@@ -19,7 +19,7 @@ String numeroInitiateur="${numeroInitiateur}"
 
 String numeroNonFAF="${numeroNonFAF}"
 'En tant que client TELMA, je vais dans le menu Effacer un contact en composant *130*4*3*2#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*2#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*2#', numeroInitiateur)
 
 'Je saisis un numéro qui n\'éxiste pas dans ma liste contact FAF'
 String actualMenu=CustomKeywords.'ussd.Send.response'(numeroNonFAF)

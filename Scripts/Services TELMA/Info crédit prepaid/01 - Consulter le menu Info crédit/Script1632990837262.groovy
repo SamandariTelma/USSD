@@ -30,6 +30,6 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
-menu=CustomKeywords.'ussd.Expected.menu'('1 Info credit prepaye\n2 Info Conso Internet', '1 Fahana prepaye sisa\n2 Fahana internet sisa')
+menu=CustomKeywords.'ussd.Expected.menu'('Info credit\n1 Info credit prepaye\n2 Info Conso Internet', 'Hamantatra  fahana\n1 Fahana prepaye sisa\n2 Fahana internet sisa')
 
 WS.verifyMatch(actualMenu, menu, true)

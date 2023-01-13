@@ -44,7 +44,7 @@ WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'
 int soldeAvant = GlobalVariable.soldeCredit
 
 'En tant que GP, j\'effectue un achat offre (MORA/FIRST/YELOW/TELMA NET) pour mon compte:  *611*tarifCodeMora#'
-String actualMenu = CustomKeywords.'ussd.Send.code'(((GlobalVariable.ShortCodeDirectAchat + '*') + tarifCode) + '#', numeroInitiateur)
+String actualMenu = CustomKeywords.'ussd.Send.code'(((GlobalVariable.shortCodeDirectAchat + '*') + tarifCode) + '#', numeroInitiateur)
 
 //S'il existe de confirmation avant d'acheter un offre
 if (confirmation.equals('oui')) {

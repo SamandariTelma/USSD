@@ -15,7 +15,8 @@
       <guid>515881a6-988f-487f-90da-b080d67f983c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/04- Achat TELMA NET pour un autre/SCEOT10 - Achat TELMA NET - Saisie numéro</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/04- Achat TELMA NET pour un autre/SCEOT11 - Achat TELMA NET - Saisie numéro</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -28,6 +29,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/04- Achat TELMA NET pour un autre/SCEOT01 - Confirmation achat NET One Night</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -52,6 +54,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/04- Achat TELMA NET pour un autre/SCEOT03 - Confirmation achat NET One Week 350Mo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -76,6 +79,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/04- Achat TELMA NET pour un autre/SCEOT04 - Confirmation achat NET One Week 800Mo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -100,6 +104,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/04- Achat TELMA NET pour un autre/SCEOT05 - Confirmation achat NET One Week 2Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -124,6 +129,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/04- Achat TELMA NET pour un autre/SCEOT06 - Confirmation achat NET One Month 4Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -148,6 +154,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/04- Achat TELMA NET pour un autre/SCEOT07 - Confirmation achat NET One Month 12Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -172,6 +179,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/04- Achat TELMA NET pour un autre/SCEOT08 - Confirmation achat NET One Month 25Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -195,7 +203,8 @@
       <guid>79c401d7-b1d3-4856-8744-886c542d91ff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/04- Achat TELMA NET pour un autre/SCEOT09 - Confirmation achat NET One Month 100Go</testCaseId>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/04- Achat TELMA NET pour un autre/SCEOT09 - Confirmation achat NET One Month 50Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -213,6 +222,81 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>db9a6d31-60c5-403a-8c5c-8060a8216ab4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c37fb917-fc7e-4d57-8adb-f9affcb4caa7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/04- Achat TELMA NET pour un autre/SCEOT10 - Confirmation achat NET One Month 100Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1a6b9ad4-2f7b-4dab-9bcc-2cb5ce5dae5f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3426ef2c-35ab-47fe-9d66-41077179283c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b55dae97-7b45-4876-a1fc-373042305987</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>21bcced6-d84f-457b-b504-7ccf230611da</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/04- Achat TELMA NET pour un autre/SCEOT06 - Confirmation achat NET One Month 2Go</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>848536db-f7e1-41ae-81f8-64fe9b8ada0b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>151f0c06-26e5-42bf-8797-f961b79b6e25</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d945d7c7-f90e-42f7-a0aa-04512eb18370</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>343d4a61-b7f7-4a05-ba83-fed604796c44</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Services TELMA/Envoyer crédit, offre, mega/03-Envoyer offre/SHORTCODE 611/04- Achat TELMA NET pour un autre/SCEOT02 - Confirmation achat YELOW ONE</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>40e3a236-663c-4b3e-96c6-d2662553dbab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>63aba7db-65da-478d-9500-a2ac48f6d0f7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a2059e08-7fde-4132-80cb-fa8d8112b5e2</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 'En tant que client TELMA, je vais dans mon USSD en composant le short code *130#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA, GlobalVariable.msisdnGrossiste)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA, GlobalVariable.msisdnInitiateur)
 
 String menu=CustomKeywords.'ussd.Expected.menu'('^.*Rappelle moi.*$', '^.*Rappelle moi.*$')
 
@@ -26,7 +26,7 @@ WS.verifyMatch(actualMenu, menu, true)
 'Je saisis 2 (Rappelle moi) et je valide'
 actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
-menu=CustomKeywords.'ussd.Expected.menu'('^Rapelle moi \n1 Envoyer un rappelle moi\n2 Aide$','^Rapelle moi \n1 Andefa rappelle moi\n2 Fanampiana$')
+menu=CustomKeywords.'ussd.Expected.menu'('^Rappelle moi \n1 Envoyer un rappelle moi\n2 Aide','^Rappelle moi \n1 Andefa rappelle moi\n2 Fanampiana')
 
 'Vérifier la conformité des menus Rappelle moi'
 WS.verifyMatch(actualMenu, menu, true)

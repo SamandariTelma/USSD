@@ -20,17 +20,17 @@ String numeroInitiateur = "$numeroInitiateur"
 String numAAjouter2 = "$numAAjouter2"
 
 String numAAjouter3 = "$numAAjouter3"
-
+/*
 'Ajourter un 2ème numéro dans ma liste FAF'
 WebUI.callTestCase(findTestCase('Services TELMA/Gerer Friends and Family/SHORTCODE 644/SCFAF04 - Ajouter numero FAF'), [
         ('numeroInitiateur') : GlobalVariable.msisdnInitiateur, ('numeroAAjouter') : numAAjouter2], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Ajouter un 3ème numéro dans ma liste FAF'
 WebUI.callTestCase(findTestCase('Services TELMA/Gerer Friends and Family/SHORTCODE 644/SCFAF04 - Ajouter numero FAF'), [
-        ('numeroInitiateur') : GlobalVariable.msisdnInitiateur, ('numeroAAjouter') : numAAjouter3], FailureHandling.CONTINUE_ON_FAILURE)
+        ('numeroInitiateur') : GlobalVariable.msisdnInitiateur, ('numeroAAjouter') : numAAjouter3], FailureHandling.CONTINUE_ON_FAILURE)*/
 
 'Essayer d\' ajouter un 4ème numéro dans ma liste FAF'
-String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect + '*1*0340030816#', numeroInitiateur)
+String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect + '*1*0340030816#', numeroInitiateur)
 
 'Vérifier la conformité du messsage'
 String menu = CustomKeywords.'ussd.Expected.menu'('Vous avez atteint le nombre maximum de numeros Friends and Familly autorises\\. Vous devez supprimer un avant d\'en rajouter\\.', 

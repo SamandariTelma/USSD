@@ -50,10 +50,10 @@ CustomKeywords.'ussd.Send.response'('2')
 CustomKeywords.'ussd.Send.response'('1')
 
 'Je saisis 2 (Envoyer 10 000 Ar) et je valide '
-String actualMenu=CustomKeywords.'ussd.Send.response'('2')
+String actualMen=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Desole, vous n\'etes pas autorise a acceder a ce service\\.',
+String men=CustomKeywords.'ussd.Expected.menu'('Desole, vous n\'etes pas autorise a acceder a ce service\\.',
 	'Tsy afaka mampiasa io tolotra io ianao\\.')
 
-WS.verifyMatch(actualMenu, menu, true)
+WS.verifyMatch(actualMen, men, true)

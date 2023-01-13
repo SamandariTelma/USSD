@@ -5,6 +5,12 @@
    <tag></tag>
    <comment>Achat Yelow 100 11eme tentative</comment>
    <testCaseGuid>a960d9a4-9cb7-4c73-8eae-4634656776b8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f013d39f-0381-4501-9646-42cc08ac6621</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>

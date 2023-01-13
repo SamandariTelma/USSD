@@ -5,6 +5,12 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>92f690aa-45ad-4d0f-bdb6-85f7f6d48413</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>907b6225-6dd0-414a-acc3-a2c2d628663f</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.msisdnNonEligible</defaultValue>
       <description></description>

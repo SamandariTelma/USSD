@@ -18,13 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur="${numeroInitiateur}"
 
 'Je me rend sur le menu TELMA NET en saisissant le shortCode *130*5*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*5#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*5#', numeroInitiateur)
 
 'Je saisis 3 NET MENSUEL'
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Je vérifie la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('NET MENSUEL\n1 NET ONE MONTH 2,5Go \\(15000 Ar\\)\n2 NET ONE MONTH 4,5Go \\(25000 Ar\\)\n3 NET ONE MONTH 15Go \\(75000 Ar\\)\n4 NET ONE MONTH 30Go \\(125000 Ar\\)\n5 NET ONE MONTH 100Go \\(195000 Ar\\)',
-	'NET MENSUEL\n1 NET ONE MONTH 2,5Go \\(15000 Ar\\)\n2 NET ONE MONTH 4,5Go \\(25000 Ar\\)\n3 NET ONE MONTH 15Go \\(75000 Ar\\)\n4 NET ONE MONTH 30Go \\(125000 Ar\\)\n5 NET ONE MONTH 100Go \\(195000 Ar\\)')
+String menu=CustomKeywords.'ussd.Expected.menu'('NET MENSUEL\n1 NET ONE MONTH 2Go \\(15000 Ar\\)\n2 NET ONE MONTH 4Go \\(25000 Ar\\)\n3 NET ONE MONTH 12Go \\(75000 Ar\\)\n4 NET ONE MONTH 25Go \\(125000 Ar\\)\n5 NET ONE MONTH 100Go \\(195000 Ar\\)',
+	'NET MENSUEL\n1 NET ONE MONTH 2Go \\(15000 Ar\\)\n2 NET ONE MONTH 4Go \\(25000 Ar\\)\n3 NET ONE MONTH 12Go \\(75000 Ar\\)\n4 NET ONE MONTH 25Go \\(125000 Ar\\)\n5 NET ONE MONTH 50Go \\(150000 Ar\\)\n6 NET ONE MONTH 100Go \\(195000 Ar\\)')
 
 WS.verifyMatch(actualMenu, menu, true)

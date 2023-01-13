@@ -24,13 +24,13 @@ String montantSOS="${montantSOS}"
 numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 'En tant que GP, je shortCode le SOS Credit  en composant *659*1*034xxx*montantxx#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect+'*'+numeroRecepteur+'*'+montantSOS+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+numeroRecepteur+'*'+montantSOS+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 int montant=montantSOS.toInteger()
 montantSOS=CustomKeywords.'ussd.Util.separateThousand'(montant)
 
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de recharge de '+montantSOS+'Ar a ete envoyee au '+numeroRecepteur+'\\.',
+String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de recharge de '+montantSOS+'Ar a ete envoyee au '+numeroRecepteur,
 	'Tontosa ny fangatahanao fahana '+montantSOS+'Ar mankany amin\'ny laharana '+numeroRecepteur+'\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

@@ -22,7 +22,7 @@ String dateExpiration=CustomKeywords.'outStream.XML.getDateBundle'("yelow 200")
 String heureExpiration=CustomKeywords.'outStream.XML.getTimeBundle'("yelow 200")
 
 'Après achat Offre Yelow 200 avec succès , je consulte mon solde en saisissant #359#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode359+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
 
 'Je saisis 1 (Mes offres) et valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')

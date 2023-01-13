@@ -5,8 +5,14 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1aa9ede5-fd64-4342-833f-cfbf4b46f184</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd76488f-239e-4e0f-be12-e8402898c9fc</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnAvecDette</defaultValue>
       <description></description>
       <id>fd76488f-239e-4e0f-be12-e8402898c9fc</id>
       <masked>false</masked>

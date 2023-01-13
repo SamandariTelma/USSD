@@ -20,7 +20,7 @@ String numeroInitiateur = "$numeroInitiateur"
 String numeroExistant = "$numeroExistant"
 
 'En tant que GP, je shortCode  *644*1*MSISDN# pour ajouter le numero *644*1*034xxx#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeDirect + '*1*'+numeroExistant+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect + '*1*'+numeroExistant+'#', numeroInitiateur)
 
 'Vérifier la conformité du messsage'/*
 String menu=CustomKeywords.'ussd.Expected.menu'('Le nombre maximum de numero FAF autre que TELMA est deja atteint\\.',

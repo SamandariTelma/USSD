@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur="${numeroInitiateur}"
 String numeroRecepteur="${numeroRecepteur}"
 'En tant que client TELMA, je vais dans le menu pour SOS Crédit en composant le #111# > 3, puis je sasis 4 et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode+'*4#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4#', numeroInitiateur)
 
 String menu=CustomKeywords.'ussd.Expected.menu'('^SOS Crédit\n1 Demander le remboursement à un ami\n2 Rembourser le SOS Crédit d\'un ami avec MVola\n3 Répertoire SOS$',
 	'^SOS Crédit\n1 Mangataka namana hamerina ny SOS credit\n2 Hamerina SOS credit nataon ny namana @ alalan ny Mvola\n3 Répertoire SOS$')
