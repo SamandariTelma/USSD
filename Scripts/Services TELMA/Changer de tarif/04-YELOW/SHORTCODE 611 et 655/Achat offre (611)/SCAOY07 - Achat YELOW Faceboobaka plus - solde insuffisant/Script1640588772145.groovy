@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que GP, j\'effectue mon offre YELOW faceboobaka + :  *611*68#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*68#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirectAchat+'*68#', numeroInitiateur)
 
 'Confirmer l\'achat d\'offre'
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')

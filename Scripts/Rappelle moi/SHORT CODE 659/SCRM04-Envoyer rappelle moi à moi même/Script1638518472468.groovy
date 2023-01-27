@@ -22,7 +22,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroInitiateur)
 
 'En tant que, j\'envoi un rappel moi à mon numéro avec le shortcode *659*034xxxx#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+numeroRecepteur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirect+'*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Vous ne pouvez pas envoyer une demande a vous-meme\\.', 'Tsy afaka mandefa fangatahana any amin\'ny tenanao ianao\\.')

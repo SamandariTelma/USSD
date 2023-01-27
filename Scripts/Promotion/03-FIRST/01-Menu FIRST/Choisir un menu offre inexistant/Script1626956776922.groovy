@@ -27,6 +27,6 @@ CustomKeywords.'ussd.Send.response'('3')
 String actualMenu=CustomKeywords.'ussd.Send.response'('12')
 
 'Vérifier que je reste sur le menu FIRST'
-String menu=CustomKeywords.'ussd.Expected.menu'('FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n1 FIRST PREMIUM \\(10 000 Ar\\)\n2 FIRST PREMIUM \\+ \\(15 000 Ar\\)\n3 FIRST PRESTIGE \\(30 000 Ar\\)\n4 FIRST ROYAL \\(50 000 Ar\\)\n5 FIRST CLASSIQUE \\(9 000 Ar\\)')
+String menu=CustomKeywords.'ussd.Expected.menu'('FIRST \\(VOIX \\- SMS \\- INTERNET\\)\n1 FIRST PREMIUM \\(10000 Ar\\)\n2 FIRST PREMIUM \\+ \\(15000 Ar\\)\n3 FIRST PRESTIGE \\(30000 Ar\\)\n4 FIRST ROYAL \\(50000 Ar\\)')
 
 WS.verifyMatch(actualMenu, menu, true)

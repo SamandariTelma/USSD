@@ -24,7 +24,7 @@ String cinMsisdnARecuperer="${cinMsisdnARecuperer}"
 
 
 'En tant que client TELMA, je vais dans le menu pour Récupérer mon numéro en composant #130*4*9#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde+'#', numeroInitiateur)
 
 'Je saisis le MSISDN à récupérer'
 numeroARecuperer=CustomKeywords.'ussd.Util.to034'(numeroARecuperer)

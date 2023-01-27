@@ -21,7 +21,7 @@ String numeroInitiateur="${numeroInitiateur}"
 
 
 'En tant que GP, j\'effectue mon offre Mora 5000 :  *611*35#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*35#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirectAchat+'*35#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('L achat du Mora\\+5000 est reussi\\.Bonus restants:#359#\\.Achats et consultation bonus SIMPLE& RAPIDE via l app Telma&Moi\\.\\+Bonus Kadoa 20% si achat via MVola',

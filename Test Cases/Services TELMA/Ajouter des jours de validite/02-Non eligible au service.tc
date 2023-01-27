@@ -12,7 +12,7 @@
       <variableId>7e372a6f-86a3-4899-8bf0-4714459c3f6e</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnPostpaid</defaultValue>
       <description></description>
       <id>7e372a6f-86a3-4899-8bf0-4714459c3f6e</id>
       <masked>false</masked>

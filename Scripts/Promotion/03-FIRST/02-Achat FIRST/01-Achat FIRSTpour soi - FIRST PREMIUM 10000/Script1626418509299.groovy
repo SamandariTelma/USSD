@@ -38,8 +38,8 @@ CustomKeywords.'ussd.Send.response'('1')
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('BRAVO! Grace a l achat de l offre FIRST PREMIUM, TELMA vous offre un bonus NET ONE WEEK 1,5 Go\\. Consultez vos bonus sur #359#\\. TELMA N1 des KADOA\\.',
-	'ARAHABAINA! Noho ny fividiananao ny tolotra FIRST PREMIUM, TELMA dia manolotra anao bonus NET ONE WEEK 1,5Go\\. Araho ny bonus\\-nao @ #359#\\. TELMA N1 ny KADOA\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('BRAVO\\! Grace a l achat de l offre FIRST PREMIUM, TELMA vous offre un bonus NET ONE WEEK 2,5 Go \\. Consultez vos bonus sur #359#\\. TELMA N1 des KADOA\\.',
+	'ARAHABAINA\\! Noho ny fividiananao ny tolotra FIRST PREMIUM, TELMA dia manolotra anao bonus NET ONE WEEK 2,5Go\\. Araho ny bonus\\-nao @ #359#\\. TELMA N1 ny KADOA\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

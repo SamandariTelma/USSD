@@ -21,7 +21,7 @@ String dateExpiration=CustomKeywords.'ussd.Util.getLastDayOfMonth'()
 
 
 'Après desactivation Offre FIRST PRESTIGE, je short code #359#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde359+'#', numeroInitiateur)
 
 'Je saisis 1 (Mes offres) et valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')

@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que GP , je shortcode en composant *659#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirect+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Bienvenue\\. Pour le Rappelle-moi composez #555\\*Numero TELMA MOBILE#\\. Pour SOS credit composez #555\\*1\\*Numero TELMA Mobile\\*somme a demander# ',

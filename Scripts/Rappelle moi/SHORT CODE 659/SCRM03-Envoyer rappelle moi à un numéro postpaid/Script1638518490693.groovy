@@ -23,7 +23,7 @@ String numeroRecepteur="${numeroRecepteur}"
 numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 'En tant que client GP, j\'envoi un rappel moi à un numéro postpayé avec le shortcode *659*034xxxx#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+numeroRecepteur+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirect+'*'+numeroRecepteur+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Votre demande de Rappelle-moi a ete envoyee','Tontosa ny fangatahana "Rappelle-moi" nataonao\\.')

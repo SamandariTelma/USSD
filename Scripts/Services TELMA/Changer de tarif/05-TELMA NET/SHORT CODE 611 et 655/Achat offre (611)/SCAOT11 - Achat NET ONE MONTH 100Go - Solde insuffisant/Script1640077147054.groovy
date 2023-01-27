@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que GP, j\'effectue mon offre NET One Month 100Go : *611*15#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*15#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirectAchat+'*15#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Votre credit est insuffisant pour le changement d\'offre que vous demandez\\.',

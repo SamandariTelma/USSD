@@ -24,7 +24,7 @@ String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(3,'dd/MM/yyy')
 String heureExpiration=CustomKeywords.'ussd.Util.nextDate'(3,'HH:mm')
 
 'En tant que GP, j\'effectue mon offre YELOW Facebobaka :  *611*65#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*65#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirectAchat+'*65#', numeroInitiateur)
 
 'Vérifier le prompt de confirmation'
 String menu=CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAKA : vous avez 250 Mo pour acceder a vos videos et photos sur Instagram et Facebook pendant 3j pour 500 Ar\\. En profiter\\? 1\\-OUI; 0\\-NON', 

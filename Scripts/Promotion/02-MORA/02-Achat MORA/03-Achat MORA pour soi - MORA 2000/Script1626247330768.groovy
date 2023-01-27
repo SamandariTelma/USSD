@@ -38,8 +38,8 @@ CustomKeywords.'ussd.Send.response'('3')
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('L achat de votre MORA\\+ 2000 est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois un bonus Kadoa de 20%\\.Tapez vite le #111\\*1#\\.',
-	'Tafiditra ny tolotra MORA\\+ 2000 novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao ary mahazoa hatrany Bonus kadoa 20%\\.Tsindrio ny #111\\*1#\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('KADOA POUR TOI DADA\\! 400 Mo de bonus DATA à l achat de ton MORA\\+2000, valable 2j, à toute heure\\. Consulte ton bonus sur #359#\\. TELMA N1 des KADOA\\.',
+	'KADOA HO AN NY DADA\\! 400 Mo bonus DATA ho anao noho ny MORA\\+2000 novidinao, manankery 2 andro\\. Jereo ao @\\#359\\# ny bonus azonao\\. TELMA N1 DES KADOA')
 
 WS.verifyMatch(actualMenu, menu, true)
 

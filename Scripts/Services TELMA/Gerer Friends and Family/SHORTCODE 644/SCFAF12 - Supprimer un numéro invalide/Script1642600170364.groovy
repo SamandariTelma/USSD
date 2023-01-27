@@ -21,7 +21,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String numeroNonFAF="0340030816"
 
 'En tant que GP je supprime un numéro qui n\'enxiste pas dans ma liste FAF *644*2*numeroInexistant#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*2*'+numeroNonFAF+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirect+'*2*'+numeroNonFAF+'#', numeroInitiateur)
 
 'Vérifier la conformité du prompt'
 

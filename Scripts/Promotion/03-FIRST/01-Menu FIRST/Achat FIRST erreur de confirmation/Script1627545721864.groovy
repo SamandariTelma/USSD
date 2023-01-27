@@ -27,6 +27,6 @@ CustomKeywords.'ussd.Send.response'('1')
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du message'
-String menu=CustomKeywords.'ussd.Expected.menu'('Cette option n\'est pas permise\\.', 'Safidy tsy manankery\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('Merci d\'avoir utliser le service Telma\\.', 'Misaotra anao nampiasa ny tolotra Telma\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

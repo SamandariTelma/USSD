@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que GP, je shortCode *644# pour consulter Menu'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirect+'#', numeroInitiateur)
 
 'Vérifier la conformité du menu'
 String menu=CustomKeywords.'ussd.Expected.menu'('Gerer Friends and Family\n1 Ajouter un contact\n2 Effacer un contact\n3 Liste Friends and Family',

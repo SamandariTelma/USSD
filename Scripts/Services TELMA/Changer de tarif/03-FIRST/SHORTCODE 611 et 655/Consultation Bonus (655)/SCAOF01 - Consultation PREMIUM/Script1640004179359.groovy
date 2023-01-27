@@ -21,7 +21,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
 
 'En tant que GP, je consulte mon offre First Premium :  *655*91#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*91#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirect+'*91#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Bonus FIRST PREMIUM: 10000 Ar appel national \\+ 100 SMS Telma \\+ 100\\.0  Mo la journee \\+ 50\\.0 Mo la nuit jusqu au '+dateExpiration+' inclus',

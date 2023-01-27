@@ -38,8 +38,8 @@ CustomKeywords.'ussd.Send.response'('5')
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('Vous avez choisi MORA NIGHT, desormais valable 24 HEURES\\. Beneficiez de 60 Mn et/ou 60 SMS utlisables de 21h a 6h vers TELMA\\. Solde bonus : #359#\\.',
-	'Nisafidy ny MORA NIGHT ianao, manankery 24 ORA manomboka izao\\. Antso 60 Mn sy/na SMS 60 azo ampiasaina @21h h@6h manakany @ nomerao Telma\\. Bonus tavela: #359#\\. ')
+String menu=CustomKeywords.'ussd.Expected.menu'('L achat du Mora Night est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE&RAPIDE via l app Telma&Moi\\. Kadoa 20% si achat via MVola',
+	'Tafiditra ny Mora Night\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma&Moi\\. Kadoa 20% raha vidiana @Mvola')
 
 WS.verifyMatch(actualMenu, menu, true)
 

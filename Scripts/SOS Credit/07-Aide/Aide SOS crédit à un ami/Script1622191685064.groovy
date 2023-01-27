@@ -19,7 +19,7 @@ String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que client TELMA, je vais dans le menu pour SOS Crédit en composant le #111# > 3, puis je sasis 5 et je valide'
 
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*5#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde+'*5#', numeroInitiateur)
 
 'Je saisis 1 et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')

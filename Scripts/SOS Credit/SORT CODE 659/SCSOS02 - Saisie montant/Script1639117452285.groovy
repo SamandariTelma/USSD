@@ -23,7 +23,7 @@ String numeroRecepteur="${numeroRecepteur}"
 numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 'En tant que GP, j\'envoi un SOS avec un montant inférieur à 200 en composant *659*1*034xxx*montantxx#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+numeroRecepteur+'*100#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirect+'*'+numeroRecepteur+'*100#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Echec de la transaction\\. Merci de contacter le Service Clientele au 800\\.',
@@ -32,7 +32,7 @@ String menu=CustomKeywords.'ussd.Expected.menu'('Echec de la transaction\\. Merc
 WS.verifyMatch(actualMenu, menu, true)
 
 'En tant que GP, j\'envoi un SOS avec un montant supérieur à 199999 en composant *659*1*034xxx*montantxx#'
-actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*'+numeroRecepteur+'*200000#', numeroInitiateur)
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirect+'*'+numeroRecepteur+'*200000#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 

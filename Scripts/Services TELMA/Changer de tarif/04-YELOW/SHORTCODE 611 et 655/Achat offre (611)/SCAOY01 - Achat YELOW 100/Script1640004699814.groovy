@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String numeroInitiateur="${numeroInitiateur}"
 
 'En tant que GP, j\'effectue mon offre YELOW100 :  *611*67#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*67#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirectAchat+'*67#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW 100 est reussi\\. Vous avez 20 SMS et/ou 20Mo utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus\\. #111\\*1#\\.', 

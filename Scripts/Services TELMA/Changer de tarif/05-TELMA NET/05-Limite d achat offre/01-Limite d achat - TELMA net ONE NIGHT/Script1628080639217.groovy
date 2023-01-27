@@ -37,7 +37,7 @@ WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/05-TELMA NET/02
 */
 'Achat ONE NIGHT 6ème Tentative'
 'Je vais dans le menu Changer de tarif en shortcodant #130*4*6# (Achat TELMA ONE NIGHT 5ème tentative)'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde + '#', numeroInitiateur)
 
 'Je saisis 4 (TELMA Net (INTERNET)) et valide'
 CustomKeywords.'ussd.Send.response'('4')

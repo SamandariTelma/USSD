@@ -27,8 +27,8 @@ CustomKeywords.'ussd.Send.response'('2')
 String actualMenu=CustomKeywords.'ussd.Send.response'('12')
 
 'Vérifier que je reste sur le menu MORA'
-String menu=CustomKeywords.'ussd.Expected.menu'('MORA \\(VOIX \\- SMS \\- INTERNET\\)\n1 MORA 500 \\(500 Ar\\)\n2 MORA ONE \\(1 000 Ar\\)\n3 MORA\\+ 2000 \\(2 000 Ar\\)\n4 MORA\\+ 5000 \\(5 000 Ar\\)\n5 MORA NIGHT \\(500 Ar\\)\n0 Page suivante',
-	'MORA \\(VOIX \\- SMS \\- INTERNET\\)\n1 MORA 500 \\(500 Ar\\)\n2 MORA ONE \\(1 000 Ar\\)\n3 MORA\\+ 2000 \\(2 000 Ar\\)\n4 MORA\\+ 5000 \\(5 000 Ar\\)\n5 MORA NIGHT \\(500 Ar\\)\n0 Pejy manaraka')
+String menu=CustomKeywords.'ussd.Expected.menu'('MORA \\(VOIX \\- SMS \\- INTERNET\\)\n1 MORA 500 \\(500 Ar\\)\n2 MORA ONE \\(1000 Ar\\)\n3 MORA\\+ 2000 \\(2000 Ar\\)\n4 MORA\\+ 5000 \\(5000 Ar\\)\n5 MORA NIGHT \\(500 Ar\\)\n0 Page suivante',
+	'MORA \\(VOIX \\- SMS \\- INTERNET\\)\n1 MORA 500 \\(500 Ar\\)\n2 MORA ONE \\(1000 Ar\\)\n3 MORA\\+ 2000 \\(2000 Ar\\)\n4 MORA\\+ 5000 \\(5000 Ar\\)\n5 MORA NIGHT \\(500 Ar\\)\n0 Pejy manaraka')
 
 WS.verifyMatch(actualMenu, menu, true)
 

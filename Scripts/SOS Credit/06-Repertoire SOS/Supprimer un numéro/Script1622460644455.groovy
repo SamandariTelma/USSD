@@ -20,7 +20,7 @@ String numeroASupprimer="${numeroASupprimer}"
 String pinMsisdnInitiateur="${pinMsisdnInitiateur}"
 
 'En tant que client TELMA, je vais dans le menu repertoire SOS en composant le #111# > 3 > 4 >3'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4*3#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde+'*4*3#', numeroInitiateur)
 
 'Je saisis 2 et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('2')
@@ -59,7 +59,7 @@ WS.verifyMatch(actualMenu, menu, true)
 
 'Consulte le repertoire'
 
-actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*4*3*3#', numeroInitiateur)
+actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde+'*4*3*3#', numeroInitiateur)
 
 //REGEX qui exclu le numéro supprimé
 String numeroSupprime='^((?!'+numeroASupprimer+').)*$'

@@ -24,7 +24,7 @@ numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 
 'En tant que GP, j\'effectue un achat offre Yelow facebobaka via MVola:  *611*65*1#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*65*1#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirectAchat+'*65*1#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'('Pour confirmer le paiement de l offre YELOW FACEBOBAKA a '+montant+' Ar via MVola pour acceder a 250 Mo de forfait Instagram et Facebook , entrer code secret :',

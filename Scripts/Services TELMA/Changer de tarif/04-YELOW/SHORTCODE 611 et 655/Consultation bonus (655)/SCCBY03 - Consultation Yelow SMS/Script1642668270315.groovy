@@ -23,7 +23,7 @@ String dateExpiration=CustomKeywords.'outStream.XML.getDateBundle'("yelow sms")
 String heureExpiration=CustomKeywords.'outStream.XML.getTimeBundle'("yelow sms")
 
 'En tant que GP, je consulte mon offre YELOW SMS :  *655*62#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*62#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirect+'*62#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Bonus YELOW SMS restants: 100 SMS Telma et 25 SMS autres operateurs jusqu au '+dateExpiration+' a '+heureExpiration+'\\.',

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 String numeroInitiateur="${numeroInitiateur}"
 
-'Je visualise la date de validité de mon crédit, en composant #130*4*1*1#'
+'Je visualise la date de validité de mon crédit, en composant #130*4*1*1#' 
 String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeInfoCred, numeroInitiateur)
 
 //Récupération de la date de validité

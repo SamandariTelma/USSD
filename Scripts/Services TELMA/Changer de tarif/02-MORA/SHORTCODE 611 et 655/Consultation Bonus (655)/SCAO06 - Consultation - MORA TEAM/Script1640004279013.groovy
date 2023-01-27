@@ -21,7 +21,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(1,'dd/MM/yyy')
 
 'En tant que GP, je consulte mon offre Mora Team :  *655*26#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirect+'*26#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirect+'*26#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA TEAM: 3600 sec d appels et/ou 60 SMS vers Num FAF et/ou 60\\.0 Mo valable jusqu a minuit\\. Tapez #344\\*1\\*Num pour rajouter Num FAF\\. Telma N1 a M/car',

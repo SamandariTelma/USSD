@@ -24,7 +24,7 @@ numeroRecepteur=CustomKeywords.'ussd.Util.to034'(numeroRecepteur)
 
 
 'En tant que GP, j\'effectue un achat offre First Prestige via MVola:  *611*93*1#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodeDirectAchat+'*93*1#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCoddeDirectAchat+'*93*1#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu = CustomKeywords.'ussd.Expected.menu'('Pour confirmer le paiement de l\'offre FIRST PRESTIGE via MVola d\'un montant de '+montant+' Ar, Entrer code secret :',

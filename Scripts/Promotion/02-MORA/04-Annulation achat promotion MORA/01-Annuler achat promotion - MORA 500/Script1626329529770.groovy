@@ -27,7 +27,8 @@ CustomKeywords.'ussd.Send.response'('2')
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('^.*\\. Vous voulez en profiter\\? 1\\-OUI ; 0\\-NON.*$','^.*\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA.*$')
+String menu=CustomKeywords.'ussd.Expected.menu'('MORA 500 \\! Appelez a 1,25 Ar vers Telma et 3,25 Ar vers les autres operateurs \\+ jusqu a 20 SMS et/ou 20 Mo pour 500 Ar\\. En profiter\\? 1-OUI ; 0\\-NON',
+												'MORA 500 \\! Antso 1,25 Ar mankany @Telma ary 3,25 Ar mankany @tambazotra hafa miampy h@ 20 SMS sy/na 20 Mo @sarany 500 Ar\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA')
 
 WS.verifyMatch(actualMenu, menu, true)
 'J\'annulle l\'achat en saisissant 0 (NON)'

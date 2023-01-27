@@ -21,7 +21,7 @@ String numeroInitiateur="${numeroInitiateur}"
 String dateExpiration=CustomKeywords.'ussd.Util.nextDate'(29,'dd/MM/yyy')
 
 'Après achat Offre Yelow 1000 avec succès , je consulte mon solde en saisissant #359#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde359+'#', numeroInitiateur)
 
 'Je saisis 1 (Mes offres) et valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')

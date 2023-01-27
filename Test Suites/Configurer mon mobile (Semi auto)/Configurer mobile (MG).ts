@@ -28,7 +28,7 @@
       <guid>86c70e53-6eb8-4baf-853a-899b3c30ef46</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/02-Configurer service WAP/Configurer service WAP - Succès</testCaseId>
+      <testCaseId>Test Cases/Configurer mon mobile (Semi auto)/02-Configurer service WAP/Configurer service WAP - Succès - Non fonctionnel</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
