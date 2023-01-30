@@ -26,7 +26,7 @@ WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'
 int soldeAvant = GlobalVariable.soldeCredit
 
 'Je shortcode *130*5# et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis 3(FIRST)'
 CustomKeywords.'ussd.Send.response'('3')
@@ -38,8 +38,8 @@ CustomKeywords.'ussd.Send.response'('4')
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('L achat de votre FIRST ROYAL est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois un bonus kadoa de 20%\\.Tapez vite le #111\\*1#\\.',
-	'Tafiditra ny tolotra FIRST ROYAL novidianao\\. Bonus\\-nao: #359#\\. Vidio @MVola ny tolotrao  ary mahazoa hatrany Bonus kadoa 20%\\. Tsindrio ny #111\\*1#\\.')
+String menu=CustomKeywords.'ussd.Expected.menu'('KADOA POUR TOI NENY\\! TELMA a double ton data sur ton offre FIRST ROYAL, valable 30j\\. Consulte ton bonus sur #359#\\. TELMA N1 des KADOA\\.',
+	                                             'KADOA HO AN NY NENY\\! Nitombo avo 2 heny ny data ao anaty FIRST ROYAL novidinao, manankery 30 andro\\. Jereo ao @#359# ny bonus azonao\\. TELMA N1 DES KADOA\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 

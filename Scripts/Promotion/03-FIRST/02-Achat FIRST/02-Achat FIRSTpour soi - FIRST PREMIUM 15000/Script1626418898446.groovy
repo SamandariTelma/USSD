@@ -38,7 +38,7 @@ CustomKeywords.'ussd.Send.response'('2')
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('KADOA POUR TOI NENY! TELMA a double ton data sur ton offre FIRST PREMIUM+, valable 30j. Consulte ton bonus sur #359#. TELMA N1 des KADOA.',
+String menu=CustomKeywords.'ussd.Expected.menu'('KADOA POUR TOI NENY\\! TELMA a double ton data sur ton offre FIRST PREMIUM\\+, valable 30j\\. Consulte ton bonus sur #359#\\. TELMA N1 des KADOA\\.',
 	'KADOA HO AN NY NENY\\! Nitombo avo 2 heny ny data ao anaty FIRST PREMIUM\\+ novidinao, manankery 30 andro\\. Jereo ao @#359# ny bonus azonao\\. TELMA N1 DES KADOA\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
