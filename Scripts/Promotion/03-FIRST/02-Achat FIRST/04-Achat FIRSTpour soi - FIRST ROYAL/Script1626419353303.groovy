@@ -38,7 +38,7 @@ CustomKeywords.'ussd.Send.response'('4')
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('KADOA POUR TOI NENY\\! TELMA a double ton data sur ton offre FIRST ROYAL, valable 30j\\. Consulte ton bonus sur #359#\\. TELMA N1 des KADOA\\.',
+String menu=CustomKeywords.'ussd.Expected.menu'('L achat du First Royal est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE&RAPIDE via l app Telma&Moi\\. Kadoa 20% si achat via MVola\\.',
 	                                             'KADOA HO AN NY NENY\\! Nitombo avo 2 heny ny data ao anaty FIRST ROYAL novidinao, manankery 30 andro\\. Jereo ao @#359# ny bonus azonao\\. TELMA N1 DES KADOA\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

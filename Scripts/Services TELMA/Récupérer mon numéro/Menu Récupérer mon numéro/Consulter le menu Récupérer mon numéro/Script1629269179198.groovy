@@ -24,7 +24,7 @@ CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA, numeroInitiateur)
 String actualMenu=CustomKeywords.'ussd.Send.response'('4')
 
 'Vérifier la présence du menu Récupérer mon numéro'
-String menu= CustomKeywords.'ussd.Expected.menu'('^.*9 Recuperer mon numero.*$', '^.*9 Hamerina ny Laharako*.$')
+String menu= CustomKeywords.'ussd.Expected.menu'('Services TELMA\n1 Info credit\n2 Recharge\n3 Gerer Friends and Family\n4 Envoyer Credit/Offre/Mega\n5 Ajouter des jours de validite\n0 Page suivante', '^.*0 Pejy manaraka*.$')
 
 WS.verifyMatch(actualMenu, menu, true)
 

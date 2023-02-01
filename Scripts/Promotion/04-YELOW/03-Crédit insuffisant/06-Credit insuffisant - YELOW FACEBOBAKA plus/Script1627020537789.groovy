@@ -18,13 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur = "$numeroInitiateur"
 
 'Je shortcode *130*5# et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde + '#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 
 'Je saisis 4(YELOW)'
 CustomKeywords.'ussd.Send.response'('4')
 
-'Je saisis  6 (Yelow Facebobaka +) et je valide'
-CustomKeywords.'ussd.Send.response'('6')
+'Je saisis  7 (Yelow Facebobaka +) et je valide'
+CustomKeywords.'ussd.Send.response'('7')
 
 'Je confirme l\'achat en saisissant 1 (OUI)'
 String actualMenu = CustomKeywords.'ussd.Send.response'('1')

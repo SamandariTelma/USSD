@@ -26,19 +26,19 @@ WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'
 int soldeAvant = GlobalVariable.soldeCredit
 
 'Je shortcode *130*5# et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis 4(YELOW)'
 CustomKeywords.'ussd.Send.response'('4')
 
-'Je saisis  5 (Yelow 200) et je valide'
-CustomKeywords.'ussd.Send.response'('5')
+'Je saisis  6 (Yelow 200) et je valide'
+CustomKeywords.'ussd.Send.response'('6')
 
 'Je confirme l\'achat en saisissant 1 (OUI)'
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('L achat de votre YELOW 200 est reussi\\. Bonus restants: #359#\\. Achetez via MVola et gagnez a chaque fois 20% de bonus\\.Tapez vite le #111\\*1#\\.', 
+String menu=CustomKeywords.'ussd.Expected.menu'('L achat du Yelow 200 est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE&RAPIDE via l app Telma&Moi\\. Kadoa 20% si achat via MVola ', 
     'Tafiditra ny tolotra YELOW 200 novidianao\\. Bonus-nao: #359#\\. Vidio @MVola ny tolotrao ary mahazoa Bonus internet 20%\\. Tsindrio ny #111\\*1#\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

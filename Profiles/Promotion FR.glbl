@@ -30,8 +30,8 @@
       <name>numeroNonEligible</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'261380942156'</initValue>
+      <description>261346848017</description>
+      <initValue>'261346848017'</initValue>
       <name>msisdnCreditInsuffisant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur="${numeroInitiateur}"
 
 'Je shortcode #111*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
 
 'Je saisis 4 (YELOW) et je valide'
 CustomKeywords.'ussd.Send.response'('4')
@@ -27,7 +27,8 @@ CustomKeywords.'ussd.Send.response'('4')
 String actualMenu=CustomKeywords.'ussd.Send.response'('12')
 
 'Vérifier que je reste sur le menu MORA'
-String menu=CustomKeywords.'ussd.Expected.menu'('YELOW \\(SMS \\- INTERNET\\)\n1 YELOW100 \\(100 Ar\\)\n2 YELOW SMS \\(200 Ar\\)\n3 YELOW FACEBOBAKA \\(500 Ar\\)\n4 YELOW 1000 \\(1 000 Ar\\)\n5 YELOW 200 \\(200 Ar\\)\n6 YELOW FACEBOOBAKA \\+ \\(2 000 Ar\\)')
+String menu=CustomKeywords.'ussd.Expected.menu'('YELOW \\(SMS \\- INTERNET\\)\n1 YELOW100 \\(100 Ar\\)\n2 YELOW SMS \\(200 Ar\\)\n3 YELOW FACEBOOBAKA \\(500 Ar\\)\n4 YELOW 1000 \\(1000 Ar\\)\n0 Page suivante', 
+	                                             'YELOW \\(SMS \\- INTERNET\\)\n1 YELOW100 \\(100 Ar\\)\n2 YELOW SMS \\(200 Ar\\)\n3 YELOW FACEBOOBAKA \\(500 Ar\\)\n4 YELOW 1000 \\(1000 Ar\\)\n0 Pejy manaraka')
 
 WS.verifyMatch(actualMenu, menu, true)
 

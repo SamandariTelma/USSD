@@ -15,10 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String numeroInitiateur="${numeroInitiateur}"
+String numeroInitiateur = "$numeroInitiateur"
+
 
 'Je shortcode *130*5# et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 
 'Je saisis 3(FIRST)'
 CustomKeywords.'ussd.Send.response'('3')
@@ -27,11 +28,11 @@ CustomKeywords.'ussd.Send.response'('3')
 CustomKeywords.'ussd.Send.response'('1')
 
 'Je confirme l\'achat en saisissant 1 (OUI)'
-String actualMenu=CustomKeywords.'ussd.Send.response'('1')
+String actualMenu = CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('Votre credit est insuffisant pour le changement d\'offre que vous demandez\\.',
-	'Tsy ampy ny fahana anananao raha hiova io tolotra nangatahanao io ianao\\.')
+String menu = CustomKeywords.'ussd.Expected.menu'('Votre credit est insuffisant pour le changement d\'offre que vous demandez\\.', 
+    'Tsy ampy ny fahana anananao raha hiova io tolotra nangatahanao io ianao\\.')
 
 WS.verifyMatch(actualMenu, menu, true)
 
