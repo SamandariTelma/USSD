@@ -18,17 +18,17 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur = "$numeroInitiateur"
 
 'Je shortcode *130*5# et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde + '#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 
 'Je saisis 4(YELOW)'
 CustomKeywords.'ussd.Send.response'('4')
 
 'Je saisis  6 (Yelow Facebobaka +) et je valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('6')
+String actualMenu=CustomKeywords.'ussd.Send.response'('7')
 
 'Vérifier la conformité du prompt'
 String menu=CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAKA\\+ : vous avez 1 Go pour acceder a vos videos et photos sur Instagram et Facebook pendant 7 jours pour 2000 Ar\\. En profiter\\? 1\\-OUI ; 0\\-NON', 
-	'YELOW FACEBOOBAKA \\+: Manana 1 Go ianao ahafahana mampiasa Instagram sy Facebook, manan\\-kery 7 andro @ sarany 2000 Ar\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA')
+	'YELOW FACEBOOBAKA\\+ : Manana 1,5Go ianao ahafahana mampiasa Instagram, Facebook sy WhatsApp, manan-kery 7 andro @ sarany 2000 Ar\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA')
 
 WS.verifyMatch(actualMenu, menu, true)
 

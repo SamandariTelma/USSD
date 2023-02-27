@@ -25,7 +25,7 @@ WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'
 int soldeAvant = GlobalVariable.soldeCredit
 
 'Je vais dans le menu TELMA NET en shortcodant #130*5*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde+'*5#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*5#', numeroInitiateur)
 
 'Je saisi 1 (TELMA NET Journalier)'
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')

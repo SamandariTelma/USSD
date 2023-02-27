@@ -271,7 +271,7 @@
    <testCaseLink>
       <guid>ca976993-7517-4b0b-ac01-7623af2f96af</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/04-Annulation Promotion/06-Annuler achat promotion - YELOW FACEBOBAKA plus</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -284,7 +284,7 @@
    <testCaseLink>
       <guid>24c5992f-6287-4e95-9a75-f0eed5543285</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/04-Annulation Promotion/05-Annuler achat promotion - YELOW 200</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -297,7 +297,7 @@
    <testCaseLink>
       <guid>db3db0e1-d634-434a-8c34-564deb487f93</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/04-Annulation Promotion/04-Annuler achat promotion - YELOW 1000</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -310,7 +310,7 @@
    <testCaseLink>
       <guid>dbccdc6a-d2ea-4340-baad-c491344d9bce</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/04-Annulation Promotion/03-Annuler achat promotion - YELOW FACEBOBAKA</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -323,7 +323,7 @@
    <testCaseLink>
       <guid>0c5dac6b-5809-4530-ad8f-904e55187c7a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/04-Annulation Promotion/02-Annuler achat promotion - YELOW SMS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -336,7 +336,7 @@
    <testCaseLink>
       <guid>c5d60f71-55d1-4e5c-b1e1-36717821ffc3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Promotion/04-YELOW/04-Annulation Promotion/01-Annuler achat promotion - YELOW 100</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

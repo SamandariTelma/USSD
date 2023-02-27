@@ -39,7 +39,7 @@ String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du menu'
 String menu=CustomKeywords.'ussd.Expected.menu'('L achat du Yelow 200 est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE&RAPIDE via l app Telma&Moi\\. Kadoa 20% si achat via MVola ', 
-    'Tafiditra ny tolotra YELOW 200 novidianao\\. Bonus-nao: #359#\\. Vidio @MVola ny tolotrao ary mahazoa Bonus internet 20%\\. Tsindrio ny #111\\*1#\\.')
+    'Tafiditra ny Yelow 200\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma&Moi\\. Kadoa 20% raha vidiana @Mvola')
 
 WS.verifyMatch(actualMenu, menu, true)
 

@@ -20,15 +20,17 @@ String numeroInitiateur = "$numeroInitiateur"
 'Je shortcode *130*5# et je valide'
 CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde + '#', numeroInitiateur)
 
-'Je saisis 4(YELOW)'
-CustomKeywords.'ussd.Send.response'('4')
+WebUI.callTestCase(findTestCase('Test Cases/Promotion/04-YELOW/01-Menu YELOW/Consulter Menu YELOW'), [('numerosInitiateur'): numeroInitiateur],FailureHandling.CONTINUE_ON_FAILURE)
+	
+//'Je saisis 4(YELOW)'
+//CustomKeywords.'ussd.Send.response'('4')
 
 'Je saisis  3 (Yelow Facebobaka) et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('3')
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAKA : vous avez 250 Mo pour acceder a vos videos et photos sur Instagram et Facebook pendant 3j pour 500 Ar\\. En profiter\\? 1\\-OUI ; 0\\-NON', 
-	'YELOW FACEBOOBAKA: Manana 250 Mo ianao ahafahana mampiasa Instagram sy Facebook, manan\\- kery 2 andro @ sarany 500 Ar\\. Hanararaotra\\? 1\\-ENY ; 0\\-TSIA')
+String menu=CustomKeywords.'ussd.Expected.menu'('YELOW FACEBOOBAKA : vous avez 250 Mo pour acceder a vos videos et photos sur Instagram et Facebook pendant 2j pour 500 Ar En profiter\\? 1\\-OUI ; 0\\-NON', 
+	'YELOW FACEBOOBAKA: Manana 250 Mo ianao ahafahana mampiasa Instagram sy Facebook, manan\\-kery 2 andro @ sarany 500 Ar Hanararaotra\\? 1\\-ENY ; 0\\-TSIA')
 
 WS.verifyMatch(actualMenu, menu, true)
 

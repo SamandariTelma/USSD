@@ -18,16 +18,18 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur = "$numeroInitiateur"
 
 'Je shortcode *130*5# et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde + '#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode + '#', numeroInitiateur)
 
-'Je saisis 4(YELOW)'
-CustomKeywords.'ussd.Send.response'('4')
+WebUI.callTestCase(findTestCase('Test Cases/Promotion/04-YELOW/01-Menu YELOW/Consulter Menu YELOW'), [('numerosInitiateur'): numeroInitiateur],FailureHandling.CONTINUE_ON_FAILURE)
+
+//'Je saisis 4(YELOW)'
+//CustomKeywords.'ussd.Send.response'('4')
 
 'Je saisis  4 (Yelow 1000) et je valide'
 String actualMenu=CustomKeywords.'ussd.Send.response'('4')
 
 'Vérifier la conformité du prompt'
-String menu=CustomKeywords.'ussd.Expected.menu'('^.*Vous voulez en profiter\\? 1\\-OUI ; 0\\-NON.*$','^.*Hanararaotra\\? 1\\-ENY ; 0\\-TSIA.*$')
+String menu=CustomKeywords.'ussd.Expected.menu'('^.*En profiter\\? 1\\-OUI ; 0\\-NON.*$','^.*Hanararaotra\\? 1\\-ENY ; 0\\-TSIA.*$')
 
 WS.verifyMatch(actualMenu, menu, true)
 

@@ -5,12 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5ff7bf80-c5f3-4e50-970e-28df9c26d790</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>a5e2863b-4e42-4da4-a136-2b3675537981</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>

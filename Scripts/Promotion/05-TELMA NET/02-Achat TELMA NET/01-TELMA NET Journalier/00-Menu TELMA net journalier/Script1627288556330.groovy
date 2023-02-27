@@ -18,12 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur="${numeroInitiateur}"
 
 'Je me rend sur le menu TELMA NET en saisissant le shortCode *130*5*5#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde+'*5#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode+'*5#', numeroInitiateur)
 
 'Je saisis 1 NET JOURNALIER'
 String actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Je vérifie la conformité du menu'
-String menu=CustomKeywords.'ussd.Expected.menu'('NET JOURNALIER\n1 NET ONE NIGHT  \\(100 Ar\\)\n2 YE\'LOW ONE \\(1000 Ar\\)')
+String menu=CustomKeywords.'ussd.Expected.menu'('NET JOURNALIER\n1 NET ONE NIGHT \\(100 Ar\\)')
 
 WS.verifyMatch(actualMenu, menu, true)
