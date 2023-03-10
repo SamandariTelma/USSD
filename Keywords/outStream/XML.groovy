@@ -26,7 +26,7 @@ import internal.GlobalVariable
 
 public class XML {
 
-	String filePath="D:\\Utilisateurs\\samandari\\QA\\PROJET AUTOMATISATION\\USSD\\USSD TELMA\\Include\\DateAchatBundle.xml"
+	String filePath="C:\\Users\\Annie1\\git\\USSD\\Include\\DateAchatBundle.xml"
 	String bundleName
 	def xmlFile = filePath
 	def xml = new XmlSlurper().parse(xmlFile)

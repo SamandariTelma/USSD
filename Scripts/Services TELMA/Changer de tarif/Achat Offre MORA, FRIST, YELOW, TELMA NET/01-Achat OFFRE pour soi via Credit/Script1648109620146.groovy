@@ -44,7 +44,7 @@ WebUI.callTestCase(findTestCase('00-Called Test Case/Consulter le solde crédit'
 int soldeAvant = GlobalVariable.soldeCredit
 
 'Je shortcode *130*4*6*# et je valide'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde + '#', numeroInitiateur)
+CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA + '4'+'*' + '6'+ '#', numeroInitiateur)
 
 'Je saisis je saisie le rang du menu ex :1 pour MORA'
 CustomKeywords.'ussd.Send.response'(rangMenu)
@@ -61,7 +61,7 @@ if (rangOffreNivII != 'null') {
 //S'il existe de confirmation avant d'acheter un offre
 if (confirmation.equals('oui')) {
     'Vérifier la conformité du prompt de confirmation'
-    menu = WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/00 - Prompt et Message achat offre/Message de confirmation achat via Credit'), 
+    menu = WebUI.callTestCase(findTestCase('Test Cases/Services TELMA/Changer de tarif/00 - Prompt et Message achat offre/Message de confirmation achat via Credit'), 
         [('montant') : montant, ('offre') : offre, ('groupeOffre') : groupeOffre, ('volumeData') : volumeData, ('validite') : validite], 
         FailureHandling.CONTINUE_ON_FAILURE)
 

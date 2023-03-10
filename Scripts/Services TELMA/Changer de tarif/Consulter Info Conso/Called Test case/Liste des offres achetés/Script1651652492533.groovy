@@ -37,8 +37,8 @@ switch(offre)
 	case "YELOW SMS":
 		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('YELOW SMS', actualMenu)
 		break;
-	case "YELOW FACEBOBAKA":
-		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('YELOW FACEBOBAKA', actualMenu)
+	case "YELOW FACEBOOBAKA":
+		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('YELOW FACEBOOBAKA', actualMenu)
 		break;
 	case "YELOW FACEBOOBAKA ONE":
 		return rangMenu=CustomKeywords.'ussd.Util.rechercheMenu'('YELOW FACEBOOBAKA ONE', actualMenu)

@@ -21,7 +21,7 @@ String offre ="${offre}"
 String tarifCode= "${tarifCode}"
 
 'Après achat Offre avec succès , je consulte mon solde en saisissant #359*tarifCode#'
-String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode359 +"*"+ tarifCode+'#', numeroInitiateur)
+String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359 +"*"+ tarifCode+'#', numeroInitiateur)
 
 'Vérifier la conformité du message'
 String menu = WebUI.callTestCase(findTestCase('Services TELMA/Changer de tarif/00 - Prompt et Message achat offre/Message info conso offre'),

@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'*130#'</initValue>
+      <description>Novaina etoile ny # teo amin'ny farany</description>
+      <initValue>'*130*'</initValue>
       <name>ShortCodeTELMA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -16,11 +16,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'*130'</initValue>
+      <initValue>'*655'</initValue>
       <name>shortCode359</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>261346848952</description>
       <initValue>'261346848952'</initValue>
       <name>msisdnInitiateur</name>
    </GlobalVariableEntity>

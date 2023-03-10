@@ -90,7 +90,7 @@ switch(groupeOffre)
 					'Tafiditra ny Yelow 100\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa 20% raha vidiana @Mvola')
 				break;
 			case "YELOW 200":
-				return CustomKeywords.'ussd.Expected.menu'('L achat du Yelow 200 est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa 20% si achat via MVola',
+				return CustomKeywords.'ussd.Expected.menu'('L achat du Yelow 200 est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa 20% si achat via MVola ',
 					'Tafiditra ny Yelow 200\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa 20% raha vidiana @Mvola')
 				break;
 			case "YELOW SMS":
@@ -98,7 +98,7 @@ switch(groupeOffre)
 					'Tafiditra ny Yelow SMS\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa 20% raha vidiana @Mvola')
 				break;
 			case "YELOW FACEBOBAKA":
-				return CustomKeywords.'ussd.Expected.menu'('L achat du Yelow Facebobaka est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa 20% si achat via MVola',
+				return CustomKeywords.'ussd.Expected.menu'('L achat du Yelow Faceboobaka est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa 20% si achat via MVola',
 					'Tafiditra ny Yelow Facebobaka\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa20% raha vidiana @MVola')
 				break;
 			case "YELOW FACEBOOBAKA ONE":
@@ -107,7 +107,7 @@ switch(groupeOffre)
 				break;
 			case "YELOW FACEBOOBAKA \\+":
 				return CustomKeywords.'ussd.Expected.menu'('L achat du Yelow Facebobaka\\+ est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa 20% si achat via MVola',
-					'Tafiditra ny Yelow Facebobaka\\+\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa 20% raha vidiana @Mvola')
+					'Tafiditra ny Yelow Facebobaka\\+. Bonus\\-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa20% raha vidiana @MVola')
 				break;
 			case "YELOW 1000":
 				return CustomKeywords.'ussd.Expected.menu'('L achat du Yelow 1000 est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa 20% si achat via MVola',
@@ -115,6 +115,7 @@ switch(groupeOffre)
 			case "YELOW ONE":
 				return CustomKeywords.'ussd.Expected.menu'('L achat du Yelow One est reussi\\. Bonus restants:#359#\\. Achats et consultation bonus SIMPLE\\&RAPIDE via l app Telma\\&Moi\\. Kadoa 20% si achat via MVola',
 					'Tafiditra ny Yelow One\\. Bonus-nao:#359#\\. Haingana sy tsotra ny mividy tolotra sy mijery bonus @alalan ny app Telma\\&Moi\\. Kadoa 20% raha vidiana @Mvola')
+				//WEEKEND KADOA, TELMA manome anao bonus avo 2 heny @ YELOW ONE noho ny YELOW ONE novidinao, manankery 1 andro. Jereo ao @#359# ny bonus azonao. TELMA N1 KADOA.
 		}
 		break;
 	//------------------------------------------------*TELMA NET*--------------------------------------------------

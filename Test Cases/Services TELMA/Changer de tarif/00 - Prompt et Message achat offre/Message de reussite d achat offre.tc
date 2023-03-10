@@ -5,6 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>88e3aef1-bf07-4d8f-bf1d-b3a625692097</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67d08fc0-ebf0-480f-a71b-7e213a3797ee</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d1d3318e-0022-468d-8e0a-66cf906d5faf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42b6410b-858d-4b28-be42-f7ba74e7861a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f53ed6f-8556-4e14-9e47-3a383ce9ff9c</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'500'</defaultValue>
       <description></description>

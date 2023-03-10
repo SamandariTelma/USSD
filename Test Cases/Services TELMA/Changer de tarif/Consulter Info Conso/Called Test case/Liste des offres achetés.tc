@@ -5,6 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>296ef971-2dc0-4755-ad4a-2c31b9596ffa</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>388d86b9-8a22-4d93-8d11-d69c6a75a815</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>39dda038-efa4-4116-b60a-b40cb849df66</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'MORA 500'</defaultValue>
       <description></description>

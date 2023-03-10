@@ -20,7 +20,7 @@ String numeroInitiateur="${numeroInitiateur}"
 
 
 'Après achat Offre MORA ONE avec succès , je consulte mon solde en saisissant #359#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCodde359+'#', numeroInitiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.shortCode359+'#', numeroInitiateur)
 
 'Je saisis 1 (Mes offres) et valide'
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
@@ -41,7 +41,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('1')
 
 'Vérifier la conformité du message'
-menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA ONE restants : 1000 Ar appel national \\+ 20 SMS Telma \\+ 20\\.0 Mo utilisables jusqu a minuit\\. ',
+menu=CustomKeywords.'ussd.Expected.menu'('Bonus MORA ONE restants : 1000 Ar appel national \\+ 40 SMS Telma \\+ 40\\.0 Mo utilisables jusqu a minuit\\.',
 	'Bonus MORA ONE : 1000 Ar antso mankany @tambazotra rehetra \\+ 20 SMS Telma \\+ 20\\.0 Mo manankery hatramin ny sasakalina\\.')
 
 WS.verifyMatch(actualMenu, menu, true)

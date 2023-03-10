@@ -18,15 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 String numeroInitiateur="${numeroInitiateur}"
 
 'Je shortcode #111#'
-CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA, numeroInitiateur)
-
-'Je saisis 4 (Service TELMA) et valide'
-String actualMenu=CustomKeywords.'ussd.Send.response'('4')
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA+ '4'+ '#', numeroInitiateur)
 
 'Vérifier l\'apparition du menu Changer de tarif'
 String menu=CustomKeywords.'ussd.Expected.menu'('^.*Acheter une offre.*$','^.*Hividy tolotra.*$')
 
 WS.verifyMatch(actualMenu, menu, true)
+
 
 'Je saisis 6 (Changer de tarif)'
 actualMenu=CustomKeywords.'ussd.Send.response'('6')

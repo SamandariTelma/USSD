@@ -5,6 +5,24 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ca544554-9565-4078-9ebb-e2567a6425b5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>39bb496e-e714-40c2-9b38-fb98c05579e0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eee66850-0bde-4563-9fd1-7c9b166142d9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c33d04b6-7511-4143-b3de-447e5f87ac6a</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
       <description></description>
