@@ -69,26 +69,33 @@ switch(offre)
 		montant = CustomKeywords.'ussd.Util.separateThousand'(montant.toInteger(), ".")
 		return CustomKeywords.'ussd.Expected.menu'(offre+'! Beneficiez de '+volumeData+' de DATA utilisable a toute heure pendant '+validite+' jours pour seulement '+montant+' Ar\\. En profiter\\? 1\\-OUI; 0 \\- NON',
 			offre+'! Mahazoa '+volumeData+'  DATA azo ampiasaina @ ora rehetra @ sarany '+montant+'Ar monja mandritry ny '+validite+' andro\\. Hanararoatra\\? 1\\-ENY ; 0\\-TSIA')
+		//NET ONE WEEK 2 Go! Beneficiez de 2 Go de DATA utilisable a toute heure pendant 7 jours pour seulement 10.000 Ar. En profiter? 1-OUI; 0 - NON
 	break;
 	case "NET ONE MONTH 2 Go":
 		montant = CustomKeywords.'ussd.Util.separateThousand'(montant.toInteger(), ".")
 		return CustomKeywords.'ussd.Expected.menu'(offre+'! Beneficiez de '+volumeData+' de DATA utilisable a toute heure pendant '+validite+' jours pour seulement '+montant+' Ar\\. En profiter\\? 1\\-OUI; 0 \\- NON',
 			offre+'! Mahazoa '+volumeData+' DATA azo ampiasaina @ ora rehetra @ sarany '+montant+' Ar monja mandritry ny '+validite+' andro\\. Hanararoatra\\? 1\\-ENY ; 0\\-TSIA')
+		//NET ONE MONTH 2 Go! Mahazoa 2 Go DATA azo ampiasaina @ ora rehetra @ sarany 15.000 Ar monja mandritry ny 30 andro. Hanararoatra? 1-ENY ; 0-TSIA
 	break;
 	case "NET ONE MONTH 4 Go":
 		montant = CustomKeywords.'ussd.Util.separateThousand'(montant.toInteger(), ".")
 		return CustomKeywords.'ussd.Expected.menu'(offre+'! Beneficiez de '+volumeData+' de DATA utilisable a toute heure pendant '+validite+' jours pour seulement '+montant+' Ar\\. En profiter\\? 1\\-OUI; 0 \\- NON',
 			offre+'! Mahazoa '+volumeData+' DATA azo ampiasaina @ ora rehetra @ sarany '+montant+' Ar monja mandritry ny '+validite+' andro\\. Hanararoatra\\? 1\\-ENY ; 0\\-TSIA')
+		//NET ONE MONTH 4 Go! Beneficiez de 4 Go de DATA utilisable a toute heure pendant 30 jours pour seulement 25.000 Ar. En profiter? 1-OUI; 0 - NON
 	break;
 	case "NET ONE MONTH 12 Go":
 		montant = CustomKeywords.'ussd.Util.separateThousand'(montant.toInteger(), ".")
 		return CustomKeywords.'ussd.Expected.menu'(offre+'! Beneficiez de '+volumeData+' de DATA utilisable a toute heure pendant '+validite+' jours pour seulement '+montant+' Ar\\. En profiter\\? 1\\-OUI; 0 \\- NON',
 			offre+'! Mahazoa '+volumeData+' DATA azo ampiasaina @ ora rehetra @ sarany '+montant+' Ar monja mandritry ny '+validite+' andro\\. Hanararoatra\\? 1\\-ENY ; 0\\-TSIA')
+		//NET ONE MONTH 12 Go! Mahazoa 12 Go DATA azo ampiasaina @ ora rehetra @ sarany 75.000 Ar monja mandritry ny 30 andro. Hanararoatra? 1-ENY ; 0-TSIA
+		//NET ONE MONTH 12 Go! Beneficiez de 12 Go de DATA utilisable a toute heure pendant 30 jours pour seulement 75.000 Ar. En profiter? 1-OUI; 0 - NON
 	break;
 	case "NET ONE MONTH 25 Go":
 		montant = CustomKeywords.'ussd.Util.separateThousand'(montant.toInteger(), ".")
 		return CustomKeywords.'ussd.Expected.menu'(offre+'! Beneficiez de '+volumeData+' de DATA utilisable a toute heure pendant '+validite+' jours pour seulement '+montant+' Ar\\. En profiter\\? 1\\-OUI; 0 \\- NON',
 			offre+'! Mahazoa '+volumeData+' DATA azo ampiasaina @ ora rehetra @ sarany '+montant+' Ar monja mandritry ny '+validite+' andro\\. Hanararoatra\\? 1\\-ENY ; 0\\-TSIA')
+		//NET ONE MONTH 25 Go! Beneficiez de 25 Go de DATA utilisable a toute heure pendant 30 jours pour seulement 125.000 Ar. En profiter? 1-OUI; 0 - NON
+		//NET ONE MONTH 25 Go! Mahazoa 25 Go DATA azo ampiasaina @ ora rehetra @ sarany 125.000 Ar monja mandritry ny 30 andro. Hanararoatra? 1-ENY ; 0-TSIA
 	break;
 	default:
 		montant = CustomKeywords.'ussd.Util.separateThousand'(montant.toInteger(), ".")

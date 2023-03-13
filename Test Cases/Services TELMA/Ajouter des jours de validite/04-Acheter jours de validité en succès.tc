@@ -38,7 +38,7 @@
       <name>montant1Jour</name>
    </variable>
    <variable>
-      <defaultValue>'2'</defaultValue>
+      <defaultValue>'8'</defaultValue>
       <description></description>
       <id>0cdbf3a4-a32f-4725-b377-0ef9cf21f920</id>
       <masked>false</masked>

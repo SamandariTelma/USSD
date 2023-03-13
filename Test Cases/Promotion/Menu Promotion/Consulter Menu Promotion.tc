@@ -5,8 +5,14 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>0d0faf35-983e-4f07-8b73-bfb45de5052e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>addfd61d-5b8f-4614-87ed-a40776fa28d0</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnPostpaid</defaultValue>
       <description></description>
       <id>addfd61d-5b8f-4614-87ed-a40776fa28d0</id>
       <masked>false</masked>

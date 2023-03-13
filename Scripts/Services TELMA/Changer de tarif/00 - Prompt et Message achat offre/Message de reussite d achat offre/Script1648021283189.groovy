@@ -129,6 +129,7 @@ switch(groupeOffre)
 			case "NET ONE MONTH 2 Go" :
 				return CustomKeywords.'ussd.Expected.menu'('L achat de votre '+offre+' est reussi\\. Vous avez '+volumeData+' de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus \\(#111\\*1#\\)\\.',
 					'Tafiditra ny tolotra '+offre+' novidianao\\. Manana '+volumeData+' azo ampiasaina @ora rehetra ianao\\. Vidio @Mvola ny tolotra ary mahazoa bonus 20%\\. \\(#111\\*1#\\)\\.')
+				//L achat de votre NET ONE WEEK 2 Go est reussi. Vous avez 2 Go de DATA utilisable a toute heure. Achetez via Mvola et gagnez 20% de bonus. (#111*1#)
 			break;
 			case "NET ONE MONTH 25 Go" :
 				return CustomKeywords.'ussd.Expected.menu'('L achat de votre '+offre+' est reussi\\. Vous avez '+volumeData+' de DATA utilisable a toute heure\\. Achetez via Mvola et gagnez 20% de bonus \\(#111\\*1#\\)\\.',

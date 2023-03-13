@@ -16,8 +16,8 @@
     <date>28/04/2022</date>
   </BundleMoraInternat>
   <BundleFpremium>
-    <heure>10:00</heure>
-    <date>28/04/2022</date>
+    <heure>23:59</heure>
+    <date>11/04/2023</date>
   </BundleFpremium>
   <BundleFpremiumplus>
     <heure>10:00</heure>
@@ -65,23 +65,23 @@
   </BundleNetOneWeek800>
   <BundleNetOneWeek2>
     <heure>23:59</heure>
-    <date>04/05/2022</date>
+    <date>16/03/2023</date>
   </BundleNetOneWeek2>
   <BundleNetOneMonth2>
     <heure>23:59</heure>
-    <date>27/05/2022</date>
+    <date>08/04/2023</date>
   </BundleNetOneMonth2>
   <BundleNetOneMonth4>
     <heure>23:59</heure>
-    <date>27/05/2022</date>
+    <date>08/04/2023</date>
   </BundleNetOneMonth4>
   <BundleNetOneMonth12>
     <heure>23:59</heure>
-    <date>27/05/2022</date>
+    <date>08/04/2023</date>
   </BundleNetOneMonth12>
   <BundleNetOneMonth25>
     <heure>23:59</heure>
-    <date>27/05/2022</date>
+    <date>08/04/2023</date>
   </BundleNetOneMonth25>
   <BundleNetOneMonth50>
     <heure>23:59</heure>
