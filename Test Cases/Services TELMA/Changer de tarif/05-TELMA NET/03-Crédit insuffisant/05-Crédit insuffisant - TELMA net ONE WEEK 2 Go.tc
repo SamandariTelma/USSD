@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-Crédit insuffisant - TELMA net ONE WEEK 2 Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a96163d3-dc2b-4d3a-b224-02a13569cc6a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>30e78ba5-5ef5-423f-a883-f4fe3dbcee7e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>30e78ba5-5ef5-423f-a883-f4fe3dbcee7e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

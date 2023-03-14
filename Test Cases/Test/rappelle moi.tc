@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>rappelle moi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>17d47484-418a-49d7-9952-e6d05f19063c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f00a57a-2bf7-4372-b915-075af120be17</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ded0714-26fc-43fb-8c8a-f1524fee832b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08ccdb65-de6c-4cae-9657-ac43e21481e6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnSend</defaultValue>
+      <description></description>
+      <id>7f00a57a-2bf7-4372-b915-075af120be17</id>
+      <masked>false</masked>
+      <name>msisdnSender</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnHost</defaultValue>
+      <description></description>
+      <id>3ded0714-26fc-43fb-8c8a-f1524fee832b</id>
+      <masked>false</masked>
+      <name>msisdnHoster</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.shortCodde</defaultValue>
+      <description></description>
+      <id>08ccdb65-de6c-4cae-9657-ac43e21481e6</id>
+      <masked>false</masked>
+      <name>shortcode</name>
+   </variable>
+</TestCaseEntity>

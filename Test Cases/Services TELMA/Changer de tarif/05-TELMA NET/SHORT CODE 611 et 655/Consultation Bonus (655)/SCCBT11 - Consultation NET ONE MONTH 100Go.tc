@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCCBT11 - Consultation NET ONE MONTH 100Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed840dd0-a93b-400a-b774-91bbe22c4585</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>994a904e-067d-4897-9d75-4a48263488c6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>994a904e-067d-4897-9d75-4a48263488c6</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>11-Info conso - ONE MONTH 100Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>438029fd-db2f-40db-b264-43f52ba83a1e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>06f2df06-5213-4ed1-8a60-fa6fcabe37ab</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>06f2df06-5213-4ed1-8a60-fa6fcabe37ab</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVET09 - Confirmation envoi NET One Month 50Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>544c35d7-ec79-4f92-a81f-78c9350969fe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dfeb5062-e6be-4b08-b5bf-0a888bfd4015</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86b22519-68d0-41f7-89ca-b1d52db906f9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>53155797-9074-4441-a551-79167f2a0283</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>dfeb5062-e6be-4b08-b5bf-0a888bfd4015</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>86b22519-68d0-41f7-89ca-b1d52db906f9</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'195000'</defaultValue>
+      <description></description>
+      <id>53155797-9074-4441-a551-79167f2a0283</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Crédit insuffisant - TELMA YELOW ONE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ab3c37f-582b-4975-bf38-ab733b02e569</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5062fd20-b530-4a57-a899-578241a2decb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>5062fd20-b530-4a57-a899-578241a2decb</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

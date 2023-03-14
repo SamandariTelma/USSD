@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOT02 - Achat NET JOURNALIER YELOW ONE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9c4e02c-e798-4798-b210-fb8685ca2991</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>611c4ec0-64ea-472b-9328-a9055f403f8d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>611c4ec0-64ea-472b-9328-a9055f403f8d</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

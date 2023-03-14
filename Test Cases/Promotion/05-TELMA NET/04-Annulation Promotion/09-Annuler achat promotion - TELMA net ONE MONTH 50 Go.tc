@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>09-Annuler achat promotion - TELMA net ONE MONTH 50 Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>200534fc-92d7-433e-aaf0-89398429f2b2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>403c5dc8-2dff-4afc-b5db-5fcee193e727</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>403c5dc8-2dff-4afc-b5db-5fcee193e727</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

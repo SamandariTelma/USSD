@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVET11 - Envoi via MVola TELMA NET - Saisie numéro</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4d97aab-a97b-446b-8cff-16aeeefe426e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>f6867273-481b-4cd9-86e9-99daca45d978</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

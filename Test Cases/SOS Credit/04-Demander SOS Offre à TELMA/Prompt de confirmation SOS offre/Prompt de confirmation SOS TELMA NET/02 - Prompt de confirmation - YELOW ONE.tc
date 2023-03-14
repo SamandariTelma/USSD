@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02 - Prompt de confirmation - YELOW ONE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55235b34-6954-48f9-95da-77cb74de5679</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b19b30b5-c05c-4a96-aee2-a74f578817d1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>b19b30b5-c05c-4a96-aee2-a74f578817d1</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

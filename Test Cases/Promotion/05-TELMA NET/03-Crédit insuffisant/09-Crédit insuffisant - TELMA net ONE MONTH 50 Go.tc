@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>09-Crédit insuffisant - TELMA net ONE MONTH 50 Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2cf6553-a5b8-46f9-b688-c27fbfa9f7f1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5332ff05-07be-4c57-a7f7-09654154d0e0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnCreditInsuffisant</defaultValue>
+      <description></description>
+      <id>5332ff05-07be-4c57-a7f7-09654154d0e0</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

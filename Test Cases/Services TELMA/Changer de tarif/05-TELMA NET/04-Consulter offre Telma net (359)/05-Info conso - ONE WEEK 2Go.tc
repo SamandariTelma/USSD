@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-Info conso - ONE WEEK 2Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>23bdd791-88c0-40cb-838d-7f1acf2fadd3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4f2a3f71-0ab6-494d-9bf2-6a9027e1cf70</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>4f2a3f71-0ab6-494d-9bf2-6a9027e1cf70</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

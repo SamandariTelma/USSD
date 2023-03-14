@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCAOT12 - Achat NET ONE MONTH 50Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5680a391-1490-4ce7-80b1-8762b3c35de8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c6bdcf64-f86b-4d83-ba5f-a7211340cacc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>c6bdcf64-f86b-4d83-ba5f-a7211340cacc</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

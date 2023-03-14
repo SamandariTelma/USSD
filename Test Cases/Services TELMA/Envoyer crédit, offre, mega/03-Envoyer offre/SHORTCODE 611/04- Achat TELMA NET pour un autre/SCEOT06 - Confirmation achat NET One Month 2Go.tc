@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOT06 - Confirmation achat NET One Month 2Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f50f190a-c32b-4ed7-aaa7-b7f3de56d246</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>848536db-f7e1-41ae-81f8-64fe9b8ada0b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>151f0c06-26e5-42bf-8797-f961b79b6e25</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d945d7c7-f90e-42f7-a0aa-04512eb18370</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>848536db-f7e1-41ae-81f8-64fe9b8ada0b</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>151f0c06-26e5-42bf-8797-f961b79b6e25</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'25000'</defaultValue>
+      <description></description>
+      <id>d945d7c7-f90e-42f7-a0aa-04512eb18370</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

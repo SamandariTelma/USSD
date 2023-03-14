@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03 - Prompt de confirmation - NET ONE WEEK 350 Mo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55077331-048b-423b-bda3-ebdf8c0f94ff</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>093c953a-755e-4f5c-86b3-127e61d8a041</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>093c953a-755e-4f5c-86b3-127e61d8a041</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCMVET10 - Confirmation envoi NET One Month 100Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf0f64a9-1df7-4b9a-8dee-dd90409e948c</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>4ee84556-1ca2-4e5d-aefc-e7dc1fd95020</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnRecepteur</defaultValue>
+      <description></description>
+      <id>7c3a6e73-d9bd-4798-b8fd-52be05bde0a2</id>
+      <masked>false</masked>
+      <name>numeroRecepteur</name>
+   </variable>
+   <variable>
+      <defaultValue>'195000'</defaultValue>
+      <description></description>
+      <id>dacba329-1c58-40c9-84e4-8c6cd3e4b3e6</id>
+      <masked>false</masked>
+      <name>montant</name>
+   </variable>
+</TestCaseEntity>

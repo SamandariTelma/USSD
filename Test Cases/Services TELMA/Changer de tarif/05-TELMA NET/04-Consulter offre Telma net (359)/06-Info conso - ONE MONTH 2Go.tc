@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06-Info conso - ONE MONTH 2Go</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce21d204-6c19-4c2d-a55e-b1e2b8d7abc9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c0e70613-b987-4935-8db5-aa0fd225987e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>c0e70613-b987-4935-8db5-aa0fd225987e</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

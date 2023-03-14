@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCCBT02 - Consultation NET YELOW ONE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8e18eb7-d3ad-4e43-9f05-07aa6f6e2619</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5216cba0-9f38-45ca-af14-bab74beadaea</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>5216cba0-9f38-45ca-af14-bab74beadaea</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SCEOT11 - Achat TELMA NET - Saisie numéro</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac3be125-7210-4d54-9a8d-ffab36d58258</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <description></description>
+      <id>234d739e-0b9b-4a07-a853-57c5b792e157</id>
+      <masked>false</masked>
+      <name>numeroInitiateur</name>
+   </variable>
+</TestCaseEntity>
