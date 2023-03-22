@@ -31,7 +31,7 @@ WS.verifyMatch(actualMenu, menu, true)
 actualMenu=CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier l\'affichage du sous-menu'
-menu=CustomKeywords.'ussd.Expected.menu'('1 Recharger client\n2 Changer tarif client\n3 Envoyer du stock\n4 Consultation du solde\n5 Ventes d\'hier\n6 Changer code secret\n7 Changement de langue\n0 Page suivante\n00 Page precedente',
+menu=CustomKeywords.'ussd.Expected.menu'('2 TOI A MOI VAOVAO\n2 Changer tarif client\n3 Envoyer du stock\n4 Consultation du solde\n5 Ventes d\'hier\n6 Changer code secret\n7 Changement de langue\n0 Page suivante\n00 Page precedente',
 	'1 Mamahana mpanjifa\n2 Manova ny tolotry ny mpanjifa\n3 Andefa tahiry\n4 Mijery fahana sisa tavela\n5 Varotra omaly\n6 Manova kaody miafina\n7 Hisafidy fiteny\n0 Pejy manaraka\n00 Pejy aloha')
 
 WS.verifyMatch(actualMenu, menu, true)

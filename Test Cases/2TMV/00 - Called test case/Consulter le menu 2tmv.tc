@@ -5,6 +5,12 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>09932135-a83f-4890-b0df-dfe29827ff52</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f74f3481-e239-45f0-a53f-4e8ea453a197</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.msisdnGrossiste</defaultValue>
       <description></description>
