@@ -46,7 +46,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'261343063902'</initValue>
+      <initValue>'261346902789'</initValue>
       <name>msisdnRevendeur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'1114'</initValue>
+      <initValue>'9999'</initValue>
       <name>pinEnvoyeur</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

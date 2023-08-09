@@ -21,17 +21,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>MSISDN bloqué</description>
-      <initValue>'261341877181'</initValue>
+      <initValue>'261380596784'</initValue>
       <name>msisdnARecuperer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'9599'</initValue>
+      <initValue>'9999'</initValue>
       <name>pinNumARecuperer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'512011004858'</initValue>
+      <initValue>'845548542481'</initValue>
       <name>cinMsisdnARecuperer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
