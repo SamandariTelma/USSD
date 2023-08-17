@@ -44,5 +44,5 @@ println(numeroAAjouter)
 'Vérifier que le numéro est ajouté dans le repertoire'
 
 WebUI.callTestCase(findTestCase('Services TELMA/Gerer Friends and Family/02-Ajouter un contact/00-Called test case/Vérification du numéro ajouté'), 
-    [('numeroInitiateur') : numeroInitiateur, ('numeroAjoute') : GlobalVariable.msisdnAAjouter1], FailureHandling.CONTINUE_ON_FAILURE)
+    [('numeroInitiateur') : numeroInitiateur, ('numeroAjoute') : GlobalVariable.msisdn1AAjouter1], FailureHandling.CONTINUE_ON_FAILURE)
 

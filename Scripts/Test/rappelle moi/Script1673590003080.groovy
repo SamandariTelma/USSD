@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-String menuactuel = CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode, GlobalVariable.msisdnSend)
+String menuactuel = CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCode, GlobalVariable.msisdn1Send)
 
 'choisir menu rappelle moi'
 CustomKeywords.'ussd.Send.response'('2')
@@ -32,5 +32,5 @@ String menuB = CustomKeywords.'ussd.Expected.menu'('^Rappelle moi\n1 Envoyer un 
 WS.verifyMatch(menuactuel, menuB, true)
 
 'Inserer numeros receveur'
-CustomKeywords.'ussd.Send.response'(GlobalVariable.msisdnHost)
+CustomKeywords.'ussd.Send.response'(GlobalVariable.msisdn1Host)
 

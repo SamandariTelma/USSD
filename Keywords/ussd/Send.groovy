@@ -32,7 +32,7 @@ public class Send {
 
 		GlobalVariable.message = code
 
-		GlobalVariable.msisdn = msisdn
+		GlobalVariable.msisdn1 = msisdn
 
 		GlobalVariable.sessionId = Util.randomizeNumber()
 
