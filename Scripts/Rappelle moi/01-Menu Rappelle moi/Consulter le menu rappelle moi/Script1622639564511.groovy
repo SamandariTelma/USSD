@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 'En tant que client TELMA, je vais dans mon USSD en composant le short code *130#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA, GlobalVariable.msisdn1Initiateur)
+String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA, GlobalVariable.msisdnInitiateur)
 
 String menu=CustomKeywords.'ussd.Expected.menu'('^.*Rappelle moi.*$', '^.*Rappelle moi.*$')
 

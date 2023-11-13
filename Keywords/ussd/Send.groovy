@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
-import com.kms.katalon.core.logging.KeywordLogger
+import com.kms.katalon.core.util.KeywordUtil
 
 public class Send {
 	@Keyword
@@ -28,11 +28,9 @@ public class Send {
 
 		def Util=new Util()
 
-		KeywordLogger log = new KeywordLogger()
-
 		GlobalVariable.message = code
 
-		GlobalVariable.msisdn1 = msisdn
+		GlobalVariable.msisdn = msisdn
 
 		GlobalVariable.sessionId = Util.randomizeNumber()
 
@@ -41,7 +39,7 @@ public class Send {
 		//Récupération de l'attribut "message" dans la réponse JSON
 		println 'MESSAGE: \n'+ WS.getElementPropertyValue(response, 'message').toString()
 
-		log.logInfo('Envoyé : '+code+'\nMsisdn :'+msisdn+ '\nEcran USSD : \n'+WS.getElementPropertyValue(response, 'message').toString())
+		KeywordUtil.logInfo('Envoyé : '+code+'\nMsisdn :'+msisdn+ '\nEcran USSD : \n'+WS.getElementPropertyValue(response, 'message').toString())
 
 		//log.logInfo('Etape : ' + WS.getElementPropertyValue(response, 'message').toString())
 
@@ -50,15 +48,13 @@ public class Send {
 	@Keyword
 	String response(String response) {
 
-		KeywordLogger log = new KeywordLogger()
-
 		GlobalVariable.message = response
 
 		def resp = WS.sendRequest(findTestObject('AdaptIT response menu request'))
 
 		println 'MESSAGE: \n'+WS.getElementPropertyValue(resp, 'message').toString()
 
-		log.logInfo('Envoyé : '+response+ '\nEcran USSD : \n' + WS.getElementPropertyValue(resp, 'message').toString())
+		KeywordUtil.logInfo('Envoyé : '+response+ '\nEcran USSD : \n' + WS.getElementPropertyValue(resp, 'message').toString())
 
 		return WS.getElementPropertyValue(resp, 'message').toString()
 	}

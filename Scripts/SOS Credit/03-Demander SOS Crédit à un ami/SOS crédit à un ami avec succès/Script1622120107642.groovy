@@ -44,7 +44,7 @@ actualMenu=CustomKeywords.'ussd.Send.response'("${montant}")
 
 'Vérifier la conformité du message'
 
-String msisdnRecepteur=GlobalVariable.msisdn1Recepteur
+String msisdnRecepteur=GlobalVariable.msisdnRecepteur
 
 menu=CustomKeywords.'ussd.Expected.menu'('^Votre demande de recharge de (\\d+(,\\d{1,3})?)  Ar a ete envoyee a '+msisdnRecepteur+'\\.$',
 	'^Voarain\'i '+msisdnRecepteur+'  ny fangatahana fahana (\\d+(,\\d{1,3})?) Ar nalefanao\\.$')

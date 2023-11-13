@@ -17,29 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String numeroGrossiste="${numeroGrossiste}"
+String numeroRevendeur = "$numeroGrossiste"
 
 'En tant que MSISDN grossiste, je compose le *130*2#'
-String actualMenu=CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA+'#', numeroGrossiste)
+String actualMenu = CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA + '#', numeroGrossiste)
 
 'Je vérifie la présence du menu 2tmv'
-String menu=CustomKeywords.'ussd.Expected.menu'('^.*De Toi a Moi Vaovao.*$')
+String menu = CustomKeywords.'ussd.Expected.menu'('^.*De Toi a Moi Vaovao.*$')
 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je compose le 2 et je valide'
-actualMenu=CustomKeywords.'ussd.Send.response'('2')
+actualMenu = CustomKeywords.'ussd.Send.response'('2')
 
 'Vérifier l\'affichage du sous-menu'
-menu=CustomKeywords.'ussd.Expected.menu'('2 TOI A MOI VAOVAO\n2 Changer tarif client\n3 Envoyer du stock\n4 Consultation du solde\n5 Ventes d\'hier\n6 Changer code secret\n7 Changement de langue\n0 Page suivante\n00 Page precedente',
-	'1 Mamahana mpanjifa\n2 Manova ny tolotry ny mpanjifa\n3 Andefa tahiry\n4 Mijery fahana sisa tavela\n5 Varotra omaly\n6 Manova kaody miafina\n7 Hisafidy fiteny\n0 Pejy manaraka\n00 Pejy aloha')
+menu = CustomKeywords.'ussd.Expected.menu'('2 TOI A MOI VAOVAO\n2 Changer tarif client\n3 Envoyer du stock\n4 Consultation du solde\n5 Ventes d\'hier\n6 Changer code secret\n7 Changement de langue\n0 Page suivante\n00 Page precedente', 
+    '1 Mamahana mpanjifa\n2 Manova ny tolotry ny mpanjifa\n3 Andefa tahiry\n4 Mijery fahana sisa tavela\n5 Varotra omaly\n6 Manova kaody miafina\n7 Hisafidy fiteny\n0 Pejy manaraka\n00 Pejy aloha')
 
 WS.verifyMatch(actualMenu, menu, true)
 
 'Je saisis 0 (Page suivante)'
-actualMenu=CustomKeywords.'ussd.Send.response'('0')
+actualMenu = CustomKeywords.'ussd.Send.response'('0')
 
 'Vérifier la conformité du menu'
-menu=CustomKeywords.'ussd.Expected.menu'("8 Verification du grossiste\n00 Page precedente\n\\*\\* Menu principal","8 Verification du grossiste\n00 Pejy aloha\n\\*\\* main")
+menu = CustomKeywords.'ussd.Expected.menu'('8 Verification du grossiste\n00 Page precedente\n\\*\\* Menu principal', '8 Verification du grossiste\n00 Pejy aloha\n\\*\\* main')
 
 WS.verifyMatch(actualMenu, menu, true)
+

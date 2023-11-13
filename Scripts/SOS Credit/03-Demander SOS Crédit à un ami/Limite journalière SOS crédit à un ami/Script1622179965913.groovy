@@ -16,19 +16,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant') : '300'
-        , ('numeroInitiateur') : GlobalVariable.msisdn1Grossiste, ('numeroRecepteur') : GlobalVariable.msisdn1Recepteur], 
+        , ('numeroInitiateur') : GlobalVariable.msisdnSC46Certifie, ('numeroRecepteur') : GlobalVariable.msisdnRecepteur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant') : '400'
-        , ('numeroInitiateur') : GlobalVariable.msisdn1Grossiste, ('numeroRecepteur') : GlobalVariable.msisdn1Recepteur], 
+        , ('numeroInitiateur') : GlobalVariable.msisdnSC46Certifie, ('numeroRecepteur') : GlobalVariable.msisdnRecepteur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant') : '500'
-        , ('numeroInitiateur') : GlobalVariable.msisdn1Grossiste, ('numeroRecepteur') : GlobalVariable.msisdn1Recepteur], 
+        , ('numeroInitiateur') : GlobalVariable.msisdnSC46Certifie, ('numeroRecepteur') : GlobalVariable.msisdnRecepteur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('SOS Credit/03-Demander SOS Crédit à un ami/SOS crédit à un ami avec succès'), [('montant') : '600'
-        , ('numeroInitiateur') : GlobalVariable.msisdn1Grossiste, ('numeroRecepteur') : GlobalVariable.msisdn1Recepteur], 
+        , ('numeroInitiateur') : GlobalVariable.msisdnSC46Certifie, ('numeroRecepteur') : GlobalVariable.msisdnRecepteur], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 String numeroInitiateur="${numeroInitiateur}"

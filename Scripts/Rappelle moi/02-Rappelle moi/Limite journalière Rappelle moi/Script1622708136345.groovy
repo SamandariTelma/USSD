@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String msisdnInitiateur = GlobalVariable.msisdn1Initiateur
+String msisdnInitiateur = GlobalVariable.msisdnInitiateur
 
-String msisdnRecepteur = GlobalVariable.msisdn1Recepteur
+String msisdnRecepteur = GlobalVariable.msisdnRecepteur
 
 'Je fais un rappelle moi 5 fois succéssive'
 WebUI.callTestCase(findTestCase('Rappelle moi/02-Rappelle moi/Rappelle moi avec succès'), [('msisdnInitiateur') : msisdnInitiateur
