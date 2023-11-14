@@ -5,8 +5,14 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>dfd3892b-57af-4470-817c-82310a9fc53a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0aaf1e55-b454-4fb2-8e87-ca06113ef6ad</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>GlobalVariable.msisdnInitiateur</defaultValue>
+      <defaultValue>GlobalVariable.msisdnSC46Certifie</defaultValue>
       <description></description>
       <id>0aaf1e55-b454-4fb2-8e87-ca06113ef6ad</id>
       <masked>false</masked>

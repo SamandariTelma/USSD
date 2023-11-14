@@ -23,7 +23,7 @@ String numeroInitiateur="${numeroInitiateur}"
 
 CustomKeywords.'ussd.Send.code'(GlobalVariable.ShortCodeTELMA, numeroInitiateur)
 
-CustomKeywords.'ussd.Send.response'('4')
+CustomKeywords.'ussd.Send.response'('5')
 
 'Je saisis 8 (Changement de Langue) et valide'
 CustomKeywords.'ussd.Send.response'('8')
